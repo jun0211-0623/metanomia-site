@@ -213,8 +213,14 @@ h3 { font-size: clamp(20px, 2.4vw, 26px); letter-spacing: -0.3px; }
 
 .cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 40px 32px; }
 .card { display: flex; flex-direction: column; border-top: 2px solid var(--ink); padding-top: 20px; }
-.card__media { aspect-ratio: 16/10; background: var(--soft); margin-bottom: 20px; overflow: hidden; }
+.card__media { aspect-ratio: 16/10; background: #0a0a0a; margin-bottom: 20px; overflow: hidden; }
 .card__media img { width: 100%; height: 100%; object-fit: cover; }
+/* branded placeholder shown only while a card has no real image */
+.card__media:empty { display: grid; place-items: center; }
+.card__media:empty::after {
+  content: "Metanomia"; color: var(--accent);
+  font-weight: 800; font-size: clamp(15px, 3.4vw, 20px); letter-spacing: .04em;
+}
 .card__row { display: flex; align-items: center; gap: 12px; margin-bottom: 14px; }
 .card__cat { font-size: 12px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; color: var(--body); }
 .card__date { font-size: 13px; color: #8a8894; }
@@ -276,8 +282,25 @@ h3 { font-size: clamp(20px, 2.4vw, 26px); letter-spacing: -0.3px; }
 
   .areas, .cards, .footer__top { grid-template-columns: 1fr; }
   .card--feature { grid-column: auto; }   /* undo desktop span-2 on 1-col grid */
+
+  /* Focus Areas: compact on mobile (no tall empty boxes) */
+  .area { min-height: 0; padding: 24px 20px 26px; }
+  .area__num { font-size: 32px; margin-bottom: 14px; }
+  .area__name { margin-top: 0; }
+  .area__arrow { margin-top: 12px; }
+  .keyissues__item:nth-child(odd) { padding-right: 4px; }
+
+  /* hero meta: stack author/date, drop the mid-line dot */
+  .hero__meta { flex-direction: column; align-items: flex-start; gap: 4px; }
+  .hero__meta .dot { display: none; }
+
+  /* research card media: a touch shorter so cards aren't image-dominated */
+  .card__media { aspect-ratio: 16/9; }
+  .card--feature .card__media { aspect-ratio: 16/9; }
+
   .focus-strip__row { gap: 10px 28px; }
   .focus-strip__item { font-size: 15px; }
   .section { padding: 56px 0; }
   .hero__title { font-size: 34px; }
+  .section__title { font-size: 30px; }
 }
