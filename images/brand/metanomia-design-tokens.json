@@ -1,0 +1,52 @@
+{
+  "$schema": "https://design-tokens.github.io/community-group/format/",
+  "meta": {
+    "brand": "Metanomia",
+    "version": "1.0.0",
+    "updated": "2026-07-22",
+    "notes": "Use #C8FF34 as the authoritative web Lime value. Support colors are tonal derivatives, not additional ratio buckets."
+  },
+  "color": {
+    "core": {
+      "white": { "value": "#FFFFFF", "role": "Primary reading surface" },
+      "black": { "value": "#000000", "role": "Hero, header, footer, display type" },
+      "lime": { "value": "#C8FF34", "role": "Actions, categories, links, section indices" }
+    },
+    "support": {
+      "paper": { "value": "#F5F5F2", "role": "Alternate surface and card background" },
+      "ink": { "value": "#151515", "role": "Long-form text on light surfaces" },
+      "muted": { "value": "#73757A", "role": "Metadata and secondary text" },
+      "line": { "value": "#D8D9D4", "role": "Borders, rules, and section dividers" }
+    },
+    "semantic": {
+      "background": "{color.core.white}",
+      "surface": "{color.support.paper}",
+      "textPrimary": "{color.support.ink}",
+      "textStrong": "{color.core.black}",
+      "textMuted": "{color.support.muted}",
+      "accent": "{color.core.lime}",
+      "onAccent": "{color.core.black}",
+      "border": "{color.support.line}",
+      "darkBackground": "{color.core.black}",
+      "onDark": "{color.core.white}",
+      "accentOnDark": "{color.core.lime}"
+    }
+  },
+  "usageRatio": {
+    "whiteAndPaper": "60-65%",
+    "blackAndInk": "20-25%",
+    "limeMaximum": "10%"
+  },
+  "accessibilityRules": [
+    "Use Black or Ink text on Lime backgrounds.",
+    "Do not use White text on Lime backgrounds.",
+    "Do not use small Lime text on White or Paper backgrounds.",
+    "Use Ink for long-form reading on White or Paper."
+  ],
+  "logo": {
+    "darkBackground": "./metanomia-lockup-meta-path-dark.svg",
+    "lightBackground": "./metanomia-lockup-meta-path-light.svg",
+    "limeSymbol": "./metanomia-symbol-meta-path-lime.svg",
+    "blackSymbol": "./metanomia-symbol-meta-path-black.svg"
+  }
+}

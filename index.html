@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -16,8 +16,7 @@
   <header class="nav" id="siteNav">
     <div class="container nav__inner">
       <a class="brand" href="/">
-        <span class="brand__mark"></span>
-        <span class="brand__word">Metanomia</span>
+        <img class="brand__logo" src="images/brand/metanomia-lockup-meta-path-dark.svg" alt="Metanomia" />
       </a>
       <nav class="nav__menu">
         <a class="nav__link" href="#about">About</a>
@@ -50,71 +49,76 @@
   <!-- ================= HERO ================= -->
   <section class="hero" id="feature">
     <div class="container">
-      <div class="hero__grid">
-        <div class="hero__text">
-          <div class="hero__text-inner">
-            <span class="badge-outline">Policy Brief</span>
-            <h1 class="hero__title">A Framework for Understanding the New Monetary Order</h1>
-            <div class="hero__meta">
-              <span>By the Metanomia Research Team</span>
-              <span class="dot"></span>
-              <span>May 20, 2026</span>
+      <div class="hero__row">
+        <!-- Featured carousel: 4 reports rotate -->
+        <div class="lead" id="lead">
+          <div class="lead__track">
+          <a class="lead__slide" href="articles/traceable-money.html">
+            <img class="lead__img" src="images/reports/jun2026-hero.png" alt="Traceable Money" />
+            <div class="lead__overlay">
+              <span class="lead__tag">Research · Report</span>
+              <h1 class="lead__title">Traceable Money</h1>
+              <p class="lead__excerpt">Blockchain analytics and the conditions for crypto institutionalization: how a public ledger reshapes privacy, compliance, and the path to mainstream adoption.</p>
+              <div class="lead__byline"><span>Sanghyeon Park</span><span class="dot"></span><span>June 2026</span></div>
             </div>
-            <a class="btn btn--on-dark" href="#research">Read Now</a>
+          </a>
+          <a class="lead__slide" href="articles/bitcoin-quantum-computing.html">
+            <img class="lead__img" src="images/reports/may2-2026-hero.png" alt="Can Bitcoin Survive the Age of Quantum Computing?" />
+            <div class="lead__overlay">
+              <span class="lead__tag">Research · Report</span>
+              <h1 class="lead__title">Can Bitcoin Survive the Age of Quantum Computing?</h1>
+              <p class="lead__excerpt">The quantum threat and the evolution of Bitcoin security as long-held cryptographic assumptions come under pressure.</p>
+              <div class="lead__byline"><span>Yonkyung Kim</span><span class="dot"></span><span>May 2026</span></div>
+            </div>
+          </a>
+          <a class="lead__slide" href="articles/age-of-machine-payments.html">
+            <img class="lead__img" src="images/reports/may1-2026-hero.png" alt="The Age of Machine Payments" />
+            <div class="lead__overlay">
+              <span class="lead__tag">Outlook · Report</span>
+              <h1 class="lead__title">The Age of Machine Payments</h1>
+              <p class="lead__excerpt">The race to build payment infrastructure for the machine economy: x402 and its rivals.</p>
+              <div class="lead__byline"><span>Jeehwan Lee</span><span class="dot"></span><span>May 2026</span></div>
+            </div>
+          </a>
+          <a class="lead__slide" href="articles/tokenizing-gangnam-apartments.html">
+            <img class="lead__img" src="images/reports/apr2026-hero.png" alt="Tokenizing Gangnam Apartments" />
+            <div class="lead__overlay">
+              <span class="lead__tag">Policy &amp; Strategy · Report</span>
+              <h1 class="lead__title">Tokenizing Gangnam Apartments</h1>
+              <p class="lead__excerpt">A new path to real estate ownership: fractionalizing Gangnam apartments into tradable digital shares.</p>
+              <div class="lead__byline"><span>Suhoon Park</span><span class="dot"></span><span>April 2026</span></div>
+            </div>
+          </a>
+          </div>
+          <div class="lead__dots" role="tablist" aria-label="Featured reports">
+            <button class="is-active" aria-label="1"></button>
+            <button aria-label="2"></button>
+            <button aria-label="3"></button>
+            <button aria-label="4"></button>
           </div>
         </div>
-        <div class="hero__media">
-          <svg class="hero__art" viewBox="0 0 600 480" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Bitcoin">
-            <rect width="600" height="480" fill="#000000"/>
-            <!-- concentric rings -->
-            <g fill="none" stroke="#1c1c1c" stroke-width="1.5">
-              <circle cx="360" cy="240" r="95"/>
-              <circle cx="360" cy="240" r="150"/>
-              <circle cx="360" cy="240" r="210"/>
-              <circle cx="360" cy="240" r="275"/>
-            </g>
-            <!-- network links -->
-            <g stroke="#2a2a2a" stroke-width="1.2">
-              <line x1="360" y1="240" x2="120" y2="90"/>
-              <line x1="360" y1="240" x2="90" y2="330"/>
-              <line x1="360" y1="240" x2="540" y2="120"/>
-              <line x1="360" y1="240" x2="560" y2="380"/>
-              <line x1="360" y1="240" x2="250" y2="430"/>
-              <line x1="120" y1="90" x2="90" y2="330"/>
-              <line x1="540" y1="120" x2="560" y2="380"/>
-            </g>
-            <!-- network nodes -->
-            <g>
-              <circle cx="120" cy="90"  r="5" fill="#C8FF34"/>
-              <circle cx="90"  cy="330" r="4" fill="#555"/>
-              <circle cx="540" cy="120" r="4" fill="#555"/>
-              <circle cx="560" cy="380" r="5" fill="#C8FF34"/>
-              <circle cx="250" cy="430" r="4" fill="#555"/>
-            </g>
-            <!-- coin -->
-            <g transform="rotate(-13 360 240)">
-              <circle cx="360" cy="240" r="112" fill="#000000" stroke="#C8FF34" stroke-width="5"/>
-              <text x="360" y="242" text-anchor="middle" dominant-baseline="central"
-                    font-family="'Public Sans', Arial, sans-serif" font-weight="800"
-                    font-size="150" fill="#C8FF34">&#8383;</text>
-            </g>
-          </svg>
-        </div>
+
+        <!-- Secondary thumbnail cards -->
+        <aside class="subfeed">
+          <a class="subcard" href="articles/bitcoin-quantum-computing.html">
+            <div class="subcard__media"><img src="images/reports/may2-2026-hero.png" alt="" /><span class="subcard__tag">Research · Report</span></div>
+            <h3 class="subcard__title">Can Bitcoin Survive the Age of Quantum Computing?</h3>
+            <div class="subcard__meta"><span>May 2026</span><span class="dot"></span><span>Yonkyung Kim</span></div>
+          </a>
+          <a class="subcard" href="articles/age-of-machine-payments.html">
+            <div class="subcard__media"><img src="images/reports/may1-2026-hero.png" alt="" /><span class="subcard__tag">Outlook · Report</span></div>
+            <h3 class="subcard__title">The Age of Machine Payments</h3>
+            <div class="subcard__meta"><span>May 2026</span><span class="dot"></span><span>Jeehwan Lee</span></div>
+          </a>
+          <a class="subcard" href="articles/tokenization-attention-economy.html">
+            <div class="subcard__media"><img src="images/reports/mar2026-hero.png" alt="" /><span class="subcard__tag">Perspectives · Report</span></div>
+            <h3 class="subcard__title">Tokenization and the Attention Economy</h3>
+            <div class="subcard__meta"><span>March 2026</span><span class="dot"></span><span>Sunghoon Jin</span></div>
+          </a>
+        </aside>
       </div>
     </div>
   </section>
-
-  <!-- focus strip -->
-  <div class="focus-strip">
-    <div class="container">
-      <div class="focus-strip__row">
-        <a class="focus-strip__item" href="#">Future of Money</a>
-        <a class="focus-strip__item" href="#">Monetary Order</a>
-        <a class="focus-strip__item" href="#">Digital Assets</a>
-        <a class="focus-strip__item" href="#">Financial Sovereignty</a>
-      </div>
-    </div>
-  </div>
 
   <!-- ================= INTRO CTA ================= -->
   <section class="cta" id="about">
@@ -132,46 +136,42 @@
     </div>
   </section>
 
-  <!-- ================= FOCUS AREAS ================= -->
-  <section class="section">
+  <!-- ================= REPORT SERIES (Focus Areas 대체) ================= -->
+  <section class="section" id="series">
     <div class="container">
       <div class="section__head">
-        <h2 class="section__title">Focus Areas</h2>
+        <h2 class="section__title">Report Series</h2>
       </div>
-      <div class="areas">
-        <a class="area" href="#">
-          <span class="area__num">01</span>
-          <span class="area__name">Future of Money</span>
-          <span class="area__arrow">→</span>
+      <p class="channel__sub" style="max-width:760px;margin:-24px 0 36px;">Metanomia organizes its reports into five series, defined by the kind of conclusion each one delivers.</p>
+
+      <div class="series">
+        <a class="series__item" href="#research">
+          <span class="series__en">OUTLOOK</span>
+          <span class="series__ko">Foresight</span>
+          <p class="series__q">What is changing, why now, and where it is most likely headed within a defined horizon.</p>
         </a>
-        <a class="area" href="#">
-          <span class="area__num">02</span>
-          <span class="area__name">Monetary Order &amp; Geoeconomics</span>
-          <span class="area__arrow">→</span>
+        <a class="series__item" href="#research">
+          <span class="series__en">RESEARCH</span>
+          <span class="series__ko">Analysis</span>
+          <p class="series__q">How and why a phenomenon works, and what conclusion the evidence actually supports.</p>
         </a>
-        <a class="area" href="#">
-          <span class="area__num">03</span>
-          <span class="area__name">Digital Assets &amp; Infrastructure</span>
-          <span class="area__arrow">→</span>
+        <a class="series__item" href="#research">
+          <span class="series__en">PERSPECTIVES</span>
+          <span class="series__ko">Framing</span>
+          <p class="series__q">What existing explanations miss, and the new frame we need to see it through.</p>
         </a>
-        <a class="area" href="#">
-          <span class="area__num">04</span>
-          <span class="area__name">Financial Sovereignty &amp; Rights</span>
-          <span class="area__arrow">→</span>
+        <a class="series__item" href="#research">
+          <span class="series__en">POLICY &amp; STRATEGY</span>
+          <span class="series__ko">Direction</span>
+          <p class="series__q">What to change or build, and which option to pursue, and how.</p>
+        </a>
+        <a class="series__item" href="#research">
+          <span class="series__en">GUIDE</span>
+          <span class="series__ko">Practice</span>
+          <p class="series__q">Who does what, in what order and under what conditions, and how to respond when it fails.</p>
         </a>
       </div>
 
-      <div class="keyissues">
-        <h3 class="keyissues__title">Key Issues</h3>
-        <div class="keyissues__list">
-          <a class="keyissues__item" href="#"><span>Stablecoins and payment rails</span><span>→</span></a>
-          <a class="keyissues__item" href="#"><span>Reserve assets and settlement</span><span>→</span></a>
-          <a class="keyissues__item" href="#"><span>Central bank digital currencies</span><span>→</span></a>
-          <a class="keyissues__item" href="#"><span>Custody and self-custody</span><span>→</span></a>
-          <a class="keyissues__item" href="#"><span>Cross-border capital flows</span><span>→</span></a>
-          <a class="keyissues__item" href="#"><span>Privacy and financial rights</span><span>→</span></a>
-        </div>
-      </div>
     </div>
   </section>
 
@@ -181,15 +181,14 @@
       <div class="channel__head">
         <span class="channel__eyebrow"><span class="channel__dot"></span>YouTube Channel</span>
         <h2 class="channel__title">The Metanomia Channel</h2>
-        <p class="channel__lead">Report-grade depth, in an easy conversation.</p>
-        <p class="channel__sub">A research-driven crypto channel centered on reports, researchers, and core concepts — not prices or trading. We unpack ideas through Q&amp;A and discussion rather than lectures.</p>
+        <p class="channel__lead">The report, talked through.</p>
       </div>
 
       <div class="channel__grid">
         <article class="corner">
           <div class="corner__top"><span class="corner__num">01</span><span class="corner__badge">Weekly</span></div>
           <h3 class="corner__name">Weekly Crypto News</h3>
-          <p class="corner__desc">The week's key issues seen through a researcher's lens — focused on why they matter.</p>
+          <p class="corner__desc">The week's key issues seen through a researcher's lens, focused on why they matter.</p>
           <span class="corner__format">Host &amp; researcher news talk</span>
         </article>
 
@@ -203,7 +202,7 @@
         <article class="corner">
           <div class="corner__top"><span class="corner__num">03</span><span class="corner__badge">Monthly</span></div>
           <h3 class="corner__name">Core Concept Lessons</h3>
-          <p class="corner__desc">The concepts beginners get stuck on, explained at eye level — clearing up common myths.</p>
+          <p class="corner__desc">The concepts beginners get stuck on, explained at eye level, clearing up common myths.</p>
           <span class="corner__format">Beginner Q&amp;A tutoring</span>
         </article>
 
@@ -230,11 +229,10 @@
   <section class="mission" id="mission">
     <div class="container">
       <div class="mission__grid">
-        <p class="mission__lead">Metanomia educates policymakers and the broader public about the changing nature of money through rigorous, non-partisan research and advocacy.</p>
-        <div>
-          <p class="mission__body">We convene researchers, practitioners, and institutions to study how monetary systems evolve, and to translate that research into clear frameworks that inform better decisions. Our work is independent, empirical, and open.</p>
-          <a class="btn btn--on-dark" href="#about">About Metanomia</a>
-        </div>
+        <span class="mission__mark"></span>
+        <p class="mission__lead">Metanomia interprets the shifting order of money and assets through independent, rigorous research, and translates it into language everyone can follow.</p>
+        <p class="mission__body">We connect researchers, practitioners, and institutions to study how monetary systems evolve, and translate the results into clear frameworks that lead to better judgment. Our work is independent, empirical, and open.</p>
+        <a class="btn btn--on-dark" href="#about">About Metanomia</a>
       </div>
     </div>
   </section>
@@ -243,58 +241,59 @@
   <section class="section" id="research">
     <div class="container">
       <div class="section__head">
-        <h2 class="section__title">All Research</h2>
+        <h2 class="section__title">All Reports</h2>
       </div>
       <div class="filters">
         <button class="filter is-active">All</button>
-        <button class="filter">Commentary</button>
-        <button class="filter">Policy Briefs</button>
-        <button class="filter">Podcasts</button>
-        <button class="filter">Press Releases</button>
+        <button class="filter">OUTLOOK</button>
+        <button class="filter">RESEARCH</button>
+        <button class="filter">PERSPECTIVES</button>
+        <button class="filter">POLICY &amp; STRATEGY</button>
+        <button class="filter">GUIDE</button>
       </div>
 
       <div class="cards">
-        <article class="card card--feature">
-          <div class="card__media"></div>
+        <a class="card card--feature" href="articles/traceable-money.html" data-series="RESEARCH">
+          <div class="card__media"><img src="images/reports/jun2026-hero.png" alt="" /></div>
           <div class="card__body">
             <div class="card__row">
-              <span class="tag">Press Release</span>
-              <span class="card__date">July 15, 2026</span>
+              <span class="tag">RESEARCH · REPORT</span>
+              <span class="card__date">June 2026</span>
             </div>
-            <h3 class="card__title">Metanomia Quarterly Report — Q2 2026</h3>
-            <p class="card__excerpt">Our latest quarterly review of monetary developments, reserve dynamics, and the shifting landscape of digital assets across major economies.</p>
+            <h3 class="card__title">Traceable Money</h3>
+            <p class="card__excerpt">Blockchain analytics and the conditions for crypto institutionalization: how a public ledger reshapes privacy, compliance, and the path to mainstream adoption.</p>
           </div>
-        </article>
+        </a>
 
-        <article class="card">
-          <div class="card__media"></div>
-          <div class="card__row"><span class="card__cat">Policy Brief</span><span class="card__date">June 28, 2026</span></div>
-          <h3 class="card__title">Rethinking Reserve Assets for the Next Decade</h3>
-        </article>
+        <a class="card" href="articles/bitcoin-quantum-computing.html" data-series="RESEARCH">
+          <div class="card__media"><img src="images/reports/may2-2026-hero.png" alt="" /></div>
+          <div class="card__row"><span class="card__cat">RESEARCH · REPORT</span><span class="card__date">May 2026</span></div>
+          <h3 class="card__title">Can Bitcoin Survive the Age of Quantum Computing?</h3>
+        </a>
 
-        <article class="card">
-          <div class="card__media"></div>
-          <div class="card__row"><span class="card__cat">Commentary</span><span class="card__date">June 12, 2026</span></div>
-          <h3 class="card__title">Why Monetary Neutrality Matters More Than Ever</h3>
-        </article>
+        <a class="card" href="articles/age-of-machine-payments.html" data-series="OUTLOOK">
+          <div class="card__media"><img src="images/reports/may1-2026-hero.png" alt="" /></div>
+          <div class="card__row"><span class="card__cat">OUTLOOK · REPORT</span><span class="card__date">May 2026</span></div>
+          <h3 class="card__title">The Age of Machine Payments</h3>
+        </a>
 
-        <article class="card">
-          <div class="card__media"></div>
-          <div class="card__row"><span class="card__cat">Podcast</span><span class="card__date">May 30, 2026</span></div>
-          <h3 class="card__title">Conversations on the Future of Settlement</h3>
-        </article>
+        <a class="card" href="articles/tokenizing-gangnam-apartments.html" data-series="POLICY &amp; STRATEGY">
+          <div class="card__media"><img src="images/reports/apr2026-hero.png" alt="" /></div>
+          <div class="card__row"><span class="card__cat">POLICY &amp; STRATEGY · REPORT</span><span class="card__date">April 2026</span></div>
+          <h3 class="card__title">Tokenizing Gangnam Apartments</h3>
+        </a>
 
-        <article class="card">
-          <div class="card__media"></div>
-          <div class="card__row"><span class="card__cat">Policy Brief</span><span class="card__date">May 18, 2026</span></div>
-          <h3 class="card__title">A Practical Guide to Self-Custody Policy</h3>
-        </article>
+        <a class="card" href="articles/tokenization-attention-economy.html" data-series="PERSPECTIVES">
+          <div class="card__media"><img src="images/reports/mar2026-hero.png" alt="" /></div>
+          <div class="card__row"><span class="card__cat">PERSPECTIVES · REPORT</span><span class="card__date">March 2026</span></div>
+          <h3 class="card__title">Tokenization and the Attention Economy</h3>
+        </a>
 
-        <article class="card">
-          <div class="card__media"></div>
-          <div class="card__row"><span class="card__cat">Press Release</span><span class="card__date">May 2, 2026</span></div>
-          <h3 class="card__title">Metanomia Welcomes New Research Fellows</h3>
-        </article>
+        <a class="card" href="articles/commuting-into-online-games.html" data-series="OUTLOOK">
+          <div class="card__media"><img src="images/reports/jan2026-hero.png" alt="" /></div>
+          <div class="card__row"><span class="card__cat">OUTLOOK · REPORT</span><span class="card__date">January 2026</span></div>
+          <h3 class="card__title">People Commuting into Online Games</h3>
+        </a>
       </div>
 
       <div class="research__more">
@@ -325,30 +324,30 @@
       <div class="footer__top">
         <div class="footer__brand">
           <a class="brand" href="/">
-            <span class="brand__mark"></span>
-            <span class="brand__word">Metanomia</span>
+            <img class="brand__logo" src="images/brand/metanomia-lockup-meta-path-dark.svg" alt="Metanomia" />
           </a>
           <p class="footer__tagline">Metanomia is a research institute studying the future of money through rigorous, non-partisan research and education.</p>
         </div>
         <div class="footer__col">
-          <h4>Research</h4>
-          <a href="#">Future of Money</a>
-          <a href="#">Monetary Order</a>
-          <a href="#">Digital Assets</a>
-          <a href="#">Financial Sovereignty</a>
+          <h4>Series</h4>
+          <a href="#research">OUTLOOK</a>
+          <a href="#research">RESEARCH</a>
+          <a href="#research">PERSPECTIVES</a>
+          <a href="#research">POLICY &amp; STRATEGY</a>
+          <a href="#research">GUIDE</a>
         </div>
         <div class="footer__col">
           <h4>Institute</h4>
-          <a href="#">About</a>
-          <a href="#">Our Team</a>
+          <a href="#about">About</a>
+          <a href="#">Team</a>
           <a href="#">Fellows</a>
           <a href="#">Contact</a>
         </div>
         <div class="footer__col">
           <h4>Info</h4>
-          <a href="#">Publications</a>
-          <a href="#">Events</a>
-          <a href="#">Donate</a>
+          <a href="#research">Reports</a>
+          <a href="#channel">Channel</a>
+          <a href="#donate">Donate</a>
           <a href="#">Privacy</a>
         </div>
       </div>
@@ -379,6 +378,47 @@
           toggle.setAttribute('aria-expanded', 'false');
         });
       });
+    })();
+
+    // Report series filter
+    (function () {
+      var filters = document.querySelectorAll('.filters .filter');
+      var cards = document.querySelectorAll('.cards .card');
+      var featureCard = document.querySelector('.cards .card--feature');
+      if (!filters.length || !cards.length) return;
+      filters.forEach(function (btn, i) {
+        btn.addEventListener('click', function () {
+          filters.forEach(function (b) { b.classList.remove('is-active'); });
+          btn.classList.add('is-active');
+          var f = (i === 0) ? null : btn.textContent.trim();
+          if (featureCard) featureCard.classList.toggle('card--feature', !f);
+          cards.forEach(function (card) {
+            card.style.display = (!f || card.dataset.series === f) ? '' : 'none';
+          });
+        });
+      });
+    })();
+
+    // Lead carousel: auto-rotate + dot navigation
+    (function () {
+      var lead = document.getElementById('lead');
+      if (!lead) return;
+      var track = lead.querySelector('.lead__track');
+      var slides = lead.querySelectorAll('.lead__slide');
+      var dots = lead.querySelectorAll('.lead__dots button');
+      if (!track || slides.length < 2) return;
+      var i = 0, timer;
+      function show(n) {
+        i = (n + slides.length) % slides.length;
+        track.style.transform = 'translateX(-' + (i * 100) + '%)';
+        dots.forEach(function (d, k) { d.classList.toggle('is-active', k === i); });
+      }
+      function start() { timer = setInterval(function () { show(i + 1); }, 6000); }
+      function reset() { clearInterval(timer); start(); }
+      dots.forEach(function (d, k) {
+        d.addEventListener('click', function () { show(k); reset(); });
+      });
+      start();
     })();
   </script>
 </body>
