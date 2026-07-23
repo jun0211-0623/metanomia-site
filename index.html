@@ -19,7 +19,15 @@
         <img class="brand__logo" src="images/brand/metanomia-lockup-meta-path-dark.svg" alt="Metanomia" />
       </a>
       <nav class="nav__menu">
-        <a class="nav__link" href="#about">About</a>
+        <div class="nav__item nav__item--menu">
+        <a class="nav__link" href="about.html">About <svg class="nav__caret" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="m6 9 6 6 6-6"/></svg></a>
+        <div class="nav__dropdown">
+          <a href="about.html">Who We Are</a>
+          <a href="team.html">Our Team</a>
+          <a href="fellows.html">Our Fellows</a>
+          <a href="contact.html">Contact</a>
+        </div>
+      </div>
         <a class="nav__link" href="#channel">Channel</a>
         <a class="nav__link" href="#research">Research</a>
         <a class="nav__link" href="#events">Events</a>
@@ -37,7 +45,10 @@
       </div>
     </div>
     <div class="container nav__drawer" id="navDrawer">
-      <a class="nav__drawer-link" href="#about">About</a>
+      <a class="nav__drawer-link" href="about.html">About</a>
+      <a class="nav__drawer-link nav__drawer-link--sub" href="team.html">Our Team</a>
+      <a class="nav__drawer-link nav__drawer-link--sub" href="fellows.html">Our Fellows</a>
+      <a class="nav__drawer-link nav__drawer-link--sub" href="contact.html">Contact</a>
       <a class="nav__drawer-link" href="#channel">Channel</a>
       <a class="nav__drawer-link" href="#research">Research</a>
       <a class="nav__drawer-link" href="#events">Events</a>
@@ -145,27 +156,27 @@
       <p class="channel__sub" style="max-width:760px;margin:-24px 0 36px;">Metanomia organizes its reports into five series, defined by the kind of conclusion each one delivers.</p>
 
       <div class="series">
-        <a class="series__item" href="#research">
+        <a class="series__item" href="series/outlook.html">
           <span class="series__en">OUTLOOK</span>
           <span class="series__ko">Foresight</span>
           <p class="series__q">What is changing, why now, and where it is most likely headed within a defined horizon.</p>
         </a>
-        <a class="series__item" href="#research">
+        <a class="series__item" href="series/research.html">
           <span class="series__en">RESEARCH</span>
           <span class="series__ko">Analysis</span>
           <p class="series__q">How and why a phenomenon works, and what conclusion the evidence actually supports.</p>
         </a>
-        <a class="series__item" href="#research">
+        <a class="series__item" href="series/perspectives.html">
           <span class="series__en">PERSPECTIVES</span>
           <span class="series__ko">Framing</span>
           <p class="series__q">What existing explanations miss, and the new frame we need to see it through.</p>
         </a>
-        <a class="series__item" href="#research">
+        <a class="series__item" href="series/policy-strategy.html">
           <span class="series__en">POLICY &amp; STRATEGY</span>
           <span class="series__ko">Direction</span>
           <p class="series__q">What to change or build, and which option to pursue, and how.</p>
         </a>
-        <a class="series__item" href="#research">
+        <a class="series__item" href="series/guide.html">
           <span class="series__en">GUIDE</span>
           <span class="series__ko">Practice</span>
           <p class="series__q">Who does what, in what order and under what conditions, and how to respond when it fails.</p>
@@ -232,7 +243,7 @@
         <span class="mission__mark"></span>
         <p class="mission__lead">Metanomia interprets the shifting order of money and assets through independent, rigorous research, and translates it into language everyone can follow.</p>
         <p class="mission__body">We connect researchers, practitioners, and institutions to study how monetary systems evolve, and translate the results into clear frameworks that lead to better judgment. Our work is independent, empirical, and open.</p>
-        <a class="btn btn--on-dark" href="#about">About Metanomia</a>
+        <a class="btn btn--on-dark" href="about.html">About Metanomia</a>
       </div>
     </div>
   </section>
@@ -338,7 +349,7 @@
         </div>
         <div class="footer__col">
           <h4>Institute</h4>
-          <a href="#about">About</a>
+          <a href="about.html">About</a>
           <a href="#">Team</a>
           <a href="#">Fellows</a>
           <a href="#">Contact</a>
