@@ -491,6 +491,50 @@ h3 { font-size: clamp(20px, 2.4vw, 26px); letter-spacing: -0.3px; }
 /* ===========================================================
    About page
    =========================================================== */
+/* ===== Publications page (btcpolicy /research dark replica) ===== */
+/* Dark top region: hero + report series + featured */
+.pub-dark { background: #0d0d0d; }
+.pub-hero { padding: 60px 0 8px; }
+.pub-hero .cat-back { color: #fff; margin-bottom: 40px; }
+.pub-title { color: #fff; font-size: clamp(48px, 7vw, 84px); font-weight: 700; line-height: 1.0; letter-spacing: -0.5px; }
+.pub-hero__sub { color: rgba(255,255,255,.7); font-size: 18px; line-height: 1.5; margin-top: 18px; max-width: 620px; }
+
+.pub-sec { padding: 56px 0 0; }
+.pub-sec__h { color: #fff; font-size: clamp(28px, 3.4vw, 42px); font-weight: 600; letter-spacing: -0.3px; margin-bottom: 8px; }
+.pub-sec__sub { color: rgba(255,255,255,.6); font-size: 17px; line-height: 1.5; margin-bottom: 32px; max-width: 640px; }
+
+/* Report Series — bordered boxes on dark (Focus areas style) */
+.pub-series { display: grid; grid-template-columns: repeat(5, 1fr); gap: 16px; }
+.pub-series__box { border: 1px solid rgba(255,255,255,.28); padding: 24px 22px; display: flex; flex-direction: column; gap: 8px; min-height: 104px; transition: border-color .15s ease, background .15s ease; }
+.pub-series__box:hover { border-color: #fff; background: rgba(255,255,255,.05); }
+.pub-series__eyebrow { font-size: 11px; font-weight: 700; letter-spacing: .09em; text-transform: uppercase; color: var(--accent); }
+.pub-series__name { font-size: 22px; font-weight: 600; color: #fff; letter-spacing: -0.2px; }
+.pub-series__desc { margin-top: auto; font-size: 13.5px; line-height: 1.45; color: rgba(255,255,255,.55); }
+
+/* Featured Post — square image left + white content card right */
+.pub-featured { padding: 56px 0 64px; }
+.pub-featured__link { display: grid; grid-template-columns: 1fr 1fr; align-items: stretch; }
+.pub-featured__media { aspect-ratio: 1 / 1; overflow: hidden; background: #000; }
+.pub-featured__media img { width: 100%; height: 100%; object-fit: cover; }
+.pub-featured__card { background: #fff; padding: 48px; display: flex; flex-direction: column; justify-content: center; }
+.pub-featured__tag { display: inline-block; align-self: flex-start; border: 1px solid var(--ink); color: var(--ink); font-size: 11px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; padding: 6px 10px; margin-bottom: 22px; }
+.pub-featured__title { color: var(--ink); font-size: clamp(26px, 2.6vw, 36px); font-weight: 700; line-height: 1.15; letter-spacing: -0.4px; }
+.pub-featured__link:hover .pub-featured__title { text-decoration: underline; text-underline-offset: 4px; }
+.pub-featured__rule { border-top: 1px solid var(--line); margin: 24px 0; }
+.pub-featured__byline { display: flex; align-items: center; gap: 16px; font-size: 14px; color: var(--body); }
+.pub-featured__excerpt { color: var(--body); font-size: 16px; line-height: 1.55; margin-top: 22px; max-width: 46ch; }
+
+/* All Reports — white section with toolbar + grid (reuses cat-toolbar/cat-grid) */
+.pub-research { background: var(--white); padding: 64px 0 80px; }
+.pub-research__head { display: flex; align-items: baseline; justify-content: space-between; gap: 24px; flex-wrap: wrap; margin-bottom: 36px; }
+.pub-research__h { color: var(--ink); font-size: clamp(28px, 3.4vw, 42px); font-weight: 600; letter-spacing: -0.3px; }
+
+@media (max-width: 900px) {
+  .pub-series { grid-template-columns: repeat(2, 1fr); }
+  .pub-featured__link { grid-template-columns: 1fr; }
+  .pub-featured__card { padding: 32px; }
+}
+
 /* About hero is a compact band, not the full-screen series hero */
 .cat-hero.about-hero { min-height: 0; display: block; }
 .about-hero .cat-hero__title { padding: 44px 0 80px; }
