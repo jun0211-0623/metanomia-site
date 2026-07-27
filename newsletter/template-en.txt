@@ -1,0 +1,24 @@
+Subject: [EN] {{Headline}}
+
+---------- paste everything below into the Gmail body ----------
+
+Hello,
+
+{{One or two sentences on the news.}}
+
+{{Link}}
+
+Thank you.
+
+---------- end ----------
+
+
+[How to use]
+
+Keep the [EN] tag in the subject. It is what routes the issue to English subscribers.
+
+Do not write the institute blurb or unsubscribe notice in the body. Both are added automatically on send.
+
+Do not paste images into the draft. Link to images hosted on the site instead.
+
+For an issue with more to say, add headings as needed. There is no need to fix a structure in advance.

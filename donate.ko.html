@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>문의 | 메타노미아</title>
-  <meta name="description" content="Get in touch with Metanomia — research inquiries, media, and partnerships." />
+  <title>후원 | 메타노미아</title>
+  <meta name="description" content="메타노미아 후원. 화폐의 미래를 다루는 독립 연구를, 후원자의 힘으로 누구나 무료로 읽을 수 있게 공개합니다." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&family=Source+Serif+4:opsz,wght@8..60,300;8..60,400;8..60,500;8..60,600;8..60,700&display=swap" rel="stylesheet" />
@@ -32,8 +32,10 @@
         <a class="nav__link" href="publications.ko.html">Publications</a>
       </nav>
       <div class="nav__right">
-        <a class="nav__lang" href="contact.html" aria-label="English">EN</a>
-        <a class="nav__search" href="#" aria-label="검색"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg></a>
+        <a class="nav__lang" href="donate.html" aria-label="English">EN</a>
+        <a class="nav__search" href="#" aria-label="검색">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+        </a>
         <a class="btn nav__donate" href="donate.ko.html">Donate</a>
         <button class="nav__toggle" id="navToggle" aria-label="메뉴" aria-expanded="false" aria-controls="navDrawer">
           <svg class="nav__toggle-open" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
@@ -48,58 +50,81 @@
       <a class="nav__drawer-link nav__drawer-link--sub" href="contact.ko.html">문의</a>
       <a class="nav__drawer-link" href="media.ko.html">Media</a>
       <a class="nav__drawer-link" href="publications.ko.html">Publications</a>
-      <a class="nav__drawer-link" href="contact.html">English</a>
+      <a class="nav__drawer-link" href="donate.html">English</a>
       <a class="btn nav__drawer-btn" href="donate.ko.html">Donate</a>
     </div>
   </header>
 
-  <!-- ================= HERO ================= -->
-  <section class="cat-hero about-hero">
-    <div class="cat-hero__title">
+  <!-- ================= DARK HERO ================= -->
+  <div class="pub-dark about-hero">
+    <section class="pub-hero">
       <div class="container">
-        <a class="cat-back" href="about.ko.html">← 소개로</a>
-        <h1 class="cat-title">문의</h1>
-        <p class="about-hero__lead">연구 문의, 미디어 요청, 파트너십은 아래로 연락 주시면 팀이 회신드립니다.</p>
+        <a class="cat-back" href="ko.html">← 홈으로</a>
+        <h1 class="pub-title">후원</h1>
+        <p class="about-hero__lead">독립적인 연구에는 독립적인 재원이 필요합니다. 후원은 저희 연구를 누구나 무료로 읽을 수 있게, 그리고 누구에게도 빚지지 않게 만듭니다.</p>
+        <div class="about-hero__actions">
+          <a class="btn btn--on-dark" href="#">비트코인으로 후원</a>
+          <a class="btn btn--ghost" href="#">일반 후원</a>
+        </div>
+        <p class="media-note">메타노미아는 모든 리포트를 유료 장벽 없이 공개합니다.</p>
+      </div>
+    </section>
+  </div>
+
+  <!-- ================= WHY (white) ================= -->
+  <section class="about-body">
+    <div class="container">
+      <div class="about-body__grid">
+        <h2 class="about-body__h">후원이 필요한 이유</h2>
+        <div class="about-body__text">
+          <p class="about-body__lead">메타노미아는 화폐의 미래를 엄정하고 비당파적인 연구와 교육으로 탐구하는 연구 기관입니다.</p>
+          <p>저희는 모든 연구를 공개하고, 무엇을 쓸지는 후원자가 정하지 않습니다. 이 독립성은 특정한 결론을 원하는 쪽이 아니라 연구 자체가 존재하기를 바라는 독자들이 재원을 댈 때에만 유지됩니다.</p>
+          <p>후원은 리포트 한 편 뒤에 있는 시간을 지탱합니다. 몇 달에 걸친 독서, 데이터 확보, 검토, 그리고 질문을 행동할 만한 결론으로 바꾸는 편집 과정입니다.</p>
+          <p>연구를 둘러싼 일들도 마찬가지입니다. 팟캐스트, 한국어와 영어 두 판본, 그리고 이 주제를 처음 만나는 사람에게도 읽히도록 만드는 교육이 여기에 포함됩니다.</p>
+        </div>
       </div>
     </div>
   </section>
 
-  <!-- ================= CONTACT BODY ================= -->
-  <section class="about-body">
+  <!-- ================= WAYS TO GIVE (white) ================= -->
+  <section class="about-body about-body--tight">
     <div class="container">
-      <div class="contact-grid">
-        <h2 class="about-body__h">연락처</h2>
+      <div class="about-body__grid">
+        <h2 class="about-body__h">후원 방법</h2>
         <div>
-          <div class="contact-item">
-            <div class="contact-item__label">일반·연구 문의</div>
-            <div class="contact-item__value"><a href="mailto:hello@metanomia.org">hello@metanomia.org</a></div>
-          </div>
-          <div class="contact-item">
-            <div class="contact-item__label">미디어</div>
-            <div class="contact-item__value"><a href="mailto:press@metanomia.org">press@metanomia.org</a></div>
-          </div>
-          <div class="contact-item">
-            <div class="contact-item__label">팔로우</div>
-            <div class="contact-social">
-              <a href="#" aria-label="X"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18.9 2H22l-7.5 8.6L23 22h-6.8l-5.3-6.9L4.8 22H1.7l8-9.1L1 2h7l4.8 6.3L18.9 2Zm-1.2 18h1.9L7.1 4H5.1l12.6 16Z"/></svg></a>
-              <a href="#" aria-label="LinkedIn"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5A2.5 2.5 0 1 0 5 8.5a2.5 2.5 0 0 0 0-5ZM3 9h4v12H3V9Zm7 0h3.8v1.7h.05c.53-1 1.83-2.05 3.76-2.05C21.4 8.65 22 11 22 14.1V21h-4v-6.1c0-1.45-.03-3.3-2-3.3-2 0-2.3 1.57-2.3 3.2V21h-4V9Z"/></svg></a>
-              <a href="#" aria-label="YouTube"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M23 12s0-3.2-.4-4.7a2.5 2.5 0 0 0-1.75-1.75C19.35 5.1 12 5.1 12 5.1s-7.35 0-8.85.45A2.5 2.5 0 0 0 1.4 7.3C1 8.8 1 12 1 12s0 3.2.4 4.7a2.5 2.5 0 0 0 1.75 1.75c1.5.45 8.85.45 8.85.45s7.35 0 8.85-.45A2.5 2.5 0 0 0 22.6 16.7C23 15.2 23 12 23 12ZM9.75 15.05v-6.1L15.5 12l-5.75 3.05Z"/></svg></a>
+          <dl class="give-list">
+            <div class="give-list__row">
+              <dt class="give-list__term">비트코인</dt>
+              <dd class="give-list__desc">국경 없이 빠르게, 프라이버시를 지키면서 보내실 수 있습니다.</dd>
             </div>
-          </div>
+            <div class="give-list__row">
+              <dt class="give-list__term">카드</dt>
+              <dd class="give-list__desc">일회 후원과 정기 후원 모두 간편하게 가능합니다.</dd>
+            </div>
+            <div class="give-list__row">
+              <dt class="give-list__term">계좌 이체</dt>
+              <dd class="give-list__desc">은행 계좌에서 직접 보내실 수 있습니다.</dd>
+            </div>
+            <div class="give-list__row">
+              <dt class="give-list__term">기관 후원</dt>
+              <dd class="give-list__desc">리포트 한 편이 아니라 연구 프로그램 단위로 함께하실 기관을 위한 방식입니다.</dd>
+            </div>
+          </dl>
+          <p class="give-note">여기 없는 방식을 원하시거나 궁금한 점이 있으시면 <a href="mailto:contact@metanomia.org?subject=후원 문의">contact@metanomia.org</a>로 연락 주세요.</p>
         </div>
       </div>
     </div>
   </section>
 
   <!-- ================= NEWSLETTER CTA ================= -->
-  <section class="cta" id="donate">
+  <section class="cta">
     <div class="container">
       <div class="cta__grid">
-        <p class="cta__lead">메타노미아의 최신 분석과 보고서 소식을 이메일로 받아보세요.</p>
+        <p class="cta__lead">메타노미아의 최신 분석, 뉴스, 오리지널 리서치를 이메일로 받아보세요.</p>
         <div class="signup">
           <p class="signup__label">뉴스레터 구독</p>
           <form class="signup__form" onsubmit="return false;">
-            <input class="signup__input" type="email" placeholder="이메일 입력" />
+            <input class="signup__input" type="email" placeholder="이메일을 입력하세요" />
             <button class="signup__btn" type="submit">구독</button>
           </form>
         </div>
@@ -108,7 +133,7 @@
   </section>
 
   <!-- ================= FOOTER ================= -->
-  <footer class="footer" id="events">
+  <footer class="footer">
     <div class="container">
       <div class="footer__top">
         <div class="footer__brand">
@@ -134,18 +159,18 @@
         </div>
         <div class="footer__col">
           <h4>Info</h4>
-          <a href="publications.ko.html">발행물</a>
-          <a href="media.ko.html">미디어</a>
-          <a href="donate.ko.html">후원</a>
-          <a href="#">개인정보</a>
+          <a href="publications.ko.html">Publications</a>
+          <a href="media.ko.html">Media</a>
+          <a href="donate.ko.html">Donate</a>
+          <a href="#">Privacy</a>
         </div>
       </div>
       <div class="footer__bottom">
-        <span>2026 설립 · 메타노미아 리서치</span>
+        <span>Established 2026 · Metanomia Research Institute</span>
         <div class="footer__legal">
           <a href="#">개인정보 처리방침</a>
           <a href="#">이용약관</a>
-          <a href="contact.ko.html">문의</a>
+          <a href="#">문의</a>
         </div>
       </div>
     </div>
