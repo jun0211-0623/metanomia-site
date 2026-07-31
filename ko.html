@@ -145,45 +145,6 @@
     </div>
   </section>
 
-  <!-- ================= REPORT SERIES (Focus Areas 대체) ================= -->
-  <section class="section" id="series">
-    <div class="container">
-      <div class="section__head">
-        <h2 class="section__title">보고서 시리즈</h2>
-      </div>
-      <p class="channel__sub" style="max-width:760px;margin:-24px 0 36px;">메타노미아는 보고서가 내놓는 결론의 성격에 따라 다섯 시리즈로 나눕니다.</p>
-
-      <div class="series">
-        <a class="series__item" href="series/outlook.ko.html">
-          <span class="series__en">OUTLOOK</span>
-          <span class="series__ko">전망</span>
-          <p class="series__q">무엇이 왜 지금 변하고, 정해진 시계 안에서 어디로 갈 가능성이 큰가.</p>
-        </a>
-        <a class="series__item" href="series/research.ko.html">
-          <span class="series__en">RESEARCH</span>
-          <span class="series__ko">연구</span>
-          <p class="series__q">현상은 왜, 어떻게 작동하며, 자료가 실제로 지지하는 결론은 무엇인가.</p>
-        </a>
-        <a class="series__item" href="series/perspectives.ko.html">
-          <span class="series__en">PERSPECTIVES</span>
-          <span class="series__ko">관점·논제</span>
-          <p class="series__q">기존 설명이 놓치는 것은 무엇이며, 어떤 새 개념으로 다시 보아야 하는가.</p>
-        </a>
-        <a class="series__item" href="series/policy-strategy.ko.html">
-          <span class="series__en">POLICY &amp; STRATEGY</span>
-          <span class="series__ko">정책·전략</span>
-          <p class="series__q">무엇을 바꾸거나 구축하고, 대안 중 무엇을 어떻게 추진할 것인가.</p>
-        </a>
-        <a class="series__item" href="series/guide.ko.html">
-          <span class="series__en">GUIDE</span>
-          <span class="series__ko">실행·실무 가이드</span>
-          <p class="series__q">누가 어떤 조건에서 무엇을 어떤 순서로 실행하고, 실패 시 어떻게 대응하는가.</p>
-        </a>
-      </div>
-
-    </div>
-  </section>
-
   <!-- ================= CHANNEL (YouTube) ================= -->
   <section class="channel" id="media">
     <div class="container">
@@ -197,27 +158,22 @@
         <div class="series__item">
           <span class="series__en">주 1회</span>
           <span class="series__ko">위클리 크립토 뉴스</span>
-          <p class="series__q">한 주의 핵심 이슈를 연구자 관점으로 짚습니다. ‘왜 중요한가’에 집중.</p>
         </div>
         <div class="series__item">
           <span class="series__en">월 1회</span>
           <span class="series__ko">보고서·저서 저자 인터뷰</span>
-          <p class="series__q">저자가 핵심 주장과 근거를 직접 설명하며 보고서·저서를 쉽게 풀어냅니다.</p>
         </div>
         <div class="series__item">
           <span class="series__en">월 1회</span>
           <span class="series__ko">크립토 핵심 개념 교육</span>
-          <p class="series__q">초보자가 막히는 개념을 ‘과외’처럼 눈높이로 풀고, 흔한 오해를 바로잡습니다.</p>
         </div>
         <div class="series__item">
           <span class="series__en">격월</span>
           <span class="series__ko">주제 토론</span>
-          <p class="series__q">쟁점별 관점 차이와 판단 근거를 정리해 논점 지도를 제공합니다.</p>
         </div>
         <div class="series__item">
           <span class="series__en">격월</span>
           <span class="series__ko">북토크</span>
-          <p class="series__q">크립토·기술·경제 서적을 연구 주제와 현실 이슈에 연결해 읽습니다.</p>
         </div>
       </div>
 
@@ -329,11 +285,11 @@
         </div>
         <div class="footer__col">
           <h4>Series</h4>
-          <a href="#series">OUTLOOK</a>
-          <a href="#series">RESEARCH</a>
-          <a href="#series">PERSPECTIVES</a>
-          <a href="#series">POLICY &amp; STRATEGY</a>
-          <a href="#series">GUIDE</a>
+          <a href="publications.ko.html">OUTLOOK</a>
+          <a href="publications.ko.html">RESEARCH</a>
+          <a href="publications.ko.html">PERSPECTIVES</a>
+          <a href="publications.ko.html">POLICY &amp; STRATEGY</a>
+          <a href="publications.ko.html">GUIDE</a>
         </div>
         <div class="footer__col">
           <h4>Institute</h4>
@@ -347,13 +303,13 @@
           <a href="publications.ko.html">발행물</a>
           <a href="media.ko.html">미디어</a>
           <a href="donate.ko.html">후원</a>
-          <a href="#">개인정보</a>
+          <a href="privacy.ko.html">개인정보</a>
         </div>
       </div>
       <div class="footer__bottom">
         <span>2026 설립 · 메타노미아 리서치</span>
         <div class="footer__legal">
-          <a href="#">개인정보 처리방침</a>
+          <a href="privacy.ko.html">개인정보 처리방침</a>
           <a href="#">이용약관</a>
           <a href="contact.ko.html">문의</a>
         </div>
@@ -391,7 +347,8 @@
           var f = (i === 0) ? null : btn.textContent.trim();
           if (featureCard) featureCard.classList.toggle('card--feature', !f);
           cards.forEach(function (card) {
-            card.style.display = (!f || card.dataset.series === f) ? '' : 'none';
+            var match = !f || card.dataset.series === f || card.dataset.format === f;
+            card.style.display = match ? '' : 'none';
           });
         });
       });

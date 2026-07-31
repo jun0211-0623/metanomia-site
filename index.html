@@ -145,45 +145,6 @@
     </div>
   </section>
 
-  <!-- ================= REPORT SERIES (Focus Areas 대체) ================= -->
-  <section class="section" id="series">
-    <div class="container">
-      <div class="section__head">
-        <h2 class="section__title">Report Series</h2>
-      </div>
-      <p class="channel__sub" style="max-width:760px;margin:-24px 0 36px;">Metanomia organizes its reports into five series, defined by the kind of conclusion each one delivers.</p>
-
-      <div class="series">
-        <a class="series__item" href="series/outlook.html">
-          <span class="series__en">OUTLOOK</span>
-          <span class="series__ko">Foresight</span>
-          <p class="series__q">What is changing, why now, and where it is most likely headed within a defined horizon.</p>
-        </a>
-        <a class="series__item" href="series/research.html">
-          <span class="series__en">RESEARCH</span>
-          <span class="series__ko">Analysis</span>
-          <p class="series__q">How and why a phenomenon works, and what conclusion the evidence actually supports.</p>
-        </a>
-        <a class="series__item" href="series/perspectives.html">
-          <span class="series__en">PERSPECTIVES</span>
-          <span class="series__ko">Framing</span>
-          <p class="series__q">What existing explanations miss, and the new frame we need to see it through.</p>
-        </a>
-        <a class="series__item" href="series/policy-strategy.html">
-          <span class="series__en">POLICY &amp; STRATEGY</span>
-          <span class="series__ko">Direction</span>
-          <p class="series__q">What to change or build, and which option to pursue, and how.</p>
-        </a>
-        <a class="series__item" href="series/guide.html">
-          <span class="series__en">GUIDE</span>
-          <span class="series__ko">Practice</span>
-          <p class="series__q">Who does what, in what order and under what conditions, and how to respond when it fails.</p>
-        </a>
-      </div>
-
-    </div>
-  </section>
-
   <!-- ================= CHANNEL (YouTube) ================= -->
   <section class="channel" id="media">
     <div class="container">
@@ -197,27 +158,22 @@
         <div class="series__item">
           <span class="series__en">WEEKLY</span>
           <span class="series__ko">Weekly Crypto News</span>
-          <p class="series__q">The week's key issues seen through a researcher's lens, focused on why they matter.</p>
         </div>
         <div class="series__item">
           <span class="series__en">MONTHLY</span>
           <span class="series__ko">Author Interviews</span>
-          <p class="series__q">Authors explain their core arguments and evidence, making reports and books accessible.</p>
         </div>
         <div class="series__item">
           <span class="series__en">MONTHLY</span>
           <span class="series__ko">Core Concept Lessons</span>
-          <p class="series__q">The concepts beginners get stuck on, explained at eye level, clearing up common myths.</p>
         </div>
         <div class="series__item">
           <span class="series__en">BIMONTHLY</span>
           <span class="series__ko">Topic Debate</span>
-          <p class="series__q">Mapping where views differ and the grounds for each judgment.</p>
         </div>
         <div class="series__item">
           <span class="series__en">BIMONTHLY</span>
           <span class="series__ko">Book Talk</span>
-          <p class="series__q">Reading crypto, tech, and economics books against research themes and real issues.</p>
         </div>
       </div>
 
@@ -348,13 +304,13 @@
           <a href="publications.html">Publications</a>
           <a href="media.html">Media</a>
           <a href="donate.html">Donate</a>
-          <a href="#">Privacy</a>
+          <a href="privacy.html">Privacy</a>
         </div>
       </div>
       <div class="footer__bottom">
         <span>Established 2026 · Metanomia Research Institute</span>
         <div class="footer__legal">
-          <a href="#">Privacy Policy</a>
+          <a href="privacy.html">Privacy Policy</a>
           <a href="#">Terms</a>
           <a href="contact.html">Contact</a>
         </div>
@@ -393,7 +349,8 @@
           var f = (i === 0) ? null : btn.textContent.trim();
           if (featureCard) featureCard.classList.toggle('card--feature', !f);
           cards.forEach(function (card) {
-            card.style.display = (!f || card.dataset.series === f) ? '' : 'none';
+            var match = !f || card.dataset.series === f || card.dataset.format === f;
+            card.style.display = match ? '' : 'none';
           });
         });
       });

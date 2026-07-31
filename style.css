@@ -127,7 +127,6 @@ h3 { font-size: clamp(20px, 2.4vw, 26px); letter-spacing: -0.3px; }
 .nav__item--menu:focus-within .nav__dropdown { opacity: 1; visibility: visible; transform: translateY(0); }
 .nav__dropdown a { display: block; padding: 10px 20px; color: #fff; font-size: 15px; font-weight: 400; white-space: nowrap; }
 .nav__dropdown a:hover { color: var(--accent); background: #1a1a1a; }
-.nav__drawer-link--sub { padding-left: 22px; font-size: 16px; opacity: .75; }
 
 .nav__toggle { display: none; color: var(--ink); background: none; }
 .nav__toggle-close { display: none; }
@@ -265,18 +264,16 @@ h3 { font-size: clamp(20px, 2.4vw, 26px); letter-spacing: -0.3px; }
    REPORT SERIES (light) - 5 series cards
    =========================================================== */
 .series { display: grid; grid-template-columns: repeat(5, 1fr); gap: 12px; }
-.series__item { display: flex; flex-direction: column; min-width: 0; background: #fff; border: 1px solid var(--line); padding: 26px 20px 30px; transition: border-color .18s ease; }
+.series__item { display: flex; flex-direction: column; min-width: 0; background: #fff; border: 1px solid var(--line); padding: 26px 20px 34px; transition: border-color .18s ease; }
 .series__item:hover { border-color: var(--ink); }
 .series__en { font-size: 14px; font-weight: 800; letter-spacing: .04em; color: var(--ink); line-height: 1.1; padding-left: 11px; border-left: 4px solid var(--accent); }
-.series__ko { margin-top: 16px; font-size: 20px; font-weight: 600; color: var(--ink); }
-.series__q { margin-top: 12px; font-size: 13.5px; line-height: 1.55; color: var(--body); }
+.series__ko { margin-top: auto; padding-top: 44px; font-size: clamp(22px, 1.9vw, 28px); font-weight: 600; line-height: 1.2; letter-spacing: -0.4px; color: var(--ink); }
 
 /* Dark variant — black cards with the same lime-bar layout (used on Media) */
 .series--dark .series__item { background: #0a0a0a; border-color: #0a0a0a; }
 .series--dark .series__item:hover { border-color: var(--accent); }
 .series--dark .series__en { color: #fff; }
 .series--dark .series__ko { color: #fff; }
-.series--dark .series__q { color: #a8a8a8; }
 
 /* ===========================================================
    MISSION (dark)
@@ -366,23 +363,15 @@ h3 { font-size: clamp(20px, 2.4vw, 26px); letter-spacing: -0.3px; }
   .nav__toggle { display: grid; place-items: center; width: 42px; height: 42px; border: 1px solid var(--line); }
   .nav.is-open .nav__drawer {
     display: flex; flex-direction: column; gap: 2px;
-    padding-top: 6px; padding-bottom: 20px; border-top: 1px solid var(--line);
+    padding-top: 6px; padding-bottom: 20px; border-top: 1px solid var(--line-dark);
   }
-  .nav__drawer-link { padding: 16px 2px; font-size: 18px; font-weight: 500; color: var(--ink); border-bottom: 1px solid var(--line); }
+  .nav__drawer-link { padding: 16px 2px; font-size: 18px; font-weight: 500; color: #fff; border-bottom: 1px solid var(--line-dark); }
+  .nav__drawer-link--sub { padding-left: 22px; font-size: 16px; font-weight: 400; color: #a8a8a8; }
   .nav__drawer-link:active { opacity: .6; }
   .nav__drawer-btn { margin-top: 16px; justify-content: center; width: 100%; }
 }
 @media (max-width: 640px) {
   .nav__inner { height: 68px; }
-
-  /* mobile drawer menu */
-  .nav.is-open .nav__drawer {
-    display: flex; flex-direction: column; gap: 2px;
-    padding-top: 6px; padding-bottom: 20px; border-top: 1px solid var(--line);
-  }
-  .nav__drawer-link { padding: 16px 2px; font-size: 18px; font-weight: 500; color: var(--ink); border-bottom: 1px solid var(--line); }
-  .nav__drawer-link:active { opacity: .6; }
-  .nav__drawer-btn { margin-top: 16px; justify-content: center; width: 100%; }
 
   .areas, .cards, .channel__grid, .footer__top { grid-template-columns: 1fr; }
   .series { grid-template-columns: 1fr 1fr; }
@@ -578,6 +567,27 @@ h3 { font-size: clamp(20px, 2.4vw, 26px); letter-spacing: -0.3px; }
 @media (max-width: 800px) {
   .about-body__grid { grid-template-columns: 1fr; gap: 24px; }
   .about-hero__lead { max-width: none; }
+}
+
+/* Legal documents (privacy policy, terms) */
+.legal { background: var(--white); padding: 72px 0 96px; }
+.legal__body { max-width: 780px; }
+.legal__meta { font-size: 14px; color: var(--body); padding-bottom: 28px; border-bottom: 1px solid var(--line); }
+.legal__intro { font-size: 18px; line-height: 1.7; color: var(--ink); margin-top: 32px; }
+.legal__h { font-size: 22px; font-weight: 600; color: var(--ink); letter-spacing: -0.2px; margin-top: 48px; }
+.legal__body p { font-size: 16px; line-height: 1.75; color: var(--body); margin-top: 14px; }
+.legal__body ul { margin-top: 14px; padding-left: 20px; }
+.legal__body li { font-size: 16px; line-height: 1.75; color: var(--body); margin-top: 8px; }
+.legal__body a { color: var(--ink); text-decoration: underline; text-decoration-color: var(--accent); text-decoration-thickness: 2px; text-underline-offset: 3px; }
+.legal__table { width: 100%; border-collapse: collapse; margin-top: 18px; }
+.legal__table th, .legal__table td { text-align: left; font-size: 15px; line-height: 1.6; padding: 12px 16px 12px 0; border-bottom: 1px solid var(--line); vertical-align: top; }
+.legal__table th { color: var(--ink); font-weight: 600; white-space: nowrap; }
+.legal__table td { color: var(--body); }
+.legal__todo { display: block; margin-top: 32px; padding: 16px 18px; border-left: 3px solid var(--accent); background: #fafafa; font-size: 15px; line-height: 1.7; color: var(--ink); }
+@media (max-width: 640px) {
+  .legal__table, .legal__table tbody, .legal__table tr, .legal__table th, .legal__table td { display: block; }
+  .legal__table th { padding-bottom: 4px; border-bottom: 0; }
+  .legal__table td { padding-top: 0; }
 }
 
 /* Donate: ways to give */
