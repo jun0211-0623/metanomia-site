@@ -241,13 +241,6 @@ h3 { font-size: clamp(20px, 2.4vw, 26px); letter-spacing: -0.3px; }
 /* ===========================================================
    CHANNEL (YouTube) - light section, dark corner cards
    =========================================================== */
-.channel { background: var(--white); padding: 88px 0; border-top: 1px solid var(--line); }
-.channel__head { max-width: 760px; margin-bottom: 48px; }
-.channel__eyebrow { display: inline-flex; align-items: center; gap: 9px; font-size: 13px; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; color: var(--ink); }
-.channel__dot { width: 9px; height: 9px; background: var(--accent); flex: none; }
-.channel__title { margin: 16px 0 20px; font-size: clamp(28px, 3.4vw, 40px); }
-.channel__lead { color: var(--ink); font-size: clamp(22px, 2.6vw, 30px); font-weight: 500; letter-spacing: -0.3px; line-height: 1.3; }
-.channel__sub { color: var(--body); font-size: 17px; line-height: 1.6; margin-top: 14px; }
 
 .channel__grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
 .corner { display: flex; flex-direction: column; min-height: 214px; background: #0a0a0a; color: #fff; padding: 28px 26px 30px; border: 1px solid #0a0a0a; transition: border-color .18s ease; }
@@ -258,22 +251,6 @@ h3 { font-size: clamp(20px, 2.4vw, 26px); letter-spacing: -0.3px; }
 .corner__name { color: #fff; font-size: 20px; font-weight: 600; line-height: 1.2; margin-bottom: 10px; }
 .corner__desc { color: #a8a8a8; font-size: 14px; line-height: 1.55; margin-bottom: 18px; }
 .corner__format { color: #e6e6e6; font-size: 13px; margin-top: auto; padding-top: 14px; border-top: 1px solid #262626; }
-.channel__note { margin-top: 28px; font-size: 14px; color: var(--body); }
-
-/* ===========================================================
-   REPORT SERIES (light) - 5 series cards
-   =========================================================== */
-.series { display: grid; grid-template-columns: repeat(5, 1fr); gap: 12px; }
-.series__item { display: flex; flex-direction: column; min-width: 0; background: #fff; border: 1px solid var(--line); padding: 26px 20px 34px; transition: border-color .18s ease; }
-.series__item:hover { border-color: var(--ink); }
-.series__en { font-size: 14px; font-weight: 800; letter-spacing: .04em; color: var(--ink); line-height: 1.1; padding-left: 11px; border-left: 4px solid var(--accent); }
-.series__ko { margin-top: auto; padding-top: 44px; font-size: clamp(22px, 1.9vw, 28px); font-weight: 600; line-height: 1.2; letter-spacing: -0.4px; color: var(--ink); }
-
-/* Dark variant — black cards with the same lime-bar layout (used on Media) */
-.series--dark .series__item { background: #0a0a0a; border-color: #0a0a0a; }
-.series--dark .series__item:hover { border-color: var(--accent); }
-.series--dark .series__en { color: #fff; }
-.series--dark .series__ko { color: #fff; }
 
 /* ===========================================================
    MISSION (dark)
@@ -296,6 +273,8 @@ h3 { font-size: clamp(20px, 2.4vw, 26px); letter-spacing: -0.3px; }
 }
 .filter.is-active { background: var(--accent); color: #000; border-color: var(--accent); }
 .filter:hover:not(.is-active) { background: var(--soft); }
+/* divides the series axis from the format axis */
+.filters__sep { width: 1px; align-self: stretch; margin: 0 6px; background: var(--line); }
 
 .cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 40px 32px; }
 .card { display: flex; flex-direction: column; border-top: 2px solid var(--ink); padding-top: 20px; }
@@ -349,7 +328,6 @@ h3 { font-size: clamp(20px, 2.4vw, 26px); letter-spacing: -0.3px; }
   .subfeed { flex-direction: row; }
   .subfeed .subcard { flex: 1; }
   .areas { grid-template-columns: repeat(2, 1fr); }
-  .series { grid-template-columns: repeat(3, 1fr); }
   .channel__grid { grid-template-columns: repeat(2, 1fr); }
   .cards { grid-template-columns: repeat(2, 1fr); }
   .card--feature { grid-column: span 2; flex-direction: column; }
@@ -374,7 +352,6 @@ h3 { font-size: clamp(20px, 2.4vw, 26px); letter-spacing: -0.3px; }
   .nav__inner { height: 68px; }
 
   .areas, .cards, .channel__grid, .footer__top { grid-template-columns: 1fr; }
-  .series { grid-template-columns: 1fr 1fr; }
   .card--feature { grid-column: auto; }   /* undo desktop span-2 on 1-col grid */
   .corner { min-height: 0; }
 
