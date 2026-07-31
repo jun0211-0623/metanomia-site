@@ -163,16 +163,26 @@
       <div class="section__head">
         <h2 class="section__title">발행물</h2>
       </div>
-      <div class="filters">
-        <button class="filter is-active">전체</button>
-        <button class="filter">OUTLOOK</button>
-        <button class="filter">RESEARCH</button>
-        <button class="filter">PERSPECTIVES</button>
-        <button class="filter">POLICY &amp; STRATEGY</button>
-        <button class="filter">GUIDE</button>
-        <span class="filters__sep" aria-hidden="true"></span>
-        <button class="filter">REPORT</button>
-        <button class="filter">PODCAST</button>
+      <div class="filterbar">
+        <div class="filters filters--main">
+          <button class="filter is-active" data-group="all">전체</button>
+          <button class="filter" data-group="REPORT">Publications</button>
+          <button class="filter" data-group="PODCAST">Podcast</button>
+        </div>
+        <div class="filters filters--sub" data-for="REPORT" hidden>
+          <button class="filter" data-sub="OUTLOOK">OUTLOOK</button>
+          <button class="filter" data-sub="RESEARCH">RESEARCH</button>
+          <button class="filter" data-sub="PERSPECTIVES">PERSPECTIVES</button>
+          <button class="filter" data-sub="POLICY &amp; STRATEGY">POLICY &amp; STRATEGY</button>
+          <button class="filter" data-sub="GUIDE">GUIDE</button>
+        </div>
+        <div class="filters filters--sub" data-for="PODCAST" hidden>
+          <button class="filter" data-sub="크립토 뉴스">크립토 뉴스</button>
+          <button class="filter" data-sub="저자 인터뷰">저자 인터뷰</button>
+          <button class="filter" data-sub="핵심 개념">핵심 개념</button>
+          <button class="filter" data-sub="주제 토론">주제 토론</button>
+          <button class="filter" data-sub="북토크">북토크</button>
+        </div>
       </div>
 
       <div class="cards">
@@ -301,21 +311,45 @@
       });
     })();
 
-    // Report series filter
+    // All Research: two-level filter (group -> subcategory)
     (function () {
-      var filters = document.querySelectorAll('.filters .filter');
+      var main = document.querySelector('.filters--main');
+      var subBars = document.querySelectorAll('.filters--sub');
       var cards = document.querySelectorAll('.cards .card');
       var featureCard = document.querySelector('.cards .card--feature');
-      if (!filters.length || !cards.length) return;
-      filters.forEach(function (btn, i) {
+      if (!main || !cards.length) return;
+      var group = null, sub = null;
+
+      function apply() {
+        if (featureCard) featureCard.classList.toggle('card--feature', !group && !sub);
+        cards.forEach(function (card) {
+          var okGroup = !group || card.dataset.format === group;
+          var okSub = !sub || card.dataset.series === sub || card.dataset.program === sub;
+          card.style.display = (okGroup && okSub) ? '' : 'none';
+        });
+      }
+
+      main.querySelectorAll('.filter').forEach(function (btn) {
         btn.addEventListener('click', function () {
-          filters.forEach(function (b) { b.classList.remove('is-active'); });
+          main.querySelectorAll('.filter').forEach(function (b) { b.classList.remove('is-active'); });
           btn.classList.add('is-active');
-          var f = (i === 0) ? null : btn.textContent.trim();
-          if (featureCard) featureCard.classList.toggle('card--feature', !f);
-          cards.forEach(function (card) {
-            var match = !f || card.dataset.series === f || card.dataset.format === f;
-            card.style.display = match ? '' : 'none';
+          group = btn.dataset.group === 'all' ? null : btn.dataset.group;
+          sub = null;
+          subBars.forEach(function (sb) {
+            sb.hidden = sb.dataset.for !== group;
+            sb.querySelectorAll('.filter').forEach(function (b) { b.classList.remove('is-active'); });
+          });
+          apply();
+        });
+      });
+
+      subBars.forEach(function (sb) {
+        sb.querySelectorAll('.filter').forEach(function (btn) {
+          btn.addEventListener('click', function () {
+            sb.querySelectorAll('.filter').forEach(function (b) { b.classList.remove('is-active'); });
+            btn.classList.add('is-active');
+            sub = btn.dataset.sub;
+            apply();
           });
         });
       });
