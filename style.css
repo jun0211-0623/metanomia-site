@@ -1,7 +1,7 @@
 /* ===========================================================
    Metanomia - static site
    Layout/design faithfully reproduced from a think-tank
-   reference (Public Sans + Source Serif 4, monochrome,
+   reference (Pretendard + Source Serif 4, monochrome,
    angular buttons, dark hero). Colors kept black for now;
    swap --accent later.
    =========================================================== */
@@ -23,7 +23,7 @@
 
   --container: 1440px;
   --gutter: clamp(20px, 5vw, 72px);
-  --sans: "Public Sans", system-ui, -apple-system, sans-serif;
+  --sans: "Pretendard Variable", Pretendard, system-ui, -apple-system, sans-serif;
   --serif: "Source Serif 4", Georgia, serif;
 }
 
