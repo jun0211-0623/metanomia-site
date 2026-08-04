@@ -129,6 +129,21 @@ h3 { font-size: clamp(20px, 2.4vw, 26px); letter-spacing: -0.3px; }
 .nav__dropdown a:hover { color: var(--accent); background: #1a1a1a; }
 
 .nav__toggle { display: none; color: var(--ink); background: none; }
+
+/* ---------- 사이트 검색 (네비 드롭다운) ---------- */
+.sitesearch { position: absolute; left: 0; right: 0; top: 100%; background: #0d0d0d; border-bottom: 1px solid #262626; z-index: 70; }
+.sitesearch[hidden] { display: none; }
+.sitesearch__inner { padding: 20px 0 24px; }
+.sitesearch__input { width: 100%; background: transparent; border: 0; border-bottom: 1px solid #333; color: #fff; font-family: var(--sans); font-size: clamp(20px, 2.4vw, 28px); padding: 10px 0; outline: none; }
+.sitesearch__input::placeholder { color: #6a6a6a; }
+.sitesearch__results { max-height: 60vh; overflow-y: auto; margin-top: 8px; }
+.sitesearch__msg { color: #6a6a6a; font-size: 15px; padding: 18px 0; }
+.sitesearch__group { font-size: 11px; font-weight: 700; letter-spacing: .09em; text-transform: uppercase; color: var(--accent); padding: 18px 0 6px; }
+.sitesearch__item { display: flex; align-items: baseline; gap: 14px; padding: 11px 0; border-bottom: 1px solid #1e1e1e; }
+.sitesearch__item:hover .sitesearch__title { color: var(--accent); }
+.sitesearch__title { color: #fff; font-size: 16px; line-height: 1.35; }
+.sitesearch__meta { color: #7a7a7a; font-size: 13px; margin-left: auto; white-space: nowrap; }
+@media (max-width: 640px) { .sitesearch__meta { display: none; } }
 .nav__toggle-close { display: none; }
 .nav.is-open .nav__toggle-open { display: none; }
 .nav.is-open .nav__toggle-close { display: block; }
