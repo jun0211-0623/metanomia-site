@@ -573,6 +573,7 @@ h3 { font-size: clamp(20px, 2.4vw, 26px); letter-spacing: -0.3px; }
 
 /* Donate: ways to give */
 .about-body--tight { padding-top: 0; }
+.about-body__h--wide { margin-bottom: 28px; }
 .give-list__row { display: grid; grid-template-columns: 200px 1fr; gap: 24px; padding: 20px 0; border-bottom: 1px solid var(--line); }
 .give-list__row:first-child { border-top: 1px solid var(--line); }
 .give-list__term { font-size: 17px; font-weight: 600; color: var(--ink); }
