@@ -44,10 +44,29 @@
   function load() {
     if (index || loading) return;
     loading = true;
-    fetch('/search-index.json')
-      .then(function (r) { return r.json(); })
-      .then(function (data) {
-        index = data.filter(function (d) { return d.lang === (isKo ? 'ko' : 'en'); });
+    Promise.all([
+      fetch('/search-index.json').then(function (r) { return r.json(); }),
+      fetch('/data/crypto-news.json', { cache: 'no-store' })
+        .then(function (r) { return r.ok ? r.json() : { items: [] }; })
+        .catch(function () { return { items: [] }; })
+    ])
+      .then(function (payload) {
+        index = payload[0].filter(function (d) { return d.lang === (isKo ? 'ko' : 'en'); });
+        if (isKo) {
+          index.push({
+            lang: 'ko', type: '페이지', title: 'Crypto News',
+            sub: '화폐·금융·크립토의 변화를 메타노미아의 관점으로 읽는 크립토 뉴스.',
+            meta: '메타노미아', url: '/crypto-news.ko.html'
+          });
+          (payload[1].items || []).forEach(function (item) {
+            if (!item || !item.slug || !item.title) return;
+            index.push({
+              lang: 'ko', type: 'Crypto News', title: item.title,
+              sub: item.content || '', meta: item.date_kst || '',
+              url: '/crypto-news-detail.ko.html?slug=' + encodeURIComponent(item.slug)
+            });
+          });
+        }
         loading = false;
         render();
       })

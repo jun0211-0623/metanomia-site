@@ -1,0 +1,203 @@
+/* Metanomia Crypto News — one manifest powers the public list and detail pages. */
+(function () {
+  'use strict';
+
+  var listRoot = document.querySelector('[data-crypto-news-list]');
+  var detailRoot = document.querySelector('[data-crypto-news-detail]');
+  if (!listRoot && !detailRoot) return;
+
+  var manifestUrl = 'data/crypto-news.json';
+
+  function text(value) {
+    return typeof value === 'string' ? value.trim() : '';
+  }
+
+  function itemKey(item) {
+    return text(item.slug) || text(item.id);
+  }
+
+  function formatDate(value, longForm) {
+    var match = text(value).match(/^(\d{4})-(\d{2})-(\d{2})$/);
+    if (!match) return text(value);
+    if (longForm) {
+      return Number(match[1]) + '년 ' + Number(match[2]) + '월 ' + Number(match[3]) + '일';
+    }
+    return match[1] + '.' + match[2] + '.' + match[3];
+  }
+
+  function excerpt(value, limit) {
+    var clean = text(value).replace(/\s+/g, ' ');
+    if (clean.length <= limit) return clean;
+    return clean.slice(0, limit).replace(/\s+\S*$/, '') + '…';
+  }
+
+  function safeExternalUrl(value) {
+    try {
+      var url = new URL(value);
+      return (url.protocol === 'https:' || url.protocol === 'http:') ? url.href : '';
+    } catch (error) {
+      return '';
+    }
+  }
+
+  function emptyState(root, title, message) {
+    root.replaceChildren();
+    var state = document.createElement('div');
+    state.className = 'crypto-news-state';
+    var heading = document.createElement('strong');
+    heading.textContent = title;
+    var copy = document.createElement('span');
+    copy.textContent = message;
+    state.append(heading, copy);
+    root.appendChild(state);
+  }
+
+  function validItems(data) {
+    if (!data || !Array.isArray(data.items)) return [];
+    return data.items.filter(function (item) {
+      return item && itemKey(item) && text(item.title) && text(item.content);
+    }).sort(function (a, b) {
+      var dateOrder = text(b.date_kst).localeCompare(text(a.date_kst));
+      return dateOrder || itemKey(a).localeCompare(itemKey(b));
+    });
+  }
+
+  function loadManifest() {
+    return fetch(manifestUrl, { cache: 'no-store' }).then(function (response) {
+      if (!response.ok) throw new Error('manifest');
+      return response.json();
+    });
+  }
+
+  function renderList(items) {
+    var count = document.querySelector('[data-crypto-news-count]');
+    if (count) count.textContent = '총 ' + items.length + '건';
+    if (!items.length) {
+      emptyState(listRoot, '아직 게시된 뉴스가 없습니다.', '승인된 크립토 뉴스가 이곳에 순서대로 게시됩니다.');
+      return;
+    }
+
+    var fragment = document.createDocumentFragment();
+    items.forEach(function (item) {
+      var link = document.createElement('a');
+      link.className = 'crypto-news-card';
+      link.href = 'crypto-news-detail.ko.html?slug=' + encodeURIComponent(itemKey(item));
+
+      var time = document.createElement('time');
+      time.className = 'crypto-news-card__date';
+      time.dateTime = text(item.date_kst);
+      time.textContent = formatDate(item.date_kst, false);
+
+      var copy = document.createElement('div');
+      var title = document.createElement('h2');
+      title.className = 'crypto-news-card__title';
+      title.textContent = text(item.title);
+      var summary = document.createElement('p');
+      summary.className = 'crypto-news-card__excerpt';
+      summary.textContent = excerpt(item.content, 180);
+      copy.append(title, summary);
+
+      var arrow = document.createElement('span');
+      arrow.className = 'crypto-news-card__arrow';
+      arrow.setAttribute('aria-hidden', 'true');
+      arrow.textContent = '→';
+
+      link.append(time, copy, arrow);
+      fragment.appendChild(link);
+    });
+    listRoot.replaceChildren(fragment);
+  }
+
+  function appendParagraphs(root, value) {
+    var blocks = text(value).split(/\n\s*\n/).filter(Boolean);
+    blocks.forEach(function (block) {
+      var paragraph = document.createElement('p');
+      paragraph.textContent = block;
+      root.appendChild(paragraph);
+    });
+  }
+
+  function updateMetadata(item) {
+    var title = text(item.title) + ' | 메타노미아 Crypto News';
+    var description = excerpt(item.content, 155);
+    document.title = title;
+
+    var descriptionMeta = document.querySelector('meta[name=description]');
+    if (descriptionMeta) descriptionMeta.content = description;
+    var ogTitle = document.querySelector('meta[property="og:title"]');
+    if (ogTitle) ogTitle.content = title;
+    var ogDescription = document.querySelector('meta[property="og:description"]');
+    if (ogDescription) ogDescription.content = description;
+    var twitterTitle = document.querySelector('meta[name="twitter:title"]');
+    if (twitterTitle) twitterTitle.content = title;
+    var twitterDescription = document.querySelector('meta[name="twitter:description"]');
+    if (twitterDescription) twitterDescription.content = description;
+    var canonical = document.querySelector('link[rel=canonical]');
+    if (canonical && window.location.protocol !== 'file:') {
+      var articleUrl = window.location.origin + window.location.pathname + '?slug=' + encodeURIComponent(itemKey(item));
+      canonical.href = articleUrl;
+      var ogUrl = document.querySelector('meta[property="og:url"]');
+      if (ogUrl) ogUrl.content = articleUrl;
+    }
+  }
+
+  function renderDetail(items) {
+    var slug = new URLSearchParams(window.location.search).get('slug') || '';
+    var item = items.find(function (candidate) { return itemKey(candidate) === slug; });
+    if (!item) {
+      emptyState(detailRoot, '뉴스를 찾을 수 없습니다.', '목록으로 돌아가 다른 뉴스를 확인해 주세요.');
+      return;
+    }
+
+    updateMetadata(item);
+    var date = detailRoot.querySelector('[data-news-date]');
+    var title = detailRoot.querySelector('[data-news-title]');
+    var body = detailRoot.querySelector('[data-news-content]');
+    var thought = detailRoot.querySelector('[data-news-thought]');
+    var sources = detailRoot.querySelector('[data-news-sources]');
+
+    date.dateTime = text(item.date_kst);
+    date.textContent = formatDate(item.date_kst, true);
+    title.textContent = text(item.title);
+    body.replaceChildren();
+    appendParagraphs(body, item.content);
+    thought.textContent = text(item.metanomia_thought);
+    sources.replaceChildren();
+
+    var safeSources = Array.isArray(item.sources) ? item.sources.filter(function (source) {
+      return source && text(source.title) && safeExternalUrl(source.url);
+    }) : [];
+
+    if (!safeSources.length) {
+      var unavailable = document.createElement('li');
+      unavailable.className = 'crypto-news-sources__empty';
+      unavailable.textContent = '출처 정보 준비 중';
+      sources.appendChild(unavailable);
+      return;
+    }
+
+    safeSources.forEach(function (source) {
+      var row = document.createElement('li');
+      row.className = 'crypto-news-sources__item';
+      var link = document.createElement('a');
+      link.className = 'crypto-news-sources__link';
+      link.href = safeExternalUrl(source.url);
+      link.target = '_blank';
+      link.rel = 'noopener noreferrer';
+      link.textContent = text(source.title);
+      row.appendChild(link);
+      sources.appendChild(row);
+    });
+  }
+
+  loadManifest()
+    .then(function (data) {
+      var items = validItems(data);
+      if (listRoot) renderList(items);
+      if (detailRoot) renderDetail(items);
+    })
+    .catch(function () {
+      var root = listRoot || detailRoot;
+      emptyState(root, '뉴스를 불러오지 못했습니다.', '잠시 후 다시 시도해 주세요.');
+    });
+})();
