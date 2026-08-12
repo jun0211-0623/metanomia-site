@@ -727,6 +727,7 @@ html[lang="ko"] dd {
   .cat-intro { grid-template-columns: 1fr; gap: 20px; max-width: 620px; }
 }
 @media (max-width: 640px) {
+  .cat-intro__break { display: none; }
   .cat-grid { grid-template-columns: 1fr; }
   .cat-toolbar { justify-content: flex-start; flex-wrap: wrap; }
 }
