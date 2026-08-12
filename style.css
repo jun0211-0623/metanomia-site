@@ -362,6 +362,7 @@ html[lang="ko"] dd {
 .footer { background: var(--dark); color: #cfced4; padding: 72px 0 40px; }
 .footer__top { display: grid; grid-template-columns: 1.4fr 1fr 1fr 1fr; gap: 40px; padding-bottom: 56px; border-bottom: 1px solid var(--line-dark); }
 .footer__tagline { margin-top: 20px; font-size: 14px; line-height: 1.6; max-width: 320px; color: #a9a7b1; }
+.footer__tagline-last { white-space: nowrap; }
 .footer__col h4 { color: #fff; font-size: 13px; letter-spacing: .1em; text-transform: uppercase; margin-bottom: 18px; font-weight: 600; }
 .footer__col a { display: block; font-size: 15px; color: #cfced4; padding: 7px 0; }
 .footer__col a:hover { color: #fff; }
@@ -554,6 +555,8 @@ html[lang="ko"] dd {
 .pub-series__eyebrow { font-size: 11px; font-weight: 700; letter-spacing: .09em; text-transform: uppercase; color: var(--accent); }
 .pub-series__name { font-size: 22px; font-weight: 600; color: #fff; letter-spacing: -0.2px; }
 .pub-series__title { font-size: clamp(20px, 1.8vw, 28px); line-height: 1.15; font-weight: 750; letter-spacing: .03em; color: var(--accent); }
+.pub-series--ko .pub-series__eyebrow { color: #fff; font-size: 12px; }
+.pub-series--ko .pub-series__title { margin-top: auto; }
 .pub-series__desc { margin-top: auto; font-size: 13.5px; line-height: 1.45; color: rgba(255,255,255,.55); }
 
 /* Featured Post — square image left + white content card right */
@@ -618,6 +621,7 @@ html[lang="ko"] dd {
 .areas--research .area__name { font-size: clamp(19px, 1.55vw, 23px); line-height: 1.25; }
 .about-body__grid--series .give-list__row { grid-template-columns: 240px 1fr; gap: 28px; }
 .about-body__grid--series .give-list__term { letter-spacing: .02em; }
+.give-list__term-en { font-size: .78em; letter-spacing: .05em; white-space: nowrap; }
 /* contact block */
 .contact-grid { display: grid; grid-template-columns: 320px 1fr; gap: 56px; max-width: 1100px; }
 .contact-item { margin-bottom: 32px; }
@@ -997,6 +1001,8 @@ html[lang="ko"] dd {
 .nav__dropdown--media { min-width: 270px; }
 .media-program__type { font-size: 12px; font-weight: 750; letter-spacing: .05em; color: var(--accent); }
 .media-program__name { margin-top: auto; font-size: clamp(20px, 1.65vw, 26px); line-height: 1.2; font-weight: 650; letter-spacing: -.25px; color: #fff; }
+html[lang="ko"] .media-program__type { color: #fff; }
+html[lang="ko"] .media-program__name { color: var(--accent); }
 .media-feed { background: var(--white); padding: 64px 0 88px; }
 .media-feed__title { color: var(--ink); font-size: clamp(28px, 3.4vw, 42px); font-weight: 600; letter-spacing: -.3px; margin-bottom: 36px; }
 .media-empty { padding: 72px 24px; border: 1px solid var(--line); text-align: center; }
