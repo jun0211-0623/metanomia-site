@@ -741,7 +741,7 @@ html[lang="ko"] dd {
 .crypto-news-hero {
   background: var(--dark);
   color: var(--white);
-  padding: clamp(64px, 9vw, 132px) 0 clamp(54px, 8vw, 106px);
+  padding: clamp(64px, 8vw, 112px) 0 clamp(64px, 7vw, 92px);
   border-bottom: 1px solid var(--line-dark);
 }
 .crypto-news-hero__eyebrow {
@@ -749,7 +749,7 @@ html[lang="ko"] dd {
   align-items: center;
   gap: 10px;
   color: var(--accent);
-  font-size: 12px;
+  font-size: clamp(15px, 1.15vw, 18px);
   font-weight: 700;
   letter-spacing: .16em;
   text-transform: uppercase;
@@ -763,18 +763,20 @@ html[lang="ko"] dd {
 .crypto-news-hero__title {
   color: var(--white);
   max-width: 900px;
-  margin-top: 24px;
-  font-size: clamp(48px, 7vw, 92px);
-  font-weight: 600;
-  line-height: .98;
-  letter-spacing: -.045em;
+  margin-top: 28px;
+  font-size: clamp(40px, 4.8vw, 58px);
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: -.5px;
 }
 .crypto-news-hero__intro {
-  max-width: 720px;
-  margin-top: 30px;
-  color: #c7c7c7;
-  font-size: clamp(17px, 1.7vw, 21px);
-  line-height: 1.65;
+  max-width: 60ch;
+  margin-top: 28px;
+  color: var(--white);
+  font-size: clamp(24px, 2.8vw, 36px);
+  font-weight: 500;
+  line-height: 1.28;
+  letter-spacing: -.3px;
 }
 .crypto-news-index {
   padding: clamp(56px, 8vw, 104px) 0 clamp(80px, 10vw, 136px);
