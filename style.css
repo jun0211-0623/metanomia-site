@@ -209,6 +209,14 @@ html[lang="ko"] .cat-card__title {
   text-wrap: balance;
 }
 
+/* Keep Korean explanatory copy intact and avoid short orphaned last lines. */
+html[lang="ko"] p,
+html[lang="ko"] li,
+html[lang="ko"] dd {
+  word-break: keep-all;
+  overflow-wrap: break-word;
+  text-wrap: pretty;
+}
 /* focus strip under hero */
 .focus-strip { background: var(--white); border-bottom: 1px solid var(--line); }
 .focus-strip__row {
