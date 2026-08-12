@@ -44,29 +44,43 @@
   function load() {
     if (index || loading) return;
     loading = true;
+    var news = isKo ? {
+      manifest: '/data/crypto-news.json',
+      listUrl: '/crypto-news.ko.html',
+      detailUrl: '/crypto-news-detail.ko.html',
+      pageType: '페이지',
+      pageSub: '화폐·금융·크립토의 변화를 메타노미아의 관점으로 읽는 크립토 뉴스.',
+      pageMeta: '메타노미아'
+    } : {
+      manifest: '/data/crypto-news.en.json',
+      listUrl: '/crypto-news.html',
+      detailUrl: '/crypto-news-detail.html',
+      pageType: 'Page',
+      pageSub: 'Crypto news read through Metanomia\'s lens: what is changing in money, finance, and crypto, and why it matters.',
+      pageMeta: 'Metanomia'
+    };
+
     Promise.all([
       fetch('/search-index.json').then(function (r) { return r.json(); }),
-      fetch('/data/crypto-news.json', { cache: 'no-store' })
+      fetch(news.manifest, { cache: 'no-store' })
         .then(function (r) { return r.ok ? r.json() : { items: [] }; })
         .catch(function () { return { items: [] }; })
     ])
       .then(function (payload) {
-        index = payload[0].filter(function (d) { return d.lang === (isKo ? 'ko' : 'en'); });
-        if (isKo) {
+        var lang = isKo ? 'ko' : 'en';
+        index = payload[0].filter(function (d) { return d.lang === lang; });
+        index.push({
+          lang: lang, type: news.pageType, title: 'Crypto News',
+          sub: news.pageSub, meta: news.pageMeta, url: news.listUrl
+        });
+        (payload[1].items || []).forEach(function (item) {
+          if (!item || !item.slug || !item.title) return;
           index.push({
-            lang: 'ko', type: '페이지', title: 'Crypto News',
-            sub: '화폐·금융·크립토의 변화를 메타노미아의 관점으로 읽는 크립토 뉴스.',
-            meta: '메타노미아', url: '/crypto-news.ko.html'
+            lang: lang, type: 'Crypto News', title: item.title,
+            sub: item.content || '', meta: item.date_kst || '',
+            url: news.detailUrl + '?slug=' + encodeURIComponent(item.slug)
           });
-          (payload[1].items || []).forEach(function (item) {
-            if (!item || !item.slug || !item.title) return;
-            index.push({
-              lang: 'ko', type: 'Crypto News', title: item.title,
-              sub: item.content || '', meta: item.date_kst || '',
-              url: '/crypto-news-detail.ko.html?slug=' + encodeURIComponent(item.slug)
-            });
-          });
-        }
+        });
         loading = false;
         render();
       })

@@ -6,7 +6,38 @@
   var detailRoot = document.querySelector('[data-crypto-news-detail]');
   if (!listRoot && !detailRoot) return;
 
-  var manifestUrl = 'data/crypto-news.json';
+  var isKo = document.documentElement.lang === 'ko';
+
+  var COPY = isKo ? {
+    manifest: 'data/crypto-news.json',
+    detailHref: 'crypto-news-detail.ko.html',
+    titleSuffix: ' | 메타노미아 Crypto News',
+    count: function (n) { return '총 ' + n + '건'; },
+    emptyTitle: '아직 게시된 뉴스가 없습니다.',
+    emptyBody: '승인된 크립토 뉴스가 이곳에 순서대로 게시됩니다.',
+    missingTitle: '뉴스를 찾을 수 없습니다.',
+    missingBody: '목록으로 돌아가 다른 뉴스를 확인해 주세요.',
+    failedTitle: '뉴스를 불러오지 못했습니다.',
+    failedBody: '잠시 후 다시 시도해 주세요.',
+    noSources: '출처 정보 준비 중'
+  } : {
+    manifest: 'data/crypto-news.en.json',
+    detailHref: 'crypto-news-detail.html',
+    titleSuffix: ' | Metanomia Crypto News',
+    count: function (n) { return n + (n === 1 ? ' item' : ' items'); },
+    emptyTitle: 'No news published yet.',
+    emptyBody: 'Approved crypto news will appear here in order.',
+    missingTitle: 'This story could not be found.',
+    missingBody: 'Head back to the list to read something else.',
+    failedTitle: 'The news could not be loaded.',
+    failedBody: 'Please try again in a moment.',
+    noSources: 'Sources to follow'
+  };
+
+  var MONTHS = ['January', 'February', 'March', 'April', 'May', 'June',
+    'July', 'August', 'September', 'October', 'November', 'December'];
+
+  var manifestUrl = COPY.manifest;
 
   function text(value) {
     return typeof value === 'string' ? value.trim() : '';
@@ -20,7 +51,9 @@
     var match = text(value).match(/^(\d{4})-(\d{2})-(\d{2})$/);
     if (!match) return text(value);
     if (longForm) {
-      return Number(match[1]) + '년 ' + Number(match[2]) + '월 ' + Number(match[3]) + '일';
+      return isKo
+        ? Number(match[1]) + '년 ' + Number(match[2]) + '월 ' + Number(match[3]) + '일'
+        : MONTHS[Number(match[2]) - 1] + ' ' + Number(match[3]) + ', ' + match[1];
     }
     return match[1] + '.' + match[2] + '.' + match[3];
   }
@@ -71,9 +104,9 @@
 
   function renderList(items) {
     var count = document.querySelector('[data-crypto-news-count]');
-    if (count) count.textContent = '총 ' + items.length + '건';
+    if (count) count.textContent = COPY.count(items.length);
     if (!items.length) {
-      emptyState(listRoot, '아직 게시된 뉴스가 없습니다.', '승인된 크립토 뉴스가 이곳에 순서대로 게시됩니다.');
+      emptyState(listRoot, COPY.emptyTitle, COPY.emptyBody);
       return;
     }
 
@@ -81,7 +114,7 @@
     items.forEach(function (item) {
       var link = document.createElement('a');
       link.className = 'crypto-news-card';
-      link.href = 'crypto-news-detail.ko.html?slug=' + encodeURIComponent(itemKey(item));
+      link.href = COPY.detailHref + '?slug=' + encodeURIComponent(itemKey(item));
 
       var time = document.createElement('time');
       time.className = 'crypto-news-card__date';
@@ -118,7 +151,7 @@
   }
 
   function updateMetadata(item) {
-    var title = text(item.title) + ' | 메타노미아 Crypto News';
+    var title = text(item.title) + COPY.titleSuffix;
     var description = excerpt(item.content, 155);
     document.title = title;
 
@@ -145,7 +178,7 @@
     var slug = new URLSearchParams(window.location.search).get('slug') || '';
     var item = items.find(function (candidate) { return itemKey(candidate) === slug; });
     if (!item) {
-      emptyState(detailRoot, '뉴스를 찾을 수 없습니다.', '목록으로 돌아가 다른 뉴스를 확인해 주세요.');
+      emptyState(detailRoot, COPY.missingTitle, COPY.missingBody);
       return;
     }
 
@@ -171,7 +204,7 @@
     if (!safeSources.length) {
       var unavailable = document.createElement('li');
       unavailable.className = 'crypto-news-sources__empty';
-      unavailable.textContent = '출처 정보 준비 중';
+      unavailable.textContent = COPY.noSources;
       sources.appendChild(unavailable);
       return;
     }
@@ -198,6 +231,6 @@
     })
     .catch(function () {
       var root = listRoot || detailRoot;
-      emptyState(root, '뉴스를 불러오지 못했습니다.', '잠시 후 다시 시도해 주세요.');
+      emptyState(root, COPY.failedTitle, COPY.failedBody);
     });
 })();

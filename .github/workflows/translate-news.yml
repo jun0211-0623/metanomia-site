@@ -1,0 +1,51 @@
+name: Translate crypto news
+
+# Only the Korean manifest triggers this. The workflow writes the English one,
+# so its own commit can never re-trigger the run.
+on:
+  push:
+    branches: [main]
+    paths:
+      - data/crypto-news.json
+  workflow_dispatch:
+    inputs:
+      force:
+        description: Retranslate every item, not just new ones
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: translate-news
+  cancel-in-progress: false
+
+jobs:
+  translate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - run: pip install anthropic
+
+      - name: Translate
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python3 scripts/translate-news.py ${{ inputs.force && '--force' || '' }}
+
+      - name: Commit
+        run: |
+          if [ -z "$(git status --porcelain -- data/crypto-news.en.json)" ]; then
+            echo "no change"
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/crypto-news.en.json
+          git commit -m 'chore: translate crypto news to English'
+          git push
