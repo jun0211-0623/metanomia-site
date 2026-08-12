@@ -557,7 +557,9 @@ html[lang="ko"] dd {
 .pub-series__title { font-size: clamp(20px, 1.8vw, 28px); line-height: 1.15; font-weight: 750; letter-spacing: .03em; color: var(--accent); }
 .pub-series--ko .pub-series__eyebrow { color: #fff; font-size: 12px; }
 .pub-series--ko .pub-series__title { margin-top: auto; }
-.pub-series--en .pub-series__title { margin-top: auto; font-size: clamp(22px, 1.9vw, 30px); letter-spacing: .015em; }
+.pub-series--en { margin-bottom: 32px; }
+.pub-series--en .pub-series__box { justify-content: center; }
+.pub-series--en .pub-series__title { margin-top: 0; font-size: clamp(22px, 1.9vw, 30px); letter-spacing: .015em; }
 .pub-series__desc { margin-top: auto; font-size: 13.5px; line-height: 1.45; color: rgba(255,255,255,.55); }
 
 /* Featured Post — square image left + white content card right */
