@@ -195,6 +195,20 @@ h3 { font-size: clamp(20px, 2.4vw, 26px); letter-spacing: -0.3px; }
 .subcard__meta { display: flex; align-items: center; gap: 10px; margin-top: 10px; font-size: 13px; color: var(--body); }
 .subcard__meta .dot { background: #bdbdbd; }
 
+/* Keep Korean report titles together by word and balance their line lengths. */
+html[lang="ko"] .lead__title,
+html[lang="ko"] .subcard__title,
+html[lang="ko"] .card__title,
+html[lang="ko"] .article__title,
+html[lang="ko"] .cat-featured__title,
+html[lang="ko"] .pub-featured__title,
+html[lang="ko"] .profile__item-title,
+html[lang="ko"] .cat-card__title {
+  word-break: keep-all;
+  overflow-wrap: break-word;
+  text-wrap: balance;
+}
+
 /* focus strip under hero */
 .focus-strip { background: var(--white); border-bottom: 1px solid var(--line); }
 .focus-strip__row {
@@ -367,8 +381,14 @@ h3 { font-size: clamp(20px, 2.4vw, 26px); letter-spacing: -0.3px; }
   .footer__top { grid-template-columns: 1fr 1fr; }
 }
 @media (max-width: 1100px) {
-  .nav__menu { display: none; }
+  .brand__logo { width: 220px; }
+  .nav__menu { gap: 24px; flex-shrink: 0; }
+  .nav__link { white-space: nowrap; }
+  .nav__right { gap: 12px; }
   .nav__search, .nav__donate, .nav__lang { display: none; }
+}
+@media (max-width: 780px) {
+  .nav__menu { display: none; }
   .nav__toggle { display: grid; place-items: center; width: 42px; height: 42px; border: 1px solid var(--line); }
   .nav.is-open .nav__drawer {
     display: flex; flex-direction: column; gap: 2px;
