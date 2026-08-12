@@ -144,10 +144,25 @@
   }
 
   function fit(title) {
+    title.style.fontSize = '';
     setText(title, false);
-    var lineHeight = parseFloat(window.getComputedStyle(title).lineHeight);
+    var computed = window.getComputedStyle(title);
+    var lineHeight = parseFloat(computed.lineHeight);
     if (!lineHeight) return;
-    if (title.getBoundingClientRect().height > lineHeight * 2.35) setText(title, true);
+
+    if (title.getBoundingClientRect().height > lineHeight * 2.35) {
+      setText(title, true);
+      computed = window.getComputedStyle(title);
+      var fontSize = parseFloat(computed.fontSize);
+      lineHeight = parseFloat(computed.lineHeight);
+      var attempts = 0;
+      while (title.getBoundingClientRect().height > lineHeight * 2.35 && fontSize > 16 && attempts < 6) {
+        fontSize = Math.max(16, fontSize * 0.92);
+        title.style.fontSize = fontSize + 'px';
+        lineHeight = parseFloat(window.getComputedStyle(title).lineHeight);
+        attempts += 1;
+      }
+    }
   }
 
   function fitAll() {
