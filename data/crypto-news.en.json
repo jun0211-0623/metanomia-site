@@ -1,5 +1,48 @@
 {
   "schema_version": "1.0",
-  "generated_at_kst": "2026-08-12T00:00:00+09:00",
-  "items": []
+  "generated_at_kst": "2026-08-12T09:47:00+09:00",
+  "items": [
+    {
+      "slug": "2026-08-12-crypto-news-f140696a54",
+      "date_kst": "2026-08-12",
+      "title": "eToro Acquires US Broker TradeZero for Up to $231 Million",
+      "content": "eToro, a global online investment platform that offers trading in stocks, exchange-traded funds (ETFs) and crypto assets along with \"copy trading,\" which lets users replicate the strategies of other investors, has agreed to acquire the US online brokerage TradeZero. Founded in 2015, TradeZero serves active traders with US stock and stock options trading, professional trading programs, and tools such as a \"short locator\" that finds shares available to borrow for short selling. The purchase price is up to $231 million, combining cash and up to 2.5 million newly issued eToro shares, with the deal targeted to close in the first half of 2027 subject to regulatory approval.\n\neToro said the acquisition gives it the broker-dealer infrastructure needed to intermediate securities trading in the United States, along with a customer base, allowing it to expand its US business. TradeZero's trailing twelve-month revenue was about $80 million as of the end of June 2026. In second-quarter results released the same day, \"funded accounts,\" meaning accounts that have received actual deposits and hold a balance, totaled 4.28 million, up 18% from a year earlier, and assets under administration (AUA), the combined value of stocks, ETFs, crypto assets and cash held by customers through eToro and its partners, rose 10% to $19.2 billion. Meanwhile, crypto asset transactions in July numbered 1.4 million, down 73% from the same month a year earlier.",
+      "metanomia_thought": "The decline in July crypto trading alone is not enough to conclude that eToro's overall user base has shrunk. Funded accounts and assets under administration both grew, and July capital markets transactions, which combine stocks, commodities and currencies, were roughly in line with the same month last year. Acquiring TradeZero at this juncture reads as a move by eToro to secure US stock and options brokerage capability and thereby broaden its asset classes and revenue base, but the actual effect will have to be confirmed after regulatory approval and the closing of the deal.",
+      "sources": [
+        {
+          "title": "eToro to Acquire TradeZero",
+          "url": "https://www.sec.gov/Archives/edgar/data/1493318/000121390026087527/ea030151002ex99-1.htm"
+        },
+        {
+          "title": "eToro Announces Second Quarter 2026 Results",
+          "url": "https://www.sec.gov/Archives/edgar/data/1493318/000121390026087525/ea030151001ex99-1.htm"
+        },
+        {
+          "title": "eToro compra TradeZero por 231 millones para ampliar su negocio a Estados Unidos",
+          "url": "https://elpais.com/economia/2026-08-11/etoro-compra-tradezero-por-231-millones-para-ampliar-su-negocio-a-estados-unidos.html"
+        }
+      ]
+    },
+    {
+      "slug": "2026-08-12-crypto-news-a26f81e305",
+      "date_kst": "2026-08-12",
+      "title": "Crypto Travel Rule: 1 Million Won Threshold Abolished, Now Applies to All Transfers Between Domestic Exchanges",
+      "content": "On August 11, the State Council, which deliberates the government's major policies and legislative bills, approved an amendment to the Enforcement Decree of the Act on Reporting and Using Specified Financial Transaction Information that strengthens anti-money laundering obligations for virtual asset transactions. At its core is the \"travel rule,\" which requires that when coins are transferred between virtual asset service providers (VASPs) such as exchanges, information including the names and wallet addresses of the sender and recipient be transmitted and retained alongside the transfer. Until now it applied only to transfers of 1 million won or more between domestically registered providers, but going forward it will apply to all transfers regardless of amount. If the required information is missing, a provider must request that the counterparty provider supply it or refuse the transaction.\r\n\r\nSeparate restrictions apply when virtual assets are sent and received between domestic exchanges and overseas exchanges or personal wallets. Transactions with low-risk overseas providers are permitted, but for other overseas providers or personal wallets they are allowed only when the sender and the recipient are the same person, and transactions with high-risk counterparties are prohibited. Accordingly, sending directly from a domestic exchange account to another person's personal wallet is not permitted in principle. In addition, for transactions with overseas exchanges or personal wallets of 10 million won or more, virtual asset service providers such as domestic exchanges must establish and operate their own suspicious transaction management systems. The relevant provisions are scheduled to take effect six months after the promulgation of the enforcement decree, that is, from February of next year.",
+      "metanomia_thought": "This amendment means that domestic regulation of virtual asset transfers is shifting away from a monetary threshold of 1 million won toward verifying the parties and counterparty risk of every transaction. It may reduce regulatory evasion through splitting transfers into small amounts, but there is also the possibility that legitimate transactions will be delayed or refused because of information mismatches or failures to verify wallet ownership. Since personal wallets themselves are not banned, information linkage between providers and the procedures for correcting errors and filing objections will determine actual accessibility.",
+      "sources": [
+        {
+          "title": "가상자산사업자 신고제도 및 자금세탁방지 의무 강화 관련 특정금융정보법 시행령 개정안 국무회의 의결",
+          "url": "https://www.fsc.go.kr/no010101/87499"
+        },
+        {
+          "title": "금융위, 가상자산 자금세탁방지 강화 계획 관련 보도",
+          "url": "https://www.yna.co.kr/amp/view/AKR20260204133600002"
+        },
+        {
+          "title": "가상자산 트래블룰 기준 폐지 시행령 개정안 관련 보도",
+          "url": "https://mobile.newsis.com/view/NISX20260330_0003570190"
+        }
+      ]
+    }
+  ]
 }
