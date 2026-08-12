@@ -504,6 +504,18 @@ html[lang="ko"] dd {
 .cat-intro__body { font-size: 18px; line-height: 1.5; color: #fff; }
 .cat-intro__body p + p { margin-top: 20px; }
 
+/* Korean report-series pages: balance the title, question, and supporting copy. */
+html[lang="ko"] .cat-tabs + .cat-hero--compact .cat-title {
+  font-size: clamp(40px, 4.8vw, 58px);
+}
+html[lang="ko"] .cat-tabs + .cat-hero--compact .cat-intro__q {
+  font-size: clamp(26px, 2.7vw, 36px);
+}
+html[lang="ko"] .cat-tabs + .cat-hero--compact .cat-intro__body {
+  font-size: clamp(20px, 1.35vw, 22px);
+  line-height: 1.58;
+}
+
 /* Compact series hero: keep the title and description within one continuous view. */
 .cat-hero--compact { min-height: 0; }
 .cat-hero--compact .cat-hero__title { padding-bottom: 56px; }
