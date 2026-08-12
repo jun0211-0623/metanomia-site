@@ -542,6 +542,7 @@ html[lang="ko"] dd {
 .pub-hero { padding: 60px 0 8px; }
 .pub-hero .cat-back { color: #fff; margin-bottom: 40px; }
 .pub-title { color: #fff; font-size: clamp(48px, 7vw, 84px); font-weight: 700; line-height: 1.0; letter-spacing: -0.5px; }
+.pub-title--primary { font-size: clamp(40px, 4.8vw, 58px); }
 .pub-hero__sub { color: rgba(255,255,255,.7); font-size: 18px; line-height: 1.5; margin-top: 18px; max-width: 620px; }
 
 .pub-sec { padding: 56px 0 0; }
