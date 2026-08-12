@@ -49,6 +49,8 @@
       listUrl: '/crypto-news.ko.html',
       detailUrl: '/crypto-news-detail.ko.html',
       pageType: '페이지',
+      pageTitle: '크립토 뉴스',
+      itemType: '크립토 뉴스',
       pageSub: '화폐·금융·크립토의 변화를 메타노미아의 관점으로 읽는 크립토 뉴스.',
       pageMeta: '메타노미아'
     } : {
@@ -56,6 +58,8 @@
       listUrl: '/crypto-news.html',
       detailUrl: '/crypto-news-detail.html',
       pageType: 'Page',
+      pageTitle: 'Crypto News',
+      itemType: 'Crypto News',
       pageSub: 'Crypto news read through Metanomia\'s lens: what is changing in money, finance, and crypto, and why it matters.',
       pageMeta: 'Metanomia'
     };
@@ -70,13 +74,13 @@
         var lang = isKo ? 'ko' : 'en';
         index = payload[0].filter(function (d) { return d.lang === lang; });
         index.push({
-          lang: lang, type: news.pageType, title: 'Crypto News',
+          lang: lang, type: news.pageType, title: news.pageTitle,
           sub: news.pageSub, meta: news.pageMeta, url: news.listUrl
         });
         (payload[1].items || []).forEach(function (item) {
           if (!item || !item.slug || !item.title) return;
           index.push({
-            lang: lang, type: 'Crypto News', title: item.title,
+            lang: lang, type: news.itemType, title: item.title,
             sub: item.content || '', meta: item.date_kst || '',
             url: news.detailUrl + '?slug=' + encodeURIComponent(item.slug)
           });

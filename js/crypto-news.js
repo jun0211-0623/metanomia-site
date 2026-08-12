@@ -11,7 +11,7 @@
   var COPY = isKo ? {
     manifest: 'data/crypto-news.json',
     detailHref: 'crypto-news-detail.ko.html',
-    titleSuffix: ' | 메타노미아 Crypto News',
+    titleSuffix: ' | 메타노미아 크립토 뉴스',
     count: function (n) { return '총 ' + n + '건'; },
     emptyTitle: '아직 게시된 뉴스가 없습니다.',
     emptyBody: '승인된 크립토 뉴스가 이곳에 순서대로 게시됩니다.',
