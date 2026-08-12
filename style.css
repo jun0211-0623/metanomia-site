@@ -860,7 +860,7 @@ html[lang="ko"] .cat-tabs + .cat-hero--compact .cat-intro {
 }
 .crypto-news-card__title {
   color: var(--ink);
-  font-size: clamp(26px, 3.2vw, 42px);
+  font-size: clamp(24px, 2.8vw, 36px);
   font-weight: 500;
   line-height: 1.18;
   letter-spacing: -.025em;
@@ -930,7 +930,7 @@ html[lang="ko"] .cat-tabs + .cat-hero--compact .cat-intro {
 .crypto-news-article__title {
   margin-top: 19px;
   color: var(--ink);
-  font-size: clamp(38px, 5.5vw, 68px);
+  font-size: clamp(27px, 3.85vw, 48px);
   font-weight: 600;
   line-height: 1.08;
   letter-spacing: -.04em;
@@ -958,7 +958,7 @@ html[lang="ko"] .cat-tabs + .cat-hero--compact .cat-intro {
   align-items: center;
   gap: 10px;
   color: var(--accent);
-  font-size: 13px;
+  font-size: 20px;
   font-weight: 700;
   letter-spacing: .08em;
 }
@@ -994,7 +994,7 @@ html[lang="ko"] .cat-tabs + .cat-hero--compact .cat-intro {
   gap: 18px;
   padding: 16px 0;
   color: var(--ink);
-  font-size: 15px;
+  font-size: 22.5px;
   line-height: 1.55;
 }
 .crypto-news-sources__link::after {
