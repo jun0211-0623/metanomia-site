@@ -499,6 +499,11 @@ html[lang="ko"] dd {
 .cat-intro__body { font-size: 18px; line-height: 1.5; color: #fff; }
 .cat-intro__body p + p { margin-top: 20px; }
 
+/* Compact series hero: keep the title and description within one continuous view. */
+.cat-hero--compact { min-height: 0; }
+.cat-hero--compact .cat-hero__title { padding-bottom: 56px; }
+.cat-hero--compact .cat-hero__rule { margin-top: 0; }
+
 /* Featured Post block (between dark hero and grid) */
 .cat-featured { background: var(--white); padding: 64px 0 24px; }
 .cat-featured__label { font-size: clamp(28px, 3vw, 40px); font-weight: 500; color: var(--ink); letter-spacing: -0.3px; margin-bottom: 28px; }
