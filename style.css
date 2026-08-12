@@ -497,7 +497,7 @@ html[lang="ko"] dd {
 .cat-hero__rule { margin-top: auto; border-top: 1px solid rgba(255,255,255,.16); }
 /* intro band (2-column, bottom) */
 .cat-hero__intro { padding: 60px 0 80px; }
-.cat-intro { display: grid; grid-template-columns: 1fr 1fr; gap: 64px; align-items: start; }
+.cat-intro { display: grid; grid-template-columns: 1fr 1fr; gap: 64px; align-items: center; }
 .cat-intro__q { font-size: clamp(28px, 3.4vw, 42px); line-height: 1.32; color: #fff; font-weight: 500; letter-spacing: -0.3px; }
 .cat-intro__body { font-size: 18px; line-height: 1.5; color: #fff; }
 .cat-intro__body p + p { margin-top: 20px; }
