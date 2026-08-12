@@ -598,7 +598,9 @@ html[lang="ko"] dd {
 .about-body__intro-copy .about-body__lead { font-size: clamp(21px, 1.6vw, 24px); line-height: 1.58; }
 .about-process p { margin-top: 0; }
 .about-process p + p { margin-top: 24px; }
-.about-process__closing { color: var(--ink); font-weight: 600; }
+.about-process__lines span { display: block; }
+.about-process__lines span + span { margin-top: 5px; }
+.about-process__closing { color: var(--ink); font-size: clamp(20px, 1.45vw, 23px); line-height: 1.55; font-weight: 600; }
 .about-body__lines span { display: block; }
 .about-body__lines span + span { margin-top: 6px; }
 .areas--research { grid-template-columns: repeat(5, 1fr); }
