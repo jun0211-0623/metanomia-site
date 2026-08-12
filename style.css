@@ -129,6 +129,7 @@ h3 { font-size: clamp(20px, 2.4vw, 26px); letter-spacing: -0.3px; }
 .nav__dropdown a { display: block; padding: 10px 20px; color: #fff; font-size: 15px; font-weight: 400; white-space: nowrap; }
 .nav__dropdown a:hover { color: var(--accent); background: #1a1a1a; }
 .nav__dropdown--publications { min-width: 250px; }
+html[lang="ko"] .nav__dropdown--publications { min-width: 360px; }
 
 .nav__toggle { display: none; color: var(--ink); background: none; }
 
@@ -622,8 +623,8 @@ html[lang="ko"] dd {
 .areas--research { grid-template-columns: repeat(5, 1fr); }
 .areas--research .area { min-height: 230px; padding: 30px 24px 34px; }
 .areas--research .area__name { font-size: clamp(19px, 1.55vw, 23px); line-height: 1.25; }
-.about-body__grid--series .give-list__row { grid-template-columns: 240px 1fr; gap: 28px; }
-.about-body__grid--series .give-list__term { letter-spacing: .02em; }
+.about-body__grid--series .give-list__row { grid-template-columns: 300px 1fr; gap: 56px; align-items: center; padding: 26px 0; }
+.about-body__grid--series .give-list__term { font-size: 19px; line-height: 1.35; letter-spacing: .02em; }
 .give-list__term-en { font-size: .78em; letter-spacing: .05em; white-space: nowrap; }
 /* contact block */
 .contact-grid { display: grid; grid-template-columns: 320px 1fr; gap: 56px; max-width: 1100px; }
