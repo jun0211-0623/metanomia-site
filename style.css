@@ -617,6 +617,9 @@ html[lang="ko"] .cat-tabs + .cat-hero--compact .cat-intro {
 .about-hero .cat-title { font-size: clamp(40px, 4.8vw, 58px); }
 .cat-title__brand { color: var(--accent); }
 .about-hero__lead { font-size: clamp(24px, 2.8vw, 36px); line-height: 1.28; color: #fff; font-weight: 500; letter-spacing: -0.3px; max-width: 60ch; margin-top: 28px; }
+/* Keep the Korean donation hero typographically aligned with About Metanomia. */
+html[lang="ko"] .pub-dark.about-hero .pub-title { font-size: clamp(40px, 4.8vw, 58px); }
+html[lang="ko"] .pub-dark.about-hero .about-hero__lead { font-size: clamp(24px, 2.8vw, 36px); }
 .about-hero__actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 36px; }
 /* ghost buttons on the dark hero need light borders */
 .about-hero__actions .btn--ghost { color: #fff; border-color: rgba(255,255,255,.5); }
