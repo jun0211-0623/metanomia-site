@@ -986,3 +986,7 @@ html[lang="ko"] dd {
     padding-right: var(--gutter);
   }
 }
+/* Keep the two intended lines of the quantum-computing report title explicit. */
+.quantum-report-title__line {
+  display: block;
+}

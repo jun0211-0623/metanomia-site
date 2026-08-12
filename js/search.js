@@ -131,3 +131,34 @@
     });
   });
 })();
+/* Keep the quantum-computing report title to two balanced lines. */
+(function () {
+  var titles = document.querySelectorAll('.quantum-report-title');
+  if (!titles.length) return;
+
+  function setText(title, compact) {
+    var lines = title.querySelectorAll('.quantum-report-title__line');
+    if (lines.length !== 2) return;
+    lines[0].textContent = compact ? '비트코인은 양자컴퓨팅' : '비트코인은 양자컴퓨팅 시대에도';
+    lines[1].textContent = compact ? '시대에도 살아남을 수 있는가' : '살아남을 수 있는가';
+  }
+
+  function fit(title) {
+    setText(title, false);
+    var lineHeight = parseFloat(window.getComputedStyle(title).lineHeight);
+    if (!lineHeight) return;
+    if (title.getBoundingClientRect().height > lineHeight * 2.35) setText(title, true);
+  }
+
+  function fitAll() {
+    Array.prototype.forEach.call(titles, fit);
+  }
+
+  var resizeTimer;
+  window.addEventListener('resize', function () {
+    window.clearTimeout(resizeTimer);
+    resizeTimer = window.setTimeout(fitAll, 80);
+  });
+  window.requestAnimationFrame(fitAll);
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(fitAll);
+})();
