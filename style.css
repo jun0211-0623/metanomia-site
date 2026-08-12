@@ -315,17 +315,14 @@ html[lang="ko"] dd {
    =========================================================== */
 .filterbar { margin-bottom: 40px; }
 .filters { display: flex; flex-wrap: wrap; gap: 10px; }
-/* second level — shown only for the selected group. display:flex would beat
-   the [hidden] UA rule, so it has to be turned off explicitly. */
-.filters--sub { margin-top: 12px; padding-left: 18px; border-left: 2px solid var(--accent); }
-.filters--sub[hidden] { display: none; }
-.filters--sub .filter { font-size: 14px; padding: 6px 14px; }
 .filter {
   font-size: 15px; font-weight: 500; padding: 8px 18px; border: 1px solid var(--line);
   background: #fff; color: var(--ink); cursor: pointer; border-radius: 0;
 }
 .filter.is-active { background: var(--accent); color: #000; border-color: var(--accent); }
 .filter:hover:not(.is-active) { background: var(--soft); }
+.cards-empty { margin: 16px 0 0; padding: 52px 20px; border-top: 2px solid var(--ink); text-align: center; color: var(--muted); }
+.cards-empty[hidden] { display: none; }
 
 .cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 40px 32px; }
 .card { display: flex; flex-direction: column; border-top: 2px solid var(--ink); padding-top: 20px; }
