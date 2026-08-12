@@ -217,6 +217,7 @@ h3 { font-size: clamp(20px, 2.4vw, 26px); letter-spacing: -0.3px; }
 .cta__grid { max-width: 960px; margin: 0 auto; text-align: center; display: flex; flex-direction: column; align-items: center; gap: 28px; }
 .cta--intro { padding: 64px 0; }
 .cta--intro .cta__grid { max-width: 1240px; }
+.copy-break { display: block; }
 .cta__lead { font-size: clamp(24px, 3vw, 34px); line-height: 1.25; color: var(--ink); font-weight: 500; letter-spacing: -0.3px; }
 .signup { width: 100%; max-width: 480px; }
 .signup__label { font-size: 14px; color: var(--body); margin-bottom: 12px; }
@@ -277,10 +278,15 @@ h3 { font-size: clamp(20px, 2.4vw, 26px); letter-spacing: -0.3px; }
 .mission::before { content: ""; position: absolute; inset: 0; background: rgba(0,0,0,.66); }
 .mission .container { position: relative; }
 .mission__grid { max-width: 820px; margin: 0 auto; text-align: center; display: flex; flex-direction: column; align-items: center; }
+.mission__grid--wide { max-width: 1120px; }
+.mission__grid--wide .mission__lead { max-width: 1000px; }
 .mission__mark { width: 52px; height: 52px; flex: none; margin-bottom: 30px; background: url(images/brand/metanomia-symbol-meta-path-lime.svg) center / contain no-repeat; border: 0; }
 .mission__lead { font-size: clamp(26px, 3.3vw, 40px); line-height: 1.2; color: #fff; font-weight: 500; letter-spacing: -0.4px; }
 .mission__body { color: #cfced4; font-size: 17px; line-height: 1.6; max-width: 620px; margin: 22px 0 30px; }
 .mission__note { color: #fff; font-size: 17px; line-height: 1.6; margin: -12px 0 30px; }
+.mission__body--statement { max-width: 1120px; font-size: clamp(20px, 1.75vw, 26px); line-height: 1.5; }
+.mission__line { display: block; }
+.mission__line--free { margin-top: 18px; color: #fff; }
 
 /* ===========================================================
    RESEARCH LIST
@@ -392,6 +398,7 @@ h3 { font-size: clamp(20px, 2.4vw, 26px); letter-spacing: -0.3px; }
   .lead__overlay { padding: 24px; }
   .subfeed { flex-direction: column; gap: 0; }
   .subfeed .subcard + .subcard { margin-top: 24px; padding-top: 24px; border-top: 2px solid var(--ink); }
+  .copy-break { display: none; }
 
   /* research card media: a touch shorter so cards aren't image-dominated */
   .card__media { aspect-ratio: 16/9; }
