@@ -557,6 +557,7 @@ html[lang="ko"] dd {
 .pub-series__title { font-size: clamp(20px, 1.8vw, 28px); line-height: 1.15; font-weight: 750; letter-spacing: .03em; color: var(--accent); }
 .pub-series--ko .pub-series__eyebrow { color: #fff; font-size: 12px; }
 .pub-series--ko .pub-series__title { margin-top: auto; }
+.pub-series--en .pub-series__title { margin-top: auto; font-size: clamp(22px, 1.9vw, 30px); letter-spacing: .015em; }
 .pub-series__desc { margin-top: auto; font-size: 13.5px; line-height: 1.45; color: rgba(255,255,255,.55); }
 
 /* Featured Post — square image left + white content card right */
@@ -999,10 +1000,8 @@ html[lang="ko"] dd {
 }
 /* Media program pages and the future YouTube feed. */
 .nav__dropdown--media { min-width: 270px; }
-.media-program__type { font-size: 12px; font-weight: 750; letter-spacing: .05em; color: var(--accent); }
-.media-program__name { margin-top: auto; font-size: clamp(20px, 1.65vw, 26px); line-height: 1.2; font-weight: 650; letter-spacing: -.25px; color: #fff; }
-html[lang="ko"] .media-program__type { color: #fff; }
-html[lang="ko"] .media-program__name { color: var(--accent); }
+.media-program__type { font-size: 12px; font-weight: 750; letter-spacing: .05em; color: #fff; }
+.media-program__name { margin-top: auto; font-size: clamp(20px, 1.65vw, 26px); line-height: 1.2; font-weight: 650; letter-spacing: -.25px; color: var(--accent); }
 .media-feed { background: var(--white); padding: 64px 0 88px; }
 .media-feed__title { color: var(--ink); font-size: clamp(28px, 3.4vw, 42px); font-weight: 600; letter-spacing: -.3px; margin-bottom: 36px; }
 .media-empty { padding: 72px 24px; border: 1px solid var(--line); text-align: center; }
