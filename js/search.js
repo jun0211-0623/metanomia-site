@@ -5,8 +5,8 @@
 
   var isKo = document.documentElement.lang === 'ko';
   var TEXT = isKo
-    ? { placeholder: '보고서, 사람, 페이지 검색', empty: '결과가 없습니다.', hint: '검색어를 입력하세요.', close: '닫기' }
-    : { placeholder: 'Search reports, people, pages', empty: 'No results.', hint: 'Type to search.', close: 'Close' };
+    ? { placeholder: '보고서, 저자, 뉴스 검색', empty: '결과가 없습니다.', hint: '검색어를 입력하세요.', close: '닫기' }
+    : { placeholder: 'Search reports, authors, news', empty: 'No results.', hint: 'Type to search.', close: 'Close' };
 
   var index = null, loading = false, panel, input, results;
 
@@ -24,6 +24,7 @@
     input = panel.querySelector('.sitesearch__input');
     results = panel.querySelector('.sitesearch__results');
     input.placeholder = TEXT.placeholder;
+    input.setAttribute('aria-label', TEXT.placeholder);
     input.addEventListener('input', render);
     input.addEventListener('keydown', function (e) {
       if (e.key === 'Escape') close();
@@ -46,22 +47,12 @@
     loading = true;
     var news = isKo ? {
       manifest: '/data/crypto-news.json',
-      listUrl: '/crypto-news.ko.html',
       detailUrl: '/crypto-news-detail.ko.html',
-      pageType: '페이지',
-      pageTitle: '크립토 뉴스',
-      itemType: '크립토 뉴스',
-      pageSub: '화폐·금융·크립토의 변화를 메타노미아의 관점으로 읽는 크립토 뉴스.',
-      pageMeta: '메타노미아'
+      itemType: '뉴스'
     } : {
       manifest: '/data/crypto-news.en.json',
-      listUrl: '/crypto-news.html',
       detailUrl: '/crypto-news-detail.html',
-      pageType: 'Page',
-      pageTitle: 'Crypto News',
-      itemType: 'Crypto News',
-      pageSub: 'Crypto news read through Metanomia\'s lens: what is changing in money, finance, and crypto, and why it matters.',
-      pageMeta: 'Metanomia'
+      itemType: 'News'
     };
 
     Promise.all([
@@ -72,11 +63,31 @@
     ])
       .then(function (payload) {
         var lang = isKo ? 'ko' : 'en';
-        index = payload[0].filter(function (d) { return d.lang === lang; });
-        index.push({
-          lang: lang, type: news.pageType, title: news.pageTitle,
-          sub: news.pageSub, meta: news.pageMeta, url: news.listUrl
+        var reportType = isKo ? '보고서' : 'Report';
+        var peopleType = isKo ? '사람' : 'People';
+        var authorType = isKo ? '저자' : 'Author';
+        var base = payload[0].filter(function (d) { return d.lang === lang; });
+        var reports = base.filter(function (d) { return d.type === reportType; });
+        var authorNames = {};
+
+        reports.forEach(function (report) {
+          var authorText = String(report.meta || '').split('·')[0];
+          authorText.split(',').forEach(function (name) {
+            name = name.trim();
+            if (name) authorNames[name] = true;
+          });
         });
+
+        var authors = base.filter(function (d) {
+          return d.type === peopleType && authorNames[d.title];
+        }).map(function (d) {
+          return {
+            lang: d.lang, type: authorType, title: d.title,
+            sub: d.sub, meta: d.meta, url: d.url
+          };
+        });
+
+        index = reports.concat(authors);
         (payload[1].items || []).forEach(function (item) {
           if (!item || !item.slug || !item.title) return;
           index.push({
@@ -102,8 +113,10 @@
     if (!q) { results.innerHTML = '<p class="sitesearch__msg">' + TEXT.hint + '</p>'; return; }
     if (!index) { results.innerHTML = ''; return; }
 
+    var terms = q.split(/\s+/).filter(Boolean);
     var hits = index.filter(function (d) {
-      return (d.title + ' ' + d.sub + ' ' + d.meta + ' ' + d.type).toLowerCase().indexOf(q) !== -1;
+      var haystack = (d.title + ' ' + d.sub + ' ' + d.meta + ' ' + d.type).toLowerCase();
+      return terms.every(function (term) { return haystack.indexOf(term) !== -1; });
     }).slice(0, 12);
 
     if (!hits.length) { results.innerHTML = '<p class="sitesearch__msg">' + TEXT.empty + '</p>'; return; }
