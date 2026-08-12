@@ -72,6 +72,12 @@ function sendTest() {
  * cut short by the 6-minute execution limit resumes where it stopped.
  */
 function sendToAll() {
+  // Checked up front: without the key every unsubscribe link would throw
+  // mid-loop, after part of the list had already been mailed.
+  if (!PropertiesService.getScriptProperties().getProperty(SECRET_KEY)) {
+    return alert('구독 취소 링크 서명 키가 없습니다.\n\nCode.gs의 initUnsubSecret()를 한 번 실행한 뒤 다시 시도해 주세요.');
+  }
+
   var issue = findIssueDraft();
   if (!issue) return alert('[KO] 또는 [EN]으로 시작하는 Gmail 초안이 없습니다.');
 
@@ -239,7 +245,8 @@ function bodyMentions(thread, email) {
 function wrap(body, lang, email) {
   var isKo = lang === 'ko';
   var site = isKo ? SITE_KO : SITE_EN;
-  var unsubUrl = UNSUB_BASE + '?unsub=' + encodeURIComponent(email);
+  var unsubUrl = UNSUB_BASE + '?unsub=' + encodeURIComponent(email) +
+    '&t=' + encodeURIComponent(unsubToken(email));
   var unsubLabel = isKo ? '구독 취소' : 'Unsubscribe';
   var reason = isKo
     ? '메타노미아 뉴스레터를 신청하셔서 받으시는 메일입니다.'
