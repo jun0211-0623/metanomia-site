@@ -515,6 +515,10 @@ html[lang="ko"] .cat-tabs + .cat-hero--compact .cat-intro__body {
   font-size: clamp(20px, 1.35vw, 22px);
   line-height: 1.58;
 }
+html[lang="ko"] .cat-tabs + .cat-hero--compact .cat-intro {
+  grid-template-columns: minmax(0, .88fr) minmax(0, 1.12fr);
+  gap: 36px;
+}
 
 /* Compact series hero: keep the title and description within one continuous view. */
 .cat-hero--compact { min-height: 0; }
@@ -754,6 +758,7 @@ html[lang="ko"] .cat-tabs + .cat-hero--compact .cat-intro__body {
 @media (max-width: 991px) {
   .cat-grid { grid-template-columns: repeat(2, 1fr); }
   .cat-intro { grid-template-columns: 1fr; gap: 20px; max-width: 620px; }
+  html[lang="ko"] .cat-tabs + .cat-hero--compact .cat-intro { grid-template-columns: 1fr; gap: 20px; }
 }
 @media (max-width: 640px) {
   .cat-intro__break { display: none; }
