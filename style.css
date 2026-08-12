@@ -719,7 +719,8 @@ html[lang="ko"] dd {
 .cat-card__tag { font-size: 13px; font-weight: 600; letter-spacing: .07em; text-transform: uppercase; color: var(--ink); margin: 18px 0 10px; }
 .cat-card__title { font-size: clamp(22px, 1.8vw, 28px); line-height: 1.28; color: var(--ink); font-weight: 400; letter-spacing: -0.2px; }
 .cat-card:hover .cat-card__title { text-decoration: underline; text-underline-offset: 3px; }
-.cat-card__date { margin-top: 14px; font-size: 15px; color: var(--body); }
+.cat-card__authors { margin-top: 14px; font-size: 15px; line-height: 1.5; color: var(--ink); }
+.cat-card__date { margin-top: 3px; font-size: 15px; color: var(--body); }
 .cat-empty { grid-column: 1 / -1; text-align: center; padding: 80px 20px; border: 1px dashed var(--line); color: var(--body); }
 .cat-empty__title { font-size: 24px; color: var(--ink); font-weight: 500; margin-bottom: 10px; }
 
