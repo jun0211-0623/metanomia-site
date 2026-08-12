@@ -243,6 +243,7 @@ html[lang="ko"] dd {
 .cta--intro .cta__grid { max-width: 1240px; }
 .copy-break { display: block; }
 .cta__lead { font-size: clamp(24px, 3vw, 34px); line-height: 1.25; color: var(--ink); font-weight: 500; letter-spacing: -0.3px; }
+.cta:not(.cta--intro) .cta__lead { font-size: clamp(17px, 2.1vw, 24px); }
 .signup { width: 100%; max-width: 480px; }
 .signup__label { font-size: 14px; color: var(--body); margin-bottom: 12px; }
 .signup__form { display: flex; border: 1px solid var(--ink); }
