@@ -215,6 +215,8 @@ h3 { font-size: clamp(20px, 2.4vw, 26px); letter-spacing: -0.3px; }
   padding: 72px 0;
 }
 .cta__grid { max-width: 960px; margin: 0 auto; text-align: center; display: flex; flex-direction: column; align-items: center; gap: 28px; }
+.cta--intro { padding: 64px 0; }
+.cta--intro .cta__grid { max-width: 1240px; }
 .cta__lead { font-size: clamp(24px, 3vw, 34px); line-height: 1.25; color: var(--ink); font-weight: 500; letter-spacing: -0.3px; }
 .signup { width: 100%; max-width: 480px; }
 .signup__label { font-size: 14px; color: var(--body); margin-bottom: 12px; }
@@ -278,6 +280,7 @@ h3 { font-size: clamp(20px, 2.4vw, 26px); letter-spacing: -0.3px; }
 .mission__mark { width: 52px; height: 52px; flex: none; margin-bottom: 30px; background: url(images/brand/metanomia-symbol-meta-path-lime.svg) center / contain no-repeat; border: 0; }
 .mission__lead { font-size: clamp(26px, 3.3vw, 40px); line-height: 1.2; color: #fff; font-weight: 500; letter-spacing: -0.4px; }
 .mission__body { color: #cfced4; font-size: 17px; line-height: 1.6; max-width: 620px; margin: 22px 0 30px; }
+.mission__note { color: #fff; font-size: 17px; line-height: 1.6; margin: -12px 0 30px; }
 
 /* ===========================================================
    RESEARCH LIST
@@ -345,8 +348,10 @@ h3 { font-size: clamp(20px, 2.4vw, 26px); letter-spacing: -0.3px; }
   .hero__row { grid-template-columns: 1fr; gap: 28px; }
   .lead { min-height: 480px; }
   .lead__overlay { padding: 34px; }
-  .subfeed { flex-direction: row; }
+  .subfeed { flex-direction: row; gap: 24px; padding-left: 0; border-left: 0; align-items: flex-start; }
   .subfeed .subcard { flex: 1; }
+  .subfeed .subcard + .subcard { margin-top: 0; padding-top: 0; border-top: 0; }
+  .subcard__media { flex: none; width: 100%; aspect-ratio: 16/9; }
   .areas { grid-template-columns: repeat(2, 1fr); }
   .channel__grid { grid-template-columns: repeat(2, 1fr); }
   .cards { grid-template-columns: repeat(2, 1fr); }
@@ -385,7 +390,8 @@ h3 { font-size: clamp(20px, 2.4vw, 26px); letter-spacing: -0.3px; }
   /* hero on phones */
   .lead { min-height: 440px; }
   .lead__overlay { padding: 24px; }
-  .subfeed { flex-direction: column; }
+  .subfeed { flex-direction: column; gap: 0; }
+  .subfeed .subcard + .subcard { margin-top: 24px; padding-top: 24px; border-top: 2px solid var(--ink); }
 
   /* research card media: a touch shorter so cards aren't image-dominated */
   .card__media { aspect-ratio: 16/9; }
@@ -552,6 +558,7 @@ h3 { font-size: clamp(20px, 2.4vw, 26px); letter-spacing: -0.3px; }
 .about-body__lead { font-size: 19px; font-weight: 600; line-height: 1.5; color: var(--ink); }
 .about-body__text { font-size: 17px; line-height: 1.7; color: var(--body); }
 .about-body__text p { margin-top: 20px; }
+.about-body__text--wide { max-width: 960px; margin: 0 auto; }
 /* contact block */
 .contact-grid { display: grid; grid-template-columns: 320px 1fr; gap: 56px; max-width: 1100px; }
 .contact-item { margin-bottom: 32px; }
@@ -613,7 +620,6 @@ h3 { font-size: clamp(20px, 2.4vw, 26px); letter-spacing: -0.3px; }
 @media (max-width: 800px) {
   .profile__grid { grid-template-columns: 1fr; gap: 32px; }
   .profile__photo { max-width: 380px; }
-}
 }
 .give-list__row { display: grid; grid-template-columns: 200px 1fr; gap: 24px; padding: 20px 0; border-bottom: 1px solid var(--line); }
 .give-list__row:first-child { border-top: 1px solid var(--line); }

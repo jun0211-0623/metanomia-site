@@ -1,11 +1,11 @@
-/* Metanomia newsletter signup — posts to the Apps Script web app. */
+/* Metanomia email update signup — posts to the Apps Script web app. */
 (function () {
   var ENDPOINT = 'https://script.google.com/macros/s/AKfycbxLF2JaW3cBRGjhG-prFFjCk-_QmMWPa09tnBNJXorrgJfd_hbKV2QlrxQcGxr2dXxL/exec';
 
   var isKo = document.documentElement.lang === 'ko';
   var TEXT = isKo
-    ? { ok: '구독 신청이 완료되었습니다.', invalid: '이메일 주소를 확인해 주세요.', fail: '잠시 후 다시 시도해 주세요.', sending: '전송 중...' }
-    : { ok: 'You are subscribed.', invalid: 'Please check your email address.', fail: 'Something went wrong. Please try again.', sending: 'Sending...' };
+    ? { ok: '알림 신청이 완료되었습니다.', invalid: '이메일 주소를 확인해 주세요.', fail: '잠시 후 다시 시도해 주세요.', sending: '전송 중...' }
+    : { ok: 'You’ll receive Metanomia updates by email.', invalid: 'Please check your email address.', fail: 'Something went wrong. Please try again.', sending: 'Sending...' };
 
   var EMAIL_RE = /^[^@\s]+@[^@\s.]+\.[^@\s]+$/;
 
