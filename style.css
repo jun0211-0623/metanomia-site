@@ -1009,6 +1009,26 @@ html[lang="ko"] dd {
 .media-video__type { margin-top: 18px; color: var(--body); font-size: 12px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; }
 .media-video__title { margin-top: 9px; color: var(--ink); font-size: clamp(19px, 1.55vw, 24px); line-height: 1.28; font-weight: 500; word-break: keep-all; }
 .media-video__date { margin-top: 12px; color: var(--body); font-size: 14px; }
+.media-tabs + .cat-hero .cat-intro {
+  grid-template-columns: minmax(300px, .72fr) minmax(0, 1.28fr);
+  gap: clamp(32px, 3.2vw, 56px);
+}
+.media-tabs + .cat-hero .cat-intro__body {
+  max-width: 780px;
+  font-size: clamp(20px, 1.25vw, 24px);
+  line-height: 1.55;
+}
 .media-intro__body p { word-break: keep-all; }
+@media (max-width: 991px) {
+  .media-tabs + .cat-hero .cat-intro {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    max-width: 720px;
+  }
+  .media-tabs + .cat-hero .cat-intro__body {
+    max-width: 700px;
+    font-size: 20px;
+  }
+}
 @media (max-width: 900px) { .media-video-grid { grid-template-columns: repeat(2, 1fr); } }
 @media (max-width: 600px) { .media-video-grid { grid-template-columns: 1fr; } }
