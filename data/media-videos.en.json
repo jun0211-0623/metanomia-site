@@ -1,0 +1,11 @@
+{
+  "channelId": "",
+  "programs": {
+    "weekly-crypto": { "playlistId": "", "type": "Weekly Crypto News", "name": "This Week in Crypto" },
+    "ask-the-author": { "playlistId": "", "type": "Author Interview", "name": "Ask the Author" },
+    "crypto-tutoring": { "playlistId": "", "type": "Core Crypto Concepts", "name": "Crypto Tutoring" },
+    "crypto-issues": { "playlistId": "", "type": "Issue Discussion", "name": "Crypto Issues" },
+    "reading-crypto": { "playlistId": "", "type": "Book Talk", "name": "Reading Crypto" }
+  },
+  "items": []
+}

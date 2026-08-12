@@ -1,0 +1,11 @@
+{
+  "channelId": "",
+  "programs": {
+    "weekly-crypto": { "playlistId": "", "type": "위클리 크립토 뉴스", "name": "이번 주 크립토" },
+    "ask-the-author": { "playlistId": "", "type": "연구원 인터뷰", "name": "저자에게 묻다" },
+    "crypto-tutoring": { "playlistId": "", "type": "크립토 핵심 개념 교육", "name": "크립토 과외" },
+    "crypto-issues": { "playlistId": "", "type": "주제 토론", "name": "크립토 쟁점" },
+    "reading-crypto": { "playlistId": "", "type": "북토크", "name": "책으로 읽는 크립토" }
+  },
+  "items": []
+}

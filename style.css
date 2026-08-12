@@ -991,3 +991,24 @@ html[lang="ko"] dd {
 .quantum-report-title__line {
   display: block;
 }
+/* Media program pages and the future YouTube feed. */
+.nav__dropdown--media { min-width: 270px; }
+.media-program__type { font-size: 12px; font-weight: 750; letter-spacing: .05em; color: var(--accent); }
+.media-program__name { margin-top: auto; font-size: clamp(20px, 1.65vw, 26px); line-height: 1.2; font-weight: 650; letter-spacing: -.25px; color: #fff; }
+.media-feed { background: var(--white); padding: 64px 0 88px; }
+.media-feed__title { color: var(--ink); font-size: clamp(28px, 3.4vw, 42px); font-weight: 600; letter-spacing: -.3px; margin-bottom: 36px; }
+.media-empty { padding: 72px 24px; border: 1px solid var(--line); text-align: center; }
+.media-empty__title { color: var(--ink); font-size: clamp(24px, 2.5vw, 34px); font-weight: 500; line-height: 1.25; }
+.media-empty__copy { margin-top: 14px; color: var(--body); font-size: 16px; line-height: 1.65; word-break: keep-all; }
+.media-video-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 56px 28px; }
+.media-video { display: flex; flex-direction: column; }
+.media-video__media { position: relative; aspect-ratio: 16 / 9; overflow: hidden; background: #0d0d0d; }
+.media-video__media img { width: 100%; height: 100%; object-fit: cover; transition: transform .25s ease; }
+.media-video:hover .media-video__media img { transform: scale(1.02); }
+.media-video__play { position: absolute; left: 18px; bottom: 16px; display: grid; place-items: center; width: 42px; height: 42px; border-radius: 50%; color: #000; background: var(--accent); font-size: 14px; padding-left: 2px; }
+.media-video__type { margin-top: 18px; color: var(--body); font-size: 12px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; }
+.media-video__title { margin-top: 9px; color: var(--ink); font-size: clamp(19px, 1.55vw, 24px); line-height: 1.28; font-weight: 500; word-break: keep-all; }
+.media-video__date { margin-top: 12px; color: var(--body); font-size: 14px; }
+.media-intro__body p { word-break: keep-all; }
+@media (max-width: 900px) { .media-video-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 600px) { .media-video-grid { grid-template-columns: 1fr; } }

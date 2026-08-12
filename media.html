@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Media | Metanomia</title>
-  <meta name="description" content="The Metanomia Podcast: the research, talked through. Five recurring programs across news, interviews, lessons, debate, and books." />
+  <meta name="description" content="Explore Metanomia's video programs and YouTube content." />
   <link rel="canonical" href="https://metanomia-site.vercel.app/media.html" />
   <link rel="alternate" hreflang="ko" href="https://metanomia-site.vercel.app/media.ko.html" />
   <link rel="alternate" hreflang="en" href="https://metanomia-site.vercel.app/media.html" />
@@ -16,12 +16,12 @@
   <meta property="og:site_name" content="Metanomia" />
   <meta property="og:locale" content="en_US" />
   <meta property="og:title" content="Media | Metanomia" />
-  <meta property="og:description" content="The Metanomia Podcast: the research, talked through. Five recurring programs across news, interviews, lessons, debate, and books." />
+  <meta property="og:description" content="Explore Metanomia's video programs and YouTube content." />
   <meta property="og:url" content="https://metanomia-site.vercel.app/media.html" />
   <meta property="og:image" content="https://metanomia-site.vercel.app/images/brand/og-default.png" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Media | Metanomia" />
-  <meta name="twitter:description" content="The Metanomia Podcast: the research, talked through. Five recurring programs across news, interviews, lessons, debate, and books." />
+  <meta name="twitter:description" content="Explore Metanomia's video programs and YouTube content." />
   <meta name="twitter:image" content="https://metanomia-site.vercel.app/images/brand/og-default.png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -58,7 +58,17 @@
             <a href="series/guide.html">GUIDE</a>
           </div>
         </div>
-        <a class="nav__link" href="media.html">Media</a>
+        <div class="nav__item nav__item--menu">
+          <a class="nav__link is-active" href="media.html">Media <svg class="nav__caret" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="m6 9 6 6 6-6"/></svg></a>
+          <div class="nav__dropdown nav__dropdown--media">
+            <a href="media.html">All</a>
+            <a href="media/weekly-crypto.html">This Week in Crypto</a>
+            <a href="media/ask-the-author.html">Ask the Author</a>
+            <a href="media/crypto-tutoring.html">Crypto Tutoring</a>
+            <a href="media/crypto-issues.html">Crypto Issues</a>
+            <a href="media/reading-crypto.html">Reading Crypto</a>
+          </div>
+        </div>
         <a class="nav__link" href="crypto-news.html">Crypto News</a>
       </nav>
       <div class="nav__right">
@@ -85,6 +95,12 @@
       <a class="nav__drawer-link nav__drawer-link--sub" href="series/policy-strategy.html">POLICY &amp; STRATEGY</a>
       <a class="nav__drawer-link nav__drawer-link--sub" href="series/guide.html">GUIDE</a>
       <a class="nav__drawer-link" href="media.html">Media</a>
+      <a class="nav__drawer-link nav__drawer-link--sub" href="media.html">All</a>
+      <a class="nav__drawer-link nav__drawer-link--sub" href="media/weekly-crypto.html">This Week in Crypto</a>
+      <a class="nav__drawer-link nav__drawer-link--sub" href="media/ask-the-author.html">Ask the Author</a>
+      <a class="nav__drawer-link nav__drawer-link--sub" href="media/crypto-tutoring.html">Crypto Tutoring</a>
+      <a class="nav__drawer-link nav__drawer-link--sub" href="media/crypto-issues.html">Crypto Issues</a>
+      <a class="nav__drawer-link nav__drawer-link--sub" href="media/reading-crypto.html">Reading Crypto</a>
       <a class="nav__drawer-link" href="crypto-news.html">Crypto News</a>
       <a class="nav__drawer-link" href="media.ko.html">한국어</a>
       <a class="btn nav__drawer-btn" href="donate.html">Donate</a>
@@ -93,75 +109,36 @@
 
   <!-- ================= DARK TOP REGION ================= -->
   <div class="pub-dark">
-
-    <!-- Hero -->
     <section class="pub-hero">
       <div class="container">
         <a class="cat-back" href="index.html">← Back to Home</a>
         <h1 class="pub-title">Media</h1>
-        <p class="pub-hero__sub">The Metanomia Podcast: the research, talked through.</p>
       </div>
     </section>
 
-    <!-- Programs (Report-Series style boxes) -->
-    <section class="pub-sec">
-      <div class="container">
-        <h2 class="pub-sec__h">Programs</h2>
-        <p class="pub-sec__sub">Five formats, each defined by the kind of conversation it opens.</p>
-        <div class="pub-series">
-          <div class="pub-series__box">
-            <span class="pub-series__eyebrow">Weekly</span>
-            <span class="pub-series__name">Crypto News</span>
-          </div>
-          <div class="pub-series__box">
-            <span class="pub-series__eyebrow">Monthly</span>
-            <span class="pub-series__name">Author Interviews</span>
-          </div>
-          <div class="pub-series__box">
-            <span class="pub-series__eyebrow">Monthly</span>
-            <span class="pub-series__name">Core Concepts</span>
-          </div>
-          <div class="pub-series__box">
-            <span class="pub-series__eyebrow">Bimonthly</span>
-            <span class="pub-series__name">Topic Debate</span>
-          </div>
-          <div class="pub-series__box">
-            <span class="pub-series__eyebrow">Bimonthly</span>
-            <span class="pub-series__name">Book Talk</span>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Featured Program -->
-    <section class="pub-featured">
-      <div class="container">
-        <h2 class="pub-sec__h">Featured Program</h2>
-        <div class="pub-featured__link">
-          <div class="pub-featured__media">
-            <div class="media-cover"><span class="media-cover__cadence">Weekly</span><span class="media-cover__num">01</span></div>
-          </div>
-          <div class="pub-featured__card">
-            <span class="pub-featured__tag">Podcast · Weekly</span>
-            <h3 class="pub-featured__title">Crypto News</h3>
-            <div class="pub-featured__rule"></div>
-            <div class="pub-featured__byline"><span>Host &amp; researcher news talk</span><span class="dot"></span><span>In preparation</span></div>
-            <div class="pub-featured__rule"></div>
-            <p class="pub-featured__excerpt">The week's key issues seen through a researcher's lens, focused on why they matter rather than what merely moved.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Launch note -->
     <section class="pub-sec" style="padding-bottom: 64px;">
       <div class="container">
-        <p class="media-note" style="margin-top: 0;">The podcast is in preparation. Follow us on X and Instagram for early updates.</p>
+        <div class="pub-series">
+          <a class="pub-series__box" href="media/weekly-crypto.html"><span class="media-program__type">Weekly Crypto News</span><span class="media-program__name">This Week in Crypto</span></a>
+          <a class="pub-series__box" href="media/ask-the-author.html"><span class="media-program__type">Researcher Interviews</span><span class="media-program__name">Ask the Author</span></a>
+          <a class="pub-series__box" href="media/crypto-tutoring.html"><span class="media-program__type">Crypto Core Concepts</span><span class="media-program__name">Crypto Tutoring</span></a>
+          <a class="pub-series__box" href="media/crypto-issues.html"><span class="media-program__type">Topic Debate</span><span class="media-program__name">Crypto Issues</span></a>
+          <a class="pub-series__box" href="media/reading-crypto.html"><span class="media-program__type">Book Talk</span><span class="media-program__name">Reading Crypto</span></a>
+        </div>
       </div>
     </section>
-
   </div>
-  <!-- ================= /DARK TOP REGION ================= -->
+
+  <section class="media-feed" data-media-feed data-program="all" data-source="data/media-videos.en.json">
+    <div class="container">
+      <h2 class="media-feed__title">All Videos</h2>
+      <div class="media-video-grid" data-media-grid hidden></div>
+      <div class="media-empty" data-media-empty>
+        <h3 class="media-empty__title">Our Media programs are currently in preparation.</h3>
+        <p class="media-empty__copy">New videos will appear here when they are published on YouTube.</p>
+      </div>
+    </div>
+  </section>
 
   <!-- ================= NEWSLETTER CTA ================= -->
   <section class="cta" id="donate">
@@ -242,5 +219,6 @@
   </script>
   <script src="js/subscribe.js" defer></script>
   <script src="js/search.js" defer></script>
+  <script src="js/media.js" defer></script>
 </body>
 </html>

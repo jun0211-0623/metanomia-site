@@ -643,4 +643,94 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://metanomia-site.vercel.app/crypto-news.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://metanomia-site.vercel.app/crypto-news.html"/>
   </url>
+  <url>
+    <loc>https://metanomia-site.vercel.app/media/weekly-crypto.ko.html</loc>
+    <lastmod>2026-08-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://metanomia-site.vercel.app/media/weekly-crypto.ko.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://metanomia-site.vercel.app/media/weekly-crypto.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://metanomia-site.vercel.app/media/weekly-crypto.html"/>
+  </url>
+  <url>
+    <loc>https://metanomia-site.vercel.app/media/weekly-crypto.html</loc>
+    <lastmod>2026-08-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://metanomia-site.vercel.app/media/weekly-crypto.ko.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://metanomia-site.vercel.app/media/weekly-crypto.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://metanomia-site.vercel.app/media/weekly-crypto.html"/>
+  </url>
+  <url>
+    <loc>https://metanomia-site.vercel.app/media/ask-the-author.ko.html</loc>
+    <lastmod>2026-08-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://metanomia-site.vercel.app/media/ask-the-author.ko.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://metanomia-site.vercel.app/media/ask-the-author.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://metanomia-site.vercel.app/media/ask-the-author.html"/>
+  </url>
+  <url>
+    <loc>https://metanomia-site.vercel.app/media/ask-the-author.html</loc>
+    <lastmod>2026-08-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://metanomia-site.vercel.app/media/ask-the-author.ko.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://metanomia-site.vercel.app/media/ask-the-author.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://metanomia-site.vercel.app/media/ask-the-author.html"/>
+  </url>
+  <url>
+    <loc>https://metanomia-site.vercel.app/media/crypto-tutoring.ko.html</loc>
+    <lastmod>2026-08-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://metanomia-site.vercel.app/media/crypto-tutoring.ko.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://metanomia-site.vercel.app/media/crypto-tutoring.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://metanomia-site.vercel.app/media/crypto-tutoring.html"/>
+  </url>
+  <url>
+    <loc>https://metanomia-site.vercel.app/media/crypto-tutoring.html</loc>
+    <lastmod>2026-08-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://metanomia-site.vercel.app/media/crypto-tutoring.ko.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://metanomia-site.vercel.app/media/crypto-tutoring.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://metanomia-site.vercel.app/media/crypto-tutoring.html"/>
+  </url>
+  <url>
+    <loc>https://metanomia-site.vercel.app/media/crypto-issues.ko.html</loc>
+    <lastmod>2026-08-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://metanomia-site.vercel.app/media/crypto-issues.ko.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://metanomia-site.vercel.app/media/crypto-issues.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://metanomia-site.vercel.app/media/crypto-issues.html"/>
+  </url>
+  <url>
+    <loc>https://metanomia-site.vercel.app/media/crypto-issues.html</loc>
+    <lastmod>2026-08-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://metanomia-site.vercel.app/media/crypto-issues.ko.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://metanomia-site.vercel.app/media/crypto-issues.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://metanomia-site.vercel.app/media/crypto-issues.html"/>
+  </url>
+  <url>
+    <loc>https://metanomia-site.vercel.app/media/reading-crypto.ko.html</loc>
+    <lastmod>2026-08-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://metanomia-site.vercel.app/media/reading-crypto.ko.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://metanomia-site.vercel.app/media/reading-crypto.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://metanomia-site.vercel.app/media/reading-crypto.html"/>
+  </url>
+  <url>
+    <loc>https://metanomia-site.vercel.app/media/reading-crypto.html</loc>
+    <lastmod>2026-08-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://metanomia-site.vercel.app/media/reading-crypto.ko.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://metanomia-site.vercel.app/media/reading-crypto.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://metanomia-site.vercel.app/media/reading-crypto.html"/>
+  </url>
 </urlset>
