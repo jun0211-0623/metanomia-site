@@ -512,7 +512,7 @@ html[lang="ko"] .cat-tabs + .cat-hero--compact .cat-intro__q {
   font-size: clamp(26px, 2.7vw, 36px);
 }
 html[lang="ko"] .cat-tabs + .cat-hero--compact .cat-intro__body {
-  font-size: clamp(20px, 1.35vw, 22px);
+  font-size: clamp(20px, 1.25vw, 24px);
   line-height: 1.58;
 }
 html[lang="ko"] .cat-tabs + .cat-hero--compact .cat-intro {
@@ -1044,8 +1044,8 @@ html[lang="ko"] .cat-tabs + .cat-hero--compact .cat-intro {
 .media-video__title { margin-top: 9px; color: var(--ink); font-size: clamp(19px, 1.55vw, 24px); line-height: 1.28; font-weight: 500; word-break: keep-all; }
 .media-video__date { margin-top: 12px; color: var(--body); font-size: 14px; }
 .media-tabs + .cat-hero .cat-intro {
-  grid-template-columns: minmax(300px, .72fr) minmax(0, 1.28fr);
-  gap: clamp(32px, 3.2vw, 56px);
+  grid-template-columns: minmax(260px, .6fr) minmax(0, 1.4fr);
+  gap: clamp(24px, 2vw, 36px);
 }
 .media-tabs + .cat-hero .cat-intro__body {
   max-width: 780px;
