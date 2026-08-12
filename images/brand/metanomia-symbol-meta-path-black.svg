@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
   <title id="title">Metanomia Meta Path symbol</title>
   <desc id="desc">A continuous circuit path forms an M and exits at a higher level, representing movement beyond existing orders.</desc>
-  <path d="M6 54H16V18H24L32 34L40 8H48V54H58" fill="none" stroke="#000000" stroke-width="9" stroke-linecap="square" stroke-linejoin="miter"/>
+  <path d="M6 54H16V18H24L32 34L40 8H48V54H58" fill="none" stroke="#000000" stroke-width="9" stroke-linecap="square" stroke-linejoin="round"/>
 </svg>

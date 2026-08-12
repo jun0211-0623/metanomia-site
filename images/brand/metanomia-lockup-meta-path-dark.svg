@@ -2,7 +2,7 @@
   <title id="title">Metanomia Meta Path horizontal logo</title>
   <desc id="desc">Meta Path symbol and Metanomia wordmark for dark backgrounds.</desc>
   <g transform="translate(10 10) scale(1.0625)">
-    <path d="M6 54H16V18H24L32 34L40 8H48V54H58" fill="none" stroke="#C8FF34" stroke-width="9" stroke-linecap="square" stroke-linejoin="miter"/>
+    <path d="M6 54H16V18H24L32 34L40 8H48V54H58" fill="none" stroke="#C8FF34" stroke-width="9" stroke-linecap="square" stroke-linejoin="round"/>
   </g>
   <text x="94" y="57" fill="#C8FF34" font-family="Inter, Pretendard, Arial, sans-serif" font-size="34" font-weight="700" letter-spacing="-1">Metanomia</text>
 </svg>
