@@ -580,6 +580,7 @@ html[lang="ko"] dd {
 .cat-hero.about-hero { min-height: 0; display: block; }
 .about-hero .cat-hero__title { padding: 44px 0 72px; }
 .about-hero .cat-title { font-size: clamp(40px, 4.8vw, 58px); }
+.cat-title__brand { color: var(--accent); }
 .about-hero__lead { font-size: clamp(24px, 2.8vw, 36px); line-height: 1.28; color: #fff; font-weight: 500; letter-spacing: -0.3px; max-width: 60ch; margin-top: 28px; }
 .about-hero__actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 36px; }
 /* ghost buttons on the dark hero need light borders */
