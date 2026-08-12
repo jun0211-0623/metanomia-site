@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Publications | 메타노미아</title>
-  <meta name="description" content="메타노미아의 모든 보고서. Outlook·Findings·Perspectives·Policy &amp; Strategy·Guide 다섯 시리즈로 정리했습니다." />
+  <title>보고서 | 메타노미아</title>
+  <meta name="description" content="메타노미아가 발행한 모든 보고서를 확인하세요." />
   <link rel="canonical" href="https://metanomia-site.vercel.app/publications.ko.html" />
   <link rel="alternate" hreflang="ko" href="https://metanomia-site.vercel.app/publications.ko.html" />
   <link rel="alternate" hreflang="en" href="https://metanomia-site.vercel.app/publications.html" />
@@ -15,13 +15,13 @@
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="Metanomia" />
   <meta property="og:locale" content="ko_KR" />
-  <meta property="og:title" content="Publications | 메타노미아" />
-  <meta property="og:description" content="메타노미아의 모든 보고서. Outlook·Findings·Perspectives·Policy &amp; Strategy·Guide 다섯 시리즈로 정리했습니다." />
+  <meta property="og:title" content="보고서 | 메타노미아" />
+  <meta property="og:description" content="메타노미아가 발행한 모든 보고서를 확인하세요." />
   <meta property="og:url" content="https://metanomia-site.vercel.app/publications.ko.html" />
   <meta property="og:image" content="https://metanomia-site.vercel.app/images/brand/og-default.png" />
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Publications | 메타노미아" />
-  <meta name="twitter:description" content="메타노미아의 모든 보고서. Outlook·Findings·Perspectives·Policy &amp; Strategy·Guide 다섯 시리즈로 정리했습니다." />
+  <meta name="twitter:title" content="보고서 | 메타노미아" />
+  <meta name="twitter:description" content="메타노미아가 발행한 모든 보고서를 확인하세요." />
   <meta name="twitter:image" content="https://metanomia-site.vercel.app/images/brand/og-default.png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -47,7 +47,17 @@
             <a href="contact.ko.html">문의하기</a>
           </div>
         </div>
-        <a class="nav__link" href="publications.ko.html">Publications</a>
+        <div class="nav__item nav__item--menu">
+          <a class="nav__link" href="publications.ko.html">보고서 <svg class="nav__caret" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="m6 9 6 6 6-6"/></svg></a>
+          <div class="nav__dropdown nav__dropdown--publications">
+            <a href="publications.ko.html">All</a>
+            <a href="series/outlook.ko.html">OUTLOOK</a>
+            <a href="series/research.ko.html">FINDINGS</a>
+            <a href="series/perspectives.ko.html">PERSPECTIVES</a>
+            <a href="series/policy-strategy.ko.html">POLICY &amp; STRATEGY</a>
+            <a href="series/guide.ko.html">GUIDE</a>
+          </div>
+        </div>
         <a class="nav__link" href="media.ko.html">Media</a>
         <a class="nav__link" href="crypto-news.ko.html">Crypto News</a>
       </nav>
@@ -67,7 +77,13 @@
       <a class="nav__drawer-link" href="about.ko.html">메타노미아 소개</a>
       <a class="nav__drawer-link nav__drawer-link--sub" href="members.ko.html">구성원</a>
       <a class="nav__drawer-link nav__drawer-link--sub" href="contact.ko.html">문의하기</a>
-      <a class="nav__drawer-link" href="publications.ko.html">Publications</a>
+      <a class="nav__drawer-link" href="publications.ko.html">보고서</a>
+      <a class="nav__drawer-link nav__drawer-link--sub" href="publications.ko.html">All</a>
+      <a class="nav__drawer-link nav__drawer-link--sub" href="series/outlook.ko.html">OUTLOOK</a>
+      <a class="nav__drawer-link nav__drawer-link--sub" href="series/research.ko.html">FINDINGS</a>
+      <a class="nav__drawer-link nav__drawer-link--sub" href="series/perspectives.ko.html">PERSPECTIVES</a>
+      <a class="nav__drawer-link nav__drawer-link--sub" href="series/policy-strategy.ko.html">POLICY &amp; STRATEGY</a>
+      <a class="nav__drawer-link nav__drawer-link--sub" href="series/guide.ko.html">GUIDE</a>
       <a class="nav__drawer-link" href="media.ko.html">Media</a>
       <a class="nav__drawer-link" href="crypto-news.ko.html">Crypto News</a>
       <a class="nav__drawer-link" href="publications.html">English</a>
@@ -82,7 +98,7 @@
     <section class="pub-hero">
       <div class="container">
         <a class="cat-back" href="ko.html">← 홈으로</a>
-        <h1 class="pub-title">Publications</h1>
+        <h1 class="pub-title">보고서</h1>
         <p class="pub-hero__sub">메타노미아가 발행한 모든 보고서.</p>
       </div>
     </section>
@@ -91,27 +107,21 @@
     <section class="pub-sec">
       <div class="container">
         <h2 class="pub-sec__h">보고서 시리즈</h2>
-        <p class="pub-sec__sub">결론의 성격에 따라 나눈 다섯 시리즈.</p>
         <div class="pub-series">
           <a class="pub-series__box" href="series/outlook.ko.html">
-            <span class="pub-series__eyebrow">Outlook</span>
-            <span class="pub-series__name">전망</span>
+            <span class="pub-series__title">OUTLOOK</span>
           </a>
           <a class="pub-series__box" href="series/research.ko.html">
-            <span class="pub-series__eyebrow">Findings</span>
-            <span class="pub-series__name">연구</span>
+            <span class="pub-series__title">FINDINGS</span>
           </a>
           <a class="pub-series__box" href="series/perspectives.ko.html">
-            <span class="pub-series__eyebrow">Perspectives</span>
-            <span class="pub-series__name">관점·논제</span>
+            <span class="pub-series__title">PERSPECTIVES</span>
           </a>
           <a class="pub-series__box" href="series/policy-strategy.ko.html">
-            <span class="pub-series__eyebrow">Policy &amp; Strategy</span>
-            <span class="pub-series__name">정책·전략</span>
+            <span class="pub-series__title">POLICY &amp; STRATEGY</span>
           </a>
           <a class="pub-series__box" href="series/guide.ko.html">
-            <span class="pub-series__eyebrow">Guide</span>
-            <span class="pub-series__name">실행·실무 가이드</span>
+            <span class="pub-series__title">GUIDE</span>
           </a>
         </div>
       </div>
@@ -244,7 +254,7 @@
         </div>
         <div class="footer__col">
           <h4>Info</h4>
-          <a href="publications.ko.html">Publications</a>
+          <a href="publications.ko.html">보고서</a>
           <a href="media.ko.html">Media</a>
           <a href="crypto-news.ko.html">Crypto News</a>
           <a href="donate.ko.html">Donate</a>

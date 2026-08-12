@@ -128,6 +128,7 @@ h3 { font-size: clamp(20px, 2.4vw, 26px); letter-spacing: -0.3px; }
 .nav__item--menu:focus-within .nav__dropdown { opacity: 1; visibility: visible; transform: translateY(0); }
 .nav__dropdown a { display: block; padding: 10px 20px; color: #fff; font-size: 15px; font-weight: 400; white-space: nowrap; }
 .nav__dropdown a:hover { color: var(--accent); background: #1a1a1a; }
+.nav__dropdown--publications { min-width: 250px; }
 
 .nav__toggle { display: none; color: var(--ink); background: none; }
 
@@ -537,6 +538,7 @@ html[lang="ko"] dd {
 .pub-sec { padding: 56px 0 0; }
 .pub-sec__h { color: #fff; font-size: clamp(28px, 3.4vw, 42px); font-weight: 600; letter-spacing: -0.3px; margin-bottom: 8px; }
 .pub-sec__sub { color: rgba(255,255,255,.6); font-size: 17px; line-height: 1.5; margin-bottom: 32px; max-width: 640px; }
+.pub-sec__h + .pub-series { margin-top: 32px; }
 
 /* Report Series — bordered boxes on dark (Focus areas style) */
 .pub-series { display: grid; grid-template-columns: repeat(5, 1fr); gap: 16px; }
@@ -544,6 +546,7 @@ html[lang="ko"] dd {
 .pub-series__box:hover { border-color: #fff; background: rgba(255,255,255,.05); }
 .pub-series__eyebrow { font-size: 11px; font-weight: 700; letter-spacing: .09em; text-transform: uppercase; color: var(--accent); }
 .pub-series__name { font-size: 22px; font-weight: 600; color: #fff; letter-spacing: -0.2px; }
+.pub-series__title { font-size: clamp(20px, 1.8vw, 28px); line-height: 1.15; font-weight: 750; letter-spacing: .03em; color: var(--accent); }
 .pub-series__desc { margin-top: auto; font-size: 13.5px; line-height: 1.45; color: rgba(255,255,255,.55); }
 
 /* Featured Post — square image left + white content card right */
