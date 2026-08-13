@@ -1,7 +1,25 @@
 {
   "schema_version": "1.0",
-  "generated_at_kst": "2026-08-13T09:14:00+09:00",
+  "generated_at_kst": "2026-08-14T07:57:00+09:00",
   "items": [
+    {
+      "id": "crypto-news-8b68c2fad6127736",
+      "slug": "2026-08-14-crypto-news-8b68c2fad6",
+      "date_kst": "2026-08-14",
+      "title": "테더, KPMG 첫 전체 재무감사서 적정 의견…감사보고서 원문은 미확인",
+      "content": "스테이블코인 USDT 발행사 테더는 KPMG 미국법인이 테더 인터내셔널의 2025년 연결재무제표를 미국 회계기준(US GAAP)으로 감사하고 적정 의견을 냈다고 밝혔다. 테더에 따르면 감사는 거래·시스템·자산 소유권·평가·거래상대방과 증빙을 점검했고, 준비자산의 금괴도 실물로 확인했다. 2025년 말 기준 준비자산은 부채보다 68억1,400만 달러 많았다고 회사는 설명했다. 다만 감사보고서 원문은 공개된 것으로 확인되지 않아, 공개된 근거는 테더의 발표와 이를 인용한 독립 보도에 한정된다. 이번 감사는 분기별 준비금 확인업무보다 범위가 넓지만, USDT 보유자의 상환청구권이나 동결 권한, 체인별 결제 구조를 바꾸는 조치는 아니다.",
+      "metanomia_thought": "스테이블코인의 신뢰는 시가총액보다 준비자산이 어떤 권리와 절차로 검증되는지에 달려 있습니다. 첫 전체 감사는 검증 수준을 높였지만, 이용자가 판단할 수 있으려면 감사보고서 원문과 준비자산 구성·상환 위험도 계속 공개돼야 합니다.",
+      "sources": [
+        {
+          "title": "Tether Completes the Largest Inaugural Financial Audit in History",
+          "url": "https://tether.io/news/tether-completes-the-largest-inaugural-financial-audit-in-history/"
+        },
+        {
+          "title": "‘빅4’ KPMG 만난 테더… 첫 정식 감사서 ‘적정’ 의견",
+          "url": "https://www.blockmedia.co.kr/archives/1127601"
+        }
+      ]
+    },
     {
       "id": "crypto-news-98fe0340c104754d",
       "slug": "2026-08-13-crypto-news-98fe0340c1",
