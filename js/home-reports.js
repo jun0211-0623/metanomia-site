@@ -50,6 +50,17 @@
     return title;
   }
 
+  function buildLeadTitle(report) {
+    if (isKo && report.href.indexOf('where-is-ethereum-going') !== -1) {
+      var title = make('h1', 'lead__title ethereum-report-title');
+      title.setAttribute('aria-label', report.title);
+      title.appendChild(make('span', 'ethereum-report-title__line', '2026년,'));
+      title.appendChild(make('span', 'ethereum-report-title__line', '이더리움은 어디로 가고 있는가'));
+      return title;
+    }
+    return buildReportTitle('h1', 'lead__title', report);
+  }
+
   function buildLeadSlide(report) {
     var link = make('a', 'lead__slide');
     link.href = report.href;
@@ -62,7 +73,7 @@
 
     var overlay = make('div', 'lead__overlay');
     overlay.appendChild(make('span', 'lead__tag', report.series));
-    overlay.appendChild(buildReportTitle('h1', 'lead__title', report));
+    overlay.appendChild(buildLeadTitle(report));
     if (report.excerpt) overlay.appendChild(make('p', 'lead__excerpt', report.excerpt));
 
     var byline = make('div', 'lead__byline');

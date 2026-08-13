@@ -174,7 +174,7 @@ html[lang="ko"] .nav__dropdown--publications { min-width: 360px; }
   font-size: 12px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase;
   padding: 6px 12px; margin-bottom: 18px;
 }
-.lead__title { color: #fff; font-weight: 600; font-size: clamp(38px, 4.4vw, 62px); line-height: 1.03; letter-spacing: -0.6px; max-width: 18ch; }
+.lead__title { color: #fff; font-weight: 600; font-size: clamp(38px, 4.4vw, 62px); line-height: 1.12; letter-spacing: -0.6px; max-width: 18ch; }
 .lead__excerpt { margin-top: 20px; max-width: 62ch; font-size: 17px; line-height: 1.55; color: #e8e8ec; }
 .lead__byline { margin-top: 22px; display: flex; align-items: center; gap: 10px; font-size: 14px; color: #c9c9cf; }
 .lead__slide:hover .lead__title { text-decoration: underline; text-underline-offset: 4px; }
@@ -1055,7 +1055,8 @@ html[lang="ko"] .pub-dark.about-hero .about-hero__lead { font-size: clamp(24px, 
   }
 }
 /* Keep the two intended lines of the quantum-computing report title explicit. */
-.quantum-report-title__line {
+.quantum-report-title__line,
+.ethereum-report-title__line {
   display: block;
 }
 @media (min-width: 992px) {
@@ -1063,7 +1064,8 @@ html[lang="ko"] .pub-dark.about-hero .about-hero__lead { font-size: clamp(24px, 
     max-width: none;
     font-size: clamp(32px, 3.3vw, 48px);
   }
-  html[lang="ko"] .lead__title.quantum-report-title .quantum-report-title__line {
+  html[lang="ko"] .lead__title.quantum-report-title .quantum-report-title__line,
+  html[lang="ko"] .lead__title.ethereum-report-title .ethereum-report-title__line {
     white-space: nowrap;
   }
 }
