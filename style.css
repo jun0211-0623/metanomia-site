@@ -595,6 +595,27 @@ html[lang="ko"] .cat-tabs + .cat-hero--compact .cat-intro {
 .pub-featured__byline { display: flex; align-items: center; gap: 16px; font-size: 14px; color: var(--body); }
 .pub-featured__excerpt { color: var(--body); font-size: 16px; line-height: 1.55; margin-top: 22px; max-width: 46ch; }
 
+/* Keep the report-series overview and the complete latest report in one
+   desktop viewport. The featured image is intentionally landscape here;
+   report cards and mobile layouts retain their original proportions. */
+@media (min-width: 901px) {
+  .pub-hero { padding: 24px 0 0; }
+  .pub-hero .cat-back { margin-bottom: 12px; }
+  .pub-title--primary { font-size: clamp(38px, 3vw, 46px); }
+  .pub-sec { padding-top: 20px; }
+  .pub-series { gap: 12px; }
+  .pub-series__box { min-height: 86px; padding: 15px 18px; }
+  .pub-series__title { font-size: clamp(18px, 1.45vw, 24px); }
+  .pub-featured { padding: 28px 0; }
+  .pub-featured__link { height: clamp(300px, 38vh, 420px); }
+  .pub-featured__media { aspect-ratio: auto; }
+  .pub-featured__card { padding: clamp(26px, 2.2vw, 38px); }
+  .pub-featured__tag { margin-bottom: 12px; }
+  .pub-featured__title { font-size: clamp(23px, 2vw, 30px); }
+  .pub-featured__rule { margin: 14px 0; }
+  .pub-featured__excerpt { margin-top: 14px; font-size: 15px; }
+}
+
 /* All Reports — white section with toolbar + grid (reuses cat-toolbar/cat-grid) */
 .pub-research { background: var(--white); padding: 64px 0 80px; }
 .pub-research__head { display: flex; align-items: baseline; justify-content: space-between; gap: 24px; flex-wrap: wrap; margin-bottom: 36px; }
