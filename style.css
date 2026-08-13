@@ -1064,8 +1064,13 @@ html[lang="ko"] .pub-dark.about-hero .about-hero__lead { font-size: clamp(24px, 
     max-width: none;
     font-size: clamp(32px, 3.3vw, 48px);
   }
+  html[lang="en"] .lead__title.quantum-report-title--en {
+    max-width: none;
+    font-size: clamp(36px, 3.4vw, 52px);
+  }
   html[lang="ko"] .lead__title.quantum-report-title .quantum-report-title__line,
-  html[lang="ko"] .lead__title.ethereum-report-title .ethereum-report-title__line {
+  html[lang="ko"] .lead__title.ethereum-report-title .ethereum-report-title__line,
+  html[lang="en"] .lead__title.quantum-report-title--en .quantum-report-title__line {
     white-space: nowrap;
   }
 }

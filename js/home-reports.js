@@ -58,6 +58,13 @@
       title.appendChild(make('span', 'ethereum-report-title__line', '이더리움은 어디로 가고 있는가'));
       return title;
     }
+    if (!isKo && report.href.indexOf('bitcoin-quantum-computing') !== -1) {
+      var quantumTitle = make('h1', 'lead__title quantum-report-title quantum-report-title--en');
+      quantumTitle.setAttribute('aria-label', report.title);
+      quantumTitle.appendChild(make('span', 'quantum-report-title__line', 'Can Bitcoin Survive'));
+      quantumTitle.appendChild(make('span', 'quantum-report-title__line', 'the Age of Quantum Computing?'));
+      return quantumTitle;
+    }
     return buildReportTitle('h1', 'lead__title', report);
   }
 
