@@ -606,7 +606,7 @@ html[lang="ko"] .cat-tabs + .cat-hero--compact .cat-intro {
   .pub-series { gap: 12px; }
   .pub-series__box { min-height: 86px; padding: 15px 18px; }
   .pub-series__title { font-size: clamp(18px, 1.45vw, 24px); }
-  .pub-featured { padding: 28px 0; }
+  .pub-featured { padding: 52px 0 28px; }
   .pub-featured__link { height: clamp(300px, 38vh, 420px); }
   .pub-featured__media { aspect-ratio: auto; }
   .pub-featured__card { padding: clamp(26px, 2.2vw, 38px); }
