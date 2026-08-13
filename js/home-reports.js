@@ -37,6 +37,19 @@
     return a.sourceIndex - b.sourceIndex;
   }
 
+  function buildReportTitle(tagName, className, report) {
+    var title = make(tagName, className);
+    if (isKo && report.href.indexOf('bitcoin-quantum-computing') !== -1) {
+      title.classList.add('quantum-report-title');
+      title.setAttribute('aria-label', report.title);
+      title.appendChild(make('span', 'quantum-report-title__line', '비트코인은 양자컴퓨팅 시대에도'));
+      title.appendChild(make('span', 'quantum-report-title__line', '살아남을 수 있는가'));
+    } else {
+      title.textContent = report.title;
+    }
+    return title;
+  }
+
   function buildLeadSlide(report) {
     var link = make('a', 'lead__slide');
     link.href = report.href;
@@ -49,7 +62,7 @@
 
     var overlay = make('div', 'lead__overlay');
     overlay.appendChild(make('span', 'lead__tag', report.series));
-    overlay.appendChild(make('h1', 'lead__title', report.title));
+    overlay.appendChild(buildReportTitle('h1', 'lead__title', report));
     if (report.excerpt) overlay.appendChild(make('p', 'lead__excerpt', report.excerpt));
 
     var byline = make('div', 'lead__byline');
@@ -89,7 +102,7 @@
     media.appendChild(image);
     media.appendChild(make('span', 'subcard__tag', report.series));
     link.appendChild(media);
-    link.appendChild(make('h3', 'subcard__title', report.title));
+    link.appendChild(buildReportTitle('h3', 'subcard__title', report));
 
     var meta = make('div', 'subcard__meta');
     meta.appendChild(make('span', '', report.date));
@@ -130,7 +143,7 @@
       row.appendChild(make('span', 'card__date', isKo ? report.author : report.date));
     }
     body.appendChild(row);
-    body.appendChild(make('h3', 'card__title', report.title));
+    body.appendChild(buildReportTitle('h3', 'card__title', report));
     if (report.excerpt) body.appendChild(make('p', 'card__excerpt', report.excerpt));
     if (report.author) body.appendChild(make('span', 'card__author', report.author));
     link.appendChild(body);
