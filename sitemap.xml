@@ -178,22 +178,6 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://metanomia-site.vercel.app/donate.html"/>
   </url>
   <url>
-    <loc>https://metanomia-site.vercel.app/fellows.html</loc>
-    <lastmod>2026-08-04</lastmod>
-    <priority>0.6</priority>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://metanomia-site.vercel.app/fellows.ko.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://metanomia-site.vercel.app/fellows.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://metanomia-site.vercel.app/fellows.html"/>
-  </url>
-  <url>
-    <loc>https://metanomia-site.vercel.app/fellows.ko.html</loc>
-    <lastmod>2026-08-04</lastmod>
-    <priority>0.6</priority>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://metanomia-site.vercel.app/fellows.ko.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://metanomia-site.vercel.app/fellows.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://metanomia-site.vercel.app/fellows.html"/>
-  </url>
-  <url>
     <loc>https://metanomia-site.vercel.app/index.html</loc>
     <lastmod>2026-08-04</lastmod>
     <priority>1.0</priority>
@@ -610,22 +594,6 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://metanomia-site.vercel.app/series/research.html"/>
   </url>
   <url>
-    <loc>https://metanomia-site.vercel.app/team.html</loc>
-    <lastmod>2026-08-04</lastmod>
-    <priority>0.6</priority>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://metanomia-site.vercel.app/team.ko.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://metanomia-site.vercel.app/team.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://metanomia-site.vercel.app/team.html"/>
-  </url>
-  <url>
-    <loc>https://metanomia-site.vercel.app/team.ko.html</loc>
-    <lastmod>2026-08-04</lastmod>
-    <priority>0.6</priority>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://metanomia-site.vercel.app/team.ko.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://metanomia-site.vercel.app/team.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://metanomia-site.vercel.app/team.html"/>
-  </url>
-  <url>
     <loc>https://metanomia-site.vercel.app/crypto-news.ko.html</loc>
     <lastmod>2026-08-12</lastmod>
     <changefreq>daily</changefreq>
@@ -735,4 +703,219 @@
   </url>
   <url><loc>https://metanomia-site.vercel.app/terms.ko.html</loc></url>
   <url><loc>https://metanomia-site.vercel.app/terms.html</loc></url>
+  <url>
+    <loc>https://metanomia-site.vercel.app/members.html</loc>
+    <lastmod>2026-08-13</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://metanomia-site.vercel.app/members.ko.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://metanomia-site.vercel.app/members.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://metanomia-site.vercel.app/members.html"/>
+  </url>
+
+  <url>
+    <loc>https://metanomia-site.vercel.app/members.ko.html</loc>
+    <lastmod>2026-08-13</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://metanomia-site.vercel.app/members.ko.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://metanomia-site.vercel.app/members.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://metanomia-site.vercel.app/members.html"/>
+  </url>
+
+  <url>
+    <loc>https://metanomia-site.vercel.app/people/daehan-seok.html</loc>
+    <lastmod>2026-08-13</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://metanomia-site.vercel.app/people/daehan-seok.ko.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://metanomia-site.vercel.app/people/daehan-seok.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://metanomia-site.vercel.app/people/daehan-seok.html"/>
+  </url>
+
+  <url>
+    <loc>https://metanomia-site.vercel.app/people/daehan-seok.ko.html</loc>
+    <lastmod>2026-08-13</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://metanomia-site.vercel.app/people/daehan-seok.ko.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://metanomia-site.vercel.app/people/daehan-seok.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://metanomia-site.vercel.app/people/daehan-seok.html"/>
+  </url>
+
+  <url>
+    <loc>https://metanomia-site.vercel.app/people/eunmi-kim.html</loc>
+    <lastmod>2026-08-13</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://metanomia-site.vercel.app/people/eunmi-kim.ko.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://metanomia-site.vercel.app/people/eunmi-kim.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://metanomia-site.vercel.app/people/eunmi-kim.html"/>
+  </url>
+
+  <url>
+    <loc>https://metanomia-site.vercel.app/people/eunmi-kim.ko.html</loc>
+    <lastmod>2026-08-13</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://metanomia-site.vercel.app/people/eunmi-kim.ko.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://metanomia-site.vercel.app/people/eunmi-kim.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://metanomia-site.vercel.app/people/eunmi-kim.html"/>
+  </url>
+
+  <url>
+    <loc>https://metanomia-site.vercel.app/people/jewoo-ryu.html</loc>
+    <lastmod>2026-08-13</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://metanomia-site.vercel.app/people/jewoo-ryu.ko.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://metanomia-site.vercel.app/people/jewoo-ryu.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://metanomia-site.vercel.app/people/jewoo-ryu.html"/>
+  </url>
+
+  <url>
+    <loc>https://metanomia-site.vercel.app/people/jewoo-ryu.ko.html</loc>
+    <lastmod>2026-08-13</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://metanomia-site.vercel.app/people/jewoo-ryu.ko.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://metanomia-site.vercel.app/people/jewoo-ryu.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://metanomia-site.vercel.app/people/jewoo-ryu.html"/>
+  </url>
+
+  <url>
+    <loc>https://metanomia-site.vercel.app/people/jungeun-lee.html</loc>
+    <lastmod>2026-08-13</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://metanomia-site.vercel.app/people/jungeun-lee.ko.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://metanomia-site.vercel.app/people/jungeun-lee.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://metanomia-site.vercel.app/people/jungeun-lee.html"/>
+  </url>
+
+  <url>
+    <loc>https://metanomia-site.vercel.app/people/jungeun-lee.ko.html</loc>
+    <lastmod>2026-08-13</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://metanomia-site.vercel.app/people/jungeun-lee.ko.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://metanomia-site.vercel.app/people/jungeun-lee.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://metanomia-site.vercel.app/people/jungeun-lee.html"/>
+  </url>
+
+  <url>
+    <loc>https://metanomia-site.vercel.app/people/mingu-park.html</loc>
+    <lastmod>2026-08-13</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://metanomia-site.vercel.app/people/mingu-park.ko.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://metanomia-site.vercel.app/people/mingu-park.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://metanomia-site.vercel.app/people/mingu-park.html"/>
+  </url>
+
+  <url>
+    <loc>https://metanomia-site.vercel.app/people/mingu-park.ko.html</loc>
+    <lastmod>2026-08-13</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://metanomia-site.vercel.app/people/mingu-park.ko.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://metanomia-site.vercel.app/people/mingu-park.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://metanomia-site.vercel.app/people/mingu-park.html"/>
+  </url>
+
+  <url>
+    <loc>https://metanomia-site.vercel.app/people/sanghwan-kim.html</loc>
+    <lastmod>2026-08-13</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://metanomia-site.vercel.app/people/sanghwan-kim.ko.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://metanomia-site.vercel.app/people/sanghwan-kim.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://metanomia-site.vercel.app/people/sanghwan-kim.html"/>
+  </url>
+
+  <url>
+    <loc>https://metanomia-site.vercel.app/people/sanghwan-kim.ko.html</loc>
+    <lastmod>2026-08-13</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://metanomia-site.vercel.app/people/sanghwan-kim.ko.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://metanomia-site.vercel.app/people/sanghwan-kim.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://metanomia-site.vercel.app/people/sanghwan-kim.html"/>
+  </url>
+
+  <url>
+    <loc>https://metanomia-site.vercel.app/people/seonhyeop-park.html</loc>
+    <lastmod>2026-08-13</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://metanomia-site.vercel.app/people/seonhyeop-park.ko.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://metanomia-site.vercel.app/people/seonhyeop-park.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://metanomia-site.vercel.app/people/seonhyeop-park.html"/>
+  </url>
+
+  <url>
+    <loc>https://metanomia-site.vercel.app/people/seonhyeop-park.ko.html</loc>
+    <lastmod>2026-08-13</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://metanomia-site.vercel.app/people/seonhyeop-park.ko.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://metanomia-site.vercel.app/people/seonhyeop-park.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://metanomia-site.vercel.app/people/seonhyeop-park.html"/>
+  </url>
+
+  <url>
+    <loc>https://metanomia-site.vercel.app/people/serin-kim.html</loc>
+    <lastmod>2026-08-13</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://metanomia-site.vercel.app/people/serin-kim.ko.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://metanomia-site.vercel.app/people/serin-kim.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://metanomia-site.vercel.app/people/serin-kim.html"/>
+  </url>
+
+  <url>
+    <loc>https://metanomia-site.vercel.app/people/serin-kim.ko.html</loc>
+    <lastmod>2026-08-13</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://metanomia-site.vercel.app/people/serin-kim.ko.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://metanomia-site.vercel.app/people/serin-kim.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://metanomia-site.vercel.app/people/serin-kim.html"/>
+  </url>
+
+  <url>
+    <loc>https://metanomia-site.vercel.app/people/seyeon-cho.html</loc>
+    <lastmod>2026-08-13</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://metanomia-site.vercel.app/people/seyeon-cho.ko.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://metanomia-site.vercel.app/people/seyeon-cho.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://metanomia-site.vercel.app/people/seyeon-cho.html"/>
+  </url>
+
+  <url>
+    <loc>https://metanomia-site.vercel.app/people/seyeon-cho.ko.html</loc>
+    <lastmod>2026-08-13</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://metanomia-site.vercel.app/people/seyeon-cho.ko.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://metanomia-site.vercel.app/people/seyeon-cho.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://metanomia-site.vercel.app/people/seyeon-cho.html"/>
+  </url>
+
+  <url>
+    <loc>https://metanomia-site.vercel.app/people/taemin-oh.html</loc>
+    <lastmod>2026-08-13</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://metanomia-site.vercel.app/people/taemin-oh.ko.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://metanomia-site.vercel.app/people/taemin-oh.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://metanomia-site.vercel.app/people/taemin-oh.html"/>
+  </url>
+
+  <url>
+    <loc>https://metanomia-site.vercel.app/people/taemin-oh.ko.html</loc>
+    <lastmod>2026-08-13</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://metanomia-site.vercel.app/people/taemin-oh.ko.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://metanomia-site.vercel.app/people/taemin-oh.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://metanomia-site.vercel.app/people/taemin-oh.html"/>
+  </url>
+
+  <url>
+    <loc>https://metanomia-site.vercel.app/people/yongrae-cho.html</loc>
+    <lastmod>2026-08-13</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://metanomia-site.vercel.app/people/yongrae-cho.ko.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://metanomia-site.vercel.app/people/yongrae-cho.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://metanomia-site.vercel.app/people/yongrae-cho.html"/>
+  </url>
+
+  <url>
+    <loc>https://metanomia-site.vercel.app/people/yongrae-cho.ko.html</loc>
+    <lastmod>2026-08-13</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://metanomia-site.vercel.app/people/yongrae-cho.ko.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://metanomia-site.vercel.app/people/yongrae-cho.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://metanomia-site.vercel.app/people/yongrae-cho.html"/>
+  </url>
 </urlset>
