@@ -1,7 +1,24 @@
 {
   "schema_version": "1.0",
-  "generated_at_kst": "2026-08-13T09:14:00+09:00",
+  "generated_at_kst": "2026-08-14T07:57:00+09:00",
   "items": [
+    {
+      "slug": "2026-08-14-crypto-news-8b68c2fad6",
+      "date_kst": "2026-08-14",
+      "title": "Tether Receives Unqualified Opinion in First Full Financial Audit by KPMG: Original Audit Report Not Confirmed",
+      "content": "Tether, the issuer of the stablecoin USDT, said that KPMG's US firm audited Tether International's 2025 consolidated financial statements under US accounting standards (US GAAP) and issued an unqualified opinion. According to Tether, the audit examined transactions, systems, ownership of assets, valuation, counterparties and supporting documentation, and the gold bars held in reserves were also verified physically. The company explained that as of the end of 2025, reserve assets exceeded liabilities by 6.814 billion dollars. However, the original audit report has not been confirmed as publicly released, so the publicly available basis is limited to Tether's announcement and independent reporting citing it. This audit is broader in scope than the quarterly reserve attestation work, but it is not a measure that changes USDT holders' redemption claims, freezing authority, or the settlement structure on each chain.",
+      "metanomia_thought": "Trust in a stablecoin depends less on market capitalization than on the rights and procedures by which its reserve assets are verified. The first full audit has raised the level of verification, but for users to be able to make their own judgments, the original audit report along with the composition of reserve assets and redemption risk must continue to be disclosed.",
+      "sources": [
+        {
+          "title": "Tether Completes the Largest Inaugural Financial Audit in History",
+          "url": "https://tether.io/news/tether-completes-the-largest-inaugural-financial-audit-in-history/"
+        },
+        {
+          "title": "‘빅4’ KPMG 만난 테더… 첫 정식 감사서 ‘적정’ 의견",
+          "url": "https://www.blockmedia.co.kr/archives/1127601"
+        }
+      ]
+    },
     {
       "slug": "2026-08-13-crypto-news-98fe0340c1",
       "date_kst": "2026-08-13",
