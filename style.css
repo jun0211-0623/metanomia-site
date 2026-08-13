@@ -1037,6 +1037,15 @@ html[lang="ko"] .pub-dark.about-hero .about-hero__lead { font-size: clamp(24px, 
 .quantum-report-title__line {
   display: block;
 }
+@media (min-width: 992px) {
+  html[lang="ko"] .lead__title.quantum-report-title {
+    max-width: none;
+    font-size: clamp(32px, 3.3vw, 48px);
+  }
+  html[lang="ko"] .lead__title.quantum-report-title .quantum-report-title__line {
+    white-space: nowrap;
+  }
+}
 /* Media program pages and the future YouTube feed. */
 .nav__dropdown--media { min-width: 270px; }
 .pub-series--media .pub-series__box { justify-content: center; }
