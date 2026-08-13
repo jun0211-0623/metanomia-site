@@ -1,7 +1,24 @@
 {
   "schema_version": "1.0",
-  "generated_at_kst": "2026-08-12T09:47:00+09:00",
+  "generated_at_kst": "2026-08-13T09:14:00+09:00",
   "items": [
+    {
+      "slug": "2026-08-13-crypto-news-98fe0340c1",
+      "date_kst": "2026-08-13",
+      "title": "Goldman Sachs Agrees to Acquire NEOS, Bringing Bitcoin Income ETF Business Under Its Roof",
+      "content": "Goldman Sachs has agreed to acquire the exchange-traded fund (ETF) manager NEOS Investments for up to $2.25 billion. NEOS runs about $30 billion across 19 ETFs as of the end of June 2026, and its strength lies in \"income ETFs\": funds that invest in assets such as equities or bonds while selling options to generate additional returns, which are then distributed to investors on a regular basis.\r\n\r\nNEOS also runs products that combine this strategy with digital assets. BTCI invests in instruments linked to the price of bitcoin while selling call options, aiming to earn additional income each month. NEHI is likewise an ETF that combines exposure to the price of ethereum with an option-selling strategy. In other words, unlike conventional digital asset ETFs that simply track increases in the price of bitcoin or ethereum, these funds are characterized by their use of price volatility to generate an additional return in the form of option premiums.\r\n\r\nThe acquisition has not yet closed, however. Goldman Sachs expects to complete the transaction in the first quarter of 2027, after regulatory approvals and other steps. Until then, NEOS's existing ETFs will continue to trade normally under their current ticker symbols, and investors need to take no separate action. ETF shareholders will be sent proxy materials for the vote to approve the acquisition. Even after the deal closes, the existing investment team will continue to manage the funds, and NEOS will operate as a separate ETF business within Goldman Sachs Asset Management.",
+      "metanomia_thought": "This acquisition can be read as a move by a traditional financial firm to go a step beyond simply providing price exposure to crypto assets, and to secure the capability to design and manage option-based products that generate returns from that volatility. That said, an option income strategy pursues regular distribution income at the cost of capping part of the upside in a strong rally, so it should not be interpreted as a straightforward substitute for a spot ETF.",
+      "sources": [
+        {
+          "title": "NEOS Investments to Join Goldman Sachs Asset Management",
+          "url": "https://neosfunds.com/neos-investments-to-join-goldman-sachs-asset-management/"
+        },
+        {
+          "title": "Goldman Sachs to buy ETF provider NEOS in $2.3 billion deal",
+          "url": "https://www.reuters.com/business/goldman-sachs-buy-etf-provider-neos-23-billion-deal-2026-08-12/"
+        }
+      ]
+    },
     {
       "slug": "2026-08-12-crypto-news-f140696a54",
       "date_kst": "2026-08-12",
