@@ -650,7 +650,7 @@ html[lang="ko"] .pub-dark.about-hero .about-hero__lead { font-size: clamp(24px, 
 }
 .about-body__grid--series .give-list__term { display: flex; flex-direction: column; align-items: flex-start; gap: 4px; text-align: left; font-size: clamp(21px, 1.6vw, 24px); line-height: 1.35; letter-spacing: .02em; }
 .about-body__grid--series .give-list__desc { font-size: clamp(18px, 1.4vw, 21px); line-height: 1.68; }
-.give-list__term-en { display: block; font-size: .78em; letter-spacing: .05em; white-space: nowrap; }
+.give-list__term-sub { display: block; font-size: .78em; letter-spacing: .05em; white-space: nowrap; }
 /* contact block */
 .contact-grid { display: grid; grid-template-columns: 320px 1fr; gap: 56px; max-width: 1100px; }
 .contact-item { margin-bottom: 32px; }
