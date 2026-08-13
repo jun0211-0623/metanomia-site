@@ -161,15 +161,15 @@
 
         <!-- Secondary thumbnail cards -->
         <aside class="subfeed">
-          <a class="subcard" href="articles/bitcoin-quantum-computing.html">
-            <div class="subcard__media"><img src="images/reports/may2-2026-hero.png" alt="" /><span class="subcard__tag">FINDINGS</span></div>
-            <h3 class="subcard__title">Can Bitcoin Survive the Age of Quantum Computing?</h3>
-            <div class="subcard__meta"><span>May 2026</span><span class="dot"></span><span>Yonkyung Kim · Hyemin Son</span></div>
-          </a>
           <a class="subcard" href="articles/age-of-machine-payments.html">
             <div class="subcard__media"><img src="images/reports/may1-2026-hero.png" alt="" /><span class="subcard__tag">OUTLOOK</span></div>
             <h3 class="subcard__title">The Age of Machine Payments</h3>
             <div class="subcard__meta"><span>May 2026</span><span class="dot"></span><span>Jeehwan Lee · Hyemin Son</span></div>
+          </a>
+          <a class="subcard" href="articles/tokenizing-gangnam-apartments.html">
+            <div class="subcard__media"><img src="images/reports/apr2026-hero.png" alt="" /><span class="subcard__tag">POLICY &amp; STRATEGY</span></div>
+            <h3 class="subcard__title">Tokenizing Gangnam Apartments</h3>
+            <div class="subcard__meta"><span>April 2026</span><span class="dot"></span><span>Suhoon Park</span></div>
           </a>
           <a class="subcard" href="articles/tokenization-attention-economy.html">
             <div class="subcard__media"><img src="images/reports/mar2026-hero.png" alt="" /><span class="subcard__tag">PERSPECTIVES</span></div>
@@ -221,21 +221,21 @@
       </div>
 
       <div class="cards">
-        <a class="card card--feature" href="articles/where-is-ethereum-going.html" data-series="PERSPECTIVES" data-format="REPORT">
-          <div class="card__media"><img src="images/reports/jul1-2026-hero.png" alt="" /></div>
+        <a class="card card--feature" href="articles/how-resistance-money-is-chosen.html" data-series="PERSPECTIVES" data-format="REPORT">
+          <div class="card__media"><img src="images/reports/jul2-2026-hero.png" alt="" /></div>
           <div class="card__body">
             <div class="card__row">
               <span class="tag">PERSPECTIVES</span>
               <span class="card__date">July 2026</span>
             </div>
-            <h3 class="card__title">Where Is Ethereum Going in 2026?</h3>
-            <p class="card__excerpt">Pressures on the world computer, and three responses: what a decade of success asked of Ethereum, and what its community answered.</p>
+            <h3 class="card__title">How Resistance Money Is Chosen</h3>
+            <p class="card__excerpt">Five criteria for adjusting the distance from power: which money becomes a means of resistance, for whom, and under what conditions.</p>
           </div>
         </a>
-        <a class="card" href="articles/how-resistance-money-is-chosen.html" data-series="PERSPECTIVES" data-format="REPORT">
-          <div class="card__media"><img src="images/reports/jul2-2026-hero.png" alt="" /></div>
+        <a class="card" href="articles/where-is-ethereum-going.html" data-series="PERSPECTIVES" data-format="REPORT">
+          <div class="card__media"><img src="images/reports/jul1-2026-hero.png" alt="" /></div>
           <div class="card__row"><span class="card__cat">PERSPECTIVES</span><span class="card__date">July 2026</span></div>
-          <h3 class="card__title">How Resistance Money Is Chosen</h3>
+          <h3 class="card__title">Where Is Ethereum Going in 2026?</h3>
         </a>
         <a class="card" href="articles/traceable-money.html" data-series="FINDINGS" data-format="REPORT">
           <div class="card__media"><img src="images/reports/jun2026-hero.png" alt="" /></div>
@@ -359,54 +359,8 @@
       });
     })();
 
-    // Publications: filter reports directly by series
-    (function () {
-      var main = document.querySelector('.filters--main');
-      var cards = document.querySelectorAll('.cards .card');
-      var featureCard = document.querySelector('.cards .card--feature');
-      var emptyState = document.querySelector('.cards-empty');
-      if (!main || !cards.length) return;
-
-      main.querySelectorAll('.filter').forEach(function (btn) {
-        btn.addEventListener('click', function () {
-          main.querySelectorAll('.filter').forEach(function (b) { b.classList.remove('is-active'); });
-          btn.classList.add('is-active');
-          var series = btn.dataset.seriesFilter;
-          var showAll = series === 'all';
-          if (featureCard) featureCard.classList.toggle('card--feature', showAll);
-          var visibleCount = 0;
-          cards.forEach(function (card) {
-            var visible = showAll || card.dataset.series === series;
-            card.style.display = visible ? '' : 'none';
-            if (visible) visibleCount += 1;
-          });
-          if (emptyState) emptyState.hidden = visibleCount > 0;
-        });
-      });
-    })();
-
-    // Lead carousel: auto-rotate + dot navigation
-    (function () {
-      var lead = document.getElementById('lead');
-      if (!lead) return;
-      var track = lead.querySelector('.lead__track');
-      var slides = lead.querySelectorAll('.lead__slide');
-      var dots = lead.querySelectorAll('.lead__dots button');
-      if (!track || slides.length < 2) return;
-      var i = 0, timer;
-      function show(n) {
-        i = (n + slides.length) % slides.length;
-        track.style.transform = 'translateX(-' + (i * 100) + '%)';
-        dots.forEach(function (d, k) { d.classList.toggle('is-active', k === i); });
-      }
-      function start() { timer = setInterval(function () { show(i + 1); }, 6000); }
-      function reset() { clearInterval(timer); start(); }
-      dots.forEach(function (d, k) {
-        d.addEventListener('click', function () { show(k); reset(); });
-      });
-      start();
-    })();
   </script>
+  <script src="js/home-reports.js"></script>
   <script src="js/subscribe.js" defer></script>
   <script src="js/search.js" defer></script>
 </body>

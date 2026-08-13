@@ -173,57 +173,58 @@
         </div>
       </div>
 
+      <!-- The homepage reads this catalog in descending data-published order. -->
       <div class="cat-grid">
-        <a class="cat-card" data-date="202607" href="articles/how-resistance-money-is-chosen.html">
+        <a class="cat-card" data-date="202607" data-published="2026-07-02" data-excerpt="Five criteria for adjusting the distance from power: which money becomes a means of resistance, for whom, and under what conditions." href="articles/how-resistance-money-is-chosen.html">
           <div class="cat-card__media"><img src="images/reports/jul2-2026-hero.png" alt="How Resistance Money Is Chosen" /></div>
           <span class="cat-card__tag">PERSPECTIVES</span>
           <h3 class="cat-card__title">How Resistance Money Is Chosen</h3>
           <span class="cat-card__authors">Changjun Lee</span>
           <span class="cat-card__date">July 2026</span>
         </a>
-        <a class="cat-card" data-date="202607" href="articles/where-is-ethereum-going.html">
+        <a class="cat-card" data-date="202607" data-published="2026-07-01" data-excerpt="Pressures on the world computer, and three responses: what a decade of success asked of Ethereum, and what its community answered." href="articles/where-is-ethereum-going.html">
           <div class="cat-card__media"><img src="images/reports/jul1-2026-hero.png" alt="Where Is Ethereum Going in 2026?" /></div>
           <span class="cat-card__tag">PERSPECTIVES</span>
           <h3 class="cat-card__title">Where Is Ethereum Going in 2026?</h3>
           <span class="cat-card__authors">Zooa Yoo</span>
           <span class="cat-card__date">July 2026</span>
         </a>
-        <a class="cat-card" data-date="202606" href="articles/traceable-money.html">
+        <a class="cat-card" data-date="202606" data-published="2026-06-01" data-excerpt="Blockchain analytics and the conditions for crypto institutionalization: how a public ledger reshapes privacy, compliance, and the path to mainstream adoption." href="articles/traceable-money.html">
           <div class="cat-card__media"><img src="images/reports/jun2026-hero.png" alt="Traceable Money" /></div>
           <span class="cat-card__tag">FINDINGS</span>
           <h3 class="cat-card__title">Traceable Money</h3>
           <span class="cat-card__authors">Sanghyeon Park</span>
           <span class="cat-card__date">June 2026</span>
         </a>
-        <a class="cat-card" data-date="202605" href="articles/bitcoin-quantum-computing.html">
+        <a class="cat-card" data-date="202605" data-published="2026-05-02" data-excerpt="The quantum threat and the evolution of Bitcoin security as long-held cryptographic assumptions come under pressure." href="articles/bitcoin-quantum-computing.html">
           <div class="cat-card__media"><img src="images/reports/may2-2026-hero.png" alt="Can Bitcoin Survive the Age of Quantum Computing?" /></div>
           <span class="cat-card__tag">FINDINGS</span>
           <h3 class="cat-card__title">Can Bitcoin Survive the Age of Quantum Computing?</h3>
           <span class="cat-card__authors">Yonkyung Kim · Hyemin Son</span>
           <span class="cat-card__date">May 2026</span>
         </a>
-        <a class="cat-card" data-date="202605" href="articles/age-of-machine-payments.html">
+        <a class="cat-card" data-date="202605" data-published="2026-05-01" data-excerpt="The race to build payment infrastructure for the machine economy: x402 and its rivals." href="articles/age-of-machine-payments.html">
           <div class="cat-card__media"><img src="images/reports/may1-2026-hero.png" alt="The Age of Machine Payments" /></div>
           <span class="cat-card__tag">OUTLOOK</span>
           <h3 class="cat-card__title">The Age of Machine Payments</h3>
           <span class="cat-card__authors">Jeehwan Lee · Hyemin Son</span>
           <span class="cat-card__date">May 2026</span>
         </a>
-        <a class="cat-card" data-date="202604" href="articles/tokenizing-gangnam-apartments.html">
+        <a class="cat-card" data-date="202604" data-published="2026-04-01" data-excerpt="A new path to real estate ownership through tradable digital shares in Gangnam apartments." href="articles/tokenizing-gangnam-apartments.html">
           <div class="cat-card__media"><img src="images/reports/apr2026-hero.png" alt="Tokenizing Gangnam Apartments" /></div>
           <span class="cat-card__tag">POLICY &amp; STRATEGY</span>
           <h3 class="cat-card__title">Tokenizing Gangnam Apartments</h3>
           <span class="cat-card__authors">Suhoon Park</span>
           <span class="cat-card__date">April 2026</span>
         </a>
-        <a class="cat-card" data-date="202603" href="articles/tokenization-attention-economy.html">
+        <a class="cat-card" data-date="202603" data-published="2026-03-01" data-excerpt="A structural shift in valuation driven by the mediatization of assets." href="articles/tokenization-attention-economy.html">
           <div class="cat-card__media"><img src="images/reports/mar2026-hero.png" alt="Tokenization and the Attention Economy" /></div>
           <span class="cat-card__tag">PERSPECTIVES</span>
           <h3 class="cat-card__title">Tokenization and the Attention Economy</h3>
           <span class="cat-card__authors">Sunghoon Jin</span>
           <span class="cat-card__date">March 2026</span>
         </a>
-        <a class="cat-card" data-date="202601" href="articles/commuting-into-online-games.html">
+        <a class="cat-card" data-date="202601" data-published="2026-01-01" data-excerpt="Survival strategies in the age of AI and the future of the metaverse." href="articles/commuting-into-online-games.html">
           <div class="cat-card__media"><img src="images/reports/jan2026-hero.png" alt="People Commuting into Online Games" /></div>
           <span class="cat-card__tag">OUTLOOK</span>
           <h3 class="cat-card__title">People Commuting into Online Games</h3>
@@ -334,7 +335,8 @@
       }
       function sortCards(order) {
         cards.sort(function (a, b) {
-          var da = a.getAttribute('data-date') || '0', db = b.getAttribute('data-date') || '0';
+          var da = a.getAttribute('data-published') || a.getAttribute('data-date') || '0';
+          var db = b.getAttribute('data-published') || b.getAttribute('data-date') || '0';
           return order === 'asc' ? (da < db ? -1 : da > db ? 1 : 0) : (da > db ? -1 : da < db ? 1 : 0);
         });
         cards.forEach(function (c) { grid.appendChild(c); });
@@ -352,6 +354,7 @@
       if (search) search.addEventListener('input', apply);
     })();
   </script>
+  <script src="js/publications-feature.js"></script>
   <script src="js/subscribe.js" defer></script>
   <script src="js/search.js" defer></script>
 </body>

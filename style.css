@@ -346,6 +346,7 @@ html[lang="ko"] dd {
 .card__author { display: block; margin-top: 10px; font-size: 14px; line-height: 1.5; color: var(--ink); }
 /* when a report card is filtered into the uniform grid, hide the feature-only excerpt */
 .cards .card:not(.card--feature) .card__excerpt { display: none; }
+.cards .card:not(.card--feature) .card__author { display: none; }
 /* and match its category label to the plain card__cat style (no green pill) */
 .cards .card:not(.card--feature) .tag {
   background: transparent; padding: 0;
