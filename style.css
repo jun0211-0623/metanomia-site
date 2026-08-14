@@ -108,6 +108,15 @@ h3 { font-size: clamp(20px, 2.4vw, 26px); letter-spacing: -0.3px; }
 .nav__link:hover { opacity: .6; }
 .nav__link[aria-current="page"] { color: var(--accent); }
 .nav__right { display: flex; align-items: center; gap: 18px; }
+@media (min-width: 1025px) {
+  .nav__inner {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+    gap: 28px;
+  }
+  .nav__menu { justify-self: center; }
+  .nav__right { justify-self: end; }
+}
 .nav__lang { font-size: 14px; font-weight: 600; letter-spacing: .04em; color: var(--ink); padding: 6px 8px; }
 .nav__lang:hover { opacity: .55; }
 .nav__search {
@@ -396,9 +405,9 @@ html[lang="ko"] dd {
   .nav__menu { gap: 24px; flex-shrink: 0; }
   .nav__link { white-space: nowrap; }
   .nav__right { gap: 12px; }
-  .nav__search, .nav__donate, .nav__lang { display: none; }
+  .nav__search, .nav__lang { display: none; }
 }
-@media (max-width: 780px) {
+@media (max-width: 1024px) {
   .nav__menu { display: none; }
   .nav__toggle { display: grid; place-items: center; width: 42px; height: 42px; border: 1px solid var(--line); }
   .nav.is-open .nav__drawer {
@@ -408,7 +417,6 @@ html[lang="ko"] dd {
   .nav__drawer-link { padding: 16px 2px; font-size: 18px; font-weight: 500; color: #fff; border-bottom: 1px solid var(--line-dark); }
   .nav__drawer-link--sub { padding-left: 22px; font-size: 16px; font-weight: 400; color: #a8a8a8; }
   .nav__drawer-link:active { opacity: .6; }
-  .nav__drawer-btn { margin-top: 16px; justify-content: center; width: 100%; }
 }
 @media (max-width: 640px) {
   .nav__inner { height: 68px; }
@@ -640,7 +648,7 @@ html[lang="ko"] .cat-tabs + .cat-hero--compact .cat-intro {
 .about-hero .cat-title { font-size: clamp(40px, 4.8vw, 58px); }
 .cat-title__brand { color: var(--accent); }
 .about-hero__lead { font-size: clamp(24px, 2.8vw, 36px); line-height: 1.28; color: #fff; font-weight: 500; letter-spacing: -0.3px; max-width: 60ch; margin-top: 28px; }
-/* Keep the Korean donation hero typographically aligned with About Metanomia. */
+/* Keep Korean page titles typographically aligned with About Metanomia. */
 html[lang="ko"] .pub-dark.about-hero .pub-title { font-size: clamp(40px, 4.8vw, 58px); }
 html[lang="ko"] .pub-dark.about-hero .about-hero__lead { font-size: clamp(24px, 2.8vw, 36px); }
 .about-hero__actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 36px; }
@@ -717,7 +725,7 @@ html[lang="ko"] .pub-dark.about-hero .about-hero__lead { font-size: clamp(24px, 
   .legal__table td { padding-top: 0; }
 }
 
-/* Donate: ways to give */
+/* Compact About-page content sections */
 .about-body--tight { padding-top: 0; }
 .about-body__h--wide { margin-bottom: 28px; }
 
@@ -756,8 +764,6 @@ html[lang="ko"] .pub-dark.about-hero .about-hero__lead { font-size: clamp(24px, 
 .give-list__row:first-child { border-top: 1px solid var(--line); }
 .give-list__term { font-size: 17px; font-weight: 600; color: var(--ink); }
 .give-list__desc { font-size: 16px; line-height: 1.6; color: var(--body); }
-.give-note { margin-top: 32px; font-size: 15px; line-height: 1.7; color: var(--body); }
-.give-note a { text-decoration: underline; text-decoration-color: var(--accent); text-decoration-thickness: 2px; text-underline-offset: 3px; }
 @media (max-width: 640px) { .give-list__row { grid-template-columns: 1fr; gap: 6px; } }
 
 /* Team / Fellows people grid */

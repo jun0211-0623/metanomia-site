@@ -50,14 +50,6 @@
   {
     "lang": "en",
     "type": "Page",
-    "title": "Donate",
-    "sub": "Support Metanomia. Independent research on the future of money, published in the open and funded by readers rather than sponsors.",
-    "meta": "",
-    "url": "/donate.html"
-  },
-  {
-    "lang": "en",
-    "type": "Page",
     "title": "Media",
     "sub": "Explore Metanomia's video programs and YouTube content.",
     "meta": "",
@@ -870,13 +862,5 @@
     "sub": "주제 토론 ‘크립토 쟁점’ 프로그램을 소개합니다.",
     "meta": "",
     "url": "/media/crypto-issues.ko.html"
-  },
-  {
-    "lang": "ko",
-    "type": "페이지",
-    "title": "후원",
-    "sub": "메타노미아 후원. 화폐의 미래를 다루는 독립 연구를, 후원자의 힘으로 누구나 무료로 읽을 수 있게 공개합니다.",
-    "meta": "",
-    "url": "/donate.ko.html"
   }
 ]

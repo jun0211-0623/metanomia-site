@@ -162,22 +162,6 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://metanomia-site.vercel.app/contact.html"/>
   </url>
   <url>
-    <loc>https://metanomia-site.vercel.app/donate.html</loc>
-    <lastmod>2026-08-04</lastmod>
-    <priority>0.6</priority>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://metanomia-site.vercel.app/donate.ko.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://metanomia-site.vercel.app/donate.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://metanomia-site.vercel.app/donate.html"/>
-  </url>
-  <url>
-    <loc>https://metanomia-site.vercel.app/donate.ko.html</loc>
-    <lastmod>2026-08-04</lastmod>
-    <priority>0.6</priority>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://metanomia-site.vercel.app/donate.ko.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://metanomia-site.vercel.app/donate.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://metanomia-site.vercel.app/donate.html"/>
-  </url>
-  <url>
     <loc>https://metanomia-site.vercel.app/index.html</loc>
     <lastmod>2026-08-04</lastmod>
     <priority>1.0</priority>
