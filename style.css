@@ -1020,7 +1020,7 @@ html[lang="ko"] .crypto-news-thought__body {
   text-wrap: wrap;
 }
 .crypto-news-sources {
-  max-width: 860px;
+  max-width: 900px;
   margin-top: clamp(46px, 7vw, 78px);
   padding-top: 24px;
   border-top: 2px solid var(--ink);
