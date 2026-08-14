@@ -971,7 +971,7 @@ html[lang="ko"] .pub-dark.about-hero .about-hero__lead { font-size: clamp(24px, 
   letter-spacing: -.04em;
 }
 .crypto-news-article__body {
-  max-width: 780px;
+  max-width: 900px;
   padding: clamp(38px, 5vw, 62px) 0;
 }
 .crypto-news-article__body p {
@@ -983,7 +983,7 @@ html[lang="ko"] .pub-dark.about-hero .about-hero__lead { font-size: clamp(24px, 
 }
 .crypto-news-article__body p + p { margin-top: 28px; }
 .crypto-news-thought {
-  max-width: 860px;
+  max-width: 900px;
   padding: clamp(34px, 5vw, 56px);
   background: var(--dark);
   color: var(--white);
@@ -1018,10 +1018,6 @@ html[lang="ko"] .crypto-news-thought__body {
   word-break: break-all;
   overflow-wrap: anywhere;
   text-wrap: wrap;
-}
-html[lang="ko"] .crypto-news-article__body,
-html[lang="ko"] .crypto-news-thought {
-  max-width: 900px;
 }
 .crypto-news-sources {
   max-width: 860px;
