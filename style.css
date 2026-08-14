@@ -1010,6 +1010,15 @@ html[lang="ko"] .pub-dark.about-hero .about-hero__lead { font-size: clamp(24px, 
   line-height: 1.75;
   white-space: pre-line;
 }
+html[lang="ko"] .crypto-news-card__excerpt,
+html[lang="ko"] .crypto-news-article__body p,
+html[lang="ko"] .crypto-news-thought__body {
+  text-align: justify;
+  text-justify: inter-character;
+  word-break: break-all;
+  overflow-wrap: anywhere;
+  text-wrap: wrap;
+}
 .crypto-news-sources {
   max-width: 860px;
   margin-top: clamp(46px, 7vw, 78px);
