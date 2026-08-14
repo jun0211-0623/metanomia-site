@@ -118,6 +118,16 @@
           <h2 class="crypto-news-sources__title" id="newsSources">출처</h2>
           <ul class="crypto-news-sources__list" data-news-sources></ul>
         </section>
+        <nav class="crypto-news-pagination" data-news-navigation aria-label="이전 및 다음 뉴스">
+          <a class="crypto-news-pagination__link crypto-news-pagination__link--previous" data-news-previous hidden>
+            <span class="crypto-news-pagination__label"><span aria-hidden="true">←</span> 이전 뉴스</span>
+            <strong class="crypto-news-pagination__title" data-news-previous-title></strong>
+          </a>
+          <a class="crypto-news-pagination__link crypto-news-pagination__link--next" data-news-next hidden>
+            <span class="crypto-news-pagination__label">다음 뉴스 <span aria-hidden="true">→</span></span>
+            <strong class="crypto-news-pagination__title" data-news-next-title></strong>
+          </a>
+        </nav>
       </div>
       <noscript><div class="crypto-news-state"><strong>브라우저 설정을 확인해 주세요.</strong>뉴스를 보려면 JavaScript가 필요합니다.</div></noscript>
     </div>

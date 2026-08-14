@@ -19,7 +19,9 @@
     missingBody: '목록으로 돌아가 다른 뉴스를 확인해 주세요.',
     failedTitle: '뉴스를 불러오지 못했습니다.',
     failedBody: '잠시 후 다시 시도해 주세요.',
-    noSources: '출처 정보 준비 중'
+    noSources: '출처 정보 준비 중',
+    previousNews: '이전 뉴스',
+    nextNews: '다음 뉴스'
   } : {
     manifest: 'data/crypto-news.en.json',
     detailHref: 'crypto-news-detail.html',
@@ -31,7 +33,9 @@
     missingBody: 'Head back to the list to read something else.',
     failedTitle: 'The news could not be loaded.',
     failedBody: 'Please try again in a moment.',
-    noSources: 'Sources to follow'
+    noSources: 'Sources to follow',
+    previousNews: 'Previous News',
+    nextNews: 'Next News'
   };
 
   var MONTHS = ['January', 'February', 'March', 'April', 'May', 'June',
@@ -174,6 +178,34 @@
     }
   }
 
+  function detailUrl(item) {
+    return COPY.detailHref + '?slug=' + encodeURIComponent(itemKey(item));
+  }
+
+  function renderDetailNavigation(items, currentIndex) {
+    var previousLink = detailRoot.querySelector('[data-news-previous]');
+    var nextLink = detailRoot.querySelector('[data-news-next]');
+
+    function configure(link, item, titleSelector, label) {
+      if (!link) return;
+      if (!item) {
+        link.hidden = true;
+        link.removeAttribute('href');
+        return;
+      }
+      var itemTitle = text(item.title);
+      link.href = detailUrl(item);
+      link.hidden = false;
+      link.setAttribute('aria-label', label + ': ' + itemTitle);
+      var title = link.querySelector(titleSelector);
+      if (title) title.textContent = itemTitle;
+    }
+
+    // Items are newest first: previous moves to an older story, next to a newer one.
+    configure(previousLink, items[currentIndex + 1], '[data-news-previous-title]', COPY.previousNews);
+    configure(nextLink, items[currentIndex - 1], '[data-news-next-title]', COPY.nextNews);
+  }
+
   function renderDetail(items) {
     var slug = new URLSearchParams(window.location.search).get('slug') || '';
     var item = items.find(function (candidate) { return itemKey(candidate) === slug; });
@@ -183,6 +215,7 @@
     }
 
     updateMetadata(item);
+    renderDetailNavigation(items, items.indexOf(item));
     var date = detailRoot.querySelector('[data-news-date]');
     var title = detailRoot.querySelector('[data-news-title]');
     var body = detailRoot.querySelector('[data-news-content]');

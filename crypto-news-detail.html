@@ -118,6 +118,16 @@
           <h2 class="crypto-news-sources__title" id="newsSources">Sources</h2>
           <ul class="crypto-news-sources__list" data-news-sources></ul>
         </section>
+        <nav class="crypto-news-pagination" data-news-navigation aria-label="Previous and next news">
+          <a class="crypto-news-pagination__link crypto-news-pagination__link--previous" data-news-previous hidden>
+            <span class="crypto-news-pagination__label"><span aria-hidden="true">←</span> Previous News</span>
+            <strong class="crypto-news-pagination__title" data-news-previous-title></strong>
+          </a>
+          <a class="crypto-news-pagination__link crypto-news-pagination__link--next" data-news-next hidden>
+            <span class="crypto-news-pagination__label">Next News <span aria-hidden="true">→</span></span>
+            <strong class="crypto-news-pagination__title" data-news-next-title></strong>
+          </a>
+        </nav>
       </div>
       <noscript><div class="crypto-news-state"><strong>Please check your browser settings.</strong>JavaScript is required to read the news.</div></noscript>
     </div>

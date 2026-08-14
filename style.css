@@ -1052,7 +1052,54 @@ html[lang="ko"] .crypto-news-thought__body {
   color: var(--body);
   font-size: 15px;
 }
+.crypto-news-pagination {
+  max-width: 900px;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px;
+  margin-top: clamp(42px, 6vw, 68px);
+  padding-top: 24px;
+  border-top: 2px solid var(--ink);
+}
+.crypto-news-pagination__link {
+  min-height: 132px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 22px 24px;
+  border: 1px solid var(--line);
+  background: var(--white);
+  transition: border-color .18s ease, background .18s ease;
+}
+.crypto-news-pagination__link:hover {
+  border-color: var(--ink);
+  background: var(--soft);
+}
+.crypto-news-pagination__link[hidden] { display: none; }
+.crypto-news-pagination__link--next {
+  grid-column: 2;
+  align-items: flex-end;
+  text-align: right;
+}
+.crypto-news-pagination__label {
+  color: var(--body);
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: .05em;
+}
+.crypto-news-pagination__title {
+  display: block;
+  margin-top: 14px;
+  color: var(--ink);
+  font-size: clamp(17px, 1.45vw, 21px);
+  font-weight: 600;
+  line-height: 1.4;
+  word-break: keep-all;
+}
 @media (max-width: 740px) {
+  .crypto-news-pagination { grid-template-columns: 1fr; gap: 12px; }
+  .crypto-news-pagination__link--next { grid-column: 1; }
+  .crypto-news-pagination__link { min-height: 112px; padding: 18px; }
   .crypto-news-card { grid-template-columns: 1fr auto; gap: 16px; }
   .crypto-news-card__date { grid-column: 1 / -1; }
   .crypto-news-card__excerpt { font-size: 16px; }
