@@ -1019,6 +1019,10 @@ html[lang="ko"] .crypto-news-thought__body {
   overflow-wrap: anywhere;
   text-wrap: wrap;
 }
+html[lang="ko"] .crypto-news-article__body,
+html[lang="ko"] .crypto-news-thought {
+  max-width: 900px;
+}
 .crypto-news-sources {
   max-width: 860px;
   margin-top: clamp(46px, 7vw, 78px);
