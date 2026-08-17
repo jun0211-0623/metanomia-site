@@ -322,10 +322,11 @@
       var search = document.getElementById('catSearch');
       function apply() {
         var q = (search && search.value ? search.value : '').trim().toLowerCase();
+        var terms = q.split(/\s+/).filter(Boolean);
         var visible = 0;
         cards.forEach(function (c) {
-          var t = (c.querySelector('.cat-card__title') || {}).textContent || '';
-          var hit = !q || t.toLowerCase().indexOf(q) !== -1;
+          var haystack = ((c.textContent || '') + ' ' + (c.getAttribute('data-excerpt') || '')).toLowerCase();
+          var hit = !terms.length || terms.every(function (term) { return haystack.indexOf(term) !== -1; });
           c.classList.toggle('is-hidden', !hit);
           if (hit) visible++;
         });

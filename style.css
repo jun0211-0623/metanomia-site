@@ -1399,7 +1399,7 @@ html[lang="ko"] .mission__body--statement .mission__line {
 .pub-editorial .pub-hero::after {
   content: "RESEARCH ARCHIVE";
   color: var(--body);
-  font-size: 11px;
+  font-size: 16.5px;
   font-weight: 700;
   letter-spacing: .14em;
 }
@@ -1410,7 +1410,7 @@ html[lang="ko"] .pub-editorial .pub-hero::after { content: "RESEARCH ARCHIVE"; }
   content: "REPORT SERIES";
   margin-bottom: 22px;
   color: var(--ink);
-  font-size: 11px;
+  font-size: 16.5px;
   font-weight: 700;
   letter-spacing: .14em;
 }
@@ -1473,7 +1473,7 @@ html[lang="ko"] .pub-editorial .pub-sec::before { content: "\BCF4\ACE0\C11C  \C2
 .pub-editorial .pub-sec__h {
   margin: 0 0 22px;
   color: var(--ink);
-  font-size: 11px;
+  font-size: 16.5px;
   font-weight: 700;
   letter-spacing: .14em;
   text-transform: uppercase;
@@ -1496,15 +1496,15 @@ html[lang="ko"] .pub-editorial .pub-sec::before { content: "\BCF4\ACE0\C11C  \C2
 .pub-editorial .pub-featured__card {
   position: relative;
   width: min(78%, 680px);
-  margin: -92px 0 0 8%;
-  padding: clamp(28px, 3.4vw, 48px);
+  margin: -132px 0 0 8%;
+  padding: clamp(24px, 2.4vw, 32px);
   background: #fff;
   border-top: 5px solid var(--accent);
   box-shadow: var(--editorial-shadow);
 }
 .pub-editorial .pub-featured__tag {
   padding: 0;
-  margin-bottom: 18px;
+  margin-bottom: 12px;
   border: 0;
   color: var(--body);
   font-size: 11px;
@@ -1519,20 +1519,20 @@ html[lang="ko"] .pub-editorial .pub-sec::before { content: "\BCF4\ACE0\C11C  \C2
 .pub-editorial .pub-featured__rule { display: none; }
 .pub-editorial .pub-featured__excerpt {
   max-width: 52ch;
-  margin-top: 22px;
+  margin-top: 16px;
   font-size: 15px;
   line-height: 1.65;
 }
 .pub-editorial .pub-featured__byline {
-  margin-top: 22px;
-  padding-top: 18px;
+  margin-top: 16px;
+  padding-top: 12px;
   border-top: 1px solid var(--line);
   font-size: 13px;
 }
 .pub-editorial .pub-featured__card::after {
   display: block;
   content: "READ REPORT  \2197";
-  margin-top: 24px;
+  margin-top: 18px;
   color: var(--ink);
   font-size: 11px;
   font-weight: 700;
@@ -1542,7 +1542,8 @@ html[lang="ko"] .pub-editorial .pub-featured__card::after { content: "\BCF4\ACE0
 
 /* Archive cards read as an editorial index instead of a four-tile gallery. */
 .pub-research { padding: clamp(68px, 7vw, 108px) 0 96px; }
-.pub-research__head { padding-bottom: 26px; border-bottom: 1px solid var(--ink); }
+.pub-research__head { padding-bottom: 14px; border-bottom: 1px solid var(--ink); }
+.pub-research__head .cat-toolbar { margin-bottom: 0; }
 .pub-research .cat-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0 48px; }
 .pub-research .cat-card {
   display: grid;
