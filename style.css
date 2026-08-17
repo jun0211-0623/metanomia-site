@@ -1194,17 +1194,17 @@ html[lang="ko"] .crypto-news-thought__body {
 /* ---------- Home: one lead cover + a horizontal reading rail ---------- */
 .hero {
   background: var(--editorial-paper);
-  padding: clamp(28px, 3vw, 46px) 0 clamp(44px, 5vw, 76px);
+  padding: clamp(22px, 2.2vw, 34px) 0 clamp(32px, 3.5vw, 50px);
 }
 .hero__row { display: block; }
 .lead {
-  min-height: clamp(580px, 50vw, 720px);
+  min-height: clamp(500px, 42vw, 620px);
   background: var(--editorial-coal);
   box-shadow: var(--editorial-shadow);
 }
 .lead__slide {
   display: grid;
-  grid-template-columns: minmax(380px, .86fr) minmax(0, 1.14fr);
+  grid-template-columns: minmax(380px, .9fr) minmax(0, 1.1fr);
   background: var(--editorial-coal);
 }
 .lead__img {
@@ -1221,7 +1221,7 @@ html[lang="ko"] .crypto-news-thought__body {
   grid-row: 1;
   inset: auto;
   justify-content: center;
-  padding: clamp(44px, 4.2vw, 72px) clamp(36px, 4vw, 64px) 104px;
+  padding: clamp(34px, 3.2vw, 52px) clamp(36px, 3.6vw, 58px) 82px;
   background: var(--editorial-coal);
   border-top: 5px solid var(--accent);
 }
@@ -1248,7 +1248,7 @@ html[lang="ko"] .crypto-news-thought__body {
   color: #c7c9c3;
 }
 .lead__byline { margin-top: 28px; color: #a9ada5; }
-.lead__dots { left: clamp(36px, 4vw, 64px); right: auto; bottom: 40px; }
+.lead__dots { left: clamp(36px, 3.6vw, 58px); right: auto; bottom: 30px; }
 .lead__dots button { border-radius: 50%; width: 9px; height: 9px; border-color: #6d7169; }
 .lead__dots button.is-active { box-shadow: 0 0 0 5px rgba(200,255,52,.12); }
 
@@ -1256,7 +1256,7 @@ html[lang="ko"] .crypto-news-thought__body {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: clamp(18px, 2.4vw, 34px);
-  margin-top: 32px;
+  margin-top: 24px;
   padding: 0;
   border: 0;
 }
@@ -1641,7 +1641,7 @@ html[lang="ko"] .cat-tabs + .cat-hero--compact .cat-intro__body {
 
 /* ---------- Responsive editorial system ---------- */
 @media (max-width: 1080px) {
-  .lead__slide { grid-template-columns: minmax(300px, .82fr) minmax(0, 1.18fr); }
+  .lead__slide { grid-template-columns: minmax(300px, .94fr) minmax(0, 1.06fr); }
   .subfeed .subcard,
   .subfeed .subcard + .subcard { grid-template-columns: 1fr; }
   .subcard__media { grid-row: auto; aspect-ratio: 16 / 9; margin-bottom: 14px; }
