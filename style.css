@@ -556,7 +556,7 @@ html[lang="ko"] .cat-tabs + .cat-hero--compact .cat-intro {
 .cat-search { display: inline-flex; align-items: center; gap: 8px; border: 1px solid var(--line); padding: 10px 14px; color: var(--body); }
 .cat-search input { border: 0; outline: none; font-family: var(--sans); font-size: 15px; color: var(--ink); background: transparent; width: 140px; }
 .cat-search input::placeholder { color: var(--body); }
-.cat-card.is-hidden { display: none; }
+.cat-card.is-hidden { display: none !important; }
 .cat-noresults { grid-column: 1 / -1; padding: 48px 4px; color: var(--body); font-size: 16px; }
 
 /* ===========================================================
