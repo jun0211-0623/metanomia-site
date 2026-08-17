@@ -1593,15 +1593,21 @@ html[lang="ko"] .pub-editorial .pub-featured__card::after { content: "\BCF4\ACE0
 .cat-hero,
 .cat-hero--compact { min-height: 0; background: #fff; color: var(--ink); }
 .cat-hero__title,
-.cat-hero--compact .cat-hero__title { padding: clamp(52px, 6vw, 86px) 0 clamp(46px, 5vw, 72px); }
+.cat-hero--compact .cat-hero__title { padding: clamp(38px, 4.2vw, 62px) 0 clamp(36px, 3vw, 48px); }
 .cat-back,
-.cat-hero .cat-back { color: var(--ink); margin-bottom: clamp(40px, 5vw, 72px); }
+.cat-hero .cat-back {
+  display: flex;
+  width: max-content;
+  color: var(--body);
+  margin: 0 0 clamp(24px, 2.6vw, 36px);
+}
 .cat-title,
 html[lang="ko"] .cat-tabs + .cat-hero--compact .cat-title {
   position: relative;
-  display: inline;
+  display: block;
+  width: fit-content;
   color: var(--ink);
-  font-size: clamp(46px, 7vw, 88px);
+  font-size: clamp(40px, 5vw, 64px);
   line-height: 1.05;
   text-transform: none;
   box-decoration-break: clone;
@@ -1612,9 +1618,9 @@ html[lang="ko"] .cat-tabs + .cat-hero--compact .cat-title {
 .cat-hero__intro { padding: clamp(54px, 6vw, 86px) 0; background: var(--editorial-paper); }
 .cat-intro,
 html[lang="ko"] .cat-tabs + .cat-hero--compact .cat-intro {
-  grid-template-columns: minmax(250px, .7fr) minmax(0, 1.3fr);
+  grid-template-columns: minmax(360px, .82fr) minmax(0, 1.18fr);
   gap: clamp(48px, 7vw, 110px);
-  align-items: start;
+  align-items: center;
 }
 .cat-intro__q,
 html[lang="ko"] .cat-tabs + .cat-hero--compact .cat-intro__q {
@@ -1624,6 +1630,7 @@ html[lang="ko"] .cat-tabs + .cat-hero--compact .cat-intro__q {
 }
 .cat-intro__body,
 html[lang="ko"] .cat-tabs + .cat-hero--compact .cat-intro__body {
+  align-self: center;
   max-width: 720px;
   color: #41433f;
   font-size: clamp(17px, 1.25vw, 20px);
@@ -1638,7 +1645,7 @@ html[lang="ko"] .cat-tabs + .cat-hero--compact .cat-intro__body {
   gap: 0 clamp(36px, 5vw, 76px);
   align-items: start;
 }
-.cat-featured__media { grid-column: 1; grid-row: 1 / 5; aspect-ratio: 4 / 3; margin: 0; }
+.cat-featured__media { grid-column: 1; grid-row: 1 / 5; aspect-ratio: 16 / 9; margin: 0; }
 .cat-featured__tag { grid-column: 2; margin: 4px 0 22px; justify-self: start; }
 .cat-featured__title { grid-column: 2; max-width: 16ch; font-size: clamp(30px, 3.4vw, 48px); line-height: 1.16; }
 .cat-featured__rule { grid-column: 2; margin: 30px 0 22px; }
@@ -1725,7 +1732,7 @@ html[lang="ko"] .cat-tabs + .cat-hero--compact .cat-intro__body {
   .pub-editorial .pub-featured__card { width: 88%; }
   .pub-research .cat-grid { grid-template-columns: 1fr; }
   .cat-featured__link { grid-template-columns: 1fr; }
-  .cat-featured__media { grid-column: 1; grid-row: auto; aspect-ratio: 16 / 10; margin-bottom: 30px; }
+  .cat-featured__media { grid-column: 1; grid-row: auto; aspect-ratio: 16 / 9; margin-bottom: 30px; }
   .cat-featured__tag,
   .cat-featured__title,
   .cat-featured__rule,
@@ -1774,11 +1781,20 @@ html[lang="ko"] .cat-tabs + .cat-hero--compact .cat-intro__body {
   .profile__grid > div:last-child { padding: 26px 22px; }
 }
 /* Long bilingual series names keep a deliberate two-line rhythm. */
-.cat-title.cat-title--long { font-size: clamp(40px, 5.3vw, 68px) !important; line-height: 1.12; }
+.cat-title.cat-title--long { font-size: clamp(34px, 4.1vw, 52px) !important; line-height: 1.12; }
 @media (max-width: 640px) {
   .cat-title.cat-title--long { font-size: 32px !important; line-height: 1.18; }
 }
 html[lang="en"] .cat-title.cat-title--long { white-space: nowrap; }
+
+/* Outlook's Korean prompt keeps the intended two-line editorial rhythm. */
+.cat-hero--outlook .cat-intro__q {
+  font-size: clamp(25px, 2.4vw, 34px);
+  white-space: nowrap;
+}
+@media (max-width: 640px) {
+  .cat-hero--outlook .cat-intro__q { font-size: clamp(22px, 6vw, 25px); }
+}
 
 /* About: compact editorial introduction with visible copy and actions. */
 .cat-hero.about-hero {
