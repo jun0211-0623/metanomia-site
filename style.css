@@ -2031,12 +2031,12 @@ html[lang="en"] .cat-title.cat-title--long { white-space: nowrap; }
   font-size: clamp(16px, 1.3vw, 19px);
 }
 
-.media-newsletter {
+.cta#newsletter {
   padding: clamp(58px, 6vw, 86px) 0;
   border: 0;
   background: var(--accent);
 }
-.media-newsletter .cta__grid {
+.cta#newsletter .cta__grid {
   display: grid;
   grid-template-columns: minmax(0, 1fr) minmax(380px, 540px);
   align-items: end;
@@ -2045,47 +2045,47 @@ html[lang="en"] .cat-title.cat-title--long { white-space: nowrap; }
   margin: 0;
   text-align: left;
 }
-.media-newsletter .cta__lead,
-.media-newsletter:not(.cta--intro) .cta__lead {
+.cta#newsletter .cta__lead,
+.cta#newsletter:not(.cta--intro) .cta__lead {
   max-width: 24ch;
   color: var(--ink);
-  font-size: clamp(27px, 3.2vw, 44px);
+  font-size: clamp(17px, 2.1vw, 24px);
   font-weight: 600;
   line-height: 1.18;
   letter-spacing: -.04em;
 }
-.media-newsletter .signup { max-width: none; }
-.media-newsletter .signup__form {
+.cta#newsletter .signup { max-width: none; }
+.cta#newsletter .signup__form {
   border: 0;
   border-bottom: 2px solid var(--ink);
   background: transparent;
 }
-.media-newsletter .signup__input {
+.cta#newsletter .signup__input {
   min-width: 0;
   padding: 17px 0;
   background: transparent;
   color: var(--ink);
   font-size: 17px;
 }
-.media-newsletter .signup__input::placeholder { color: rgba(0,0,0,.62); }
-.media-newsletter .signup__btn {
+.cta#newsletter .signup__input::placeholder { color: rgba(0,0,0,.62); }
+.cta#newsletter .signup__btn {
   min-height: 58px;
   padding: 0 28px;
   background: var(--ink);
   color: #fff;
   font-size: 16px;
 }
-.media-newsletter .signup__btn:hover { background: #fff; color: var(--ink); }
-.media-newsletter .signup__status { color: rgba(0,0,0,.68); }
+.cta#newsletter .signup__btn:hover { background: #fff; color: var(--ink); }
+.cta#newsletter .signup__status { color: rgba(0,0,0,.68); }
 
 @media (max-width: 900px) {
   .media-index .pub-title { font-size: clamp(34px, 6vw, 54px); }
-  .media-newsletter .cta__grid {
+  .cta#newsletter .cta__grid {
     grid-template-columns: 1fr;
     align-items: start;
   }
-  .media-newsletter .cta__lead,
-  .media-newsletter:not(.cta--intro) .cta__lead { max-width: 30ch; }
+  .cta#newsletter .cta__lead,
+  .cta#newsletter:not(.cta--intro) .cta__lead { max-width: 30ch; }
 }
 
 @media (max-width: 720px) {
@@ -2128,11 +2128,11 @@ html[lang="en"] .cat-title.cat-title--long { white-space: nowrap; }
     gap: 6px 12px;
   }
   .media-index .media-program__name { font-size: 23px; }
-  .media-newsletter .signup__form {
+  .cta#newsletter .signup__form {
     display: grid;
     grid-template-columns: 1fr;
     border-bottom: 0;
   }
-  .media-newsletter .signup__input { border-bottom: 2px solid var(--ink); }
-  .media-newsletter .signup__btn { min-height: 52px; }
+  .cta#newsletter .signup__input { border-bottom: 2px solid var(--ink); }
+  .cta#newsletter .signup__btn { min-height: 52px; }
 }
