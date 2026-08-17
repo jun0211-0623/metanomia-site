@@ -1372,12 +1372,12 @@ html[lang="ko"] .mission__body--statement .mission__line {
   grid-template-columns: minmax(260px, .32fr) minmax(0, .68fr);
   grid-template-rows: auto 1fr;
   column-gap: clamp(42px, 6vw, 96px);
-  padding: 42px max(var(--gutter), calc((100vw - var(--container)) / 2 + var(--gutter))) 82px;
+  padding: 42px max(var(--gutter), calc((100vw - var(--container)) / 2 + var(--gutter))) 32px;
   background: var(--editorial-paper);
 }
 .pub-editorial .pub-hero {
   grid-column: 1 / -1;
-  padding: 0 0 34px;
+  padding: 0 0 18px;
   border-bottom: 1px solid var(--ink);
 }
 .pub-editorial .pub-hero > .container,
@@ -1478,7 +1478,7 @@ html[lang="ko"] .pub-editorial .pub-sec::before { content: "\BCF4\ACE0\C11C  \C2
   letter-spacing: .14em;
   text-transform: uppercase;
 }
-.pub-editorial .pub-featured__link { display: block; height: auto; padding-bottom: 20px; }
+.pub-editorial .pub-featured__link { display: block; height: auto; padding-bottom: 0; }
 .pub-editorial .pub-featured__media {
   position: relative;
   aspect-ratio: 16 / 9;
