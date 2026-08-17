@@ -1319,15 +1319,52 @@ html[lang="ko"] .subfeed::before { content: "\C774\C5B4\C11C  \C77D\AE30"; }
 .mission__grid,
 .mission__grid--wide {
   align-items: flex-start;
-  max-width: 960px;
+  max-width: 1280px;
   margin: 0;
   text-align: left;
 }
 .mission__grid--wide .mission__lead { max-width: 850px; }
 .mission__mark { margin-bottom: 36px; }
 .mission__body,
-.mission__body--statement { max-width: 900px; }
-.mission .btn { align-self: flex-start; }
+.mission__body--statement { width: 100%; max-width: 1280px; margin-bottom: 0; }
+html[lang="ko"] .mission__body--statement .mission__line {
+  width: max-content;
+  max-width: 100%;
+  white-space: nowrap;
+}
+.mission .btn {
+  align-self: flex-start;
+  margin-top: 48px;
+  padding: 13px 30px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 26px;
+}
+
+@media (max-width: 1199px) {
+  html[lang="ko"] .mission__body--statement .mission__line--series {
+    width: auto;
+    white-space: normal;
+    word-break: keep-all;
+    overflow-wrap: normal;
+    text-wrap: pretty;
+  }
+}
+
+@media (max-width: 640px) {
+  html[lang="ko"] .mission__body--statement .mission__line {
+    width: auto;
+    white-space: normal;
+    word-break: keep-all;
+    overflow-wrap: normal;
+    text-wrap: pretty;
+  }
+  .mission .btn {
+    margin-top: 36px;
+    padding: 12px 26px;
+    font-size: 17px;
+  }
+}
 
 /* ---------- Publications: vertical series index + layered latest report ---------- */
 .pub-editorial {
