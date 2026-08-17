@@ -1449,15 +1449,19 @@ html[lang="ko"] .pub-editorial .pub-sec::before { content: "\BCF4\ACE0\C11C  \C2
   content: "\2197";
   color: var(--ink);
   font-size: 18px;
-  transition: transform .18s ease;
+  transition: transform .18s ease, color .18s ease;
 }
 .pub-editorial .pub-series__box:hover .pub-series__title,
 .pub-editorial .pub-series__box:hover .pub-series__eyebrow,
 .pub-editorial .pub-series__box:focus-visible .pub-series__title,
-.pub-editorial .pub-series__box:focus-visible .pub-series__eyebrow { color: var(--accent); }
+.pub-editorial .pub-series__box:focus-visible .pub-series__eyebrow { color: #607A18; }
 
 .pub-editorial .pub-series__box:hover { background: transparent; border-color: var(--ink); }
-.pub-editorial .pub-series__box:hover::after { transform: translate(3px, -3px); }
+.pub-editorial .pub-series__box:hover::after,
+.pub-editorial .pub-series__box:focus-visible::after {
+  color: var(--accent);
+  transform: translate(3px, -3px);
+}
 .pub-editorial .pub-series__title {
   color: var(--ink);
   font-size: clamp(26px, 2.05vw, 32px);
