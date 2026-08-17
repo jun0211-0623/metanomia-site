@@ -1157,6 +1157,16 @@ html[lang="ko"] .crypto-news-thought__body {
 .media-video__title { margin-top: 9px; color: var(--ink); font-size: clamp(19px, 1.55vw, 24px); line-height: 1.28; font-weight: 500; word-break: keep-all; }
 .media-video__date { margin-top: 12px; color: var(--body); font-size: 14px; }
 .media-intro__body p { word-break: keep-all; }
+.media-tabs + .cat-hero .cat-intro {
+  grid-template-columns: minmax(320px, .82fr) minmax(0, 1.18fr);
+  gap: clamp(20px, 1.5vw, 24px);
+}
+@media (max-width: 991px) {
+  .media-tabs + .cat-hero .cat-intro {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+}
 @media (max-width: 900px) { .media-video-grid { grid-template-columns: repeat(2, 1fr); } }
 @media (max-width: 600px) { .media-video-grid { grid-template-columns: 1fr; } }
 /* ===========================================================
