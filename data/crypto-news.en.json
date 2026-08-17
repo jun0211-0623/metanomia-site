@@ -1,7 +1,28 @@
 {
   "schema_version": "1.0",
-  "generated_at_kst": "2026-08-14T09:07:00+09:00",
+  "generated_at_kst": "2026-08-17T09:26:00+09:00",
   "items": [
+    {
+      "slug": "2026-08-17-crypto-news-b77675ed41",
+      "date_kst": "2026-08-17",
+      "title": "US OCC Grants Preliminary Conditional Approval to World Liberty National Trust Bank…USD1 Issuance and Custody to Be Integrated Only After Final Approval",
+      "content": "The Office of the Comptroller of the Currency (OCC), part of the US Treasury Department, granted preliminary conditional approval on the 14th (local time) to World Liberty Trust Company's application to establish a national trust bank. If final approval is granted, the company will be able to directly carry out the issuance and redemption of the stablecoin USD1 and the management of its reserve assets, functions it has entrusted to an outside operator.\r\nWorld Liberty Trust Company plans to acquire the related reserve assets and liabilities from BitGo Bank & Trust, currently the exclusive issuer and custodian of USD1. It will also provide institutional clients with digital asset custody and services for exchanging other approved stablecoins into USD1.\r\nThis decision, however, is not the final authorization permitting the company to operate. The company must satisfy pre-opening requirements and obtain the OCC's final approval. The OCC required it to maintain at least 20 million dollars in Tier 1 capital for the first three years after commencing operations, along with eligible liquid assets equal to 50 percent of that amount or 10 million dollars, whichever is greater. Separately, it must also hold 180 days of operating expenses needed for crisis or wind-down situations as eligible liquid assets.\r\nIf the company fails to raise capital within 12 months or fails to open within 18 months, the preliminary approval will expire. USD1-related operations must be adjusted, suspended, or wound down to the extent necessary to comply with the GENIUS Act, its implementing regulations, and other related laws and rules that take effect in the future.\r\nThe scope of business is also more limited than that of an ordinary commercial bank. The bank is not a deposit-taking institution covered by deposit insurance, and it currently has no plans to apply for a Federal Reserve master account. It will also not issue, custody, or trade WLFI, World Liberty's governance token.\r\nDuring the approval process, disputes arose not only over conflicts of interest but also over whether the OCC has the legal authority to grant a national trust bank charter to a stablecoin company. The National Community Reinvestment Coalition (NCRC) argued that stablecoin issuance and reserve asset management do not constitute traditional trust activities, and that a limited-purpose trust bank charter could be used as a means of avoiding general banking regulation. It also raised the absence of deposit insurance and the non-application of the Community Reinvestment Act as problems.\r\nThe Americans for Financial Reform Education Fund (AFREF) said World Liberty has maintained relationships with exchanges and operators that have been convicted of or investigated for violations of anti-money laundering laws, and questioned its anti-money laundering capabilities and a trust bank's fiduciary duties. It also cited as grounds for opposition that World Liberty's business is weighted toward trading, lending, and stablecoin issuance rather than traditional trust activities.\r\nIn response, the OCC determined that a national trust bank may perform not only trust custody but also related non-fiduciary activities, and that the GENIUS Act recognizes the authority of uninsured national banks to issue stablecoins. It also cited as precedent its conditional approval in December 2025 of applications by BitGo and Paxos to convert into national trust banks, with stablecoin issuance and reserve asset management activities included.\r\nThe OCC stated that Comptroller Jonathan Gould and its staff handled the matter in accordance with their legal and ethical obligations, and that career staff reviewed the application under delegated authority. Three indirect investment entities represented by Eric Trump and others submitted passivity commitments limiting board participation and involvement in management.",
+      "metanomia_thought": "This decision can be read as an expansion of the path toward binding stablecoin issuance, redemption, reserve management, and custody within a single federal supervisory structure. That said, the actual transfer of settlement rights and control over reserves occurs only after final approval and the acquisition of BitGo's assets and liabilities, so conditional approval and the commencement of operations must be distinguished.",
+      "sources": [
+        {
+          "title": "Conditional Approval to Charter World Liberty Trust Company, National Association",
+          "url": "https://occ.gov/topics/charters-and-licensing/interpretations-and-decisions/2026/cd1385.pdf"
+        },
+        {
+          "title": "Trump-appointed regulator OKs banking license for Trump-linked crypto firm",
+          "url": "https://www.cnbc.com/2026/08/14/world-liberty-trump-occ-bank-charter-stablecoin.html"
+        },
+        {
+          "title": "NCRC’s Comment On World Liberty Trust Company National Trust Bank Charter Application",
+          "url": "https://ncrc.org/ncrcs-comment-on-world-liberty-trust-company-national-trust-bank-charter-application/"
+        }
+      ]
+    },
     {
       "slug": "2026-08-14-crypto-news-c9e126693b",
       "date_kst": "2026-08-14",
