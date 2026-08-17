@@ -348,7 +348,20 @@
           sortCards(order);
         });
       }
-      if (search) search.addEventListener('input', apply);
+      if (search) {
+        search.addEventListener('input', apply);
+        search.addEventListener('keydown', function (event) {
+          if (event.key !== 'Enter') return;
+          event.preventDefault();
+          apply();
+          var firstResult = grid.querySelector('.cat-card:not(.is-hidden)');
+          var noResults = grid.querySelector('.cat-noresults');
+          window.requestAnimationFrame(function () {
+            var target = firstResult || noResults;
+            if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          });
+        });
+      }
     })();
   </script>
   <script src="js/publications-feature.js"></script>

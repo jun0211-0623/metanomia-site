@@ -1396,6 +1396,10 @@ html[lang="ko"] .mission__body--statement .mission__line {
 }
 .pub-editorial .pub-hero .cat-back { color: var(--ink); margin-bottom: 26px; }
 .pub-editorial .pub-title { color: var(--ink); font-size: clamp(46px, 5vw, 72px); }
+@media (min-width: 641px) {
+  .pub-editorial .pub-title { transform: translateY(25px); }
+}
+
 .pub-editorial .pub-hero::after {
   content: "RESEARCH ARCHIVE";
   color: var(--body);
@@ -1451,7 +1455,7 @@ html[lang="ko"] .pub-editorial .pub-sec::before { content: "\BCF4\ACE0\C11C  \C2
 .pub-editorial .pub-series__box:hover::after { transform: translate(3px, -3px); }
 .pub-editorial .pub-series__title {
   color: var(--ink);
-  font-size: clamp(17px, 1.35vw, 21px);
+  font-size: clamp(26px, 2.05vw, 32px);
   line-height: 1.18;
   letter-spacing: .01em;
 }
@@ -1459,7 +1463,8 @@ html[lang="ko"] .pub-editorial .pub-sec::before { content: "\BCF4\ACE0\C11C  \C2
   grid-column: 2;
   grid-row: 2;
   color: var(--body);
-  font-size: 12px;
+  font-size: 18px;
+  line-height: 1.25;
   letter-spacing: .02em;
   text-transform: none;
 }
@@ -1553,6 +1558,7 @@ html[lang="ko"] .pub-editorial .pub-featured__card::after { content: "\BCF4\ACE0
   min-height: 230px;
   padding: 28px 0;
   border-bottom: 1px solid var(--line);
+  scroll-margin-top: 120px;
 }
 .pub-research .cat-card__media {
   grid-column: 1;
