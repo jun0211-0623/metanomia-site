@@ -2032,14 +2032,14 @@ html[lang="en"] .cat-title.cat-title--long { white-space: nowrap; }
 }
 
 .cta#newsletter {
-  padding: clamp(58px, 6vw, 86px) 0;
+  padding: clamp(30px, 2.8vw, 42px) 0;
   border: 0;
   background: var(--accent);
 }
 .cta#newsletter .cta__grid {
   display: grid;
   grid-template-columns: minmax(0, 1fr) minmax(380px, 540px);
-  align-items: end;
+  align-items: center;
   gap: clamp(42px, 7vw, 100px);
   max-width: none;
   margin: 0;
@@ -2051,10 +2051,13 @@ html[lang="en"] .cat-title.cat-title--long { white-space: nowrap; }
   color: var(--ink);
   font-size: clamp(17px, 2.1vw, 24px);
   font-weight: 600;
-  line-height: 1.18;
+  line-height: 1.42;
   letter-spacing: -.04em;
 }
-.cta#newsletter .signup { max-width: none; }
+.cta#newsletter .signup {
+  max-width: none;
+  transform: translateY(18px);
+}
 .cta#newsletter .signup__form {
   border: 0;
   border-bottom: 2px solid var(--ink);
@@ -2086,6 +2089,7 @@ html[lang="en"] .cat-title.cat-title--long { white-space: nowrap; }
   }
   .cta#newsletter .cta__lead,
   .cta#newsletter:not(.cta--intro) .cta__lead { max-width: 30ch; }
+  .cta#newsletter .signup { transform: none; }
 }
 
 @media (max-width: 720px) {
