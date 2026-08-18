@@ -2,6 +2,7 @@
 <html lang="ko">
 <head>
   <meta charset="UTF-8" />
+  <meta name="theme-color" content="#000000" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>비트코인은 양자컴퓨팅 시대에도 살아남을 수 있는가 | 메타노미아 보고서</title>
   <meta name="description" content="양자 위협과 비트코인 보안의 진화, 메타노미아 보고서, 2026년 5월." />
@@ -18,11 +19,11 @@
   <meta property="og:title" content="비트코인은 양자컴퓨팅 시대에도 살아남을 수 있는가 | 메타노미아 보고서" />
   <meta property="og:description" content="양자 위협과 비트코인 보안의 진화, 메타노미아 보고서, 2026년 5월." />
   <meta property="og:url" content="https://metanomia-site.vercel.app/articles/bitcoin-quantum-computing.ko.html" />
-  <meta property="og:image" content="https://metanomia-site.vercel.app/images/reports/may2-2026-hero.png" />
+  <meta property="og:image" content="https://metanomia-site.vercel.app/images/reports/may2-2026-hero.webp" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="비트코인은 양자컴퓨팅 시대에도 살아남을 수 있는가 | 메타노미아 보고서" />
   <meta name="twitter:description" content="양자 위협과 비트코인 보안의 진화, 메타노미아 보고서, 2026년 5월." />
-  <meta name="twitter:image" content="https://metanomia-site.vercel.app/images/reports/may2-2026-hero.png" />
+  <meta name="twitter:image" content="https://metanomia-site.vercel.app/images/reports/may2-2026-hero.webp" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
@@ -31,6 +32,7 @@
   <link rel="stylesheet" href="../style.css" />
 </head>
 <body>
+  <a class="skip-link" href="#main-content">본문으로 건너뛰기</a>
 
   <!-- ================= NAV ================= -->
   <header class="nav" id="siteNav">
@@ -73,9 +75,9 @@
       </nav>
       <div class="nav__right">
         <a class="nav__lang" href="bitcoin-quantum-computing.html" aria-label="English">EN</a>
-        <a class="nav__search" href="#" aria-label="검색">
+        <button type="button" class="nav__search" aria-label="검색">
           <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
-        </a>
+        </button>
         <button class="nav__toggle" id="navToggle" aria-label="메뉴" aria-expanded="false" aria-controls="navDrawer">
           <svg class="nav__toggle-open" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
           <svg class="nav__toggle-close" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 6l12 12M18 6L6 18"/></svg>
@@ -106,7 +108,7 @@
   </header>
 
   <!-- ================= ARTICLE HEADER ================= -->
-  <article class="article">
+  <article class="article" id="main-content">
     <div class="container">
       <div class="article__inner">
         <span class="article__cat">FINDINGS</span>
@@ -120,7 +122,7 @@
           </a>
         </div>
         <div class="article__author">
-          <img class="article__avatar" src="../images/people/kim-yonkyung.jpeg" alt="" />
+          <img class="article__avatar" src="../images/people/kim-yonkyung.webp" alt="" loading="lazy" decoding="async">
           <div>
             <div class="article__author-name"><a href="../people/yonkyung-kim.ko.html">김연경</a>, <a href="../people/hyemin-son.ko.html">손혜민</a></div>
             <div class="article__author-role">연구진 · 메타노미아 · 교신저자 오태민</div>
@@ -128,7 +130,7 @@
         </div>
 
         <div class="article__hero">
-          <img src="../images/reports/may2-2026-hero.png" alt="비트코인은 양자컴퓨팅 시대에도 살아남을 수 있는가, 메타노미아 보고서, 2026년 5월" />
+          <img src="../images/reports/may2-2026-hero.webp" alt="비트코인은 양자컴퓨팅 시대에도 살아남을 수 있는가, 메타노미아 보고서, 2026년 5월" loading="lazy" decoding="async">
         </div>
 
         <div class="article__body">
@@ -151,17 +153,17 @@
       </div>
       <div class="cards">
         <a class="card" href="age-of-machine-payments.ko.html">
-          <div class="card__media"><img src="../images/reports/may1-2026-hero.png" alt="" /></div>
+          <div class="card__media"><img src="../images/reports/may1-2026-hero.webp" alt="" loading="lazy" decoding="async"></div>
           <div class="card__row"><span class="card__cat">OUTLOOK</span><span class="card__date">2026년 5월</span></div>
           <h3 class="card__title">기계가 결제하는 시대</h3>
         </a>
         <a class="card" href="tokenizing-gangnam-apartments.ko.html">
-          <div class="card__media"><img src="../images/reports/apr2026-hero.png" alt="" /></div>
+          <div class="card__media"><img src="../images/reports/apr2026-hero.webp" alt="" loading="lazy" decoding="async"></div>
           <div class="card__row"><span class="card__cat">POLICY &amp; STRATEGY</span><span class="card__date">2026년 4월</span></div>
           <h3 class="card__title">토큰화, 강남 아파트 소유하기</h3>
         </a>
         <a class="card" href="tokenization-attention-economy.ko.html">
-          <div class="card__media"><img src="../images/reports/mar2026-hero.png" alt="" /></div>
+          <div class="card__media"><img src="../images/reports/mar2026-hero.webp" alt="" loading="lazy" decoding="async"></div>
           <div class="card__row"><span class="card__cat">PERSPECTIVES</span><span class="card__date">2026년 3월</span></div>
           <h3 class="card__title">토큰화와 관심경제</h3>
         </a>

@@ -118,7 +118,7 @@
     items.forEach(function (item) {
       var link = document.createElement('a');
       link.className = 'crypto-news-card';
-      link.href = COPY.detailHref + '?slug=' + encodeURIComponent(itemKey(item));
+      link.href = detailUrl(item);
 
       var time = document.createElement('time');
       time.className = 'crypto-news-card__date';
@@ -179,7 +179,7 @@
   }
 
   function detailUrl(item) {
-    return COPY.detailHref + '?slug=' + encodeURIComponent(itemKey(item));
+    return 'crypto-news-' + encodeURIComponent(itemKey(item)) + (isKo ? '.ko.html' : '.html');
   }
 
   function updateDetailLanguageLinks(slug) {

@@ -76,11 +76,11 @@
     loading = true;
     var news = isKo ? {
       manifest: '/data/crypto-news.json',
-      detailUrl: '/crypto-news-detail.ko.html',
+      detailSuffix: '.ko.html',
       itemType: '뉴스'
     } : {
       manifest: '/data/crypto-news.en.json',
-      detailUrl: '/crypto-news-detail.html',
+      detailSuffix: '.html',
       itemType: 'News'
     };
 
@@ -122,7 +122,7 @@
           index.push({
             lang: lang, type: news.itemType, title: item.title,
             sub: item.content || '', meta: item.date_kst || '',
-            url: news.detailUrl + '?slug=' + encodeURIComponent(item.slug)
+            url: '/crypto-news-' + encodeURIComponent(item.slug) + news.detailSuffix
           });
         });
         loading = false;

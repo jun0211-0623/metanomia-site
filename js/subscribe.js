@@ -1,6 +1,6 @@
-/* Metanomia email update signup — posts to the Apps Script web app. */
+/* Metanomia email update signup — validated by a same-origin server endpoint. */
 (function () {
-  var ENDPOINT = 'https://script.google.com/macros/s/AKfycbxLF2JaW3cBRGjhG-prFFjCk-_QmMWPa09tnBNJXorrgJfd_hbKV2QlrxQcGxr2dXxL/exec';
+  var ENDPOINT = '/api/subscribe';
 
   var isKo = document.documentElement.lang === 'ko';
   var TEXT = isKo
@@ -12,6 +12,19 @@
   function setup(form) {
     var input = form.querySelector('.signup__input');
     if (!input) return;
+    input.type = 'email';
+    input.name = 'email';
+    input.autocomplete = 'email';
+    input.inputMode = 'email';
+    input.required = true;
+
+    var label = document.createElement('label');
+    var inputId = input.id || 'signup-email-' + Math.random().toString(36).slice(2);
+    input.id = inputId;
+    label.className = 'sr-only';
+    label.htmlFor = inputId;
+    label.textContent = isKo ? '이메일 주소' : 'Email address';
+    form.insertBefore(label, input);
 
     var honeypot = document.createElement('input');
     honeypot.type = 'text';
@@ -39,18 +52,25 @@
       }
       if (honeypot.value) return;
 
-      var body = new URLSearchParams({
-        email: email,
-        lang: isKo ? 'ko' : 'en',
-        page: location.pathname
-      });
-
       if (btn) btn.disabled = true;
       show(status, TEXT.sending, true);
 
-      // Apps Script sends no CORS headers, so the response is opaque:
-      // a resolved promise means the request was delivered, not that it was stored.
-      fetch(ENDPOINT, { method: 'POST', mode: 'no-cors', body: body })
+      fetch(ENDPOINT, {
+        method: 'POST',
+        headers: { 'content-type': 'application/json' },
+        body: JSON.stringify({
+          email: email,
+          lang: isKo ? 'ko' : 'en',
+          page: location.pathname,
+          company: honeypot.value
+        })
+      })
+        .then(function (response) {
+          return response.json().catch(function () { return {}; }).then(function (data) {
+            if (!response.ok || !data.ok) throw new Error(data.error || 'subscription_failed');
+            return data;
+          });
+        })
         .then(function () {
           show(status, TEXT.ok, true);
           input.value = '';

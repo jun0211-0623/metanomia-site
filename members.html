@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
+  <meta name="theme-color" content="#000000" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Members | Metanomia</title>
   <meta name="description" content="Members contributing to Metanomia’s research and operations" />
@@ -31,6 +32,7 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
 
   <!-- ================= NAV ================= -->
   <header class="nav" id="siteNav">
@@ -73,9 +75,9 @@
       </nav>
       <div class="nav__right">
         <a class="nav__lang" href="members.ko.html" aria-label="한국어">KO</a>
-        <a class="nav__search" href="#" aria-label="Search">
+        <button type="button" class="nav__search" aria-label="Search">
           <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
-        </a>
+        </button>
         <button class="nav__toggle" id="navToggle" aria-label="Menu" aria-expanded="false" aria-controls="navDrawer">
           <svg class="nav__toggle-open" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
           <svg class="nav__toggle-close" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 6l12 12M18 6L6 18"/></svg>
@@ -123,14 +125,14 @@
   <section class="people people--members">
     <div class="container">
       <div class="people__grid">
-        <article class="person">
+        <article class="person" id="main-content">
           <div class="person__photo person__photo--empty" aria-hidden="true"></div>
           <h2 class="person__name">Taemin Oh</h2>
           <p class="person__role">Research Lead</p>
           <a class="person__profile" href="people/taemin-oh.html">Profile</a>
         </article>
         <article class="person">
-          <div class="person__photo"><img src="images/people/son-hyemin.jpeg" alt="Hyemin Son" /></div>
+          <div class="person__photo"><img src="images/people/son-hyemin.webp" alt="Hyemin Son" loading="lazy" decoding="async"></div>
           <h2 class="person__name">Hyemin Son</h2>
           <p class="person__role">General Manager · Editorial Board Member · Researcher</p>
           <a class="person__profile" href="people/hyemin-son.html">Profile</a>
@@ -160,13 +162,13 @@
           <a class="person__profile" href="people/serin-kim.html">Profile</a>
         </article>
         <article class="person">
-          <div class="person__photo"><img src="images/people/kim-yonkyung.jpeg" alt="Yonkyung Kim" /></div>
+          <div class="person__photo"><img src="images/people/kim-yonkyung.webp" alt="Yonkyung Kim" loading="lazy" decoding="async"></div>
           <h2 class="person__name">Yonkyung Kim</h2>
           <p class="person__role">Researcher</p>
           <a class="person__profile" href="people/yonkyung-kim.html">Profile</a>
         </article>
         <article class="person">
-          <div class="person__photo"><img src="images/people/kim-yujeong.jpeg" alt="Yujeong Kim" /></div>
+          <div class="person__photo"><img src="images/people/kim-yujeong.webp" alt="Yujeong Kim" loading="lazy" decoding="async"></div>
           <h2 class="person__name">Yujeong Kim</h2>
           <p class="person__role">Researcher</p>
           <a class="person__profile" href="people/yujeong-kim.html">Profile</a>
@@ -196,7 +198,7 @@
           <a class="person__profile" href="people/mingu-park.html">Profile</a>
         </article>
         <article class="person">
-          <div class="person__photo"><img src="images/people/park-boyoung.jpeg" alt="Boyoung Park" /></div>
+          <div class="person__photo"><img src="images/people/park-boyoung.jpeg" alt="Boyoung Park" loading="lazy" decoding="async"></div>
           <h2 class="person__name">Boyoung Park</h2>
           <p class="person__role">Researcher</p>
           <a class="person__profile" href="people/boyoung-park.html">Profile</a>
@@ -208,13 +210,13 @@
           <a class="person__profile" href="people/seonhyeop-park.html">Profile</a>
         </article>
         <article class="person">
-          <div class="person__photo"><img src="images/people/park-suhoon.jpeg" alt="Suhoon Park" /></div>
+          <div class="person__photo"><img src="images/people/park-suhoon.webp" alt="Suhoon Park" loading="lazy" decoding="async"></div>
           <h2 class="person__name">Suhoon Park</h2>
           <p class="person__role">Researcher</p>
           <a class="person__profile" href="people/suhoon-park.html">Profile</a>
         </article>
         <article class="person">
-          <div class="person__photo"><img src="images/people/park-siwoo.png" alt="Siwoo Park" /></div>
+          <div class="person__photo"><img src="images/people/park-siwoo.webp" alt="Siwoo Park" loading="lazy" decoding="async"></div>
           <h2 class="person__name">Siwoo Park</h2>
           <p class="person__role">Researcher</p>
           <a class="person__profile" href="people/siwoo-park.html">Profile</a>
@@ -226,7 +228,7 @@
           <a class="person__profile" href="people/daehan-seok.html">Profile</a>
         </article>
         <article class="person">
-          <div class="person__photo"><img src="images/people/seok-minguk.png" alt="Minguk Seok" /></div>
+          <div class="person__photo"><img src="images/people/seok-minguk.webp" alt="Minguk Seok" loading="lazy" decoding="async"></div>
           <h2 class="person__name">Minguk Seok</h2>
           <p class="person__role">Researcher</p>
           <a class="person__profile" href="people/minguk-seok.html">Profile</a>
@@ -268,25 +270,25 @@
           <a class="person__profile" href="people/yongrae-cho.html">Profile</a>
         </article>
         <article class="person">
-          <div class="person__photo"><img src="images/people/jin-seungju.jpeg" alt="Seungju Jin" /></div>
+          <div class="person__photo"><img src="images/people/jin-seungju.webp" alt="Seungju Jin" loading="lazy" decoding="async"></div>
           <h2 class="person__name">Seungju Jin</h2>
           <p class="person__role">Researcher</p>
           <a class="person__profile" href="people/seungju-jin.html">Profile</a>
         </article>
         <article class="person">
-          <div class="person__photo"><img src="images/people/jeong-duru.jpeg" alt="Dooroo Chung" /></div>
+          <div class="person__photo"><img src="images/people/jeong-duru.webp" alt="Dooroo Chung" loading="lazy" decoding="async"></div>
           <h2 class="person__name">Dooroo Chung</h2>
           <p class="person__role">Operations Manager</p>
           <a class="person__profile" href="people/dooroo-chung.html">Profile</a>
         </article>
         <article class="person">
-          <div class="person__photo"><img src="images/people/han-sangjun.png" alt="Sangjun Han" /></div>
+          <div class="person__photo"><img src="images/people/han-sangjun.webp" alt="Sangjun Han" loading="lazy" decoding="async"></div>
           <h2 class="person__name">Sangjun Han</h2>
           <p class="person__role">English Translator</p>
           <a class="person__profile" href="people/sangjun-han.html">Profile</a>
         </article>
         <article class="person">
-          <div class="person__photo"><img src="images/people/yoon-sungah.jpeg" alt="Sungah Yoon" /></div>
+          <div class="person__photo"><img src="images/people/yoon-sungah.jpeg" alt="Sungah Yoon" loading="lazy" decoding="async"></div>
           <h2 class="person__name">Sungah Yoon</h2>
           <p class="person__role">Designer</p>
           <a class="person__profile" href="people/sungah-yoon.html">Profile</a>

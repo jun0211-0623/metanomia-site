@@ -1,0 +1,27 @@
+name: Site audit
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Regenerate static news pages
+        run: python scripts/build-news-pages.py
+      - name: Apply repeatable site preparation
+        run: python scripts/prepare-site.py
+      - name: Audit HTML and local links
+        run: python scripts/audit-site.py
+      - name: Check JavaScript syntax
+        run: find js api -name '*.js' -print0 | xargs -0 -n1 node --check
+      - name: Verify generated output is committed
+        run: git diff --exit-code

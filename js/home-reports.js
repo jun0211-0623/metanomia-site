@@ -52,30 +52,37 @@
 
   function buildLeadTitle(report) {
     if (isKo && report.href.indexOf('where-is-ethereum-going') !== -1) {
-      var title = make('h1', 'lead__title ethereum-report-title');
+      var title = make('h2', 'lead__title ethereum-report-title');
       title.setAttribute('aria-label', report.title);
       title.appendChild(make('span', 'ethereum-report-title__line', '2026년,'));
       title.appendChild(make('span', 'ethereum-report-title__line', '이더리움은 어디로 가고 있는가'));
       return title;
     }
     if (!isKo && report.href.indexOf('bitcoin-quantum-computing') !== -1) {
-      var quantumTitle = make('h1', 'lead__title quantum-report-title quantum-report-title--en');
+      var quantumTitle = make('h2', 'lead__title quantum-report-title quantum-report-title--en');
       quantumTitle.setAttribute('aria-label', report.title);
       quantumTitle.appendChild(make('span', 'quantum-report-title__line', 'Can Bitcoin Survive'));
       quantumTitle.appendChild(make('span', 'quantum-report-title__line', 'the Age of Quantum Computing?'));
       return quantumTitle;
     }
-    return buildReportTitle('h1', 'lead__title', report);
+    return buildReportTitle('h2', 'lead__title', report);
   }
 
-  function buildLeadSlide(report) {
+  function buildLeadSlide(report, index) {
     var link = make('a', 'lead__slide');
     link.href = report.href;
+    link.id = 'featured-report-' + index;
     link.setAttribute('data-published', report.published);
+    link.setAttribute('role', 'group');
+    link.setAttribute('aria-roledescription', isKo ? '슬라이드' : 'slide');
+    link.setAttribute('aria-label', (index + 1) + ' / 4: ' + report.title);
 
     var image = make('img', 'lead__img');
     image.src = report.image;
     image.alt = report.title;
+    image.decoding = 'async';
+    image.loading = index === 0 ? 'eager' : 'lazy';
+    if (index === 0) image.fetchPriority = 'high';
     link.appendChild(image);
 
     var overlay = make('div', 'lead__overlay');
@@ -100,14 +107,19 @@
     track.textContent = '';
     dots.textContent = '';
     reports.slice(0, 4).forEach(function (report, index) {
-      track.appendChild(buildLeadSlide(report));
+      track.appendChild(buildLeadSlide(report, index));
       var button = make('button', index === 0 ? 'is-active' : '');
       button.type = 'button';
-      button.setAttribute('aria-label', String(index + 1));
+      button.setAttribute('aria-label', report.title);
+      button.setAttribute('aria-controls', 'featured-report-' + index);
       dots.appendChild(button);
     });
+    var pause = make('button', 'lead__pause', 'Ⅱ');
+    pause.type = 'button';
+    pause.setAttribute('aria-pressed', 'false');
+    pause.setAttribute('aria-label', isKo ? '자동 재생 일시정지' : 'Pause automatic rotation');
+    dots.appendChild(pause);
   }
-
   function buildSubcard(report) {
     var link = make('a', 'subcard');
     link.href = report.href;
@@ -117,6 +129,8 @@
     var image = make('img');
     image.src = report.image;
     image.alt = '';
+    image.loading = 'lazy';
+    image.decoding = 'async';
     media.appendChild(image);
     media.appendChild(make('span', 'subcard__tag', report.series));
     link.appendChild(media);
@@ -151,6 +165,8 @@
     var image = make('img');
     image.src = report.image;
     image.alt = '';
+    image.loading = 'lazy';
+    image.decoding = 'async';
     media.appendChild(image);
     link.appendChild(media);
 
@@ -210,25 +226,54 @@
     if (!lead) return;
     var track = lead.querySelector('.lead__track');
     var slides = Array.prototype.slice.call(lead.querySelectorAll('.lead__slide'));
-    var dots = Array.prototype.slice.call(lead.querySelectorAll('.lead__dots button'));
+    var dots = Array.prototype.slice.call(lead.querySelectorAll('.lead__dots button:not(.lead__pause)'));
+    var pause = lead.querySelector('.lead__pause');
+    var reduceMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
     if (!track || !slides.length) return;
+
+    lead.setAttribute('role', 'region');
+    lead.setAttribute('aria-roledescription', isKo ? '캐러셀' : 'carousel');
+    lead.setAttribute('aria-label', isKo ? '주요 보고서' : 'Featured reports');
 
     var current = 0;
     var timer;
     function show(index) {
       current = (index + slides.length) % slides.length;
       track.style.transform = 'translateX(-' + (current * 100) + '%)';
+      slides.forEach(function (slide, slideIndex) {
+        var active = slideIndex === current;
+        slide.setAttribute('aria-hidden', active ? 'false' : 'true');
+        slide.tabIndex = active ? 0 : -1;
+      });
       dots.forEach(function (dot, dotIndex) {
-        dot.classList.toggle('is-active', dotIndex === current);
+        var active = dotIndex === current;
+        dot.classList.toggle('is-active', active);
+        dot.setAttribute('aria-current', active ? 'true' : 'false');
       });
     }
     function start() {
-      if (slides.length < 2) return;
+      if (slides.length < 2 || reduceMotion || (pause && pause.getAttribute('aria-pressed') === 'true')) return;
+      window.clearInterval(timer);
       timer = window.setInterval(function () { show(current + 1); }, 6000);
     }
-    function reset() {
+    function stop() {
       window.clearInterval(timer);
+    }
+    function reset() {
+      stop();
       start();
+    }
+
+    if (pause) {
+      pause.addEventListener('click', function () {
+        var paused = pause.getAttribute('aria-pressed') === 'true';
+        pause.setAttribute('aria-pressed', paused ? 'false' : 'true');
+        pause.textContent = paused ? 'Ⅱ' : '▶';
+        pause.setAttribute('aria-label', paused
+          ? (isKo ? '자동 재생 일시정지' : 'Pause automatic rotation')
+          : (isKo ? '자동 재생 시작' : 'Start automatic rotation'));
+        if (paused) start(); else stop();
+      });
     }
     dots.forEach(function (dot, dotIndex) {
       dot.addEventListener('click', function () {
@@ -236,10 +281,18 @@
         reset();
       });
     });
+    lead.addEventListener('mouseenter', stop);
+    lead.addEventListener('mouseleave', start);
+    lead.addEventListener('focusin', stop);
+    lead.addEventListener('focusout', function (event) {
+      if (!lead.contains(event.relatedTarget)) start();
+    });
+    document.addEventListener('visibilitychange', function () {
+      if (document.hidden) stop(); else start();
+    });
     show(0);
     start();
   }
-
   function finishSetup() {
     bindFilters();
     bindCarousel();
