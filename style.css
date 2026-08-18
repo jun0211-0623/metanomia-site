@@ -2198,3 +2198,12 @@ html[lang="en"] .cat-title.cat-title--long { white-space: nowrap; }
   .cta#newsletter .signup__input { border-bottom: 2px solid var(--ink); }
   .cta#newsletter .signup__btn { min-height: 52px; }
 }
+
+/* Align media-program descriptions with the third item in the media tabs. */
+@media (min-width: 992px) {
+  .media-tabs + .cat-hero--compact .cat-intro,
+  html[lang="ko"] .media-tabs + .cat-hero--compact .cat-intro {
+    grid-template-columns: minmax(280px, .32fr) minmax(0, .68fr);
+    gap: clamp(24px, 2vw, 32px);
+  }
+}
