@@ -182,6 +182,15 @@
     return COPY.detailHref + '?slug=' + encodeURIComponent(itemKey(item));
   }
 
+  function updateDetailLanguageLinks(slug) {
+    var counterpart = isKo ? 'crypto-news-detail.html' : 'crypto-news-detail.ko.html';
+    var href = counterpart + (slug ? '?slug=' + encodeURIComponent(slug) : '');
+    document.querySelectorAll('.nav__lang, .nav__drawer-link[href^="crypto-news-detail"]')
+      .forEach(function (link) {
+        link.href = href;
+      });
+  }
+
   function renderDetailNavigation(items, currentIndex) {
     var previousLink = detailRoot.querySelector('[data-news-previous]');
     var nextLink = detailRoot.querySelector('[data-news-next]');
@@ -208,6 +217,7 @@
 
   function renderDetail(items) {
     var slug = new URLSearchParams(window.location.search).get('slug') || '';
+    updateDetailLanguageLinks(slug);
     var item = items.find(function (candidate) { return itemKey(candidate) === slug; });
     if (!item) {
       emptyState(detailRoot, COPY.missingTitle, COPY.missingBody);
