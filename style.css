@@ -727,6 +727,10 @@ html[lang="ko"] .pub-dark.about-hero .about-hero__lead { font-size: clamp(24px, 
 
 /* Compact About-page content sections */
 .about-body--tight { padding-top: 0; }
+.about-body--areas {
+  background: var(--editorial-paper);
+  padding-top: clamp(52px, 5vw, 72px);
+}
 .about-body__h--wide { margin-bottom: 28px; }
 
 /* Researcher profile base components */
