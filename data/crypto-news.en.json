@@ -1,7 +1,49 @@
 {
   "schema_version": "1.0",
-  "generated_at_kst": "2026-08-17T09:26:00+09:00",
+  "generated_at_kst": "2026-08-18T10:01:00+09:00",
   "items": [
+    {
+      "slug": "2026-08-18-crypto-news-fb72b26e2d",
+      "date_kst": "2026-08-18",
+      "title": "Bits of Gold Customer Data Breach: Yellow App Suspends Bitcoin Purchases",
+      "content": "A customer personal data breach has occurred at Bits of Gold, Israel's leading regulated cryptocurrency brokerage. Founded in 2013, the company was the first Israeli cryptocurrency firm to obtain a permanent financial services provider license, and it also holds SOC 2 Type 2 certification. Some outlets estimated the potentially affected range at roughly 200,000 to as many as 250,000 people, but the actual number of customers whose information was exposed has not yet been confirmed.\r\nBits of Gold said on August 16 that unauthorized access had occurred in a secondary data analytics system. The information potentially exposed includes names and national identification numbers, email addresses, phone numbers, IP addresses, bank account information, and public wallet addresses. According to the company, customer funds, digital assets, private keys, passwords, card security codes (CVV), and copies of identification documents were not affected.\r\nThe company explained that the incident occurred in an environment linked to an external data analytics vendor. Some security experts have raised a possible connection to the recent Metabase breach, but the exact intrusion path and vulnerability have not been officially confirmed. The company isolated the system in question, reported the incident to the Capital Markets Authority and the National Cyber Directorate, and then launched an investigation with an outside security firm.\r\nFollowing the incident, Paz, an Israeli retail and energy company, suspended the bitcoin purchase function in its convenience store app Yellow until the investigation is complete. However, it said that because the Yellow app and Bits of Gold's systems are not directly connected, Yellow users' information was not exposed, and the partnership between the two companies remains in place.\r\nAround the same period, roughly 40,000 people's information was exposed at SafePal through its order tracking function, and at Trezor, shipping information for roughly 14,000 people was leaked through a breach at a logistics provider. All three incidents share the characteristic that they occurred not in private keys or the wallets themselves but in peripheral operational systems such as ordering, shipping, and data analytics.",
+      "metanomia_thought": "Even if private keys are safe, when real names, bank accounts, and public wallet addresses are exposed together, attackers can link specific users to their on-chain transaction histories and use that for targeted phishing and impersonation. The likelihood also grows that they will screen targets based on wallet balances and transaction flows.\r\nRecently, incidents have occurred in succession at SafePal's order tracking function, Trezor's logistics provider, and Bits of Gold's data analytics environment. The shipping addresses exposed at SafePal and Trezor connect hardware wallet purchase histories to places of residence. Such information can be abused as a target list for physical attacks, not just online fraud. Chainalysis counted 46 cases of cryptocurrency extortion involving violence through the end of June 2026, and analyzed that more than $30 million was taken in successful attacks.\r\nVirtual asset security does not stop at wallets and private keys. The entire data supply chain, including the analytics tools that receive customer information and the logistics and partner services, must be managed as a single security perimeter.",
+      "sources": [
+        {
+          "title": "Israel’s largest crypto broker Bits of Gold hit by data breach affecting 200,000 customers",
+          "url": "https://www.coindesk.com/tech/2026/08/17/israel-s-largest-crypto-broker-bits-of-gold-hit-by-data-breach-affecting-200-000-customers"
+        },
+        {
+          "title": "Paz freezes the purchase of Bitcoin on Yellow app following cyber incident at Bits of Gold",
+          "url": "https://www.calcalistech.com/ctechnews/article/p9vtcw5e6"
+        },
+        {
+          "title": "Paz freezes the purchase of Bitcoin on Yellow app following cyber incident at Bits of Gold",
+          "url": "https://www.calcalistech.com/ctechnews/article/p9vtcw5e6#google_vignette"
+        },
+        {
+          "title": "Estimated $30 Million Stolen in Violent Crypto Attacks in 2026 as France Records Emerges as Hotspot",
+          "url": "https://www.chainalysis.com/blog/violent-crypto-wrench-attacks-2026/"
+        }
+      ]
+    },
+    {
+      "slug": "2026-08-18-crypto-news-9bbf389b1b",
+      "date_kst": "2026-08-18",
+      "title": "Ethereum Opens Platåberget Public Testnet; Glamsterdam Activates at the Fork on the 20th",
+      "content": "The Ethereum Foundation opened Platåberget, a public testnet for trying out the next major update, Glamsterdam, in advance, on August 17. The test network first runs under the same rules as the current Ethereum mainnet, and switches to Glamsterdam's new rules on August 20. The design is meant to allow observation of errors that may arise at the moment the upgrade takes effect.\r\nThe core change is separating, within the Ethereum protocol, the role of the validator that finally proposes a block from that of the \"builder\" that gathers transactions and constructs the block. A feature that verifies transactions more efficiently by including a list of which accounts and storage each block used is also being introduced. Gas is divided into \"execution gas\" used for computation and \"state gas\" charged when data is newly stored, and the cost of creating new accounts and storage rises sharply.\r\nThe maximum size of smart contract code increases from 24KiB to 64KiB. Wallets, data query services, and fee estimation tools that assume a block's maximum gas limit is a fixed value, or that calculate gas as a single number, may cause transaction failures or malfunctions if they are not updated. The base cost of 21,000 gas for sending ether to an existing account is maintained, but if a new account is created on the receiving side, state gas is added.\r\nDevelopers plan to run a separate devnet test within a month after Platåberget that deliberately creates a situation in which block finalization halts. They will then verify on the Sepolia and Hoodi testnets as well. Glamsterdam, whose schedule has slipped from the original plan, currently targets the fourth quarter of 2026 for mainnet deployment, but a specific date has not yet been set.",
+      "metanomia_thought": "The point of a public testnet lies as much in exposing in advance the authority and dependency relationships surrounding who builds blocks and how execution costs are priced as it does in throughput figures. A substantial share of Ethereum blocks today are built by external builders and delivered to validators through intermediaries called relays. Glamsterdam is an attempt to pull this relationship inside the protocol and reduce dependence on external intermediaries.\r\nBlock composition and the cost structure on mainnet remain unchanged for now. Tool compatibility and the participation structure of validators and builders that emerge after the fork on the 20th are the most important observational material for the time being. That said, testnets carry no actual block rewards or revenue from transaction ordering. How builders actually compete and who that revenue accrues to will only become clear after deployment on mainnet.",
+      "sources": [
+        {
+          "title": "Announcing the Platåberget Testnet",
+          "url": "https://blog.ethereum.org/2026/08/17/plataberget-testnet"
+        },
+        {
+          "title": "Ethereum’s next major upgrade just slipped to late 2026, forcing a two-week scramble to save its 2027 roadmap",
+          "url": "https://cryptoslate.com/ethereums-next-major-upgrade-just-slipped-to-late-2026-forcing-a-two-week-scramble-to-save-its-2027-roadmap/"
+        }
+      ]
+    },
     {
       "slug": "2026-08-17-crypto-news-b77675ed41",
       "date_kst": "2026-08-17",
