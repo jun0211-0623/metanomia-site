@@ -224,6 +224,12 @@
       return;
     }
 
+    // Keep old shared links working while serving the article from its static URL.
+    if (/\/crypto-news-detail(?:\.ko)?\.html$/.test(window.location.pathname)) {
+      window.location.replace(detailUrl(item));
+      return;
+    }
+
     updateMetadata(item);
     renderDetailNavigation(items, items.indexOf(item));
     var date = detailRoot.querySelector('[data-news-date]');

@@ -103,6 +103,16 @@ def main() -> int:
         source = page.read_text(encoding="utf-8")
         if '"@type": "NewsArticle"' not in source:
             errors.append(f"{page.name}: missing NewsArticle JSON-LD")
+        if "data-crypto-news-detail" in source:
+            errors.append(f"{page.name}: generated page still contains the dynamic news placeholder")
+        if "뉴스를 불러오는 중입니다." in source or "Loading news" in source:
+            errors.append(f"{page.name}: generated page still contains loading copy")
+        if '<article class="crypto-news-article__inner">' not in source:
+            errors.append(f"{page.name}: missing static news article body")
+        parser = PageParser()
+        parser.feed(source)
+        if parser.has_noindex:
+            errors.append(f"{page.name}: static news page must be indexable")
 
     print(f"Audited {len(pages)} HTML files and {len(news_pages)} static news pages")
     for message in warnings[:30]:

@@ -138,6 +138,7 @@ def set_meta(page: str, item: dict, lang: str, counterpart: str) -> str:
 
     replacements = [
         (r"<title>.*?</title>", "<title>" + html.escape(page_title) + "</title>"),
+        (r'<meta name="robots" content="[^"]*" />', '<meta name="robots" content="index, follow" />'),
         (r'<meta name="description" content="[^"]*" />', '<meta name="description" content="' + html.escape(description, quote=True) + '" />'),
         (r'<link rel="canonical" href="[^"]*" />', '<link rel="canonical" href="' + canonical + '" />'),
         (r'<meta property="og:locale" content="[^"]*" />', '<meta property="og:locale" content="' + locale + '" />'),
@@ -198,7 +199,14 @@ def build_language(lang: str) -> list[str]:
         counterpart_item = counterpart_by_slug.get(clean(item["slug"]))
         counterpart = static_name(counterpart_item or item, "en" if is_ko else "ko")
         page = set_meta(base, item, lang, counterpart)
-        page = re.sub(r'<main class="crypto-news-article">[\s\S]*?</main>', detail_main(item, items, index, lang), page, count=1)
+        page, replaced = re.subn(
+            r'<main class="crypto-news-article"[^>]*>[\s\S]*?</main>',
+            detail_main(item, items, index, lang),
+            page,
+            count=1,
+        )
+        if replaced != 1:
+            raise RuntimeError(f"Could not replace the news article body in {template.name}")
         page = re.sub(r'\s*<script src="js/crypto-news\.js" defer></script>', "", page)
         generic_counterpart = "crypto-news-detail.html" if is_ko else "crypto-news-detail.ko.html"
         page = page.replace(generic_counterpart, counterpart)
