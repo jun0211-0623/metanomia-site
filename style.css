@@ -1157,6 +1157,15 @@ html[lang="ko"] .crypto-news-thought__body {
     padding-left: var(--gutter);
     padding-right: var(--gutter);
   }
+  html[lang="ko"] .crypto-news-thought__body,
+  html[lang="ko"] .crypto-news-thought__body p {
+    text-align: justify;
+    text-align-last: left;
+    text-justify: inter-character;
+    word-break: break-all;
+    overflow-wrap: anywhere;
+    line-break: anywhere;
+  }
 }
 /* Keep the two intended lines of the quantum-computing report title explicit. */
 .quantum-report-title__line,
