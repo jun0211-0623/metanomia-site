@@ -992,18 +992,9 @@ html[lang="en"] .legal--privacy .legal__body p:not(.legal__meta) {
   padding: clamp(42px, 6vw, 82px) 0 clamp(82px, 10vw, 144px);
 }
 .crypto-news-article__inner { max-width: 980px; }
-.crypto-news-back {
-  display: inline-flex;
-  align-items: center;
-  gap: 9px;
-  color: var(--ink);
-  font-size: 14px;
-  font-weight: 600;
-}
-.crypto-news-back:hover { color: var(--tag-fg); }
 .crypto-news-article__header {
   max-width: 900px;
-  margin-top: clamp(48px, 7vw, 82px);
+  margin-top: 0;
   padding-bottom: clamp(34px, 5vw, 58px);
   border-bottom: 2px solid var(--ink);
 }

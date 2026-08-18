@@ -93,15 +93,12 @@ def navigation(items: list[dict], index: int, lang: str) -> str:
 
 def detail_main(item: dict, items: list[dict], index: int, lang: str) -> str:
     is_ko = lang == "ko"
-    back_href = "crypto-news.ko.html" if is_ko else "crypto-news.html"
-    back_label = "크립토 뉴스" if is_ko else "Crypto News"
     thought_label = "메타노미아 생각" if is_ko else "Metanomia View"
     sources_label = "출처" if is_ko else "Sources"
     title = html.escape(clean(item["title"]))
     return f'''<main class="crypto-news-article" id="main-content">
     <div class="container">
       <article class="crypto-news-article__inner">
-        <a class="crypto-news-back" href="{back_href}"><span aria-hidden="true">←</span> {back_label}</a>
         <header class="crypto-news-article__header">
           <time class="crypto-news-article__date" datetime="{html.escape(clean(item["date_kst"]), quote=True)}">{format_date(clean(item["date_kst"]), lang)}</time>
           <h1 class="crypto-news-article__title">{title}</h1>
