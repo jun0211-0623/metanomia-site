@@ -92,7 +92,11 @@ h3 { font-size: clamp(20px, 2.4vw, 26px); letter-spacing: -0.3px; }
 /* dark nav: light text + accents */
 .nav .nav__link { color: #fff; }
 .nav .nav__lang { color: #fff; }
-.nav .nav__search { color: #fff; border-color: #333; background: #000; }
+.nav button.nav__search {
+  color: #fff;
+  border-color: #333 !important;
+  background-color: #000 !important;
+}
 .nav .nav__search:hover { background: #1a1a1a; }
 .nav .nav__toggle { color: #fff; }
 .nav__inner {
@@ -146,8 +150,8 @@ html[lang="ko"] .nav__dropdown--publications { min-width: 360px; }
 /* ---------- 사이트 검색 (네비 드롭다운) ---------- */
 .sitesearch { position: absolute; left: 0; right: 0; top: 100%; background: #0d0d0d; border-bottom: 1px solid #262626; z-index: 70; }
 .sitesearch[hidden] { display: none; }
-.sitesearch__inner { max-width: 860px; padding-top: 18px; padding-bottom: 22px; }
-.sitesearch__input { width: 100%; background: transparent; border: 0; border-bottom: 1px solid #333; color: #fff; font-family: var(--sans); font-size: clamp(17px, 1.5vw, 21px); padding: 9px 0; outline: none; }
+.sitesearch__inner { max-width: 720px; padding-top: 16px; padding-bottom: 20px; }
+.sitesearch__input { width: 100%; background: transparent; border: 0; border-bottom: 1px solid #333; color: #fff; font-family: var(--sans); font-size: 18px; padding: 8px 0; outline: none; }
 .sitesearch__input::placeholder { color: #6a6a6a; }
 .sitesearch__results { max-height: 60vh; overflow-y: auto; margin-top: 8px; }
 .sitesearch__msg { color: #6a6a6a; font-size: 15px; padding: 18px 0; }
@@ -990,7 +994,7 @@ html[lang="en"] .legal--privacy .legal__body p:not(.legal__meta) {
   font-weight: 600;
 }
 .crypto-news-article {
-  padding: clamp(28px, 3vw, 44px) 0 clamp(82px, 10vw, 144px);
+  padding: clamp(18px, 2vw, 28px) 0 clamp(82px, 10vw, 144px);
 }
 .crypto-news-article__inner { max-width: 980px; }
 .crypto-news-article__header {
