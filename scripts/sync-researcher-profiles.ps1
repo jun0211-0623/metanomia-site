@@ -1,4 +1,4 @@
-param(
+﻿param(
   [string]$ProjectRoot = (Split-Path -Parent $PSScriptRoot)
 )
 
@@ -7,32 +7,32 @@ $ErrorActionPreference = 'Stop'
 # Public profile data supplied in Metanomia.xlsx on 2026-08-18.
 # Existing reports, books, roles, portraits, and other profile content are left untouched.
 $profiles = @(
-  @{ Name='김상환'; Slug='sanghwan-kim'; Email='kimsanghwan99@gmail.com'; Address='3BgnUHhrGWGuv9rUEFM4NdsdtLeToommmB' },
-  @{ Name='김세린'; Slug='serin-kim'; Email='rene426@naver.com'; Address='37oCuyBhFP5wgcPGdiUjn1XY8NA6ejSMXu'; NoteKo='신입'; NoteEn='New member' },
-  @{ Name='김연경'; Slug='yonkyung-kim'; Email='pola031316@gmail.com'; Address='18cHpZkjKLBWZac2QWBDPqXy3V2rgSgWtx'; NoteKo='신입'; NoteEn='New member' },
-  @{ Name='김유정'; Slug='yujeong-kim'; Email='Liuting1004@gmail.com'; NoteKo='신입'; NoteEn='New member' },
-  @{ Name='김은미'; Slug='eunmi-kim'; Email='kimem1level@gmail.com'; Address='12y61h7snTzdRKRKYgmprZ6apBsQTgxsvw' },
-  @{ Name='노성준'; Slug='seongjun-noh'; Email='noeeo111@gmail.com'; Address='1P9h9AU1LhekPormMXHit3kvD2h13PLW42' },
-  @{ Name='류제우'; Slug='jewoo-ryu'; Email='jw.orbit1@gmail.com'; Address='1C9QhLxb4wmSd9LVhQGzupCHne4PE8yL74'; EducationKo=@('한양대학교 비트코인화폐철학과 석사과정'); EducationEn=@('M.A. candidate, Department of Bitcoin Monetary Philosophy, Hanyang University') },
-  @{ Name='박민구'; Slug='mingu-park'; Email='mingupark1221@gmail.com'; Address='3CpARyGfVidtsjkngS7zN6f7YtrXdXeWsV'; NoteKo='신입'; NoteEn='New member'; EducationKo=@('2026.03 ~ 현재 한양대학교 비트코인화폐철학과 석사과정 재학','2016.09 ~ 2023.02 고려대학교 KU-KIST융합대학원 이학박사(신경과학 전공)','2010.03 ~ 2016.08 고려대학교 바이오의공학부 공학사'); EducationEn=@('M.A. candidate, Department of Bitcoin Monetary Philosophy, Hanyang University (Mar. 2026–present)','Ph.D. in Neuroscience, KU-KIST Graduate School of Converging Science and Technology, Korea University (Sep. 2016–Feb. 2023)','B.Eng. in Biomedical Engineering, Korea University (Mar. 2010–Aug. 2016)'); CareerKo=@('2023.03 ~ 2025.09 기초과학연구원(IBS) 기억 및 교세포 연구단, 박사 후 연구원'); CareerEn=@('Postdoctoral Researcher, Memory and Glia Research Group, Institute for Basic Science (IBS) (Mar. 2023–Sep. 2025)') },
-  @{ Name='박보영'; Slug='boyoung-park'; Email='parkbo0@hanyang.ac.kr'; Address='bc1qjxaqesvz6g5umpgcw9n20hmsxfdgrvkaryf8yf'; NoteKo='신입'; NoteEn='New member' },
-  @{ Name='박상현'; Slug='sanghyeon-park'; Email='kaistbab11@gmail.com'; Address='bc1q5tdm3pwzm7y5ngg9342e9s9pk6kscd94xxs5zw'; EducationKo=@('한양대학교 비트코인화폐철학과 석사과정'); EducationEn=@('M.A. candidate, Department of Bitcoin Monetary Philosophy, Hanyang University') },
-  @{ Name='박선협'; Slug='seonhyeop-park'; Email='821psh@gmail.com'; Address='bc1qwfm8k0gttlthkrq9kwzvpyjadle9hhn26tjw6m'; NoteKo='신입'; NoteEn='New member' },
-  @{ Name='박수훈'; Slug='suhoon-park'; Email='tngns0011@gmail.com'; Address='1ESf7pXqRnTEaqrD5C1croE7xcoB97Gb9C'; LinkedIn='https://www.linkedin.com/in/suhoon-park/'; EducationKo=@('한양대학교 비트코인화폐철학과 석사과정','Liberty University, Finance'); EducationEn=@('M.A. candidate, Department of Bitcoin Monetary Philosophy, Hanyang University','B.S. in Finance, Liberty University'); CareerKo=@('보험연수원 크립토스쿨 강사','세림종합물류 국제영업부'); CareerEn=@('Instructor, Crypto School, Korea Insurance Institute','International Sales, Serim Total Logistics') },
-  @{ Name='박시우'; Slug='siwoo-park'; Email='ciwoolove@gmail.com'; Address='3HYM5SBRzXtLrv7Vu28Ae8T8yoouNqGzRy'; EducationKo=@('한양대학교 비트코인화폐철학과 석사과정'); EducationEn=@('M.A. candidate, Department of Bitcoin Monetary Philosophy, Hanyang University'); NoteKo='신입'; NoteEn='New member' },
-  @{ Name='석민국'; Slug='minguk-seok'; Email='brdonverja@gmail.com'; Address='1CNEjnMpv11zDp7py9VhMt7aJ1pNqckzVu'; NoteKo='석대한과 공동 연구'; NoteEn='In collaboration with Daehan Seok' },
+  @{ Name='김상환'; Slug='sanghwan-kim'; Email='kimsanghwan99@gmail.com' },
+  @{ Name='김세린'; Slug='serin-kim'; Email='rene426@naver.com' },
+  @{ Name='김연경'; Slug='yonkyung-kim'; Email='pola031316@gmail.com' },
+  @{ Name='김유정'; Slug='yujeong-kim'; Email='Liuting1004@gmail.com' },
+  @{ Name='김은미'; Slug='eunmi-kim'; Email='kimem1level@gmail.com' },
+  @{ Name='노성준'; Slug='seongjun-noh'; Email='noeeo111@gmail.com' },
+  @{ Name='류제우'; Slug='jewoo-ryu'; Email='jw.orbit1@gmail.com'; EducationKo=@('한양대학교 비트코인화폐철학과 석사과정'); EducationEn=@('M.A. candidate, Department of Bitcoin Monetary Philosophy, Hanyang University') },
+  @{ Name='박민구'; Slug='mingu-park'; Email='mingupark1221@gmail.com'; EducationKo=@('2026.03 ~ 현재 한양대학교 비트코인화폐철학과 석사과정 재학','2016.09 ~ 2023.02 고려대학교 KU-KIST융합대학원 이학박사(신경과학 전공)','2010.03 ~ 2016.08 고려대학교 바이오의공학부 공학사'); EducationEn=@('M.A. candidate, Department of Bitcoin Monetary Philosophy, Hanyang University (Mar. 2026–present)','Ph.D. in Neuroscience, KU-KIST Graduate School of Converging Science and Technology, Korea University (Sep. 2016–Feb. 2023)','B.Eng. in Biomedical Engineering, Korea University (Mar. 2010–Aug. 2016)'); CareerKo=@('2023.03 ~ 2025.09 기초과학연구원(IBS) 기억 및 교세포 연구단, 박사 후 연구원'); CareerEn=@('Postdoctoral Researcher, Memory and Glia Research Group, Institute for Basic Science (IBS) (Mar. 2023–Sep. 2025)') },
+  @{ Name='박보영'; Slug='boyoung-park'; Email='parkbo0@hanyang.ac.kr' },
+  @{ Name='박상현'; Slug='sanghyeon-park'; Email='kaistbab11@gmail.com'; EducationKo=@('한양대학교 비트코인화폐철학과 석사과정'); EducationEn=@('M.A. candidate, Department of Bitcoin Monetary Philosophy, Hanyang University') },
+  @{ Name='박선협'; Slug='seonhyeop-park'; Email='821psh@gmail.com' },
+  @{ Name='박수훈'; Slug='suhoon-park'; Email='tngns0011@gmail.com'; LinkedIn='https://www.linkedin.com/in/suhoon-park/'; EducationKo=@('한양대학교 비트코인화폐철학과 석사과정','Liberty University, Finance'); EducationEn=@('M.A. candidate, Department of Bitcoin Monetary Philosophy, Hanyang University','B.S. in Finance, Liberty University'); CareerKo=@('보험연수원 크립토스쿨 강사','세림종합물류 국제영업부'); CareerEn=@('Instructor, Crypto School, Korea Insurance Institute','International Sales, Serim Total Logistics') },
+  @{ Name='박시우'; Slug='siwoo-park'; Email='ciwoolove@gmail.com'; EducationKo=@('한양대학교 비트코인화폐철학과 석사과정'); EducationEn=@('M.A. candidate, Department of Bitcoin Monetary Philosophy, Hanyang University') },
+  @{ Name='석민국'; Slug='minguk-seok'; Email='brdonverja@gmail.com' },
   @{ Name='손혜민'; Slug='hyemin-son'; Email='hyeomin0109@gmail.com'; LinkedIn='https://www.linkedin.com/in/hyemin-son-20a319350'; EducationKo=@('한양대학교 비트코인화폐철학과 석사과정'); EducationEn=@('M.A. candidate, Department of Bitcoin Monetary Philosophy, Hanyang University'); CareerKo=@('(주)오태버스','보험연수원 크립토스쿨 교무총괄'); CareerEn=@('OtaVerse Co., Ltd.','Academic Operations Lead, Crypto School, Korea Insurance Institute') },
-  @{ Name='유주아'; Slug='zooa-yoo'; Email='bitmoong2040@gmail.com'; Address='3JkUuuP3p7ZiRkwJJvQqUTh3uqmBrzeJsF' },
-  @{ Name='이정은'; Slug='jungeun-lee'; Email='emailkristinlee@gmail.com'; Address='39C73hTFS4HFYij9G6Mr9HspocC5rsbafC' },
-  @{ Name='이지환'; Slug='jeehwan-lee'; Email='jeehwanlee27@gmail.com'; Address='bc1qqq9jm5dvffvuwftzqskcudtd8vju3xa8eadf9q'; NoteKo='신입'; NoteEn='New member' },
-  @{ Name='이창준'; Slug='changjun-lee'; Email='johan000623@gmail.com'; Address='bc1qqkq7uw2l7l4df9nau0ta75lck6ns743zu4qt8t'; LinkedIn='https://www.linkedin.com/in/changjun-lee'; EducationKo=@('한양대학교 비트코인화폐철학과 석사과정'); EducationEn=@('M.A. candidate, Department of Bitcoin Monetary Philosophy, Hanyang University'); CareerKo=@('(주)모비커스'); CareerEn=@('Mobickers Co., Ltd.') },
-  @{ Name='조세연'; Slug='seyeon-cho'; Email='csy9512@naver.com'; Address='bc1q95cp7590yjg7ytgkua4daes7c5yk8f4y99ay93'; NoteKo='신입'; NoteEn='New member' },
-  @{ Name='조용래'; Slug='yongrae-cho'; Email='dragoncyr46@gmail.com'; Address='1C9kbgRdM2hpTtvhfug72pQiBidioLsrQJ' },
-  @{ Name='진성훈'; Slug='sunghoon-jin'; Email='shjin0130@gmail.com'; Address='1K9VQRDgpkiX7EVKfpvP1gyw5VEGy9V4Pj' },
-  @{ Name='진승주'; Slug='seungju-jin'; Email='gufudu1234@gmail.com'; Address='bc1qsjr276unkun4mphq2ae3g4jcqs9gaanqaewh7a'; LinkedIn='https://www.linkedin.com/in/seungjoojin'; NoteKo='신입'; NoteEn='New member' },
-  @{ Name='윤성아'; Slug='sungah-yoon'; Email='seongah7865@gmail.com'; Address='1MwbA5feGZj3Z2pVbzw9kw3VEHJVn78yHU'; LinkedIn='https://www.linkedin.com/in/seongahyoun'; EducationKo=@('서울대학교 미술대학 디자인학부 석사과정 재학','홍익대학교 미술대학 산업디자인학과 졸업'); EducationEn=@('M.A. candidate, Department of Design, College of Fine Arts, Seoul National University','B.F.A. in Industrial Design, College of Fine Arts, Hongik University') },
+  @{ Name='유주아'; Slug='zooa-yoo'; Email='bitmoong2040@gmail.com' },
+  @{ Name='이정은'; Slug='jungeun-lee'; Email='emailkristinlee@gmail.com' },
+  @{ Name='이지환'; Slug='jeehwan-lee'; Email='jeehwanlee27@gmail.com' },
+  @{ Name='이창준'; Slug='changjun-lee'; Email='johan000623@gmail.com'; LinkedIn='https://www.linkedin.com/in/changjun-lee'; EducationKo=@('한양대학교 비트코인화폐철학과 석사과정'); EducationEn=@('M.A. candidate, Department of Bitcoin Monetary Philosophy, Hanyang University'); CareerKo=@('(주)모비커스'); CareerEn=@('Mobickers Co., Ltd.') },
+  @{ Name='조세연'; Slug='seyeon-cho'; Email='csy9512@naver.com' },
+  @{ Name='조용래'; Slug='yongrae-cho'; Email='dragoncyr46@gmail.com' },
+  @{ Name='진성훈'; Slug='sunghoon-jin'; Email='shjin0130@gmail.com' },
+  @{ Name='진승주'; Slug='seungju-jin'; Email='gufudu1234@gmail.com'; LinkedIn='https://www.linkedin.com/in/seungjoojin' },
+  @{ Name='윤성아'; Slug='sungah-yoon'; Email='seongah7865@gmail.com'; LinkedIn='https://www.linkedin.com/in/seongahyoun'; EducationKo=@('서울대학교 미술대학 디자인학부 석사과정 재학','홍익대학교 미술대학 산업디자인학과 졸업'); EducationEn=@('M.A. candidate, Department of Design, College of Fine Arts, Seoul National University','B.F.A. in Industrial Design, College of Fine Arts, Hongik University') },
   @{ Name='정두루'; Slug='dooroo-chung'; Email='doorooch@gmail.com'; LinkedIn='https://www.linkedin.com/in/dooroo-chung/'; EducationKo=@('University of Southern California, B.S. Architectural Studies'); EducationEn=@('B.S. in Architectural Studies, University of Southern California'); CareerKo=@('모비커스(주)'); CareerEn=@('Mobickers Co., Ltd.') },
-  @{ Name='한상준'; Slug='sangjun-han'; Email='samueljhan@naver.com'; Address='3MrooQ8R16uBNt9tdFKTbyhjvusY9Fj5tD'; LinkedIn='https://www.linkedin.com/in/samuel-j-hahn-2a9149262/en'; EducationKo=@('한국외대 마인어과 학사'); EducationEn=@('B.A. in Malay-Indonesian Studies, Hankuk University of Foreign Studies') }
+  @{ Name='한상준'; Slug='sangjun-han'; Email='samueljhan@naver.com'; LinkedIn='https://www.linkedin.com/in/samuel-j-hahn-2a9149262/en'; EducationKo=@('한국외대 마인어과 학사'); EducationEn=@('B.A. in Malay-Indonesian Studies, Hankuk University of Foreign Studies') }
 )
 
 function Encode([string]$Value) { [System.Net.WebUtility]::HtmlEncode($Value) }
@@ -78,14 +78,11 @@ foreach ($profile in $profiles) {
 
     $education = if ($locale -eq 'ko') { $profile.EducationKo } else { $profile.EducationEn }
     $career = if ($locale -eq 'ko') { $profile.CareerKo } else { $profile.CareerEn }
-    $note = if ($locale -eq 'ko') { $profile.NoteKo } else { $profile.NoteEn }
-    $labels = if ($locale -eq 'ko') { @{ Education='학력'; Career='경력'; Address='모빅 주소'; Note='비고' } } else { @{ Education='Education'; Career='Career'; Address='Mobick Address'; Note='Note' } }
+    $labels = if ($locale -eq 'ko') { @{ Education='학력'; Career='경력' } } else { @{ Education='Education'; Career='Career' } }
 
     $detailsBody = ''
     $detailsBody += DetailBlock $labels.Education $education
     $detailsBody += DetailBlock $labels.Career $career
-    if ($profile.Address) { $detailsBody += DetailBlock $labels.Address @($profile.Address) ' profile__detail--address' }
-    if ($note) { $detailsBody += DetailBlock $labels.Note @($note) }
 
     if ($detailsBody) {
       $details = @"

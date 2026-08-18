@@ -2481,11 +2481,6 @@ html[lang="en"] .article__body p {
 }
 .profile__detail dd span { display: block; }
 .profile__detail dd span + span { margin-top: 0.35rem; }
-.profile__detail--address dd {
-  overflow-wrap: anywhere;
-  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
-  font-size: 0.82rem;
-}
 @media (max-width: 640px) {
   .profile__detail {
     grid-template-columns: 1fr;
