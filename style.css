@@ -1826,6 +1826,15 @@ html[lang="en"] .cat-title.cat-title--long { white-space: nowrap; }
   line-height: 1.06;
   color: var(--ink);
 }
+.about-hero--about .cat-title {
+  background: none;
+}
+.about-hero--about .cat-title__brand {
+  color: var(--ink);
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+  background: linear-gradient(transparent 82%, var(--accent) 82% 94%, transparent 94%);
+}
 .about-hero__lead {
   max-width: 920px;
   margin-top: clamp(26px, 2.8vw, 38px);
