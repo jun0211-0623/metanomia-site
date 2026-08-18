@@ -730,6 +730,10 @@ html[lang="ko"] .pub-dark.about-hero .about-hero__lead { font-size: clamp(24px, 
 .about-body--areas {
   background: var(--editorial-paper);
   padding-top: clamp(52px, 5vw, 72px);
+  padding-bottom: clamp(36px, 3vw, 48px);
+}
+.about-body--series {
+  padding-top: clamp(48px, 4vw, 64px);
 }
 .about-body__h--wide { margin-bottom: 28px; }
 
