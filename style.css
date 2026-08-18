@@ -2450,3 +2450,45 @@ html[lang="en"] .article__body p {
   }
   .lead__pause { display: none; }
 }
+
+/* Researcher profile details synced from the public profile workbook. */
+.profile__details {
+  margin: 1.4rem 0 0;
+  padding: 0;
+  border-top: 1px solid var(--line, #d6d6d0);
+}
+.profile__detail {
+  display: grid;
+  grid-template-columns: minmax(7rem, 0.28fr) minmax(0, 1fr);
+  gap: 1rem;
+  padding: 1rem 0;
+  border-bottom: 1px solid var(--line, #d6d6d0);
+}
+.profile__detail dt {
+  margin: 0;
+  color: var(--muted, #77776f);
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.profile__detail dd {
+  min-width: 0;
+  margin: 0;
+  color: var(--ink, #111);
+  font-size: 0.96rem;
+  line-height: 1.65;
+}
+.profile__detail dd span { display: block; }
+.profile__detail dd span + span { margin-top: 0.35rem; }
+.profile__detail--address dd {
+  overflow-wrap: anywhere;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+  font-size: 0.82rem;
+}
+@media (max-width: 640px) {
+  .profile__detail {
+    grid-template-columns: 1fr;
+    gap: 0.35rem;
+  }
+}
