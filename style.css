@@ -711,17 +711,20 @@ html[lang="ko"] .pub-dark.about-hero .about-hero__lead { font-size: clamp(24px, 
 /* Legal documents (privacy policy, terms) */
 .legal { background: var(--white); padding: 72px 0 96px; }
 .legal__body { max-width: 780px; }
-.legal--terms .legal__body { max-width: 820px; }
+.legal--terms .legal__body,
+.legal--privacy .legal__body { max-width: 820px; }
 .legal__meta { font-size: 14px; color: var(--body); padding-bottom: 28px; border-bottom: 1px solid var(--line); }
 .legal__intro { font-size: 18px; line-height: 1.7; color: var(--ink); margin-top: 32px; }
 .legal__h { font-size: 22px; font-weight: 600; color: var(--ink); letter-spacing: -0.2px; margin-top: 48px; }
 .legal__body p { font-size: 16px; line-height: 1.75; color: var(--body); margin-top: 14px; }
-html[lang="ko"] .legal--terms .legal__body p:not(.legal__meta) {
+html[lang="ko"] .legal--terms .legal__body p:not(.legal__meta),
+html[lang="ko"] .legal--privacy .legal__body p:not(.legal__meta) {
   text-align: justify;
   text-justify: inter-character;
   word-break: break-all;
 }
-html[lang="en"] .legal--terms .legal__body p:not(.legal__meta) {
+html[lang="en"] .legal--terms .legal__body p:not(.legal__meta),
+html[lang="en"] .legal--privacy .legal__body p:not(.legal__meta) {
   text-align: justify;
   text-justify: inter-word;
   word-break: normal;
