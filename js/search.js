@@ -1,5 +1,34 @@
 /* Metanomia site search — nav dropdown, client-side over search-index.json */
 (function () {
+  var nav = document.getElementById('siteNav') || document.querySelector('.nav');
+  var navToggle = document.getElementById('navToggle');
+  var languageMenuStateKey = 'metanomia:language-menu-open';
+
+  if (nav && navToggle) {
+    try {
+      if (window.sessionStorage.getItem(languageMenuStateKey) === '1') {
+        window.sessionStorage.removeItem(languageMenuStateKey);
+        nav.classList.add('is-open');
+        navToggle.setAttribute('aria-expanded', 'true');
+      }
+    } catch (error) {}
+
+    var headerLanguageLink = nav.querySelector('.nav__lang');
+    if (headerLanguageLink) {
+      headerLanguageLink.addEventListener('click', function () {
+        if (!nav.classList.contains('is-open')) return;
+        try { window.sessionStorage.setItem(languageMenuStateKey, '1'); } catch (error) {}
+      });
+    }
+
+    var drawerLanguageLinks = nav.querySelectorAll('.nav__drawer > .nav__drawer-link:last-child');
+    Array.prototype.forEach.call(drawerLanguageLinks, function (link) {
+      link.addEventListener('click', function () {
+        try { window.sessionStorage.setItem(languageMenuStateKey, '1'); } catch (error) {}
+      });
+    });
+  }
+
   var triggers = document.querySelectorAll('.nav__search');
   if (!triggers.length) return;
 
