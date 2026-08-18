@@ -410,9 +410,19 @@ html[lang="ko"] dd {
 @media (max-width: 1024px) {
   .nav__menu { display: none; }
   .nav__toggle { display: grid; place-items: center; width: 42px; height: 42px; border: 1px solid var(--line); }
+  .nav.is-open {
+    position: fixed;
+    inset: 0;
+    overflow: hidden;
+  }
   .nav.is-open .nav__drawer {
     display: flex; flex-direction: column; gap: 2px;
     padding-top: 6px; padding-bottom: 20px; border-top: 1px solid var(--line-dark);
+    height: calc(100vh - 88px);
+    height: calc(100dvh - 88px);
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    -webkit-overflow-scrolling: touch;
   }
   .nav__drawer-link { padding: 16px 2px; font-size: 18px; font-weight: 500; color: #fff; border-bottom: 1px solid var(--line-dark); }
   .nav__drawer-link--sub { padding-left: 22px; font-size: 16px; font-weight: 400; color: #a8a8a8; }
@@ -420,6 +430,10 @@ html[lang="ko"] dd {
 }
 @media (max-width: 640px) {
   .nav__inner { height: 68px; }
+  .nav.is-open .nav__drawer {
+    height: calc(100vh - 68px);
+    height: calc(100dvh - 68px);
+  }
 
   .areas, .cards, .channel__grid, .footer__top { grid-template-columns: 1fr; }
   .card--feature { grid-column: auto; }   /* undo desktop span-2 on 1-col grid */
