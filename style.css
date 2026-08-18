@@ -410,6 +410,8 @@ html[lang="ko"] dd {
 @media (max-width: 1024px) {
   .nav__menu { display: none; }
   .nav__toggle { display: grid; place-items: center; width: 42px; height: 42px; border: 1px solid var(--line); }
+  .nav.is-open .nav__lang { display: inline-flex; align-items: center; justify-content: center; }
+  .nav__drawer > .nav__drawer-link:last-child { display: none; }
   .nav.is-open {
     position: fixed;
     inset: 0;
