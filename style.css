@@ -1875,6 +1875,7 @@ html[lang="en"] .cat-title.cat-title--long { white-space: nowrap; }
 }
 .about-hero + .about-body {
   padding-top: clamp(36px, 3vw, 48px);
+  padding-bottom: clamp(36px, 3vw, 48px);
 }
 
 @media (max-width: 640px) {
