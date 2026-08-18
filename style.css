@@ -2271,3 +2271,20 @@ html[lang="en"] .cat-title.cat-title--long { white-space: nowrap; }
     scroll-snap-align: start;
   }
 }
+
+/* Report excerpts: language-aware justified typesetting. */
+html[lang="ko"] .article__body p {
+  text-align: justify;
+  text-justify: inter-character;
+  word-break: break-all;
+  overflow-wrap: anywhere;
+}
+html[lang="en"] .article__body p {
+  text-align: justify;
+  text-justify: inter-word;
+  word-break: normal;
+  overflow-wrap: break-word;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+  hyphenate-limit-chars: 7 3 3;
+}
