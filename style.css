@@ -1850,6 +1850,12 @@ html[lang="en"] .cat-title.cat-title--long { white-space: nowrap; }
 .cat-hero.about-hero--about {
   background: var(--editorial-paper);
 }
+.cat-hero.about-hero--paper {
+  background: var(--editorial-paper);
+}
+.cat-hero.about-hero--paper .cat-hero__title {
+  padding-top: clamp(30px, 3vw, 44px);
+}
 .about-hero .cat-hero__title {
   padding: clamp(38px, 4.2vw, 62px) 0 clamp(36px, 3vw, 48px);
 }
