@@ -1,7 +1,77 @@
 {
   "schema_version": "1.0",
-  "generated_at_kst": "2026-08-18T10:01:00+09:00",
+  "generated_at_kst": "2026-08-19T10:31:00+09:00",
   "items": [
+    {
+      "id": "crypto-news-925798b172e25eae",
+      "slug": "2026-08-19-crypto-news-925798b172",
+      "date_kst": "2026-08-19",
+      "title": "미 SEC, 가상자산 프로젝트에 간소화된 투자금 조달 절차 제안",
+      "content": "미국 증권시장을 감독하는 증권거래위원회(SEC)가 미국 현지시간 8월 18일, 한국시간 19일 가상자산 프로젝트가 토큰을 팔아 투자금을 모을 때 사용할 수 있는 새 규칙 Regulation Crypto Assets를 제안했다. 지난 3월 SEC가 대부분의 가상자산 자체는 증권이 아니라고 밝힌 가이던스의 후속 조치다. 토큰 판매가 투자계약으로 판단되면 일반 증권 공모와 비슷한 등록·공시 의무가 생길 수 있는데, SEC는 프로젝트 규모와 성장 단계에 맞춘 별도 절차를 만들려 한다. 제안대로라면 초기 프로젝트는 사업과 토큰에 관한 기본 정보를 투자자에게 공개하는 조건으로 4년 동안 최대 500만달러를 조달할 수 있다. 더 큰 프로젝트는 조달액이 일정 기준을 넘으면 감사받은 재무제표를 제출하고 이후에도 정기적으로 보고하는 조건으로 12개월 동안 최대 7,500만달러를 모을 수 있다. 발행팀이 투자자에게 약속한 핵심 경영 활동을 모두 마쳤거나 영구히 중단하고 규칙이 정한 요건을 충족하면, 해당 토큰을 최초 투자계약과 분리해 연방 증권법을 계속 적용할지 판단하는 조건부 기준도 포함됐다. 규칙안대로 확정되면 이 경로로 발행된 토큰에는 각 주의 별도 증권 등록·심사 요건이 적용되지 않으며, 같은 취급이 이후 유통시장 거래에도 이어진다. 다만 모든 토큰 판매가 자유로워지는 것은 아니며, 면제를 받더라도 사기와 시세조종을 금지하는 연방 규정은 그대로 적용된다. 아직 확정된 규정이 아니므로 지금 당장 이용할 수 없고, 연방관보 게재 후 60일 동안 공개 의견을 받은 뒤 SEC가 다시 표결해야 한다.",
+      "metanomia_thought": "이번 제안은 토큰을 처음부터 끝까지 같은 규제로 묶기보다, 개발팀이 약속한 일을 얼마나 완료했는지에 따라 규제 범위를 다시 판단하려는 시도입니다. 확정되면 발행자가 먼저 투자계약 종료 조건의 충족 여부를 판단하고 SEC가 이를 감독하게 됩니다. 앳킨스 위원장이 의회 입법도 필요하다고 강조한 것은 행정규칙만으로 장기적인 제도 안정성을 보장하기 어렵기 때문으로 읽힙니다. 최종안에서는 투자자가 손실 위험과 약속 이행 여부를 충분히 확인할 수 있는지가 핵심입니다.",
+      "sources": [
+        {
+          "title": "SEC Proposes New Regulation Crypto Assets",
+          "url": "https://www.sec.gov/newsroom/press-releases/2026-76-sec-proposes-new-regulation-crypto-assets"
+        },
+        {
+          "title": "Regulation Crypto Assets: A Token Safe Harbor",
+          "url": "https://www.sec.gov/newsroom/speeches-statements/atkins-remarks-regulation-crypto-assets-031726"
+        },
+        {
+          "title": "SEC proposes new crypto offering rules as Congress stalls on digital asset legislation",
+          "url": "https://www.theblock.co/news/regulation/2026-08-18-sec-proposes-new-crypto-offering-rules-congress-stalls-digital-asset-legislation-412145"
+        },
+        {
+          "title": "Statement on Regulation Crypto Assets: Fit-for-purpose Exemptions for Crypto Market Innovation",
+          "url": "https://www.sec.gov/newsroom/speeches-statements/atkins-statement-regulation-crypto-assets-081826"
+        }
+      ]
+    },
+    {
+      "id": "crypto-news-8742c960e34d9c61",
+      "slug": "2026-08-19-crypto-news-8742c960e3",
+      "date_kst": "2026-08-19",
+      "title": "Securitize·Neuberger, 고수익 채권 펀드를 4개 블록체인에 출시",
+      "content": "토큰화 금융상품 플랫폼 Securitize와 글로벌 자산운용사 Neuberger Berman이 8월 18일 고수익 채권 펀드 High Income Tokenized Fund(HINC)를 출시했다. 토큰화 펀드는 투자자가 가진 펀드 지분을 블록체인상의 토큰으로 기록하고 이전할 수 있게 만든 상품으로, 투자자가 개별 채권을 직접 소유하는 구조는 아니다. HINC는 고수익 채권과 대출채권담보부증권(CLO), 레버리지론 등에 투자한다. 고수익 채권은 신용등급이 낮은 기업이 더 높은 이자를 주고 발행하는 채권이며, CLO는 여러 기업대출을 묶은 뒤 이자와 손실을 부담하는 순서에 따라 여러 등급으로 나눈 상품이다. 레버리지론은 부채가 많거나 신용등급이 낮은 기업에 제공되는 대출을 말한다. HINC의 펀드 지분은 Avalanche, Ethereum, Solana, Sui 등 4개 블록체인에서 지원된다. HINC의 순자산과 투자자 수, 체인별 거래량, 환매 실적은 공식 발표와 보도에서 공개되지 않았다.",
+      "metanomia_thought": "블록체인이 바꾸는 것은 펀드 지분을 기록하고 이전하는 방식이며, 투자자가 보유하는 법적 권리는 여전히 펀드 계약을 통해 정해집니다. 투자자는 개별 채권의 직접 소유자가 아니므로 자산 평가와 부도 손실 처리, 환매 가능 여부는 운용사·관리자와 상품 조건에 의존합니다. 지원하는 블록체인의 수보다 지분에 어떤 권리가 붙고 이전·환매가 언제 제한되는지를 확인하는 것이 더 중요합니다.",
+      "sources": [
+        {
+          "title": "Securitize and Neuberger Launch New Tokenized Fixed Income Fund",
+          "url": "https://investors.securitize.io/news/news-details/2026/Securitize-and-Neuberger-Launch-New-Tokenized-Fixed-Income-Fund/default.aspx"
+        },
+        {
+          "title": "Securitize brings Neuberger’s $230 billion fixed-income platform onchain with new tokenized fund",
+          "url": "https://www.theblock.co/news/markets/2026-08-18-securitize-neubergers-230-billion-fixed-income-platform-onchain-new-tokenized-fund-412102"
+        }
+      ]
+    },
+    {
+      "id": "crypto-news-30abe2d7ce5ea46a",
+      "slug": "2026-08-19-crypto-news-30abe2d7ce",
+      "date_kst": "2026-08-19",
+      "title": "Metaplanet, 비트코인 2,100개로 미 상장사 지배권 확보하기로",
+      "content": "일본 상장사 Metaplanet이 비트코인 2,100개와 현금 250만달러를 제공해 미국 나스닥 상장사 Super League Enterprise의 지배권을 확보하는 거래에 합의했다. 비트코인 가치를 포함한 거래 산정액은 약 1억 3,460만달러다. Super League는 미국 현지시간 8월 18일 거래 공시와 예비 주주총회 자료를 미국 증권거래위원회(SEC)에 제출했다. 거래가 끝나면 Metaplanet은 약 95.7%의 지분을 보유하고 이사회 아홉 석 중 다섯 석을 지명하며, Super League는 일본 본사 Metaplanet Inc.의 간접 연결 자회사로 편입될 예정이다. 회사 이름은 Superplanet, Inc., 종목 코드는 SLE에서 SUPA로 바뀔 예정이다. Metaplanet은 앞으로 10년 동안 미리 정한 가격으로 Super League의 새 주식을 최대 3억 8,100만주까지 추가로 살 수 있는 권리인 워런트도 받는다. 거래 직후 기존 주주의 합계 지분은 약 4.3%로 줄고, 워런트가 모두 행사돼 새 주식이 발행된다고 가정하면 약 0.5%까지 낮아질 수 있다. 종결은 2026년 4분기로 예상되지만 신주 발행 승인과 필요한 나스닥 신고 등 여러 조건이 남아 있어 아직 지배권 이전이나 비트코인 이전은 완료되지 않았다.",
+      "metanomia_thought": "이 거래는 비트코인이 기업의 준비자산에서 다른 회사의 지배권을 확보하기 위한 거래 수단으로 확장되는 사례입니다. 그러나 온체인에서 비트코인을 옮기는 것만으로 인수가 끝나는 것은 아니며, 신주 발행과 이사회 구성, 수탁·공시 절차가 함께 완료돼야 실제 권력이 이동합니다. 기존 주주에게 이번 신주 발행 표결은 대규모 희석 전에 행사하는 핵심 통제 지점입니다. 종결 뒤에는 비트코인의 이전·보관 방식과 워런트 행사가 주주의 권리와 회사의 위험을 어떻게 바꾸는지 확인해야 합니다.",
+      "sources": [
+        {
+          "title": "Super League Enterprise, Inc. Preliminary Proxy Statement",
+          "url": "https://www.sec.gov/Archives/edgar/data/1621672/000143774926028340/slgg20260812_pre14a.htm"
+        },
+        {
+          "title": "Japan’s Metaplanet launching U.S. bitcoin treasury company through $135 million nanocap deal",
+          "url": "https://www.coindesk.com/business/2026/08/18/japan-s-metaplanet-launching-u-s-bitcoin-treasury-company-through-usd135-million-nanocap-deal"
+        },
+        {
+          "title": "Metaplanet invests 2,100 BTC in Nasdaq-listed Super League under cash-and-crypto deal",
+          "url": "https://www.theblock.co/news/deals/2026-08-18-metaplanet-super-league-2100-btc-cash-deal-launch-us-bitcoin-treasury-sle-stock-sruge-412101"
+        },
+        {
+          "title": "Metaplanet to Invest 2,100 Bitcoin in Super League to Launch U.S. Bitcoin Treasury Platform Superplanet",
+          "url": "https://www.globenewswire.com/news-release/2026/08/18/3346825/0/en/metaplanet-to-invest-2-100-bitcoin-in-super-league-to-launch-u-s-bitcoin-treasury-platform-superplanet.html"
+        }
+      ]
+    },
     {
       "id": "crypto-news-fb72b26e2d650579",
       "slug": "2026-08-18-crypto-news-fb72b26e2d",
