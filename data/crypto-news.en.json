@@ -1,7 +1,74 @@
 {
   "schema_version": "1.0",
-  "generated_at_kst": "2026-08-18T10:01:00+09:00",
+  "generated_at_kst": "2026-08-19T10:31:00+09:00",
   "items": [
+    {
+      "slug": "2026-08-19-crypto-news-925798b172",
+      "date_kst": "2026-08-19",
+      "title": "US SEC Proposes Streamlined Fundraising Path for Crypto Projects",
+      "content": "The Securities and Exchange Commission (SEC), which oversees US securities markets, proposed a new rule called Regulation Crypto Assets on August 18 US time (August 19 Korea time) that crypto projects can use when raising funds by selling tokens. It follows up on guidance the SEC issued in March stating that most crypto assets are not themselves securities. If a token sale is judged to be an investment contract, registration and disclosure obligations similar to those for a general securities offering can arise, and the SEC is seeking to create a separate procedure matched to a project's size and stage of growth. Under the proposal, early-stage projects could raise up to 5 million dollars over four years on the condition that they disclose basic information about the business and the token to investors. Larger projects could raise up to 75 million dollars over 12 months, on the condition that once the amount raised exceeds a certain threshold they submit audited financial statements and continue to report periodically thereafter. The proposal also includes a conditional standard for determining whether federal securities laws should continue to apply to a token, separating it from the original investment contract, once the issuing team has either completed all of the key managerial activities it promised investors or permanently ceased them and meets the requirements set out in the rule. If the rule is adopted as proposed, tokens issued through this path would not be subject to individual states' separate securities registration and review requirements, and the same treatment would carry over to subsequent secondary market trading. That said, not all token sales become unrestricted, and even with an exemption the federal provisions prohibiting fraud and market manipulation still apply. Because this is not yet a finalized rule, it cannot be used right now: after publication in the Federal Register there will be a 60-day public comment period, followed by another SEC vote.",
+      "metanomia_thought": "Rather than binding a token to the same regulatory treatment from beginning to end, this proposal is an attempt to reassess the scope of regulation according to how much of what the development team promised has been completed. If adopted, the issuer would first judge whether the conditions for terminating the investment contract have been met, and the SEC would supervise that judgment. Chairman Atkins' emphasis that congressional legislation is also needed can be read as reflecting the difficulty of guaranteeing long-term institutional stability through administrative rules alone. In the final version, the key question is whether investors can adequately verify their risk of loss and whether the promises have been carried out.",
+      "sources": [
+        {
+          "title": "SEC Proposes New Regulation Crypto Assets",
+          "url": "https://www.sec.gov/newsroom/press-releases/2026-76-sec-proposes-new-regulation-crypto-assets"
+        },
+        {
+          "title": "Regulation Crypto Assets: A Token Safe Harbor",
+          "url": "https://www.sec.gov/newsroom/speeches-statements/atkins-remarks-regulation-crypto-assets-031726"
+        },
+        {
+          "title": "SEC proposes new crypto offering rules as Congress stalls on digital asset legislation",
+          "url": "https://www.theblock.co/news/regulation/2026-08-18-sec-proposes-new-crypto-offering-rules-congress-stalls-digital-asset-legislation-412145"
+        },
+        {
+          "title": "Statement on Regulation Crypto Assets: Fit-for-purpose Exemptions for Crypto Market Innovation",
+          "url": "https://www.sec.gov/newsroom/speeches-statements/atkins-statement-regulation-crypto-assets-081826"
+        }
+      ]
+    },
+    {
+      "slug": "2026-08-19-crypto-news-8742c960e3",
+      "date_kst": "2026-08-19",
+      "title": "Securitize and Neuberger Launch High-Yield Bond Fund on Four Blockchains",
+      "content": "Securitize, a platform for tokenized financial products, and global asset manager Neuberger Berman launched the High Income Tokenized Fund (HINC), a high-yield bond fund, on August 18. A tokenized fund is a product that records an investor's fund shares as tokens on a blockchain and allows them to be transferred; it is not a structure in which the investor directly owns individual bonds. HINC invests in high-yield bonds, collateralized loan obligations (CLOs), leveraged loans and similar assets. High-yield bonds are bonds issued by companies with lower credit ratings that pay higher interest, while CLOs are products that bundle multiple corporate loans and then divide them into several tranches according to the order in which they bear interest and losses. Leveraged loans refer to loans extended to companies that carry heavy debt or have low credit ratings. HINC's fund shares are supported on four blockchains: Avalanche, Ethereum, Solana and Sui. HINC's net assets, number of investors, trading volume by chain and redemption record were not disclosed in the official announcement or in press coverage.",
+      "metanomia_thought": "What the blockchain changes is the way fund shares are recorded and transferred, while the legal rights an investor holds are still determined through the fund contract. Because the investor is not the direct owner of individual bonds, asset valuation, the handling of default losses and whether redemption is possible all depend on the manager and administrator and on the terms of the product. More important than the number of blockchains supported is confirming what rights attach to the shares and when transfer and redemption are restricted.",
+      "sources": [
+        {
+          "title": "Securitize and Neuberger Launch New Tokenized Fixed Income Fund",
+          "url": "https://investors.securitize.io/news/news-details/2026/Securitize-and-Neuberger-Launch-New-Tokenized-Fixed-Income-Fund/default.aspx"
+        },
+        {
+          "title": "Securitize brings Neuberger’s $230 billion fixed-income platform onchain with new tokenized fund",
+          "url": "https://www.theblock.co/news/markets/2026-08-18-securitize-neubergers-230-billion-fixed-income-platform-onchain-new-tokenized-fund-412102"
+        }
+      ]
+    },
+    {
+      "slug": "2026-08-19-crypto-news-30abe2d7ce",
+      "date_kst": "2026-08-19",
+      "title": "Metaplanet to Take Control of a US-Listed Company with 2,100 Bitcoin",
+      "content": "Metaplanet, a listed company in Japan, has agreed to a transaction in which it will provide 2,100 bitcoin and $2.5 million in cash to take control of Super League Enterprise, a company listed on the Nasdaq in the United States. Including the value of the bitcoin, the transaction is valued at approximately $134.6 million. Super League filed disclosure of the transaction and preliminary shareholder meeting materials with the US Securities and Exchange Commission (SEC) on August 18, US local time. Once the transaction closes, Metaplanet will hold roughly 95.7% of the shares and will nominate five of the nine board seats, and Super League will be incorporated as an indirect consolidated subsidiary of its Japanese parent, Metaplanet Inc. The company name is to change to Superplanet, Inc., and the ticker is to change from SLE to SUPA. Metaplanet will also receive warrants, the right to purchase up to an additional 381 million new Super League shares at a predetermined price over the next ten years. Immediately after the transaction, the combined stake of existing shareholders falls to about 4.3%, and assuming all warrants are exercised and the new shares are issued, it could fall to about 0.5%. Closing is expected in the fourth quarter of 2026, but several conditions remain, including approval of the new share issuance and the required Nasdaq filings, so neither the transfer of control nor the transfer of the bitcoin has been completed yet.",
+      "metanomia_thought": "This transaction is a case of bitcoin extending from a corporate reserve asset into a means of payment for acquiring control of another company. Moving bitcoin on-chain does not by itself complete an acquisition, however: the new share issuance, the composition of the board, and the custody and disclosure procedures must all be completed together before actual power changes hands. For existing shareholders, this vote on the new share issuance is the key point of control to exercise before large-scale dilution. After closing, attention should turn to how the bitcoin is transferred and stored, and to how the exercise of the warrants changes shareholder rights and the company's risk.",
+      "sources": [
+        {
+          "title": "Super League Enterprise, Inc. Preliminary Proxy Statement",
+          "url": "https://www.sec.gov/Archives/edgar/data/1621672/000143774926028340/slgg20260812_pre14a.htm"
+        },
+        {
+          "title": "Japan’s Metaplanet launching U.S. bitcoin treasury company through $135 million nanocap deal",
+          "url": "https://www.coindesk.com/business/2026/08/18/japan-s-metaplanet-launching-u-s-bitcoin-treasury-company-through-usd135-million-nanocap-deal"
+        },
+        {
+          "title": "Metaplanet invests 2,100 BTC in Nasdaq-listed Super League under cash-and-crypto deal",
+          "url": "https://www.theblock.co/news/deals/2026-08-18-metaplanet-super-league-2100-btc-cash-deal-launch-us-bitcoin-treasury-sle-stock-sruge-412101"
+        },
+        {
+          "title": "Metaplanet to Invest 2,100 Bitcoin in Super League to Launch U.S. Bitcoin Treasury Platform Superplanet",
+          "url": "https://www.globenewswire.com/news-release/2026/08/18/3346825/0/en/metaplanet-to-invest-2-100-bitcoin-in-super-league-to-launch-u-s-bitcoin-treasury-platform-superplanet.html"
+        }
+      ]
+    },
     {
       "slug": "2026-08-18-crypto-news-fb72b26e2d",
       "date_kst": "2026-08-18",
