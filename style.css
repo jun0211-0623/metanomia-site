@@ -2481,6 +2481,15 @@ html[lang="en"] .article__body p {
 }
 .profile__detail dd span { display: block; }
 .profile__detail dd span + span { margin-top: 0.35rem; }
+.profile__channel-link {
+  display: block;
+  color: var(--ink, #111);
+  text-decoration: underline;
+  text-decoration-color: var(--accent, #b8ff18);
+  text-underline-offset: 0.2em;
+}
+.profile__channel-link + .profile__channel-link { margin-top: 0.35rem; }
+.profile__channel-link:hover { color: #526d00; }
 @media (max-width: 640px) {
   .profile__detail {
     grid-template-columns: 1fr;
