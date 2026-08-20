@@ -1,7 +1,61 @@
 {
   "schema_version": "1.0",
-  "generated_at_kst": "2026-08-20T09:45:00+09:00",
+  "generated_at_kst": "2026-08-21T08:34:00+09:00",
   "items": [
+    {
+      "slug": "2026-08-21-crypto-news-402a3c1250",
+      "date_kst": "2026-08-21",
+      "title": "Franklin Templeton Prepares to Add Tokenized Fund to the ETFs and Mutual Funds It Manages",
+      "content": "Franklin Templeton is preparing an arrangement that would let the exchange-traded funds (ETFs) and mutual funds it manages use a tokenized money market fund for cash management purposes, Bloomberg Law reported on August 20 local time. The fund in question, the Franklin OnChain U.S. Government Money Fund (brand name Benji, BENJI), is a registered money market fund that invests in short-term assets such as U.S. Treasuries and records investor holdings on a blockchain. Citing data compiled by RWA.xyz, The Block reported net assets of about $726 million as of August 12, most of it on the Stellar network. On August 12, staff of the U.S. Securities and Exchange Commission's (SEC) Division of Investment Management issued a no-action position stating that they would not recommend enforcement action if the funds involved follow 12 control conditions in place of the existing procedures for physical custody, recordkeeping, and verification. This is the position of SEC staff on a specific set of facts, not an approval by the Commission or a general rule. The conditions include separation of accounts and wallets by fund, board approval and annual review, authentication of authorized persons, daily reconciliation of transaction confirmation records against approved instructions, and at least three independent verifications per year, of which at least two must be conducted without prior notice. Franklin Templeton Investor Services (FTIS), the transfer agent that maintains the register of investor holdings, manages the official ownership records, the correction of errors and unauthorized transactions, and the freezing and transfer of wallet records, and if the agent changes, it must hand the necessary administrative authority to its successor. That said, as of the August 20 report, no ETFs or mutual funds that have actually completed the arrangement, nor the amounts involved, had been disclosed, so this should be viewed as a preparatory stage.",
+      "metanomia_thought": "Once tokenized assets enter the cash management and collateral of traditional funds, on-chain finance is no longer a separate market but an extension into the operating layer of existing capital markets. At the same time, the official ledger, wallet authority, and the power to correct records and freeze them remain with the transfer agent, and the design provides for the administrative authority needed to maintain the official records to pass to a successor transfer agent. Korea's tokenized fund framework, too, needs to settle first which record is the legal original, who corrects errors, and who controls collateral, rather than whether a blockchain is used. Whether actual inclusion and collateral use begin is something that needs to be confirmed separately.",
+      "sources": [
+        {
+          "title": "Franklin Templeton",
+          "url": "https://www.sec.gov/rules-regulations/no-action-interpretive-exemptive-letters/division-investment-management-staff-no-action-interpretive-letters/franklin-templeton-081226"
+        },
+        {
+          "title": "Franklin Plans to Push Tokenized Assets Into Traditional Funds",
+          "url": "https://news.bloomberglaw.com/crypto/franklin-plans-to-push-tokenized-assets-into-traditional-funds"
+        },
+        {
+          "title": "SEC clears Franklin Templeton funds to use onchain BENJI system for cash management",
+          "url": "https://www.theblock.co/news/defi/2026-08-12-sec-clears-franklin-templeton-funds-use-onchain-benji-system-cash-management-411654"
+        },
+        {
+          "title": "SEC greenlights Franklin Templeton funds to park cash in tokenized BENJI fund",
+          "url": "https://www.ledgerinsights.com/sec-greenlights-franklin-templeton-funds-to-park-cash-in-tokenized-benji-fund/"
+        }
+      ]
+    },
+    {
+      "slug": "2026-08-21-crypto-news-302e8aee41",
+      "date_kst": "2026-08-21",
+      "title": "Coldcard Releases Follow-Up Security Firmware After Seed Generation Flaw",
+      "content": "COLDCARD, a hardware wallet that generates Bitcoin private keys offline and signs transactions, released security firmware 5.6.1 for Mk4 and Mk5 and 1.5.1Q for Q on August 20. When creating a new seed, this version requires the user to supply one of the following: at least 65 hard-to-predict key presses, 50 dice rolls, or 128 coin flips, and combines that input with the device's internal randomness. The immediate reason Coldcard tightened its seed generation procedure this way was a large-scale theft on July 30 in which 1,082.65 bitcoin, worth about $70.2 million at the time, was drained from roughly 1,200 Coldcard-related addresses over the course of 41 minutes. Investigation found that a firmware integration error in March 2021 caused new recovery seeds to use a predictable software method instead of the dedicated hardware random number generator, substantially weakening the randomness used to create seeds. If an attacker could narrow down a device's identifying information and the time the seed was generated, they could compute possible seeds without direct physical access to the device and compare them against publicly visible Bitcoin addresses. As additional theft cases were subsequently confirmed, the total confirmed loss for victims that Galaxy Research had verified as of August 14 rose to 1,778 bitcoin (about $112 million). Including candidate cases where victim verification is not yet complete, it estimated that potential losses could reach 2,417 bitcoin (about $151 million). In the cases Galaxy confirmed, no new fund movements were observed after August 6, but this may be because vulnerable users moved their assets or because most of the exploitable funds had already been drained, and not every affected address has been technically matched and confirmed as having a seed generated by this flaw. The manufacturer, Coinkite, first distributed emergency firmware fixing the random number generation flaw on July 31, and the version released on August 20 is a follow-up reinforcement that also makes user-supplied randomness mandatory. The update only protects newly created seeds, however, so existing vulnerable seeds must be replaced and assets moved to a new wallet. External reviewers verified the core fixes in the corrected firmware, including whether the hardware random number generator operates properly and whether the problematic software fallback method has been removed. A comprehensive security audit covering the entire firmware and an official post-mortem report laying out the cause of the incident have not yet been completed.",
+      "metanomia_thought": "Self-custody reduces intermediary risk, but in exchange it shifts responsibility for key generation and firmware verification onto users, manufacturers, and auditors. The problem is that a flaw at the key generation stage cannot be undone by a later update alone. A seed by itself offers little way to confirm whether it was generated with sufficient randomness, so fixing the device does not restore the safety of keys already created: a new seed must be generated and assets moved. Domestic custody and self-custody policy should likewise look beyond product certification and also require verification of random number generation, disclosure of incidents, and procedures for safely migrating existing keys.",
+      "sources": [
+        {
+          "title": "Current standard firmware includes additional security controls.",
+          "url": "https://coldcard.com/security/status"
+        },
+        {
+          "title": "COLDCARD Firmware Downloads - Latest Versions",
+          "url": "https://coldcard.com/downloads"
+        },
+        {
+          "title": "Coldcard Hardware Wallet Flaw Linked to $70 Million Bitcoin Theft in 41 Minutes",
+          "url": "https://thehackernews.com/2026/08/coldcard-hardware-wallet-flaw-linked-to.html"
+        },
+        {
+          "title": "Coldcard Bitcoin Thefts Slow, But Losses Could Top $150 Million: Galaxy",
+          "url": "https://decrypt.co/375656/coldcard-bitcoin-thefts-slow-losses-top-150-million"
+        },
+        {
+          "title": "Coldcard firmware update requires affected users to move Bitcoin",
+          "url": "https://crypto.news/coldcard-firmware-update-requires-users-move-bitcoin/"
+        }
+      ]
+    },
     {
       "slug": "2026-08-20-crypto-news-d2cf54e6ec",
       "date_kst": "2026-08-20",
