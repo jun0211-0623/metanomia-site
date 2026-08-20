@@ -20,7 +20,7 @@ var ORG_NAME_EN = 'Metanomia';
 var ORG_NAME_KO = '메타노미아';
 var ORG_ADDRESS = ''; // TODO: 사업장 주소를 넣어야 정보통신망법 요건을 채웁니다.
 var SITE_EN = 'https://metanomia-site.vercel.app/';
-var SITE_KO = 'https://metanomia-site.vercel.app/ko.html';
+var SITE_KO = 'https://metanomia-site.vercel.app/ko';
 
 // Leave headroom under the daily quota so a mistake cannot burn the whole allowance.
 var SAFETY_MARGIN = 20;

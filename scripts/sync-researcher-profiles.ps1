@@ -59,8 +59,8 @@ $updated = 0
 
 foreach ($profile in $profiles) {
   foreach ($locale in @('ko', 'en')) {
-    $suffix = if ($locale -eq 'ko') { '.ko.html' } else { '.html' }
-    $path = Join-Path $ProjectRoot ("people/{0}{1}" -f $profile.Slug, $suffix)
+    $relative = if ($locale -eq 'ko') { "ko/people/{0}.html" } else { "people/{0}.html" }
+    $path = Join-Path $ProjectRoot ($relative -f $profile.Slug)
     if (-not (Test-Path -LiteralPath $path)) { throw "Missing profile page: $path" }
     $html = [System.IO.File]::ReadAllText($path)
     $html = $generatedPattern.Replace($html, '')

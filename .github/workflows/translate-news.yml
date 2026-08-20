@@ -45,12 +45,12 @@ jobs:
 
       - name: Commit
         run: |
-          if [ -z "$(git status --porcelain -- data/crypto-news.en.json sitemap.xml ':(glob)crypto-news-20*.html')" ]; then
+          if [ -z "$(git status --porcelain -- data/crypto-news.en.json sitemap.xml ':(glob)crypto-news-20*.html' ':(glob)ko/crypto-news-20*.html')" ]; then
             echo "no change"
             exit 0
           fi
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add -- data/crypto-news.en.json sitemap.xml ':(glob)crypto-news-20*.html'
+          git add -- data/crypto-news.en.json sitemap.xml ':(glob)crypto-news-20*.html' ':(glob)ko/crypto-news-20*.html'
           git commit -m 'chore: translate and build crypto news'
           git push

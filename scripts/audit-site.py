@@ -99,6 +99,21 @@ def main() -> int:
             warnings.append(f"{relative}: missing canonical URL")
         if '<img' in source and re.search(r'<img[^>]*\s/\s+(?:loading|decoding)=', source):
             errors.append(f"{relative}: malformed image attribute placement")
+        # Navigation also hides in meta refresh and inline location.replace, which the
+        # parser's href/src sweep never sees.
+        for pattern in (r'content="[^"]*url=([^"]+)"', r'location\.(?:replace|assign)\(\s*"([^"]+)"',
+                        r'location\.href\s*=\s*"([^"]+)"'):
+            for match in re.finditer(pattern, source, re.I):
+                value = match.group(1).strip()
+                if value.startswith(("http://", "https://", "#")):
+                    continue
+                if not value.startswith("/"):
+                    errors.append(f"{relative}: navigation target must be root-absolute: {value}")
+                elif value.endswith(".html"):
+                    errors.append(f"{relative}: navigation target must drop the .html extension: {value}")
+                elif not serve(ROOT / value.lstrip("/")).exists():
+                    errors.append(f"{relative}: broken navigation target {value}")
+
         for attribute, value in parser.refs:
             target = resolve_local(page, value)
             if target is None:
