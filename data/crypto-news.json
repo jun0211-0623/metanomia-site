@@ -1,7 +1,63 @@
 {
   "schema_version": "1.0",
-  "generated_at_kst": "2026-08-20T09:45:00+09:00",
+  "generated_at_kst": "2026-08-21T08:34:00+09:00",
   "items": [
+    {
+      "id": "crypto-news-402a3c12504f2389",
+      "slug": "2026-08-21-crypto-news-402a3c1250",
+      "date_kst": "2026-08-21",
+      "title": "프랭클린템플턴, 자사가 운용하는 ETF·뮤추얼펀드에 토큰화 펀드 편입 준비",
+      "content": "프랭클린템플턴이 자사가 운용하는 상장지수펀드(ETF)와 뮤추얼펀드가 토큰화 머니마켓펀드를 현금관리 목적으로 활용하도록 하는 방안을 준비하고 있다고 블룸버그 로(Bloomberg Law)가 현지시간 8월 20일 보도했다. 대상인 프랭클린 온체인 미국 정부 머니펀드(브랜드명 벤지·BENJI)는 미국 국채 등 단기 자산에 투자하고 투자자 지분을 블록체인에 기록하는 등록 머니마켓펀드다. 더블록이 RWA.xyz 집계를 인용해 전한 순자산은 8월 12일 기준 약 7억2,600만 달러이며 대부분 스텔라 네트워크에 있다. 미국 증권거래위원회(SEC) 투자관리국 직원은 8월 12일 관련 펀드들이 기존의 물리적 보관·기록·검증 절차 대신 12개 통제 조건을 따를 경우 집행 조치를 권고하지 않겠다는 비조치 의견을 냈다. 이는 특정 사실관계에 대한 SEC 직원의 입장으로, 위원회의 승인이나 일반 규칙은 아니다. 조건에는 펀드별 계좌·지갑 분리, 이사회 승인과 연례 검토, 권한자 인증, 거래 확인 내역과 승인 지시의 매일 대조, 연 3회 이상의 독립 검증이 포함되며 이 중 2회 이상은 사전 통지 없이 진행해야 한다. 투자자 지분 명부를 관리하는 이전대리인 프랭클린 템플턴 인베스터 서비스(FTIS)는 공식 소유권 기록과 오류·무권한 거래 정정, 지갑 기록 동결·이관을 관리하며, 대리인이 바뀌면 필요한 관리 권한을 후임에게 넘겨야 한다. 다만 8월 20일 보도 시점에는 실제 편입을 마친 ETF·뮤추얼펀드와 규모가 공개되지 않아 준비 단계로 봐야 한다.",
+      "metanomia_thought": "토큰화 자산이 전통 펀드의 현금 관리와 담보로 들어가면 온체인 금융은 별도 시장이 아니라 기존 자본시장의 운영 층으로 확장됩니다. 동시에 공식 원장, 지갑 권한, 기록 정정과 동결 권한은 이전대리인에게 남고, 공식 기록 유지에 필요한 관리 권한은 후임 이전대리인에게 승계되도록 설계됐습니다. 한국의 토큰화 펀드 제도도 블록체인 사용 여부보다 어떤 기록이 법적 원본이며 누가 오류를 바로잡고 담보를 통제하는지를 먼저 정해야 합니다. 실제 편입과 담보 사용이 시작되는지는 별도로 확인할 필요가 있습니다.",
+      "sources": [
+        {
+          "title": "Franklin Templeton",
+          "url": "https://www.sec.gov/rules-regulations/no-action-interpretive-exemptive-letters/division-investment-management-staff-no-action-interpretive-letters/franklin-templeton-081226"
+        },
+        {
+          "title": "Franklin Plans to Push Tokenized Assets Into Traditional Funds",
+          "url": "https://news.bloomberglaw.com/crypto/franklin-plans-to-push-tokenized-assets-into-traditional-funds"
+        },
+        {
+          "title": "SEC clears Franklin Templeton funds to use onchain BENJI system for cash management",
+          "url": "https://www.theblock.co/news/defi/2026-08-12-sec-clears-franklin-templeton-funds-use-onchain-benji-system-cash-management-411654"
+        },
+        {
+          "title": "SEC greenlights Franklin Templeton funds to park cash in tokenized BENJI fund",
+          "url": "https://www.ledgerinsights.com/sec-greenlights-franklin-templeton-funds-to-park-cash-in-tokenized-benji-fund/"
+        }
+      ]
+    },
+    {
+      "id": "crypto-news-302e8aee41465c7d",
+      "slug": "2026-08-21-crypto-news-302e8aee41",
+      "date_kst": "2026-08-21",
+      "title": "콜드카드, 시드 생성 결함 대응 후속 보안 펌웨어 공개",
+      "content": "비트코인의 비밀키를 오프라인에서 생성하고 거래에 서명하는 하드웨어 지갑 콜드카드(COLDCARD)가 Mk4·Mk5용 5.6.1과 Q용 1.5.1Q 보안 펌웨어를 8월 20일 공개했다. 이번 버전은 새 시드를 만들 때 사용자가 최소 65회의 예측하기 어려운 키 입력, 주사위 50회, 동전 던지기 128회 중 하나를 제공하도록 하고 이를 기기 내부 난수와 결합한다. 콜드카드가 이처럼 시드 생성 절차를 강화한 직접적인 배경은 7월 30일 41분 동안 콜드카드 관련 약 1,200개 주소에서 1,082.65비트코인, 당시 약 7,020만 달러가 빠져나간 대규모 탈취 사건이다. 조사 결과 2021년 3월 펌웨어 통합 오류로 새 복구 시드에 전용 하드웨어 난수생성기 대신 예측 가능한 소프트웨어 방식이 사용돼, 시드를 만드는 무작위성이 크게 약해진 것으로 분석됐다. 공격자는 기기 식별정보와 시드 생성 시점을 좁히면 기기에 직접 접근하지 않고도 가능한 시드를 계산해 공개된 비트코인 주소와 대조할 수 있었다. 이후 다른 탈취 사례가 추가로 확인되면서 갤럭시 리서치가 8월 14일까지 피해자 확인을 마친 피해 규모는 총 1,778비트코인(약 1억1,200만 달러)으로 늘었다. 아직 피해자 확인이 끝나지 않은 후보군까지 포함하면 잠재적 피해는 2,417비트코인(약 1억5,100만 달러)에 이를 수 있다고 추산했다. 갤럭시가 확인한 사례에서는 8월 6일 이후 새로운 자금 이동이 관측되지 않았지만, 취약한 사용자가 자산을 옮겼거나 공격 가능한 자금 대부분이 이미 빠져나갔기 때문일 수 있으며 모든 피해 주소가 이 결함으로 생성된 시드와 기술적으로 대조·확인된 것은 아니다. 제조사 코인카이트는 7월 31일 난수 생성 결함을 고친 긴급 펌웨어를 먼저 배포했으며, 8월 20일 공개한 이번 버전은 사용자가 제공하는 무작위성까지 의무화한 후속 보강판이다. 다만 업데이트는 새로 만드는 시드만 보호하므로 기존 취약 시드는 교체하고 자산을 새 지갑으로 이전해야 한다. 외부 검토자들은 수정된 펌웨어에서 하드웨어 난수생성기가 제대로 작동하고, 문제가 된 소프트웨어 대체 방식이 제거됐는지 등 핵심 수정 사항을 확인했다. 다만 펌웨어 전체를 대상으로 한 종합 보안 감사와 사고 원인을 정리한 공식 사후보고서는 아직 완료되지 않았다.",
+      "metanomia_thought": "자기수탁은 중개기관의 위험을 줄이는 대신 키 생성과 펌웨어 검증 책임을 사용자·제조사·감사자에게 옮깁니다. 문제는 키 생성 단계의 결함을 사후 업데이트만으로 되돌릴 수 없다는 점입니다. 시드 자체만으로는 충분한 무작위성으로 생성됐는지 확인하기 어려워, 기기를 고쳐도 이미 만들어진 키의 안전성은 회복되지 않으며 새 시드를 만들어 자산을 옮겨야 합니다. 국내 수탁·자기수탁 정책도 제품 인증만 볼 것이 아니라 난수 생성 검증, 사고 공개, 기존 키의 안전한 이전 절차를 함께 요구해야 합니다.",
+      "sources": [
+        {
+          "title": "Current standard firmware includes additional security controls.",
+          "url": "https://coldcard.com/security/status"
+        },
+        {
+          "title": "COLDCARD Firmware Downloads - Latest Versions",
+          "url": "https://coldcard.com/downloads"
+        },
+        {
+          "title": "Coldcard Hardware Wallet Flaw Linked to $70 Million Bitcoin Theft in 41 Minutes",
+          "url": "https://thehackernews.com/2026/08/coldcard-hardware-wallet-flaw-linked-to.html"
+        },
+        {
+          "title": "Coldcard Bitcoin Thefts Slow, But Losses Could Top $150 Million: Galaxy",
+          "url": "https://decrypt.co/375656/coldcard-bitcoin-thefts-slow-losses-top-150-million"
+        },
+        {
+          "title": "Coldcard firmware update requires affected users to move Bitcoin",
+          "url": "https://crypto.news/coldcard-firmware-update-requires-users-move-bitcoin/"
+        }
+      ]
+    },
     {
       "id": "crypto-news-d2cf54e6ec2613b3",
       "slug": "2026-08-20-crypto-news-d2cf54e6ec",
