@@ -226,6 +226,7 @@ def update_sitemap(files: list[str]) -> None:
     blocks = ["  <!-- GENERATED CRYPTO NEWS START -->"]
     for slug in sorted(pairs, reverse=True):
         pair = pairs[slug]
+        published_date = slug[:10] if re.fullmatch(r"\d{4}-\d{2}-\d{2}", slug[:10]) else date.today().isoformat()
         for lang in ("ko", "en"):
             filename = pair.get(lang)
             if not filename:
@@ -233,7 +234,7 @@ def update_sitemap(files: list[str]) -> None:
             blocks.extend([
                 "  <url>",
                 "    <loc>" + SITE + "/" + filename + "</loc>",
-                "    <lastmod>2026-08-18</lastmod>",
+                "    <lastmod>" + published_date + "</lastmod>",
                 "    <changefreq>weekly</changefreq>",
                 "    <priority>0.70</priority>",
                 "    <xhtml:link rel=\"alternate\" hreflang=\"ko\" href=\"" + SITE + "/" + pair.get("ko", filename) + "\" />",

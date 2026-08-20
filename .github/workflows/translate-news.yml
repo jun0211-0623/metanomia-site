@@ -38,14 +38,19 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python3 scripts/translate-news.py ${{ inputs.force && '--force' || '' }}
 
+      - name: Build static news pages
+        run: |
+          python3 scripts/build-news-pages.py
+          python3 scripts/audit-site.py
+
       - name: Commit
         run: |
-          if [ -z "$(git status --porcelain -- data/crypto-news.en.json)" ]; then
+          if [ -z "$(git status --porcelain -- data/crypto-news.en.json sitemap.xml ':(glob)crypto-news-20*.html')" ]; then
             echo "no change"
             exit 0
           fi
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data/crypto-news.en.json
-          git commit -m 'chore: translate crypto news to English'
+          git add -- data/crypto-news.en.json sitemap.xml ':(glob)crypto-news-20*.html'
+          git commit -m 'chore: translate and build crypto news'
           git push
