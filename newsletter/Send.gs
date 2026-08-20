@@ -18,7 +18,7 @@ var UNSUB_BASE = 'https://script.google.com/macros/s/AKfycbxLF2JaW3cBRGjhG-prFFj
 // Shown in the footer of every issue. Sender identity is a legal requirement in Korea.
 var ORG_NAME_EN = 'Metanomia';
 var ORG_NAME_KO = '메타노미아';
-var ORG_ADDRESS = ''; // TODO: 사업장 주소를 넣어야 정보통신망법 요건을 채웁니다.
+var ORG_CONTACT = 'libertas.hson@gmail.com'; // Public contact from the site's 문의하기 page.
 var SITE_EN = 'https://metanomia-site.vercel.app/';
 var SITE_KO = 'https://metanomia-site.vercel.app/ko';
 
@@ -269,7 +269,9 @@ function wrap(body, lang, email) {
 
     '<tr><td style="border-top:1px solid #e5e5e5;padding:24px 32px;font:400 12px/1.7 Helvetica,Arial,sans-serif;color:#73757A;">' +
     reason + '<br />' +
-    (isKo ? ORG_NAME_KO : ORG_NAME_EN) + (ORG_ADDRESS ? ' · ' + ORG_ADDRESS : '') + '<br />' +
+    (isKo ? ORG_NAME_KO : ORG_NAME_EN) +
+    (ORG_CONTACT ? ' · <a href="mailto:' + ORG_CONTACT + '" style="color:#73757A;">' + ORG_CONTACT + '</a>' : '') +
+    '<br />' +
     '<a href="' + site + '" style="color:#73757A;">' + site + '</a> · ' +
     '<a href="' + unsubUrl + '" style="color:#73757A;">' + unsubLabel + '</a>' +
     '</td></tr>' +
