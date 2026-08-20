@@ -1,7 +1,81 @@
 {
   "schema_version": "1.0",
-  "generated_at_kst": "2026-08-19T10:31:00+09:00",
+  "generated_at_kst": "2026-08-20T09:45:00+09:00",
   "items": [
+    {
+      "id": "crypto-news-d2cf54e6ec2613b3",
+      "slug": "2026-08-20-crypto-news-d2cf54e6ec",
+      "date_kst": "2026-08-20",
+      "title": "캔터, 기관투자자 대상 칼시 예측시장 블록거래(대량거래) 중개 시작",
+      "content": "미국 투자은행 캔터 피츠제럴드(Cantor Fitzgerald & Co.)가 현지시간 8월 19일 상품선물거래위원회(CFTC)의 규제를 받는 예측시장 칼시(Kalshi)에서 기관투자자의 블록거래 중개를 시작했다고 밝혔다. 예측시장의 이벤트 계약은 선거나 경제지표처럼 특정 사건이 일어나는지에 따라 정해진 금액을 지급하는 상품이다. 캔터는 기관 고객의 주문을 칼시에 연결하는 소개중개인(Introducing Broker·IB) 역할을 맡고, 서스쿼해나 프레딕션스(Susquehanna Predictions)가 대규모 주문에 필요한 가격과 유동성을 제공한다. 블록거래는 공개 주문장에 주문을 나눠 제출하는 대신 거래 당사자들이 주문장 밖에서 단일 가격으로 협상한 뒤 칼시 규정에 따라 보고하는 방식이다. 칼시 규정상 거래 당사자 모두 미국 상품거래법이 정한 적격계약참가자(Eligible Contract Participant·ECP)여야 하며, 고객을 대신해 체결할 때는 해당 고객이 블록거래 방식의 집행을 명시적으로 지시해야 한다. 현재 최소 거래 규모는 2만5천 계약으로, 원칙적으로 별도 주문을 합산해 기준을 채울 수 없으며 매도자 또는 브로커는 양측이 거래에 합의한 시점부터 15분 안에 거래 정보를 보고해야 한다. 캔터는 우선 칼시에서 서비스를 시작한 뒤 다른 거래소로 확대할 수 있다고 밝혔으며, 코인데스크에 따르면 약 3천 개 기관 고객이 이 경로를 이용할 수 있다. 이번 출시는 기관이 정책·경제·산업 사건의 위험을 거래하거나 헤지할 수 있는 통로를 넓혔지만, 최소 규모와 ECP 요건 때문에 모든 투자자가 이용할 수 있는 것은 아니다.",
+      "metanomia_thought": "예측시장이 소매 베팅을 넘어 기관의 위험 이전 수단으로 들어오면 사건의 가격발견권은 더 많은 자본과 전문 유동성 공급자에게 확대됩니다. 다만 캔터와 서스쿼해나가 접근·체결·가격 유동성의 문지기 역할을 맡고 칼시가 상장·정산을 통제하며, 대규모 거래의 가격 형성과 사후 공시 투명성이 시장 신뢰를 좌우하게 됩니다. 최소 2만5천 계약이라는 문턱은 이 통로의 참여 범위가 처음부터 제한돼 있음을 보여줍니다. 한국이 한국형 예측시장을 설계한다면 누가 계약을 상장하고 내부정보 이용과 시장조작을 감시하며 손실을 책임질지 함께 정해야 합니다.",
+      "sources": [
+        {
+          "title": "Cantor Commences Institutional Block Trading in Prediction Markets",
+          "url": "https://www.businesswire.com/news/home/20260819078964/en/Cantor-Commences-Institutional-Block-Trading-in-Prediction-Markets"
+        },
+        {
+          "title": "Cantor opens Kalshi prediction markets to thousands of institutional clients",
+          "url": "https://www.coindesk.com/markets/2026/08/19/cantor-opens-kalshi-prediction-markets-to-thousands-of-institutional-clients"
+        },
+        {
+          "title": "Block Trades",
+          "url": "https://help.kalshi.com/en/articles/15165864-block-trades"
+        },
+        {
+          "title": "Re: KalshiEX LLC – Pre-Execution Communications and Block Orders",
+          "url": "https://www.cftc.gov/filings/orgrules/rules01282638021.pdf"
+        }
+      ]
+    },
+    {
+      "id": "crypto-news-7b99068d36677bb3",
+      "slug": "2026-08-20-crypto-news-7b99068d36",
+      "date_kst": "2026-08-20",
+      "title": "FASB, 스테이블코인의 현금성 자산 판단 예시와 공시 강화 제안",
+      "content": "미국 회계기준을 정하는 재무회계기준위원회(FASB)가 현지시간 8월 18일 어떤 스테이블코인이 현금성 자산에 해당하는지 판단하는 예시를 담은 회계기준 개정 제안서를 공개했다. 정식 명칭은 '현금흐름표(주제 230): 현금성 자산—공시 강화 및 특정 디지털 자산의 평가(Statement of Cash Flows (Topic 230): Cash Equivalents—Disclosure Enhancement and Evaluation of Certain Digital Assets)'이고, 이사 일곱 명 만장일치로 공개가 승인됐으며 11월 19일까지 의견을 받는다. 제안서는 현금성 자산의 정의 자체는 바꾸지 않고 기존 정의가 디지털 자산에 어떻게 적용되는지를 예시로 보여주는 방식을 택했다. 예시는 세 가지 속성으로 요구 시 계약상 현금 상환권, 발행자에 대한 직접 상환권과 정해진 금액의 현금 상환, 발행자가 분리 계정에 유통량 대비 최소 1대1로 보유하는 단기 고유동성 준비자산을 들었다. 예시에서 더 분명하게 드러나는 것은 무엇이 제외되는지다. 보유자가 발행자에게 직접 상환을 청구할 계약상 권리가 없고 유통시장에서 1달러 안팎에 팔 수 있을 뿐이라면 현금성 자산에 해당하지 않는다고 봤다. 시장에서 제값을 받는 것과 발행자에게 상환을 요구할 권리는 다르다는 것이다. 준비자산을 유통량 대비 1대1로 쌓았더라도 그 준비자산이 가상자산이나 금이면 역시 해당하지 않는다. 금리 변동이 아닌 이유로도 가치가 움직여 가치 변동 위험이 작다고 보기 어렵기 때문이다. 공시 강화는 별개의 축이다. 제안서는 현금성 자산을 표시하는 모든 기업이 그 주요 구성요소인 미국 국채, 기업어음, 스테이블코인, 머니마켓펀드(MMF) 등과 각 항목의 금액을 연차보고서에 공시하도록 했으며, 이 의무는 디지털 자산을 보유하지 않은 기업에도 적용된다. 요건을 충족해도 반드시 현금성 자산으로 표시해야 하는 것은 아니고 기업이 회계정책으로 정한다. 제안서는 그 정책을 세울 때 관련 법령을 고려하라며 지니어스법(GENIUS Act)을 예로 들었고, 이 문구가 적절한지도 의견을 묻고 있다. 시행일은 의견수렴을 거친 뒤 정해진다.",
+      "metanomia_thought": "요건을 충족한 스테이블코인을 현금성 자산으로 표시할 수 있게 되면 온체인 달러가 기업의 운전자금과 지급결제 자산으로 편입될 여지가 커집니다. 다만 이번 제안서는 문을 넓히기보다 경계를 분명히 합니다. 발행자에 대한 직접 상환권이 없거나 준비자산이 단기 고유동성 자산으로 구성되지 않으면 제외될 수 있어, 회계상 유동성 인정은 준비자산의 질과 상환권의 법적 확실성에 달립니다. 한국도 발행 인가뿐 아니라 기업 보유 시 분류·공시·감사 판단 기준을 함께 구체화해야 합니다.",
+      "sources": [
+        {
+          "title": "Proposed Accounting Standards Update—Statement of Cash Flows (Topic 230): Cash Equivalents—Disclosure Enhancement and Evaluation of Certain Digital Assets",
+          "url": "https://fasb.org/Page/Document?pdf=Proposed%20ASU%20Statement%20of%20Cash%20Flows%20(Topic%20230).pdf&title=Proposed%20Accounting%20Standards%20Update,%20Statement%20of%20Cash%20Flows%20(Topic%20230):%20%20Cash%20Equivalents%E2%80%94Disclosure%20Enhancement%20and%20Evaluation%20of%20Certain%20Digital%20Assets"
+        },
+        {
+          "title": "Cash Equivalents—Disclosure Enhancement and Classification of Certain Digital Assets",
+          "url": "https://www.fasb.org/projects/current-projects/cash-equivalents%E2%80%94disclosure-enhancement-and-classification-of-certain-digital-assets-423255"
+        },
+        {
+          "title": "U.S. accounting-standards group proposes way to see stablecoins as 'cash equivalent'",
+          "url": "https://www.coindesk.com/policy/2026/08/18/u-s-accounting-standards-group-proposes-way-to-see-stablecoins-as-cash-equivalent"
+        }
+      ]
+    },
+    {
+      "id": "crypto-news-1181173bfff706c7",
+      "slug": "2026-08-20-crypto-news-1181173bff",
+      "date_kst": "2026-08-20",
+      "title": "인젝티브 계열사, 미 SEC 이전대리인 등록 효력 발생",
+      "content": "인젝티브(Injective)는 온체인 주문장으로 현물·파생상품 거래를 처리하는 금융 특화 레이어1 블록체인으로, 최근 토큰화 증권과 실물연계자산(Real-World Asset·RWA)의 발행·관리로 영역을 넓히고 있다. 이 프로젝트의 계열사 인젝티브 인스티튜셔널 서비스(Injective Institutional Services)는 미국 증권거래위원회(SEC) 이전대리인(Transfer Agent) 등록 효력이 발생했다고 현지시간 8월 19일 발표했다. 이전대리인은 한국의 명의개서대리인과 유사하며, 발행사의 위임을 받아 증권의 공식 소유자 명부와 소유권 변경, 배당·의결권 같은 권리 행사를 관리한다. 블록체인 기업의 등록이 처음은 아니어서, 토큰화 증권 회사 시큐리타이즈(Securitize)는 올해 3월 뉴욕증권거래소(NYSE)가 준비 중인 토큰화 증권 플랫폼에서 블록체인 기반 증권 발행을 지원할 첫 디지털 이전대리인으로 지정된 바 있다. SEC 거래시장국 직원 FAQ는 등록 이전대리인이 보안·정확성·최신성·보고·보존 요건을 지키면 분산원장을 공식 주주명부의 전부나 일부로 사용할 수 있다고 설명한다. 인젝티브는 인젝티브 민트(Injective Mint)와 RWA 모듈을 통해 보유자·지역 제한, 발행·상환 권한 분리, 제한 대상 주소 동결과 이전 일시정지를 관리할 계획이다. 다만 이번 등록은 인젝티브의 모든 토큰이나 상품을 SEC가 승인했다는 뜻이 아니며, SEC 기업금융국·투자관리국·거래시장국 직원들도 1월 28일 성명에서 발행 형식과 보유자 기록 방식이 연방증권법 적용을 바꾸지 않는다고 밝혔다. 이번 발표에서는 이 계열사가 실제로 공식 명부를 맡은 특정 증권과 처리 규모가 공개되지 않았다.",
+      "metanomia_thought": "토큰화의 핵심은 토큰을 만드는 데 그치지 않고, 그 기록을 실제 법적 권리와 연결하는 것입니다. 등록 이전대리인이 온체인 명부를 운영하면 거래와 권리 변동을 같은 기록 체계에서 관리할 수 있습니다. 하지만 잘못된 기록을 고치거나 주소를 동결하는 권한은 이전대리인과 발행자에게 남습니다. 한국의 토큰증권(STO) 제도도 온체인 기록을 법적 소유권으로 인정하는 기준, 그리고 기록 오류를 바로잡고 배당·의결권·상환 등 투자자의 권리 행사를 처리할 책임 주체를 명확히 해야 합니다.",
+      "sources": [
+        {
+          "title": "Injective is Now an Official SEC Registered Transfer Agent",
+          "url": "https://injective.com/blog/sec-transfer-agent"
+        },
+        {
+          "title": "Injective becomes SEC-registered transfer agent as it expands tokenization push",
+          "url": "https://www.theblock.co/news/regulation/2026-08-19-injective-becomes-sec-registered-transfer-agent-expands-tokenization-push-412225"
+        },
+        {
+          "title": "Frequently Asked Questions Relating to Crypto Asset Activities and Distributed Ledger Technology",
+          "url": "https://www.sec.gov/rules-regulations/staff-guidance/trading-markets-frequently-asked-questions/frequently-asked-questions-relating-crypto-asset-activities-distributed-ledger-technology"
+        },
+        {
+          "title": "Statement on Tokenized Securities",
+          "url": "https://www.sec.gov/newsroom/speeches-statements/corp-fin-statement-tokenized-securities-012826-statement-tokenized-securities"
+        }
+      ]
+    },
     {
       "id": "crypto-news-925798b172e25eae",
       "slug": "2026-08-19-crypto-news-925798b172",
@@ -63,7 +137,7 @@
           "url": "https://www.coindesk.com/business/2026/08/18/japan-s-metaplanet-launching-u-s-bitcoin-treasury-company-through-usd135-million-nanocap-deal"
         },
         {
-          "title": "Metaplanet takes 96% of Super League in 2,100 BTC, cash deal to launch US bitcoin treasury firm",
+          "title": "Metaplanet invests 2,100 BTC in Nasdaq-listed Super League under cash-and-crypto deal",
           "url": "https://www.theblock.co/news/deals/2026-08-18-metaplanet-super-league-2100-btc-cash-deal-launch-us-bitcoin-treasury-sle-stock-sruge-412101"
         },
         {
