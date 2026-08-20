@@ -1,7 +1,78 @@
 {
   "schema_version": "1.0",
-  "generated_at_kst": "2026-08-19T10:31:00+09:00",
+  "generated_at_kst": "2026-08-20T09:45:00+09:00",
   "items": [
+    {
+      "slug": "2026-08-20-crypto-news-d2cf54e6ec",
+      "date_kst": "2026-08-20",
+      "title": "Cantor Begins Brokering Block Trades (Large-Lot Trades) on the Kalshi Prediction Market for Institutional Investors",
+      "content": "U.S. investment bank Cantor Fitzgerald & Co. said on August 19 local time that it had begun brokering block trades for institutional investors on Kalshi, a prediction market regulated by the Commodity Futures Trading Commission (CFTC). Event contracts on prediction markets are products that pay out a set amount depending on whether a specific event, such as an election or an economic indicator, occurs. Cantor takes on the role of an Introducing Broker (IB) connecting institutional clients' orders to Kalshi, while Susquehanna Predictions provides the pricing and liquidity required for large orders. In a block trade, instead of splitting an order and submitting it to the public order book, the counterparties negotiate a single price away from the order book and then report the trade under Kalshi's rules. Under Kalshi's rules, both counterparties must be Eligible Contract Participants (ECPs) as defined by the U.S. Commodity Exchange Act, and when executing on behalf of a client, that client must explicitly instruct execution by way of a block trade. The current minimum trade size is 25,000 contracts, separate orders cannot in principle be aggregated to meet that threshold, and the seller or the broker must report the trade details within 15 minutes of the point at which both sides agreed to the trade. Cantor said it would start the service on Kalshi first and could expand to other exchanges, and according to CoinDesk, about 3,000 institutional clients can use this channel. The launch widens the path for institutions to trade or hedge the risk of policy, economic and industry events, but because of the minimum size and the ECP requirement, it is not available to all investors.",
+      "metanomia_thought": "Once prediction markets move beyond retail betting and into institutional risk transfer, the right to discover the price of an event extends to larger pools of capital and professional liquidity providers. That said, Cantor and Susquehanna take on the gatekeeper role over access, execution and price liquidity, while Kalshi controls listing and settlement, and the way prices are formed in large trades and the transparency of after-the-fact disclosure will determine market trust. The threshold of a minimum of 25,000 contracts shows that the range of participation in this channel is limited from the outset. If Korea designs a Korean-style prediction market, it must also decide who lists the contracts, who monitors the use of inside information and market manipulation, and who bears responsibility for losses.",
+      "sources": [
+        {
+          "title": "Cantor Commences Institutional Block Trading in Prediction Markets",
+          "url": "https://www.businesswire.com/news/home/20260819078964/en/Cantor-Commences-Institutional-Block-Trading-in-Prediction-Markets"
+        },
+        {
+          "title": "Cantor opens Kalshi prediction markets to thousands of institutional clients",
+          "url": "https://www.coindesk.com/markets/2026/08/19/cantor-opens-kalshi-prediction-markets-to-thousands-of-institutional-clients"
+        },
+        {
+          "title": "Block Trades",
+          "url": "https://help.kalshi.com/en/articles/15165864-block-trades"
+        },
+        {
+          "title": "Re: KalshiEX LLC – Pre-Execution Communications and Block Orders",
+          "url": "https://www.cftc.gov/filings/orgrules/rules01282638021.pdf"
+        }
+      ]
+    },
+    {
+      "slug": "2026-08-20-crypto-news-7b99068d36",
+      "date_kst": "2026-08-20",
+      "title": "FASB Proposes Examples for Determining Whether Stablecoins Qualify as Cash Equivalents, Plus Stronger Disclosure",
+      "content": "The Financial Accounting Standards Board (FASB), which sets US accounting standards, released a proposed accounting standards update on August 18 local time containing examples for determining which stablecoins qualify as cash equivalents. Its formal title is \"Statement of Cash Flows (Topic 230): Cash Equivalents: Disclosure Enhancement and Evaluation of Certain Digital Assets,\" and its release was approved unanimously by the seven board members, with comments accepted through November 19. The proposal does not change the definition of cash equivalents itself, opting instead to use examples to show how the existing definition applies to digital assets. The examples cite three attributes: a contractual right to redeem for cash on demand, a direct right of redemption against the issuer and redemption for a set amount of cash, and short-term, highly liquid reserve assets held by the issuer in a segregated account at a minimum of one-to-one against the amount in circulation. What emerges more clearly from the examples is what is excluded. If a holder has no contractual right to demand redemption directly from the issuer and can only sell at around one dollar in the secondary market, the proposal takes the view that it does not qualify as a cash equivalent. Fetching full value in the market and holding a right to demand redemption from the issuer are different things. Even if reserve assets are held one-to-one against the amount in circulation, they likewise do not qualify if those reserve assets are virtual assets or gold. That is because their value moves for reasons other than interest rate changes, making it hard to view the risk of changes in value as small. Enhanced disclosure is a separate axis. The proposal would require all companies that present cash equivalents to disclose in their annual reports the major components, such as US Treasuries, commercial paper, stablecoins and money market funds (MMFs), along with the amount of each item, and this obligation applies even to companies that do not hold digital assets. Meeting the requirements does not mean an asset must be presented as a cash equivalent; the company decides as a matter of accounting policy. The proposal says that relevant laws and regulations should be considered in setting that policy, citing the GENIUS Act as an example, and it is also asking for comment on whether this language is appropriate. The effective date will be set after the comment process.",
+      "metanomia_thought": "If stablecoins that meet the requirements can be presented as cash equivalents, there is greater room for on-chain dollars to be absorbed into corporate working capital and payment and settlement assets. That said, this proposal draws boundaries more than it widens the door. Assets can be excluded if there is no direct right of redemption against the issuer or if the reserve assets are not composed of short-term, highly liquid assets, which means recognition of liquidity for accounting purposes rests on the quality of the reserve assets and the legal certainty of the redemption right. Korea, too, needs to spell out not only issuance licensing but also the criteria for classification, disclosure and audit judgment when companies hold these assets.",
+      "sources": [
+        {
+          "title": "Proposed Accounting Standards Update—Statement of Cash Flows (Topic 230): Cash Equivalents—Disclosure Enhancement and Evaluation of Certain Digital Assets",
+          "url": "https://fasb.org/Page/Document?pdf=Proposed%20ASU%20Statement%20of%20Cash%20Flows%20(Topic%20230).pdf&title=Proposed%20Accounting%20Standards%20Update,%20Statement%20of%20Cash%20Flows%20(Topic%20230):%20%20Cash%20Equivalents%E2%80%94Disclosure%20Enhancement%20and%20Evaluation%20of%20Certain%20Digital%20Assets"
+        },
+        {
+          "title": "Cash Equivalents—Disclosure Enhancement and Classification of Certain Digital Assets",
+          "url": "https://www.fasb.org/projects/current-projects/cash-equivalents%E2%80%94disclosure-enhancement-and-classification-of-certain-digital-assets-423255"
+        },
+        {
+          "title": "U.S. accounting-standards group proposes way to see stablecoins as 'cash equivalent'",
+          "url": "https://www.coindesk.com/policy/2026/08/18/u-s-accounting-standards-group-proposes-way-to-see-stablecoins-as-cash-equivalent"
+        }
+      ]
+    },
+    {
+      "slug": "2026-08-20-crypto-news-1181173bff",
+      "date_kst": "2026-08-20",
+      "title": "Injective Affiliate's Registration as a US SEC Transfer Agent Takes Effect",
+      "content": "Injective is a finance-focused Layer 1 blockchain that handles spot and derivatives trading through an on-chain order book, and it has recently been expanding into the issuance and management of tokenized securities and real-world assets (RWAs). The project's affiliate, Injective Institutional Services, announced on August 19 local time that its registration as a transfer agent with the US Securities and Exchange Commission (SEC) had taken effect. A transfer agent is similar to Korea's registrar for share transfers: acting on a mandate from the issuer, it maintains the official register of securities owners and manages changes in ownership as well as the exercise of rights such as dividends and voting. This is not the first registration by a blockchain company. In March of this year, tokenized securities firm Securitize was designated as the first digital transfer agent to support blockchain-based securities issuance on the tokenized securities platform being prepared by the New York Stock Exchange (NYSE). A staff FAQ from the SEC's Division of Trading and Markets explains that a registered transfer agent may use a distributed ledger as all or part of the official shareholder register, provided it meets requirements for security, accuracy, currency, reporting, and preservation. Injective plans to manage holder and jurisdictional restrictions, separation of issuance and redemption authority, freezing of restricted addresses, and suspension of transfers through Injective Mint and its RWA module. That said, this registration does not mean the SEC has approved all of Injective's tokens or products, and staff of the SEC's Division of Corporation Finance, Division of Investment Management, and Division of Trading and Markets stated in a January 28 statement that the form of issuance and the method of recording holders do not change the application of the federal securities laws. The announcement did not disclose which specific securities the affiliate actually maintains official registers for, or the scale of what it processes.",
+      "metanomia_thought": "The core of tokenization is not simply creating tokens but connecting those records to actual legal rights. When a registered transfer agent operates an on-chain register, trading and changes in rights can be managed within the same record-keeping system. But the authority to correct erroneous records or freeze addresses remains with the transfer agent and the issuer. Korea's tokenized securities (STO) framework likewise needs to clarify the standards under which on-chain records are recognized as legal ownership, and which party bears responsibility for correcting record errors and for processing investors' exercise of rights such as dividends, voting, and redemption.",
+      "sources": [
+        {
+          "title": "Injective is Now an Official SEC Registered Transfer Agent",
+          "url": "https://injective.com/blog/sec-transfer-agent"
+        },
+        {
+          "title": "Injective becomes SEC-registered transfer agent as it expands tokenization push",
+          "url": "https://www.theblock.co/news/regulation/2026-08-19-injective-becomes-sec-registered-transfer-agent-expands-tokenization-push-412225"
+        },
+        {
+          "title": "Frequently Asked Questions Relating to Crypto Asset Activities and Distributed Ledger Technology",
+          "url": "https://www.sec.gov/rules-regulations/staff-guidance/trading-markets-frequently-asked-questions/frequently-asked-questions-relating-crypto-asset-activities-distributed-ledger-technology"
+        },
+        {
+          "title": "Statement on Tokenized Securities",
+          "url": "https://www.sec.gov/newsroom/speeches-statements/corp-fin-statement-tokenized-securities-012826-statement-tokenized-securities"
+        }
+      ]
+    },
     {
       "slug": "2026-08-19-crypto-news-925798b172",
       "date_kst": "2026-08-19",
