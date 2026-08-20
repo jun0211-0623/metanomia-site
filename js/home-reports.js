@@ -2,7 +2,7 @@
   'use strict';
 
   var isKo = document.documentElement.lang === 'ko';
-  var catalogUrl = isKo ? 'publications.ko.html' : 'publications.html';
+  var catalogUrl = isKo ? '/ko/publications' : '/publications';
 
   function make(tagName, className, text) {
     var element = document.createElement(tagName);

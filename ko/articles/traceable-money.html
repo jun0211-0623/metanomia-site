@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>추적 가능한 화폐 | 메타노미아 보고서</title>
+  <meta name="description" content="블록체인 분석 기술과 크립토 제도화의 조건, 메타노미아 보고서, 2026년 6월." />
+  <link rel="canonical" href="https://metanomia-site.vercel.app/ko/articles/traceable-money" />
+  <link rel="alternate" hreflang="ko" href="https://metanomia-site.vercel.app/ko/articles/traceable-money" />
+  <link rel="alternate" hreflang="en" href="https://metanomia-site.vercel.app/articles/traceable-money" />
+  <link rel="alternate" hreflang="x-default" href="https://metanomia-site.vercel.app/articles/traceable-money" />
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <link rel="icon" href="/favicon-32.png" sizes="32x32" />
+  <link rel="apple-touch-icon" href="/favicon-180.png" />
+  <meta property="og:type" content="article" />
+  <meta property="og:site_name" content="Metanomia" />
+  <meta property="og:locale" content="ko_KR" />
+  <meta property="og:title" content="추적 가능한 화폐 | 메타노미아 보고서" />
+  <meta property="og:description" content="블록체인 분석 기술과 크립토 제도화의 조건, 메타노미아 보고서, 2026년 6월." />
+  <meta property="og:url" content="https://metanomia-site.vercel.app/ko/articles/traceable-money" />
+  <meta property="og:image" content="https://metanomia-site.vercel.app/images/reports/jun2026-hero.webp" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="추적 가능한 화폐 | 메타노미아 보고서" />
+  <meta name="twitter:description" content="블록체인 분석 기술과 크립토 제도화의 조건, 메타노미아 보고서, 2026년 6월." />
+  <meta name="twitter:image" content="https://metanomia-site.vercel.app/images/reports/jun2026-hero.webp" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,300;8..60,400;8..60,500;8..60,600;8..60,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css" />
+  <link rel="stylesheet" href="/style.css?v=20260818-3" />
+
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "추적 가능한 화폐", "description": "블록체인 분석 기술과 크립토 제도화의 조건, 메타노미아 보고서, 2026년 6월.", "url": "https://metanomia-site.vercel.app/ko/articles/traceable-money", "mainEntityOfPage": "https://metanomia-site.vercel.app/ko/articles/traceable-money", "publisher": {"@type": "Organization", "name": "Metanomia", "url": "https://metanomia-site.vercel.app/"}, "inLanguage": "ko", "image": "https://metanomia-site.vercel.app/images/reports/jun2026-hero.webp", "datePublished": "2026년 6월", "author": [{"@type": "Person", "name": "박상현"}]}</script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">본문으로 건너뛰기</a>
+
+  <!-- ================= NAV ================= -->
+  <header class="nav" id="siteNav">
+    <div class="container nav__inner">
+      <a class="brand" href="/ko">
+        <img class="brand__logo" src="/images/brand/metanomia-lockup-meta-path-dark.svg" alt="Metanomia" />
+      </a>
+      <nav class="nav__menu">
+        <div class="nav__item nav__item--menu">
+        <a class="nav__link" href="/ko/about">소개 <svg class="nav__caret" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="m6 9 6 6 6-6"/></svg></a>
+        <div class="nav__dropdown">
+          <a href="/ko/about">메타노미아 소개</a>
+          <a href="/ko/members">구성원</a>
+          <a href="/ko/contact">문의하기</a>
+        </div>
+      </div>
+        <div class="nav__item nav__item--menu">
+          <a class="nav__link" href="/ko/publications">보고서 <svg class="nav__caret" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="m6 9 6 6 6-6"/></svg></a>
+          <div class="nav__dropdown nav__dropdown--publications">
+            <a href="/ko/publications">전체</a>
+            <a href="/ko/series/outlook">OUTLOOK | 전망</a>
+            <a href="/ko/series/research">FINDINGS | 규명</a>
+            <a href="/ko/series/perspectives">PERSPECTIVES | 관점</a>
+            <a href="/ko/series/policy-strategy">POLICY &amp; STRATEGY | 정책 · 전략</a>
+            <a href="/ko/series/guide">GUIDE | 가이드</a>
+          </div>
+        </div>
+        <div class="nav__item nav__item--menu">
+          <a class="nav__link" href="/ko/media">영상 <svg class="nav__caret" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="m6 9 6 6 6-6"/></svg></a>
+          <div class="nav__dropdown nav__dropdown--media">
+            <a href="/ko/media">전체</a>
+            <a href="/ko/media/weekly-crypto">이번 주 크립토</a>
+            <a href="/ko/media/ask-the-author">저자에게 묻다</a>
+            <a href="/ko/media/crypto-tutoring">크립토 과외</a>
+            <a href="/ko/media/crypto-issues">크립토 쟁점</a>
+            <a href="/ko/media/reading-crypto">책으로 읽는 크립토</a>
+          </div>
+        </div>
+        <a class="nav__link" href="/ko/crypto-news">크립토 뉴스</a>
+      </nav>
+      <div class="nav__right">
+        <a class="nav__lang" href="/articles/traceable-money" aria-label="English">EN</a>
+        <button type="button" class="nav__search" aria-label="검색">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+        </button>
+        <button class="nav__toggle" id="navToggle" aria-label="메뉴" aria-expanded="false" aria-controls="navDrawer">
+          <svg class="nav__toggle-open" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+          <svg class="nav__toggle-close" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 6l12 12M18 6L6 18"/></svg>
+        </button>
+      </div>
+    </div>
+    <div class="container nav__drawer" id="navDrawer">
+      <a class="nav__drawer-link" href="/ko/about">메타노미아 소개</a>
+      <a class="nav__drawer-link nav__drawer-link--sub" href="/ko/members">구성원</a>
+      <a class="nav__drawer-link nav__drawer-link--sub" href="/ko/contact">문의하기</a>
+      <a class="nav__drawer-link" href="/ko/publications">보고서</a>
+      <a class="nav__drawer-link nav__drawer-link--sub" href="/ko/publications">전체</a>
+      <a class="nav__drawer-link nav__drawer-link--sub" href="/ko/series/outlook">OUTLOOK | 전망</a>
+      <a class="nav__drawer-link nav__drawer-link--sub" href="/ko/series/research">FINDINGS | 규명</a>
+      <a class="nav__drawer-link nav__drawer-link--sub" href="/ko/series/perspectives">PERSPECTIVES | 관점</a>
+      <a class="nav__drawer-link nav__drawer-link--sub" href="/ko/series/policy-strategy">POLICY &amp; STRATEGY | 정책 · 전략</a>
+      <a class="nav__drawer-link nav__drawer-link--sub" href="/ko/series/guide">GUIDE | 가이드</a>
+      <a class="nav__drawer-link" href="/ko/media">영상</a>
+      <a class="nav__drawer-link nav__drawer-link--sub" href="/ko/media">전체</a>
+      <a class="nav__drawer-link nav__drawer-link--sub" href="/ko/media/weekly-crypto">이번 주 크립토</a>
+      <a class="nav__drawer-link nav__drawer-link--sub" href="/ko/media/ask-the-author">저자에게 묻다</a>
+      <a class="nav__drawer-link nav__drawer-link--sub" href="/ko/media/crypto-tutoring">크립토 과외</a>
+      <a class="nav__drawer-link nav__drawer-link--sub" href="/ko/media/crypto-issues">크립토 쟁점</a>
+      <a class="nav__drawer-link nav__drawer-link--sub" href="/ko/media/reading-crypto">책으로 읽는 크립토</a>
+      <a class="nav__drawer-link" href="/ko/crypto-news">크립토 뉴스</a>
+      <a class="nav__drawer-link" href="/articles/traceable-money">EN</a>
+    </div>
+  </header>
+
+  <!-- ================= ARTICLE HEADER ================= -->
+  <article class="article" id="main-content">
+    <div class="container">
+      <div class="article__inner">
+        <span class="article__cat">FINDINGS</span>
+        <h1 class="article__title">추적 가능한 화폐</h1>
+        <p class="article__sub">블록체인 분석 기술과 크립토 제도화의 조건. 공개 장부가 프라이버시와 규제 준수, 그리고 제도권 편입의 경로를 어떻게 다시 그리는지 살펴봅니다.</p>
+        <div class="article__bar">
+          <a class="btn" href="https://nthszgnbqgjfqnzgytym.supabase.co/storage/v1/object/public/pdfs/Metanomia_JUNE%202026_KOR_v2.0.pdf" target="_blank" rel="noopener">PDF 보기</a>
+          <span class="article__meta"><span>2026년 6월</span></span>
+          <a class="article__extlink" href="https://nthszgnbqgjfqnzgytym.supabase.co/storage/v1/object/public/pdfs/Metanomia_JUNE%202026_KOR_v2.0.pdf" target="_blank" rel="noopener" aria-label="새 탭에서 PDF 열기">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><path d="M15 3h6v6"/><path d="M10 14 21 3"/></svg>
+          </a>
+        </div>
+        <div class="article__author">
+          <span class="article__avatar article__avatar--empty"></span>
+          <div>
+            <div class="article__author-name"><a href="/ko/people/sanghyeon-park">박상현</a></div>
+            <div class="article__author-role">연구원 · 메타노미아 · 교신저자 오태민</div>
+          </div>
+        </div>
+
+        <div class="article__hero">
+          <img src="/images/reports/jun2026-hero.webp" alt="추적 가능한 화폐, 메타노미아 보고서, 2026년 6월" loading="lazy" decoding="async">
+        </div>
+
+        <div class="article__body">
+          <h2>들어가며</h2>
+          <p>영화나 드라마에서 납치범이 몸값을 요구하는 장면을 본 적이 있는가? 스크린 속 납치범은 현금 가방을 요구하지 않는다. 비트코인을 요구한다. 이름도 없고, 추적도 어렵다는 전제가 그 짧은 장면 안에 담겨 있다. 그리고 대부분의 관객은 그 전제를 의심하지 않는다. 크립토는 추적되지 않는 돈이라는 인식이 이미 대중의 상식으로 자리 잡았기 때문이다.</p>
+          <p>그 인식은 단순한 대중적 오해가 아니었다. 초기 크립토 생태계를 이끈 자유주의자들과 사이퍼펑크들에게 익명성은 설계의 핵심이었다. 국가와 중앙은행의 통제로부터 개인의 경제적 자유를 지키는 도구로서, 크립토는 그 이념을 기술로 구현한 결과물이었다. 실크로드의 마약 거래상들이 비트코인을 택한 이유도, 랜섬웨어 조직이 크립토로 몸값을 요구한 이유도 바로 그 믿음 위에 있었다. 한동안 그 믿음은 현실에서도 유효해 보였다.</p>
+          <p>그러나 그 간극은 조용히, 그리고 빠르게 좁혀졌다. 블록체인 분석 기술이 등장하면서 익명의 지갑 주소 뒤에 숨은 자금의 흐름을 추적하고, 거래 패턴을 분석하며, 특정 주소를 실제 조직이나 개인과 연결하는 것이 가능해졌다.</p>
+          <p>국가는 여전히 크립토를 불편해한다. 그리고 완전한 통제는 불가능하다. 그러나 이제 국가는 필요하다면 추적하고 봉쇄할 수 있다는 것을 안다. 한때 국가의 통제 바깥에 있던 크립토가 제도권 금융의 언어로 번역되고 있다. 이 보고서는 그 자신감이 어디에서 왔는지, 그 질문을 따라간다.</p>
+          <a class="btn" href="https://nthszgnbqgjfqnzgytym.supabase.co/storage/v1/object/public/pdfs/Metanomia_JUNE%202026_KOR_v2.0.pdf" target="_blank" rel="noopener">보고서 전문 읽기 (PDF)</a>
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <!-- ================= RELATED ================= -->
+  <section class="section article-related">
+    <div class="container">
+      <div class="section__head">
+        <h2 class="section__title">다른 보고서</h2>
+      </div>
+      <div class="cards">
+        <a class="card" href="/ko/articles/bitcoin-quantum-computing">
+          <div class="card__media"><img src="/images/reports/may2-2026-hero.webp" alt="" loading="lazy" decoding="async"></div>
+          <div class="card__row"><span class="card__cat">FINDINGS</span><span class="card__date">2026년 5월</span></div>
+          <h3 class="card__title quantum-report-title" aria-label="비트코인은 양자컴퓨팅 시대에도 살아남을 수 있는가"><span class="quantum-report-title__line">비트코인은 양자컴퓨팅 시대에도</span><span class="quantum-report-title__line">살아남을 수 있는가</span></h3>
+        </a>
+        <a class="card" href="/ko/articles/age-of-machine-payments">
+          <div class="card__media"><img src="/images/reports/may1-2026-hero.webp" alt="" loading="lazy" decoding="async"></div>
+          <div class="card__row"><span class="card__cat">OUTLOOK</span><span class="card__date">2026년 5월</span></div>
+          <h3 class="card__title">기계가 결제하는 시대</h3>
+        </a>
+        <a class="card" href="/ko/articles/tokenizing-gangnam-apartments">
+          <div class="card__media"><img src="/images/reports/apr2026-hero.webp" alt="" loading="lazy" decoding="async"></div>
+          <div class="card__row"><span class="card__cat">POLICY &amp; STRATEGY</span><span class="card__date">2026년 4월</span></div>
+          <h3 class="card__title">토큰화, 강남 아파트 소유하기</h3>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= NEWSLETTER CTA ================= -->
+  <section class="cta" id="newsletter">
+    <div class="container">
+      <div class="cta__grid">
+        <p class="cta__lead">새로운 보고서와 유튜브 영상이 공개되면<br class="newsletter-break" />이메일로 알려드립니다.</p>
+        <div class="signup">
+
+          <form class="signup__form" onsubmit="return false;">
+            <input class="signup__input" type="email" placeholder="이메일 주소" />
+            <button class="signup__btn" type="submit">알림 받기</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="footer" id="events">
+    <div class="container">
+      <div class="footer__top">
+        <div class="footer__brand">
+          <a class="brand" href="/ko">
+            <img class="brand__logo" src="/images/brand/metanomia-lockup-meta-path-dark.svg" alt="Metanomia" />
+          </a>
+          <p class="footer__tagline">메타노미아는 화폐·금융 질서와<br />크립토 생태계의 변화를 탐구하고,<br />그 결과를 누구나 읽고 이해할 수 있는<br /><span class="footer__tagline-last">글로 풀어내는 연구 공동체입니다.</span></p>
+        </div>
+        <div class="footer__col">
+          <h4>보고서 시리즈</h4>
+          <a href="/ko/series/outlook">OUTLOOK | 전망</a>
+          <a href="/ko/series/research">FINDINGS | 규명</a>
+          <a href="/ko/series/perspectives">PERSPECTIVES | 관점</a>
+          <a href="/ko/series/policy-strategy">POLICY &amp; STRATEGY | 정책 · 전략</a>
+          <a href="/ko/series/guide">GUIDE | 가이드</a>
+        </div>
+        <div class="footer__col">
+          <h4>메타노미아</h4>
+          <a href="/ko/about">메타노미아 소개</a>
+          <a href="/ko/members">구성원</a>
+          <a href="/ko/contact">문의하기</a>
+        </div>
+        <div class="footer__col">
+          <h4>콘텐츠</h4>
+          <a href="/ko/publications">보고서</a>
+          <a href="/ko/media">영상</a>
+          <a href="/ko/crypto-news">크립토 뉴스</a>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span>© 2026 Metanomia</span>
+        <div class="footer__legal">
+          <a href="/ko/privacy">개인정보 처리방침</a>
+          <a href="/ko/terms">이용약관</a>
+          <a href="/ko/contact">문의하기</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/js/subscribe.js" defer></script>
+  <script src="/js/search.js" defer></script>
+</body>
+</html>

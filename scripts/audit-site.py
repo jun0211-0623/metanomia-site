@@ -54,9 +54,21 @@ def resolve_local(page: Path, value: str) -> Path | None:
     path = unquote(parts.path)
     if not path:
         return None
-    if path.startswith("/"):
-        return ROOT / path.lstrip("/")
-    return (page.parent / path).resolve()
+    base = ROOT / path.lstrip("/") if path.startswith("/") else (page.parent / path).resolve()
+    return serve(base)
+
+
+def serve(base: Path) -> Path:
+    """Mirror Vercel cleanUrls: /about -> about.html, /ko -> ko/index.html."""
+    if base.is_file():
+        return base
+    with_extension = base.with_name(base.name + ".html") if base.name else base
+    if with_extension.is_file():
+        return with_extension
+    index = base / "index.html"
+    if index.is_file():
+        return index
+    return base
 
 
 def main() -> int:
@@ -89,30 +101,37 @@ def main() -> int:
             errors.append(f"{relative}: malformed image attribute placement")
         for attribute, value in parser.refs:
             target = resolve_local(page, value)
-            if target is not None and not target.exists():
+            if target is None:
+                continue
+            if not target.exists():
                 errors.append(f"{relative}: broken {attribute} {value}")
+            elif not value.startswith("/"):
+                errors.append(f"{relative}: {attribute} must be root-absolute: {value}")
+            elif urlsplit(value).path.endswith(".html"):
+                errors.append(f"{relative}: {attribute} must drop the .html extension: {value}")
 
-    for home in (ROOT / "index.html", ROOT / "ko.html"):
+    for home in (ROOT / "index.html", ROOT / "ko" / "index.html"):
         parser = PageParser()
         parser.feed(home.read_text(encoding="utf-8"))
         if parser.h1_count != 1:
-            errors.append(f"{home.name}: expected one h1, found {parser.h1_count}")
+            errors.append(f"{home.relative_to(ROOT).as_posix()}: expected one h1, found {parser.h1_count}")
 
-    news_pages = list(ROOT.glob("crypto-news-20*.html"))
+    news_pages = sorted(ROOT.glob("crypto-news-20*.html")) + sorted((ROOT / "ko").glob("crypto-news-20*.html"))
     for page in news_pages:
+        name = page.relative_to(ROOT).as_posix()
         source = page.read_text(encoding="utf-8")
         if '"@type": "NewsArticle"' not in source:
-            errors.append(f"{page.name}: missing NewsArticle JSON-LD")
+            errors.append(f"{name}: missing NewsArticle JSON-LD")
         if "data-crypto-news-detail" in source:
-            errors.append(f"{page.name}: generated page still contains the dynamic news placeholder")
+            errors.append(f"{name}: generated page still contains the dynamic news placeholder")
         if "뉴스를 불러오는 중입니다." in source or "Loading news" in source:
-            errors.append(f"{page.name}: generated page still contains loading copy")
+            errors.append(f"{name}: generated page still contains loading copy")
         if '<article class="crypto-news-article__inner">' not in source:
-            errors.append(f"{page.name}: missing static news article body")
+            errors.append(f"{name}: missing static news article body")
         parser = PageParser()
         parser.feed(source)
         if parser.has_noindex:
-            errors.append(f"{page.name}: static news page must be indexable")
+            errors.append(f"{name}: static news page must be indexable")
 
     print(f"Audited {len(pages)} HTML files and {len(news_pages)} static news pages")
     for message in warnings[:30]:

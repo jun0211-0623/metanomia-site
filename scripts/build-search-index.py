@@ -14,7 +14,7 @@ PAGES = [
     'about.html', 'publications.html', 'media.html', 'members.html',
     'media/weekly-crypto.html', 'media/ask-the-author.html', 'media/crypto-tutoring.html',
     'media/crypto-issues.html', 'media/reading-crypto.html',
-    'crypto-news.html', 'donate.html', 'contact.html', 'privacy.html', 'terms.html',
+    'crypto-news.html', 'contact.html', 'privacy.html', 'terms.html',
 ]
 
 TYPES = {
@@ -48,7 +48,17 @@ def description(html):
 
 
 def ko_path(path):
-    return path[:-5] + '.ko.html'
+    return 'ko/' + path
+
+
+def to_url(path):
+    """Repo-relative html file -> served, extensionless URL."""
+    return '/' + path[:-5] if path.endswith('.html') else '/' + path
+
+
+def to_file(url):
+    """Served URL -> repo-relative html file."""
+    return url.lstrip('/') + '.html'
 
 
 def entry(kind, lang, title, sub, meta, path):
@@ -58,7 +68,7 @@ def entry(kind, lang, title, sub, meta, path):
         'title': title,
         'sub': sub,
         'meta': meta,
-        'url': '/' + path,
+        'url': to_url(path),
     }
 
 
@@ -79,18 +89,19 @@ def report_catalog(path):
 
 def build():
     index = []
-    catalog = {'en': report_catalog('publications.html'), 'ko': report_catalog('publications.ko.html')}
+    catalog = {'en': report_catalog('publications.html'), 'ko': report_catalog('ko/publications.html')}
 
     # Reports, newest first, mirroring the catalog order.
-    for lang, source in (('en', 'publications.html'), ('ko', 'publications.ko.html')):
+    for lang, source in (('en', 'publications.html'), ('ko', 'ko/publications.html')):
         for href, (authors, date) in catalog[lang].items():
-            html = read(href)
+            report = to_file(href)
+            html = read(report)
             index.append(entry(
                 'report', lang,
                 grab(html, r'class="article__title[^"]*"[^>]*>(.*?)</h1>') or grab(html, r'<h1[^>]*>(.*?)</h1>'),
                 grab(html, r'class="article__sub"[^>]*>(.*?)</p>'),
                 ' · '.join(part for part in (authors, date) if part),
-                href,
+                report,
             ))
 
     # Member profiles, alphabetical by file name.
@@ -131,7 +142,7 @@ def build():
             html = read(target)
             index.append(entry(
                 'series', lang,
-                grab(html, r'class="cat-title"[^>]*>(.*?)</h1>'),
+                grab(html, r'<h1[^>]*class="cat-title[^"]*"[^>]*>(.*?)</h1>'),
                 description(html),
                 '',
                 target,

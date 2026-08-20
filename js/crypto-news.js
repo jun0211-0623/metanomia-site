@@ -9,8 +9,8 @@
   var isKo = document.documentElement.lang === 'ko';
 
   var COPY = isKo ? {
-    manifest: 'data/crypto-news.json',
-    detailHref: 'crypto-news-detail.ko.html',
+    manifest: '/data/crypto-news.json',
+    detailHref: '/ko/crypto-news-detail',
     titleSuffix: ' | 메타노미아 크립토 뉴스',
     count: function (n) { return '총 ' + n + '건'; },
     emptyTitle: '아직 게시된 뉴스가 없습니다.',
@@ -23,8 +23,8 @@
     previousNews: '이전 뉴스',
     nextNews: '다음 뉴스'
   } : {
-    manifest: 'data/crypto-news.en.json',
-    detailHref: 'crypto-news-detail.html',
+    manifest: '/data/crypto-news.en.json',
+    detailHref: '/crypto-news-detail',
     titleSuffix: ' | Metanomia Crypto News',
     count: function (n) { return n + (n === 1 ? ' item' : ' items'); },
     emptyTitle: 'No news published yet.',
@@ -179,13 +179,13 @@
   }
 
   function detailUrl(item) {
-    return 'crypto-news-' + encodeURIComponent(itemKey(item)) + (isKo ? '.ko.html' : '.html');
+    return (isKo ? '/ko/crypto-news-' : '/crypto-news-') + encodeURIComponent(itemKey(item));
   }
 
   function updateDetailLanguageLinks(slug) {
-    var counterpart = isKo ? 'crypto-news-detail.html' : 'crypto-news-detail.ko.html';
+    var counterpart = isKo ? '/crypto-news-detail' : '/ko/crypto-news-detail';
     var href = counterpart + (slug ? '?slug=' + encodeURIComponent(slug) : '');
-    document.querySelectorAll('.nav__lang, .nav__drawer-link[href^="crypto-news-detail"]')
+    document.querySelectorAll('.nav__lang, .nav__drawer-link[href*="crypto-news-detail"]')
       .forEach(function (link) {
         link.href = href;
       });
@@ -225,7 +225,7 @@
     }
 
     // Keep old shared links working while serving the article from its static URL.
-    if (/\/crypto-news-detail(?:\.ko)?\.html$/.test(window.location.pathname)) {
+    if (/\/(?:ko\/)?crypto-news-detail(?:\.html)?$/.test(window.location.pathname)) {
       window.location.replace(detailUrl(item));
       return;
     }

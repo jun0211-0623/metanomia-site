@@ -5,7 +5,7 @@
     "title": "About Metanomia",
     "sub": "Metanomia is a research community exploring changes in the monetary and financial order and the crypto ecosystem.",
     "meta": "",
-    "url": "/about.html"
+    "url": "/about"
   },
   {
     "lang": "en",
@@ -13,7 +13,7 @@
     "title": "Ask the Author",
     "sub": "Explore Ask the Author, a Metanomia media program.",
     "meta": "",
-    "url": "/media/ask-the-author.html"
+    "url": "/media/ask-the-author"
   },
   {
     "lang": "en",
@@ -21,7 +21,7 @@
     "title": "Contact",
     "sub": "Get in touch with Metanomia: research inquiries, media, and partnerships.",
     "meta": "",
-    "url": "/contact.html"
+    "url": "/contact"
   },
   {
     "lang": "en",
@@ -29,15 +29,15 @@
     "title": "Crypto Issues",
     "sub": "Explore Crypto Issues, a Metanomia media program.",
     "meta": "",
-    "url": "/media/crypto-issues.html"
+    "url": "/media/crypto-issues"
   },
   {
     "lang": "en",
     "type": "Page",
     "title": "Crypto News",
-    "sub": "Crypto news read through Metanomia's lens: what is changing in money, finance, and crypto, and why it matters.",
+    "sub": "Crypto news read through Metanomia’s lens: what is changing in money, finance, and crypto, and why it matters.",
     "meta": "",
-    "url": "/crypto-news.html"
+    "url": "/crypto-news"
   },
   {
     "lang": "en",
@@ -45,15 +45,15 @@
     "title": "Crypto Tutoring",
     "sub": "Explore Crypto Tutoring, a Metanomia media program.",
     "meta": "",
-    "url": "/media/crypto-tutoring.html"
+    "url": "/media/crypto-tutoring"
   },
   {
     "lang": "en",
     "type": "Page",
     "title": "Media",
-    "sub": "Explore Metanomia's video programs and YouTube content.",
+    "sub": "Explore Metanomia’s video programs and YouTube content.",
     "meta": "",
-    "url": "/media.html"
+    "url": "/media"
   },
   {
     "lang": "en",
@@ -61,7 +61,7 @@
     "title": "Members",
     "sub": "Members contributing to Metanomia’s research and operations",
     "meta": "",
-    "url": "/members.html"
+    "url": "/members"
   },
   {
     "lang": "en",
@@ -69,7 +69,7 @@
     "title": "Privacy Policy",
     "sub": "Metanomia privacy policy. What we collect when you sign up for email updates, and how it is handled.",
     "meta": "",
-    "url": "/privacy.html"
+    "url": "/privacy"
   },
   {
     "lang": "en",
@@ -77,7 +77,7 @@
     "title": "Publications",
     "sub": "All reports from Metanomia, organized across five series: Outlook, Findings, Perspectives, Policy & Strategy, and Guide.",
     "meta": "",
-    "url": "/publications.html"
+    "url": "/publications"
   },
   {
     "lang": "en",
@@ -85,7 +85,7 @@
     "title": "Reading Crypto",
     "sub": "Explore Reading Crypto, a Metanomia media program.",
     "meta": "",
-    "url": "/media/reading-crypto.html"
+    "url": "/media/reading-crypto"
   },
   {
     "lang": "en",
@@ -93,7 +93,7 @@
     "title": "Terms of Use",
     "sub": "Terms governing the use of the Metanomia website and its public content.",
     "meta": "",
-    "url": "/terms.html"
+    "url": "/terms"
   },
   {
     "lang": "en",
@@ -101,7 +101,7 @@
     "title": "This Week in Crypto",
     "sub": "Explore This Week in Crypto, a Metanomia media program.",
     "meta": "",
-    "url": "/media/weekly-crypto.html"
+    "url": "/media/weekly-crypto"
   },
   {
     "lang": "en",
@@ -109,7 +109,7 @@
     "title": "Boyoung Park",
     "sub": "",
     "meta": "Researcher · Metanomia",
-    "url": "/people/boyoung-park.html"
+    "url": "/people/boyoung-park"
   },
   {
     "lang": "en",
@@ -117,7 +117,7 @@
     "title": "Changjun Lee",
     "sub": "",
     "meta": "Researcher · Metanomia",
-    "url": "/people/changjun-lee.html"
+    "url": "/people/changjun-lee"
   },
   {
     "lang": "en",
@@ -125,7 +125,7 @@
     "title": "Daehan Seok",
     "sub": "",
     "meta": "Researcher · Metanomia",
-    "url": "/people/daehan-seok.html"
+    "url": "/people/daehan-seok"
   },
   {
     "lang": "en",
@@ -133,7 +133,7 @@
     "title": "Dooroo Chung",
     "sub": "",
     "meta": "Operations Manager · Metanomia",
-    "url": "/people/dooroo-chung.html"
+    "url": "/people/dooroo-chung"
   },
   {
     "lang": "en",
@@ -141,7 +141,7 @@
     "title": "Eunmi Kim",
     "sub": "",
     "meta": "Researcher · Metanomia",
-    "url": "/people/eunmi-kim.html"
+    "url": "/people/eunmi-kim"
   },
   {
     "lang": "en",
@@ -149,7 +149,7 @@
     "title": "Hyemin Son",
     "sub": "",
     "meta": "General Manager · Editorial Board Member · Researcher · Metanomia",
-    "url": "/people/hyemin-son.html"
+    "url": "/people/hyemin-son"
   },
   {
     "lang": "en",
@@ -157,7 +157,7 @@
     "title": "Jeehwan Lee",
     "sub": "",
     "meta": "Researcher · Metanomia",
-    "url": "/people/jeehwan-lee.html"
+    "url": "/people/jeehwan-lee"
   },
   {
     "lang": "en",
@@ -165,7 +165,7 @@
     "title": "Jewoo Ryu",
     "sub": "",
     "meta": "Researcher · Metanomia",
-    "url": "/people/jewoo-ryu.html"
+    "url": "/people/jewoo-ryu"
   },
   {
     "lang": "en",
@@ -173,7 +173,7 @@
     "title": "Jungeun Lee",
     "sub": "",
     "meta": "Researcher · Metanomia",
-    "url": "/people/jungeun-lee.html"
+    "url": "/people/jungeun-lee"
   },
   {
     "lang": "en",
@@ -181,7 +181,7 @@
     "title": "Mingu Park",
     "sub": "",
     "meta": "Researcher · Metanomia",
-    "url": "/people/mingu-park.html"
+    "url": "/people/mingu-park"
   },
   {
     "lang": "en",
@@ -189,7 +189,7 @@
     "title": "Minguk Seok",
     "sub": "",
     "meta": "Researcher · Metanomia",
-    "url": "/people/minguk-seok.html"
+    "url": "/people/minguk-seok"
   },
   {
     "lang": "en",
@@ -197,7 +197,7 @@
     "title": "Sanghwan Kim",
     "sub": "",
     "meta": "Researcher · Metanomia",
-    "url": "/people/sanghwan-kim.html"
+    "url": "/people/sanghwan-kim"
   },
   {
     "lang": "en",
@@ -205,7 +205,7 @@
     "title": "Sanghyeon Park",
     "sub": "",
     "meta": "Editorial Board Member · Researcher · Metanomia",
-    "url": "/people/sanghyeon-park.html"
+    "url": "/people/sanghyeon-park"
   },
   {
     "lang": "en",
@@ -213,7 +213,7 @@
     "title": "Sangjun Han",
     "sub": "",
     "meta": "English Translator · Metanomia",
-    "url": "/people/sangjun-han.html"
+    "url": "/people/sangjun-han"
   },
   {
     "lang": "en",
@@ -221,7 +221,7 @@
     "title": "Seongjun Noh",
     "sub": "",
     "meta": "Researcher · Metanomia",
-    "url": "/people/seongjun-noh.html"
+    "url": "/people/seongjun-noh"
   },
   {
     "lang": "en",
@@ -229,7 +229,7 @@
     "title": "Seonhyeop Park",
     "sub": "",
     "meta": "Researcher · Metanomia",
-    "url": "/people/seonhyeop-park.html"
+    "url": "/people/seonhyeop-park"
   },
   {
     "lang": "en",
@@ -237,7 +237,7 @@
     "title": "Serin Kim",
     "sub": "",
     "meta": "Researcher · Metanomia",
-    "url": "/people/serin-kim.html"
+    "url": "/people/serin-kim"
   },
   {
     "lang": "en",
@@ -245,7 +245,7 @@
     "title": "Seungju Jin",
     "sub": "",
     "meta": "Researcher · Metanomia",
-    "url": "/people/seungju-jin.html"
+    "url": "/people/seungju-jin"
   },
   {
     "lang": "en",
@@ -253,7 +253,7 @@
     "title": "Seyeon Cho",
     "sub": "",
     "meta": "Researcher · Metanomia",
-    "url": "/people/seyeon-cho.html"
+    "url": "/people/seyeon-cho"
   },
   {
     "lang": "en",
@@ -261,7 +261,7 @@
     "title": "Siwoo Park",
     "sub": "",
     "meta": "Researcher · Metanomia",
-    "url": "/people/siwoo-park.html"
+    "url": "/people/siwoo-park"
   },
   {
     "lang": "en",
@@ -269,7 +269,7 @@
     "title": "Suhoon Park",
     "sub": "",
     "meta": "Researcher · Metanomia",
-    "url": "/people/suhoon-park.html"
+    "url": "/people/suhoon-park"
   },
   {
     "lang": "en",
@@ -277,7 +277,7 @@
     "title": "Sungah Yoon",
     "sub": "",
     "meta": "Designer · Metanomia",
-    "url": "/people/sungah-yoon.html"
+    "url": "/people/sungah-yoon"
   },
   {
     "lang": "en",
@@ -285,7 +285,7 @@
     "title": "Sunghoon Jin",
     "sub": "",
     "meta": "Editorial Board Member · Researcher · Metanomia",
-    "url": "/people/sunghoon-jin.html"
+    "url": "/people/sunghoon-jin"
   },
   {
     "lang": "en",
@@ -293,7 +293,7 @@
     "title": "Taemin Oh",
     "sub": "",
     "meta": "Research Lead · Metanomia",
-    "url": "/people/taemin-oh.html"
+    "url": "/people/taemin-oh"
   },
   {
     "lang": "en",
@@ -301,7 +301,7 @@
     "title": "Yongrae Cho",
     "sub": "",
     "meta": "Researcher · Metanomia",
-    "url": "/people/yongrae-cho.html"
+    "url": "/people/yongrae-cho"
   },
   {
     "lang": "en",
@@ -309,7 +309,7 @@
     "title": "Yonkyung Kim",
     "sub": "",
     "meta": "Researcher · Metanomia",
-    "url": "/people/yonkyung-kim.html"
+    "url": "/people/yonkyung-kim"
   },
   {
     "lang": "en",
@@ -317,7 +317,7 @@
     "title": "Yujeong Kim",
     "sub": "",
     "meta": "Researcher · Metanomia",
-    "url": "/people/yujeong-kim.html"
+    "url": "/people/yujeong-kim"
   },
   {
     "lang": "en",
@@ -325,7 +325,7 @@
     "title": "Zooa Yoo",
     "sub": "",
     "meta": "Researcher · Metanomia",
-    "url": "/people/zooa-yoo.html"
+    "url": "/people/zooa-yoo"
   },
   {
     "lang": "en",
@@ -333,7 +333,7 @@
     "title": "Can Bitcoin Survive the Age of Quantum Computing?",
     "sub": "The Quantum Threat and the Evolution of Bitcoin Security",
     "meta": "Yonkyung Kim, Hyemin Son · May 2026",
-    "url": "/articles/bitcoin-quantum-computing.html"
+    "url": "/articles/bitcoin-quantum-computing"
   },
   {
     "lang": "en",
@@ -341,7 +341,7 @@
     "title": "How Resistance Money Is Chosen",
     "sub": "Five criteria for adjusting the distance from power: which money becomes a means of resistance, for whom, and under what conditions.",
     "meta": "Changjun Lee · July 2026",
-    "url": "/articles/how-resistance-money-is-chosen.html"
+    "url": "/articles/how-resistance-money-is-chosen"
   },
   {
     "lang": "en",
@@ -349,7 +349,7 @@
     "title": "People Commuting into Online Games",
     "sub": "Survival Strategies in the Age of AI and the Future of the Metaverse",
     "meta": "Hyemin Son, Minguk Seok, Daehan Seok · January 2026",
-    "url": "/articles/commuting-into-online-games.html"
+    "url": "/articles/commuting-into-online-games"
   },
   {
     "lang": "en",
@@ -357,7 +357,7 @@
     "title": "The Age of Machine Payments",
     "sub": "The Race to Build Payment Infrastructure for the Machine Economy: x402 and Its Rivals",
     "meta": "Jeehwan Lee, Hyemin Son · May 2026",
-    "url": "/articles/age-of-machine-payments.html"
+    "url": "/articles/age-of-machine-payments"
   },
   {
     "lang": "en",
@@ -365,7 +365,7 @@
     "title": "Tokenization and the Attention Economy",
     "sub": "A Structural Shift in Valuation Driven by the Mediatization of Assets",
     "meta": "Sunghoon Jin · March 2026",
-    "url": "/articles/tokenization-attention-economy.html"
+    "url": "/articles/tokenization-attention-economy"
   },
   {
     "lang": "en",
@@ -373,7 +373,7 @@
     "title": "Tokenizing Gangnam Apartments",
     "sub": "A New Path to Real Estate Ownership",
     "meta": "Suhoon Park · April 2026",
-    "url": "/articles/tokenizing-gangnam-apartments.html"
+    "url": "/articles/tokenizing-gangnam-apartments"
   },
   {
     "lang": "en",
@@ -381,7 +381,7 @@
     "title": "Traceable Money",
     "sub": "Blockchain analytics and the conditions for crypto institutionalization: how a public ledger reshapes privacy, compliance, and the path to mainstream adoption.",
     "meta": "Sanghyeon Park · June 2026",
-    "url": "/articles/traceable-money.html"
+    "url": "/articles/traceable-money"
   },
   {
     "lang": "en",
@@ -389,7 +389,7 @@
     "title": "Where Is Ethereum Going in 2026?",
     "sub": "Pressures on the world computer, and three responses: what a decade of success asked of Ethereum, and what its community answered.",
     "meta": "Zooa Yoo · July 2026",
-    "url": "/articles/where-is-ethereum-going.html"
+    "url": "/articles/where-is-ethereum-going"
   },
   {
     "lang": "en",
@@ -397,7 +397,7 @@
     "title": "Findings",
     "sub": "Findings, how and why a phenomenon works, and what conclusion the evidence actually supports. Metanomia report series.",
     "meta": "",
-    "url": "/series/research.html"
+    "url": "/series/research"
   },
   {
     "lang": "en",
@@ -405,7 +405,7 @@
     "title": "Guide",
     "sub": "Guide, who does what, in what order and under what conditions, and how to respond when it fails. Metanomia report series.",
     "meta": "",
-    "url": "/series/guide.html"
+    "url": "/series/guide"
   },
   {
     "lang": "en",
@@ -413,7 +413,7 @@
     "title": "Outlook",
     "sub": "Outlook, what is changing, why now, and where it is most likely headed within a defined horizon. Metanomia report series.",
     "meta": "",
-    "url": "/series/outlook.html"
+    "url": "/series/outlook"
   },
   {
     "lang": "en",
@@ -421,7 +421,7 @@
     "title": "Perspectives",
     "sub": "Perspectives, what existing explanations miss, and the new frame we need to see it through. Metanomia report series.",
     "meta": "",
-    "url": "/series/perspectives.html"
+    "url": "/series/perspectives"
   },
   {
     "lang": "en",
@@ -429,7 +429,7 @@
     "title": "Policy & Strategy",
     "sub": "Policy & Strategy, what to change or build, and which option to pursue, and how. Metanomia report series.",
     "meta": "",
-    "url": "/series/policy-strategy.html"
+    "url": "/series/policy-strategy"
   },
   {
     "lang": "ko",
@@ -437,7 +437,7 @@
     "title": "2026년, 이더리움은 어디로 가고 있는가",
     "sub": "월드컴퓨터를 둘러싼 압력과 세 가지 응답. 이더리움의 성공이 불러온 압력들과, 공동체가 내놓은 응답을 살펴봅니다.",
     "meta": "유주아 · 2026년 7월",
-    "url": "/articles/where-is-ethereum-going.ko.html"
+    "url": "/ko/articles/where-is-ethereum-going"
   },
   {
     "lang": "ko",
@@ -445,7 +445,7 @@
     "title": "게임으로 출근하는 사람들",
     "sub": "인공지능 과도기의 생존 전략과 메타버스의 미래",
     "meta": "손혜민, 석민국, 석대한 · 2026년 1월",
-    "url": "/articles/commuting-into-online-games.ko.html"
+    "url": "/ko/articles/commuting-into-online-games"
   },
   {
     "lang": "ko",
@@ -453,7 +453,7 @@
     "title": "기계가 결제하는 시대",
     "sub": "x402와 기계 경제의 결제 인프라 경쟁",
     "meta": "이지환, 손혜민 · 2026년 5월",
-    "url": "/articles/age-of-machine-payments.ko.html"
+    "url": "/ko/articles/age-of-machine-payments"
   },
   {
     "lang": "ko",
@@ -461,7 +461,7 @@
     "title": "비트코인은 양자컴퓨팅 시대에도살아남을 수 있는가",
     "sub": "양자 위협과 비트코인 보안의 진화",
     "meta": "김연경, 손혜민 · 2026년 5월",
-    "url": "/articles/bitcoin-quantum-computing.ko.html"
+    "url": "/ko/articles/bitcoin-quantum-computing"
   },
   {
     "lang": "ko",
@@ -469,7 +469,7 @@
     "title": "저항의 화폐는 어떻게 선택되는가",
     "sub": "권력과의 거리를 조절하는 다섯 가지 기준. 어떤 화폐가 누구에게 어떤 조건에서 저항의 수단이 되는지를 사례로 따라갑니다.",
     "meta": "이창준 · 2026년 7월",
-    "url": "/articles/how-resistance-money-is-chosen.ko.html"
+    "url": "/ko/articles/how-resistance-money-is-chosen"
   },
   {
     "lang": "ko",
@@ -477,7 +477,7 @@
     "title": "추적 가능한 화폐",
     "sub": "블록체인 분석 기술과 크립토 제도화의 조건. 공개 장부가 프라이버시와 규제 준수, 그리고 제도권 편입의 경로를 어떻게 다시 그리는지 살펴봅니다.",
     "meta": "박상현 · 2026년 6월",
-    "url": "/articles/traceable-money.ko.html"
+    "url": "/ko/articles/traceable-money"
   },
   {
     "lang": "ko",
@@ -485,7 +485,7 @@
     "title": "토큰화, 강남 아파트 소유하기",
     "sub": "부동산 소유로 가는 새로운 길",
     "meta": "박수훈 · 2026년 4월",
-    "url": "/articles/tokenizing-gangnam-apartments.ko.html"
+    "url": "/ko/articles/tokenizing-gangnam-apartments"
   },
   {
     "lang": "ko",
@@ -493,7 +493,7 @@
     "title": "토큰화와 관심경제",
     "sub": "자산의 미디어화가 이끄는 가치 평가 문법의 전환",
     "meta": "진성훈 · 2026년 3월",
-    "url": "/articles/tokenization-attention-economy.ko.html"
+    "url": "/ko/articles/tokenization-attention-economy"
   },
   {
     "lang": "ko",
@@ -501,7 +501,7 @@
     "title": "김상환",
     "sub": "",
     "meta": "연구원 · 메타노미아",
-    "url": "/people/sanghwan-kim.ko.html"
+    "url": "/ko/people/sanghwan-kim"
   },
   {
     "lang": "ko",
@@ -509,7 +509,7 @@
     "title": "김세린",
     "sub": "",
     "meta": "연구원 · 메타노미아",
-    "url": "/people/serin-kim.ko.html"
+    "url": "/ko/people/serin-kim"
   },
   {
     "lang": "ko",
@@ -517,7 +517,7 @@
     "title": "김연경",
     "sub": "",
     "meta": "연구원 · 메타노미아",
-    "url": "/people/yonkyung-kim.ko.html"
+    "url": "/ko/people/yonkyung-kim"
   },
   {
     "lang": "ko",
@@ -525,7 +525,7 @@
     "title": "김유정",
     "sub": "",
     "meta": "연구원 · 메타노미아",
-    "url": "/people/yujeong-kim.ko.html"
+    "url": "/ko/people/yujeong-kim"
   },
   {
     "lang": "ko",
@@ -533,7 +533,7 @@
     "title": "김은미",
     "sub": "",
     "meta": "연구원 · 메타노미아",
-    "url": "/people/eunmi-kim.ko.html"
+    "url": "/ko/people/eunmi-kim"
   },
   {
     "lang": "ko",
@@ -541,7 +541,7 @@
     "title": "노성준",
     "sub": "",
     "meta": "연구원 · 메타노미아",
-    "url": "/people/seongjun-noh.ko.html"
+    "url": "/ko/people/seongjun-noh"
   },
   {
     "lang": "ko",
@@ -549,7 +549,7 @@
     "title": "류제우",
     "sub": "",
     "meta": "연구원 · 메타노미아",
-    "url": "/people/jewoo-ryu.ko.html"
+    "url": "/ko/people/jewoo-ryu"
   },
   {
     "lang": "ko",
@@ -557,7 +557,7 @@
     "title": "박민구",
     "sub": "",
     "meta": "연구원 · 메타노미아",
-    "url": "/people/mingu-park.ko.html"
+    "url": "/ko/people/mingu-park"
   },
   {
     "lang": "ko",
@@ -565,7 +565,7 @@
     "title": "박보영",
     "sub": "",
     "meta": "연구원 · 메타노미아",
-    "url": "/people/boyoung-park.ko.html"
+    "url": "/ko/people/boyoung-park"
   },
   {
     "lang": "ko",
@@ -573,7 +573,7 @@
     "title": "박상현",
     "sub": "",
     "meta": "편집위원 · 연구원 · 메타노미아",
-    "url": "/people/sanghyeon-park.ko.html"
+    "url": "/ko/people/sanghyeon-park"
   },
   {
     "lang": "ko",
@@ -581,7 +581,7 @@
     "title": "박선협",
     "sub": "",
     "meta": "연구원 · 메타노미아",
-    "url": "/people/seonhyeop-park.ko.html"
+    "url": "/ko/people/seonhyeop-park"
   },
   {
     "lang": "ko",
@@ -589,7 +589,7 @@
     "title": "박수훈",
     "sub": "",
     "meta": "연구원 · 메타노미아",
-    "url": "/people/suhoon-park.ko.html"
+    "url": "/ko/people/suhoon-park"
   },
   {
     "lang": "ko",
@@ -597,7 +597,7 @@
     "title": "박시우",
     "sub": "",
     "meta": "연구원 · 메타노미아",
-    "url": "/people/siwoo-park.ko.html"
+    "url": "/ko/people/siwoo-park"
   },
   {
     "lang": "ko",
@@ -605,7 +605,7 @@
     "title": "석대한",
     "sub": "",
     "meta": "연구원 · 메타노미아",
-    "url": "/people/daehan-seok.ko.html"
+    "url": "/ko/people/daehan-seok"
   },
   {
     "lang": "ko",
@@ -613,7 +613,7 @@
     "title": "석민국",
     "sub": "",
     "meta": "연구원 · 메타노미아",
-    "url": "/people/minguk-seok.ko.html"
+    "url": "/ko/people/minguk-seok"
   },
   {
     "lang": "ko",
@@ -621,7 +621,7 @@
     "title": "손혜민",
     "sub": "",
     "meta": "총괄 매니저 · 편집위원 · 연구원 · 메타노미아",
-    "url": "/people/hyemin-son.ko.html"
+    "url": "/ko/people/hyemin-son"
   },
   {
     "lang": "ko",
@@ -629,7 +629,7 @@
     "title": "오태민",
     "sub": "",
     "meta": "연구책임자 · 메타노미아",
-    "url": "/people/taemin-oh.ko.html"
+    "url": "/ko/people/taemin-oh"
   },
   {
     "lang": "ko",
@@ -637,7 +637,7 @@
     "title": "유주아",
     "sub": "",
     "meta": "연구원 · 메타노미아",
-    "url": "/people/zooa-yoo.ko.html"
+    "url": "/ko/people/zooa-yoo"
   },
   {
     "lang": "ko",
@@ -645,7 +645,7 @@
     "title": "윤성아",
     "sub": "",
     "meta": "디자이너 · 메타노미아",
-    "url": "/people/sungah-yoon.ko.html"
+    "url": "/ko/people/sungah-yoon"
   },
   {
     "lang": "ko",
@@ -653,7 +653,7 @@
     "title": "이정은",
     "sub": "",
     "meta": "연구원 · 메타노미아",
-    "url": "/people/jungeun-lee.ko.html"
+    "url": "/ko/people/jungeun-lee"
   },
   {
     "lang": "ko",
@@ -661,7 +661,7 @@
     "title": "이지환",
     "sub": "",
     "meta": "연구원 · 메타노미아",
-    "url": "/people/jeehwan-lee.ko.html"
+    "url": "/ko/people/jeehwan-lee"
   },
   {
     "lang": "ko",
@@ -669,7 +669,7 @@
     "title": "이창준",
     "sub": "",
     "meta": "연구원 · 메타노미아",
-    "url": "/people/changjun-lee.ko.html"
+    "url": "/ko/people/changjun-lee"
   },
   {
     "lang": "ko",
@@ -677,7 +677,7 @@
     "title": "정두루",
     "sub": "",
     "meta": "운영 매니저 · 메타노미아",
-    "url": "/people/dooroo-chung.ko.html"
+    "url": "/ko/people/dooroo-chung"
   },
   {
     "lang": "ko",
@@ -685,7 +685,7 @@
     "title": "조세연",
     "sub": "",
     "meta": "연구원 · 메타노미아",
-    "url": "/people/seyeon-cho.ko.html"
+    "url": "/ko/people/seyeon-cho"
   },
   {
     "lang": "ko",
@@ -693,7 +693,7 @@
     "title": "조용래",
     "sub": "",
     "meta": "연구원 · 메타노미아",
-    "url": "/people/yongrae-cho.ko.html"
+    "url": "/ko/people/yongrae-cho"
   },
   {
     "lang": "ko",
@@ -701,7 +701,7 @@
     "title": "진성훈",
     "sub": "",
     "meta": "편집위원 · 연구원 · 메타노미아",
-    "url": "/people/sunghoon-jin.ko.html"
+    "url": "/ko/people/sunghoon-jin"
   },
   {
     "lang": "ko",
@@ -709,7 +709,7 @@
     "title": "진승주",
     "sub": "",
     "meta": "연구원 · 메타노미아",
-    "url": "/people/seungju-jin.ko.html"
+    "url": "/ko/people/seungju-jin"
   },
   {
     "lang": "ko",
@@ -717,7 +717,7 @@
     "title": "한상준",
     "sub": "",
     "meta": "영문 번역가 · 메타노미아",
-    "url": "/people/sangjun-han.ko.html"
+    "url": "/ko/people/sangjun-han"
   },
   {
     "lang": "ko",
@@ -725,7 +725,7 @@
     "title": "FINDINGS | 규명",
     "sub": "FINDINGS는 자료와 사례를 바탕으로 현상이 작동하는 구조와 메커니즘을 규명하고, 근거가 지지하는 결론과 그 한계를 제시합니다.",
     "meta": "",
-    "url": "/series/research.ko.html"
+    "url": "/ko/series/research"
   },
   {
     "lang": "ko",
@@ -733,7 +733,7 @@
     "title": "GUIDE | 가이드",
     "sub": "GUIDE는 복잡한 판단과 절차를 실행 모델로 정리하고, 단계별 절차와 위험 통제 및 복구 방법을 제시합니다.",
     "meta": "",
-    "url": "/series/guide.ko.html"
+    "url": "/ko/series/guide"
   },
   {
     "lang": "ko",
@@ -741,7 +741,7 @@
     "title": "OUTLOOK | 전망",
     "sub": "OUTLOOK은 변화의 신호와 동인을 분석해 가장 개연성 높은 방향과 주시할 선행지표를 제시합니다.",
     "meta": "",
-    "url": "/series/outlook.ko.html"
+    "url": "/ko/series/outlook"
   },
   {
     "lang": "ko",
@@ -749,7 +749,7 @@
     "title": "PERSPECTIVES | 관점",
     "sub": "PERSPECTIVES는 기존 설명이 놓친 문제를 드러내고, 현상을 새롭게 이해할 개념과 해석의 틀을 제안합니다.",
     "meta": "",
-    "url": "/series/perspectives.ko.html"
+    "url": "/ko/series/perspectives"
   },
   {
     "lang": "ko",
@@ -757,7 +757,7 @@
     "title": "POLICY & STRATEGY | 정책 · 전략",
     "sub": "POLICY & STRATEGY는 제도와 산업이 마주한 선택지를 비교하고, 실행 가능한 권고안과 추진 경로를 제시합니다.",
     "meta": "",
-    "url": "/series/policy-strategy.ko.html"
+    "url": "/ko/series/policy-strategy"
   },
   {
     "lang": "ko",
@@ -765,7 +765,7 @@
     "title": "개인정보 처리방침",
     "sub": "메타노미아 개인정보 처리방침. 이메일 알림 신청 과정에서 수집하는 정보와 처리 방식을 안내합니다.",
     "meta": "",
-    "url": "/privacy.ko.html"
+    "url": "/ko/privacy"
   },
   {
     "lang": "ko",
@@ -773,7 +773,7 @@
     "title": "구성원",
     "sub": "메타노미아의 연구와 운영에 참여하는 구성원",
     "meta": "",
-    "url": "/members.ko.html"
+    "url": "/ko/members"
   },
   {
     "lang": "ko",
@@ -781,7 +781,7 @@
     "title": "메타노미아 소개",
     "sub": "메타노미아는 화폐 · 금융 질서와 크립토 생태계의 변화를 탐구하는 연구 공동체입니다.",
     "meta": "",
-    "url": "/about.ko.html"
+    "url": "/ko/about"
   },
   {
     "lang": "ko",
@@ -789,7 +789,7 @@
     "title": "문의하기",
     "sub": "메타노미아 문의처: 연구 문의, 미디어 요청, 파트너십.",
     "meta": "",
-    "url": "/contact.ko.html"
+    "url": "/ko/contact"
   },
   {
     "lang": "ko",
@@ -797,7 +797,7 @@
     "title": "보고서",
     "sub": "메타노미아가 발행한 모든 보고서를 확인하세요.",
     "meta": "",
-    "url": "/publications.ko.html"
+    "url": "/ko/publications"
   },
   {
     "lang": "ko",
@@ -805,7 +805,7 @@
     "title": "영상",
     "sub": "메타노미아의 영상 프로그램과 유튜브 콘텐츠를 소개합니다.",
     "meta": "",
-    "url": "/media.ko.html"
+    "url": "/ko/media"
   },
   {
     "lang": "ko",
@@ -813,7 +813,7 @@
     "title": "이번 주 크립토",
     "sub": "위클리 크립토 뉴스 ‘이번 주 크립토’ 프로그램을 소개합니다.",
     "meta": "",
-    "url": "/media/weekly-crypto.ko.html"
+    "url": "/ko/media/weekly-crypto"
   },
   {
     "lang": "ko",
@@ -821,7 +821,7 @@
     "title": "이용약관",
     "sub": "메타노미아 웹사이트와 공개 콘텐츠의 이용 조건을 안내합니다.",
     "meta": "",
-    "url": "/terms.ko.html"
+    "url": "/ko/terms"
   },
   {
     "lang": "ko",
@@ -829,7 +829,7 @@
     "title": "저자에게 묻다",
     "sub": "연구원 인터뷰 ‘저자에게 묻다’ 프로그램을 소개합니다.",
     "meta": "",
-    "url": "/media/ask-the-author.ko.html"
+    "url": "/ko/media/ask-the-author"
   },
   {
     "lang": "ko",
@@ -837,7 +837,7 @@
     "title": "책으로 읽는 크립토",
     "sub": "북토크 ‘책으로 읽는 크립토’ 프로그램을 소개합니다.",
     "meta": "",
-    "url": "/media/reading-crypto.ko.html"
+    "url": "/ko/media/reading-crypto"
   },
   {
     "lang": "ko",
@@ -845,7 +845,7 @@
     "title": "크립토 과외",
     "sub": "크립토 핵심 개념 교육 ‘크립토 과외’ 프로그램을 소개합니다.",
     "meta": "",
-    "url": "/media/crypto-tutoring.ko.html"
+    "url": "/ko/media/crypto-tutoring"
   },
   {
     "lang": "ko",
@@ -853,7 +853,7 @@
     "title": "크립토 뉴스",
     "sub": "화폐·금융·크립토의 변화를 메타노미아의 관점으로 읽는 크립토 뉴스.",
     "meta": "",
-    "url": "/crypto-news.ko.html"
+    "url": "/ko/crypto-news"
   },
   {
     "lang": "ko",
@@ -861,6 +861,6 @@
     "title": "크립토 쟁점",
     "sub": "주제 토론 ‘크립토 쟁점’ 프로그램을 소개합니다.",
     "meta": "",
-    "url": "/media/crypto-issues.ko.html"
+    "url": "/ko/media/crypto-issues"
   }
 ]

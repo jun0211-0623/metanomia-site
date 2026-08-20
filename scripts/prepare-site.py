@@ -61,7 +61,7 @@ def add_home_schema(text: str, lang: str) -> str:
             {
                 "@type": "WebSite",
                 "@id": SITE + "/#website",
-                "url": SITE + "/" + ("ko.html" if lang == "ko" else ""),
+                "url": SITE + ("/ko" if lang == "ko" else "/"),
                 "name": name,
                 "description": description,
                 "publisher": {"@id": SITE + "/#organization"},
@@ -90,8 +90,11 @@ def add_article_schema(text: str, path: Path, lang: str) -> str:
         return text
     image_url = ""
     if image_match:
-        image_url = (path.parent / image_match.group(1)).resolve().relative_to(ROOT).as_posix()
-        image_url = SITE + "/" + image_url
+        source = image_match.group(1)
+        if source.startswith("/"):
+            image_url = SITE + source
+        else:
+            image_url = SITE + "/" + (path.parent / source).resolve().relative_to(ROOT).as_posix()
     payload: dict[str, object] = {
         "@context": "https://schema.org",
         "@type": "Article",
@@ -117,8 +120,8 @@ def process(path: Path) -> bool:
     text = path.read_text(encoding="utf-8")
     original = text
     lang_match = re.search(r'<html[^>]+lang="([^"]+)"', text, re.I)
-    lang = lang_match.group(1).lower() if lang_match else ("ko" if path.name.endswith(".ko.html") else "en")
-    is_home = path.name in {"index.html", "ko.html"} and path.parent == ROOT
+    lang = lang_match.group(1).lower() if lang_match else ("ko" if "ko" in path.relative_to(ROOT).parts else "en")
+    is_home = path.name == "index.html" and path.parent in {ROOT, ROOT / "ko"}
 
     if 'name="theme-color"' not in text:
         text = text.replace('<meta charset="UTF-8" />', '<meta charset="UTF-8" />\n  <meta name="theme-color" content="#000000" />', 1)
@@ -167,7 +170,7 @@ def process(path: Path) -> bool:
             text = text.replace("<body>", f'<body>\n  <a class="skip-link" href="#main-content">{label}</a>', 1)
 
     text = add_image_hints(text, is_home)
-    if path.parent == ROOT / "articles":
+    if path.parent in {ROOT / "articles", ROOT / "ko" / "articles"}:
         text = add_article_schema(text, path, lang)
 
     if text != original:
