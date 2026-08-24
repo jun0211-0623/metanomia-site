@@ -131,7 +131,7 @@ def detail_main(item: dict, items: list[dict], index: int, lang: str) -> str:
   </main>'''
 
 
-def set_meta(page: str, item: dict, lang: str, counterpart_url: str) -> str:
+def set_meta(page: str, item: dict, lang: str, counterpart_url: str, has_counterpart: bool) -> str:
     canonical = SITE + static_url(item, lang)
     title_suffix = " | 메타노미아 크립토 뉴스" if lang == "ko" else " | Metanomia Crypto News"
     page_title = clean(item["title"]) + title_suffix
@@ -154,11 +154,19 @@ def set_meta(page: str, item: dict, lang: str, counterpart_url: str) -> str:
     for pattern, replacement in replacements:
         page = re.sub(pattern, replacement, page, count=1, flags=re.S)
 
-    language_links = (
-        '  <link rel="alternate" hreflang="ko" href="' + (canonical if lang == "ko" else counterpart_absolute) + '" />\n'
-        '  <link rel="alternate" hreflang="en" href="' + (canonical if lang == "en" else counterpart_absolute) + '" />\n'
-        '  <link rel="alternate" hreflang="x-default" href="' + (canonical if lang == "en" else counterpart_absolute) + '" />\n'
-    )
+    if has_counterpart:
+        language_links = (
+            '  <link rel="alternate" hreflang="ko" href="' + (canonical if lang == "ko" else counterpart_absolute) + '" />\n'
+            '  <link rel="alternate" hreflang="en" href="' + (canonical if lang == "en" else counterpart_absolute) + '" />\n'
+            '  <link rel="alternate" hreflang="x-default" href="' + (canonical if lang == "en" else counterpart_absolute) + '" />\n'
+        )
+    else:
+        # The other language has not been translated yet. Claiming an alternate
+        # that does not exist is worse than claiming none.
+        language_links = (
+            '  <link rel="alternate" hreflang="' + lang + '" href="' + canonical + '" />\n'
+            '  <link rel="alternate" hreflang="x-default" href="' + canonical + '" />\n'
+        )
     page = page.replace('  <link rel="icon" href="/favicon.svg"', language_links + '  <link rel="icon" href="/favicon.svg"', 1)
 
     schema = {
@@ -200,8 +208,13 @@ def build_language(lang: str) -> list[tuple[str, str]]:
 
     for index, item in enumerate(items):
         counterpart_item = counterpart_by_slug.get(clean(item["slug"]))
-        counterpart_url = static_url(counterpart_item or item, "en" if is_ko else "ko")
-        page = set_meta(base, item, lang, counterpart_url)
+        # Until the other language is translated its article does not exist, so
+        # the switcher points at that language's news index instead of a 404.
+        if counterpart_item:
+            counterpart_url = static_url(counterpart_item, "en" if is_ko else "ko")
+        else:
+            counterpart_url = "/crypto-news" if is_ko else "/ko/crypto-news"
+        page = set_meta(base, item, lang, counterpart_url, counterpart_item is not None)
         page, replaced = re.subn(
             r'<main class="crypto-news-article"[^>]*>[\s\S]*?</main>',
             detail_main(item, items, index, lang),
