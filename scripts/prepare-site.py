@@ -160,6 +160,12 @@ def process(path: Path) -> bool:
     target_match = re.search(r'<main\b([^>]*)>', text, re.I)
     if not target_match:
         target_match = re.search(r'<article\b([^>]*)>', text, re.I)
+    if not target_match and "</header>" in text and "<footer" in text:
+        # Section-built pages carry no landmark of their own, so the skip link had
+        # nowhere to land. Wrap what sits between the nav and the footer.
+        text = text.replace("</header>", '</header>\n\n  <main id="main-content">', 1)
+        text = text.replace("<footer", "  </main>\n\n  <footer", 1)
+        target_match = re.search(r'<main\b([^>]*)>', text, re.I)
     if target_match:
         tag = target_match.group(0)
         if not re.search(r'\bid=', tag, re.I):
