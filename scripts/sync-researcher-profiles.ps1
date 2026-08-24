@@ -10,7 +10,7 @@ $profiles = @(
   @{ Name='김상환'; Slug='sanghwan-kim'; Email='kimsanghwan99@gmail.com' },
   @{ Name='김세린'; Slug='serin-kim'; Email='rene426@naver.com' },
   @{ Name='김연경'; Slug='yonkyung-kim'; Email='pola031316@gmail.com' },
-  @{ Name='김유정'; Slug='yujeong-kim'; Email='Liuting1004@gmail.com' },
+  @{ Name='김유정'; Slug='yujeong-kim'; Email='liuting1004@gmail.com' },
   @{ Name='김은미'; Slug='eunmi-kim'; Email='kimem1level@gmail.com' },
   @{ Name='노성준'; Slug='seongjun-noh'; Email='noeeo111@gmail.com' },
   @{ Name='류제우'; Slug='jewoo-ryu'; Email='jw.orbit1@gmail.com'; EducationKo=@('한양대학교 비트코인화폐철학과 석사과정'); EducationEn=@('M.A. candidate, Department of Bitcoin Monetary Philosophy, Hanyang University') },
