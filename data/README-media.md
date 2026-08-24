@@ -1,11 +1,24 @@
 # Media YouTube connection
 
-The site currently shows a preparation message because all IDs in `data/media-videos.ko.json` and `data/media-videos.en.json` are blank.
+`channelId` is set in both `data/media-videos.ko.json` and `data/media-videos.en.json`
+and points at the Metanomia channel (`UCpx2b9zuLWHvtiSit8jwVIg`). Every
+`programs.*.playlistId` is still blank, which is what the two feeds do differently:
 
-When the channel launches:
+- **All Videos** (`/media`, `/ko/media`) falls back to the channel feed when no
+  playlist is set, so uploads appear there without any further configuration.
+- **Individual program pages** (`/media/weekly-crypto` and the rest) have no
+  fallback. Each one keeps showing its preparation message until that program's
+  `playlistId` is filled in.
 
-1. Put the YouTube channel ID in `channelId` for the All Videos feed.
-2. Create one public YouTube playlist per program and put each playlist ID in the matching `programs` entry.
-3. Use the same IDs in both language files; keep translated `type` values in each file.
+To finish the connection:
 
-The `/api/youtube-feed` endpoint reads YouTube's public RSS feeds without an API key. New uploads then appear automatically after the deployment cache refreshes (normally within 15 minutes). The optional `items` array can still be used for manually curated videos.
+1. Create one public YouTube playlist per program.
+2. Copy each playlist ID (the `list=` value in the playlist URL, starting with `PL`)
+   into the matching `programs` entry.
+3. Use the same IDs in both language files; keep translated `type` and `name`
+   values in each file.
+
+The `/api/youtube-feed` endpoint reads YouTube's public RSS feeds without an API
+key, so no credentials or quota apply. New uploads appear once the deployment
+cache refreshes, normally within 15 minutes. The optional `items` array can still
+be used for manually curated videos.
