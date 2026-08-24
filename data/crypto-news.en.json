@@ -1,7 +1,32 @@
 {
   "schema_version": "1.0",
-  "generated_at_kst": "2026-08-21T08:34:00+09:00",
+  "generated_at_kst": "2026-08-24T09:47:00+09:00",
   "items": [
+    {
+      "slug": "2026-08-24-crypto-news-f2878d123e",
+      "date_kst": "2026-08-24",
+      "title": "Solana Shortens Its Slot Time for the First Time Since Launch: From 400ms to 350ms",
+      "content": "The Solana mainnet applied an upgrade beginning with epoch 1020 on August 21 local time that lowers the target block production interval, or \"slot time,\" from 400 milliseconds (ms) to 350 milliseconds (a slot is a short window in which a designated validator can gather transactions and produce a block, and an epoch is a network operating cycle made up of 432,000 slots). This is the first time slot time has been reduced since the adjustment from 800 milliseconds to 400 milliseconds in the network's early days. The Block reported on August 22 local time that the time taken for 1,000 slots fell from 415 seconds to 368 seconds before and after the change, respectively. The move is the first of four stages, 350, 300, 250 and 200 milliseconds, set out in Solana improvement proposal SIMD-0525, with each stage taking effect one epoch after its feature gate is activated. Shorter slots reduce transaction confirmation times, but they do not automatically increase throughput per second. The 100 million compute unit per block limit, in effect since epoch 1009 on July 29 local time, was adjusted to 87.5 million at this stage. The limit on \"shreds,\" the propagation fragments that distribute block data to validators, was lowered by the same proportion. The adjustment is intended to keep the per-second execution and propagation budget broadly unchanged even as blocks are produced more frequently. The expected length of an epoch shortens from about 48 hours to 42 hours, but the basis for reward calculation changes along with it, so the amount of SOL issued over the same amount of real time remains in line with the existing inflation schedule. The stretch during which a single validator holds four consecutive slots falls from 1.6 seconds to 1.4 seconds, shortening the continuous window in which transactions can be delayed or reordered. No date has been set for the next target of 300 milliseconds, and developers plan to observe network performance at the current stage before proceeding with further reductions.",
+      "metanomia_thought": "Faster block production reduces how long users wait for confirmation. Because the protocol also lowered the per-slot compute limit and the shred limit, this is not a change that increases a validator's workload per slot. That said, as block propagation and voting cycles grow tighter and the tolerance for latency narrows, validators with poor network connections or greater geographic distance may see more missed blocks and wider gaps in rewards, which could concentrate validation stake further among a high-performing few. On the other hand, the continuous window in which a single validator can delay or reorder transactions shrinks. Domestic on-chain services and infrastructure operators that use Solana should therefore examine not only confirmation speed but also changes in block miss rates, validator concentration, and control over transaction ordering.",
+      "sources": [
+        {
+          "title": "Reduce Slot Times",
+          "url": "https://github.com/solana-foundation/solana-improvement-documents/blob/main/proposals/0525-reduce-slot-times.md"
+        },
+        {
+          "title": "Reduced Slot Times",
+          "url": "https://solana.com/upgrades/reduced-slot-times"
+        },
+        {
+          "title": "Solana cuts mainnet slot time to 350 milliseconds in first step toward 200ms goal",
+          "url": "https://www.theblock.co/news/ecosystems/2026-08-22-solana-cuts-mainnet-slot-time-to-350-milliseconds-in-first-step-toward-200ms-goal-412521"
+        },
+        {
+          "title": "Solana Cuts Slot Time to 350ms at Epoch 1020, First Reduction Since Network Launch",
+          "url": "https://solanacompass.com/news/solana-cuts-slot-time-to-350ms-at-epoch-1020-first-reduction-since-network-launch"
+        }
+      ]
+    },
     {
       "slug": "2026-08-21-crypto-news-402a3c1250",
       "date_kst": "2026-08-21",
