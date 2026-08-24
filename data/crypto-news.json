@@ -1,7 +1,33 @@
 {
   "schema_version": "1.0",
-  "generated_at_kst": "2026-08-21T08:34:00+09:00",
+  "generated_at_kst": "2026-08-24T09:47:00+09:00",
   "items": [
+    {
+      "id": "crypto-news-f2878d123e2a02a3",
+      "slug": "2026-08-24-crypto-news-f2878d123e",
+      "date_kst": "2026-08-24",
+      "title": "솔라나, 출범 이후 처음으로 슬롯 시간 단축…400ms에서 350ms로",
+      "content": "솔라나 메인넷이 현지시간 8월 21일 에폭 1020부터 블록 생성 목표 간격인 ‘슬롯 시간’을 400밀리초(ms)에서 350밀리초로 낮추는 업그레이드를 적용했다(슬롯은 지정된 검증자가 거래를 모아 블록을 만들 수 있는 짧은 시간 구간이고, 에폭은 432,000개 슬롯을 묶은 네트워크 운영 주기다). 출범 초기 800밀리초에서 400밀리초로 조정한 뒤 슬롯 시간이 줄어든 것은 이번이 처음이다. 더블록은 변경 전후 각각 1,000개 슬롯의 소요 시간이 415초에서 368초로 줄었다고 현지시간 8월 22일 보도했다. 이번 조치는 솔라나 개선 제안 SIMD-0525가 정한 350·300·250·200밀리초의 네 단계 중 첫 번째이며, 각 단계는 기능 게이트가 활성화된 뒤 한 에폭 후부터 적용된다. 슬롯이 짧아지면 거래 확인 시간은 줄지만 초당 처리량이 자동으로 늘어나는 것은 아니다. 현지시간 7월 29일 에폭 1009부터 적용된 블록당 1억 컴퓨트 유닛 한도는 이번 단계에서 8,750만으로 조정됐다. 블록 데이터를 검증자들에게 나눠 보내는 전파 조각인 ‘슈레드(shred)’의 한도도 같은 비율로 낮췄다. 블록이 더 자주 만들어져도 초당 실행·전파 예산을 대체로 유지하려는 조정이다. 한 에폭의 예상 길이는 약 48시간에서 42시간으로 짧아지지만, 보상 계산 기준도 함께 바뀌어 같은 실제 시간 동안 발행되는 SOL의 양은 기존 인플레이션 일정대로 유지된다. 한 검증자가 네 슬롯을 연속 담당하는 시간은 1.6초에서 1.4초로 짧아져 거래를 지연하거나 순서를 바꿀 수 있는 연속 시간도 줄어든다. 다음 목표인 300밀리초의 적용일은 정해지지 않았으며, 개발자들은 현재 단계의 네트워크 성능을 지켜본 뒤 추가 단축에 나설 계획이다.",
+      "metanomia_thought": "빠른 블록 생성은 이용자의 확인 대기 시간을 줄입니다. 프로토콜이 슬롯당 연산량과 슈레드 한도를 함께 낮췄으므로 검증자의 슬롯당 작업량이 늘어나는 변화는 아닙니다. 다만 블록 전파와 투표 주기가 촘촘해져 지연 허용 폭이 줄면, 회선 환경이 불리하거나 지리적으로 먼 검증자의 블록 누락과 보상 격차가 커져 검증 지분이 성능 좋은 소수에게 더 몰릴 수 있습니다. 반면 한 검증자가 거래를 지연하거나 재정렬할 수 있는 연속 시간은 줄어듭니다. 따라서 솔라나를 활용하는 국내 온체인 서비스와 인프라 사업자는 확인 속도뿐 아니라 블록 누락률, 검증자 집중도, 거래 순서 통제의 변화도 함께 살펴야 합니다.",
+      "sources": [
+        {
+          "title": "Reduce Slot Times",
+          "url": "https://github.com/solana-foundation/solana-improvement-documents/blob/main/proposals/0525-reduce-slot-times.md"
+        },
+        {
+          "title": "Reduced Slot Times",
+          "url": "https://solana.com/upgrades/reduced-slot-times"
+        },
+        {
+          "title": "Solana cuts mainnet slot time to 350 milliseconds in first step toward 200ms goal",
+          "url": "https://www.theblock.co/news/ecosystems/2026-08-22-solana-cuts-mainnet-slot-time-to-350-milliseconds-in-first-step-toward-200ms-goal-412521"
+        },
+        {
+          "title": "Solana Cuts Slot Time to 350ms at Epoch 1020, First Reduction Since Network Launch",
+          "url": "https://solanacompass.com/news/solana-cuts-slot-time-to-350ms-at-epoch-1020-first-reduction-since-network-launch"
+        }
+      ]
+    },
     {
       "id": "crypto-news-402a3c12504f2389",
       "slug": "2026-08-21-crypto-news-402a3c1250",
