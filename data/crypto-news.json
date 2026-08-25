@@ -1,7 +1,89 @@
 {
   "schema_version": "1.0",
-  "generated_at_kst": "2026-08-24T09:47:00+09:00",
+  "generated_at_kst": "2026-08-25T09:58:00+09:00",
   "items": [
+    {
+      "id": "crypto-news-c077f024af7e499b",
+      "slug": "2026-08-25-crypto-news-c077f024af",
+      "date_kst": "2026-08-25",
+      "title": "미 재무부, 이란 제재에 '디지털자산' 부문 지정…5개 부문 동시 결정",
+      "content": "미국 재무부가 현지시간 8월 24일 이란의 디지털자산 부문을 기술·금·항공·해운과 함께 새로운 제재 대상 부문으로 지정했다. 재무부는 다섯 개 부문을 한꺼번에 결정한 것은 전례가 없다고 밝혔다. 행정명령 13902호에 따른 이번 결정으로 미국 재무부는 소재지와 무관하게 해당 부문에서 활동하거나 그 운영을 지원하는 서비스를 제공하는 개인·법인을 제재할 수 있게 됐다. 해당 부문과 관련해 쓰이는 중요한 재화·서비스를 이란에 판매·공급·이전하거나 이란에서 들여오는 중대한 거래에 관여한 개인·법인도 제재 대상이 될 수 있다. 재무부는 이 조치를 '경제적 추방 작전(Operation Economic Outcast)'의 일부로 발표하면서 개인·법인·선박 등 60개에 가까운 대상을 동시에 제재 대상에 올렸다. 공식 자료는 아랍에미리트에 기반을 둔 우크라이나 국적 이반 오부호프(Ivan Obukhov)가 이란 그림자 선단 선박의 브로커로 활동하며 2023년부터 이란 혁명수비대 쿠드스군(Quds Force)을 대신한 석유 판매를 돕기 위해 1억달러가 넘는 암호화폐 결제를 처리했다고 밝혔다. 디지털자산 탈취에 주력해 온 아르만 카자디안(Arman Kahzadian)은 2023년 여름 3만달러가 넘는 비트코인이 든 지갑을 불법으로 장악한 사례로 적시됐다. 지정된 대상의 재산과 재산상 이익은 미국 내에 있거나 미국인이 보유·통제하는 경우 동결되고, 지정자가 직간접으로 지분 50% 이상을 보유한 법인에도 같은 규칙이 적용된다. 비미국 금융기관도 해당 부문과 관련된 중요한 재화·서비스 거래를 위한 금융거래나 지정된 대상을 위한 중대한 거래를 알면서 수행하거나 돕는 경우 2차 제재 위험에 노출될 수 있다. 이 경우 비미국 금융기관이 미국 은행에 두고 달러 결제·송금을 처리하는 코레스폰던트 계좌(환거래 계좌)를 새로 개설하거나 유지하는 일이 금지되거나 엄격히 제한될 수 있다. 다만 이번 결정은 이란과 관련된 모든 암호화폐 거래를 자동으로 금지한 규정은 아니며, 실제 적용은 부문 활동·지원 여부와 개별 지정에 달려 있다.",
+      "metanomia_thought": "이번 조치는 특정 지갑 주소를 제재 목록에 올리는 데서 나아가, 디지털자산 부문에서 활동하거나 이를 지원하는 행위까지 제재 판단의 범위를 넓혔습니다. 공개 원장의 추적 정보는 거래소·수탁사·은행이 계좌 동결과 거래 거부를 결정할 때 비로소 금융망 차단 권한으로 작동하며, 미국 금융망과 연결된 한국 사업자도 이 구조 밖에 있지 않습니다. 주소와 거래의 연관성을 잘못 판단하면 합법적 거래까지 막힐 수 있으므로, 제재의 집행력만큼 판단 근거의 투명성과 이의제기 가능성도 중요합니다.",
+      "sources": [
+        {
+          "title": "Treasury Launches Unprecedented Campaign Against Iranian Regime on Economic D-Day",
+          "url": "https://home.treasury.gov/news/press-releases/sb0613"
+        },
+        {
+          "title": "Trump's 'economic D-Day' threats become warnings for countries to sever financial ties with Iran",
+          "url": "https://apnews.com/article/e367634d8853c8fa4a341132cd577f31"
+        },
+        {
+          "title": "US escalates Iran pressure with sanctions on crypto, aviation, shipping and gold as part of 'economic D-Day'",
+          "url": "https://www.theblock.co/news/regulation/2026-08-24-us-escalates-iran-pressure-sanctions-crypto-aviation-shipping-gold-economic-d-day-412648"
+        },
+        {
+          "title": "U.S. targets digital assets, aviation, shipping, other areas for secondary sanctions on Iran",
+          "url": "https://en.yna.co.kr/view/AEN20260825000500315"
+        }
+      ]
+    },
+    {
+      "id": "crypto-news-bcc76f45480bd6a2",
+      "slug": "2026-08-25-crypto-news-bcc76f4548",
+      "date_kst": "2026-08-25",
+      "title": "코인베이스 토큰화 주식, 베이스(Base)에서 24시간 거래·디파이 담보로",
+      "content": "코인베이스(Coinbase)가 발행한 토큰화 미국 주식이 현지시간 8월 24일 이더리움(Ethereum) 거래를 더 낮은 비용으로 처리하는 레이어2 네트워크 베이스(Base)에서 출시됐다. 출시 당시 공개된 종목은 애플(Apple)·엔비디아(NVIDIA)·메타(Meta)·알파벳(Alphabet) 4종이다. 적격 미국 외 이용자는 자기수탁 지갑에 토큰을 보유한 채 전통 증시 영업시간과 무관하게 24시간 거래할 수 있다. 각 토큰은 규제 수탁기관이 보유한 실제 주식에 1대1로 뒷받침되고, 보유자는 기초 주식에 대한 직접적·선순위 청구권을 갖는다고 코인베이스는 설명했다. 기관 승인참여자(AP)가 실제 주식을 매입해 규제 브로커·수탁기관인 알파카(Alpaca)의 아부다비 글로벌마켓(Abu Dhabi Global Market·ADGM) 감독 아래 파산절연 수탁 구조에 넣으면 코인베이스가 이에 대응하는 토큰을 발행한다. 반대 방향의 1차 상환 절차도 고객확인(KYC)을 마친 기관 파트너와 승인참여자만 이용할 수 있으며, 코인베이스는 이를 상장지수펀드(ETF)·주식예탁증서(ADR)와 같은 발행·상환 모형이라고 설명했다. 일반 이용자는 유동성 풀에 담긴 자산의 비율을 수식에 넣어 가격을 정하는 자동화 시장조성자(AMM) 방식의 베이스 탈중앙거래소, 예컨대 에어로드롬(Aerodrome)에서 토큰을 사고팔 수 있다. 토큰은 이더리움 표준 ERC-20을 확장한 B20 규격으로 발행돼 기존 지갑·디파이 프로토콜과 호환되며, 발행 이후에는 별도 지갑 화이트리스트 지정이나 플랫폼 종속 없이 이전할 수 있다. 다만 코인베이스는 모든 전송에 상시 제재 심사를 적용하고 규제상 필요한 경우 지갑 단위로 자산을 동결하거나 압류할 수 있다고 밝혔다. 이 토큰화 주식은 에이브(Aave) 같은 디파이 대출시장에서 담보로 활용할 수 있다. 체인링크(Chainlink) 데이터피드는 기초 주가와 코인베이스가 제공하는 승수를 결합해 디파이 프로토콜이 담보 평가 등에 활용할 기준가격을 지속적으로 제공한다. 배당과 주식분할은 모두 온체인 승수 하나로 처리한다. 즉, 배당은 원천징수 세금과 수수료를 뺀 뒤 재투자된 것으로 승수에 반영되고, 분할 때는 블록체인에 기록된 토큰 개수를 바꾸지 않은 채 토큰 1개가 나타내는 주식 수량만 조정한다. 이 상품은 미국 증권법의 역외 발행 규정인 레귤레이션 S(Regulation S)에 따라 제공돼 미국 내 이용자와 일부 제한 지역 이용자는 이용할 수 없다.",
+      "metanomia_thought": "이 상품에는 별도 화이트리스트 없는 토큰 이전과 발행자의 제재 심사·동결 권한이 공존합니다. 공개체인으로 거래와 담보 활용은 넓어졌지만, 기초 주식의 수탁·종목 선정·발행·상환 권한까지 분산된 것은 아닙니다. 한국은 2026년 2월 공포된 개정 전자증권법·자본시장법을 2027년 2월 4일 시행할 예정이지만, 분산원장 요건은 물론 발행·공시, 장외거래중개업 인가, 투자한도, 결제 등 세부기준이 아직 마련 중입니다. 국내 제도가 이런 공개체인형 구조와 한국 투자자의 권리를 어디까지 인정할지가 다음 쟁점입니다.",
+      "sources": [
+        {
+          "title": "Stocks just got updated.",
+          "url": "https://blog.base.org/tokenized-stocks"
+        },
+        {
+          "title": "Coinbase Tokenize",
+          "url": "https://www.coinbase.com/en-au/tokenize"
+        },
+        {
+          "title": "민·관 합동 ｢토큰증권 협의체｣ 제2차회의 개최",
+          "url": "https://www.fsc.go.kr/no010101/86906"
+        },
+        {
+          "title": "Coinbase establishes its tokenization hub in Abu Dhabi, with Financial Services Permission from the Financial Services Regulatory Authority (FSRA)",
+          "url": "https://www.coinbase.com/blog/coinbase-establishes-its-tokenization-hub-in-abu-dhabi"
+        },
+        {
+          "title": "Coinbase tokenized stocks go live on Base with Chainlink price feeds",
+          "url": "https://www.tradingview.com/news/cointelegraph:f104eef70094b:0-coinbase-tokenized-stocks-go-live-on-base-with-chainlink-price-feeds/"
+        }
+      ]
+    },
+    {
+      "id": "crypto-news-3b7ef8e556d6e4fe",
+      "slug": "2026-08-25-crypto-news-3b7ef8e556",
+      "date_kst": "2026-08-25",
+      "title": "미 재무부, 금융권 양자대응 태스크포스 출범…디지털자산 위험도 별도 논의",
+      "content": "미국 재무부가 현지시간 8월 24일 포스트양자암호(Post-Quantum Cryptography·PQC) 전환을 준비할 민관 ‘양자대응 태스크포스(Quantum-Readiness Task Force)’를 출범시켰다. 지난 6월 22일 서명된 행정명령 14412호와 주요 7개국(G7) 사이버전문가그룹이 올해 1월 내놓은 금융권 포스트양자암호 전환 로드맵이 근거다. 포스트양자암호는 충분히 강한 양자컴퓨터가 등장해도 해독하기 어렵도록 설계된 암호 기술로, 기존 시스템과 데이터를 새 알고리즘으로 옮기는 준비가 필요하다. 태스크포스는 부문 정렬 및 전환, 제3자·공급업체 준비, 디지털자산·신기술 위험의 세 작업반으로 운영되며 정부 기관, 금융회사, 금융시장 인프라와 기술 공급자가 참여한다. 재무부는 핵심 의존성 파악, 필요할 때 알고리즘을 바꾸기 쉬운 ‘암호 민첩성’ 개선, 상호운용성 촉진, 운영복원력 강화와 이행 과제 해결을 활동 방향으로 제시했다. 디지털자산 작업반은 디지털자산과 신기술의 위험을 다루며, 독립 보도는 블록체인 네트워크가 거래 서명과 지갑 보안에 타원곡선암호를 널리 사용한다는 점을 이 작업반의 주요 배경으로 짚었다. 행정명령 14412호는 국가안보시스템을 제외한 연방기관의 고가치자산·고영향 시스템에 대해 암호키 설정은 2030년 12월 31일까지, 전자서명은 2031년 12월 31일까지 포스트양자암호로 전환하도록 하는 지침을 미국 예산관리국(OMB)이 내게 했다. 다만 이번 태스크포스 발표에는 일반 민간 금융회사에 적용되는 별도의 의무 전환 기한이나 채택할 알고리즘, 첫 지침 공개 일정이 담기지 않았다. 이번 조치는 규제 확정보다 정부와 업계가 공통 이행 경로와 우선순위를 만드는 출범 단계다.",
+      "metanomia_thought": "양자 위험은 컴퓨터가 완성되는 날 갑자기 시작되는 문제가 아니라, 오래된 암호와 공급업체 의존성을 지금부터 찾아 교체해야 하는 이행 문제입니다. 금융권은 블록체인만 따로 볼 수 없고 지갑·인증·결제망 전체의 암호 사용 현황과 전환 순서를 함께 관리해야 합니다. 국내 기관도 미국이 민간에 기한을 정해주기를 기다리기보다 암호 사용 현황과 교체 가능성, 과거에 수집된 암호문이 미래에 해독될 위험부터 점검할 필요가 있습니다.",
+      "sources": [
+        {
+          "title": "Treasury Announces the Quantum-Readiness Task Force",
+          "url": "https://home.treasury.gov/news/press-releases/sb0615"
+        },
+        {
+          "title": "Securing the Nation Against Advanced Cryptographic Attacks",
+          "url": "https://www.whitehouse.gov/presidential-actions/2026/06/securing-the-nation-against-advanced-cryptographic-attacks/"
+        },
+        {
+          "title": "G7 Cyber Expert Group Releases Roadmap for Coordinating the Transition to Post-Quantum Cryptography in the Financial Sector",
+          "url": "https://home.treasury.gov/news/press-releases/sb0355"
+        },
+        {
+          "title": "US Treasury launches quantum-readiness task force to protect financial systems",
+          "url": "https://cryptobriefing.com/us-treasury-quantum-readiness-task-force/"
+        }
+      ]
+    },
     {
       "id": "crypto-news-f2878d123e2a02a3",
       "slug": "2026-08-24-crypto-news-f2878d123e",
