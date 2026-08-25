@@ -1,7 +1,86 @@
 {
   "schema_version": "1.0",
-  "generated_at_kst": "2026-08-24T09:47:00+09:00",
+  "generated_at_kst": "2026-08-25T09:58:00+09:00",
   "items": [
+    {
+      "slug": "2026-08-25-crypto-news-c077f024af",
+      "date_kst": "2026-08-25",
+      "title": "US Treasury Designates 'Digital Assets' Sector Under Iran Sanctions: Five Sectors Determined Simultaneously",
+      "content": "On August 24 local time, the US Treasury designated Iran's digital assets sector as a new sanctionable sector alongside technology, gold, aviation, and shipping. The Treasury stated that determining five sectors at once is unprecedented. Under this determination pursuant to Executive Order 13902, the US Treasury can now sanction individuals and entities that operate in these sectors or provide services supporting their operation, regardless of location. Individuals and entities involved in significant transactions to sell, supply, or transfer to Iran, or to import from Iran, significant goods or services used in connection with these sectors may also become subject to sanctions. The Treasury announced this action as part of 'Operation Economic Outcast,' simultaneously adding close to 60 targets, including individuals, entities, and vessels, to the sanctions list. Official materials stated that Ivan Obukhov, a Ukrainian national based in the United Arab Emirates, acted as a broker for Iranian shadow fleet vessels and processed more than $100 million in cryptocurrency payments to help facilitate oil sales on behalf of the Islamic Revolutionary Guard Corps Quds Force from 2023. Arman Kahzadian, who has focused on digital asset theft, was cited for illegally taking control of a wallet containing more than $30,000 in bitcoin in the summer of 2023. Property and interests in property of designated targets are blocked if they are located in the United States or held or controlled by US persons, and the same rule applies to entities in which a designated person holds a 50% or greater interest, directly or indirectly. Non-US financial institutions may also be exposed to secondary sanctions risk if they knowingly conduct or facilitate financial transactions for trade in significant goods or services related to these sectors, or significant transactions for designated targets. In such cases, the opening or maintaining of correspondent accounts, the accounts non-US financial institutions hold at US banks to process dollar settlement and transfers, may be prohibited or strictly conditioned. That said, this determination is not a rule that automatically prohibits all cryptocurrency transactions related to Iran, and actual application depends on whether there is sector activity or support, and on individual designations.",
+      "metanomia_thought": "This action goes beyond adding specific wallet addresses to a sanctions list and widens the scope of sanctions judgment to include operating in, or supporting, the digital assets sector. Tracing information from public ledgers only functions as authority to cut off access to financial networks when exchanges, custodians, and banks decide to freeze accounts and refuse transactions, and Korean operators connected to US financial networks are not outside this structure. Because misjudging the link between an address and a transaction can block legitimate transactions as well, the transparency of the basis for judgment and the possibility of appeal matter as much as the enforcement power of sanctions.",
+      "sources": [
+        {
+          "title": "Treasury Launches Unprecedented Campaign Against Iranian Regime on Economic D-Day",
+          "url": "https://home.treasury.gov/news/press-releases/sb0613"
+        },
+        {
+          "title": "Trump's 'economic D-Day' threats become warnings for countries to sever financial ties with Iran",
+          "url": "https://apnews.com/article/e367634d8853c8fa4a341132cd577f31"
+        },
+        {
+          "title": "US escalates Iran pressure with sanctions on crypto, aviation, shipping and gold as part of 'economic D-Day'",
+          "url": "https://www.theblock.co/news/regulation/2026-08-24-us-escalates-iran-pressure-sanctions-crypto-aviation-shipping-gold-economic-d-day-412648"
+        },
+        {
+          "title": "U.S. targets digital assets, aviation, shipping, other areas for secondary sanctions on Iran",
+          "url": "https://en.yna.co.kr/view/AEN20260825000500315"
+        }
+      ]
+    },
+    {
+      "slug": "2026-08-25-crypto-news-bcc76f4548",
+      "date_kst": "2026-08-25",
+      "title": "Coinbase Tokenized Stocks Come to Base for 24-Hour Trading and Use as DeFi Collateral",
+      "content": "Tokenized U.S. stocks issued by Coinbase launched on August 24 local time on Base, a layer-2 network that processes Ethereum transactions at lower cost. The names disclosed at launch were four: Apple, NVIDIA, Meta and Alphabet. Eligible non-U.S. users can hold the tokens in self-custody wallets and trade them 24 hours a day regardless of traditional stock market hours. Each token is backed one-to-one by actual shares held at a regulated custodian, and holders have a direct, senior claim on the underlying shares, Coinbase explained. When an institutional authorized participant (AP) buys the actual shares and places them into a bankruptcy-remote custody structure supervised under the Abu Dhabi Global Market (ADGM) framework of Alpaca, a regulated broker and custodian, Coinbase issues the corresponding tokens. The primary redemption process in the opposite direction is likewise available only to institutional partners and authorized participants that have completed know-your-customer (KYC) checks, and Coinbase described this as the same issuance and redemption model used by exchange-traded funds (ETFs) and American depositary receipts (ADRs). Ordinary users can buy and sell the tokens on Base decentralized exchanges that use the automated market maker (AMM) approach, which sets prices by putting the ratio of assets held in a liquidity pool into a formula, for example Aerodrome. The tokens are issued under the B20 specification, an extension of the Ethereum standard ERC-20, making them compatible with existing wallets and DeFi protocols, and after issuance they can be transferred without separate wallet whitelisting or platform lock-in. Coinbase did state, however, that it applies continuous sanctions screening to all transfers and can freeze or seize assets at the wallet level where regulations require it. These tokenized stocks can be used as collateral in DeFi lending markets such as Aave. Chainlink data feeds combine the underlying share price with a multiplier provided by Coinbase to continuously supply a reference price that DeFi protocols can use for purposes such as collateral valuation. Dividends and stock splits are both handled through a single on-chain multiplier. That is, dividends are reflected in the multiplier as if reinvested after deducting withholding taxes and fees, and in a split the number of shares represented by one token is adjusted without changing the number of tokens recorded on the blockchain. The product is offered under Regulation S, the U.S. securities law provision governing offshore issuance, so users in the United States and in certain restricted jurisdictions cannot access it.",
+      "metanomia_thought": "In this product, token transfers without separate whitelisting coexist with the issuer's authority to screen for sanctions and to freeze. Trading and collateral use have widened through a public chain, but custody of the underlying shares, the selection of names, and the issuance and redemption rights have not been distributed along with them. Korea plans to bring the amended Electronic Securities Act and Capital Markets Act, promulgated in February 2026, into force on February 4, 2027, but the detailed standards are still being prepared, covering distributed ledger requirements as well as issuance and disclosure, licensing for over-the-counter brokerage, investment limits and settlement. The next point of contention is how far the domestic framework will recognize this kind of public-chain structure and the rights of Korean investors within it.",
+      "sources": [
+        {
+          "title": "Stocks just got updated.",
+          "url": "https://blog.base.org/tokenized-stocks"
+        },
+        {
+          "title": "Coinbase Tokenize",
+          "url": "https://www.coinbase.com/en-au/tokenize"
+        },
+        {
+          "title": "민·관 합동 ｢토큰증권 협의체｣ 제2차회의 개최",
+          "url": "https://www.fsc.go.kr/no010101/86906"
+        },
+        {
+          "title": "Coinbase establishes its tokenization hub in Abu Dhabi, with Financial Services Permission from the Financial Services Regulatory Authority (FSRA)",
+          "url": "https://www.coinbase.com/blog/coinbase-establishes-its-tokenization-hub-in-abu-dhabi"
+        },
+        {
+          "title": "Coinbase tokenized stocks go live on Base with Chainlink price feeds",
+          "url": "https://www.tradingview.com/news/cointelegraph:f104eef70094b:0-coinbase-tokenized-stocks-go-live-on-base-with-chainlink-price-feeds/"
+        }
+      ]
+    },
+    {
+      "slug": "2026-08-25-crypto-news-3b7ef8e556",
+      "date_kst": "2026-08-25",
+      "title": "U.S. Treasury Launches Financial Sector Quantum-Readiness Task Force, With Digital Asset Risk Handled Separately",
+      "content": "On August 24 local time, the U.S. Treasury launched a public-private \"Quantum-Readiness Task Force\" to prepare for the transition to Post-Quantum Cryptography (PQC). Its basis is Executive Order 14412, signed on June 22, and the roadmap for the financial sector's post-quantum cryptography transition released in January this year by the Group of Seven (G7) Cyber Expert Group. Post-quantum cryptography is cryptographic technology designed to remain difficult to break even if a sufficiently powerful quantum computer emerges, and it requires preparation to move existing systems and data onto new algorithms. The task force will operate through three working groups: sector alignment and transition, third-party and vendor readiness, and digital asset and emerging technology risk. Government agencies, financial firms, financial market infrastructures and technology providers will participate. The Treasury set out its lines of activity as identifying critical dependencies, improving \"cryptographic agility\" that makes it easier to change algorithms when needed, promoting interoperability, strengthening operational resilience and resolving implementation challenges. The digital asset working group will address the risks of digital assets and emerging technologies, and independent reporting pointed to the fact that blockchain networks make wide use of elliptic curve cryptography for transaction signing and wallet security as a key part of the background to this working group. Executive Order 14412 directed the U.S. Office of Management and Budget (OMB) to issue guidance requiring federal agencies, excluding national security systems, to transition high-value asset and high-impact systems to post-quantum cryptography by December 31, 2030 for cryptographic key establishment and by December 31, 2031 for digital signatures. This task force announcement, however, did not include a separate mandatory transition deadline applying to private financial firms generally, the algorithms to be adopted, or a schedule for the release of initial guidance. The measure is a launch stage in which the government and industry build a common implementation path and set of priorities, rather than a finalization of regulation.",
+      "metanomia_thought": "Quantum risk is not a problem that begins suddenly on the day a computer is completed. It is an implementation problem that requires finding and replacing aging cryptography and vendor dependencies starting now. The financial sector cannot look at blockchain in isolation; it has to manage the current state of cryptographic use and the order of transition across wallets, authentication and payment networks together. Rather than waiting for the United States to set a deadline for the private sector, Korean institutions also need to start by examining their current cryptographic use, the feasibility of replacement, and the risk that ciphertext collected in the past will be decrypted in the future.",
+      "sources": [
+        {
+          "title": "Treasury Announces the Quantum-Readiness Task Force",
+          "url": "https://home.treasury.gov/news/press-releases/sb0615"
+        },
+        {
+          "title": "Securing the Nation Against Advanced Cryptographic Attacks",
+          "url": "https://www.whitehouse.gov/presidential-actions/2026/06/securing-the-nation-against-advanced-cryptographic-attacks/"
+        },
+        {
+          "title": "G7 Cyber Expert Group Releases Roadmap for Coordinating the Transition to Post-Quantum Cryptography in the Financial Sector",
+          "url": "https://home.treasury.gov/news/press-releases/sb0355"
+        },
+        {
+          "title": "US Treasury launches quantum-readiness task force to protect financial systems",
+          "url": "https://cryptobriefing.com/us-treasury-quantum-readiness-task-force/"
+        }
+      ]
+    },
     {
       "slug": "2026-08-24-crypto-news-f2878d123e",
       "date_kst": "2026-08-24",
