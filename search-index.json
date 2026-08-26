@@ -346,6 +346,14 @@
   {
     "lang": "en",
     "type": "Report",
+    "title": "Legibility, Exit, and Staying",
+    "sub": "The Evolution of DeFi Governance and the Formation of Viscosity",
+    "meta": "Eunmi Kim · August 2026",
+    "url": "/articles/legibility-exit-and-staying"
+  },
+  {
+    "lang": "en",
+    "type": "Report",
     "title": "People Commuting into Online Games",
     "sub": "Survival Strategies in the Age of AI and the Future of the Metaverse",
     "meta": "Hyemin Son, Minguk Seok, Daehan Seok · January 2026",
@@ -438,6 +446,14 @@
     "sub": "월드컴퓨터를 둘러싼 압력과 세 가지 응답. 이더리움의 성공이 불러온 압력들과, 공동체가 내놓은 응답을 살펴봅니다.",
     "meta": "유주아 · 2026년 7월",
     "url": "/ko/articles/where-is-ethereum-going"
+  },
+  {
+    "lang": "ko",
+    "type": "보고서",
+    "title": "가독성, 이탈, 그리고 머무름",
+    "sub": "디파이 거버넌스의 진화와 점성의 형성",
+    "meta": "김은미 · 2026년 8월",
+    "url": "/ko/articles/legibility-exit-and-staying"
   },
   {
     "lang": "ko",
