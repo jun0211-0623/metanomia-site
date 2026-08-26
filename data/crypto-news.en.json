@@ -1,7 +1,66 @@
 {
   "schema_version": "1.0",
-  "generated_at_kst": "2026-08-25T09:58:00+09:00",
+  "generated_at_kst": "2026-08-26T10:13:00+09:00",
   "items": [
+    {
+      "slug": "2026-08-26-crypto-news-e4cb781632",
+      "date_kst": "2026-08-26",
+      "title": "Bitwise Unveils Self-Custody Tokenized Stock Portfolios, With Glider Executing Trades and Rebalancing",
+      "content": "Bitwise Asset Management, a global crypto asset manager overseeing $9 billion in client assets, unveiled on August 25 local time a product called Automated Token Portfolios (ATPs), which bundle and manage tokenized U.S. equities. Bitwise designs and publishes the constituents and target weights as a model, and Glider, an on-chain portfolio automation platform, executes the trades and automatic rebalancing from the user's self-custody wallet. The assets included are tokenized stocks issued by Coinbase on Base, an Ethereum layer 2. Users hold the assets in their own wallets rather than transferring them into a third-party manager's collective investment vehicle. Trading and rebalancing are carried out by Glider, an independent platform, through a session key to which the user has granted automated trading authority within a defined scope. Bitwise's fee for the methodology is 0.15% per year, with transaction costs and platform fees charged by Glider separate. Bitwise stated that the ATPs and the underlying tokenized stocks are offered only to eligible users in supported countries among non-U.S. persons as defined by Regulation S, the offshore issuance provision of U.S. securities law, and that U.S. persons cannot use them. Among the initial strategies, \"Mag7X\" is designed to hold eight names: the Magnificent 7 of Apple, Microsoft, NVIDIA, Alphabet, Amazon, Meta and Tesla, plus SpaceX. \"Robotics\" is designed to hold companies related to robotics and autonomous driving such as Tesla, NVIDIA and Amazon, while \"AI Leaders\" is designed to hold NVIDIA, Microsoft, Alphabet, Meta, Amazon, SpaceX, Tesla and SanDisk, among others. All three strategies use equal weighting, and actual availability will begin in stages over the coming weeks. Bitwise stated that no advisory, custodial or contractual relationship is established with ATP users, that it does not exercise discretion over user assets or hold or control them, and that it neither initiates nor executes trades. The tokenized stocks are issued by a Coinbase entity licensed by Abu Dhabi Global Market (ADGM). Coinbase states that the tokens are backed one-to-one by the underlying shares and that shareholder rights follow in accordance with vesting conditions and the terms of the ADGM-approved prospectus. Bitwise, however, disclosed that it does not issue the tokenized stocks and has not independently verified Coinbase's representations regarding collateral, shareholder rights or redeemability. It added that its registration as an investment adviser does not imply approval or endorsement of the ATPs by the U.S. Securities and Exchange Commission (SEC), and that the regulatory protections applicable to advisory clients do not extend to ATP users. This launch is a case of the portfolio management interface moving to on-chain self-custody, but the legal rights a user acquires and the token's issuance and redemption structure require separate due diligence.",
+      "metanomia_thought": "Self-custody means the assets are not handed over to the manager's account; it does not mean that all management authority returns to the user. Bitwise designs only the model and forms no advisory or custodial relationship with the user; trading and rebalancing are executed by Glider under delegated authority; the tokens are issued by Coinbase; and rights and redemption terms follow Coinbase's disclosures and prospectus. If similar products appear in Korea, one should look beyond the \"self-custody\" label and confirm the scope of the automated trading authority, the conditions for revoking it, and who can be held liable if the exercise of rights or redemption is blocked.",
+      "sources": [
+        {
+          "title": "Bitwise Launches Automated Token Portfolios (ATPs), Powered by Coinbase and Glider",
+          "url": "https://www.prnewswire.com/news-releases/bitwise-launches-automated-token-portfolios-atps-powered-by-coinbase-and-glider-302858808.html"
+        },
+        {
+          "title": "Bitwise launches automated tokenized stock portfolios for Mag 7, AI and robotics themes",
+          "url": "https://www.theblock.co/news/business/2026-08-25-bitwise-launches-automated-tokenized-stock-portfolios-for-mag-7-ai-and-robotics-themes-412706"
+        }
+      ]
+    },
+    {
+      "slug": "2026-08-26-crypto-news-b562b90778",
+      "date_kst": "2026-08-26",
+      "title": "GalaxyOne Launches Combined BTC, ETH and SOL Collateral Credit Line, With Staked SOL Usable as Collateral Without Unstaking",
+      "content": "On August 25 local time, Galaxy Digital launched a \"Crypto Portfolio Line of Credit\" on GalaxyOne, its platform for US retail investors. Users can bundle their holdings of bitcoin (BTC), ethereum (ETH) and solana (SOL) into a single pool of collateral and borrow against them without selling the assets. Staked SOL can also be pledged as collateral without being unstaked, allowing users to continue receiving applicable staking rewards. Galaxy noted that rewards are not guaranteed and may vary. The credit line is set at 50% of the appraised value of eligible collateral at the time of application, the interest rate is a variable 8.99% per year, and there is no origination fee. It is a revolving structure with no set maturity, so users can borrow and repay repeatedly, and the minimum monthly payment is the equivalent of the interest owed. The variable rate may change after 30 days' advance notice and may be lower in some states. Loan proceeds can be used on the GalaxyOne platform or withdrawn in US dollars or in the dollar stablecoin USDC. Galaxy stated that it does not rehypothecate pledged assets by lending them to third parties or otherwise reusing them. The loan-to-value ratio (LTV) is refreshed every 60 seconds, and notifications are sent via in-app banner and email when it reaches 60%, 65%, 70% and 75%. If the LTV reaches 75% or higher, GalaxyOne sells BTC, ETH, SOL and staked SOL proportionally to bring the LTV back down to 65%. Standard trading fees apply in that case, and if staked assets are liquidated, a charge equal to 1% of the quantity of assets immediately unstaked for liquidation is applied. The product is offered on the basis of Galaxy's institutional platform rather than an external decentralized finance (DeFi) protocol. It is not available in some states, including California and Delaware. The Block reported that Nexo also offers a similar product that bundles multiple crypto assets into a single credit line.",
+      "metanomia_thought": "Bundling multiple assets into a single credit line raises capital efficiency, but it also combines liquidation risk at the account level. When the LTV reaches 75%, GalaxyOne sells BTC, ETH, SOL and staked SOL proportionally to bring it down to 65%, and staked assets carry an additional immediate unstaking cost. Staged notifications are provided, but the published product description does not specify any grace period following a notification. If a similar product is to be brought within the domestic regulatory framework, disclosure should cover not only the loan-to-value ratio but also the pricing basis, the time between notification and automatic liquidation, the method for posting additional collateral, the mechanics of proportional selling, and liquidation costs.",
+      "sources": [
+        {
+          "title": "Galaxy Introduces Crypto Portfolio Line of Credit on GalaxyOne",
+          "url": "https://www.galaxy.com/newsroom/galaxy-introduces-crypto-portfolio-line-of-credit-on-galaxyone"
+        },
+        {
+          "title": "Galaxy expands retail crypto lending with new BTC, ETH and SOL-backed credit line",
+          "url": "https://www.theblock.co/news/business/2026-08-25-galaxy-expands-retail-crypto-lending-new-btc-eth-sol-backed-credit-line-412718"
+        },
+        {
+          "title": "Crypto Portfolio Line of Credit",
+          "url": "https://www.galaxy.app/product/crypto-portfolio-line-of-credit"
+        }
+      ]
+    },
+    {
+      "slug": "2026-08-26-crypto-news-b2bf47dcbc",
+      "date_kst": "2026-08-26",
+      "title": "Grayscale Zcash ETF Begins Trading on NYSE Arca: 2.5% Annual Fee, No In-Kind Redemption at Present",
+      "content": "Grayscale's Grayscale Zcash Trust has converted into an exchange-traded fund (ETF) and began trading on August 25 local time on NYSE Arca, part of the New York Stock Exchange, under the ticker \"ZCSH.\" It is the first ETF in the United States to hold Zcash directly. The fund holds Zcash (ZEC), a crypto asset with a shielded function that can conceal a transaction's sender, receiver, and amount, but it is not structured so that investors receive ZEC itself to send or use in shielded transactions. According to the prospectus filed with the SEC, the fund continuously issues shares in baskets of 10,000 shares. Authorized Participants (APs) may apply for creations either in kind, by depositing ZEC directly, or in cash. In-kind redemption, on the other hand, is not permitted as of the date of the prospectus. Accordingly, redemptions by Authorized Participants are also processed only in cash, and ordinary investors cannot apply for redemption directly with the trust and must instead sell ETF shares on the exchange. The sponsor's fee is 2.5% per year. Grayscale said that for up to 12 months after the registration statement takes effect, it will use the entire amount of fees received to support the development and growth of the Zcash ecosystem and the marketing of ZCSH. However, this is a voluntary commitment carried out with the sponsor's own funds after the fees are received, is not an obligation of the trust, and can be changed or discontinued by the sponsor at any time. Separately, The Block reported that the Zcash Trust's assets under management exceeded $313.5 million as of August 24. With this listing, investment access to a privacy asset through a regulated securities market has widened, but what has been listed on the market is an interest in a trust that holds ZEC, not a right for investors to use the Zcash network.",
+      "metanomia_thought": "The moment a privacy asset becomes an ETF, investment access widens while the right to use the network narrows. Ordinary investors cannot hold ZEC directly or apply for redemption with the trust, and redemptions by Authorized Participants are currently possible only in cash, so the path to receiving delivery of the underlying asset is closed. The party that economically bears the 2.5% annual fee is the investor, but the party that decides where that money goes and whether the commitment continues is the sponsor. When spot crypto asset ETFs are discussed in Korea as well, the question should not only be whether listing is possible, but also whether in-kind redemption is permitted and what claim investors hold against the underlying asset.",
+      "sources": [
+        {
+          "title": "The Zcash ETF Prospectus (Form 424B3)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1720265/000119312526364568/zcsh__424b3_08.25.2026.htm"
+        },
+        {
+          "title": "Grayscale debuts first U.S. Zcash ETF after converting long-running trust",
+          "url": "https://www.theblock.co/news/regulation/2026-08-25-grayscale-debuts-zcash-etf-412654"
+        },
+        {
+          "title": "The Zcash ETF (ZCSH)",
+          "url": "https://www.thezcashetf.com/"
+        }
+      ]
+    },
     {
       "slug": "2026-08-25-crypto-news-c077f024af",
       "date_kst": "2026-08-25",
