@@ -1,7 +1,69 @@
 {
   "schema_version": "1.0",
-  "generated_at_kst": "2026-08-25T09:58:00+09:00",
+  "generated_at_kst": "2026-08-26T10:13:00+09:00",
   "items": [
+    {
+      "id": "crypto-news-e4cb78163215d82e",
+      "slug": "2026-08-26-crypto-news-e4cb781632",
+      "date_kst": "2026-08-26",
+      "title": "비트와이즈, 자기수탁 토큰화 주식 포트폴리오 공개…매매·리밸런싱은 글라이더가 실행",
+      "content": "고객자산 90억 달러를 운용하는 글로벌 암호자산 운용사 비트와이즈 자산운용(Bitwise Asset Management)이 현지시간 8월 25일 토큰화 미국 주식을 묶어 운용하는 '자동화 토큰 포트폴리오(Automated Token Portfolios·ATPs)'를 공개했다. 비트와이즈가 종목과 목표 비중을 모델로 설계해 공개하고, 온체인 포트폴리오 자동화 플랫폼 글라이더(Glider)가 이용자의 자기수탁 지갑에서 매매와 자동 리밸런싱을 실행한다. 편입 자산은 코인베이스(Coinbase)가 이더리움 레이어2 베이스(Base)에서 발행한 토큰화 주식이다. 이용자는 자산을 제3자 운용사의 집합투자기구로 옮기지 않고 자신의 지갑에 보유한다. 매매와 리밸런싱은 이용자가 일정 범위의 자동거래 권한을 부여한 세션 키를 통해 독립 플랫폼 글라이더가 수행한다. 비트와이즈의 방법론 이용료는 연 0.15%이며 거래비용과 글라이더가 부과하는 플랫폼 비용은 별도다. 비트와이즈는 미국 증권법의 역외 발행 규정인 레귤레이션 S(Regulation S)가 정한 미국인이 아닌 자 가운데 지원 국가의 적격 이용자에게만 ATPs와 기초 토큰화 주식이 제공된다고 밝혔으며, 미국인은 이용할 수 없다. 초기 전략 가운데 'Mag7X'는 매그니피센트7인 애플·마이크로소프트·엔비디아·알파벳·아마존·메타·테슬라에 스페이스엑스(SpaceX)를 더한 8종을 담도록 설계됐다. 'Robotics'는 테슬라·엔비디아·아마존 등 로보틱스·자율주행 관련 기업을, 'AI Leaders'는 엔비디아·마이크로소프트·알파벳·메타·아마존·스페이스엑스·테슬라·샌디스크 등을 담도록 설계됐다. 세 전략 모두 동일 비중 방식이며, 실제 이용은 앞으로 수주에 걸쳐 순차적으로 개시된다. 비트와이즈는 ATPs 이용자와 자문·수탁·계약 관계가 성립하지 않고, 이용자 자산에 재량을 행사하거나 이를 보관·통제하지 않으며 거래를 개시하거나 집행하지도 않는다고 밝혔다. 토큰화 주식은 아부다비 글로벌마켓(ADGM) 인가를 받은 코인베이스 법인이 발행한다. 코인베이스는 이 토큰이 기초 주식으로 1대1 뒷받침되고, 베스팅 조건과 ADGM 승인 투자설명서의 조건에 따라 주주권이 따라온다고 밝히고 있다. 그러나 비트와이즈는 자사가 토큰화 주식을 발행하지 않으며 담보·주주권·상환 가능성에 관한 코인베이스의 설명을 독립적으로 검증하지 않았다고 고지했다. 또한 자사의 투자자문업 등록이 ATPs에 대한 미국 증권거래위원회(SEC)의 승인이나 보증을 의미하지 않으며, 자문 고객에게 적용되는 규제상 보호가 ATPs 이용자에게 확대되는 것도 아니라고 덧붙였다. 이번 공개는 포트폴리오 운용 인터페이스가 온체인 자기수탁으로 이동한 사례이지만, 이용자가 취득하는 법적 권리와 토큰의 발행·상환 구조에는 별도의 실사가 필요하다.",
+      "metanomia_thought": "자기수탁은 자산을 운용사 계좌에 넘기지 않는다는 뜻이지, 운용 권한까지 모두 이용자에게 돌아온다는 뜻은 아닙니다. 비트와이즈는 모델만 설계하고 이용자와 자문·수탁 관계를 맺지 않으며, 매매와 리밸런싱은 권한을 위임받은 글라이더가 실행하고 토큰은 코인베이스가 발행하며 권리·상환 조건은 코인베이스의 공시와 투자설명서에 따릅니다. 한국에서 유사 상품이 등장하면 ‘자기수탁’이라는 표시만 볼 것이 아니라 자동거래 권한의 범위와 철회 조건, 권리 행사나 상환이 막혔을 때 누구에게 청구할 수 있는지를 확인해야 합니다.",
+      "sources": [
+        {
+          "title": "Bitwise Launches Automated Token Portfolios (ATPs), Powered by Coinbase and Glider",
+          "url": "https://www.prnewswire.com/news-releases/bitwise-launches-automated-token-portfolios-atps-powered-by-coinbase-and-glider-302858808.html"
+        },
+        {
+          "title": "Bitwise launches automated tokenized stock portfolios for Mag 7, AI and robotics themes",
+          "url": "https://www.theblock.co/news/business/2026-08-25-bitwise-launches-automated-tokenized-stock-portfolios-for-mag-7-ai-and-robotics-themes-412706"
+        }
+      ]
+    },
+    {
+      "id": "crypto-news-b562b90778d69750",
+      "slug": "2026-08-26-crypto-news-b562b90778",
+      "date_kst": "2026-08-26",
+      "title": "갤럭시원, BTC·ETH·SOL 통합 담보 신용한도 출시…스테이킹 SOL도 해제 없이 담보로",
+      "content": "갤럭시 디지털(Galaxy Digital)이 현지시간 8월 25일 미국 개인투자자용 플랫폼 갤럭시원(GalaxyOne)에 ‘암호자산 포트폴리오 신용한도(Crypto Portfolio Line of Credit)’를 출시했다. 이용자는 비트코인(BTC)·이더리움(ETH)·솔라나(SOL) 보유분을 하나의 담보로 묶어 자산을 팔지 않고 빌릴 수 있다. 스테이킹된 SOL도 해제하지 않고 담보로 맡길 수 있어 이용자는 적용 가능한 스테이킹 보상을 계속 받을 수 있다. 갤럭시는 보상이 보장되지 않고 변동할 수 있다고 고지했다. 신용한도는 신청 시점 적격 담보 평가액의 50%로 정해지며, 금리는 연 8.99% 변동금리이고 개설 수수료는 없다. 만기가 정해지지 않은 회전식 구조로 반복해서 빌리고 갚을 수 있으며, 월 최소 납부액은 이자 상당액이다. 변동금리는 30일 사전 통지를 거쳐 바뀔 수 있고 일부 주에서는 더 낮게 적용될 수 있다. 대출금은 갤럭시원 플랫폼에서 사용하거나 미국 달러 또는 달러 스테이블코인 USDC로 인출할 수 있다. 갤럭시는 담보로 맡긴 자산을 제3자에게 빌려주거나 다시 쓰는 재담보를 하지 않는다고 밝혔다. 담보인정비율(LTV)은 60초마다 갱신되며 60%·65%·70%·75%에 도달하면 앱 배너와 이메일로 알림이 발송된다. LTV가 75% 이상이 되면 갤럭시원은 BTC·ETH·SOL과 스테이킹 SOL을 비례 매각해 LTV를 65%로 낮춘다. 이때 일반 거래 수수료가 적용되며, 스테이킹 자산이 청산되면 청산을 위해 즉시 언스테이킹되는 자산 수량의 1%가 비용으로 부과된다. 이 상품은 외부 탈중앙금융(DeFi) 프로토콜이 아니라 갤럭시의 기관 플랫폼을 기반으로 제공된다. 캘리포니아·델라웨어를 비롯한 일부 주에서는 제공되지 않는다. 더블록(The Block)은 넥소(Nexo)도 여러 암호자산을 하나의 신용한도에 묶는 유사 상품을 제공하고 있다고 전했다.",
+      "metanomia_thought": "여러 자산을 하나의 신용한도에 묶으면 자본 효율은 높아지지만 청산 위험도 계정 단위로 결합됩니다. LTV가 75%에 이르면 갤럭시원은 BTC·ETH·SOL과 스테이킹 SOL을 비례 매각해 65%로 낮추고, 스테이킹 자산에는 즉시 언스테이킹 비용까지 붙습니다. 단계별 알림은 제공되지만 공개된 상품 설명에 알림 이후의 유예 기간은 명시돼 있지 않습니다. 국내에서 유사 상품을 제도화할 때는 담보인정비율뿐 아니라 가격 산정 기준, 알림부터 자동청산까지의 시간, 추가 담보 납입 방법, 비례 매각 방식과 청산 비용을 함께 공개하도록 해야 합니다.",
+      "sources": [
+        {
+          "title": "Galaxy Introduces Crypto Portfolio Line of Credit on GalaxyOne",
+          "url": "https://www.galaxy.com/newsroom/galaxy-introduces-crypto-portfolio-line-of-credit-on-galaxyone"
+        },
+        {
+          "title": "Galaxy expands retail crypto lending with new BTC, ETH and SOL-backed credit line",
+          "url": "https://www.theblock.co/news/business/2026-08-25-galaxy-expands-retail-crypto-lending-new-btc-eth-sol-backed-credit-line-412718"
+        },
+        {
+          "title": "Crypto Portfolio Line of Credit",
+          "url": "https://www.galaxy.app/product/crypto-portfolio-line-of-credit"
+        }
+      ]
+    },
+    {
+      "id": "crypto-news-b2bf47dcbc8fc6e3",
+      "slug": "2026-08-26-crypto-news-b2bf47dcbc",
+      "date_kst": "2026-08-26",
+      "title": "그레이스케일 지캐시 ETF, NYSE Arca 거래 시작…보수 연 2.5%·현재 현물 환매 불가",
+      "content": "그레이스케일(Grayscale)의 지캐시 트러스트(Grayscale Zcash Trust)가 상장지수펀드(ETF)로 전환돼 현지시간 8월 25일 뉴욕증권거래소 계열 NYSE Arca에서 ‘ZCSH’ 종목으로 거래를 시작했다. 미국에서 지캐시를 직접 보유하는 ETF가 상장된 것은 처음이다. 펀드는 거래의 발신자·수신자·금액 등을 감출 수 있는 차폐(shielded) 기능을 갖춘 암호자산 지캐시(ZEC)를 직접 보유하지만, 투자자가 ZEC 자체를 받아 송금하거나 차폐 거래에 사용하는 구조는 아니다. SEC에 제출된 투자설명서에 따르면 펀드는 1만 주 단위 바스켓으로 주식을 계속 발행한다. 승인참여자(Authorized Participant·AP)는 ZEC를 직접 예치하는 현물 방식이나 현금 방식으로 설정을 신청할 수 있다. 반면 투자설명서 작성일 기준으로 현물 환매는 허용되지 않는다. 이에 따라 승인참여자의 환매도 현금으로만 처리되며, 일반 투자자는 트러스트에 직접 환매를 신청할 수 없어 거래소에서 ETF 주식을 매도해야 한다. 스폰서 보수는 연 2.5%다. 그레이스케일은 등록신고서 효력발생 후 최대 12개월 동안 수취한 보수 전액을 지캐시 생태계의 개발·성장과 ZCSH 마케팅 지원에 사용하겠다고 밝혔다. 다만 이는 보수를 받은 뒤 스폰서 자체 자금으로 이행하는 자발적 약정으로, 트러스트의 의무가 아니며 스폰서가 언제든 변경하거나 중단할 수 있다. 한편 더 블록(The Block)은 8월 24일 기준 지캐시 트러스트의 운용자산이 3억 1350만 달러를 넘었다고 보도했다. 이번 상장으로 프라이버시 자산에 대한 규제된 증권시장을 통한 투자 접근은 넓어졌지만, 시장에 상장된 것은 ZEC를 보유한 트러스트의 지분이며 투자자가 지캐시 네트워크를 사용할 권리는 아니다.",
+      "metanomia_thought": "프라이버시 자산이 ETF가 되는 순간 투자 접근권은 넓어지지만 네트워크 사용권은 줄어듭니다. 일반 투자자는 ZEC를 직접 보유하거나 트러스트에 환매를 신청할 수 없고, 승인참여자의 환매도 현재 현금 방식으로만 가능해 기초자산을 인도받는 경로가 막혀 있습니다. 연 2.5%의 보수를 경제적으로 부담하는 쪽은 투자자지만, 그 돈의 사용처와 약정 지속 여부를 결정하는 쪽은 스폰서입니다. 국내에서 가상자산 현물 ETF를 논의할 때도 상장 가능 여부뿐 아니라 현물 환매 허용 여부와 투자자가 기초자산에 대해 갖는 청구권을 함께 확인해야 합니다.",
+      "sources": [
+        {
+          "title": "The Zcash ETF Prospectus (Form 424B3)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1720265/000119312526364568/zcsh__424b3_08.25.2026.htm"
+        },
+        {
+          "title": "Grayscale debuts first U.S. Zcash ETF after converting long-running trust",
+          "url": "https://www.theblock.co/news/regulation/2026-08-25-grayscale-debuts-zcash-etf-412654"
+        },
+        {
+          "title": "The Zcash ETF (ZCSH)",
+          "url": "https://www.thezcashetf.com/"
+        }
+      ]
+    },
     {
       "id": "crypto-news-c077f024af7e499b",
       "slug": "2026-08-25-crypto-news-c077f024af",
