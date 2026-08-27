@@ -1,7 +1,59 @@
 {
   "schema_version": "1.0",
-  "generated_at_kst": "2026-08-26T10:13:00+09:00",
+  "generated_at_kst": "2026-08-27T10:32:00+09:00",
   "items": [
+    {
+      "id": "crypto-news-7f5661b778a7a522",
+      "slug": "2026-08-27-crypto-news-7f5661b778",
+      "date_kst": "2026-08-27",
+      "title": "베터·코인베이스, 비트코인 담보 주택대출 일반 개방…계약금 대출에 주택 2순위 저당권",
+      "content": "미국 주택금융회사 베터 모기지(Better Mortgage)와 암호자산 거래소 코인베이스(Coinbase)가 현지시간 8월 26일 비트코인 담보를 결합한 주택대출을 일반에 개방했다고 발표했다. 두 회사는 이런 구조의 적격 주택담보대출이 처음이라고 밝혔다. 상품은 두 개의 대출을 묶은 구조다. 하나는 미국 정부후원 주택금융기관 패니메이(Fannie Mae) 지침에 맞춘 표준 1순위 주택담보대출이고, 다른 하나는 주택 구매 계약금을 마련하는 별도 대출이다. 계약금 대출은 이용자가 맡긴 비트코인과 주택의 2순위 저당권을 함께 담보로 잡는다. 두 대출은 금리와 상환기간이 같아 이용자는 하나의 월 납부금으로 갚는다. 대출 실행과 관리는 베터가 맡으며, 코인베이스는 대출을 실행하거나 관리하지 않는다. 담보 비트코인(BTC)은 이용자의 코인베이스 계정에서 베터가 기관용 수탁 서비스 코인베이스 프라임(Coinbase Prime)에 개설한 수탁계정으로 옮겨져 계약금 대출이 상환될 때까지 보관된다. 현재 계약금 대출의 담보로 받는 암호자산은 비트코인뿐이다. 비트코인 담보가치는 계약금 대출액의 250% 이상이어야 한다. 시세가 떨어졌다는 이유만으로 추가 담보를 요구하거나 비트코인을 처분하지는 않는다. 다만 납부가 60일 연체되면 베터가 담보 비트코인을 팔 수 있고, 연체 180일에는 패니메이 지침에 따라 주택 압류 절차가 별도로 시작된다. 유료 구독 서비스 코인베이스 원(Coinbase One) 회원은 대출 승인 시 주택금융 금액의 1%를 최대 1만 달러까지 주택 거래 마감비용에 충당하는 대출기관 크레딧으로 받는다. 이 상품은 두 대출 모두 베터가 실행하고 담보 비트코인은 베터 명의의 수탁계정에 보관하므로 온체인 대출은 아니다.",
+      "metanomia_thought": "비트코인이 주택금융에 들어왔다는 말보다 그 비트코인이 무엇을 담보하는지가 중요합니다. 패니메이 지침에 맞는 것은 1순위 주택담보대출이고, 계약금 대출은 비트코인과 주택 2순위 저당권을 함께 잡습니다. 두 대출은 별도 계약이지만 하나의 월 납부금으로 묶여 있어, 같은 연체가 이어지면 비트코인 처분과 주택 압류 위험이 시간차를 두고 발생합니다. 국내에서 비슷한 상품을 검토한다면 담보를 언제 누가 처분하는지에 더해, 처분 뒤 남은 자산을 어떻게 돌려주는지와 대주가 파산하면 맡긴 자산이 어떻게 되는지도 함께 공개하도록 해야 합니다.",
+      "sources": [
+        {
+          "title": "Better, Coinbase Announce General Availability of First Token-backed, Conforming Mortgage to Expand Homeownership Access for a New Generation of Mortgage Borrowers",
+          "url": "https://www.nasdaq.com/press-release/better-coinbase-announce-general-availability-first-token-backed-conforming-mortgage"
+        },
+        {
+          "title": "Crypto-Backed Mortgages",
+          "url": "https://better.com/crypto-backed-mortgages"
+        },
+        {
+          "title": "Crypto-backed mortgages",
+          "url": "https://help.coinbase.com/en/coinbase/mortgages/crypto-backed-mortgages"
+        },
+        {
+          "title": "Coinbase, Better make token-backed mortgages generally available",
+          "url": "https://www.theblock.co/news/business/2026-08-26-coinbase-better-make-token-backed-mortgages-generally-available-412810"
+        }
+      ]
+    },
+    {
+      "id": "crypto-news-32ff7fdf9960020b",
+      "slug": "2026-08-27-crypto-news-32ff7fdf99",
+      "date_kst": "2026-08-27",
+      "title": "레볼루트, 첫 유로 스테이블코인 EURR 배포…발행·상환 책임은 브리지",
+      "content": "유럽 핀테크 기업 레볼루트(Revolut)가 현지시간 8월 26일 덴마크·폴란드·포르투갈의 선별된 적격 고객을 대상으로 자사 첫 유로 스테이블코인 EURR의 단계적 배포를 시작했다고 밝혔다. EURR은 레볼루트 앱에서 유로와 암호자산, 외부 지갑 사이를 오갈 수 있도록 설계된 유로 연동 전자화폐토큰(EMT)이다. 법적 발행자는 결제기업 스트라이프(Stripe)가 소유한 브리지(Bridge)의 룩셈부르크 법인 브리지 빌딩(Bridge Building S.A.)이다. 브리지 빌딩은 룩셈부르크 금융감독위원회(CSSF)로부터 암호자산서비스제공자(CASP)와 전자화폐기관(EMI) 인가를 받았다. 고객에게 EURR을 제공하는 레볼루트 디지털 애셋 유럽(Revolut Digital Assets Europe Ltd)은 키프로스 증권거래위원회(CySEC)의 인가를 받은 유럽연합 암호자산시장법(MiCA)상 CASP다. EURR은 은행 예금이 아니어서 예금보호제도의 보호를 받지 않는다. 보유자는 브리지 빌딩의 고객확인 절차를 통과하고 필요한 서류와 유럽경제지역 은행계좌의 유효한 IBAN을 제출해야 액면가 상환을 청구할 수 있으며, 백서는 수수료 없이 2영업일 안에 처리한다고 명시한다. 준비자산은 발행자인 브리지 빌딩이 관리하며 규제 금융기관의 분리계좌에 보관하거나 적격 고유동성 유로화 상품에 투자한다. EURR은 현재 이더리움과 폴리곤에서 운영된다. 브리지 준비금 페이지에는 한국시간 8월 26일 오전 3시 38분 업데이트 기준 유통량 374 EURR와 준비자산 374유로가 표시됐고, 준비자산은 전액 예금이었다. 레볼루트는 상품·운영·규제 준비를 조건으로 올해 안에 유럽경제지역 전역으로 확대하고 다른 통화 기반 스테이블코인도 내놓을 계획이다. 이번 배포로 은행형 앱과 온체인 유로의 접점은 넓어졌지만, 이용자가 상환을 청구할 상대와 준비자산 관리 책임은 레볼루트가 아니라 브리지 빌딩에 있다.",
+      "metanomia_thought": "같은 화면에서 유로를 온체인으로 보내는 경험은 레볼루트가 만들지만, 액면가 상환 의무는 브리지 빌딩에 있습니다. 레볼루트 앱 밖에서 EURR을 받은 보유자도 발행자에게 직접 상환을 청구하려면 브리지 빌딩의 고객확인 절차를 거쳐야 합니다. 발행·상환과 고객 제공을 서로 다른 인가 법인이 맡고 있어 쟁점에 따라 관련 감독기관도 달라질 수 있습니다. 국내 원화 스테이블코인 논의에서도 발행자·유통자의 인가 근거와 상환 청구 상대, 상환 자격 조건을 분리해 공시하도록 요구할 필요가 있습니다.",
+      "sources": [
+        {
+          "title": "Revolut rolls out its first euro-backed stablecoin EURR, creating a new bridge between fiat and crypto",
+          "url": "https://www.disruptionbanking.com/2026/08/26/revolut-rolls-out-its-first-euro-backed-stablecoin-eurr-creating-a-new-bridge-between-fiat-and-crypto/"
+        },
+        {
+          "title": "Revolut Euro (EURR)",
+          "url": "https://reserves.bridge.xyz/eurr"
+        },
+        {
+          "title": "Bridge MiCA White Paper - EURR - July 2026",
+          "url": "https://reserves.bridge.xyz/white-papers/bridge-mica-white-paper-eurr-july-2026.pdf"
+        },
+        {
+          "title": "Euro stablecoins get a mainstream push as Revolut begins rolling out EURR in Europe",
+          "url": "https://www.coindesk.com/business/2026/08/26/euro-stablecoins-get-a-mainstream-push-as-revolut-begins-rolling-out-eurr-in-europe"
+        }
+      ]
+    },
     {
       "id": "crypto-news-e4cb78163215d82e",
       "slug": "2026-08-26-crypto-news-e4cb781632",
