@@ -1,7 +1,57 @@
 {
   "schema_version": "1.0",
-  "generated_at_kst": "2026-08-26T10:13:00+09:00",
+  "generated_at_kst": "2026-08-27T10:32:00+09:00",
   "items": [
+    {
+      "slug": "2026-08-27-crypto-news-7f5661b778",
+      "date_kst": "2026-08-27",
+      "title": "Better and Coinbase Open Bitcoin-Collateralized Home Loan to the Public: Down Payment Loan Takes a Second Lien on the Home",
+      "content": "US home finance company Better Mortgage and crypto asset exchange Coinbase announced on August 26 local time that they had opened a home loan combining bitcoin collateral to the general public. The two companies said this is the first conforming mortgage structured in this way. The product bundles two loans. One is a standard first-lien mortgage that conforms to the guidelines of Fannie Mae, the US government-sponsored housing finance enterprise, and the other is a separate loan used to fund the down payment on the home. The down payment loan takes both the bitcoin the user has deposited and a second lien on the home as collateral. The two loans carry the same interest rate and the same repayment term, so the user repays them through a single monthly payment. Better handles origination and servicing, and Coinbase neither originates nor services the loans. The collateralized bitcoin (BTC) is moved from the user's Coinbase account to a custody account that Better has opened at Coinbase Prime, the institutional custody service, and is held there until the down payment loan is repaid. At present, bitcoin is the only crypto asset accepted as collateral for the down payment loan. The value of the bitcoin collateral must be at least 250% of the down payment loan amount. Additional collateral will not be demanded, and the bitcoin will not be disposed of, merely because the market price has fallen. However, if payments are 60 days delinquent, Better may sell the collateralized bitcoin, and at 180 days of delinquency, foreclosure proceedings on the home begin separately in accordance with Fannie Mae guidelines. Members of Coinbase One, the paid subscription service, receive a lender credit upon loan approval equal to 1% of the home financing amount, up to a maximum of $10,000, applied toward the closing costs of the home transaction. Because Better originates both loans and the collateralized bitcoin is held in a custody account in Better's name, this product is not an onchain loan.",
+      "metanomia_thought": "What matters more than the statement that bitcoin has entered home finance is the question of what that bitcoin is actually collateralizing. What conforms to Fannie Mae guidelines is the first-lien mortgage, while the down payment loan takes both the bitcoin and a second lien on the home. The two loans are separate contracts, but they are bundled into a single monthly payment, so if the same delinquency continues, the risk of the bitcoin being sold and the risk of foreclosure on the home arise at different points in time. If a similar product is considered in Korea, disclosure should cover not only when and by whom the collateral is disposed of, but also how any assets remaining after disposal are returned and what happens to the deposited assets if the lender goes bankrupt.",
+      "sources": [
+        {
+          "title": "Better, Coinbase Announce General Availability of First Token-backed, Conforming Mortgage to Expand Homeownership Access for a New Generation of Mortgage Borrowers",
+          "url": "https://www.nasdaq.com/press-release/better-coinbase-announce-general-availability-first-token-backed-conforming-mortgage"
+        },
+        {
+          "title": "Crypto-Backed Mortgages",
+          "url": "https://better.com/crypto-backed-mortgages"
+        },
+        {
+          "title": "Crypto-backed mortgages",
+          "url": "https://help.coinbase.com/en/coinbase/mortgages/crypto-backed-mortgages"
+        },
+        {
+          "title": "Coinbase, Better make token-backed mortgages generally available",
+          "url": "https://www.theblock.co/news/business/2026-08-26-coinbase-better-make-token-backed-mortgages-generally-available-412810"
+        }
+      ]
+    },
+    {
+      "slug": "2026-08-27-crypto-news-32ff7fdf99",
+      "date_kst": "2026-08-27",
+      "title": "Revolut Rolls Out EURR, Its First Euro Stablecoin: Issuance and Redemption Sit With Bridge",
+      "content": "European fintech company Revolut said on August 26 local time that it had begun a phased rollout of EURR, its first euro stablecoin, to selected eligible customers in Denmark, Poland and Portugal. EURR is a euro-pegged e-money token (EMT) designed to let users move between euros, crypto assets and external wallets within the Revolut app. The legal issuer is Bridge Building S.A., the Luxembourg entity of Bridge, which is owned by payments company Stripe. Bridge Building has been authorized by Luxembourg's Commission de Surveillance du Secteur Financier (CSSF) as a crypto-asset service provider (CASP) and an electronic money institution (EMI). Revolut Digital Assets Europe Ltd, which offers EURR to customers, is a CASP under the European Union's Markets in Crypto-Assets Regulation (MiCA), authorized by the Cyprus Securities and Exchange Commission (CySEC). EURR is not a bank deposit and is therefore not covered by deposit protection schemes. Holders can claim redemption at par only after passing Bridge Building's customer due diligence procedures and submitting the required documents along with a valid IBAN for a bank account in the European Economic Area, and the white paper states that such requests are processed within two business days at no fee. Reserve assets are managed by the issuer, Bridge Building, and are either held in segregated accounts at regulated financial institutions or invested in eligible highly liquid euro-denominated instruments. EURR currently operates on Ethereum and Polygon. Bridge's reserves page showed 374 EURR in circulation and 374 euros in reserve assets as of an update at 3:38 a.m. KST on August 26, with the reserve assets held entirely in deposits. Revolut plans to expand across the entire European Economic Area within this year, subject to product, operational and regulatory readiness, and to launch stablecoins based on other currencies as well. The rollout widens the point of contact between bank-style apps and on-chain euros, but the counterparty against which users claim redemption and the responsibility for managing reserve assets rest with Bridge Building, not Revolut.",
+      "metanomia_thought": "Revolut creates the experience of sending euros on-chain from the same screen, but the obligation to redeem at par lies with Bridge Building. Even holders who receive EURR outside the Revolut app must go through Bridge Building's customer due diligence procedures in order to claim redemption directly from the issuer. Because issuance and redemption on one side and customer-facing distribution on the other are handled by separately authorized entities, the relevant supervisory authority may also differ depending on the issue at hand. In Korea's own discussion of a won-denominated stablecoin, there is a need to require that the legal basis for the authorization of issuers and distributors, the counterparty for redemption claims, and the eligibility conditions for redemption be disclosed separately.",
+      "sources": [
+        {
+          "title": "Revolut rolls out its first euro-backed stablecoin EURR, creating a new bridge between fiat and crypto",
+          "url": "https://www.disruptionbanking.com/2026/08/26/revolut-rolls-out-its-first-euro-backed-stablecoin-eurr-creating-a-new-bridge-between-fiat-and-crypto/"
+        },
+        {
+          "title": "Revolut Euro (EURR)",
+          "url": "https://reserves.bridge.xyz/eurr"
+        },
+        {
+          "title": "Bridge MiCA White Paper - EURR - July 2026",
+          "url": "https://reserves.bridge.xyz/white-papers/bridge-mica-white-paper-eurr-july-2026.pdf"
+        },
+        {
+          "title": "Euro stablecoins get a mainstream push as Revolut begins rolling out EURR in Europe",
+          "url": "https://www.coindesk.com/business/2026/08/26/euro-stablecoins-get-a-mainstream-push-as-revolut-begins-rolling-out-eurr-in-europe"
+        }
+      ]
+    },
     {
       "slug": "2026-08-26-crypto-news-e4cb781632",
       "date_kst": "2026-08-26",

@@ -902,8 +902,58 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://metanomia-site.vercel.app/people/yongrae-cho"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://metanomia-site.vercel.app/people/yongrae-cho"/>
   </url>
+  <url>
+    <loc>https://metanomia.org/articles/legibility-exit-and-staying</loc>
+    <lastmod>2026-08-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://metanomia.org/ko/articles/legibility-exit-and-staying" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://metanomia.org/articles/legibility-exit-and-staying" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://metanomia.org/articles/legibility-exit-and-staying" />
+  </url>
+  <url>
+    <loc>https://metanomia.org/ko/articles/legibility-exit-and-staying</loc>
+    <lastmod>2026-08-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://metanomia.org/ko/articles/legibility-exit-and-staying" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://metanomia.org/articles/legibility-exit-and-staying" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://metanomia.org/articles/legibility-exit-and-staying" />
+  </url>
 
   <!-- GENERATED CRYPTO NEWS START -->
+  <url>
+    <loc>https://metanomia-site.vercel.app/ko/crypto-news-2026-08-27-crypto-news-7f5661b778</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://metanomia-site.vercel.app/ko/crypto-news-2026-08-27-crypto-news-7f5661b778" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://metanomia-site.vercel.app/crypto-news-2026-08-27-crypto-news-7f5661b778" />
+  </url>
+  <url>
+    <loc>https://metanomia-site.vercel.app/crypto-news-2026-08-27-crypto-news-7f5661b778</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://metanomia-site.vercel.app/ko/crypto-news-2026-08-27-crypto-news-7f5661b778" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://metanomia-site.vercel.app/crypto-news-2026-08-27-crypto-news-7f5661b778" />
+  </url>
+  <url>
+    <loc>https://metanomia-site.vercel.app/ko/crypto-news-2026-08-27-crypto-news-32ff7fdf99</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://metanomia-site.vercel.app/ko/crypto-news-2026-08-27-crypto-news-32ff7fdf99" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://metanomia-site.vercel.app/crypto-news-2026-08-27-crypto-news-32ff7fdf99" />
+  </url>
+  <url>
+    <loc>https://metanomia-site.vercel.app/crypto-news-2026-08-27-crypto-news-32ff7fdf99</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://metanomia-site.vercel.app/ko/crypto-news-2026-08-27-crypto-news-32ff7fdf99" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://metanomia-site.vercel.app/crypto-news-2026-08-27-crypto-news-32ff7fdf99" />
+  </url>
   <url>
     <loc>https://metanomia-site.vercel.app/ko/crypto-news-2026-08-26-crypto-news-e4cb781632</loc>
     <lastmod>2026-08-26</lastmod>
@@ -1289,22 +1339,4 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://metanomia-site.vercel.app/crypto-news-2026-08-12-crypto-news-a26f81e305" />
   </url>
   <!-- GENERATED CRYPTO NEWS END -->
-  <url>
-    <loc>https://metanomia.org/articles/legibility-exit-and-staying</loc>
-    <lastmod>2026-08-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.80</priority>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://metanomia.org/ko/articles/legibility-exit-and-staying" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://metanomia.org/articles/legibility-exit-and-staying" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://metanomia.org/articles/legibility-exit-and-staying" />
-  </url>
-  <url>
-    <loc>https://metanomia.org/ko/articles/legibility-exit-and-staying</loc>
-    <lastmod>2026-08-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.80</priority>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://metanomia.org/ko/articles/legibility-exit-and-staying" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://metanomia.org/articles/legibility-exit-and-staying" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://metanomia.org/articles/legibility-exit-and-staying" />
-  </url>
 </urlset>
