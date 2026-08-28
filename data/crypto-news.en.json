@@ -1,7 +1,120 @@
 {
   "schema_version": "1.0",
-  "generated_at_kst": "2026-08-27T10:32:00+09:00",
+  "generated_at_kst": "2026-08-28T09:19:00+09:00",
   "items": [
+    {
+      "slug": "2026-08-28-crypto-news-e69811bde9",
+      "date_kst": "2026-08-28",
+      "title": "Bithumb Wins Two of Four First-Instance Suits Seeking Return of Proceeds From Mistakenly Credited Bitcoin: Roughly 199 Million Won Recognized for Return",
+      "content": "On August 27, the Seoul Central District Court ordered a user who sold an incorrectly displayed balance during Bithumb's mistaken bitcoin credit incident to return approximately 194 million won in sale proceeds. On the 26th, a ruling in a case of the same type had ordered the return of approximately 4.99 million won, bringing the combined amount recognized for return in the two cases to approximately 199 million won. Both cases proceeded by service by public notice. Service by public notice is a procedure in which litigation documents are deemed to have been delivered through means such as court posting when the counterparty's address or place of work is difficult to confirm. Bithumb has filed four suits for the return of unjust enrichment in connection with the same incident, and the remaining two cases, involving approximately 500 million won and 14.8 million won, are ongoing. The incident occurred in February when, while paying out rewards for a customer event, a won-denominated amount was entered incorrectly in bitcoin units, causing approximately 620,000 bitcoin to appear in user accounts. This was an error in the exchange's internal ledger, which records each customer's entitlements, and no actual transfer took place on the Bitcoin network. Bithumb restricted trading and withdrawals and recovered most of the amount, but some users sold the bitcoin before that, and it filed four suits against users who did not return the sale proceeds. The court's specific reasoning, the defendants' arguments, whether an appeal will be filed, and whether the rulings have become final could not be confirmed in publicly available materials. These rulings are first-instance decisions recognizing an obligation to return proceeds on the part of users who disposed of balances displayed in error, and they are not legal principles settled through contested arguments from both sides.",
+      "metanomia_thought": "Numbers displayed on a centralized exchange's screen are not the same as holding records finalized by blockchain transactions. That said, these two cases are first-instance rulings issued without the defendants' arguments being presented at trial, so the extent of the responsibility borne by users who dispose of mistakenly credited balances remains an open question. A domestic framework for handling mistaken credit incidents would need to set out, together, the exchange's standards for recovery and trade cancellation, protection for counterparties to executed trades, and procedures for user notification and objection.",
+      "sources": [
+        {
+          "title": "빗썸, 오지급 비트코인 반환소송 잇달아 승소⋯청구액 약 2억원",
+          "url": "https://www.etoday.co.kr/news/view/2618987?trc=main_section_finance"
+        },
+        {
+          "title": "Bithumb wins lawsuit over proceeds from 620,000 BTC fat-finger error: report",
+          "url": "https://www.theblock.co/news/regulation/2026-08-27-bithumb-wins-lawsuit-btc-412893"
+        }
+      ]
+    },
+    {
+      "slug": "2026-08-28-crypto-news-cec5beecb4",
+      "date_kst": "2026-08-28",
+      "title": "MoonPay's PayBox: AI Executes Kamino Deposits and Collateralized Loans, With Per-Transaction Approval or Automation Within Limits",
+      "content": "Global fintech company MoonPay announced on August 27 local time that it had integrated Kamino, a Solana-based lending protocol, into PayBox, its payment and wallet permission management service for AI agents. Users can converse with ChatGPT or Claude and, by specifying the token type and amount, supply tokens to Kamino to earn yield, or borrow USDC, a dollar-pegged stablecoin, against the crypto assets they have supplied as collateral. MoonPay explained that without opening a separate protocol screen, a user can instruct \"supply 500 USDC to Kamino\" or \"borrow USDC against SOL.\" This integration does not create a new lending product; rather, it lets the AI prepare Kamino's existing supply and borrow transactions through a dedicated connector. Transactions that require approval are confirmed with a passkey, and users can set one of three modes for each agent: always approve, approve when a limit is exceeded, or automatic execution within a pre-set policy. MoonPay said it applies non-custodial MPC-based threshold cryptography and secure enclaves to wallets, so that neither MoonPay nor the AI agent can access a complete private key or sign a transaction on its own. If the value of the collateral falls below Kamino's liquidation threshold after borrowing, a liquidator can repay the debt and take a portion of the collateral. MoonPay disclosed that yields are not guaranteed and that there are risks from smart contracts, liquidation, and protocol vulnerabilities. The Kamino integration is not offered in the United States, the United Kingdom, the European Union, or Australia, its scope varies by asset and jurisdiction, and loan terms and liquidation continue to follow Kamino's existing market rules.",
+      "metanomia_thought": "What the user has handed over to the AI is not responsibility for financial risk but the right to execute within a defined scope. MoonPay's key distribution structure lowers the risk that any single party obtains a complete private key, but it does not prevent an erroneous instruction within the scope the user has permitted, nor does it prevent liquidation, and once liquidation begins, Kamino's rules operate ahead of the intent expressed in the conversation. For agent-based finance to be permitted in Korea, per-transaction approval and automatic limits must be distinguished, and the party responsible and the audit records must be disclosed in advance for cases of erroneous instructions, abuse of delegated authority, and liquidation.",
+      "sources": [
+        {
+          "title": "PayBox Adds Kamino, Bringing Onchain Lending to Claude and ChatGPT",
+          "url": "https://www.moonpay.com/newsroom/paybox-kamino"
+        },
+        {
+          "title": "MoonPay Launches PayBox, a Payment Vault for Claude and ChatGPT That Turns Prompts Into Payments",
+          "url": "https://www.moonpay.com/newsroom/moonpay-paybox"
+        },
+        {
+          "title": "PayBox FAQs",
+          "url": "https://support.moonpay.com/en/articles/669843-paybox-faqs"
+        },
+        {
+          "title": "MoonPay's newest integration lets AI agents handle crypto lending on Solana",
+          "url": "https://www.coindesk.com/business/2026/08/27/moonpay-s-newest-integration-lets-ai-agents-handle-crypto-lending-on-solana"
+        }
+      ]
+    },
+    {
+      "slug": "2026-08-28-crypto-news-bb4d887480",
+      "date_kst": "2026-08-28",
+      "title": "StarkWare Demonstrates a Quantum-Resistant Transaction on the Bitcoin Mainnet: Ordinary Nodes Still Cannot Relay It",
+      "content": "Blockchain technology company StarkWare said on August 26 local time that a transaction constructed in a quantum-resistant manner had been mined on the Bitcoin mainnet. Bitcoin addresses are usually hashes of public keys, so the public key is not revealed until the coins are spent. But once a spending transaction exposes the public key, there is a risk that during the period it sits in the mempool before being mined, a sufficiently powerful quantum computer could derive the private key from the public key and spend the same coins first. This Quantum-Safe Bitcoin (QSB) approach places a second, quantum-resistant lock based on hash functions alongside the existing lock, and uses \"signature grinding,\" which finds a valid Bitcoin signature without a private key. The sender searches repeatedly off-chain until the hash of the spending transaction is a signature in a valid form, so the security of the transaction comes to rest on the difficulty of inverting a hash rather than on the secrecy of a private key. Bitcoin's consensus rules were not changed, and STARK, StarkWare's zero-knowledge proof technology, was not used either. StarkWare said one transaction costs several hundred dollars, and Unchained reported that creating a single transaction required several hours of computation. Because the transaction format is non-standard, ordinary nodes do not accept it into their mempools or relay it. The researchers delivered the transaction directly to miners through MARA's Slipstream. Unchained reported that the transaction was included in block 964,199 at a size of 10,000 satoshis. Addresses that have already been spent from, and whose public keys are therefore exposed on-chain, are not protected by QSB alone and require separate measures to move the funds. Eli Ben-Sasson, StarkWare's chief executive officer, said he still wants Bitcoin to choose a soft fork. Because standards proposals and adoption by nodes and wallets remain, this demonstration does not make the entire Bitcoin network safe from quantum computers.",
+      "metanomia_thought": "Quantum risk is not solely a matter of cryptography. It is also a question of who can move to a safe address first, and which nodes and miners will accept a new transaction format. This demonstration showed that defensive experiments are possible even before a consensus change, but the method costs several hundred dollars and several hours per transaction, so rights for ordinary users only materialize once standard wallets and relay networks follow. Domestic custodians and exchanges should not treat quantum risk as a distant-future concern either, and need to prepare plans for moving assets whose public keys have already been exposed.",
+      "sources": [
+        {
+          "title": "The first quantum-safe Bitcoin transaction has been mined",
+          "url": "https://starkware.co/blog/the-first-quantum-safe-bitcoin-transaction-has-been-mined/"
+        },
+        {
+          "title": "First quantum-resistant Bitcoin transaction successfully executed, StarkWare says",
+          "url": "https://www.theblock.co/news/defi/2026-08-26-first-quantum-resistant-bitcoin-transaction-starkware-412863"
+        },
+        {
+          "title": "StarkWare Executes First Quantum-Safe Bitcoin Transaction on Mainnet",
+          "url": "https://unchainedcrypto.com/starkware-executes-first-quantum-safe-bitcoin-transaction-on-mainnet/"
+        }
+      ]
+    },
+    {
+      "slug": "2026-08-28-crypto-news-553af57d2c",
+      "date_kst": "2026-08-28",
+      "title": "Virtu and Tradeweb Complete On-Chain Repo Collateralized by a Sovereign Digital Bond: Repurchase Settled in Under 10 Minutes Without a Prime Broker",
+      "content": "Virtu Financial, M1X Global and Tradeweb said they completed a fully on-chain repurchase agreement transaction using a sovereign digital bond as collateral on August 27 local time. Virtu is a global market maker and was a counterparty to the repo, Tradeweb provided the electronic trading platform for bonds and rates, and M1X Global has a public-private partnership with the Republic of the Marshall Islands and coordinates the legal, compliance, technology and custody infrastructure for sovereign digital securities. A repurchase agreement, or repo, is a form of short-term collateralized financing in which securities are delivered in exchange for cash and then bought back at an agreed price at a set date. The three companies said this is the first known case in which a self-issued sovereign digital security on-chain was used as collateral for a repo executed on a major institutional electronic trading platform without passing through a prime broker. The transaction was concluded bilaterally between regulated institutions on the Canton network, and the delivery of securities and payment of cash, along with the return of cash and repurchase of securities at maturity, were all processed atomically on-chain. The three companies explained that this approach eliminates the intraday balance sheet expansion and settlement exposure that arise under T+1 settlement infrastructure. The full repo cycle, from execution of the contract to repurchase at maturity, was completed in under 10 minutes. USDM1, the asset used as collateral, is a dollar-denominated sovereign bond issued directly on-chain by the Republic of the Marshall Islands, and M1X explains that it is neither a stablecoin, nor a tokenized fund, nor a central bank digital currency (CBDC). It is structured as a Brady bond under New York law with an explicit waiver of sovereign immunity, and is backed one-to-one by short-term U.S. Treasuries pledged by a U.S. trust company in a bankruptcy-remote structure. Holders have a perfected first-priority security interest in this Treasury collateral under Articles 8 and 9 of the U.S. Uniform Commercial Code (UCC), and unlike digital cash-equivalent products, USDM1 pays a coupon even while it is being used as margin or collateral. However, USDM1 is offered and sold only outside the United States under Regulation S, the U.S. securities law provision governing offshore issuance, and may not be offered, sold, pledged or transferred within the United States or to U.S. persons unless registered or exempt. The size of the transaction, the assets used for the cash payment, the applicable rate and the maturity were not disclosed. What this transaction demonstrated is that a sovereign digital bond can function as collateral in institutional repo, and it does not signify the launch of continuous trading or adoption across the market.",
+      "metanomia_thought": "On-chain atomic settlement reduces the risk of securities and cash settling out of step, but what is recognized as collateral and who bears the loss in a default are still determined by contracts between institutions and by governing law. The creditworthiness of USDM1 rests not on code but on its U.S. Treasury reserve assets and bankruptcy-remote structure, on New York law and the waiver of sovereign immunity, and on a perfected first-priority security interest under Articles 8 and 9 of the UCC, while U.S. persons are not even permitted to pledge it as collateral. If Korea institutionalizes short-term funding transactions collateralized by tokenized securities, it should require disclosure not only of settlement speed but also of collateral eligibility standards, the priority of security interests, recovery procedures in the event of default, and the governing law.",
+      "sources": [
+        {
+          "title": "First Fully Onchain Repo Transaction Completed Using Sovereign Digital Bond",
+          "url": "https://www.tradeweb.com/newsroom/media-center/in-the-news/first-fully-onchain-repo-transaction-completed-using-sovereign-digital-bond/"
+        },
+        {
+          "title": "First Fully Onchain Repo Transaction Completed Using a Sovereign Digital Bond",
+          "url": "https://www.businesswire.com/news/home/20260827934508/en/"
+        },
+        {
+          "title": "Onchain Repo Using Sovereign Digital Bond is ‘Pivotal’",
+          "url": "https://www.marketsmedia.com/onchain-repo-using-sovereign-digital-bond-is-pivotal/"
+        }
+      ]
+    },
+    {
+      "slug": "2026-08-28-crypto-news-1c73e281b6",
+      "date_kst": "2026-08-28",
+      "title": "Moonwell Halts New Base Lending After MAMO Collateral Price Manipulation: Estimated Damage of $8.7 Million",
+      "content": "Decentralized lending protocol Moonwell said it is investigating anomalous transactions that occurred on August 27 local time in the MAMO core lending market on Base, an Ethereum layer 2. According to TechTimes, MAMO is a small, low-liquidity token whose market capitalization was about $6 million before the incident. TechTimes analyzed that the attacker pushed the price up roughly eightfold in the shallow MAMO liquidity pools on Aerodrome and Uniswap, and that a spot price oracle without time-weighted average price (TWAP) protection reflected this in collateral value. Using the inflated MAMO as collateral, the attacker borrowed liquid assets such as Coinbase Wrapped Bitcoin (cbBTC) in amounts exceeding the actual disposal value and exited. PeckShield and CertiK estimated the damage at about $8.7 million, and the assets that were taken out were gathered in a single address as DAI. According to The Block, Blockaid also confirmed the same attack path. Moonwell lowered the borrow caps across the entire Base core market and the supply caps for MAMO and WELL to 1 wei, effectively the smallest unit the contract processes, halting new supply and borrowing without eliminating existing positions. According to Moonwell's official forum, an anomaly in the wrsETH oracle in November 2025 produced $3.7 million in bad debt, and The Block reported that a cbETH oracle configuration error in February 2026 produced about $1.78 million in bad debt. Moonwell's final incident report, along with confirmed losses, recovered amounts, the treatment of existing user positions, and a compensation plan, has not yet been disclosed. Based on the analysis published so far, this incident is classified not as a breach of smart contract code but as a manipulation of the collateral price the code referenced.",
+      "metanomia_thought": "Even when a smart contract executes exactly as specified, if the input price is manipulated, the lending market accepts an incorrect collateral value as fact. The capacity to control risk rests not on code alone but on which oracle is used, how collateral liquidity is screened, and who can lower supply and borrow caps, by how much, and how quickly. When on-chain lending is brought inside the regulatory perimeter in Korea as well, collateral eligibility standards, pricing methods, emergency-halt authority, and the order of loss allocation should be required to be disclosed at the level of a product prospectus.",
+      "sources": [
+        {
+          "title": "Moonwell Base Core Markets emergency parameter update",
+          "url": "https://x.com/MoonwellDeFi/status/2092935617688805818"
+        },
+        {
+          "title": "Moonwell investigates lending market issue on Base as security firms flag multimillion-dollar exploit",
+          "url": "https://www.theblock.co/news/defi/2026-08-27-moonwell-investigates-base-lending-market-issue-412913"
+        },
+        {
+          "title": "Moonwell Oracle Exploit Exceeds Full Annual Revenue: Third Failure in 11 Months",
+          "url": "https://www.techtimes.com/articles/325839/20260827/moonwell-oracle-exploit-exceeds-full-annual-revenue-third-failure-11-months.htm"
+        },
+        {
+          "title": "wrsETH Oracle Malfunction 11/4/25",
+          "url": "https://forum.moonwell.fi/t/wrseth-oracle-malfunction-11-4-25/2017"
+        },
+        {
+          "title": "DeFi lending protocol Moonwell hit with $1.8 million bad debt after oracle misconfiguration",
+          "url": "https://www.theblock.co/news/regulation/2026-02-18-defi-lending-protocol-moonwell-hit-with-1-8-million-bad-debt-after-oracle-misconfiguration-390302"
+        }
+      ]
+    },
     {
       "slug": "2026-08-27-crypto-news-7f5661b778",
       "date_kst": "2026-08-27",
