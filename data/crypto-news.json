@@ -1,7 +1,125 @@
 {
   "schema_version": "1.0",
-  "generated_at_kst": "2026-08-27T10:32:00+09:00",
+  "generated_at_kst": "2026-08-28T09:19:00+09:00",
   "items": [
+    {
+      "id": "crypto-news-e69811bde98db54f",
+      "slug": "2026-08-28-crypto-news-e69811bde9",
+      "date_kst": "2026-08-28",
+      "title": "빗썸, 비트코인 오지급 매각대금 반환소송 4건 중 2건 1심 승소…반환 인정액 약 1억9,900만원",
+      "content": "서울중앙지방법원이 8월 27일 빗썸의 비트코인 오지급 사고 때 잘못 표시된 잔고를 매도한 이용자에게 매각대금 약 1억9,400만원을 반환하라고 판결했다. 앞서 26일에도 같은 유형의 사건에서 약 499만원 반환 판결이 나와 두 사건에서 반환하라고 인정된 금액은 합계 약 1억9,900만원이다. 두 사건은 모두 공시송달로 진행됐다. 공시송달은 상대방의 주소나 근무 장소를 확인하기 어려울 때 법원 게시 등으로 소송서류가 전달된 것으로 간주하는 절차다. 빗썸이 같은 사고와 관련해 제기한 부당이득금 반환소송은 모두 네 건이며, 약 5억원과 1,480만원 규모의 나머지 두 사건은 진행 중이다. 사고는 지난 2월 고객 이벤트 보상을 지급하면서 원화 금액을 비트코인 단위로 잘못 입력해 약 62만개의 비트코인이 이용자 계정에 표시되면서 일어났다. 이는 고객별 권리를 기록하는 거래소 내부원장의 오류였으며 비트코인 네트워크로 실제 전송된 것은 아니다. 빗썸은 거래와 출금을 제한해 대부분을 회수했지만 일부 이용자는 그 전에 비트코인을 매도했고, 매각대금을 반환하지 않은 이용자들을 상대로 네 건의 소송을 제기했다. 법원의 구체적인 판단 이유와 피고 측 주장, 항소 여부와 판결 확정 여부는 공개 자료에서 확인되지 않았다. 이번 판결은 착오로 표시된 잔고를 처분한 이용자에게 대금 반환 의무를 인정한 1심 판단이며, 양쪽 주장이 다투어져 정리된 법리는 아니다.",
+      "metanomia_thought": "중앙화 거래소 화면에 표시된 숫자는 블록체인 거래로 확정된 보유 기록과 같지 않습니다. 다만 이번 두 건은 피고 측 주장이 재판에 나오지 않은 상태에서 나온 1심이어서, 오지급 잔고를 처분한 이용자가 어디까지 책임을 지는지는 아직 열려 있는 문제입니다. 국내에서 오지급 사고를 다룰 제도는 거래소의 회수·거래 취소 기준과 체결 상대방의 보호, 이용자 통지와 이의제기 절차를 함께 정해야 합니다.",
+      "sources": [
+        {
+          "title": "빗썸, 오지급 비트코인 반환소송 잇달아 승소⋯청구액 약 2억원",
+          "url": "https://www.etoday.co.kr/news/view/2618987?trc=main_section_finance"
+        },
+        {
+          "title": "Bithumb wins lawsuit over proceeds from 620,000 BTC fat-finger error: report",
+          "url": "https://www.theblock.co/news/regulation/2026-08-27-bithumb-wins-lawsuit-btc-412893"
+        }
+      ]
+    },
+    {
+      "id": "crypto-news-cec5beecb41d4c17",
+      "slug": "2026-08-28-crypto-news-cec5beecb4",
+      "date_kst": "2026-08-28",
+      "title": "문페이 페이박스, AI가 카미노 예치·담보대출 실행…건별 승인 또는 한도 내 자동",
+      "content": "글로벌 핀테크 기업 문페이(MoonPay)가 현지시간 8월 27일 AI 에이전트용 결제·지갑 권한 관리 서비스 페이박스(PayBox)에 솔라나 기반 대출 프로토콜 카미노(Kamino)를 연동했다고 밝혔다. 이용자는 챗GPT(ChatGPT)나 클로드(Claude)와 대화하며 토큰 종류와 금액을 지시해 카미노에 토큰을 공급하고 수익을 얻거나, 공급한 암호자산을 담보로 달러 연동 스테이블코인 USDC를 빌릴 수 있다. 문페이는 별도 프로토콜 화면을 열지 않고 ‘카미노에 500 USDC를 공급한다’거나 ‘SOL을 담보로 USDC를 빌린다’고 지시할 수 있다고 설명했다. 이번 연동은 새 대출상품을 만든 것이 아니라 전용 커넥터를 통해 AI가 카미노의 기존 공급·차입 거래를 준비하도록 한 것이다. 승인이 필요한 거래는 패스키로 확인하며 이용자는 항상 승인, 한도 초과 때 승인, 사전 정책 안 자동 실행 등 세 가지 모드 가운데 하나를 에이전트별로 정할 수 있다. 문페이는 지갑에 비수탁 MPC 기반 임계값 암호화와 시큐어 인클레이브를 적용해 문페이나 AI 에이전트가 완전한 개인키에 접근하거나 단독으로 거래에 서명할 수 없다고 밝혔다. 차입 뒤 담보가치가 카미노의 청산 기준 아래로 떨어지면 청산자가 빚을 갚고 담보 일부를 가져갈 수 있다. 문페이는 수익률이 보장되지 않고 스마트계약·청산·프로토콜 취약점 위험이 있다고 고지했다. 카미노 연동은 미국·영국·유럽연합·호주에서 제공되지 않고 자산과 관할에 따라 범위가 달라지며, 대출 조건과 청산은 계속 카미노의 기존 시장 규칙에 따른다.",
+      "metanomia_thought": "이용자가 AI에게 넘긴 것은 금융 위험의 책임이 아니라 정해진 범위 안의 실행권입니다. 문페이의 키 분산 구조는 단일 주체가 완전한 개인키를 확보할 위험을 낮추지만, 이용자가 허용한 범위의 오명령이나 청산을 막지는 않으며 청산이 시작되면 대화 의도보다 카미노 규칙이 먼저 작동합니다. 국내에서 에이전트 금융을 허용하려면 거래별 승인과 자동 한도를 구분하고, 오명령·위임 권한 남용·청산 때 책임 주체와 감사기록을 사전에 표시하도록 해야 합니다.",
+      "sources": [
+        {
+          "title": "PayBox Adds Kamino, Bringing Onchain Lending to Claude and ChatGPT",
+          "url": "https://www.moonpay.com/newsroom/paybox-kamino"
+        },
+        {
+          "title": "MoonPay Launches PayBox, a Payment Vault for Claude and ChatGPT That Turns Prompts Into Payments",
+          "url": "https://www.moonpay.com/newsroom/moonpay-paybox"
+        },
+        {
+          "title": "PayBox FAQs",
+          "url": "https://support.moonpay.com/en/articles/669843-paybox-faqs"
+        },
+        {
+          "title": "MoonPay's newest integration lets AI agents handle crypto lending on Solana",
+          "url": "https://www.coindesk.com/business/2026/08/27/moonpay-s-newest-integration-lets-ai-agents-handle-crypto-lending-on-solana"
+        }
+      ]
+    },
+    {
+      "id": "crypto-news-bb4d8874809e46a4",
+      "slug": "2026-08-28-crypto-news-bb4d887480",
+      "date_kst": "2026-08-28",
+      "title": "스타크웨어, 비트코인 메인넷서 양자내성 거래 시연…일반 노드는 아직 중계 못 해",
+      "content": "블록체인 기술기업 스타크웨어(StarkWare)가 현지시간 8월 26일 비트코인 메인넷에서 양자내성 방식으로 만든 거래가 채굴됐다고 밝혔다. 비트코인 주소는 대개 공개키의 해시여서 지출 전까지 공개키가 드러나지 않지만, 지출 거래가 공개키를 노출한 뒤 채굴 전까지 메모리풀에 머무는 동안 충분히 강력한 양자컴퓨터가 공개키에서 개인키를 유도해 같은 코인을 먼저 쓸 위험이 있다. 이번 양자안전 비트코인(Quantum-Safe Bitcoin·QSB) 방식은 기존 잠금과 함께 해시 함수 기반의 두 번째 양자내성 잠금을 두고, 개인키 없이 유효한 비트코인 서명을 찾는 '서명 그라인딩(signature grinding)'을 사용한다. 송신자가 지출 거래의 해시가 유효한 형식의 서명이 될 때까지 오프체인에서 반복 탐색하는 방법으로, 거래의 안전성은 개인키의 비밀성보다 해시를 역산하기 어려운 성질에 기대게 된다. 비트코인의 합의규칙은 바꾸지 않았고 스타크웨어의 영지식증명 기술 STARK도 쓰지 않았다. 스타크웨어는 거래 한 건에 수백 달러가 든다고 밝혔고, 언체인드(Unchained)는 거래 하나를 만드는 데 몇 시간의 연산이 필요했다고 전했다. 거래 형식이 비표준이라 일반 노드는 이를 메모리풀에 받아 중계하지 않는다. 연구진은 마라(MARA)의 슬립스트림(Slipstream)을 통해 거래를 채굴자에게 직접 전달했다. 언체인드는 이 거래가 블록 964,199에 1만 사토시 규모로 포함됐다고 보도했다. 이미 지출해 공개키가 온체인에 드러난 주소는 QSB만으로 보호되지 않아 별도의 이전 대책이 필요하다. 엘리 벤사손(Eli Ben-Sasson) 스타크웨어 최고경영자는 여전히 비트코인이 소프트포크를 택하기를 원한다고 밝혔다. 표준 제안과 노드·지갑 채택이 남아 있어 이번 시연이 비트코인 네트워크 전체를 양자컴퓨터로부터 안전하게 만든 것은 아니다.",
+      "metanomia_thought": "양자위험은 암호기술만의 문제가 아니라 누가 먼저 안전한 주소로 이동할 수 있고 어떤 노드와 채굴자가 새 거래 형식을 받아들이는가의 문제입니다. 이번 시연은 합의 변경 전에도 방어 실험이 가능하다는 점을 보였지만, 거래 하나에 수백 달러와 몇 시간이 드는 방식이어서 일반 이용자의 권리는 표준 지갑과 중계망이 따라와야 생깁니다. 국내 수탁사와 거래소도 양자위험을 먼 미래로만 두지 말고 공개키가 이미 드러난 자산의 이전 계획을 준비할 필요가 있습니다.",
+      "sources": [
+        {
+          "title": "The first quantum-safe Bitcoin transaction has been mined",
+          "url": "https://starkware.co/blog/the-first-quantum-safe-bitcoin-transaction-has-been-mined/"
+        },
+        {
+          "title": "First quantum-resistant Bitcoin transaction successfully executed, StarkWare says",
+          "url": "https://www.theblock.co/news/defi/2026-08-26-first-quantum-resistant-bitcoin-transaction-starkware-412863"
+        },
+        {
+          "title": "StarkWare Executes First Quantum-Safe Bitcoin Transaction on Mainnet",
+          "url": "https://unchainedcrypto.com/starkware-executes-first-quantum-safe-bitcoin-transaction-on-mainnet/"
+        }
+      ]
+    },
+    {
+      "id": "crypto-news-553af57d2c413747",
+      "slug": "2026-08-28-crypto-news-553af57d2c",
+      "date_kst": "2026-08-28",
+      "title": "버투·트레이드웹, 주권 디지털채권 담보 온체인 레포 완료…프라임브로커 없이 10분 만에 환매",
+      "content": "버투 파이낸셜(Virtu Financial)과 M1X 글로벌(M1X Global), 트레이드웹(Tradeweb)이 현지시간 8월 27일 주권 디지털채권을 담보로 쓴 완전 온체인 환매조건부채권 거래를 완료했다고 밝혔다. 버투는 글로벌 마켓메이커이자 이번 레포의 거래 당사자이고, 트레이드웹은 채권·금리 전자거래 플랫폼을 제공했으며, M1X 글로벌은 마셜제도공화국과 민관 파트너십을 맺고 주권 디지털증권의 법률·컴플라이언스·기술·수탁 인프라를 조율한다. 환매조건부채권, 즉 레포는 증권을 넘기고 현금을 받은 뒤 정해진 시점에 약정 가격으로 다시 사오는 단기 담보금융이다. 세 회사는 온체인에서 자체 발행된 주권 디지털증권이 프라임브로커를 거치지 않고 주요 기관 전자거래 플랫폼에서 실행된 레포의 담보로 쓰인 것은 알려진 사례 가운데 처음이라고 밝혔다. 거래는 캔톤(Canton) 네트워크에서 규제 대상 기관 간 양자 방식으로 체결됐고, 증권 인도와 현금 지급, 만기 때의 현금 반환과 증권 환매가 모두 온체인에서 원자적으로 처리됐다. 세 회사는 이 방식이 T+1 결제 인프라에서 생기는 일중 대차대조표 팽창과 결제 익스포저를 없앤다고 설명했다. 계약 체결부터 만기 환매까지 전체 레포 주기는 10분 안에 끝났다. 담보로 쓰인 USDM1은 마셜제도공화국이 온체인에서 직접 발행한 달러 표시 주권 채권으로, M1X는 스테이블코인도 토큰화 펀드도 중앙은행 디지털화폐(CBDC)도 아니라고 설명한다. 뉴욕법에 따라 브래디본드 방식으로 구조화되고 주권면제를 명시적으로 포기했으며, 미국 신탁회사가 도산격리 구조로 담보 제공한 단기 미국 국채로 1대1 뒷받침된다. 보유자는 미국 통일상법전(UCC) 제8·9조에 따라 이 국채 담보에 대한 대항요건을 갖춘 제1순위 담보권을 가지며, USDM1은 디지털 현금성 상품과 달리 증거금이나 담보로 쓰이는 동안에도 쿠폰을 지급한다. 다만 USDM1은 미국 증권법의 역외 발행 규정인 레귤레이션 S(Regulation S)에 따라 미국 밖에서만 제공·판매되며, 등록되거나 면제되지 않는 한 미국 내에서 또는 미국인에게 제공·판매·담보제공·이전될 수 없다. 거래 금액과 현금 지급에 사용된 자산, 적용 금리와 만기는 공개되지 않았다. 이번 거래가 보여준 것은 주권 디지털채권이 기관 레포의 담보로 기능할 수 있다는 사실이며, 상시 거래 개시나 시장 전반의 채택을 뜻하지는 않는다.",
+      "metanomia_thought": "온체인 원자결제는 증권과 현금이 엇갈려 결제되는 위험을 줄이지만, 무엇을 담보로 인정할지와 채무불이행 손실을 누가 질지는 여전히 기관 간 계약과 준거법이 정합니다. USDM1의 신용도는 코드가 아니라 미국 국채 준비자산과 도산격리 구조, 뉴욕법과 주권면제 포기, UCC 제8·9조상 대항요건을 갖춘 제1순위 담보권에 기대고 있고, 정작 미국인에게는 담보로 제공하는 것조차 허용되지 않습니다. 국내에서 토큰증권을 담보로 한 단기 자금거래를 제도화한다면 결제 속도만이 아니라 담보 적격 기준과 담보권 순위, 부도 때의 회수 절차와 준거법을 함께 공개하도록 해야 합니다.",
+      "sources": [
+        {
+          "title": "First Fully Onchain Repo Transaction Completed Using Sovereign Digital Bond",
+          "url": "https://www.tradeweb.com/newsroom/media-center/in-the-news/first-fully-onchain-repo-transaction-completed-using-sovereign-digital-bond/"
+        },
+        {
+          "title": "First Fully Onchain Repo Transaction Completed Using a Sovereign Digital Bond",
+          "url": "https://www.businesswire.com/news/home/20260827934508/en/"
+        },
+        {
+          "title": "Onchain Repo Using Sovereign Digital Bond is ‘Pivotal’",
+          "url": "https://www.marketsmedia.com/onchain-repo-using-sovereign-digital-bond-is-pivotal/"
+        }
+      ]
+    },
+    {
+      "id": "crypto-news-1c73e281b6ba99e7",
+      "slug": "2026-08-28-crypto-news-1c73e281b6",
+      "date_kst": "2026-08-28",
+      "title": "문웰, MAMO 담보가격 조작 뒤 베이스 신규 대출 차단…피해 추정 870만 달러",
+      "content": "탈중앙화 대출 프로토콜 문웰(Moonwell)이 현지시간 8월 27일 이더리움 레이어2 베이스(Base)의 MAMO 코어 대출시장에서 발생한 이상 거래를 조사하고 있다고 밝혔다. 테크타임스(TechTimes)에 따르면 MAMO는 사고 전 시가총액이 약 600만 달러였던 유동성이 낮은 소형 토큰이다. 테크타임스는 공격자가 에어로드롬(Aerodrome)과 유니스왑(Uniswap)의 얕은 MAMO 유동성 풀에서 가격을 약 8배 끌어올렸고, 시간가중평균가격(TWAP) 보호 장치가 없는 현물가격 오라클이 이를 담보가치에 반영했다고 분석했다. 공격자는 부풀려진 MAMO를 담보로 실제 처분가치보다 많은 코인베이스 래핑 비트코인(cbBTC) 등 유동성 자산을 빌려 빠져나갔다. 펙실드(PeckShield)와 서틱(CertiK)은 피해를 약 870만 달러로 추정했고, 빠져나간 자산은 DAI로 한 주소에 모였다. 더블록(The Block)에 따르면 블록에이드(Blockaid)도 같은 공격 경로를 확인했다. 문웰은 베이스 코어 시장 전체의 차입 한도와 MAMO·WELL의 공급 한도를 계약이 처리하는 사실상 최소 단위인 1 wei로 낮춰, 기존 포지션을 없애지 않으면서 신규 공급과 차입을 중단했다. 문웰 공식 포럼에 따르면 2025년 11월 wrsETH 오라클 이상으로 370만 달러의 부실채권이 발생했고, 더블록은 2026년 2월 cbETH 오라클 설정 오류로 약 178만 달러의 부실채권이 발생했다고 보도했다. 문웰의 최종 사고보고서와 확정 손실, 회수액, 기존 이용자 포지션 처리와 보상안은 아직 공개되지 않았다. 현재 공개된 분석을 기준으로 이번 사고는 스마트계약 코드 침해가 아니라 코드가 참조한 담보가격을 조작한 사건으로 분류된다.",
+      "metanomia_thought": "스마트계약이 정해진 대로 실행돼도 입력 가격이 조작되면 대출시장은 잘못된 담보가치를 사실처럼 받아들입니다. 위험을 통제하는 힘은 코드만이 아니라 어떤 오라클을 쓰고 담보 유동성을 어떻게 심사하며 공급·차입 한도를 누가 얼마나 빨리 낮출 수 있는지에 달려 있습니다. 국내에서 온체인 대출을 제도 안으로 들일 때도 담보 적격 기준과 가격 산정 방식, 비상정지 권한, 손실 배분 순서를 상품 설명서 수준으로 공개하도록 해야 합니다.",
+      "sources": [
+        {
+          "title": "Moonwell Base Core Markets emergency parameter update",
+          "url": "https://x.com/MoonwellDeFi/status/2092935617688805818"
+        },
+        {
+          "title": "Moonwell investigates lending market issue on Base as security firms flag multimillion-dollar exploit",
+          "url": "https://www.theblock.co/news/defi/2026-08-27-moonwell-investigates-base-lending-market-issue-412913"
+        },
+        {
+          "title": "Moonwell Oracle Exploit Exceeds Full Annual Revenue: Third Failure in 11 Months",
+          "url": "https://www.techtimes.com/articles/325839/20260827/moonwell-oracle-exploit-exceeds-full-annual-revenue-third-failure-11-months.htm"
+        },
+        {
+          "title": "wrsETH Oracle Malfunction 11/4/25",
+          "url": "https://forum.moonwell.fi/t/wrseth-oracle-malfunction-11-4-25/2017"
+        },
+        {
+          "title": "DeFi lending protocol Moonwell hit with $1.8 million bad debt after oracle misconfiguration",
+          "url": "https://www.theblock.co/news/regulation/2026-02-18-defi-lending-protocol-moonwell-hit-with-1-8-million-bad-debt-after-oracle-misconfiguration-390302"
+        }
+      ]
+    },
     {
       "id": "crypto-news-7f5661b778a7a522",
       "slug": "2026-08-27-crypto-news-7f5661b778",
