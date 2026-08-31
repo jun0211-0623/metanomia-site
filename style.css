@@ -1281,6 +1281,15 @@ html[lang="ko"] .crypto-news-thought__body {
   letter-spacing: -.045em;
   text-wrap: balance;
 }
+.lead__title.prediction-market-title--en { max-width: none; }
+.prediction-market-title__main,
+.prediction-market-title__sub { display: block; }
+.prediction-market-title__sub {
+  margin-top: 10px;
+  font-size: .58em;
+  line-height: 1.18;
+  letter-spacing: -.025em;
+}
 .lead__excerpt {
   max-width: 43ch;
   margin-top: 24px;
@@ -1785,6 +1794,7 @@ html[lang="ko"] .cat-tabs + .cat-hero--compact .cat-intro__body {
   .lead__slide { grid-template-rows: minmax(250px, .85fr) minmax(390px, 1.15fr); }
   .lead__overlay { padding: 30px 24px 76px; }
   .lead__title { max-width: none; font-size: clamp(31px, 10vw, 42px); line-height: 1.16; }
+  .prediction-market-title__sub { margin-top: 8px; font-size: .68em; line-height: 1.22; }
   .lead__excerpt { margin-top: 18px; font-size: 14px; }
   .lead__byline { margin-top: 20px; }
   .lead__dots { left: 24px; bottom: 25px; }
