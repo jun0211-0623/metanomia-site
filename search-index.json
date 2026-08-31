@@ -330,6 +330,14 @@
   {
     "lang": "en",
     "type": "Report",
+    "title": "Crypto Prediction Markets: The Wisdom of the Crowd or a Hunting Ground for the Few?",
+    "sub": "The paradox of price accuracy and concentrated profits in blockchain prediction markets.",
+    "meta": "Seyeon Cho · August 2026",
+    "url": "/articles/crypto-prediction-markets"
+  },
+  {
+    "lang": "en",
+    "type": "Report",
     "title": "Can Bitcoin Survive the Age of Quantum Computing?",
     "sub": "The Quantum Threat and the Evolution of Bitcoin Security",
     "meta": "Yonkyung Kim, Hyemin Son · May 2026",
@@ -438,6 +446,14 @@
     "sub": "Policy & Strategy, what to change or build, and which option to pursue, and how. Metanomia report series.",
     "meta": "",
     "url": "/series/policy-strategy"
+  },
+  {
+    "lang": "ko",
+    "type": "보고서",
+    "title": "크립토 예측시장: 모두의 지혜인가, 소수의 사냥터인가",
+    "sub": "예측시장의 가격 정확성과 수익 집중의 역설",
+    "meta": "조세연 · 2026년 8월",
+    "url": "/ko/articles/crypto-prediction-markets"
   },
   {
     "lang": "ko",
