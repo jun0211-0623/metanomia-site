@@ -51,6 +51,13 @@
   }
 
   function buildLeadTitle(report) {
+    if (!isKo && report.href.indexOf('crypto-prediction-markets') !== -1) {
+      var predictionTitle = make('h2', 'lead__title prediction-market-title--en');
+      predictionTitle.setAttribute('aria-label', report.title);
+      predictionTitle.appendChild(make('span', 'prediction-market-title__main', 'Crypto Prediction Markets'));
+      predictionTitle.appendChild(make('span', 'prediction-market-title__sub', 'The Wisdom of the Crowd or a Hunting Ground for the Few?'));
+      return predictionTitle;
+    }
     if (isKo && report.href.indexOf('where-is-ethereum-going') !== -1) {
       var title = make('h2', 'lead__title ethereum-report-title');
       title.setAttribute('aria-label', report.title);
