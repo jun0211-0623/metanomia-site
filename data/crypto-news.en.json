@@ -1,7 +1,154 @@
 {
   "schema_version": "1.0",
-  "generated_at_kst": "2026-08-28T09:19:00+09:00",
+  "generated_at_kst": "2026-08-31T11:01:00+09:00",
   "items": [
+    {
+      "slug": "2026-08-31-crypto-news-e83344f554",
+      "date_kst": "2026-08-31",
+      "title": "Cosmos EVM Vulnerability Causes $5.7 Million in Losses Across Six Chains: April Report Misjudged as Posing \"No Risk to Production Networks\"",
+      "content": "On August 28 local time, Cosmos Labs published an official post-mortem covering a vulnerability in Cosmos EVM, which is used by several Cosmos-based chains, and the course of the attack. The attack took place from August 20 to August 25 UTC across six chains. Of the stolen assets, the attacker is estimated to have disposed of roughly $2.87 million worth on decentralized exchanges and roughly $2.85 million worth on centralized exchanges. The related centralized exchange accounts have been frozen for the investigation, but whether the stolen assets have actually been recovered has not been confirmed. The problem arose because Cosmos EVM and the Cosmos staking system each calculated the balance of \"vesting accounts,\" which hold tokens that have not yet been unlocked, differently. When more tokens were staked than the available balance, the balance did not fall below zero but instead turned into a very large number. The attacker sent this balance to another account holding a large balance, triggered the same error there, and then took the tokens that account held. The vulnerability was first reported through a bug bounty on April 25. However, the test cases in the report had been written for networks with 6 decimal places, and Cosmos Labs was unable to reproduce the problem in an 18 decimal place environment. It therefore concluded that funds on live networks were not at risk, but in fact all Cosmos EVM chains were confirmed to be affected regardless of the number of decimal places. The vulnerability was fixed in v0.6.2 and v0.7.2. Cosmos Labs advised that configuration changes alone cannot fully prevent the problem, and that chains unable to upgrade immediately should halt their networks to block the attack. This disclosure is an account of the vulnerability's cause and the course of the response; it does not mean that the stolen assets have been recovered or that patching is complete across all chains.",
+      "metanomia_thought": "Shared code can spread the same defect across multiple ledgers at once, even when each chain is operated independently. In this case the authority to halt a chain rested with each operating entity, but assessment of the vulnerability and information about the patch were concentrated at Cosmos Labs. When domestic institutions adopt shared blockchain software, they need to settle in advance not only code audits but also emergency contact channels, criteria for halting a network, and who has the authority to approve patches and upgrades.",
+      "sources": [
+        {
+          "title": "Cosmos EVM GHSA-7g4w-cg88-2cq2 Post-Mortem",
+          "url": "https://github.com/cosmos/security/blob/main/communications/cosmos_evm_GHSA-7g4w-cg88-2cq2_post_mortem.md"
+        },
+        {
+          "title": "Balance underflow in EVM StateDB",
+          "url": "https://github.com/cosmos/evm/security/advisories/GHSA-7g4w-cg88-2cq2"
+        },
+        {
+          "title": "Cosmos Labs says it wrongly cleared the bug behind a $5.7 million six-chain hack",
+          "url": "https://www.theblock.co/news/defi/2026-08-29-cosmos-labs-says-it-wrongly-cleared-the-bug-behind-a-5-7-million-six-chain-hack-413061"
+        }
+      ]
+    },
+    {
+      "slug": "2026-08-31-crypto-news-da07e4c68f",
+      "date_kst": "2026-08-31",
+      "title": "Traded Event Contracts on Undisclosed White House Speech Material: CFTC Orders $172,539 in Disgorgement and Penalty",
+      "content": "On August 28 local time, the U.S. Commodity Futures Trading Commission (CFTC) issued a settled administrative order against Gabriel Perez, who worked at the White House as a presidential technology aide operating the teleprompter, on charges of trading event contracts using non-public speech information. According to the CFTC order, Perez traded in 14 markets (mention markets) that predicted whether President Donald Trump would say particular words or phrases in his speeches, from December 2025 through March 2026. He profited on 39 of the 43 contracts he traded, earning a total of $107,539.02. The CFTC ordered full disgorgement of the ill-gotten gains along with a civil monetary penalty of $65,000. The total payment amount is $172,539.02. Perez was also barred from trading on CFTC-registered entities for the next three years. The CFTC reduced the civil penalty by roughly 40% to reflect Perez's cooperation with the investigation. Perez settled the matter without admitting or denying the findings of fact and conclusions of law set out in the order. This action is a CFTC administrative order based on a settlement between the parties, not a court ruling that uniformly establishes the legal character of all event contracts.",
+      "metanomia_thought": "Prediction markets compress public information into a price, but they are not a mechanism that puts those who gain earlier access to non-public information on a fair footing. If Korea is to discuss introducing a domestic prediction market, it must first design trading restrictions for public officials, political parties, broadcasters, and platform personnel who can access the relevant non-public information, along with records of information access and standards for clawing back gains from violations. The prior question is not the market's predictive accuracy but who creates the questions, who adjudicates the outcomes, and who controls the non-public information.",
+      "sources": [
+        {
+          "title": "ORDER INSTITUTING PROCEEDINGS PURSUANT TO SECTION 6(c) AND (d) OF THE COMMODITY EXCHANGE ACT, MAKING FINDINGS, AND IMPOSING REMEDIAL SANCTIONS",
+          "url": "https://www.cftc.gov/media/14536/Enf_PerezConsentOrder082826/download"
+        },
+        {
+          "title": "CFTC Orders Gabriel Perez to Pay $172,000 for Insider Trading of Mention Market Event Contracts",
+          "url": "https://www.cftc.gov/PressRoom/PressReleases/9289-26"
+        },
+        {
+          "title": "Former White House teleprompter operator ordered to turn over profits, pay fine over insider trading",
+          "url": "https://apnews.com/article/535e252b20f39ab414f93d806758c626"
+        }
+      ]
+    },
+    {
+      "slug": "2026-08-31-crypto-news-a313768b9c",
+      "date_kst": "2026-08-31",
+      "title": "Korbit's Customer Ledger and On-Chain Balance Diverge by More Than 210,000 Tokens After Harmony Rollback: Holding Ratio in the 95% Range",
+      "content": "Korbit, a domestic virtual asset exchange, disclosed on August 28 that its Harmony (ONE) asset holding ratio had fallen below 99%. According to the disclosure, the amount of Harmony recorded in customer accounts was 4,706,076 tokens, while the exchange's actual holdings were 4,491,789 tokens, leaving a shortfall of 214,287 tokens. The holding ratio calculated from those figures is roughly 95.4%. Converted into won at the time of reporting, the amount comes to about 214,200 won, which is not a large sum, but the fact that the reserve asset ratio fell below 100% is a ledger problem separate from the amount. The gap arose from the August 12 security incident involving unauthorized token issuance on the Harmony network and the rollback that followed. According to News1, the scale of the unauthorized issuance was put at 3,010,010,000,000 tokens, and the rollback also invalidated 109,126 ordinary transactions and 315 staking transactions that had been processed after the incident. Korbit explained that some deposit transactions it had properly received before suspending deposits, and had already reflected in customer accounts, were invalidated on-chain by the rollback. As a result, the obligation to pay customers remained on the exchange's internal ledger, while part of the on-chain assets backing it disappeared. News1 reported that Huobi Korea had already designated Harmony as a cautionary asset in 2021, whereas Korbit designated it as a cautionary asset only on August 12, the day the security incident occurred. Korbit said that, with deposits and withdrawals of the asset suspended, it would cover the entire shortfall using its own funds and would discuss further measures with the Harmony foundation. Korbit explained that once these steps are completed the asset holding ratio will return to a normal level, but the remediation is still at the planning stage.",
+      "metanomia_thought": "This case asks which record finally determines a user's rights: the exchange's ledger or the blockchain's ledger. Korbit's decision to absorb the shortfall places customer claims ahead of the chain rollback, but its judgment in leaving untouched, until the day of the incident, an asset that another exchange had designated as a cautionary asset five years earlier is a separate matter. Domestic exchanges should disclose their finality standards for each chain, how losses are allocated in the event of a large-scale rollback, and the deadline for restoring the reserve asset ratio.",
+      "sources": [
+        {
+          "title": "하모니(ONE) 잔고대사 결과 차이 사유 공시 [기준일 : 2026-08-28 ~ 2026-09-27]",
+          "url": "https://www.korbit.co.kr/service/disclosure/detail/?id=48IbLrLT5ohaGD47MlrXOk"
+        },
+        {
+          "title": "[단독] 박현주 \"알트코인 사기\"라더니…코빗 단독상장 코인 21만개 사라졌다",
+          "url": "https://www.news1.kr/amp/finance/blockchain-fintech/6273405"
+        }
+      ]
+    },
+    {
+      "slug": "2026-08-31-crypto-news-8a7524cd44",
+      "date_kst": "2026-08-31",
+      "title": "Virtual Asset Income Taxation, 2027 to 2029: Bill Filed for a Two-Year Deferral",
+      "content": "On August 28, Rep. Kim Sang-hoon of the People Power Party and 11 other lawmakers introduced Bill No. 2220914, an amendment to the Income Tax Act that would postpone the start of taxation on virtual asset income by another two years. The provision applying separate taxation to income from the transfer and lending of virtual assets as other income was legislated in 2020, but its entry into force has been delayed three times, and the currently scheduled date is January 1, 2027. The amendment proposes pushing this back another two years to January 1, 2029 (proposed Article 37, Paragraphs 5 and 6). As grounds for the bill, the sponsors cited the fact that the taxation infrastructure needed to trace or verify transaction records outside centralized exchanges, at decentralized exchanges, in peer-to-peer trading and in decentralized finance, is not sufficiently in place. They also presented, as further grounds for deferral, the point that a considerable period of time is required before the cross-border system for exchanging transaction information becomes fully operational, along with the question of fairness relative to the taxation of small shareholders of stocks. Under the current law, income tax of 20% is levied on annual virtual asset income after subtracting a basic deduction of 2.5 million won, and the rate including local income tax is 22%. The amendment does not change this basic deduction or the tax rate; it focuses on delaying the starting date of taxation by two years. The bill is at the stage of introduction and receipt by lawmakers, and it must pass review by the standing committee, a plenary vote, and promulgation by the government to become law. Implementation in 2029 is therefore not confirmed, and the scheduled date under the current law remains January 1, 2027.",
+      "metanomia_thought": "Taxation does not function simply by setting a tax rate. What must be in place first is who owned the asset, when and at what price it was acquired, and how transaction records beyond the border can be verified. This bill illustrates the problem that taxing on-chain and cross-border transactions presupposes infrastructure for identity, transaction records, and information exchange. That said, repeated deferrals must not substitute for building that infrastructure, and the schedule for constructing the system during the deferral period, along with the responsible agencies, should be disclosed through legislation and implementation plans.",
+      "sources": [
+        {
+          "title": "소득세법 일부개정법률안",
+          "url": "https://community.lawmaking.go.kr/gcom/nsmLmSts/out/2220914/detailRP"
+        },
+        {
+          "title": "“1300만명 코인 과세 2년 유예해야”…국힘 반발 본격화",
+          "url": "https://www.edaily.co.kr/News/Read?mediaCodeNo=257&newsId=04316486645551912"
+        },
+        {
+          "title": "국힘 '코인 과세 폐지' 중점과제 제외…'2년 유예 법안' 발의",
+          "url": "https://www.fnnews.com/news/202608281735158284"
+        }
+      ]
+    },
+    {
+      "slug": "2026-08-31-crypto-news-8295b01396",
+      "date_kst": "2026-08-31",
+      "title": "Circle Activates Native USDC and EURC and CCTP on Plasma: Direct Fiat Deposits and Withdrawals Are Institution-Only",
+      "content": "Stablecoin issuer Circle said it activated native USDC and EURC, the cross-chain transfer protocol CCTP, and the developer tool Bridge Kit on the Plasma mainnet on August 28 local time. Plasma is an Ethereum Virtual Machine compatible Layer 1 designed to process high volumes of stablecoin transactions. With this deployment, developers can connect dollar- and euro-pegged tokens issued directly by Circle to payments, remittances, trading, foreign exchange, and treasury management. CCTP burns USDC on the origin chain and submits a message signed by Circle's off-chain attestation service to the destination chain, where the same amount is newly minted, handling movement between chains without wrapped tokens or bridge liquidity pools. However, CCTP covers only USDC; EURC is not included. Circle disclosed the mainnet contract addresses for USDC and EURC, and USDC minting transactions can be confirmed on the Plasma block explorer on the day of launch. Circle explained that euro-denominated EURC is suited to on-chain activity within the European Union, where one-to-one redeemability and compliance with the European Union's Markets in Crypto-Assets Regulation (MiCA) are required. Circle said that from the same day users can use USDC in Plasma One, Plasma's stablecoin app and card. Circle Mint accounts, which use fiat on- and off-ramps directly, are institution-only, and individuals gain access through exchanges, wallets, and service providers. That said, Circle stated that, within the scope of MiCA compliance, it will also accept redemption requests for USDC and EURC from holders who are not Circle Mint customers. In other words, the scope of who may request redemption and the eligibility to deposit and withdraw fiat directly through Circle Mint are separate matters.",
+      "metanomia_thought": "Plasma has widened the payment and settlement routes for dollar and euro tokens, but final redemption and cross-chain attestation gather once again in Circle's issuer authority. In exchange for reducing wrapped-bridge risk, the structure concentrates the powers of issuance, redemption, freezing, and attestation in a single company. When designing a won-denominated stablecoin domestically, open on-chain use, the scope of the redemption claim, eligibility for direct ramp access, and freezing and recovery powers in the event of an incident should each be indicated separately.",
+      "sources": [
+        {
+          "title": "Now Available: USDC, EURC, CCTP, and Bridge Kit on Plasma",
+          "url": "https://www.circle.com/blog/now-available-usdc-eurc-cctp-and-bridge-kit-on-plasma"
+        },
+        {
+          "title": "Cross-Chain Transfer Protocol",
+          "url": "https://developers.circle.com/cctp"
+        },
+        {
+          "title": "USDC Token Contract on Plasma",
+          "url": "https://plasmascan.to/address/0x2d661C89D812261039AF9764eceaAee884f5F67F"
+        },
+        {
+          "title": "Circle Adds Native USDC, EURC and CCTP Support to Plasma",
+          "url": "https://thedefiant.io/converge/blockchains/circle-adds-native-usdc-eurc-and-cctp-support-to-plasma"
+        }
+      ]
+    },
+    {
+      "slug": "2026-08-31-crypto-news-5c1c176921",
+      "date_kst": "2026-08-31",
+      "title": "Solana Activates Target Slot Time Reduction From 350ms to 300ms",
+      "content": "Solana's mainnet lowered its slot time, the target interval for block production, from 350 milliseconds (ms) to 300 milliseconds on August 29 Korean time. Anza, a core client development firm, announced the mainnet activation at 00:34, and Solana's official account again confirmed the change had taken effect the following day. This change is the second stage, implemented eight days after the reduction from 400 milliseconds to 350 milliseconds on August 21, and applies half of the four stages laid out in the Solana improvement proposal SIMD-0525. The four consecutive slots assigned to a single validator remain unchanged, so the calculated window in which a leader can delay or reorder transactions falls from 1.4 seconds to 1.2 seconds. However, the compute and data limits per slot are also lowered, so throughput per unit of time does not automatically increase. The next stages, 250 milliseconds and 200 milliseconds, will be decided after slot skip rates and network stability are reviewed.",
+      "metanomia_thought": "With the second reduction applied only eight days after the first, Solana's speed roadmap is being executed quickly. The leader's window for controlling ordering shrinks, but the advantage held by validators and searchers with low-latency connections and hardware may grow. The next reduction should be judged by slot skip rates, reorgs, validator concentration, and execution quality on decentralized exchanges rather than by TPS.",
+      "sources": [
+        {
+          "title": "SIMD-0525: Reduce Slot Times",
+          "url": "https://github.com/solana-foundation/solana-improvement-documents/blob/main/proposals/0525-reduce-slot-times.md"
+        },
+        {
+          "title": "300ms slots just activated on mainnet",
+          "url": "https://x.com/anza_xyz/status/2093361495442911713"
+        },
+        {
+          "title": "Solana Network State — Epoch 1024",
+          "url": "https://solana-state.vercel.app/"
+        }
+      ]
+    },
+    {
+      "slug": "2026-08-31-crypto-news-2a721acf24",
+      "date_kst": "2026-08-31",
+      "title": "U.S. Ninth Circuit: \"Kalshi's Sports Contracts Are Gambling in Substance\"… Diverging From the Third Circuit",
+      "content": "On August 28 local time, the U.S. Court of Appeals for the Ninth Circuit upheld, as to the sports contracts, the lifting of a preliminary injunction that had blocked Nevada's gambling regulation from applying to Kalshi's sports event contracts. As a result, Nevada may apply its gambling regulation to Kalshi's sports contracts while the case proceeds on the merits. Kalshi argued that its sports event contracts are swaps governed by the federal Commodity Exchange Act (CEA), and that state law is preempted for swaps traded on a designated contract market (DCM). The appeals court, however, found that at the preliminary injunction stage Kalshi had not sufficiently demonstrated a likelihood of success on the merits. The court looked to the substance of the contracts rather than their label. It held that Kalshi's sports event contracts are in substance sports gambling, that they therefore do not qualify as swaps under the CEA, and that the provision preempting state law for swaps does not apply. The court also reasoned that gambling regulation has long fallen within the states' police powers, and that it is difficult to conclude that Congress handed that authority to the CFTC on the basis of an ambiguous definition of swaps alone. As for election event contracts, the court remanded the case on the ground that the lower court had not ruled on whether they constitute swaps under the CEA. In other words, it did not carry its holding on the sports contracts over to the election contracts. Earlier this year, in the New Jersey case, the Third Circuit treated Kalshi's sports event contracts as swaps and found that federal regulation by the CFTC could take precedence over state gambling regulation. With the Ninth Circuit reaching the opposite conclusion on the same issue, the likelihood that the U.S. Supreme Court will resolve the question has increased. Both rulings, however, are determinations at the preliminary injunction stage, not merits judgments conclusively establishing that all of Kalshi's contracts are legal or illegal.",
+      "metanomia_thought": "Faced with the same sports event contracts, the Third Circuit treated them as swaps under the CEA while the Ninth Circuit treated them as sports gambling. If supervisory authority is determined by the substance of the underlying event rather than the form of the contract, then attempts to build a single nationwide platform will be blocked first by the legal character of each individual contract, not by the label \"prediction market.\" If a Korean-style prediction market is to be discussed domestically, the boundary between financial regulation and the regulation of gambling, elections and broadcasting, along with who holds the right to list questions and the right to determine outcomes, must first be specified in statute.",
+      "sources": [
+        {
+          "title": "KALSHIEX, LLC v. ASSAD, ET AL.",
+          "url": "https://cdn.ca9.uscourts.gov/datastore/opinions/2026/08/28/25-7516.pdf"
+        },
+        {
+          "title": "Ninth Circuit Rules in Favor of Nevada",
+          "url": "https://www.gaming.nv.gov/siteassets/content/about/press-release/ninth-circuit-rules-in-favor-of-nevada.pdf"
+        },
+        {
+          "title": "Federal appeals court panel gives Nevada a win in its fight to regulate prediction market Kalshi",
+          "url": "https://apnews.com/article/2168b6c0837ad9b4f0f63b04633d8835"
+        }
+      ]
+    },
     {
       "slug": "2026-08-28-crypto-news-e69811bde9",
       "date_kst": "2026-08-28",
