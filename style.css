@@ -1798,6 +1798,25 @@ html[lang="ko"] .cat-tabs + .cat-hero--compact .cat-intro__body {
   .lead__excerpt { margin-top: 18px; font-size: 14px; }
   .lead__byline { margin-top: 20px; }
   .lead__dots { left: 24px; bottom: 25px; }
+  .lead__slide[href*="crypto-prediction-markets"] .lead__overlay {
+    justify-content: flex-start;
+    padding: 22px 24px 58px;
+  }
+  .lead__slide[href*="crypto-prediction-markets"] .lead__tag { margin-bottom: 14px; }
+  .lead__slide[href*="crypto-prediction-markets"] .lead__title {
+    font-size: clamp(31px, 8.3vw, 34px);
+    line-height: 1.16;
+  }
+  .lead__slide[href*="crypto-prediction-markets"] .prediction-market-title__sub {
+    font-size: .66em;
+    line-height: 1.22;
+  }
+  .lead__slide[href*="crypto-prediction-markets"] .lead__excerpt {
+    margin-top: 14px;
+    font-size: 13px;
+    line-height: 1.5;
+  }
+  .lead__slide[href*="crypto-prediction-markets"] .lead__byline { margin-top: 14px; }
   .subfeed { grid-template-columns: minmax(250px, 84vw) minmax(250px, 84vw) minmax(250px, 84vw); }
   .cards { grid-template-columns: 1fr; }
   .mission::before { width: 72px; opacity: .92; }
