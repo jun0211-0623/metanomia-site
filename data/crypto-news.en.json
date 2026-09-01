@@ -1,7 +1,99 @@
 {
   "schema_version": "1.0",
-  "generated_at_kst": "2026-08-31T11:01:00+09:00",
+  "generated_at_kst": "2026-09-01T10:48:00+09:00",
   "items": [
+    {
+      "slug": "2026-09-01-crypto-news-c53c6246bd",
+      "date_kst": "2026-09-01",
+      "title": "Telegram Rolls Out Non-Custodial 'Gram Wallet' to Limited Users, Phased Expansion Over Next Two Weeks",
+      "content": "Telegram founder Pavel Durov announced on September 1 (Korea time) that the non-custodial Gram Wallet has been made available to some users. Unlike a custodial wallet, in which a service provider holds assets on the user's behalf, a non-custodial wallet gives the user direct control over their assets. Durov said access will be expanded in stages to Telegram's more than one billion users over roughly the next two weeks. He did not disclose how many people currently have access, which countries are covered, or which assets are supported. He explained that TON validators have approved the wallet's smart contract, so future upgrades will not require a cumbersome migration. This is Durov's own account and does not indicate that a separate security audit has been completed. Region-specific purchase and payment features and the private key recovery process have not yet been disclosed.",
+      "metanomia_thought": "Because Telegram has more than one billion users, a full rollout of Gram Wallet could spread self-custody wallets and on-chain transfers as everyday messenger features. That could significantly accelerate the pace at which non-custodial wallets reach the mainstream. What remains to be seen is whether the expanding rollout translates into actual use, and how much active wallet counts and transfer and payment volumes grow.",
+      "sources": [
+        {
+          "title": "Gram Wallet in Telegram is ready and is now accessible to a select group of users",
+          "url": "https://t.me/durov/546"
+        },
+        {
+          "title": "Gram Wallet — a non-custodial crypto wallet native to Telegram",
+          "url": "https://t.me/durov/533"
+        },
+        {
+          "title": "Павел Дуров объявил о запуске криптокошелька Gram Wallet. Пока он доступен только некоторым пользователям телеграма",
+          "url": "https://meduza.io/news/2026/08/31/pavel-durov-ob-yavil-o-zapuske-kriptokoshelka-gram-wallet-poka-on-dostupen-tolko-nekotorym-polzovatelyam-telegrama"
+        }
+      ]
+    },
+    {
+      "slug": "2026-09-01-crypto-news-605b3dc42c",
+      "date_kst": "2026-09-01",
+      "title": "ICE Makes Additional Investment in tZERO and Agrees to Patent License; NYSE Tokenized Securities Platform Not Yet Launched",
+      "content": "Intercontinental Exchange (ICE), the parent company of the New York Stock Exchange (NYSE), and blockchain financial infrastructure firm tZERO said on August 31 local time that they had signed a memorandum of understanding to design market infrastructure for tokenized securities. tZERO will take part as one of the principal design partners for a digital transfer agent and broker-dealer framework that will support on-chain settlement on the NYSE-linked digital trading platform ICE is developing. A transfer agent is the entity that maintains the official records of securities holders and manages ownership transfers and corporate actions. In March, NYSE had named Securitize as a principal design partner and designated it as the first digital transfer agent qualified to issue blockchain-native securities for corporate and exchange-traded fund (ETF) issuers. Securitize's final approved status on the platform, however, is also conditional on meeting the relevant requirements. ICE had already made a strategic investment in tZERO in 2022, becoming a minority shareholder, and this time it participated further in a recent funding round while also agreeing to a license allowing it to use 23 patent families and 103 blockchain patents on the platform and for other purposes. The investment amount was not disclosed. The two companies will also examine ways to use assets tokenized by tZERO in collateral management at ICE clearing houses and affiliates. tZERO's subsidiary tZERO Transfer Services is already a transfer agent registered with the U.S. Securities and Exchange Commission (SEC). Still, for tZERO to obtain approved digital transfer agent and subscriber status on this platform, it must meet regulatory, technical and operational requirements. The NYSE-linked platform is currently under development, has not yet launched, and regulatory approval remains outstanding. The current stage is therefore not live trading operations but a memorandum of understanding along with investment and patent license agreements.",
+      "metanomia_thought": "The core authority in tokenized securities lies in recording the legal owner, transferring ownership, processing corporate actions, and managing clearing collateral. ICE is binding together the regulatory standing, patents and design capabilities of multiple partners, including Securitize and tZERO, and in doing so is broadening its power to set the standard.",
+      "sources": [
+        {
+          "title": "tZERO and ICE Agree to Collaborate on Infrastructure for Public Tokenized Securities Markets, Including Licensing tZERO’s Blockchain Patent Portfolio",
+          "url": "https://www.tzero.com/news/tzero-and-ice-agree-to-collaborate-on-infrastructure-for-public-tokenized-securities-markets"
+        },
+        {
+          "title": "The New York Stock Exchange Develops Tokenized Securities Platform",
+          "url": "https://ir.theice.com/press/news-details/2026/The-New-York-Stock-Exchange-Develops-Tokenized-Securities-Platform/default.aspx"
+        },
+        {
+          "title": "New York Stock Exchange and Securitize Agree to Memorandum of Understanding to Support Tokenized Securities",
+          "url": "https://ir.theice.com/press/news-details/2026/New-York-Stock-Exchange-and-Securitize-Agree-to-Memorandum-of-Understanding-to-Support-Tokenized-Securities/default.aspx"
+        },
+        {
+          "title": "Intercontinental Exchange Announces Strategic Investment in tZERO Group, Inc.",
+          "url": "https://ir.theice.com/press/news-details/2022/Intercontinental-Exchange-Announces-Strategic-Investment-in-tZERO-Group-Inc/default.aspx"
+        },
+        {
+          "title": "NYSE owner ICE taps tZERO for tokenized securities push, takes stake in firm",
+          "url": "https://www.coindesk.com/business/2026/08/31/nyse-owner-ice-taps-tzero-for-tokenized-securities-push-takes-stake-in-firm"
+        }
+      ]
+    },
+    {
+      "slug": "2026-09-01-crypto-news-2281afa30a",
+      "date_kst": "2026-09-01",
+      "title": "Russia Expands the Rollout Stage of the Digital Ruble: Individuals Get Free Top-Ups and Payments up to 300,000 Rubles a Month",
+      "content": "As of September 1 local time, Russia expanded the rollout stage of the digital ruble to cover major banks and, among those banks' clients, retail businesses whose revenue in the previous year exceeded 120 million rubles. This is a phased expansion following the pilot that began in 2023, and it does not mean full commercial rollout has been completed. The digital ruble is not a private stablecoin or a public blockchain token but a new form of the national currency, added to cash and non-cash money, for which the Bank of Russia bears direct issuance responsibility. Individuals and legal entities may each open only one account on the central bank platform through a linked bank app, while sole proprietors may hold two accounts, one personal and one for business. Individuals can top up as much as 300,000 rubles a month from an existing bank account, whereas there is no such limit on corporate top-ups. Use is free of charge for individuals, and companies are also exempt from fees until the end of 2026. Participation is voluntary. If an error or dispute arises, the matter should first be raised with the linked bank, and if it is not resolved, the user can turn to the Bank of Russia.",
+      "metanomia_thought": "The digital ruble may improve payment convenience, but because the central bank platform manages accounts and transaction records, questions of privacy and data control follow. It must be disclosed transparently who can access transaction information, under what conditions, how long it is retained, and what appeal procedures apply in cases of error or freezing. Since use is voluntary, what matters is not the introduction of the system itself but how much the actual number of accounts, participating merchants, and payment volume grows. Going forward, the trend in usage should be watched alongside how the use of cash and bank deposits changes.",
+      "sources": [
+        {
+          "title": "Цифровой рубль: старт использования",
+          "url": "https://www.cbr.ru/press/event/?id=32802"
+        },
+        {
+          "title": "Large-scale introduction of digital ruble to begin on 1 September 2026",
+          "url": "https://cbr.ru/eng/press/event/?id=25774"
+        },
+        {
+          "title": "Россия с 1 сентября переходит к массовому запуску расчетов цифровыми рублями",
+          "url": "https://www.interfax.ru/russia/1112345"
+        }
+      ]
+    },
+    {
+      "slug": "2026-09-01-crypto-news-06da1f98f0",
+      "date_kst": "2026-09-01",
+      "title": "Russia's Virtual Asset Trading Law Takes Effect: 300,000 Ruble Annual Cap Proposed for Non-Qualified Investors",
+      "content": "Russian Federal Law No. 282-FZ, the Law on Digital Currency and Digital Rights, came into force on September 1 local time, with the exception of some provisions. The Bank of Russia has proposed guidelines that would allow non-qualified individual investors, after passing a test, to buy highly liquid virtual assets up to a maximum of 300,000 rubles per year per intermediary. Qualified individual investors must also pass a test, but face no restrictions on instruments or amounts. The new market infrastructure includes virtual asset exchange operators and digital depositories that record ownership rights, and trading through brokers, asset managers and organized trading platforms is also permitted. The same requirements that apply to virtual assets apply to foreign stablecoins as well. However, paying for goods or services with virtual assets inside Russia remains prohibited. Import and export companies may use virtual assets in cross-border settlement either through intermediaries or directly through wallets. By contrast, Russian residents trading virtual assets abroad must use foreign bank accounts, and moving virtual assets purchased in Russia overseas must go through a regulated intermediary. Under the accompanying Law No. 283-FZ, Russian residents must, as a rule, report to the tax authorities their virtual asset transactions conducted using identification addresses not managed by a digital depository. The relevant reporting provisions take effect on May 2, 2027, and the specific reporting procedures will be set by the Russian government in consultation with the central bank. Market participants are subject to a transition period through July 1, 2027 to obtain licenses and put their operations in order, so the entry into force of the law and the point at which the market is fully operational do not coincide.",
+      "metanomia_thought": "Russia is bringing virtual asset trading into the regulated system while blocking domestic payments and opening cross-border trade widely. Price discovery and the recording of rights move to licensed exchange operators and digital depositories, while the authority to track offshore trading and reporting moves to the central bank and the tax authorities.",
+      "sources": [
+        {
+          "title": "Russia introduces cryptocurrency regulation",
+          "url": "https://www.cbr.ru/eng/press/event/?id=32724"
+        },
+        {
+          "title": "Криптовалюты для неквалифицированных инвесторов: правила покупки",
+          "url": "https://www.cbr.ru/press/event/?id=32754"
+        },
+        {
+          "title": "Статья 12.1. Отчеты о совершении операций с цифровыми валютами с использованием адресов-идентификаторов, не администрируемых цифровыми депозитариями",
+          "url": "https://www.consultant.ru/document/cons_doc_LAW_45458/3f9cbd25e06ca2d989c055d2d889f1489cb68025/"
+        }
+      ]
+    },
     {
       "slug": "2026-08-31-crypto-news-e83344f554",
       "date_kst": "2026-08-31",
