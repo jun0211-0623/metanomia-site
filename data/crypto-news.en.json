@@ -1,7 +1,74 @@
 {
   "schema_version": "1.0",
-  "generated_at_kst": "2026-09-01T10:48:00+09:00",
+  "generated_at_kst": "2026-09-02T11:01:00+09:00",
   "items": [
+    {
+      "slug": "2026-09-02-crypto-news-ebab23de5b",
+      "date_kst": "2026-09-02",
+      "title": "Ethena Pay, a Payment App for Synthetic Dollar USDe, Launches iOS Beta: Initial Access Limited to 400, Korea Not Yet Supported",
+      "content": "Ethena Pay, a payment service in the synthetic dollar USDe ecosystem, said it launched the beta version of an iOS app on September 1 that uses Avalanche as infrastructure for digital asset transfers and settlement. Unlike fiat-backed stablecoins operated primarily with reserve assets such as cash and short-term government bonds, USDe is designed to maintain its dollar value by combining crypto assets with derivative positions that offset their price movements, among other components. The app uses a self-custody model in which users, rather than the service provider, manage the private keys and recovery phrases that prove authority to move assets. It brings together on one screen USDe balance management and instant transfers, fiat deposits and withdrawals, an IBAN-based account using the standard bank account number format for international transfers, and Visa card payments. The IBAN-based account is provided by a licensed banking partner. According to the official supported-country page, the service is currently available in 49 countries. It lists the United States, the European Union, the United Kingdom, Switzerland, Canada, Taiwan and Korea as 'coming soon,' but does not give a launch date for Korea. Financial markets publication FXStreet reported that initial access was limited to 400 people. According to the official FAQ, Daily Boost, which adds rewards to balances, is a discretionary promotion available to users who make at least one eligible card transaction per month. It is neither interest nor a deposit, and it is not covered by any government deposit insurance. Rewards are paid daily in USDe. The annualized reward rate combining base USDe rewards and the boost is 5% for Standard on up to $5,000, 6% for Pro on up to $15,000, and 6% for VIP on up to $50,000. Card cashback ranges from 0% to 5% of the U.S. dollar value of eligible purchases depending on the user's tier and monthly cumulative spending band, and is paid in Avalanche's native coin AVAX after conversion at the exchange rate in effect at the time of payout. Ethena Pay states that it is not a bank, securities firm or money transmitter, and that it does not custody, manage or access users' funds, digital assets or wallet access information, including private keys and recovery phrases. The Visa card is issued by Third National, while Rain operates the card program. USDe holdings and some transfers use the Avalanche blockchain, but it cannot be concluded that all merchant card payment records and final settlement take place directly on the blockchain. At this stage, the product is not in a full global rollout but is a regionally and user-limited iOS test version, and it is not yet available in Korea.",
+      "metanomia_thought": "Bringing wallet, card and account functions together in a single interface broadens the points of contact between the USDe ecosystem and users. However, self-custody wallets, bank accounts and card payments each have different responsible parties and dispute procedures. When the service launches in Korea, users should check the USDe redemption route, who handles card disputes, and their rights if a partner becomes insolvent, function by function. The 5% to 6% annual rewards and up to 5% cashback come with conditions and caps and are paid in USDe and AVAX, respectively, so they do not represent guaranteed returns in Korean won.",
+      "sources": [
+        {
+          "title": "Ethena Pay is now live",
+          "url": "https://x.com/EthenaPay/status/2094756871735501083"
+        },
+        {
+          "title": "Frequently Asked Questions",
+          "url": "https://pay.ethena.fi/faq"
+        },
+        {
+          "title": "Available Jurisdictions",
+          "url": "https://pay.ethena.fi/jurisdictions"
+        },
+        {
+          "title": "Ethena jumps 7% following launch of Avalanche-powered neobank",
+          "url": "https://www.fxstreet.com/cryptocurrencies/news/ethena-jumps-7-following-launch-of-avalanche-powered-neobank-202609012111"
+        }
+      ]
+    },
+    {
+      "slug": "2026-09-02-crypto-news-c0400cdce0",
+      "date_kst": "2026-09-02",
+      "title": "U.S. SEC Proposes Overhaul of 1970s and 1980s Securities Holder Recordkeeping Rules, Including Reports on Blockchain and Other Distributed Ledger Use",
+      "content": "The U.S. Securities and Exchange Commission (SEC), which oversees the U.S. securities market, proposed amendments on September 1 local time to bring rules governing entities that maintain securities holder records in line with electronic recordkeeping and blockchain environments. A transfer agent is an entity that maintains records of legal holders on behalf of a securities issuer and handles corporate actions such as ownership transfers, dividend payments and stock splits. The SEC said most current federal transfer agent rules were introduced in the late 1970s and early 1980s and have not been substantively amended since then. The SEC's 421-page proposal contains measures to change electronic recordkeeping and communication methods and modernize standards for managing data accuracy, cybersecurity and business disruption risks. Proposed revisions to Form TA-2, the annual activity report that registered transfer agents file with the SEC, include three reporting items related to distributed ledgers and tokenization. First is the number of securities for which the legally recognized final holder record was maintained using distributed ledger technology (DLT), in which multiple participants share, maintain and verify the same ledger. Second are the names of service providers and DLT platforms that supported representing securities in digital token form. Third is the number of tokenized securities by security type, divided between issuer-led arrangements and arrangements led by third parties without issuer involvement. The proposal would establish Rule 17Ad-30, requiring every registered transfer agent to establish and implement written compliance policies and procedures. Rule 17Ad-31 would require transfer agents to follow instructions only from employees designated by the issuer when adding or removing transfer restriction notations on securities, and would bar them from processing an unregistered securities transaction without a reasonable basis to conclude that the transaction does not violate, or lead to a violation of, registration requirements under the securities laws. It would also repeal Rule 17Ad-4, which exempts transfer agents handling certain types of securities and some small transfer agents from obligations including processing deadlines and record retention, making those obligations applicable to previously exempt entities as well. The proposal neither treats blockchain transaction records as automatically equivalent to legal holder records nor approves new tokenized products. Its approach is that, regardless of the electronic recordkeeping technology used, the final official record for a security would remain under the exclusive control and responsibility of the transfer agent responsible for recordkeeping. The comment period will run for 60 days after publication in the Federal Register, the U.S. government's official journal, and neither the final rules nor their effective date has been determined.",
+      "metanomia_thought": "Rather than envisioning blockchain as a replacement for transfer agents, the proposal assumes a structure in which transfer agents also report how on-chain records are used. The central question is who detects recordkeeping errors and through what process the official record is corrected when a distributed ledger is used as the official record or operated alongside a separate on-chain record. The provisions seeking to narrow exemptions and strengthen compliance procedures and controls over transfer restrictions suggest an intention to accommodate the technology while also raising basic recordkeeping requirements. South Korea's tokenized securities framework should also clearly define the relationship between electronic registration records and distributed ledgers, as well as who has the authority and responsibility to correct the official record and restrict transfers when an error occurs.",
+      "sources": [
+        {
+          "title": "Transfer Agent Rules, Release No. 34-106246",
+          "url": "https://www.sec.gov/files/rules/proposed/2026/34-106246.pdf"
+        },
+        {
+          "title": "Transfer Agent Rules Fact Sheet",
+          "url": "https://www.sec.gov/files/34-106246-fact-sheet.pdf"
+        },
+        {
+          "title": "SEC seeks to update its 1970s-era transfer agent rules for the blockchain age",
+          "url": "https://www.theblock.co/news/regulation/2026-09-01-sec-seeks-update-1970s-era-transfer-agent-rules-for-blockchain-age-413278"
+        }
+      ]
+    },
+    {
+      "slug": "2026-09-02-crypto-news-730a706668",
+      "date_kst": "2026-09-02",
+      "title": "Singapore's MAS Consults on Stablecoin Issuer License, Interest Ban and 'MAS-Recognised' Status for Overseas Coins",
+      "content": "The Monetary Authority of Singapore (MAS), Singapore's central bank and financial regulator, on September 1 local time released a consultation paper on amendments to the Payment Services Act to implement regulation of stablecoins, crypto assets designed to maintain the same value as a specified currency. The proposal would create a separate license for issuers of stablecoins that track the value of a single currency and allow only licensed issuers to use the term 'MAS-regulated.' Issuers would be required at all times to hold reserve assets equal to at least the face value of the coins in circulation, keep them in accounts segregated from their own funds, and place them only with authorized financial institutions. When users return coins, issuers would have to redeem them at the same face value within a period set by MAS and also comply with capital requirements and white paper disclosure obligations. The proposal would also prohibit providing holders with direct or indirect interest or returns merely for holding the coins. Coins issued overseas could receive 'MAS-recognised' status if local regulation is similar to Singapore's standards and cooperation between supervisory authorities is possible, while coins jointly issued in multiple countries would be considered for case-by-case exemptions under separate provisions. The proposal would also require a bank seeking to issue stablecoins to do so through a separate non-bank entity rather than the bank itself. Issuers would also need technology capable of tracing token transfers linked to crime and, when necessary, blocking transfers or removing tokens from circulation. If a stablecoin designated as capable of affecting payment systems because it is widely used violates the standards, MAS could instruct licensed Digital Payment Token (DPT) service providers to halt transaction support, delist trading pairs, and prohibit further acquisition. DPT service providers are firms licensed to offer the trading and transfer of digital tokens, such as crypto exchanges. The consultation runs until October 16, and no implementation date has been set, so these are proposals rather than rules currently in effect. The consultation concerns not only the size of reserves, but also which coins may use a regulated label and who can halt their circulation when problems arise.",
+      "metanomia_thought": "Just as important as building sufficient reserve assets is who gets to authorize the label 'regulated stablecoin' and who can halt circulation when problems arise. This consultation seeks to divide those two powers between issuers and the regulator. It would strengthen confidence in redemption, but it would also create a structure in which the power to stop individual tokens from moving is concentrated in a small number of hands. When designing won-denominated stablecoins, Korea should also consider procedures for halting circulation, as well as how users can file objections and redeem their coins.",
+      "sources": [
+        {
+          "title": "Consultation on Proposed Amendments to the Payment Services Act for Stablecoin Regulation",
+          "url": "https://www.mas.gov.sg/publications/consultations/2026/consultation-on-proposed-amendments-to-the-payment-services-act-for-stablecoin-regulation"
+        },
+        {
+          "title": "MAS seeks feedback on proposals regulating value, user protection for stablecoins",
+          "url": "https://www.straitstimes.com/singapore/mas-seeks-feedback-on-proposals-regulating-value-user-protection-for-stablecoins"
+        },
+        {
+          "title": "Singapore Publishes Draft Legislation to Implement Its Stablecoin Framework",
+          "url": "https://www.gibsondunn.com/singapore-publishes-draft-legislation-to-implement-its-stablecoin-framework/"
+        }
+      ]
+    },
     {
       "slug": "2026-09-01-crypto-news-c53c6246bd",
       "date_kst": "2026-09-01",
