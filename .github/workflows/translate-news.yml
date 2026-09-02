@@ -31,19 +31,29 @@ jobs:
         with:
           python-version: '3.12'
 
-      - run: pip install anthropic
+      - name: Install translation dependency
+        id: translation_deps
+        continue-on-error: true
+        run: pip install anthropic
 
       - name: Translate
+        id: translate
+        if: ${{ steps.translation_deps.outcome == 'success' }}
+        continue-on-error: true
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python3 scripts/translate-news.py ${{ inputs.force && '--force' || '' }}
 
-      - name: Build static news pages
+      - name: Build and audit static news pages
+        id: build_audit
+        if: ${{ !cancelled() }}
         run: |
           python3 scripts/build-news-pages.py
           python3 scripts/audit-site.py
 
       - name: Commit
+        id: commit
+        if: ${{ !cancelled() && steps.build_audit.outcome == 'success' }}
         run: |
           if [ -z "$(git status --porcelain -- data/crypto-news.en.json sitemap.xml ':(glob)crypto-news-20*.html' ':(glob)ko/crypto-news-20*.html')" ]; then
             echo "no change"
@@ -54,3 +64,15 @@ jobs:
           git add -- data/crypto-news.en.json sitemap.xml ':(glob)crypto-news-20*.html' ':(glob)ko/crypto-news-20*.html'
           git commit -m 'chore: translate and build crypto news'
           git push
+
+      - name: Report English translation failure
+        if: >-
+          ${{ always()
+              && (steps.translation_deps.outcome == 'failure'
+                  || steps.translate.outcome == 'failure')
+              && steps.build_audit.outcome == 'success'
+              && steps.commit.outcome == 'success' }}
+        run: |
+          echo "Korean detail pages were committed, but English translation failed. Re-run this workflow after fixing translation." >> "$GITHUB_STEP_SUMMARY"
+          echo "::error::Korean pages were committed, but English translation failed."
+          exit 1

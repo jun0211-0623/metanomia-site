@@ -252,16 +252,22 @@ def update_sitemap(entries: list[tuple[str, str]]) -> None:
             loc = pair.get(lang)
             if not loc:
                 continue
-            blocks.extend([
+            block = [
                 "  <url>",
                 "    <loc>" + loc + "</loc>",
                 "    <lastmod>" + published_date + "</lastmod>",
                 "    <changefreq>weekly</changefreq>",
                 "    <priority>0.70</priority>",
-                "    <xhtml:link rel=\"alternate\" hreflang=\"ko\" href=\"" + pair.get("ko", loc) + "\" />",
-                "    <xhtml:link rel=\"alternate\" hreflang=\"en\" href=\"" + pair.get("en", loc) + "\" />",
-                "  </url>",
-            ])
+            ]
+            for alternate_lang in ("ko", "en"):
+                alternate_url = pair.get(alternate_lang)
+                if alternate_url:
+                    block.append(
+                        "    <xhtml:link rel=\"alternate\" hreflang=\"" + alternate_lang
+                        + "\" href=\"" + alternate_url + "\" />"
+                    )
+            block.append("  </url>")
+            blocks.extend(block)
     blocks.append("  <!-- GENERATED CRYPTO NEWS END -->")
     content = content.replace("</urlset>", "\n" + "\n".join(blocks) + "\n</urlset>")
     path.write_text(content, encoding="utf-8", newline="\n")
