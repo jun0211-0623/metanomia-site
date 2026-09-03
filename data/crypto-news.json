@@ -1,7 +1,73 @@
 {
   "schema_version": "1.0",
-  "generated_at_kst": "2026-09-02T11:01:00+09:00",
+  "generated_at_kst": "2026-09-03T11:02:00+09:00",
   "items": [
+    {
+      "id": "crypto-news-f77b8222a41e8f5a",
+      "slug": "2026-09-03-crypto-news-f77b8222a4",
+      "date_kst": "2026-09-03",
+      "title": "태국, 디지털자산 트래블룰 확정…3만 바트부터 정보 확대·자가관리지갑 통제 확인, 2027년 2월 시행",
+      "content": "태국 증권거래위원회 사무국(Office of the Securities and Exchange Commission·SEC)은 현지시간 9월 2일 보도자료를 내고, 8월 25일자 고시 Sor Thor. 9/2026에 담긴 디지털자산 트래블룰 최종 규정의 내용을 발표했다. 트래블룰은 디지털자산 사업자가 송금인과 수취인 정보를 확인하고, 다른 사업자에게 보내는 이체 주문에는 해당 정보를 함께 전달하도록 하는 제도다. 태국의 허가 사업자는 송금과 수취에서 발생하는 위험을 관리할 정책과 업무 절차를 마련하고, 이체 주문을 보내기 전에 필요한 확인을 마쳐야 한다. 이체에 필요한 정보는 3만 바트를 기준으로 달라져, 3만 바트 미만에서는 송금인과 수취인의 이름, 처리에 필요한 경우 계좌번호, 온체인 이체라면 지갑 주소나 거래를 추적할 수 있는 참조번호를 확보해야 한다. 3만 바트 이상에서는 여기에 송금인의 주소와 개인인 경우 생년월일, 수취인의 국가와 주 또는 도시, 당사자 유형에 맞는 정부 발급 개인식별번호나 법인등록번호·법인식별기호(LEI)가 추가된다. 사업자는 분석 도구로 상대 지갑이 다른 사업자가 관리하는 지갑인지, 이용자가 직접 관리하는 자가관리지갑(self-hosted wallet)인지 구분해야 한다. 상대가 사업자 관리 지갑이면 그 관리자가 고시가 인정하는 서비스 제공자인지 확인해야 하며, 해외 제공자는 국제자금세탁방지기구(FATF)의 ‘조치를 요구받는 고위험 관할지역’에 소재하지 않고 현지에서 합법적으로 영업해야 한다. 지갑 관리자의 소재와 관계없이 분석 도구를 이용해 이체 경로 추적을 숨기거나 바꾸거나 피하는 서비스를 제공하지 않는지도 확인해야 한다. 자가관리지갑과 3만 바트 이상을 주고받을 때는 보낼 경우 수취인이, 받을 경우 송금인이 해당 지갑을 소유하거나 통제하는지 확인해야 한다. 보낼 때는 확인을 마치기 전 이체 주문을 내보낼 수 없고, 받을 때 확인하지 못하면 이용자가 받은 자산을 사용하거나 접근하도록 허용할 수 없다. 이렇게 이용이 제한된 자산에는 위험 수준에 맞는 관리 절차를 마련해야 한다. 다른 사업자가 관리하는 지갑으로 보낼 때는 송금인과 수취인 정보를 이체 주문보다 먼저 또는 함께 상대 사업자에게 전달해야 한다. 자가관리지갑으로 보낼 때는 정보를 넘겨받을 사업자가 없어 이 전송 의무가 적용되지 않지만, 태국 사업자는 거래 정보를 수집하고 3만 바트 이상이면 수취인의 지갑 소유·통제 여부를 확인해야 한다. 거래에 수반되는 정보는 최소 5년 보관하고 감독기관이 즉시 조회·검사할 수 있는 형태로 두어야 한다. SEC 보도자료는 자금세탁방지사무국(AMLO)과 협의해 이번 기준을 마련했으며, AMLO가 자금세탁방지법상 관련 규정을 준비하는 동안 적용할 잠정 체계라고 설명했다. 규정은 3~4월과 6~7월 두 차례 의견수렴을 거쳤으며 2027년 2월 27일부터 시행된다. 직접 적용 대상은 태국 SEC의 감독을 받는 디지털자산 사업자로, 자가관리지갑 보유 자체나 사업자를 거치지 않는 지갑 간 전송을 금지하는 규정은 아니다.",
+      "metanomia_thought": "이 규정의 무게는 태국의 허가 사업자가 상대 지갑의 유형을 구분하고 일정 금액 이상 자가관리지갑의 실제 통제자까지 판단하게 된다는 데 있습니다. 상대 지갑을 관리하는 사업자의 적법성과 추적 회피 위험까지 살펴야 하므로, 사업자의 판단 하나가 송금과 받은 자산의 이용 가능 여부를 좌우할 수 있습니다. 국내 사업자도 태국 사업자와 연결할 때 3만 바트 기준에 따라 어떤 정보를 주고받을지, 확인 오류가 생기면 이용자가 어떻게 이의를 제기하고 자산 제한을 풀 수 있을지 미리 정해야 합니다.",
+      "sources": [
+        {
+          "title": "SEC issues Travel Rule for Digital Assets to strengthen anti-money laundering and prevent technology-related crimes in line with international standards",
+          "url": "https://www.sec.or.th/EN/Pages/News_Detail.aspx?SECID=13277"
+        },
+        {
+          "title": "Notification of the Office of the Securities and Exchange Commission No. Sor Thor. 9/2026 Re: Establishment of Risk Management Measures for the Transfer and Receipt of Digital Assets to Prevent the Use of Digital Asset Business Services as Channels for Money Laundering and Technology-Related Crimes",
+          "url": "https://publish.sec.or.th/nrs/11218s.pdf"
+        },
+        {
+          "title": "Thailand adopts crypto Travel Rule with self-custodial wallet checks",
+          "url": "https://cointelegraph.com/news/thailand-crypto-travel-rule-self-custodial-wallet-checks"
+        }
+      ]
+    },
+    {
+      "id": "crypto-news-e09a7965a6e28977",
+      "slug": "2026-09-03-crypto-news-e09a7965a6",
+      "date_kst": "2026-09-03",
+      "title": "와이오밍주 FRNT, 체인링크를 단독 온체인 검증 인프라로 채택…발행 차단 기능은 아직 도입 중",
+      "content": "미국 와이오밍주 스테이블토큰위원회(Wyoming Stable Token Commission)는 현지시간 9월 2일, 주정부가 발행하는 프론티어 스테이블 토큰(Frontier Stable Token·FRNT)의 준비자산 검증에 체인링크 준비금 증명(Chainlink Proof of Reserve)을 채택했다고 밝혔다. 위원회는 2023년 3월 와이오밍 스테이블토큰법에 따라 설립된 주정부 기구로, 2026년 1월 FRNT를 출시하면서 이를 미국 공공기관이 처음 발행한 법정화폐 담보·완전준비 스테이블 토큰이라고 소개했다. 배포문은 FRNT가 미국 달러와 단기 미국 국채로 뒷받침되며, 준비자산에서 발생한 수익은 주 세입을 다변화하고 와이오밍주 공립학교 재정지원제도(School Foundation Program)를 지원하는 데 보탬이 된다고 설명했다. 이번 구조에서는 더 네트워크 펌(The Network Firm)이 미국공인회계사협회(AICPA) 기준으로 FRNT의 준비자산과 토큰 공급량을 검사하고, 체인링크 준비금 증명이 확인된 데이터를 실시간에 가깝게 블록체인에 전달한다. 위원회는 이미 웹사이트에 일일 인증자료를 게시해 왔다. 미국 지니어스법(GENIUS Act·공법 119-27호)은 준비자산 구성과 유통량을 월별로 공개하고 월말 보고를 독립적으로 검사받도록 요구하는데, 배포문은 이번 채택으로 월별 보고 사이의 정보 공백을 줄일 수 있다고 설명했다. 위원회는 체인링크 준비금 증명을 단독 온체인 자산 검증 인프라로 채택했다고 밝혔다. 더 블록(The Block)은 이번 조치가 지난 8월 FRNT의 크로스체인 인프라를 레이어제로(LayerZero)에서 체인링크의 크로스체인 상호운용 프로토콜(Cross-Chain Interoperability Protocol·CCIP)로 완전히 이전한 데 이은 협력 확대라고 보도했다. 준비자산이 FRNT 공급량보다 적으면 새 토큰 발행을 막는 시큐어 민트(Secure Mint)는 무한 발행 공격의 위험을 줄이는 데 도움이 될 수 있다고 설명됐으나, 아직 가동되지 않았고 채택 절차 중이다. 배포문에는 FRNT용 온체인 데이터 피드 주소와 정확한 갱신 주기, 당시 준비자산 총액이 제시되지 않아 이 발표만으로는 새 온체인 검증 기록을 직접 대조하기 어렵다. 따라서 이번 조치는 기존 일일 인증에 온체인 검증을 추가한 것이지만, 수탁기관의 지급능력이나 준비자산의 법적 격리, 이용자의 즉시 상환까지 보증하는 것은 아니다.",
+      "metanomia_thought": "준비자산 검증 데이터를 온체인에서도 확인할 수 있게 되면 FRNT 공급량과 준비자산의 불일치를 더 빨리 발견할 수 있지만, 원자료와 검사 범위까지 블록체인이 보증하는 것은 아닙니다. 또한 체인 간 연결과 온체인 준비자산 검증이 모두 체인링크에 집중되면서, 한쪽의 장애나 오류가 두 기능에 함께 영향을 줄 가능성도 살펴야 합니다. 원화 스테이블코인을 설계할 때도 준비자산을 누가 보관·검사하고 데이터를 전달하며 발행을 멈출 수 있는지, 핵심 사업자가 멈췄을 때 어떤 대체 절차가 작동하는지 공개해야 합니다.",
+      "sources": [
+        {
+          "title": "Wyoming Stable Token Commission Adopts Chainlink Proof of Reserve To Set New U.S. Standard for Digital Asset Transparency",
+          "url": "https://www.prnewswire.com/news-releases/wyoming-stable-token-commission-adopts-chainlink-proof-of-reserve-to-set-new-us-standard-for-digital-asset-transparency-302867690.html"
+        },
+        {
+          "title": "Wyoming expands Chainlink partnership with onchain reserve verification for FRNT",
+          "url": "https://www.theblock.co/news/ecosystems/2026-09-02-wyoming-expands-chainlink-partnership-onchain-reserve-verification-frnt-413294"
+        }
+      ]
+    },
+    {
+      "id": "crypto-news-0e7ebe085c9acbf4",
+      "slug": "2026-09-03-crypto-news-0e7ebe085c",
+      "date_kst": "2026-09-03",
+      "title": "USDT0, 스텔라에서 가동…기초자산인 USDT는 이더리움 계약에 잠겨",
+      "content": "USDT0는 현지시간 9월 2일 공개한 배포문에서 결제와 해외송금에 쓰이는 블록체인 스텔라(Stellar)에서 서비스를 시작했다고 밝혔다. USDT0는 테더(Tether)가 스텔라에서 직접 발행하는 USDT가 아니라, 에버던 랩스(Everdawn Labs)가 여러 블록체인에서 USDT 유동성을 연결하기 위해 개발·출시한 토큰이다. 크립토 브리핑(Crypto Briefing)은 에버던 랩스가 테더로부터 USDT0 운영 라이선스를 받아 시스템 전체를 운영한다고 보도했다. USDT0 기술문서 「The USDT0 Network」에 따르면 원래 자산인 USDT는 이더리움 메인넷의 OFT 어댑터 계약에 잠기고, 레이어제로(LayerZero)가 개발한 옴니체인 대체가능토큰(Omnichain Fungible Token·OFT) 표준에 따라 목적지 체인에서 같은 수량의 USDT0가 발행된다. 상환할 때는 어느 체인에서든 USDT0를 소각하고 이더리움의 OFT 어댑터 계약에 잠긴 USDT를 해제한다. 이 구조를 이용하면 체인마다 별도의 브리지 유동성을 마련하지 않고 USDT0를 여러 체인으로 옮겨 쓸 수 있다. 다만 스텔라에서 이 방식으로 발행된 USDT0는 기초자산인 USDT가 이더리움의 한 계약에 모이는 만큼, 상환도 그 계약에 의존한다. 배포문은 크라켄(Kraken)·파이어블록스(Fireblocks)·프레이터(Freighter)·롭스터(LOBSTR)·메루(Meru)·스시스왑(SushiSwap) 등 10곳에서 스텔라 USDT0를 이용할 수 있으며, 엑소더스(Exodus)도 곧 지원할 예정이라고 밝혔다. 배포문 말미에는 USDT0와 USDT를 제3자가 발행·관리한다는 고지가 실렸다. 이 고지는 스텔라개발재단이 해당 디지털자산을 발행·보관·상환하거나 보증하지 않으며, 준비금과 자산의 뒷받침 여부, 지급능력, 규제 지위, 계속 이용 가능 여부에 대해서도 어떤 진술도 하지 않는다고 밝혔다. 배포문은 USDT0가 2025년 1월 출시된 뒤 29개 블록체인 생태계에서 누적 이전액이 1,000억 달러를 넘었다고 밝혔다. 다만 이 자료에 제시된 시가총액·거래량·이전액은 제3자 자료에 기반한 것으로, 독립적으로 검증되지 않았다고 덧붙였다. 배포문은 거래소와 지갑을 통한 이용이 각 플랫폼의 약관과 자격 요건, 규제 승인에 달려 있다고 밝혀, 스텔라에서 가동됐다는 사실이 모든 플랫폼에서의 즉시 이용을 뜻하지는 않는다.",
+      "metanomia_thought": "USDT0가 스텔라에서 거래되더라도 스텔라개발재단이 그 상환을 책임지는 것은 아닙니다. 이용자는 이더리움 계약에 잠긴 USDT와 에버던 랩스의 운영, 레이어제로의 체인 연결뿐 아니라 자신이 이용하는 거래소나 지갑의 입출금 조건도 확인해야 합니다. 국내 사업자는 USDT0를 테더가 직접 발행한 USDT와 같은 상품으로 취급하지 말고, 사고나 중단이 발생했을 때 누가 상환을 책임지며 이용자에게 어떤 권리가 남는지 확인해야 합니다.",
+      "sources": [
+        {
+          "title": "USDT0 Goes Live on Stellar, Connecting Unified Dollar Liquidity to the World's Most Accessible Network",
+          "url": "https://www.prnewswire.com/news-releases/usdt0-goes-live-on-stellar-connecting-unified-dollar-liquidity-to-the-worlds-most-accessible-network-302867845.html"
+        },
+        {
+          "title": "The USDT0 Network",
+          "url": "https://docs.usdt0.to/overview/how-it-works"
+        },
+        {
+          "title": "Tether Announces Strategic Investment in LayerZero Labs, Creator of the Interoperability Infrastructure Used by USDt0",
+          "url": "https://tether.io/news/tether-announces-strategic-investment-in-layerzero-labs-creator-of-the-interoperability-infrastructure-used-by-usdt0/"
+        },
+        {
+          "title": "USDT0 goes live on Stellar, enabling access to $180B+ in USDT liquidity",
+          "url": "https://cryptobriefing.com/layerzero-stellar-usdt0-liquidity/"
+        }
+      ]
+    },
     {
       "id": "crypto-news-ebab23de5be57cee",
       "slug": "2026-09-02-crypto-news-ebab23de5b",
