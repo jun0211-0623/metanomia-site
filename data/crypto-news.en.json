@@ -1,7 +1,70 @@
 {
   "schema_version": "1.0",
-  "generated_at_kst": "2026-09-02T11:01:00+09:00",
+  "generated_at_kst": "2026-09-03T11:02:00+09:00",
   "items": [
+    {
+      "slug": "2026-09-03-crypto-news-f77b8222a4",
+      "date_kst": "2026-09-03",
+      "title": "Thailand Finalizes Digital-Asset Travel Rule: Expanded Information and Self-Hosted Wallet Control Checks for Transfers of 30,000 Baht or More, Effective February 2027",
+      "content": "The Office of the Securities and Exchange Commission, Thailand (SEC), issued a press release on September 2 local time announcing the final Digital Asset Travel Rule requirements set out in Notification No. Sor Thor. 9/2026, dated August 25. The Travel Rule requires digital asset business operators to verify originator and beneficiary information and to transmit that information with transfer orders sent to other operators. Licensed operators in Thailand must establish policies and operating procedures to manage risks arising from transfers and receipts and complete the required checks before sending a transfer order. The information required varies at the 30,000-baht threshold. For transfers below 30,000 baht, operators must obtain the names of the originator and beneficiary, account numbers where needed for processing, and, for onchain transfers, wallet addresses or reference numbers that allow the transaction to be traced. For transfers of 30,000 baht or more, the required information additionally includes the originator's address and, if the originator is an individual, date of birth; the beneficiary's country and state, province or city; and a government-issued personal identification number, corporate registration number or Legal Entity Identifier (LEI), as appropriate to the type of party. Operators must use analytics tools to determine whether the counterparty wallet is managed by another business or is a self-hosted wallet controlled directly by the user. If the counterparty wallet is managed by a business, the operator must verify that its manager qualifies as a service provider recognized under the notification. A foreign provider must not be based in a jurisdiction on the Financial Action Task Force's list of High-Risk Jurisdictions subject to a Call for Action and must operate lawfully where it is based. Regardless of where the wallet manager is located, operators must also use analytics tools to check that it does not provide services designed to conceal, alter or evade the tracing of transfer paths. For transfers of 30,000 baht or more involving a self-hosted wallet, the operator must verify that the beneficiary owns or controls the wallet when sending assets and that the originator owns or controls it when receiving assets. An outgoing transfer order cannot be released until the check is complete. If the check cannot be completed for an incoming transfer, the operator may not allow the user to access or use the received assets. Operators must establish risk-appropriate procedures for assets restricted in this way. When assets are sent to a wallet managed by another operator, originator and beneficiary information must be transmitted to that operator before or together with the transfer order. This transmission requirement does not apply when assets are sent to a self-hosted wallet because there is no receiving operator to accept the information, but the Thai operator must still collect the transaction information and, for transfers of 30,000 baht or more, verify the beneficiary's ownership or control of the wallet. Information accompanying transactions must be retained for at least five years in a form that the regulator can retrieve and examine immediately. The SEC said it coordinated with the Anti-Money Laundering Office (AMLO) in establishing the requirements and described them as an interim framework that will apply while AMLO prepares related regulations under the Anti-Money Laundering Act. The rules underwent two consultation rounds, in March-April and June-July, and will take effect on February 27, 2027. They apply directly to digital asset business operators supervised by the Thai SEC and do not prohibit possession of self-hosted wallets or wallet-to-wallet transfers that do not pass through an operator.",
+      "metanomia_thought": "The significance of these rules lies in requiring licensed Thai operators to classify counterparty wallets and, for transfers at or above a set threshold, determine who actually controls a self-hosted wallet. Because operators must also assess the eligibility of businesses managing counterparty wallets and the risk of trace-evasion services, a single determination by an operator can decide whether a transfer proceeds and whether received assets can be used. Korean operators connecting with Thai businesses should decide in advance what information to exchange based on the 30,000-baht threshold and how users can challenge verification errors and have restrictions on their assets lifted.",
+      "sources": [
+        {
+          "title": "SEC issues Travel Rule for Digital Assets to strengthen anti-money laundering and prevent technology-related crimes in line with international standards",
+          "url": "https://www.sec.or.th/EN/Pages/News_Detail.aspx?SECID=13277"
+        },
+        {
+          "title": "Notification of the Office of the Securities and Exchange Commission No. Sor Thor. 9/2026 Re: Establishment of Risk Management Measures for the Transfer and Receipt of Digital Assets to Prevent the Use of Digital Asset Business Services as Channels for Money Laundering and Technology-Related Crimes",
+          "url": "https://publish.sec.or.th/nrs/11218s.pdf"
+        },
+        {
+          "title": "Thailand adopts crypto Travel Rule with self-custodial wallet checks",
+          "url": "https://cointelegraph.com/news/thailand-crypto-travel-rule-self-custodial-wallet-checks"
+        }
+      ]
+    },
+    {
+      "slug": "2026-09-03-crypto-news-e09a7965a6",
+      "date_kst": "2026-09-03",
+      "title": "Wyoming Adopts Chainlink as Sole Onchain Verification Infrastructure for FRNT; Issuance-Blocking Feature Is Not Yet Live",
+      "content": "The Wyoming Stable Token Commission said on September 2 local time that it had adopted Chainlink Proof of Reserve to verify the reserve assets backing the state-issued Frontier Stable Token (FRNT). Established under the Wyoming Stable Token Act in March 2023, the Commission launched FRNT in January 2026 and described it as the first fiat-backed, fully reserved stable token issued by a public entity in the United States. The release said FRNT is backed by U.S. dollars and short-term U.S. Treasury securities, and that income generated from the reserve assets helps diversify state revenue and support Wyoming's School Foundation Program for public-school funding. Under the arrangement, The Network Firm examines FRNT's reserve assets and token supply in accordance with standards of the American Institute of Certified Public Accountants (AICPA), while Chainlink Proof of Reserve transmits the verified data to the blockchain in near real time. The Commission has already been publishing daily attestations on its website. The U.S. GENIUS Act (Public Law 119-27) requires monthly disclosure of reserve composition and circulating supply, as well as independent examination of month-end reports. The release said the new system could reduce the information gap between monthly reports. The Commission said it had selected Chainlink Proof of Reserve as its sole onchain asset verification infrastructure. The Block reported that the move expanded the partnership after FRNT's cross-chain infrastructure was fully migrated in August from LayerZero to Chainlink's Cross-Chain Interoperability Protocol (CCIP). Secure Mint, which would block the issuance of new FRNT when reserve assets fall below the token supply, was described as capable of helping mitigate the risk of infinite-mint attacks, but it is not yet operational and the Commission is still in the process of adopting it. The release did not provide the address of FRNT's onchain data feed, its precise update frequency or the total amount of reserve assets at the time, making it difficult to check the new onchain verification records directly from this announcement alone. The measure therefore adds onchain verification to the existing daily attestations, but does not itself guarantee the custodian's solvency, the legal segregation of reserve assets or users' ability to redeem immediately.",
+      "metanomia_thought": "Making reserve-verification data available onchain may help discrepancies between FRNT's supply and reserve assets be detected more quickly, but a blockchain does not guarantee the underlying data or the scope of the examination. With both cross-chain connectivity and onchain reserve verification concentrated in Chainlink, it is also necessary to consider whether an outage or error at the shared provider could affect both functions. When won-denominated stablecoins are designed, disclosures should identify who holds and examines the reserve assets, who transmits the data, who can halt issuance, and what fallback procedures would operate if a critical service provider became unavailable.",
+      "sources": [
+        {
+          "title": "Wyoming Stable Token Commission Adopts Chainlink Proof of Reserve To Set New U.S. Standard for Digital Asset Transparency",
+          "url": "https://www.prnewswire.com/news-releases/wyoming-stable-token-commission-adopts-chainlink-proof-of-reserve-to-set-new-us-standard-for-digital-asset-transparency-302867690.html"
+        },
+        {
+          "title": "Wyoming expands Chainlink partnership with onchain reserve verification for FRNT",
+          "url": "https://www.theblock.co/news/ecosystems/2026-09-02-wyoming-expands-chainlink-partnership-onchain-reserve-verification-frnt-413294"
+        }
+      ]
+    },
+    {
+      "slug": "2026-09-03-crypto-news-0e7ebe085c",
+      "date_kst": "2026-09-03",
+      "title": "USDT0 Goes Live on Stellar; Underlying USDT Is Locked in an Ethereum Contract",
+      "content": "USDT0 said in a release published on September 2 local time that it had gone live on Stellar, a blockchain used for payments and cross-border remittances. USDT0 is not USDT issued directly by Tether on Stellar, but a token developed and launched by Everdawn Labs to connect USDT liquidity across multiple blockchains. Crypto Briefing reported that Everdawn Labs holds a license from Tether to operate USDT0 and runs the entire system. According to the USDT0 technical document The USDT0 Network, the original asset, USDT, is locked in an OFT Adapter contract on Ethereum Mainnet, and an equal amount of USDT0 is minted on the destination chain under the Omnichain Fungible Token (OFT) standard developed by LayerZero. To redeem, USDT0 is burned on any supported chain and the USDT locked in the Ethereum OFT Adapter contract is released. This structure allows USDT0 to move across multiple chains without requiring a separate pool of bridge liquidity on each chain. However, because the USDT underlying the USDT0 issued this way on Stellar is locked in a single Ethereum contract, redemption also depends on that contract. The release said Stellar-based USDT0 was available through 10 providers, including Kraken, Fireblocks, Freighter, LOBSTR, Meru and SushiSwap, and that Exodus was expected to add support soon. A disclaimer at the end of the release states that USDT0 and USDT are issued and managed by third parties. It says the Stellar Development Foundation does not issue, custody, redeem or guarantee any of the digital assets mentioned and makes no representation regarding their reserves or backing, solvency, regulatory status or continued availability. The release said cumulative USDT0 transfers had exceeded $100 billion across 29 blockchain ecosystems since its January 2025 launch. It added, however, that the market capitalization, trading volume and transfer-value figures presented in the material were based on third-party data and had not been independently verified. The release also said availability through exchanges and wallets was subject to each platform's terms, eligibility requirements and regulatory approvals, meaning that going live on Stellar does not imply immediate availability on every platform.",
+      "metanomia_thought": "Even when USDT0 is available on Stellar, the Stellar Development Foundation is not responsible for redeeming it. Users must check not only the USDT locked in the Ethereum contract, Everdawn Labs' operation of the system and LayerZero's cross-chain connectivity, but also the deposit and withdrawal conditions of the exchange or wallet they use. Korean operators should not treat USDT0 as the same product as USDT issued directly by Tether and should determine who is responsible for redemption and what rights users retain if an incident or service interruption occurs.",
+      "sources": [
+        {
+          "title": "USDT0 Goes Live on Stellar, Connecting Unified Dollar Liquidity to the World's Most Accessible Network",
+          "url": "https://www.prnewswire.com/news-releases/usdt0-goes-live-on-stellar-connecting-unified-dollar-liquidity-to-the-worlds-most-accessible-network-302867845.html"
+        },
+        {
+          "title": "The USDT0 Network",
+          "url": "https://docs.usdt0.to/overview/how-it-works"
+        },
+        {
+          "title": "Tether Announces Strategic Investment in LayerZero Labs, Creator of the Interoperability Infrastructure Used by USDt0",
+          "url": "https://tether.io/news/tether-announces-strategic-investment-in-layerzero-labs-creator-of-the-interoperability-infrastructure-used-by-usdt0/"
+        },
+        {
+          "title": "USDT0 goes live on Stellar, enabling access to $180B+ in USDT liquidity",
+          "url": "https://cryptobriefing.com/layerzero-stellar-usdt0-liquidity/"
+        }
+      ]
+    },
     {
       "slug": "2026-09-02-crypto-news-ebab23de5b",
       "date_kst": "2026-09-02",
