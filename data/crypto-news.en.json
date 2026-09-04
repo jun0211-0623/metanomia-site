@@ -1,7 +1,53 @@
 {
   "schema_version": "1.0",
-  "generated_at_kst": "2026-09-03T11:02:00+09:00",
+  "generated_at_kst": "2026-09-04T10:26:00+09:00",
   "items": [
+    {
+      "slug": "2026-09-04-crypto-news-a77506e9d8",
+      "date_kst": "2026-09-04",
+      "title": "Standard Chartered Launches Bitcoin and Ether Spot Trading for UAE Institutional Clients",
+      "content": "Standard Chartered announced on September 3 local time that it had launched deliverable spot trading in Bitcoin (BTC/USD) and Ether (ETH/USD) for eligible institutional clients in the United Arab Emirates (UAE). The service is provided through Standard Chartered DIFC, its branch in the Dubai International Financial Centre (DIFC), which is regulated by the Dubai Financial Services Authority (DFSA). Clients can place orders through the foreign exchange (FX) interface on the bank's existing electronic trading channels and, after a trade, settle through a custodian of their choice, including Standard Chartered's custody service. Deliverable trading means that the Bitcoin or Ether purchased or sold is actually transferred, rather than the parties exchanging only the difference in value through cash settlement. The bank obtained authorization from the DFSA and launched its digital asset custody service in the UAE in September 2024, and it has now extended to the UAE the trading capability first introduced through its UK branch in July 2025. Standard Chartered said it is the first global systemically important bank (G-SIB) to offer this capability in the UAE. According to CoinDesk, a bank spokesperson said the trading desk acts as principal, meaning the bank is the direct counterparty to client trades rather than merely an intermediary. The launch announcement did not disclose detailed eligibility criteria, fees, minimum trade sizes, trading volumes, spreads, or operating hours.",
+      "metanomia_thought": "What institutions have gained is not a new asset to trade, but a new channel through which to trade. The offering remains limited to Bitcoin and Ether. What has changed is that clients can now place orders within their existing banking relationship. The execution layer, in which the bank acts as the direct counterparty, carries different responsibilities and risks from the settlement and custody layer handled by a custodian chosen by the client. If banks in Korea are permitted to handle crypto assets, regulators should address separately whether execution, settlement, and custody may be combined, the bank's role as a direct trading counterparty, and the client's right to choose a custodian.",
+      "sources": [
+        {
+          "title": "Standard Chartered becomes first Global Systemically Important Bank (G-SIB) to launch Institutional Bitcoin and Ether spot trading in the UAE",
+          "url": "https://www.sc.com/en/press-release/standard-chartered-becomes-first-global-systemically-important-bank-g-sib-to-launch-institutional-bitcoin-and-ether-spot-trading-in-the-uae/"
+        },
+        {
+          "title": "Standard Chartered launches digital asset custody service in the UAE",
+          "url": "https://www.sc.com/en/press-release/standard-chartered-launches-digital-asset-custody-service-in-the-uae/"
+        },
+        {
+          "title": "Standard Chartered launches institutional spot crypto trading in UAE",
+          "url": "https://www.marketscreener.com/news/standard-chartered-launches-institutional-spot-crypto-trading-in-uae-ce7858d3de8bf62c"
+        },
+        {
+          "title": "Standard Chartered Brings Spot Crypto Trading to Dubai FX Platform",
+          "url": "https://www.coindesk.com/business/2026/09/03/standard-chartered-first-top-global-bank-to-offer-bitcoin-and-ether-trading-in-uae"
+        }
+      ]
+    },
+    {
+      "slug": "2026-09-04-crypto-news-7b5dedaf08",
+      "date_kst": "2026-09-04",
+      "title": "Taiwan Excludes Virtual Asset and Stablecoin Sales by Businesses from Business Tax; Service Fees, Commissions and NFTs Remain Taxable",
+      "content": "Taiwan's Ministry of Finance issued an interpretive order on September 3 local time stating that sales by business entities of virtual assets and stablecoins as defined in Article 3, Subparagraphs 1 and 6 of the Virtual Asset Services Act do not fall within the scope of business tax. The ministry determined that virtual assets such as Bitcoin and Ether under Subparagraph 1 are used for payment or investment purposes, while stablecoins under Subparagraph 6 are multipurpose payment instruments, so transfers of these assets do not have the nature of consumption. This does not mean that the tax rate was lowered; it means that the sales and transfers in question fall outside the scope of business tax. However, service fees and commissions received by virtual asset service providers for providing others with related services, including virtual asset exchange, under Article 6 of the same Act constitute consideration for the supply of services and remain subject to business tax. Non-fungible tokens (NFTs) are not yet included among the virtual assets defined by the Act, so sales by business entities, as well as exchanges for another person's goods or services, are treated as supplies of services and taxed. The new standard reflects the asset classifications in the Act, which was enacted and promulgated on July 22, 2026. The ministry said the United Kingdom, Germany, Canada, Japan, Singapore, Australia, New Zealand, Korea, Indonesia and the European Union already classify virtual assets as means of payment or financial services and do not impose value-added-tax-type levies on related transactions. The interpretive order applies only to business tax and does not address income tax or taxation of capital gains.",
+      "metanomia_thought": "This interpretive order can be read as separating the tax boundary between asset transfers and the services that facilitate those transactions. Token sales are outside the scope of business tax, but service fees, commissions and NFT transactions remain taxable, making service providers' classification and filing responsibilities more important. As Korea designs a won-denominated stablecoin framework, it also needs to clarify the value-added tax treatment of amounts paid for virtual asset trades, transaction service fees and commissions, and NFT transactions.",
+      "sources": [
+        {
+          "title": "核釋營業人銷售虛擬資產服務法所定之虛擬資產及穩定幣，不課徵營業稅",
+          "url": "https://www.mof.gov.tw/singlehtml/384fb3077bb349ea973e7fc6f13b6974?cntId=e433b8dddaa84dc294cadc97e653757e"
+        },
+        {
+          "title": "MINISTRY OF FINANCE Order is hereby given, for the stipulation that sales of virtual assets and stablecoins specified in Subparagraph 1 and 6 of Article 3 of \"Virtual Asset Services Act\" made by business entities shall be exempt from business tax",
+          "url": "https://gazette.nat.gov.tw/egFront/e_detail.do?metaid=168088"
+        },
+        {
+          "title": "財部：營業人銷售虛擬資產及穩定幣　不課徵營業稅",
+          "url": "https://money.udn.com/money/amp/story/6710/9732856"
+        }
+      ]
+    },
     {
       "slug": "2026-09-03-crypto-news-f77b8222a4",
       "date_kst": "2026-09-03",
