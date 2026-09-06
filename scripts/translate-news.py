@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """Translate data/crypto-news.json into data/crypto-news.en.json.
 
-Only items whose slug is missing from the English file are translated, so a
-normal run costs one API call per newly published item. Pass --force to
-retranslate everything (e.g. after changing the prompt below).
+Normally items whose slug is missing from the English file are translated.
+``--required-slugs-file`` also retranslates explicitly changed Korean items,
+preventing a same-slug English article from becoming stale.
 
 Requires ANTHROPIC_API_KEY in the environment.
 """
@@ -13,8 +13,6 @@ import json
 import os
 import sys
 from pathlib import Path
-
-import anthropic
 
 MODEL = "claude-opus-5"
 
@@ -68,6 +66,42 @@ def load(path):
     return json.loads(path.read_text(encoding="utf-8"))
 
 
+def required_slugs(path, known_slugs):
+    if path is None:
+        return set()
+    metadata = load(path)
+    values = metadata.get("changed_slugs") if isinstance(metadata, dict) else None
+    if not isinstance(values, list) or any(not isinstance(value, str) for value in values):
+        raise ValueError("required slug metadata must contain a changed_slugs string array")
+    result = set(values)
+    unknown = sorted(result - set(known_slugs))
+    if unknown:
+        raise ValueError(f"required slug metadata contains unknown slug(s): {', '.join(unknown)}")
+    return result
+
+
+def select_pending(ko_items, en_items, force=False, required=None):
+    required = set(required or [])
+    done = {} if force else {i["slug"]: i for i in en_items if i.get("slug")}
+    pending = [
+        item
+        for item in ko_items
+        if item.get("slug") and (item["slug"] not in done or item["slug"] in required)
+    ]
+    return done, pending
+
+
+def assert_no_english_only_slugs(ko_items, en_items):
+    ko_slugs = {item.get("slug") for item in ko_items if item.get("slug")}
+    en_slugs = {item.get("slug") for item in en_items if item.get("slug")}
+    extra = sorted(en_slugs - ko_slugs)
+    if extra:
+        raise ValueError(
+            "English manifest contains slug(s) absent from Korean manifest; "
+            f"automatic deletion is forbidden: {', '.join(extra)}"
+        )
+
+
 def translate(client, item):
     source = json.dumps(
         {
@@ -99,17 +133,30 @@ def translate(client, item):
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--force", action="store_true", help="retranslate every item")
+    parser.add_argument(
+        "--required-slugs-file",
+        type=Path,
+        help="publisher metadata JSON whose changed_slugs must be retranslated",
+    )
     args = parser.parse_args()
 
     ko = load(KO_PATH)
     en = load(EN_PATH)
 
-    done = {} if args.force else {i["slug"]: i for i in en.get("items", []) if i.get("slug")}
-    pending = [i for i in ko.get("items", []) if i.get("slug") and i["slug"] not in done]
+    ko_items = ko.get("items", [])
+    en_items = en.get("items", [])
+    assert_no_english_only_slugs(ko_items, en_items)
+    known_slugs = [item.get("slug") for item in ko_items if item.get("slug")]
+    required = required_slugs(args.required_slugs_file, known_slugs)
+    done, pending = select_pending(
+        ko_items, en_items, force=args.force, required=required
+    )
 
     if not pending:
         print("nothing to translate")
         return
+
+    import anthropic
 
     client = anthropic.Anthropic()
     print(f"translating {len(pending)} item(s) with {MODEL}")

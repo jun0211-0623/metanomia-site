@@ -1,0 +1,280 @@
+name: Publish crypto news from Google Sheet
+run-name: Publish crypto news ${{ inputs.publish_id }}
+
+on:
+  workflow_dispatch:
+    inputs:
+      publish_id:
+        description: Idempotency key generated from the reviewed Sheet payload
+        required: true
+        type: string
+      payload_gzip_base64:
+        description: Gzip-compressed UTF-8 JSON, then base64 encoded (maximum 60,000 characters)
+        required: true
+        type: string
+      payload_sha256:
+        description: SHA-256 of the uncompressed UTF-8 JSON payload
+        required: true
+        type: string
+      confirm_production:
+        description: Explicit confirmation that this run may update origin/main
+        required: true
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+
+# GitHub Actions 2026 queue:max retains up to 100 pending runs and processes the
+# concurrency group one at a time. It must not be combined with cancel-in-progress:true.
+concurrency:
+  group: homepage-publish
+  queue: max
+
+jobs:
+  build:
+    name: Validate, translate, build, and audit
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    if: ${{ inputs.confirm_production == true && github.ref == 'refs/heads/main' }}
+    env:
+      PYTHONDONTWRITEBYTECODE: "1"
+    outputs:
+      base_head: ${{ steps.preflight.outputs.base_head }}
+      publish_id: ${{ steps.decode.outputs.publish_id }}
+      date_kst: ${{ steps.decode.outputs.date_kst }}
+      already_applied: ${{ steps.replay.outputs.already_applied }}
+      applied_commit: ${{ steps.replay.outputs.commit_sha }}
+      has_changes: ${{ steps.changes.outputs.has_changes }}
+      patch_sha256: ${{ steps.patch.outputs.patch_sha256 }}
+      approved_count: ${{ steps.prepare.outputs.approved_count }}
+      added_count: ${{ steps.prepare.outputs.added_count }}
+      updated_count: ${{ steps.prepare.outputs.updated_count }}
+
+    steps:
+      - name: Check out the exact production branch without write credentials
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+          # Retain this job's contents:read token so a private-repository freshness fetch works.
+          persist-credentials: true
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run publisher and translation-selection tests
+        run: python -m unittest discover -s tests -p "test_*.py" -v
+
+      - name: Verify clean origin/main starting point
+        id: preflight
+        run: |
+          git fetch --no-tags origin main
+          python scripts/publish_crypto_news.py git-preflight \
+            --repository . \
+            --branch main \
+            --remote origin \
+            --github-output "$GITHUB_OUTPUT"
+
+      - name: Decode and integrity-check the Sheet payload
+        id: decode
+        env:
+          PUBLISH_PAYLOAD_GZIP_BASE64: ${{ inputs.payload_gzip_base64 }}
+          PUBLISH_PAYLOAD_SHA256: ${{ inputs.payload_sha256 }}
+        run: |
+          python scripts/publish_crypto_news.py decode \
+            --output "$RUNNER_TEMP/publish-payload.json" \
+            --github-output "$GITHUB_OUTPUT"
+
+      - name: Verify the requested id
+        env:
+          REQUEST_PUBLISH_ID: ${{ inputs.publish_id }}
+          PAYLOAD_PUBLISH_ID: ${{ steps.decode.outputs.publish_id }}
+        run: |
+          if [ "$REQUEST_PUBLISH_ID" != "$PAYLOAD_PUBLISH_ID" ]; then
+            echo "The workflow publish_id does not match the validated payload." >&2
+            exit 1
+          fi
+
+      - name: Detect an already applied request
+        id: replay
+        run: |
+          python scripts/publish_crypto_news.py check-applied \
+            --repository . \
+            --publish-id "${{ steps.decode.outputs.publish_id }}" \
+            --github-output "$GITHUB_OUTPUT"
+
+      - name: Prepare the next Korean manifest
+        if: ${{ steps.replay.outputs.already_applied != 'true' }}
+        id: prepare
+        run: |
+          python scripts/publish_crypto_news.py prepare \
+            --payload "$RUNNER_TEMP/publish-payload.json" \
+            --manifest data/crypto-news.json \
+            --output "$RUNNER_TEMP/crypto-news.json" \
+            --metadata-output "$RUNNER_TEMP/publish-result.json" \
+            --github-output "$GITHUB_OUTPUT"
+
+      - name: Install the validated Korean manifest
+        if: ${{ steps.replay.outputs.already_applied != 'true' }}
+        run: |
+          python scripts/publish_crypto_news.py install \
+            --source "$RUNNER_TEMP/crypto-news.json" \
+            --target data/crypto-news.json
+
+      - name: Install the translation dependency
+        if: ${{ steps.replay.outputs.already_applied != 'true' }}
+        run: python -m pip install --disable-pip-version-check anthropic
+
+      - name: Translate every new or changed Korean article
+        if: ${{ steps.replay.outputs.already_applied != 'true' }}
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          if [ -z "$ANTHROPIC_API_KEY" ]; then
+            echo "ANTHROPIC_API_KEY is required for simultaneous Korean and English publication." >&2
+            exit 1
+          fi
+          python scripts/translate-news.py \
+            --required-slugs-file "$RUNNER_TEMP/publish-result.json"
+
+      - name: Build and audit both languages
+        if: ${{ steps.replay.outputs.already_applied != 'true' }}
+        run: |
+          python scripts/build-news-pages.py
+          python scripts/publish_crypto_news.py verify-static-pages --repository .
+          python scripts/audit-site.py
+
+      - name: Enforce the publication file allowlist
+        if: ${{ steps.replay.outputs.already_applied != 'true' }}
+        id: changes
+        run: |
+          python scripts/publish_crypto_news.py guard-worktree \
+            --repository . \
+            --github-output "$GITHUB_OUTPUT"
+
+      - name: Stage only bilingual publication outputs
+        if: ${{ steps.replay.outputs.already_applied != 'true' && steps.changes.outputs.has_changes == 'true' }}
+        run: |
+          git add -- data/crypto-news.json data/crypto-news.en.json sitemap.xml \
+            ':(glob)crypto-news-20*.html' ':(glob)ko/crypto-news-20*.html'
+          python scripts/publish_crypto_news.py guard-staged --repository .
+
+      - name: Build the verified publication patch
+        if: ${{ steps.replay.outputs.already_applied != 'true' && steps.changes.outputs.has_changes == 'true' }}
+        id: patch
+        run: |
+          git diff --cached --binary --full-index > "$RUNNER_TEMP/publication.patch"
+          echo "patch_sha256=$(sha256sum "$RUNNER_TEMP/publication.patch" | cut -d ' ' -f 1)" >> "$GITHUB_OUTPUT"
+
+      - name: Upload the verified publication patch
+        if: ${{ steps.replay.outputs.already_applied != 'true' && steps.changes.outputs.has_changes == 'true' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: crypto-news-publication-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ runner.temp }}/publication.patch
+          if-no-files-found: error
+          retention-days: 1
+
+      - name: Report a safe no-op
+        if: ${{ steps.replay.outputs.already_applied == 'true' || steps.changes.outputs.has_changes != 'true' }}
+        env:
+          ALREADY_APPLIED: ${{ steps.replay.outputs.already_applied }}
+          APPLIED_COMMIT: ${{ steps.replay.outputs.commit_sha }}
+        run: |
+          if [ "$ALREADY_APPLIED" = "true" ]; then
+            echo "Idempotent no-op: already applied in $APPLIED_COMMIT" >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo "Validated no-op: bilingual public files already match." >> "$GITHUB_STEP_SUMMARY"
+          fi
+
+  publish:
+    name: Commit and push the verified bilingual publication
+    needs: build
+    if: ${{ needs.build.result == 'success' && needs.build.outputs.already_applied != 'true' && needs.build.outputs.has_changes == 'true' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    environment: production
+    permissions:
+      contents: write
+    env:
+      PYTHONDONTWRITEBYTECODE: "1"
+
+    steps:
+      - name: Check out production for the write boundary
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Download the verified publication patch
+        uses: actions/download-artifact@v4
+        with:
+          name: crypto-news-publication-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ runner.temp }}/publication-artifact
+
+      - name: Recheck base commit and patch digest
+        env:
+          EXPECTED_BASE: ${{ needs.build.outputs.base_head }}
+          EXPECTED_PATCH_SHA: ${{ needs.build.outputs.patch_sha256 }}
+        run: |
+          git fetch --no-tags origin main
+          python scripts/publish_crypto_news.py git-preflight \
+            --repository . --branch main --remote origin
+          if [ "$(git rev-parse HEAD)" != "$EXPECTED_BASE" ]; then
+            echo "origin/main changed after validation; refusing stale publication." >&2
+            exit 1
+          fi
+          PATCH_PATH="$RUNNER_TEMP/publication-artifact/publication.patch"
+          if [ "$(sha256sum "$PATCH_PATH" | cut -d ' ' -f 1)" != "$EXPECTED_PATCH_SHA" ]; then
+            echo "Publication patch digest mismatch." >&2
+            exit 1
+          fi
+
+      - name: Apply and revalidate the exact patch
+        run: |
+          PATCH_PATH="$RUNNER_TEMP/publication-artifact/publication.patch"
+          git apply --index --binary "$PATCH_PATH"
+          python scripts/publish_crypto_news.py guard-worktree --repository .
+          python scripts/publish_crypto_news.py guard-staged --repository .
+          python scripts/publish_crypto_news.py verify-static-pages --repository .
+          python scripts/audit-site.py
+
+      - name: Commit only verified bilingual outputs
+        env:
+          PUBLISH_ID: ${{ needs.build.outputs.publish_id }}
+          DATE_KST: ${{ needs.build.outputs.date_kst }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Publish Crypto News through $DATE_KST [publish_id:$PUBLISH_ID]"
+          python scripts/publish_crypto_news.py guard-commit \
+            --repository . \
+            --expected-parent "${{ needs.build.outputs.base_head }}" \
+            --publish-id "$PUBLISH_ID"
+
+      - name: Push the exact commit to production
+        run: git push origin HEAD:refs/heads/main
+
+      - name: Write publication summary
+        env:
+          PUBLISH_ID: ${{ needs.build.outputs.publish_id }}
+          DATE_KST: ${{ needs.build.outputs.date_kst }}
+          APPROVED_COUNT: ${{ needs.build.outputs.approved_count }}
+          ADDED_COUNT: ${{ needs.build.outputs.added_count }}
+          UPDATED_COUNT: ${{ needs.build.outputs.updated_count }}
+        run: |
+          {
+            echo "## Bilingual crypto news publication completed"
+            echo "- Publish ID: \`$PUBLISH_ID\`"
+            echo "- Briefing date: \`$DATE_KST\`"
+            echo "- Approved: $APPROVED_COUNT; added: $ADDED_COUNT; updated: $UPDATED_COUNT"
+            echo "- Korean and English manifests, pages, and sitemap were audited and pushed together."
+          } >> "$GITHUB_STEP_SUMMARY"
