@@ -1,7 +1,70 @@
 {
   "schema_version": "1.0",
-  "generated_at_kst": "2026-09-04T10:26:00+09:00",
+  "generated_at_kst": "2026-09-07T10:22:00+09:00",
   "items": [
+    {
+      "slug": "2026-09-07-crypto-news-ca8d1ed97b",
+      "date_kst": "2026-09-07",
+      "title": "IMF: Increase in El Salvador’s Bitcoin Holdings Came from Private Donations; Chivo’s Operational Control Transferred to Private Sector",
+      "content": "IMF staff said, based on documents submitted by the Salvadoran authorities, that the increase in bitcoin holdings since the first review on June 27, 2025, came from private donations and that no public funds had been used. The IMF disclosed this on September 3 (local time) when announcing a staff-level agreement on the second and third reviews of El Salvador’s Extended Fund Facility (EFF) arrangement.\r\n\r\nThe IMF-supported program includes measures to limit public-sector bitcoin-related activities and purchases and to reduce government involvement in the Chivo digital wallet. In this announcement, the IMF said it expected no further bitcoin accumulation beyond the documented donations.\r\n\r\nPublic-sector involvement in Chivo has also been substantially reduced. A majority stake and operational control were transferred to a private operator, but the government retained a minority stake and responsibility for the custody of customer assets. The two sides also agreed on measures to improve the legal, regulatory, and supervisory framework for digital assets and strengthen governance and risk management of public-sector cryptoasset holdings.\r\n\r\nIf the IMF Executive Board approves the agreement and the prior actions are completed, El Salvador could receive approximately $140 million in additional financing. The agreement remains at the staff level, and disbursement has not been confirmed. The press release did not disclose the donors, the size of the donations, the name of Chivo’s private operator, or the original documents submitted by the authorities.",
+      "metanomia_thought": "This announcement shows how the conditions attached to IMF financing influence El Salvador’s bitcoin policy. The IMF-supported program includes conditions limiting public-sector bitcoin-related activities and purchases and reducing government involvement in Chivo. The explanation that the increase in holdings came from private donations rather than purchases using public funds is therefore important in assessing compliance with the financing conditions. Even if El Salvador adopts bitcoin as a national strategy, it must meet the financing conditions agreed with the IMF, which limits the scope for pursuing related policies independently.",
+      "sources": [
+        {
+          "title": "IMF Reaches Staff-Level Agreement on the Combined Second and Third Reviews under El Salvador’s Extended Fund Facility Arrangement",
+          "url": "https://www.imf.org/en/news/articles/2026/09/03/pr26285-el-salvador-imf-reaches-sla-on-combined-2nd-and-3rd-rev-under-eff-arrangement"
+        },
+        {
+          "title": "El Salvador used no public funds for Bitcoin, IMF says",
+          "url": "https://crypto.news/el-salvador-used-no-public-funds-for-bitcoin/"
+        },
+        {
+          "title": "IMF Executive Board Approves New 40-month US$1.4 billion Extended Fund Facility Arrangement for El Salvador",
+          "url": "https://www.imf.org/en/news/articles/2025/02/26/pr25043-el-salvador-imf-approves-new-40-month-us1-bn-eff-arr"
+        }
+      ]
+    },
+    {
+      "slug": "2026-09-07-crypto-news-2090843219",
+      "date_kst": "2026-09-07",
+      "title": "FSC Unveils Roadmap for Tokenizing Stocks, Bonds and Funds: Phase One to Begin in February 2027",
+      "content": "The Financial Services Commission (FSC) is building infrastructure in stages to enable not only fractional investment products but also existing securities, including stocks, bonds and funds, to be issued and traded in token form. The FSC unveiled this policy direction on September 4 at the third meeting of the joint public-private consultative body on token securities. It plans to start with selected products when the amended Electronic Securities Act takes effect on February 4, 2027, then expand the scope of eligible products and the settlement infrastructure.\r\nPhase one covers privately placed money market funds (MMFs) and privately placed corporate bonds, both restricted to institutional investors, trust beneficiary securities backed by unlisted shares, and publicly offered fractional investment securities. For unlisted shares, the plan is to place electronically registered shares in trust with the Korea Securities Depository or a trust company, which would issue beneficiary securities in token form. Voting rights, dividends and other rights attached to the shares would be managed through the existing electronic securities system, while rights attached to the beneficiary securities would be managed through the token securities infrastructure.\r\nPhase two would expand tokenization to publicly offered stocks, bonds, funds and other securities. Phase three would introduce onchain settlement by integrating stablecoins and other means of payment. The timing of phases two and three will depend on the stability and efficiency of initial operations, technological developments, stablecoin legislation and other factors. Validation of tokenization models for listed shares and pilot projects led by the Korea Exchange will also proceed in parallel.\r\nExisting financial investment firms will be able to handle token securities within the scope of their authorized business without obtaining additional authorization. However, the plan is to require prior consultation with the Financial Supervisory Service before over-the-counter exchanges support trading. The proposed trading limit for retail investors is KRW 100 million in annual net purchases per over-the-counter exchange. The FSC plans to apply registration requirements, including KRW 4 billion in equity capital and specialized personnel, to \"issuer account management institutions,\" which directly manage customer accounts for securities they issue themselves. Draft amendments to the relevant subordinate regulations are scheduled to be published for public consultation at the end of September.",
+      "metanomia_thought": "This roadmap seeks to extend token securities to the existing securities market while changing the rights-management framework in stages. Issuing trust beneficiary securities instead of directly tokenizing unlisted shares can be seen as a choice to reduce the burden of adoption by using existing arrangements. What needs to be tested going forward is not token issuance itself, but whether running existing systems alongside distributed ledgers can lower issuance and rights-management costs while making trading more convenient. Further efficiency gains through stablecoin settlement are a task for the next stage, requiring separate technical and institutional preparations.",
+      "sources": [
+        {
+          "title": "토큰증권 정책방향 발표- 민·관 합동 토큰증권 협의체 3차회의 개최",
+          "url": "https://www.fsc.go.kr/no010101/87650"
+        },
+        {
+          "title": "South Korea to start tokenizing 'all types' of securities in three stages from 2027",
+          "url": "https://www.theblock.co/news/regulation/2026-09-04-south-korea-to-start-tokenizing-all-types-of-securities-in-three-stages-from-2027-413523"
+        },
+        {
+          "title": "Gov't seeks infrastructure to tokenize traditional securities beyond fractional investments",
+          "url": "https://www.koreatimes.co.kr/economy/20260904/govt-seeks-infrastructure-to-tokenize-traditional-securities-beyond-fractional-investments"
+        }
+      ]
+    },
+    {
+      "slug": "2026-09-07-crypto-news-03b092941b",
+      "date_kst": "2026-09-07",
+      "title": "Chile’s Orionx Begins Shutdown Process; CMF Says It Has No Power to Order Return of Customer Assets",
+      "content": "Chilean crypto asset trading and custody platform Orionx said on September 3 (local time) that it had begun the process of permanently shutting down and had temporarily suspended customer withdrawals. The company said a forensic audit had identified transactions transferring more than $7 million in assets held in custody to wallets it does not manage.\r\nOrionx said it had reported the matter to prosecutors and filed a criminal complaint against two former associates on September 2. These are the company’s claims, however, and responsibility and the final amount of losses remain to be determined through the investigation and court proceedings. The company said it suspended withdrawals to treat customers fairly and prevent customers who withdrew first from gaining an advantage.\r\nThe company said it had informed the authorities of its shutdown and asset return plan and was implementing the first phase. In its official Q&A, however, it said it currently could not guarantee the return of all customer assets and would assess each customer’s circumstances to return as much as possible. The amount to be returned to each customer and the timetable have not yet been finalized.\r\nMeanwhile, Chile’s Financial Market Commission (CMF) reaffirmed on September 4 that Orionx and its activities were not subject to its supervision. The CMF said it had rejected the company’s application for registration and authorization in June, did not oversee its shutdown or liquidation process, and had no power to order the return of customer assets. Its position is that it does not supervise the process, regardless of the company’s statement that it informed the authorities of its asset return plan.",
+      "metanomia_thought": "Orionx has said it cannot guarantee the return of all customer assets, and the CMF has said it has no power to order their return. Depending on the assets remaining and the outcome of asset recovery, customers may not get all their assets back. This is the custody risk involved in entrusting control of assets to an exchange. If an exchange blocks withdrawals or loses assets, customers’ recovery also depends on the company’s response and legal proceedings. Self-custody reduces this dependence on intermediaries. However, individuals must take responsibility for safeguarding their private keys and authorizing transactions.",
+      "sources": [
+        {
+          "title": "Información importante para nuestros clientes",
+          "url": "https://orionx.com/status"
+        },
+        {
+          "title": "CMF reitera al público que la entidad Orionx y sus actividades no son fiscalizadas por esta Comisión",
+          "url": "https://www.cmfchile.cl/portal/prensa/625/w4-article-113273.html"
+        },
+        {
+          "title": "Cierra plataforma de criptomonedas OrionX y acusa a exsocios de irregularidades por US$7 millones",
+          "url": "https://www.latercera.com/pulso/noticia/cierra-plataforma-de-criptomonedas-orionx-y-acusa-a-exsocios-de-irregularidades-por-us7-millones/?outputType=base-amp-type"
+        }
+      ]
+    },
     {
       "slug": "2026-09-04-crypto-news-a77506e9d8",
       "date_kst": "2026-09-04",
