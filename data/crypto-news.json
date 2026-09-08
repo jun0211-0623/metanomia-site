@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at_kst": "2026-09-08T10:21:00+09:00",
+  "generated_at_kst": "2026-09-08T17:10:55+09:00",
   "items": [
     {
       "id": "crypto-news-f0f7a3a544029734",
@@ -25,6 +25,24 @@
         {
           "title": "Technical Overview",
           "url": "https://docs.liquid.net/docs/technical-overview"
+        }
+      ]
+    },
+    {
+      "id": "crypto-news-8c5a7fe9693848a9",
+      "slug": "2026-09-08-crypto-news-8c5a7fe969",
+      "date_kst": "2026-09-08",
+      "title": "스위스 9개 금융·결제사, 프랑 스테이블코인 시험 단계 개시…상용 발행 결정은 아직",
+      "content": "현지시간 9월 8일 스위스 금융그룹 UBS를 비롯한 9개 금융·결제 기관이 스위스프랑 스테이블코인 CHFD의 활용 방안을 통제된 실환경 샌드박스에서 시험하기 시작했다. 기존 참여사인 UBS·포스트파이낸스·시그넘·라이파이젠·취리히주립은행·보주주립은행·스위스스테이블코인에 금융시장 인프라 기업 SIX와 결제앱 운영사 TWINT가 새로 합류했다. CHFD는 1 CHFD가 1스위스프랑의 가치를 유지하도록 설계됐으며 6월 말부터 샌드박스에서 기술적으로 가동 중이다. 시험용 플랫폼은 스위스스테이블코인의 자회사 CHFD 인프라 AG가 운영한다. 참여사들은 금융기관 간 자동 거래와 디지털 자산의 토큰화 결제, 조건에 따라 실행되는 프로그래머블 지급을 시험한다. 온라인 장터의 사기 위험을 줄이는 지급 방식, 행사 입장권의 공정한 배분, 공공 지급의 효율화도 검토 대상이다. 샌드박스는 참여자와 거래 한도를 제한하는 안전장치를 둔 통제형 실환경으로 운영된다. 시험 결과는 열어 둔 상태이며 운영 기간은 2026년 말까지로 예정됐다. 참여사들은 시험 종료 뒤 기술·운영·규제 요건과 활용 가능성에 관한 결과 개요를 공개할 계획이다. 확인되는 변화는 CHFD를 활용한 공동 시험의 개시까지이며 정식 스위스프랑 스테이블코인 발행 결정, 일반 이용자 대상 출시와 실제 거래량은 공개되지 않았다.",
+      "metanomia_thought": "이번 시험은 스테이블코인 활용 판단권을 개별 은행의 내부 검토에서 은행·시장 인프라·결제앱이 함께 검증하는 구조로 넓힙니다. 다만 장부 운영과 참여자·거래 한도 통제는 샌드박스 운영 주체와 참여기관에 남아 있어 개방형 결제망과는 다릅니다. 정식 발행이 결정되지 않은 만큼 상환 책임과 이용자 손실 부담의 최종 경계도 아직 확정되지 않았습니다.",
+      "sources": [
+        {
+          "title": "CHF stablecoin sandbox enters test phase and adds SIX and TWINT as new partners",
+          "url": "https://www.ubs.com/global/de/media/display-page-ndp/en-20260908-stablecoin-sandbox.html"
+        },
+        {
+          "title": "CHF stablecoin sandbox enters test phase, adds SIX and TWINT as new partners",
+          "url": "https://fxnewsgroup.com/forex-news/payments/chf-stablecoin-sandbox-enters-test-phase-adds-six-and-twint-as-new-partners/"
         }
       ]
     },
