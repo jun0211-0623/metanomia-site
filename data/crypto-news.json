@@ -1,7 +1,69 @@
 {
   "schema_version": "1.0",
-  "generated_at_kst": "2026-09-07T10:22:00+09:00",
+  "generated_at_kst": "2026-09-08T10:21:00+09:00",
   "items": [
+    {
+      "id": "crypto-news-f0f7a3a544029734",
+      "slug": "2026-09-08-crypto-news-f0f7a3a544",
+      "date_kst": "2026-09-08",
+      "title": "리퀴드 유출 비트코인 3,400개 반환…브리지 노드 패치 확인",
+      "content": "협정세계시(UTC) 9월 7일, 리퀴드(Liquid)에서 전날 유출된 비트코인 약 4,000개 가운데 3,400개가 운영 주체인 리퀴드 연합의 지갑으로 돌아왔다. 반환 거래는 비트코인 블록체인에서 확정됐으며, 해당 거래에서 발신 주소에는 약 598.5BTC가 남았다.\r\n리퀴드는 비트코인 관련 송금과 거래를 더 빠르게 처리하기 위해 비트코인망과 연결해 만든 별도의 블록체인 네트워크다. 이용자는 비트코인을 맡기고 그에 대응하는 토큰인 L-BTC를 받아 리퀴드 안에서 사용할 수 있다. 거래소와 금융회사 등이 참여하는 ‘리퀴드 연합’이 담보 비트코인을 보관하며, L-BTC는 이 비트코인과 1대1로 교환되도록 설계돼 있다. 일반 이용자가 L-BTC를 비트코인으로 돌려받으려면 연합의 승인된 참여자를 거쳐야 한다.\r\n더 블록(The Block)은 리퀴드 기반 거래 서비스인 사이드스왑(SideSwap)을 인용해, 이번 출금에 사용된 L-BTC가 리퀴드의 기반 소프트웨어인 엘리먼츠(Elements)의 오류로 생성됐다고 전했다. 실제 비트코인을 예치하지 않고 만들어진 토큰이 교환 절차를 통과하면서, 연합이 담보로 보관하던 비트코인 약 4,000개가 외부 주소로 지급됐다는 설명이다.\r\n사고 이후 리퀴드의 네트워크 활동과 관련 입출금이 중단됐다. 자금을 가져간 주체는 블록체인에 메시지를 남겨, 오류 수정과 모든 노드의 패치가 확인되면 자금을 반환하겠다고 밝혔다. 개발사 블록스트림은 7일 외부 노드의 네트워크 접속을 중계하는 ‘브리지 노드’에 패치가 적용됐다는 전자서명 메시지를 남겼다. 이후 3,400BTC의 반환이 이뤄졌다.\r\n현재 확인된 복구 범위는 브리지 노드의 패치와 유출 자금 일부 회수다. 전체 네트워크의 정상 운영과 L-BTC의 비트코인 교환이 재개됐는지는 확인되지 않았다. 남은 자금의 반환 일정과 손실 처리 방안도 공개된 자료에서는 확인되지 않았다.",
+      "metanomia_thought": "리퀴드처럼 담보를 공동으로 보관하는 구조에서는 담보 없이 만들어진 토큰에 실제 비트코인이 지급되는 순간 다른 이용자의 토큰을 뒷받침할 자산도 부족해지므로, 정상 보유자의 상환 가능성까지 흔들립니다. 이용자가 자신의 L-BTC를 약속된 비율대로 비트코인으로 돌려받을 수 있는 상태를 회복하는 것은 남은 부족분의 처리와 출금 재개를 결정하는 운영 연합에 달려 있습니다.",
+      "sources": [
+        {
+          "title": "mempool - Bitcoin Explorer",
+          "url": "https://mempool.space/tx/87dc0a20099a94c2caaa3fa93d1724cfe41b05ae5e0778cc0e8994b22e81120c"
+        },
+        {
+          "title": "Bitcoin Explorer - Blockstream.info",
+          "url": "https://blockstream.info/tx/a6d697a25266ce3c78774fd1d75f896b7af522ada209b0f6228ea497bc49a46d"
+        },
+        {
+          "title": "Liquid Network attacker returns 3,400 BTC after bug fix, retains nearly 600 BTC",
+          "url": "https://www.theblock.co/news/defi/2026-09-07-liquid-network-attacker-says-they-will-return-most-of-4000-btc-after-bug-fix-413673"
+        },
+        {
+          "title": "Technical Overview",
+          "url": "https://docs.liquid.net/docs/technical-overview"
+        }
+      ]
+    },
+    {
+      "id": "crypto-news-86754484569bdb82",
+      "slug": "2026-09-08-crypto-news-8675448456",
+      "date_kst": "2026-09-08",
+      "title": "인도 REC, 토큰화 회사채 50억 루피 발행 완료…납입·배정·상장을 하루에",
+      "content": "현지시간 9월 7일 인도 전력부 산하 금융회사 REC는 거래소 공시를 통해 토큰화 회사채 50억 루피 발행을 완료했다고 밝혔다. 토큰화 회사채는 기업에 돈을 빌려준 투자자의 증권 소유권을 디지털 토큰 형태로 기록하는 채권이다. 회사는 이번 발행이 인도 증권시장 감독기관인 증권거래위원회(SEBI)의 규제 샌드박스, 즉 감독 아래 새로운 금융 방식을 시험하는 제도 안에서 이뤄진 인도 최초의 토큰화 회사채 시범 발행이라고 설명했다. 발행액은 기본 모집액 10억 루피와 수요에 따라 늘릴 수 있는 추가 물량 40억 루피를 합친 금액이며, 연 이자율은 7.30%, 만기는 1년 9개월이다. 인도 국립증권거래소(NSE)의 전자 입찰에서 79억6000만 루피의 신청이 들어왔다. REC에 따르면 투자자의 대금 납입, 채권 배정, NSE와 봄베이증권거래소(BSE) 두 거래소 상장이 같은 날 이뤄졌다. 회사는 허가받은 참여자가 이용하는 분산원장에 증권 소유권을 기록하고, 증권 인도와 대금 지급이 함께 이뤄지도록 연결하는 증권대금동시결제 방식을 도입했다고 설명했다. 다만 실제 발행·결제의 정확한 일시와 참여 투자자 수, 유통시장의 거래량, 일반 투자자의 접근 조건은 이번 공시에 별도로 공개되지 않았다.",
+      "metanomia_thought": "REC 사례는 토큰화가 기존 금융기관의 업무 안으로 들어오는 경로를 보여줍니다. 기존 거래소와 감독체계 안에서 증권 소유권의 기록과 대금 지급을 연결한 것은, 기존 시장의 규칙을 분산원장 위에서 구현하는 접근입니다. 이 사례에서는 기존 거래소와 금융기관이 토큰화 증권의 발행·상장 과정에 계속 참여하며, 토큰화가 곧 누구나 거래하는 개방시장을 뜻하지는 않습니다. 한국에서도 토큰증권의 발행·결제 체계를 구축할 때 결제 시간·비용과 함께, 투자자의 권리를 어떻게 확인하고 장애 발생 시 누가 책임지는지 검증할 필요가 있습니다.",
+      "sources": [
+        {
+          "title": "REC Limited Successfully Issued India's First Pilot Issue on Tokenized Corporate Bonds Under SEBI Regulatory Sandbox Framework",
+          "url": "https://nsearchives.nseindia.com/corporate/RECLTD_07092026192505_Signed_Press_Release_07092026.pdf"
+        },
+        {
+          "title": "REC Issues ₹500 Cr Through Tokenised Corporate Bonds, 8x Oversubscribed",
+          "url": "https://www.outlookbusiness.com/corporate/rec-issues-500-cr-through-tokenised-corporate-bonds-8x-oversubscribed"
+        }
+      ]
+    },
+    {
+      "id": "crypto-news-1e0d7ada2b4e48ba",
+      "slug": "2026-09-08-crypto-news-1e0d7ada2b",
+      "date_kst": "2026-09-08",
+      "title": "DBS·씨티, 토큰화 예금으로 싱가포르·미국 간 주말 달러 송금 시험 완료",
+      "content": "싱가포르 은행 DBS는 현지시간 9월 7일 공개한 배포문에서 미국 은행 씨티의 뉴욕 사무소와 토큰화 예금을 이용한 싱가포르·미국 간 주말 달러 지급을 완료했다고 밝혔다. 토큰화 예금은 은행 예금을 블록체인에서 다룰 수 있도록 디지털 단위로 표현한 것으로, 이번 거래에는 금융기관을 연결하는 스위프트(Swift)의 블록체인 기반 원장 ‘Swift Digital Ledger’가 쓰였다. DBS에 따르면 거래는 9월 5일 이뤄졌고 몇 분 만에 완료됐으며, 통상 최대 2영업일이 걸리는 국경 간 지급에서 주말과 시차로 생기는 지연을 줄였다. DBS는 전자상거래·디지털 서비스처럼 쉬지 않고 운영되는 기업이 공급업체와 고객에게 더 빨리 자금을 지급하도록 지원하는 기능이라고 설명했다.\r\n씨티가 9월 2일 공개한 공식 설명에 따르면 이번 사업은 2026년 7월부터 12월까지 진행되는 통제된 실거래 시험 단계다. 원장은 토큰화 예금의 지급 약속을 즉시 확정하는 데 사용되며, 은행 간 최종 자금 정산에는 거래를 실시간으로 건별 처리하는 기존 결제시스템 등을 활용한다. 이번 발표에는 거래 금액·실제 고객 수·수수료와 일반 고객에게 제공할 지역·시기가 공개되지 않았다.",
+      "metanomia_thought": "이번 거래는 스위프트와 은행이 토큰화를 기존 금융망의 기능으로 받아들이는 모습을 보여줍니다. 지급 약속을 공유 원장에서 처리하고 최종정산은 기존 시스템과 연결하면서, 은행들이 함께 일하는 방식을 바꾸려는 것입니다. 이런 모델에서는 여러 은행이 공통으로 사용할 거래 규칙을 만들고 운영하는 능력이 토큰화 금융에서도 중요한 경쟁력이 될 수 있습니다.",
+      "sources": [
+        {
+          "title": "DBS and Citi partner to enable instant 24/7 cross-border USD payments with tokenised deposits",
+          "url": "https://www.dbs.com/newsroom/DBS_and_Citi_partner_to_enable_instant_247_cross_border_USD_payments_with_tokenised_deposits"
+        },
+        {
+          "title": "DBS, Citi say they completed first weekend USD payment between Singapore and US via tokenized deposits",
+          "url": "https://www.theblock.co/news/business/2026-09-07-dbs-citi-say-they-completed-first-weekend-usd-payment-between-singapore-and-us-via-tokenized-deposits-413689"
+        }
+      ]
+    },
     {
       "id": "crypto-news-ca8d1ed97b737f68",
       "slug": "2026-09-07-crypto-news-ca8d1ed97b",
