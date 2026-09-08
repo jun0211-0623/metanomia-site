@@ -430,6 +430,7 @@ def public_record(report_date: str, item: dict[str, Any]) -> dict[str, Any]:
 
 
 def upsert_manifest(payload: Any, current_manifest: Any) -> tuple[dict[str, Any], dict[str, Any]]:
+    """Upsert reviewed approvals without treating a partial Sheet as a full-day replacement."""
     data = validate_payload(payload)
     current = validate_manifest(current_manifest)
     report_date = data["date_kst"]
@@ -484,15 +485,21 @@ def upsert_manifest(payload: Any, current_manifest: Any) -> tuple[dict[str, Any]
             raise PublishValidationError(
                 "The canonical primary source URL is already published on another date."
             )
+        if any(
+            existing["id"] != public_id and existing["date_kst"] == report_date
+            for existing in existing_primary_fingerprints.get(fingerprint, [])
+        ):
+            raise PublishValidationError(
+                "The canonical primary source URL is already published under another article id on this date."
+            )
     for existing in current["items"]:
         if existing["date_kst"] != report_date:
             continue
         candidate = candidates.get(existing["id"])
         if candidate is None:
-            raise PublishValidationError(
-                f"Existing public article {existing['id']} is absent from the sheet payload; "
-                "automatic deletion is forbidden."
-            )
+            # A later review batch may contain only additional articles for this date.
+            # Omission is not a deletion request: next_by_id retains this exact record.
+            continue
         if candidate[0]["decision"] != "approved":
             raise PublishValidationError(
                 f"Existing public article {existing['id']} is now rejected; automatic deletion is forbidden."

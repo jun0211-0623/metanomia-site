@@ -90,6 +90,44 @@ def english_manifest(items: list[dict[str, object]]) -> dict[str, object]:
     }
 
 
+def same_day_supplement() -> tuple[dict[str, object], dict[str, object]]:
+    """Reproduce the September 8 batch: three public articles and two new reviews."""
+    report_date = "2026-09-08"
+    existing = [
+        publisher.public_record(
+            report_date,
+            {
+                **item(f"{report_date}-existing-{index}", url=f"https://archive.example/{index}"),
+                "date_kst": report_date,
+                "title": f"기존 공개 기사 {index}",
+            },
+        )
+        for index in range(1, 4)
+    ]
+    reviewed = payload(
+        [
+            {
+                **item(
+                    "2026-09-08-01-chf-stablecoin-sandbox-test",
+                    url="https://www.ubs.com/global/de/media/display-page-ndp/en-20260908-stablecoin-sandbox.html",
+                ),
+                "date_kst": report_date,
+            },
+            {
+                **item(
+                    "2026-09-08-02-dfsa-blockchain-scam-alert",
+                    decision="rejected",
+                    url="https://www.dfsa.ae/alerts/dfsa-impersonated-blockchain-settlement-scam",
+                ),
+                "date_kst": report_date,
+            },
+        ]
+    )
+    reviewed["sheet_name"] = reviewed["date_kst"] = report_date
+    reviewed["publish_id"] = publisher.expected_publish_id(reviewed)
+    return reviewed, manifest(existing)
+
+
 class PublishCryptoNewsTests(unittest.TestCase):
     def test_upsert_adds_approved_item_and_keeps_publisher_private(self) -> None:
         old = publisher.public_record(
@@ -249,7 +287,7 @@ class PublishCryptoNewsTests(unittest.TestCase):
         self.assertEqual(metadata["added_count"], 1)
         self.assertEqual(len(next_manifest["items"]), 2)
 
-    def test_changed_or_missing_existing_date_item_cannot_be_deleted(self) -> None:
+    def test_explicitly_rejected_existing_date_item_cannot_be_deleted(self) -> None:
         approved_payload = payload()
         public = publisher.public_record("2026-09-06", approved_payload["items"][0])
 
@@ -262,10 +300,96 @@ class PublishCryptoNewsTests(unittest.TestCase):
         with self.assertRaisesRegex(publisher.PublishValidationError, "automatic deletion"):
             publisher.upsert_manifest(rejected_payload, manifest([public]))
 
+    def test_omitted_existing_date_item_is_preserved(self) -> None:
+        public = publisher.public_record("2026-09-06", item())
         different_item = item("different", url="https://regulator.example/releases/different")
         different_payload = payload([different_item])
-        with self.assertRaisesRegex(publisher.PublishValidationError, "absent from the sheet"):
-            publisher.upsert_manifest(different_payload, manifest([public]))
+        next_manifest, metadata = publisher.upsert_manifest(different_payload, manifest([public]))
+        self.assertEqual(metadata["added_count"], 1)
+        self.assertEqual(metadata["updated_count"], 0)
+        self.assertIn(public, next_manifest["items"])
+        self.assertEqual(len(next_manifest["items"]), 2)
+
+    def test_same_day_supplement_cannot_duplicate_omitted_article_source(self) -> None:
+        existing = publisher.public_record(
+            "2026-09-06", item("existing-id", url="https://regulator.example/release?id=7")
+        )
+        duplicate = payload(
+            [item("new-id", url="https://regulator.example/release?id=7&utm_source=feed")]
+        )
+        with self.assertRaisesRegex(publisher.PublishValidationError, "another article id on this date"):
+            publisher.upsert_manifest(duplicate, manifest([existing]))
+
+    def test_partial_same_day_update_preserves_legacy_public_identity(self) -> None:
+        legacy_item = item()
+        legacy = publisher.public_record("2026-09-06", legacy_item)
+        legacy["id"], legacy["slug"] = publisher.legacy_public_identity("2026-09-06", legacy_item)
+        omitted = publisher.public_record(
+            "2026-09-06", item("omitted", url="https://archive.example/omitted")
+        )
+        legacy_item["title"] = "기존 URL 기반 기사의 수정 제목"
+        next_manifest, metadata = publisher.upsert_manifest(
+            payload([legacy_item]), manifest([legacy, omitted])
+        )
+        self.assertEqual(metadata["added_count"], 0)
+        self.assertEqual(metadata["updated_count"], 1)
+        self.assertEqual(metadata["changed_slugs"], [legacy["slug"]])
+        self.assertIn(omitted, next_manifest["items"])
+        updated = next(record for record in next_manifest["items"] if record["id"] == legacy["id"])
+        self.assertEqual(updated["slug"], legacy["slug"])
+        self.assertEqual(updated["title"], legacy_item["title"])
+
+    def test_same_day_two_review_batch_preserves_three_existing_articles(self) -> None:
+        reviewed, current = same_day_supplement()
+        before = publisher.canonical_json(current).encode("utf-8")
+        next_manifest, metadata = publisher.upsert_manifest(reviewed, current)
+        self.assertEqual(metadata["approved_count"], 1)
+        self.assertEqual(metadata["added_count"], 1)
+        self.assertEqual(metadata["updated_count"], 0)
+        self.assertEqual(metadata["item_count"], 4)
+        next_by_id = {record["id"]: record for record in next_manifest["items"]}
+        for existing in current["items"]:
+            self.assertEqual(
+                publisher.canonical_json(next_by_id[existing["id"]]).encode("utf-8"),
+                publisher.canonical_json(existing).encode("utf-8"),
+            )
+        approved = publisher.public_record("2026-09-08", reviewed["items"][0])
+        rejected = publisher.public_record("2026-09-08", reviewed["items"][1])
+        self.assertEqual(next_by_id[approved["id"]], approved)
+        self.assertNotIn(rejected["id"], next_by_id)
+        self.assertEqual(metadata["changed_slugs"], [approved["slug"]])
+        self.assertEqual(publisher.canonical_json(current).encode("utf-8"), before)
+
+    def test_repeated_same_day_supplement_is_byte_equivalent_noop(self) -> None:
+        reviewed, current = same_day_supplement()
+        first, _ = publisher.upsert_manifest(reviewed, current)
+        repeated, metadata = publisher.upsert_manifest(reviewed, first)
+        self.assertEqual(metadata["added_count"], 0)
+        self.assertEqual(metadata["updated_count"], 0)
+        self.assertEqual(metadata["changed_slugs"], [])
+        self.assertEqual(
+            publisher.canonical_json(repeated).encode("utf-8"),
+            publisher.canonical_json(first).encode("utf-8"),
+        )
+
+    def test_partial_same_day_update_preserves_omitted_article(self) -> None:
+        original = publisher.public_record("2026-09-06", item())
+        omitted = publisher.public_record(
+            "2026-09-06", item("omitted", url="https://archive.example/omitted")
+        )
+        changed = item()
+        changed["title"] = "수정된 기사 제목"
+        next_manifest, metadata = publisher.upsert_manifest(
+            payload([changed]), manifest([original, omitted])
+        )
+        self.assertEqual(metadata["added_count"], 0)
+        self.assertEqual(metadata["updated_count"], 1)
+        self.assertIn(omitted, next_manifest["items"])
+        self.assertEqual(len(next_manifest["items"]), 2)
+        self.assertEqual(
+            next(record for record in next_manifest["items"] if record["id"] == original["id"])["title"],
+            "수정된 기사 제목",
+        )
 
     def test_manifest_duplicate_id_or_slug_is_blocked(self) -> None:
         public = publisher.public_record("2026-09-06", item())
