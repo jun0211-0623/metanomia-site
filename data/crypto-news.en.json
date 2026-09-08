@@ -1,7 +1,66 @@
 {
   "schema_version": "1.0",
-  "generated_at_kst": "2026-09-07T10:22:00+09:00",
+  "generated_at_kst": "2026-09-08T10:21:00+09:00",
   "items": [
+    {
+      "slug": "2026-09-08-crypto-news-f0f7a3a544",
+      "date_kst": "2026-09-08",
+      "title": "3,400 Bitcoin Returned to Liquid After Outflow; Bridge Node Patches Confirmed",
+      "content": "On September 7 (Coordinated Universal Time, or UTC), 3,400 of the approximately 4,000 bitcoin that had been drained from Liquid the previous day were returned to the wallet of the Liquid Federation, which operates the network. The return transaction was confirmed on the Bitcoin blockchain, and approximately 598.5 BTC remained at the sending address in that transaction.\r\nLiquid is a separate blockchain network connected to the Bitcoin network, created to process bitcoin-related transfers and trades more quickly. Users can deposit bitcoin and receive a corresponding token, L-BTC, for use within Liquid. The Liquid Federation, whose participants include exchanges and financial companies, holds the bitcoin collateral, and L-BTC is designed to be exchanged for that bitcoin on a one-to-one basis. Ordinary users must go through an authorized participant in the federation to redeem L-BTC for bitcoin.\r\nThe Block, citing SideSwap, a Liquid-based trading service, reported that the L-BTC used in the withdrawal was created by a bug in Elements, the software underlying Liquid. According to that explanation, tokens created without an actual bitcoin deposit passed through the redemption process, causing approximately 4,000 bitcoin held as collateral by the federation to be paid to an external address.\r\nFollowing the incident, activity on the Liquid network and related deposits and withdrawals were halted. The party that took the funds left a message on the blockchain stating that it would return them once the bug fix and the patching of all nodes had been confirmed. On September 7, developer Blockstream posted a digitally signed message confirming that patches had been applied to bridge nodes, which relay external nodes' connections to the network. The return of 3,400 BTC followed.\r\nThe recovery measures confirmed so far are patches to the bridge nodes and the return of part of the funds that were drained. It has not been confirmed whether the full network has resumed normal operation or whether L-BTC-to-bitcoin redemptions have resumed. The public materials reviewed also do not establish a schedule for returning the remaining funds or a plan for addressing the losses.",
+      "metanomia_thought": "In a structure such as Liquid's, where collateral is held collectively, paying actual bitcoin for tokens created without backing leaves fewer assets to support other users' tokens, putting legitimate holders' ability to redeem at risk. Restoring users' ability to exchange their L-BTC for bitcoin at the promised rate depends on the operating federation, which decides how to address the remaining shortfall and when to resume withdrawals.",
+      "sources": [
+        {
+          "title": "mempool - Bitcoin Explorer",
+          "url": "https://mempool.space/tx/87dc0a20099a94c2caaa3fa93d1724cfe41b05ae5e0778cc0e8994b22e81120c"
+        },
+        {
+          "title": "Bitcoin Explorer - Blockstream.info",
+          "url": "https://blockstream.info/tx/a6d697a25266ce3c78774fd1d75f896b7af522ada209b0f6228ea497bc49a46d"
+        },
+        {
+          "title": "Liquid Network attacker returns 3,400 BTC after bug fix, retains nearly 600 BTC",
+          "url": "https://www.theblock.co/news/defi/2026-09-07-liquid-network-attacker-says-they-will-return-most-of-4000-btc-after-bug-fix-413673"
+        },
+        {
+          "title": "Technical Overview",
+          "url": "https://docs.liquid.net/docs/technical-overview"
+        }
+      ]
+    },
+    {
+      "slug": "2026-09-08-crypto-news-8675448456",
+      "date_kst": "2026-09-08",
+      "title": "India's REC Completes 5 Billion Rupee Tokenized Corporate Bond Issue; Pay-in, Allotment and Listing on the Same Day",
+      "content": "On September 7 local time, REC, a financial company under India's Ministry of Power, announced in a stock exchange filing that it had completed an issue of 5 billion rupees in tokenized corporate bonds. A tokenized corporate bond uses a digital token to record an investor's ownership of the bond received in return for lending money to a company. The company described it as India's first pilot issue of tokenized corporate bonds within a regulatory sandbox, a framework for testing new financial approaches under the supervision of the Securities and Exchange Board of India (SEBI), the country's securities market regulator. The issue comprised a base amount of 1 billion rupees and 4 billion rupees in additional capacity that could be used depending on demand, with an annual interest rate of 7.30% and a maturity of one year and nine months. Bids totaling 7.96 billion rupees were submitted on the electronic bidding platform of the National Stock Exchange of India (NSE). According to REC, investor pay-in, bond allotment, and listing on both the NSE and the Bombay Stock Exchange (BSE) took place on the same day. The company said it had introduced a system that records securities ownership on a distributed ledger accessible to authorized participants and uses delivery-versus-payment to link the transfer of securities with payment so that both occur together. However, the filing did not separately disclose the precise dates and times of issuance and settlement, the number of participating investors, secondary-market trading volume, or access conditions for retail investors.",
+      "metanomia_thought": "The REC case shows a path for tokenization to become part of existing financial institutions' operations. Linking the recording of securities ownership with payment within the existing exchange and supervisory framework is an approach that implements established market rules on a distributed ledger. In this case, existing exchanges and financial institutions continue to participate in the issuance and listing of tokenized securities, and tokenization does not automatically mean an open market where anyone can trade. As South Korea builds systems for issuing and settling tokenized securities, it also needs to examine how investor rights are verified and who is responsible when failures occur, alongside settlement time and cost.",
+      "sources": [
+        {
+          "title": "REC Limited Successfully Issued India's First Pilot Issue on Tokenized Corporate Bonds Under SEBI Regulatory Sandbox Framework",
+          "url": "https://nsearchives.nseindia.com/corporate/RECLTD_07092026192505_Signed_Press_Release_07092026.pdf"
+        },
+        {
+          "title": "REC Issues ₹500 Cr Through Tokenised Corporate Bonds, 8x Oversubscribed",
+          "url": "https://www.outlookbusiness.com/corporate/rec-issues-500-cr-through-tokenised-corporate-bonds-8x-oversubscribed"
+        }
+      ]
+    },
+    {
+      "slug": "2026-09-08-crypto-news-1e0d7ada2b",
+      "date_kst": "2026-09-08",
+      "title": "DBS and Citi Complete Weekend Dollar Payment Trial Between Singapore and the U.S. Using Tokenized Deposits",
+      "content": "In a release published on September 7 local time, Singaporean bank DBS said it had completed a weekend U.S. dollar payment between Singapore and the United States with the New York office of U.S. bank Citi, using tokenized deposits. Tokenized deposits represent bank deposits as digital units that can be handled on a blockchain; the transaction used Swift Digital Ledger, the blockchain-based ledger of Swift, a network that connects financial institutions. According to DBS, the transaction took place on September 5 and was completed within minutes, reducing delays caused by weekends and time-zone differences in cross-border payments that typically take up to two business days. DBS described the capability as helping businesses that operate around the clock, such as e-commerce and digital service companies, pay suppliers and customers more quickly.\r\nAccording to an official explanation published by Citi on September 2, the project is in a controlled live-transaction trial running from July through December 2026. The ledger is used to confirm payment commitments for tokenized deposits instantly, while final interbank settlement uses existing payment systems, including those that process transactions individually in real time. The announcement did not disclose the transaction amount, the actual number of customers, fees, or the locations and timing of availability to general customers.",
+      "metanomia_thought": "This transaction shows Swift and banks incorporating tokenization into the functions of existing financial networks. By handling payment commitments on a shared ledger and linking final settlement to existing systems, they are seeking to change how banks work together. In this model, the ability to develop and operate common transaction rules for multiple banks could also become an important source of competitive advantage in tokenized finance.",
+      "sources": [
+        {
+          "title": "DBS and Citi partner to enable instant 24/7 cross-border USD payments with tokenised deposits",
+          "url": "https://www.dbs.com/newsroom/DBS_and_Citi_partner_to_enable_instant_247_cross_border_USD_payments_with_tokenised_deposits"
+        },
+        {
+          "title": "DBS, Citi say they completed first weekend USD payment between Singapore and US via tokenized deposits",
+          "url": "https://www.theblock.co/news/business/2026-09-07-dbs-citi-say-they-completed-first-weekend-usd-payment-between-singapore-and-us-via-tokenized-deposits-413689"
+        }
+      ]
+    },
     {
       "slug": "2026-09-07-crypto-news-ca8d1ed97b",
       "date_kst": "2026-09-07",
