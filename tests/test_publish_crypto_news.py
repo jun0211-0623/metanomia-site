@@ -392,6 +392,36 @@ class PublishCryptoNewsTests(unittest.TestCase):
                 "test",
             )
 
+    def test_korean_phase_allows_pending_english_but_bilingual_check_does_not(self) -> None:
+        public = publisher.public_record("2026-09-06", item())
+        with tempfile.TemporaryDirectory() as temp_dir:
+            root = Path(temp_dir)
+            publisher.atomic_write_json(root / "data/crypto-news.json", manifest([public]))
+            publisher.atomic_write_json(root / "data/crypto-news.en.json", english_manifest([]))
+            with self.assertRaisesRegex(publisher.PublishValidationError, "pages are missing"):
+                publisher.verify_korean_pages(root)
+            page = root / "ko" / f"crypto-news-{public['slug']}.html"
+            page.parent.mkdir(parents=True)
+            page.write_text("<!doctype html>", encoding="utf-8")
+            publisher.verify_korean_pages(root)
+            with self.assertRaisesRegex(publisher.PublishValidationError, "slug order"):
+                publisher.verify_static_pages(root)
+
+    def test_korean_phase_rejects_orphaned_or_missing_existing_english_pages(self) -> None:
+        public = publisher.public_record("2026-09-06", item())
+        with tempfile.TemporaryDirectory() as temp_dir:
+            root = Path(temp_dir)
+            publisher.atomic_write_json(root / "data/crypto-news.json", manifest([]))
+            publisher.atomic_write_json(root / "data/crypto-news.en.json", english_manifest([public]))
+            with self.assertRaisesRegex(publisher.PublishValidationError, "English-only"):
+                publisher.verify_korean_pages(root)
+            publisher.atomic_write_json(root / "data/crypto-news.json", manifest([public]))
+            page = root / "ko" / f"crypto-news-{public['slug']}.html"
+            page.parent.mkdir(parents=True)
+            page.write_text("<!doctype html>", encoding="utf-8")
+            with self.assertRaisesRegex(publisher.PublishValidationError, "pages are missing"):
+                publisher.verify_korean_pages(root)
+
     def test_every_manifest_slug_requires_a_korean_static_page(self) -> None:
         public = publisher.public_record("2026-09-06", item())
         with tempfile.TemporaryDirectory() as temp_dir:

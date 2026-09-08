@@ -15,6 +15,8 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: "22"
+      - name: Test news publication and Codex translation checks
+        run: python -B -m unittest discover -s tests -p "test_*.py"
       - name: Regenerate static news pages
         run: python scripts/build-news-pages.py
       - name: Apply repeatable site preparation

@@ -5,16 +5,13 @@ Normally items whose slug is missing from the English file are translated.
 ``--required-slugs-file`` also retranslates explicitly changed Korean items,
 preventing a same-slug English article from becoming stale.
 
-Requires ANTHROPIC_API_KEY in the environment.
+Legacy entry point. API translation has been retired; use the Codex scheduled task.
 """
 
 import argparse
 import json
-import os
 import sys
 from pathlib import Path
-
-MODEL = "claude-opus-5"
 
 ROOT = Path(__file__).resolve().parent.parent
 KO_PATH = ROOT / "data" / "crypto-news.json"
@@ -102,33 +99,6 @@ def assert_no_english_only_slugs(ko_items, en_items):
         )
 
 
-def translate(client, item):
-    source = json.dumps(
-        {
-            "title": item.get("title", ""),
-            "content": item.get("content", ""),
-            "metanomia_thought": item.get("metanomia_thought", ""),
-        },
-        ensure_ascii=False,
-        indent=2,
-    )
-
-    response = client.messages.create(
-        model=MODEL,
-        max_tokens=16000,
-        system=SYSTEM,
-        output_config={"format": {"type": "json_schema", "schema": SCHEMA}},
-        messages=[{"role": "user", "content": f"Translate each field.\n\n{source}"}],
-    )
-
-    if response.stop_reason == "refusal":
-        raise RuntimeError(f"refused: {item.get('slug')}")
-    if response.stop_reason == "max_tokens":
-        raise RuntimeError(f"truncated: {item.get('slug')}")
-
-    text = next(b.text for b in response.content if b.type == "text")
-    return json.loads(text)
-
 
 def main():
     parser = argparse.ArgumentParser()
@@ -156,40 +126,11 @@ def main():
         print("nothing to translate")
         return
 
-    import anthropic
-
-    client = anthropic.Anthropic()
-    print(f"translating {len(pending)} item(s) with {MODEL}")
-
-    for item in pending:
-        slug = item["slug"]
-        fields = translate(client, item)
-        done[slug] = {
-            "slug": slug,
-            "date_kst": item.get("date_kst", ""),
-            "title": fields["title"],
-            "content": fields["content"],
-            "metanomia_thought": fields["metanomia_thought"],
-            # Sources are immutable: preserve titles, URLs, entry count, and order exactly.
-            "sources": item.get("sources", []),
-        }
-        print(f"  {slug}")
-
-    order = [i["slug"] for i in ko.get("items", []) if i.get("slug")]
-    EN_PATH.write_text(
-        json.dumps(
-            {
-                "schema_version": ko.get("schema_version", "1.0"),
-                "generated_at_kst": ko.get("generated_at_kst", ""),
-                "items": [done[s] for s in order if s in done],
-            },
-            ensure_ascii=False,
-            indent=2,
-        )
-        + "\n",
-        encoding="utf-8",
+    raise RuntimeError(
+        "API translation has been retired. The signed-in Codex scheduled task translates "
+        "published Korean articles directly. Use scripts/codex-news-translation.py status "
+        "and follow docs/codex-news-translation.md."
     )
-    print(f"wrote {EN_PATH.relative_to(ROOT)}")
 
 
 if __name__ == "__main__":

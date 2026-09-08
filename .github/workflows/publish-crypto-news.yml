@@ -33,7 +33,7 @@ concurrency:
 
 jobs:
   build:
-    name: Validate, translate, build, and audit
+    name: Validate approved Korean copy, build, and audit
     runs-on: ubuntu-latest
     timeout-minutes: 25
     if: ${{ inputs.confirm_production == true && github.ref == 'refs/heads/main' }}
@@ -124,27 +124,11 @@ jobs:
             --source "$RUNNER_TEMP/crypto-news.json" \
             --target data/crypto-news.json
 
-      - name: Install the translation dependency
-        if: ${{ steps.replay.outputs.already_applied != 'true' }}
-        run: python -m pip install --disable-pip-version-check anthropic
-
-      - name: Translate every new or changed Korean article
-        if: ${{ steps.replay.outputs.already_applied != 'true' }}
-        env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-        run: |
-          if [ -z "$ANTHROPIC_API_KEY" ]; then
-            echo "ANTHROPIC_API_KEY is required for simultaneous Korean and English publication." >&2
-            exit 1
-          fi
-          python scripts/translate-news.py \
-            --required-slugs-file "$RUNNER_TEMP/publish-result.json"
-
-      - name: Build and audit both languages
+      - name: Build Korean pages and available English pages
         if: ${{ steps.replay.outputs.already_applied != 'true' }}
         run: |
           python scripts/build-news-pages.py
-          python scripts/publish_crypto_news.py verify-static-pages --repository .
+          python scripts/publish_crypto_news.py verify-korean-pages --repository .
           python scripts/audit-site.py
 
       - name: Enforce the publication file allowlist
@@ -155,7 +139,7 @@ jobs:
             --repository . \
             --github-output "$GITHUB_OUTPUT"
 
-      - name: Stage only bilingual publication outputs
+      - name: Stage only publication outputs
         if: ${{ steps.replay.outputs.already_applied != 'true' && steps.changes.outputs.has_changes == 'true' }}
         run: |
           git add -- data/crypto-news.json data/crypto-news.en.json sitemap.xml \
@@ -187,11 +171,11 @@ jobs:
           if [ "$ALREADY_APPLIED" = "true" ]; then
             echo "Idempotent no-op: already applied in $APPLIED_COMMIT" >> "$GITHUB_STEP_SUMMARY"
           else
-            echo "Validated no-op: bilingual public files already match." >> "$GITHUB_STEP_SUMMARY"
+            echo "Validated no-op: approved Korean public files already match." >> "$GITHUB_STEP_SUMMARY"
           fi
 
   publish:
-    name: Commit and push the verified bilingual publication
+    name: Commit and push the verified Korean publication
     needs: build
     if: ${{ needs.build.result == 'success' && needs.build.outputs.already_applied != 'true' && needs.build.outputs.has_changes == 'true' }}
     runs-on: ubuntu-latest
@@ -244,10 +228,10 @@ jobs:
           git apply --index --binary "$PATCH_PATH"
           python scripts/publish_crypto_news.py guard-worktree --repository .
           python scripts/publish_crypto_news.py guard-staged --repository .
-          python scripts/publish_crypto_news.py verify-static-pages --repository .
+          python scripts/publish_crypto_news.py verify-korean-pages --repository .
           python scripts/audit-site.py
 
-      - name: Commit only verified bilingual outputs
+      - name: Commit only verified publication outputs
         env:
           PUBLISH_ID: ${{ needs.build.outputs.publish_id }}
           DATE_KST: ${{ needs.build.outputs.date_kst }}
@@ -272,9 +256,9 @@ jobs:
           UPDATED_COUNT: ${{ needs.build.outputs.updated_count }}
         run: |
           {
-            echo "## Bilingual crypto news publication completed"
+            echo "## Korean crypto news publication completed"
             echo "- Publish ID: \`$PUBLISH_ID\`"
             echo "- Briefing date: \`$DATE_KST\`"
             echo "- Approved: $APPROVED_COUNT; added: $ADDED_COUNT; updated: $UPDATED_COUNT"
-            echo "- Korean and English manifests, pages, and sitemap were audited and pushed together."
+            echo "- Approved Korean articles and available English pages were built and audited. New or changed English translations will be completed by the local Codex scheduled task."
           } >> "$GITHUB_STEP_SUMMARY"

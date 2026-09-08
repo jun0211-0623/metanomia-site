@@ -765,6 +765,29 @@ def command_install(args: argparse.Namespace) -> None:
     atomic_write_json(args.target, manifest)
 
 
+def verify_korean_pages(repository: Path) -> None:
+    """Verify the first publication phase; Codex completes English separately."""
+    korean = validate_manifest(load_json(repository / "data/crypto-news.json", "public manifest"))
+    english = validate_english_manifest(
+        load_json(repository / "data/crypto-news.en.json", "English public manifest")
+    )
+    korean_slugs = {item["slug"] for item in korean["items"]}
+    if any(item["slug"] not in korean_slugs for item in english["items"]):
+        raise PublishValidationError("English-only articles require manual reconciliation; deletion is forbidden.")
+    missing = [
+        f"ko/crypto-news-{item['slug']}.html"
+        for item in korean["items"]
+        if not (repository / "ko" / f"crypto-news-{item['slug']}.html").is_file()
+    ]
+    missing += [
+        f"crypto-news-{item['slug']}.html"
+        for item in english["items"]
+        if not (repository / f"crypto-news-{item['slug']}.html").is_file()
+    ]
+    if missing:
+        raise PublishValidationError("Published static article pages are missing: " + ", ".join(missing[:5]))
+
+
 def verify_static_pages(repository: Path) -> None:
     korean = validate_manifest(load_json(repository / "data/crypto-news.json", "public manifest"))
     english = validate_english_manifest(
@@ -822,6 +845,12 @@ def build_parser() -> argparse.ArgumentParser:
     install.add_argument("--source", type=Path, required=True)
     install.add_argument("--target", type=Path, required=True)
     install.set_defaults(func=command_install)
+
+    korean_pages = sub.add_parser(
+        "verify-korean-pages", help="Verify Korean publication and existing English pages, allowing pending translations."
+    )
+    korean_pages.add_argument("--repository", type=Path, required=True)
+    korean_pages.set_defaults(func=lambda args: verify_korean_pages(args.repository.resolve()))
 
     static_pages = sub.add_parser(
         "verify-static-pages", help="Require synchronized Korean and English manifests and pages."

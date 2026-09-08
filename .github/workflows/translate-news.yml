@@ -1,78 +1,66 @@
-name: Translate crypto news
+name: Build crypto news pages
 
-# Only the Korean manifest triggers this. The workflow writes the English one,
-# so its own commit can never re-trigger the run.
+# Korean manifest changes build both languages from the available manifests.
+# Generated page commits do not re-trigger this workflow.
 on:
   push:
     branches: [main]
     paths:
       - data/crypto-news.json
   workflow_dispatch:
-    inputs:
-      force:
-        description: Retranslate every item, not just new ones
-        type: boolean
-        default: false
 
 permissions:
   contents: write
 
 concurrency:
-  group: translate-news
-  cancel-in-progress: false
+  group: homepage-publish
+  queue: max
 
 jobs:
-  translate:
+  build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
 
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
 
-      - name: Install translation dependency
-        id: translation_deps
-        continue-on-error: true
-        run: pip install anthropic
-
-      - name: Translate
-        id: translate
-        if: ${{ steps.translation_deps.outcome == 'success' }}
-        continue-on-error: true
-        env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-        run: python3 scripts/translate-news.py ${{ inputs.force && '--force' || '' }}
+      - name: Record the build base
+        id: base
+        run: echo "commit=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
 
       - name: Build and audit static news pages
-        id: build_audit
-        if: ${{ !cancelled() }}
         run: |
           python3 scripts/build-news-pages.py
           python3 scripts/audit-site.py
 
-      - name: Commit
-        id: commit
-        if: ${{ !cancelled() && steps.build_audit.outcome == 'success' }}
+      - name: Commit built pages
+        env:
+          EXPECTED_BASE: ${{ steps.base.outputs.commit }}
         run: |
-          if [ -z "$(git status --porcelain -- data/crypto-news.en.json sitemap.xml ':(glob)crypto-news-20*.html' ':(glob)ko/crypto-news-20*.html')" ]; then
+          if [ -z "$(git status --porcelain -- sitemap.xml ':(glob)crypto-news-20*.html' ':(glob)ko/crypto-news-20*.html')" ]; then
             echo "no change"
             exit 0
           fi
+          git fetch --no-tags origin main
+          if [ "$(git rev-parse HEAD)" != "$EXPECTED_BASE" ] || [ "$(git rev-parse origin/main)" != "$EXPECTED_BASE" ]; then
+            echo "origin/main changed after the build started; refusing stale publication." >&2
+            exit 1
+          fi
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add -- data/crypto-news.en.json sitemap.xml ':(glob)crypto-news-20*.html' ':(glob)ko/crypto-news-20*.html'
-          git commit -m 'chore: translate and build crypto news'
-          git push
+          git add -- sitemap.xml ':(glob)crypto-news-20*.html' ':(glob)ko/crypto-news-20*.html'
+          git commit -m 'chore: build crypto news pages'
+          git push origin HEAD:refs/heads/main
 
-      - name: Report English translation failure
-        if: >-
-          ${{ always()
-              && (steps.translation_deps.outcome == 'failure'
-                  || steps.translate.outcome == 'failure')
-              && steps.build_audit.outcome == 'success'
-              && steps.commit.outcome == 'success' }}
+      - name: Report build completion
         run: |
-          echo "Korean detail pages were committed, but English translation failed. Re-run this workflow after fixing translation." >> "$GITHUB_STEP_SUMMARY"
-          echo "::error::Korean pages were committed, but English translation failed."
-          exit 1
+          {
+            echo "Korean pages and available English pages were built and audited."
+            echo "English generation is handled by local Codex scheduled task."
+            echo "New or updated Korean articles may have English translations pending until that task runs."
+          } >> "$GITHUB_STEP_SUMMARY"
