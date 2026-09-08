@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at_kst": "2026-09-08T10:21:00+09:00",
+  "generated_at_kst": "2026-09-08T13:32:11+09:00",
   "items": [
     {
       "id": "crypto-news-f0f7a3a544029734",
@@ -127,6 +127,24 @@
         {
           "title": "Cierra plataforma de criptomonedas OrionX y acusa a exsocios de irregularidades por US$7 millones",
           "url": "https://www.latercera.com/pulso/noticia/cierra-plataforma-de-criptomonedas-orionx-y-acusa-a-exsocios-de-irregularidades-por-us7-millones/?outputType=base-amp-type"
+        }
+      ]
+    },
+    {
+      "id": "crypto-news-7e976a59d9928142",
+      "slug": "2026-09-06-crypto-news-7e976a59d9",
+      "date_kst": "2026-09-06",
+      "title": "미·영, 국제 사기센터 공동대응 MOU 체결…병행수사·정보공유·관할 배분",
+      "content": "미국 법무부 워싱턴DC 연방검찰청은 현지시간 9월 3일 영국 잉글랜드·웨일스 검찰청(CPS), 국가범죄청(NCA)과 국제 사기센터 해체를 위한 양해각서(MOU)를 체결했다고 발표했다. 미국 측 ‘Scam Center Strike Force’와 영국 기관들은 공통 표적에 대한 병행수사, 조직범죄 네트워크 정보 공유, 개별 사건을 어느 관할에서 처리할지에 대한 협의, 공동 우선순위 설정을 추진한다. 대상은 암호자산 투자사기와 사이버 기반 투자사기, 자금세탁, 인신매매가 결합된 동남아시아 사기센터 네트워크다. 양국은 이미 중복 사건을 확인했으며 10월 초 런던에서 민간기업과 함께 현장 교란 행사를 열기로 했다. 이번 MOU는 새로운 형사법을 만드는 조치가 아니라, 국경을 넘나드는 수사에서 증거와 피의자, 피해자, 범죄수익이 여러 국가에 흩어지는 문제를 해결하기 위한 집행 협력 장치다.",
+      "metanomia_thought": "사기센터 범죄는 암호자산을 결제·세탁 수단으로 쓰면서 수사 관할의 단절을 악용해 왔습니다. 병행수사와 관할 배분이 실제 압수·동결·환수 속도를 높인다면 피해 회복의 실효성이 커질 수 있습니다. 다만 MOU 자체가 성과를 보장하지는 않으므로 향후 공동 사건 수, 동결 자산, 피해자 반환액을 기준으로 평가해야 합니다.",
+      "sources": [
+        {
+          "title": "U.S. and UK Launch First-of-Its-Kind Joint Alliance to Dismantle Global Scam Centers",
+          "url": "https://www.justice.gov/usao-dc/pr/us-and-uk-launch-first-its-kind-joint-alliance-dismantle-global-scam-centers"
+        },
+        {
+          "title": "US, Britain to coordinate on scam center takedowns",
+          "url": "https://therecord.media/scam-compounds-coordination-us-uk-memorandum"
         }
       ]
     },
