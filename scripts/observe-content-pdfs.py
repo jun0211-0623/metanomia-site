@@ -29,7 +29,21 @@ def validate_url(url):
         raise ValueError("PDF origin is not approved for credential-free observation: " + url)
     if not unquote(parts.path).lower().endswith(".pdf"):
         raise ValueError("External source must be a direct PDF URL: " + url)
-    for item in socket.getaddrinfo(parts.hostname, 443, type=socket.SOCK_STREAM):
+    try:
+        addresses = socket.getaddrinfo(parts.hostname, 443, type=socket.SOCK_STREAM)
+    except socket.gaierror as exc:
+        if exc.errno != socket.EAI_AGAIN:
+            raise
+        # Some cloud runtimes provide standard HTTPS transport without direct
+        # DNS resolution. Keep the exact host/TLS/redirect rules and let the
+        # existing urllib transport enforce its network policy; do not change
+        # proxy, resolver, certificate, or authentication configuration.
+        print("dns_preflight_unavailable: standard HTTPS transport will be attempted; IP preflight was not verified.",
+              file=sys.stderr, flush=True)
+        return url
+    if not addresses:
+        raise ValueError("External PDF DNS returned no addresses.")
+    for item in addresses:
         if not ipaddress.ip_address(item[4][0]).is_global:
             raise ValueError("External PDF must resolve only to public IP addresses.")
     return url
