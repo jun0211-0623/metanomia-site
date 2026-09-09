@@ -1,0 +1,1232 @@
+{
+  "schema_version": "1.0",
+  "baseline_ref": "301866eb3b52f61b7afb872cfd0a5c812b7734bf",
+  "external_dependencies": {
+    "https://nthszgnbqgjfqnzgytym.supabase.co/storage/v1/object/public/pdfs/Metanomia_APRIL2026_KOR_v1.2.pdf": "6e656306e6da58882724b6bdd76ceed09c7c5e0a631ae25b71883e674b19f383",
+    "https://nthszgnbqgjfqnzgytym.supabase.co/storage/v1/object/public/pdfs/Metanomia_JAN%202026_KOR_v4.1.pdf": "c9e806f9ce1a196c61b4f21c6bb7bc29e3d9086005248cae5a21fd95cf44a7fb",
+    "https://nthszgnbqgjfqnzgytym.supabase.co/storage/v1/object/public/pdfs/Metanomia_JULY-1-2026_final%20(1).pdf": "e0ce55b794df53a6f35947f1caf490052f3a71646e2d92bd5eae3aefa43a41ce",
+    "https://nthszgnbqgjfqnzgytym.supabase.co/storage/v1/object/public/pdfs/Metanomia_JULY-2%202026_LCJ_KOR_v1.6.pdf": "42371493a7a1369819262ea32604f89ed6642a3cc1fb30dc320cc8ac6ead0b60",
+    "https://nthszgnbqgjfqnzgytym.supabase.co/storage/v1/object/public/pdfs/Metanomia_JUNE%202026_KOR_v2.0.pdf": "8921c9935b0cf159fb41a88c3ee4cc7e0afa910a51b52b71963803eeab2b005d",
+    "https://nthszgnbqgjfqnzgytym.supabase.co/storage/v1/object/public/pdfs/Metanomia_MAR%202026_KOR_v3.2.pdf": "760e0629d85271b50c197d4fbc67d4982059d69f99fa16215a367d44b40142ee",
+    "https://nthszgnbqgjfqnzgytym.supabase.co/storage/v1/object/public/pdfs/Metanomia_MAY-2-2026_computer_KOR_v3.0_final.pdf": "a688b7c4d8a03ec4a511dbb831c62c3f4921b7922e7158b3b0d2a6d2c5a3c4de",
+    "https://nthszgnbqgjfqnzgytym.supabase.co/storage/v1/object/public/pdfs/Metanomia_ma_final.pdf": "f2bced21c367c6953e3a13c735919e995a5b261d8afa9220a5904ec72c8496f6"
+  },
+  "items": {
+    "data/media-videos.ko.json": {
+      "kind": "json",
+      "source_sha": "ac79729e8b4efb711885986f23129e222edc09fe",
+      "source_hash": "422e745d1c4c9565ff16f965f3f2c9e5ab5af96a2944401966ea4689df790f68",
+      "outputs": [
+        {
+          "path": "data/media-videos.en.json",
+          "sha": "55c3a445f29379ce363d47f6c0a3e94e9fe4f5e1"
+        }
+      ],
+      "review_status": "baseline_preserved",
+      "asset_disposition": "not_applicable",
+      "reviewed_at": null,
+      "external_sources": []
+    },
+    "favicon-180.png": {
+      "kind": "image",
+      "source_sha": "3af3f3ad4180a8ba50ddb053d42e2cbc46ac3217",
+      "source_hash": "3007a8e8ab34d09d1a5b8abb219451c300063dc5b741c6e0d3c46381617d279d",
+      "outputs": [],
+      "review_status": "baseline_preserved",
+      "asset_disposition": "reused",
+      "reviewed_at": null,
+      "external_sources": []
+    },
+    "favicon-32.png": {
+      "kind": "image",
+      "source_sha": "fbe6b95d8ba3021e00fa8e0547a7693aad1dff49",
+      "source_hash": "06355e9e7a93faeeef4bae5e0c805bd52211d7960d7a1b2d737c2acc67483198",
+      "outputs": [],
+      "review_status": "baseline_preserved",
+      "asset_disposition": "reused",
+      "reviewed_at": null,
+      "external_sources": []
+    },
+    "favicon.svg": {
+      "kind": "image",
+      "source_sha": "a59aadabf87205a4c0e44d0834fd763d87b14384",
+      "source_hash": "9c4d656e8085b9f8f58d25c60855475c87d3e2b97b8a0583b802f77640486964",
+      "outputs": [],
+      "review_status": "baseline_preserved",
+      "asset_disposition": "reused",
+      "reviewed_at": null,
+      "external_sources": []
+    },
+    "images/brand/metanomia-lockup-meta-path-dark.svg": {
+      "kind": "image",
+      "source_sha": "396f1b5b6cc49656b46504bbe93870b122cf5eab",
+      "source_hash": "c9e55869fb3b03caff00e31708c8215a2f8035a1023e42fcf9cd380b0c799190",
+      "outputs": [],
+      "review_status": "baseline_preserved",
+      "asset_disposition": "reused",
+      "reviewed_at": null,
+      "external_sources": []
+    },
+    "images/people/han-sangjun.webp": {
+      "kind": "image",
+      "source_sha": "c972be473b744bb8f72085355179457ea556b4a2",
+      "source_hash": "5cc669dcd038893f274f951d47b1ace400db1fbb05f6a9d061c5adf17fe7e8e3",
+      "outputs": [],
+      "review_status": "baseline_preserved",
+      "asset_disposition": "reused",
+      "reviewed_at": null,
+      "external_sources": []
+    },
+    "images/people/jeong-duru.webp": {
+      "kind": "image",
+      "source_sha": "885bf06541f535b968ff32c475d6a81b9bb501fd",
+      "source_hash": "300e514e0dc5274f0a55a5842bb3bb9cf983d7d591a0ad0fab1a14d112fc50db",
+      "outputs": [],
+      "review_status": "baseline_preserved",
+      "asset_disposition": "reused",
+      "reviewed_at": null,
+      "external_sources": []
+    },
+    "images/people/jin-seungju.webp": {
+      "kind": "image",
+      "source_sha": "eddfec26b31880934d240cc9eebff1d545831f7f",
+      "source_hash": "ed5fc66cb1858e011f43272fbbd5513476860874855b4751764deed51380e1eb",
+      "outputs": [],
+      "review_status": "baseline_preserved",
+      "asset_disposition": "reused",
+      "reviewed_at": null,
+      "external_sources": []
+    },
+    "images/people/kim-yonkyung.webp": {
+      "kind": "image",
+      "source_sha": "b5d01b9b8d7febd26700bab9badbd76552751747",
+      "source_hash": "c396d7af94d79ca175fbbe5a52647b9d459150c9114c6b7bb2549bac9e1a7caa",
+      "outputs": [],
+      "review_status": "baseline_preserved",
+      "asset_disposition": "reused",
+      "reviewed_at": null,
+      "external_sources": []
+    },
+    "images/people/kim-yujeong.webp": {
+      "kind": "image",
+      "source_sha": "5bd9e9de41d8654cdfaf318617dcb76a39f0e8c4",
+      "source_hash": "f0f7746c2044ae71176aa9892922cec5d9e504384c7a1740b8927c29f854b6c5",
+      "outputs": [],
+      "review_status": "baseline_preserved",
+      "asset_disposition": "reused",
+      "reviewed_at": null,
+      "external_sources": []
+    },
+    "images/people/oh-taemin.webp": {
+      "kind": "image",
+      "source_sha": "85d04e638cf8fd215eb1d86923cd99b55e2e65c3",
+      "source_hash": "88389e6354d981bc83b340ab0099ec5f78cfdeb8222126afbef1885fe3bffce5",
+      "outputs": [],
+      "review_status": "baseline_preserved",
+      "asset_disposition": "reused",
+      "reviewed_at": null,
+      "external_sources": []
+    },
+    "images/people/park-boyoung.jpeg": {
+      "kind": "image",
+      "source_sha": "3e9ef9e365b261ea83cd820c7685959292dfc1e6",
+      "source_hash": "a646aa88fa7721cbcca88fc60db76c41994b771a747871836773a5173ebc3470",
+      "outputs": [],
+      "review_status": "baseline_preserved",
+      "asset_disposition": "reused",
+      "reviewed_at": null,
+      "external_sources": []
+    },
+    "images/people/park-mingu.webp": {
+      "kind": "image",
+      "source_sha": "4b8635d8b9e643a24c17406e74f6f92855f0a799",
+      "source_hash": "edc1a4ac01eb3fd5fa193ea3fa01d6906b222484ae8c1eb48b8122bce0c51842",
+      "outputs": [],
+      "review_status": "baseline_preserved",
+      "asset_disposition": "reused",
+      "reviewed_at": null,
+      "external_sources": []
+    },
+    "images/people/park-siwoo.webp": {
+      "kind": "image",
+      "source_sha": "1949c55ab48d4b35eb8bda8f8c075f011ecf9c7a",
+      "source_hash": "72e77a5fe8f4dcabc4fb73197709c8618ddd822add9f197844d1a0ff36835b00",
+      "outputs": [],
+      "review_status": "baseline_preserved",
+      "asset_disposition": "reused",
+      "reviewed_at": null,
+      "external_sources": []
+    },
+    "images/people/park-suhoon.webp": {
+      "kind": "image",
+      "source_sha": "8c9ddbdd75c8a70859d22397783c1f84efceb226",
+      "source_hash": "464f40d43f1e09aaa7f1f8f60c891bbf6a577a3c3b15f7172e5a714a3d283b4d",
+      "outputs": [],
+      "review_status": "baseline_preserved",
+      "asset_disposition": "reused",
+      "reviewed_at": null,
+      "external_sources": []
+    },
+    "images/people/seok-minguk.webp": {
+      "kind": "image",
+      "source_sha": "2c46282477ce5b5ef76b9eb0c89d07875334a1b9",
+      "source_hash": "6af5b1073cf64a43c10b60f751af48f8e36922b77a2187c1e1f12f9d1f590717",
+      "outputs": [],
+      "review_status": "baseline_preserved",
+      "asset_disposition": "reused",
+      "reviewed_at": null,
+      "external_sources": []
+    },
+    "images/people/son-hyemin.webp": {
+      "kind": "image",
+      "source_sha": "a18600df82da689ebfbe205aaadac43cf746ac88",
+      "source_hash": "6b51db253e34c1a2d8069bbae7052a9752f76b1fa728feb7467e1ff82544d2d3",
+      "outputs": [],
+      "review_status": "baseline_preserved",
+      "asset_disposition": "reused",
+      "reviewed_at": null,
+      "external_sources": []
+    },
+    "images/people/yoon-sungah.jpeg": {
+      "kind": "image",
+      "source_sha": "e2aa19568eef32e4ff9019ad4a3cc18eec51304d",
+      "source_hash": "0a21bd9886a4397f3e5051d186e0c9b060f1f0f832525290c3e0d0ab1fadb92e",
+      "outputs": [],
+      "review_status": "baseline_preserved",
+      "asset_disposition": "reused",
+      "reviewed_at": null,
+      "external_sources": []
+    },
+    "images/reports/apr2026-hero.webp": {
+      "kind": "image",
+      "source_sha": "99bdc1b0bd2eb0563c0aec672a9f6e31a56c6887",
+      "source_hash": "239c47d8e704c3a430b9f679b8c4592f5365c70c917a9ad177b781428f323c41",
+      "outputs": [],
+      "review_status": "baseline_preserved",
+      "asset_disposition": "reused",
+      "reviewed_at": null,
+      "external_sources": []
+    },
+    "images/reports/aug1-2026-hero.webp": {
+      "kind": "image",
+      "source_sha": "e5d65db5737af74e17945c70d07520c2b89393e9",
+      "source_hash": "6e8fdbfd1da11b3a39ca79f1c356e58908055e464b7ce12d9d17d1c5676e84cc",
+      "outputs": [],
+      "review_status": "baseline_preserved",
+      "asset_disposition": "reused",
+      "reviewed_at": null,
+      "external_sources": []
+    },
+    "images/reports/aug2-2026-hero.webp": {
+      "kind": "image",
+      "source_sha": "2a06af205cfdcf4479a9d022a43c180c2155dbe0",
+      "source_hash": "b5add863211a6fe20e4ba20eadbe985f25acf7597223ddbf27a77c1deb7f5789",
+      "outputs": [],
+      "review_status": "baseline_preserved",
+      "asset_disposition": "reused",
+      "reviewed_at": null,
+      "external_sources": []
+    },
+    "images/reports/jan2026-hero.webp": {
+      "kind": "image",
+      "source_sha": "6c4ae7a7ef4b4f6c114d54f6d54f9b248bd542dc",
+      "source_hash": "d0dd3e692a0341716bae7d7125c92d4a5a101f1f29cd05ecc5ac0ad62e47cb27",
+      "outputs": [],
+      "review_status": "baseline_preserved",
+      "asset_disposition": "reused",
+      "reviewed_at": null,
+      "external_sources": []
+    },
+    "images/reports/jul1-2026-hero.webp": {
+      "kind": "image",
+      "source_sha": "fb8e2eab99aa4d8c7326acabcabe52b328d7f330",
+      "source_hash": "b0055eddbab9ecf5fd829ccdd01bca00579bbb7a6ba0fcb0e97433e6c1bc0af5",
+      "outputs": [],
+      "review_status": "baseline_preserved",
+      "asset_disposition": "reused",
+      "reviewed_at": null,
+      "external_sources": []
+    },
+    "images/reports/jul2-2026-hero.webp": {
+      "kind": "image",
+      "source_sha": "e82b91f70c5201b699353515279f7bc057cdcfb3",
+      "source_hash": "0d20e6406be697af5f464cfca5e3687d29e4885b822136591039d61b7a79ff56",
+      "outputs": [],
+      "review_status": "baseline_preserved",
+      "asset_disposition": "reused",
+      "reviewed_at": null,
+      "external_sources": []
+    },
+    "images/reports/jun2026-hero.webp": {
+      "kind": "image",
+      "source_sha": "279f3d3d9e74958b05164ccba84974fa9f650aa9",
+      "source_hash": "3fd40f799072c5416fa6272c316d38ff98ca56936fd41bfad114ee09c3bf0aec",
+      "outputs": [],
+      "review_status": "baseline_preserved",
+      "asset_disposition": "reused",
+      "reviewed_at": null,
+      "external_sources": []
+    },
+    "images/reports/mar2026-hero.webp": {
+      "kind": "image",
+      "source_sha": "14ae4cf4df76d21338487e7be8555bb5ff38eb21",
+      "source_hash": "2552b18553401688fb416914f38a7538e5451f051b43121d614cccaeb6a2709b",
+      "outputs": [],
+      "review_status": "baseline_preserved",
+      "asset_disposition": "reused",
+      "reviewed_at": null,
+      "external_sources": []
+    },
+    "images/reports/may1-2026-hero.webp": {
+      "kind": "image",
+      "source_sha": "c32a755f62f0f90c301df336ecbf4ca5e2e34360",
+      "source_hash": "da4321101e1fb4484f7bad67487ad61704e77f659d36f536cb079baa213ce28b",
+      "outputs": [],
+      "review_status": "baseline_preserved",
+      "asset_disposition": "reused",
+      "reviewed_at": null,
+      "external_sources": []
+    },
+    "images/reports/may2-2026-hero.webp": {
+      "kind": "image",
+      "source_sha": "7265bce273e86b29a85e9c123091985744959d51",
+      "source_hash": "14c74dfe423fcb588ad8d9b186e80d06423a85a4499116ff45d051580ca9fd87",
+      "outputs": [],
+      "review_status": "baseline_preserved",
+      "asset_disposition": "reused",
+      "reviewed_at": null,
+      "external_sources": []
+    },
+    "ko/about.html": {
+      "kind": "html",
+      "source_sha": "758890f555db470b60a812de38d0bc75b2a5a779",
+      "source_hash": "a95832b6b8b5db27669dab502cecfc8f169fbf2077f5baf9c8593013b6d04d36",
+      "outputs": [
+        {
+          "path": "about.html",
+          "sha": "05874b15e58c3888bbc02a0e247b91bd1b4c80ed"
+        }
+      ],
+      "review_status": "baseline_preserved",
+      "asset_disposition": "not_applicable",
+      "reviewed_at": null,
+      "external_sources": []
+    },
+    "ko/articles/age-of-machine-payments.html": {
+      "kind": "html",
+      "source_sha": "cd8012719c2bbe5cde5e42ba02ff1492bf12e502",
+      "source_hash": "179dde4cefdda2067184031c5299d84ceb0d3d7ca8adc2311b191e1576715563",
+      "outputs": [
+        {
+          "path": "articles/age-of-machine-payments.html",
+          "sha": "dfe79ddf38f70e87de5ec9974728770c44b6c1a8"
+        }
+      ],
+      "review_status": "baseline_preserved",
+      "asset_disposition": "not_applicable",
+      "reviewed_at": null,
+      "external_sources": [
+        "https://nthszgnbqgjfqnzgytym.supabase.co/storage/v1/object/public/pdfs/Metanomia_ma_final.pdf"
+      ]
+    },
+    "ko/articles/bitcoin-quantum-computing.html": {
+      "kind": "html",
+      "source_sha": "2cdc5e9c590831f11a3ab935b0ef9d8cad23a432",
+      "source_hash": "3159e17d3bbf060c6853db08824b7761a31555fdb3d2f92aed7e69ab6a0a8de3",
+      "outputs": [
+        {
+          "path": "articles/bitcoin-quantum-computing.html",
+          "sha": "fdc5ffe46936da1bbba494c43d8439d11eee9ea6"
+        }
+      ],
+      "review_status": "baseline_preserved",
+      "asset_disposition": "not_applicable",
+      "reviewed_at": null,
+      "external_sources": [
+        "https://nthszgnbqgjfqnzgytym.supabase.co/storage/v1/object/public/pdfs/Metanomia_MAY-2-2026_computer_KOR_v3.0_final.pdf"
+      ]
+    },
+    "ko/articles/commuting-into-online-games.html": {
+      "kind": "html",
+      "source_sha": "ac4f5e52af7c7d30c3c216366ed75b89f76d1007",
+      "source_hash": "dfabe1d866495610ba991c7d12a17ab5582a050ab5d13a6b039a27c7c0860afd",
+      "outputs": [
+        {
+          "path": "articles/commuting-into-online-games.html",
+          "sha": "f7fd3fc72aedf54bd9487bdf637382633ae54152"
+        }
+      ],
+      "review_status": "baseline_preserved",
+      "asset_disposition": "not_applicable",
+      "reviewed_at": null,
+      "external_sources": [
+        "https://nthszgnbqgjfqnzgytym.supabase.co/storage/v1/object/public/pdfs/Metanomia_JAN%202026_KOR_v4.1.pdf"
+      ]
+    },
+    "ko/articles/crypto-prediction-markets.html": {
+      "kind": "html",
+      "source_sha": "b308d32893b27adde5f0c00ebab07eb92f777d42",
+      "source_hash": "3eb8cdc9467fe560331206b96a145b930b376a0b2e3c8209d96fc36bce296b88",
+      "outputs": [
+        {
+          "path": "articles/crypto-prediction-markets.html",
+          "sha": "b557044fc25fef7ba109f9a915116d49964721d0"
+        }
+      ],
+      "review_status": "baseline_preserved",
+      "asset_disposition": "not_applicable",
+      "reviewed_at": null,
+      "external_sources": []
+    },
+    "ko/articles/how-resistance-money-is-chosen.html": {
+      "kind": "html",
+      "source_sha": "a85e7b87b7f96563ffc3bffed2bfa449b7afd5ee",
+      "source_hash": "2ace87604ebcb886eb09862d8892ce73716d82d310d627df044cbf0b7a454009",
+      "outputs": [
+        {
+          "path": "articles/how-resistance-money-is-chosen.html",
+          "sha": "f90f3a07d3a246082689d0371ff556ed8fcde7ef"
+        }
+      ],
+      "review_status": "baseline_preserved",
+      "asset_disposition": "not_applicable",
+      "reviewed_at": null,
+      "external_sources": [
+        "https://nthszgnbqgjfqnzgytym.supabase.co/storage/v1/object/public/pdfs/Metanomia_JULY-2%202026_LCJ_KOR_v1.6.pdf"
+      ]
+    },
+    "ko/articles/legibility-exit-and-staying.html": {
+      "kind": "html",
+      "source_sha": "e49967cb6a226d6740b5e67174a1ee13a464a356",
+      "source_hash": "148cbd7eb6edbc43105d93e10b425eb483889b760dc98942e74d655db27b8f08",
+      "outputs": [
+        {
+          "path": "articles/legibility-exit-and-staying.html",
+          "sha": "8a9714ccd3e7d5884e96e9eef64b2c94adbd7f98"
+        }
+      ],
+      "review_status": "baseline_preserved",
+      "asset_disposition": "not_applicable",
+      "reviewed_at": null,
+      "external_sources": []
+    },
+    "ko/articles/tokenization-attention-economy.html": {
+      "kind": "html",
+      "source_sha": "4d77ef8a7acc9c133662b5481f47846a3093c63c",
+      "source_hash": "7becf363a16fc401db5dcef3cdc6aad53eeefc774b98131a1d3a09cd72a26a15",
+      "outputs": [
+        {
+          "path": "articles/tokenization-attention-economy.html",
+          "sha": "6eac7332e0dd5881d76fbd8fd5362f583e6260bc"
+        }
+      ],
+      "review_status": "baseline_preserved",
+      "asset_disposition": "not_applicable",
+      "reviewed_at": null,
+      "external_sources": [
+        "https://nthszgnbqgjfqnzgytym.supabase.co/storage/v1/object/public/pdfs/Metanomia_MAR%202026_KOR_v3.2.pdf"
+      ]
+    },
+    "ko/articles/tokenizing-gangnam-apartments.html": {
+      "kind": "html",
+      "source_sha": "a72f72e2619e2abbe569b66f7a141d8c8e0f56bf",
+      "source_hash": "e446d69b80cb860b715d868596d922345bb9c213f168eb23a05b2f9141c8f5de",
+      "outputs": [
+        {
+          "path": "articles/tokenizing-gangnam-apartments.html",
+          "sha": "893e6efa8446680038af8ef86e882af6c0f2a878"
+        }
+      ],
+      "review_status": "baseline_preserved",
+      "asset_disposition": "not_applicable",
+      "reviewed_at": null,
+      "external_sources": [
+        "https://nthszgnbqgjfqnzgytym.supabase.co/storage/v1/object/public/pdfs/Metanomia_APRIL2026_KOR_v1.2.pdf"
+      ]
+    },
+    "ko/articles/traceable-money.html": {
+      "kind": "html",
+      "source_sha": "1b0b157e33064089b8eea149fc900d79d1659124",
+      "source_hash": "9f45ec991e3995a80f38b5d8a5e66bae2b3aeb163c04d3d3add9eb145ac96e38",
+      "outputs": [
+        {
+          "path": "articles/traceable-money.html",
+          "sha": "29d3d26328207e8e72f9d27ff3f1d1a7f007ca45"
+        }
+      ],
+      "review_status": "baseline_preserved",
+      "asset_disposition": "not_applicable",
+      "reviewed_at": null,
+      "external_sources": [
+        "https://nthszgnbqgjfqnzgytym.supabase.co/storage/v1/object/public/pdfs/Metanomia_JUNE%202026_KOR_v2.0.pdf"
+      ]
+    },
+    "ko/articles/where-is-ethereum-going.html": {
+      "kind": "html",
+      "source_sha": "56407866e5d54f3340805c74be1294fcec54b91b",
+      "source_hash": "1967ac443697f4b4178545cf9a049206c0a866973f02bccf53eb6607fe0f9a18",
+      "outputs": [
+        {
+          "path": "articles/where-is-ethereum-going.html",
+          "sha": "a7d7a5e3b3eb4cc96fcd12c66c0c284ec2a18a54"
+        }
+      ],
+      "review_status": "baseline_preserved",
+      "asset_disposition": "not_applicable",
+      "reviewed_at": null,
+      "external_sources": [
+        "https://nthszgnbqgjfqnzgytym.supabase.co/storage/v1/object/public/pdfs/Metanomia_JULY-1-2026_final%20(1).pdf"
+      ]
+    },
+    "ko/contact.html": {
+      "kind": "html",
+      "source_sha": "0ab13a3b3af71809e9e356dc679566e4ee45bcd3",
+      "source_hash": "189f03d9d3eb88e0c03b10d0f12b938228e4f6345edcd6ae281b40b98920c935",
+      "outputs": [
+        {
+          "path": "contact.html",
+          "sha": "8a790d6aa19abc1b0e2b3fd0e6558915953291ef"
+        }
+      ],
+      "review_status": "baseline_preserved",
+      "asset_disposition": "not_applicable",
+      "reviewed_at": null,
+      "external_sources": []
+    },
+    "ko/crypto-news.html": {
+      "kind": "html",
+      "source_sha": "6dc4db255f0af47eaf4a483aa2cfcc4d406be794",
+      "source_hash": "d3ee74e1b10c9d1258a7f909f8221006b011cd9287cd238d6ea79076caea635a",
+      "outputs": [
+        {
+          "path": "crypto-news.html",
+          "sha": "72c789c82fbad821715965c2cfaba3365ea3af68"
+        }
+      ],
+      "review_status": "baseline_preserved",
+      "asset_disposition": "not_applicable",
+      "reviewed_at": null,
+      "external_sources": []
+    },
+    "ko/fellows.html": {
+      "kind": "html",
+      "source_sha": "0c78f3ed177d1f1967fc2a421f6476ecbb8fcc95",
+      "source_hash": "e42f7b66b5385f23ebfb18610a96e745d038cc75e50d5a2bd76d144819882a96",
+      "outputs": [
+        {
+          "path": "fellows.html",
+          "sha": "c2abacb2798202a2b91dbcfdbb17baf43c17327f"
+        }
+      ],
+      "review_status": "baseline_preserved",
+      "asset_disposition": "not_applicable",
+      "reviewed_at": null,
+      "external_sources": []
+    },
+    "ko/index.html": {
+      "kind": "html",
+      "source_sha": "485e600d0b801b0354131b9865dfb060acfa83a2",
+      "source_hash": "a71b036581536f9f9685320297e7f629e81b293af93260cc018ba64ef3d9172a",
+      "outputs": [
+        {
+          "path": "index.html",
+          "sha": "d1fbff8892ae10275f027ab445afad2a741f6feb"
+        }
+      ],
+      "review_status": "baseline_preserved",
+      "asset_disposition": "not_applicable",
+      "reviewed_at": null,
+      "external_sources": []
+    },
+    "ko/media.html": {
+      "kind": "html",
+      "source_sha": "7a0f64d694986f38f636f076bd910a090204deff",
+      "source_hash": "bfb90a668aef9f3a3359fdc1b28a64a9140db89144cc71605f4a89e4dab755a2",
+      "outputs": [
+        {
+          "path": "media.html",
+          "sha": "776c7e02ec2a9079d9c32460904e7e9d5f902564"
+        }
+      ],
+      "review_status": "baseline_preserved",
+      "asset_disposition": "not_applicable",
+      "reviewed_at": null,
+      "external_sources": []
+    },
+    "ko/media/ask-the-author.html": {
+      "kind": "html",
+      "source_sha": "364407b8918eec2948c64d8c1fc5567c07ae24bb",
+      "source_hash": "f5b54a05520c4b14a77d81ab98886e1e107d1f25fea142a9cf9ba6a53c4d0b33",
+      "outputs": [
+        {
+          "path": "media/ask-the-author.html",
+          "sha": "0076978e9b4c555eb91d8386b30602bc1b3969cd"
+        }
+      ],
+      "review_status": "baseline_preserved",
+      "asset_disposition": "not_applicable",
+      "reviewed_at": null,
+      "external_sources": []
+    },
+    "ko/media/crypto-issues.html": {
+      "kind": "html",
+      "source_sha": "a3e0dc5c138563bf90efab47468e5ddbb3c691b6",
+      "source_hash": "12f36d30df0128c0f93dac578fe083ea628bd7859d7604380debb71102a31a35",
+      "outputs": [
+        {
+          "path": "media/crypto-issues.html",
+          "sha": "fa53411de8ab037c3784ba774de36f9e9e62e14f"
+        }
+      ],
+      "review_status": "baseline_preserved",
+      "asset_disposition": "not_applicable",
+      "reviewed_at": null,
+      "external_sources": []
+    },
+    "ko/media/crypto-tutoring.html": {
+      "kind": "html",
+      "source_sha": "cb3c57bbfec0cb1121518336511b4a2a690490ed",
+      "source_hash": "44034f6ff4be82f310d3cf5bcb4966d14afab4c5f26e2cef5fa512399e9f6373",
+      "outputs": [
+        {
+          "path": "media/crypto-tutoring.html",
+          "sha": "8b9797d768e5c34764c2326d7ecace3684de70f2"
+        }
+      ],
+      "review_status": "baseline_preserved",
+      "asset_disposition": "not_applicable",
+      "reviewed_at": null,
+      "external_sources": []
+    },
+    "ko/media/reading-crypto.html": {
+      "kind": "html",
+      "source_sha": "64d4b71eda47cf049a45c24fd3e1d6165c6ab010",
+      "source_hash": "f0bd488ce79d5e72c3595ee106e20ad63ea08eab4c6b6f07d010dfad37fc9a98",
+      "outputs": [
+        {
+          "path": "media/reading-crypto.html",
+          "sha": "4ca0b074ff18c4c0f0e0c532c488b5f6f97b9a96"
+        }
+      ],
+      "review_status": "baseline_preserved",
+      "asset_disposition": "not_applicable",
+      "reviewed_at": null,
+      "external_sources": []
+    },
+    "ko/media/weekly-crypto.html": {
+      "kind": "html",
+      "source_sha": "c2cf6cba65f2bb7ae33274cee1c9658a9aebc0d9",
+      "source_hash": "b186fb3d361547a3de6fa9796b5bafee822cc99b006515e4c204c44d006a9068",
+      "outputs": [
+        {
+          "path": "media/weekly-crypto.html",
+          "sha": "7e9bdf0837acb60fcfed859603cb9b85d38f4117"
+        }
+      ],
+      "review_status": "baseline_preserved",
+      "asset_disposition": "not_applicable",
+      "reviewed_at": null,
+      "external_sources": []
+    },
+    "ko/members.html": {
+      "kind": "html",
+      "source_sha": "63ff62a53e2764a8bcbe6b0496af0bd6a94ad0ce",
+      "source_hash": "469414f5c90e87671aed7933143ef2d3b3a77b299575aa32e55abf5e47f008cc",
+      "outputs": [
+        {
+          "path": "members.html",
+          "sha": "c7eb39e0f408054e446d0820caaade5ffbb602ce"
+        }
+      ],
+      "review_status": "baseline_preserved",
+      "asset_disposition": "not_applicable",
+      "reviewed_at": null,
+      "external_sources": []
+    },
+    "ko/people/boyoung-park.html": {
+      "kind": "html",
+      "source_sha": "225bd378afa28e65c0e8aa525fccba5bb8ad3841",
+      "source_hash": "4735bf015c485bf7e9166f11a984032ab6d277ae016ef0e28271e71158703dfa",
+      "outputs": [
+        {
+          "path": "people/boyoung-park.html",
+          "sha": "beb0573bb6ab4226e451d2a8b74f8896ba4da5a9"
+        }
+      ],
+      "review_status": "baseline_preserved",
+      "asset_disposition": "not_applicable",
+      "reviewed_at": null,
+      "external_sources": []
+    },
+    "ko/people/changjun-lee.html": {
+      "kind": "html",
+      "source_sha": "cfbcc0bd1bd8a8471b998e02e79c6d35a353c8ee",
+      "source_hash": "4a74c8900863f8b24b01f93c4941871f891f904474468e7a46a61ebf9b3fe0b2",
+      "outputs": [
+        {
+          "path": "people/changjun-lee.html",
+          "sha": "7991e5c30bf4f30ca9c8a099b1fa9b8159312c18"
+        }
+      ],
+      "review_status": "baseline_preserved",
+      "asset_disposition": "not_applicable",
+      "reviewed_at": null,
+      "external_sources": []
+    },
+    "ko/people/daehan-seok.html": {
+      "kind": "html",
+      "source_sha": "bd0e77f0ab938285b57b2dbe172dbb68ef3eb010",
+      "source_hash": "edeb6a78ae7e12eac8be9e332e637ffd1742754d4fd5c3226fa6a2101aecd17b",
+      "outputs": [
+        {
+          "path": "people/daehan-seok.html",
+          "sha": "3f7096ffd408ba43304f69e7499bdff15ffaf4cf"
+        }
+      ],
+      "review_status": "baseline_preserved",
+      "asset_disposition": "not_applicable",
+      "reviewed_at": null,
+      "external_sources": []
+    },
+    "ko/people/dooroo-chung.html": {
+      "kind": "html",
+      "source_sha": "34ce902c6b7676ec679755be42710cb1b896be73",
+      "source_hash": "117f1af7b2aae93c4431f305a0c6529324aa7923ffa13cc5da091283be968321",
+      "outputs": [
+        {
+          "path": "people/dooroo-chung.html",
+          "sha": "f84b0656e0dda0b326197f020c9f21cf60d1606e"
+        }
+      ],
+      "review_status": "baseline_preserved",
+      "asset_disposition": "not_applicable",
+      "reviewed_at": null,
+      "external_sources": []
+    },
+    "ko/people/eunmi-kim.html": {
+      "kind": "html",
+      "source_sha": "11849cbdd8b13d40e2bc56e4e2a6593fbdce8a14",
+      "source_hash": "16b660facbdb0ad61009a2c4604f9a955a5d832bcb25fe5ecd059961fa12b90e",
+      "outputs": [
+        {
+          "path": "people/eunmi-kim.html",
+          "sha": "56ee165cb387c75f23589bf97214610adffcdbde"
+        }
+      ],
+      "review_status": "baseline_preserved",
+      "asset_disposition": "not_applicable",
+      "reviewed_at": null,
+      "external_sources": []
+    },
+    "ko/people/hyemin-son.html": {
+      "kind": "html",
+      "source_sha": "9fb4705b6204906b937ea66a69174bb7b5e6459b",
+      "source_hash": "f193b9a7100db1e86bf734ba140b43fdf754a0c973467ed398c563ad9308ba0b",
+      "outputs": [
+        {
+          "path": "people/hyemin-son.html",
+          "sha": "fdf98fb599d069fc0eae4543fe2d36fbc1b109ed"
+        }
+      ],
+      "review_status": "baseline_preserved",
+      "asset_disposition": "not_applicable",
+      "reviewed_at": null,
+      "external_sources": []
+    },
+    "ko/people/jeehwan-lee.html": {
+      "kind": "html",
+      "source_sha": "6e5dc6a3ac7e73de2256cfbab6166c9619ceca99",
+      "source_hash": "8e9f6f417f8239645e4333b07124d1622b462faede26fcb79dc9740b53ac70a4",
+      "outputs": [
+        {
+          "path": "people/jeehwan-lee.html",
+          "sha": "0bc31e3bdc434e89499fb591c722951df5d63878"
+        }
+      ],
+      "review_status": "baseline_preserved",
+      "asset_disposition": "not_applicable",
+      "reviewed_at": null,
+      "external_sources": []
+    },
+    "ko/people/jewoo-ryu.html": {
+      "kind": "html",
+      "source_sha": "fee1bec2bf416c0644cbc01ec9f6da6c6f5961b1",
+      "source_hash": "84c12fbf9af427776386e251aefeb9c3dd03d0441c6b7aa18fd3f8f14c7f5f1a",
+      "outputs": [
+        {
+          "path": "people/jewoo-ryu.html",
+          "sha": "8bbb79f729364ee5d39e2ce2b724b40ea4a2684c"
+        }
+      ],
+      "review_status": "baseline_preserved",
+      "asset_disposition": "not_applicable",
+      "reviewed_at": null,
+      "external_sources": []
+    },
+    "ko/people/jungeun-lee.html": {
+      "kind": "html",
+      "source_sha": "24974ebc858e2ab4f3ddfb0ab700f81f3362e6f3",
+      "source_hash": "1c32dbc72ae44e4fedae1bc7a1b64993dd96da224ed320b9d170cf64df6edfb0",
+      "outputs": [
+        {
+          "path": "people/jungeun-lee.html",
+          "sha": "7c9f2bbde7631e3a913977e9a745ee03b61f7c92"
+        }
+      ],
+      "review_status": "baseline_preserved",
+      "asset_disposition": "not_applicable",
+      "reviewed_at": null,
+      "external_sources": []
+    },
+    "ko/people/mingu-park.html": {
+      "kind": "html",
+      "source_sha": "73c743d664182c0acca4159842f369244ca1b1ae",
+      "source_hash": "1a9d02404340b478f6df9442b940ac948d7d16892a066751222de482ce04c1b2",
+      "outputs": [
+        {
+          "path": "people/mingu-park.html",
+          "sha": "c9c94c98411d8c1f44e77a0d8d4155e881a082c7"
+        }
+      ],
+      "review_status": "baseline_preserved",
+      "asset_disposition": "not_applicable",
+      "reviewed_at": null,
+      "external_sources": []
+    },
+    "ko/people/minguk-seok.html": {
+      "kind": "html",
+      "source_sha": "81a779a49668606ccf40139cc654376441245329",
+      "source_hash": "a9911decd93ce0ec36a5043aac1d8cef42ab103fa1761bbb41a47829ebd8c45c",
+      "outputs": [
+        {
+          "path": "people/minguk-seok.html",
+          "sha": "0858b0d37be873e4c576d84941872cd3ee8369ed"
+        }
+      ],
+      "review_status": "baseline_preserved",
+      "asset_disposition": "not_applicable",
+      "reviewed_at": null,
+      "external_sources": []
+    },
+    "ko/people/sanghwan-kim.html": {
+      "kind": "html",
+      "source_sha": "8153c46172e2adeed19edf2ae788cc17e19be08f",
+      "source_hash": "971bb29b9c4a96cc24826345c52c0022990a1ecb13a832796e035a8b144f0f46",
+      "outputs": [
+        {
+          "path": "people/sanghwan-kim.html",
+          "sha": "d3caf27c683a519c1242919ad3fa829325fc8029"
+        }
+      ],
+      "review_status": "baseline_preserved",
+      "asset_disposition": "not_applicable",
+      "reviewed_at": null,
+      "external_sources": []
+    },
+    "ko/people/sanghyeon-park.html": {
+      "kind": "html",
+      "source_sha": "c842fe4413da05e79c07e5eea1fecaa8c2024557",
+      "source_hash": "18f791163b692b0f34289ca04a206790b82e94532c4dd6d762f7ba926ded8b95",
+      "outputs": [
+        {
+          "path": "people/sanghyeon-park.html",
+          "sha": "5c50a066a9c9fddb80f2fbf349106fc1659566e7"
+        }
+      ],
+      "review_status": "baseline_preserved",
+      "asset_disposition": "not_applicable",
+      "reviewed_at": null,
+      "external_sources": []
+    },
+    "ko/people/sangjun-han.html": {
+      "kind": "html",
+      "source_sha": "58c3f1565472b0aeb4765093f6ee79a21001c38e",
+      "source_hash": "4276680840bf354b610d5f9c7653380eedadcad0a7184fd439676812d8808019",
+      "outputs": [
+        {
+          "path": "people/sangjun-han.html",
+          "sha": "b0a7f4e5d17beab0828db10ead5ace9f50864eb9"
+        }
+      ],
+      "review_status": "baseline_preserved",
+      "asset_disposition": "not_applicable",
+      "reviewed_at": null,
+      "external_sources": []
+    },
+    "ko/people/seongjun-noh.html": {
+      "kind": "html",
+      "source_sha": "b9fde7480a1359637c11078a4a1fbb4db295b197",
+      "source_hash": "67a865a671ee82e20398869d9b7a3e31dc3c98beff163b1a92b3cb432557282a",
+      "outputs": [
+        {
+          "path": "people/seongjun-noh.html",
+          "sha": "033f2143a21451990f63029da6cf8857b668640f"
+        }
+      ],
+      "review_status": "baseline_preserved",
+      "asset_disposition": "not_applicable",
+      "reviewed_at": null,
+      "external_sources": []
+    },
+    "ko/people/seonhyeop-park.html": {
+      "kind": "html",
+      "source_sha": "4fe7594a7043c06d84941546d1cd5e3a37e79926",
+      "source_hash": "fd3a7e2388b977a5991fe59c34a2b7d53956f9c2cfdaf97cde9d0bb65fdc250f",
+      "outputs": [
+        {
+          "path": "people/seonhyeop-park.html",
+          "sha": "aa3f9ec8041ef728a1b6a50c61a65a065d0f6d29"
+        }
+      ],
+      "review_status": "baseline_preserved",
+      "asset_disposition": "not_applicable",
+      "reviewed_at": null,
+      "external_sources": []
+    },
+    "ko/people/serin-kim.html": {
+      "kind": "html",
+      "source_sha": "bf46cf957cdbb187f817a37fd8364dd87670c68d",
+      "source_hash": "261f3471ca7799f2e4d0539fb53818b197a2130f94da7934aa5510d6ecdb6065",
+      "outputs": [
+        {
+          "path": "people/serin-kim.html",
+          "sha": "edded5a8a6f32eab1f4074e9019e965445bf5d00"
+        }
+      ],
+      "review_status": "baseline_preserved",
+      "asset_disposition": "not_applicable",
+      "reviewed_at": null,
+      "external_sources": []
+    },
+    "ko/people/seungju-jin.html": {
+      "kind": "html",
+      "source_sha": "fa28a975c55ed832b636042517caa337bd8c176b",
+      "source_hash": "e0376a6c07ba51f444d019ee3fb062547885ea9f8f800d5ee8e6e278f48c1ac7",
+      "outputs": [
+        {
+          "path": "people/seungju-jin.html",
+          "sha": "ba09847e466d434a14a0aee69bea6e8c5dfef185"
+        }
+      ],
+      "review_status": "baseline_preserved",
+      "asset_disposition": "not_applicable",
+      "reviewed_at": null,
+      "external_sources": []
+    },
+    "ko/people/seyeon-cho.html": {
+      "kind": "html",
+      "source_sha": "a759f53482dc4877c5c2e3f6de94ec421821d19f",
+      "source_hash": "b92550963060112fcd33d153d7fc84190cf274f7d9081b1bab7fab17b493d8ed",
+      "outputs": [
+        {
+          "path": "people/seyeon-cho.html",
+          "sha": "4584afccf4613551ee64ce7f607ef9c508d0ab13"
+        }
+      ],
+      "review_status": "baseline_preserved",
+      "asset_disposition": "not_applicable",
+      "reviewed_at": null,
+      "external_sources": []
+    },
+    "ko/people/siwoo-park.html": {
+      "kind": "html",
+      "source_sha": "c64d7d3b668a0f30d045d78b80157ff53267d668",
+      "source_hash": "59b933042364051929ca5fc514bca094ccd4982c3b35a115e3ea30d6d20a296d",
+      "outputs": [
+        {
+          "path": "people/siwoo-park.html",
+          "sha": "60059af102a977ebe18d25273b0969aacf1a03ec"
+        }
+      ],
+      "review_status": "baseline_preserved",
+      "asset_disposition": "not_applicable",
+      "reviewed_at": null,
+      "external_sources": []
+    },
+    "ko/people/suhoon-park.html": {
+      "kind": "html",
+      "source_sha": "b91b0f8f5afec66724b85504c12f30ca9bab4346",
+      "source_hash": "8547cdefd149e9e6bb72d342104b5d6cd2b0889df436c2651aef96f714481792",
+      "outputs": [
+        {
+          "path": "people/suhoon-park.html",
+          "sha": "aebd8919c17256cf5f79221d1139ce8c09ed2a3e"
+        }
+      ],
+      "review_status": "baseline_preserved",
+      "asset_disposition": "not_applicable",
+      "reviewed_at": null,
+      "external_sources": []
+    },
+    "ko/people/sungah-yoon.html": {
+      "kind": "html",
+      "source_sha": "da5724237368c5330eeefe4574b6dbb744288eac",
+      "source_hash": "02cedf320784b6219b42f533b6bca696b2032639ed3fc584a78e719fa74e3b54",
+      "outputs": [
+        {
+          "path": "people/sungah-yoon.html",
+          "sha": "eb1baf89426c840789556f21a18151865bbd0db0"
+        }
+      ],
+      "review_status": "baseline_preserved",
+      "asset_disposition": "not_applicable",
+      "reviewed_at": null,
+      "external_sources": []
+    },
+    "ko/people/sunghoon-jin.html": {
+      "kind": "html",
+      "source_sha": "ee4b356b7147e4a2e36fcfd7d5fc29086b72b9f6",
+      "source_hash": "d49beb036dce824c2d13adeb08b340dc6cdd9170de705e4fdd05577a29c8a6f3",
+      "outputs": [
+        {
+          "path": "people/sunghoon-jin.html",
+          "sha": "c5a46c98e0f92bb711a5c72a474b46c11c2246bb"
+        }
+      ],
+      "review_status": "baseline_preserved",
+      "asset_disposition": "not_applicable",
+      "reviewed_at": null,
+      "external_sources": []
+    },
+    "ko/people/taemin-oh.html": {
+      "kind": "html",
+      "source_sha": "bd7412476298915ee8d96a753721a982778f1cc1",
+      "source_hash": "19e3997d9a2a937a14c60866da7b8982d72f507ff888b510415519fce3303e12",
+      "outputs": [
+        {
+          "path": "people/taemin-oh.html",
+          "sha": "974e42e87bc01749a7922bbf3d8b7c864b20a488"
+        }
+      ],
+      "review_status": "baseline_preserved",
+      "asset_disposition": "not_applicable",
+      "reviewed_at": null,
+      "external_sources": []
+    },
+    "ko/people/yongrae-cho.html": {
+      "kind": "html",
+      "source_sha": "e25720ab1bae787c137e8c65f59a2b1b3f13b108",
+      "source_hash": "497c8255d8d4aa34e6b5d036980d022a749e8540c379eaaf0c4150c36d5bdc44",
+      "outputs": [
+        {
+          "path": "people/yongrae-cho.html",
+          "sha": "2b998b41672d65c1d367300896dee8ad776b84c7"
+        }
+      ],
+      "review_status": "baseline_preserved",
+      "asset_disposition": "not_applicable",
+      "reviewed_at": null,
+      "external_sources": []
+    },
+    "ko/people/yonkyung-kim.html": {
+      "kind": "html",
+      "source_sha": "31afa3bc46e1e243275f8ebc970d9df9a9bd7141",
+      "source_hash": "308c68ff0684c6bb4a52356866a4f5a6e8805dc1f5bc8415a9a3d8b4e6f64d0a",
+      "outputs": [
+        {
+          "path": "people/yonkyung-kim.html",
+          "sha": "c8de630012d912cab8b60228cf5c86746c6d9802"
+        }
+      ],
+      "review_status": "baseline_preserved",
+      "asset_disposition": "not_applicable",
+      "reviewed_at": null,
+      "external_sources": []
+    },
+    "ko/people/yujeong-kim.html": {
+      "kind": "html",
+      "source_sha": "efcf0141d339d6d3e6b9ff6c48f7c8efe801ff86",
+      "source_hash": "c0c7d1cc7ce827f631146de0f6b3ff9e446cdd605f3acab65012256358156830",
+      "outputs": [
+        {
+          "path": "people/yujeong-kim.html",
+          "sha": "54f12acf7f1051da8fa31dc3d56d050f829748ce"
+        }
+      ],
+      "review_status": "baseline_preserved",
+      "asset_disposition": "not_applicable",
+      "reviewed_at": null,
+      "external_sources": []
+    },
+    "ko/people/zooa-yoo.html": {
+      "kind": "html",
+      "source_sha": "532b7423243a2071713f0d2fc3a11a78f840fcd8",
+      "source_hash": "9f1e17b70719f2f205583d74156e7a955c927de09c7fed65c203d8b7ea8aaa8b",
+      "outputs": [
+        {
+          "path": "people/zooa-yoo.html",
+          "sha": "ed740528cf259f5957ba405da96496e9edd39046"
+        }
+      ],
+      "review_status": "baseline_preserved",
+      "asset_disposition": "not_applicable",
+      "reviewed_at": null,
+      "external_sources": []
+    },
+    "ko/privacy.html": {
+      "kind": "html",
+      "source_sha": "8f477bb7e0abf13ad43fbdb5a1929551687b6cc1",
+      "source_hash": "bd643863d5a0b3c053a9ac9f607a9a97649898defa441f2cda44e0a683fb4215",
+      "outputs": [
+        {
+          "path": "privacy.html",
+          "sha": "cd6ccb5004333a2733d6714f99c8afcf8da6e3da"
+        }
+      ],
+      "review_status": "baseline_preserved",
+      "asset_disposition": "not_applicable",
+      "reviewed_at": null,
+      "external_sources": []
+    },
+    "ko/publications.html": {
+      "kind": "html",
+      "source_sha": "b721bab195c3f1c3032ce71619befafc738b707c",
+      "source_hash": "a2e0652f0742adde9986035da6e4f08af6f83f9a78b7ba372d086afb4f5e41d0",
+      "outputs": [
+        {
+          "path": "publications.html",
+          "sha": "1742759e26163bfd6d67045f836c9f066b3ba09a"
+        }
+      ],
+      "review_status": "baseline_preserved",
+      "asset_disposition": "not_applicable",
+      "reviewed_at": null,
+      "external_sources": []
+    },
+    "ko/series/guide.html": {
+      "kind": "html",
+      "source_sha": "1608c33bdd99f850b377107c6d8e9b2f4f25ff0e",
+      "source_hash": "0b842dad0dbabe802d6bb61adfe3627ffb8183740e80754ffd03f48b8d5a8e60",
+      "outputs": [
+        {
+          "path": "series/guide.html",
+          "sha": "d9955e81f0faad5d485c797220323602e661bbdc"
+        }
+      ],
+      "review_status": "baseline_preserved",
+      "asset_disposition": "not_applicable",
+      "reviewed_at": null,
+      "external_sources": []
+    },
+    "ko/series/outlook.html": {
+      "kind": "html",
+      "source_sha": "d6572e0d6ae36f8ca3667ad304f141ed6f32a5ef",
+      "source_hash": "a194d8020388aa738b9b745d97d65473a82a072f6591417b29a0518bd31c5e63",
+      "outputs": [
+        {
+          "path": "series/outlook.html",
+          "sha": "d37843ed25dfc0ec453db143a102e1b51be13bfa"
+        }
+      ],
+      "review_status": "baseline_preserved",
+      "asset_disposition": "not_applicable",
+      "reviewed_at": null,
+      "external_sources": []
+    },
+    "ko/series/perspectives.html": {
+      "kind": "html",
+      "source_sha": "4dcf9774ed576cc320434aea3973a5198138615a",
+      "source_hash": "167846c62a09287033b750f8c72a67dd35f44aa0f28afa0263fc3167b92ed33d",
+      "outputs": [
+        {
+          "path": "series/perspectives.html",
+          "sha": "6cd5924545c19bed53dfafbd46e2ea2872c85286"
+        }
+      ],
+      "review_status": "baseline_preserved",
+      "asset_disposition": "not_applicable",
+      "reviewed_at": null,
+      "external_sources": []
+    },
+    "ko/series/policy-strategy.html": {
+      "kind": "html",
+      "source_sha": "81ae5f23ca3b34e75b854f0db0b19b77a89de257",
+      "source_hash": "c5230c70d36b4d5491efca800482c417e88762c0087a51d39d824f36be1a72b8",
+      "outputs": [
+        {
+          "path": "series/policy-strategy.html",
+          "sha": "7b4d61cb3de67d3915199e2aca3d27121c57606d"
+        }
+      ],
+      "review_status": "baseline_preserved",
+      "asset_disposition": "not_applicable",
+      "reviewed_at": null,
+      "external_sources": []
+    },
+    "ko/series/research.html": {
+      "kind": "html",
+      "source_sha": "1d7a6838dbbcadd6befa4981ee4a439bd912db01",
+      "source_hash": "4d4f1057e517110006f568ba9e2f626df392fdf9435cffde76027f32e2c27edd",
+      "outputs": [
+        {
+          "path": "series/research.html",
+          "sha": "edbbc7216d8f691f5514a746615d918bfd959837"
+        }
+      ],
+      "review_status": "baseline_preserved",
+      "asset_disposition": "not_applicable",
+      "reviewed_at": null,
+      "external_sources": []
+    },
+    "ko/team.html": {
+      "kind": "html",
+      "source_sha": "0c78f3ed177d1f1967fc2a421f6476ecbb8fcc95",
+      "source_hash": "6f3c9db060a5240402bdb9292d294d22682906daa156b50404674422eb11a058",
+      "outputs": [
+        {
+          "path": "team.html",
+          "sha": "c2abacb2798202a2b91dbcfdbb17baf43c17327f"
+        }
+      ],
+      "review_status": "baseline_preserved",
+      "asset_disposition": "not_applicable",
+      "reviewed_at": null,
+      "external_sources": []
+    },
+    "ko/terms.html": {
+      "kind": "html",
+      "source_sha": "a9f2595c7b77d0539324928ce731be6381d83cf5",
+      "source_hash": "5a00229039abc0233da61f8950d3d6915bfdf36d8213486759ec8ce1a9cfa7d7",
+      "outputs": [
+        {
+          "path": "terms.html",
+          "sha": "f68384139572eea33dc51953062afa8a0150fe90"
+        }
+      ],
+      "review_status": "baseline_preserved",
+      "asset_disposition": "not_applicable",
+      "reviewed_at": null,
+      "external_sources": []
+    },
+    "pdfs/Metanomia_AUGUST-1_2026_EKM_KOR.pdf": {
+      "kind": "pdf",
+      "source_sha": "bc9ebd6953c11be04814498e1590fb895cb9c37c",
+      "source_hash": "72e10fc29931e93f77417b1c32479f59382b31f006ad85f771961caf7861e26a",
+      "outputs": [
+        {
+          "path": "pdfs/Metanomia_AUGUST-1_2026_EKM_ENG.pdf",
+          "sha": "9ad30882a8dd67a622ad08f9adedd183390d7cfc"
+        }
+      ],
+      "review_status": "baseline_preserved",
+      "asset_disposition": "translated",
+      "reviewed_at": null,
+      "external_sources": []
+    },
+    "pdfs/Metanomia_AUGUST-2_2026_SYC_KOR.pdf": {
+      "kind": "pdf",
+      "source_sha": "795ad23e649fff2bcbe58d56d1fbfa04e4ea9190",
+      "source_hash": "5518c409a9553e5f2d73df21fbf18d327bf559e990763d815c63f3018c140d0b",
+      "outputs": [
+        {
+          "path": "pdfs/Metanomia_AUGUST-2_2026_SYC_ENG.pdf",
+          "sha": "1e09e1f1659562ea64768046b728f1c08e564854"
+        }
+      ],
+      "review_status": "baseline_preserved",
+      "asset_disposition": "translated",
+      "reviewed_at": null,
+      "external_sources": []
+    }
+  }
+}
