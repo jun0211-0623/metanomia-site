@@ -1,7 +1,62 @@
 {
   "schema_version": "1.0",
-  "generated_at_kst": "2026-09-08T18:03:50+09:00",
+  "generated_at_kst": "2026-09-09T10:46:33+09:00",
   "items": [
+    {
+      "slug": "2026-09-09-crypto-news-f03ca64f8d",
+      "date_kst": "2026-09-09",
+      "title": "Circle Signs Tazapay Acquisition Deal with $400 Million Base Price Payable in Shares; Targets 2027 Close, Singapore Approval Pending",
+      "content": "Circle, the issuer of the US dollar-pegged stablecoin USDC, announced on September 8, local time, that it had signed a definitive agreement to acquire Tazapay, a Singapore-based business-to-business cross-border payments company. Tazapay connects local banks and payout networks so that payment service providers and financial institutions can collect and disburse funds across countries. According to Circle, as of July 31, 2026, Tazapay had more than $25 billion in annualized payment volume, more than 60 banking and fintech partners, and a local payout network spanning more than 100 markets. Around 60% of Tazapay's transaction volume already involves stablecoins, and the company has been a design partner of the Circle Payments Network since 2025. According to a Form 8-K filed with the US Securities and Exchange Commission (SEC), the agreement was signed on September 4. The entity purchasing the shares is Taurus Acquisition Inc., an indirect wholly owned subsidiary of Circle, with Circle acting as guarantor within the scope specified in the agreement. The acquisition consideration is based on $400 million, adjusted for Tazapay's outstanding debt, transaction expenses and cash holdings, and will be paid in Circle Class A common stock. The number of shares to be delivered as consideration will be determined by dividing that amount by the volume-weighted average closing price over the 20 consecutive trading days immediately preceding closing. The acquisition is targeted to close in 2027, with regulatory approvals, including from the Monetary Authority of Singapore (MAS), still pending. Closing conditions also require at least 75% of designated employees to remain with Tazapay and certain senior executives to continue their employment. Circle described the acquisition as a way to expand the use of USDC in cross-border commerce. Irfan Ganchi, Circle's senior vice president of payments, said that drawing on payment infrastructure in Asia-Pacific and emerging markets could expand its ability to collect and disburse funds across countries around the clock and in near real time. Tazapay's stablecoin services are provided by its Canadian entity, which is registered as a money services business with the Financial Transactions and Reports Analysis Centre of Canada (FINTRAC). The company also states that these services are limited to payments and conversions between fiat currencies and stablecoins, and that it does not provide related financial, investment or advisory services. Circle said there would be no disruption to services, application programming interfaces (APIs), pricing or support for Tazapay's existing customers. The announcement confirms the signing of the agreement, the method for determining the consideration and the closing conditions. The acquisition and integration of the payment networks have not yet been completed, and no integration timetable or changes to fees following the acquisition were provided.",
+      "metanomia_thought": "If a business that receives USDC needs to spend in local currency, currency conversion and payout procedures are still needed after the blockchain transfer. Circle aims to bring Tazapay's banking relationships and payout network into its group to strengthen the connections that allow USDC to be used to pay for actual transactions. However, the acquisition alone does not remove country-specific licensing requirements or the distinctions between the legal entities that actually provide services. Responsibility when problems arise with currency conversion or payouts depends on the actual service contracts, the actions of each party and the applicable laws.",
+      "sources": [
+        {
+          "title": "‘Circle Expands Global Payments Infrastructure with Agreement to Acquire Singapore-Based Cross-Border Payments Platform, Tazapay’",
+          "url": "https://investor.circle.com/news/news-details/2026/Circle-Expands-Global-Payments-Infrastructure-with-Agreement-to-Acquire-Singapore-Based-Cross-Border-Payments-Platform-Tazapay/default.aspx"
+        },
+        {
+          "title": "‘Form 8-K — CIRCLE INTERNET GROUP, INC.’",
+          "url": "https://www.sec.gov/Archives/edgar/data/1876042/000187604226000267/crcl-20260904.htm"
+        }
+      ]
+    },
+    {
+      "slug": "2026-09-09-crypto-news-e42d002700",
+      "date_kst": "2026-09-09",
+      "title": "BDACS Adopts LayerZero's OFT Standard for KRW1, Unifying Supply Across Chains While Retaining Won Reserve Structure",
+      "content": "On September 7, local time, LayerZero announced that KRW1, the won-pegged stablecoin issued by South Korean digital asset custodian BDACS, had adopted its Omnichain Fungible Token (OFT) standard for cross-chain transfers. LayerZero described KRW1 as the first won-backed stablecoin issued in South Korea and BDACS as the first company to issue a won-backed stablecoin. It also said BDACS was South Korea's largest digital asset custodian by assets under custody, which exceeded KRW 80 billion in the first half of 2026. KRW1 already operates on Ethereum, Avalanche and Circle's Arc, but separate deployments on each network had created friction in its circulation and use. OFT is designed to maintain a single supply across connected networks by deducting an amount on the origin chain and recording the same amount on the destination chain when tokens move between chains. LayerZero's Stargate is the application that executes these transfers on users' behalf. OFT is also used by Tether's USDT0, PayPal's PYUSD and Paxos' USDG. LayerZero said the standard handles 87% of cross-chain transfer volume and has transferred a cumulative $280 billion across more than 170 chains. According to LayerZero, the structure under which each KRW1 is backed 1:1 by won held at Woori Bank, with reserves independently verified, will remain in place as network coverage expands. The company cited South Korea's won internationalization roadmap, released in July 2026, as context for the adoption, noting that it includes plans to establish a legal basis for won-denominated stablecoins by amending the Foreign Exchange Transactions Act. The announcement concerns a technical choice to unify cross-chain transfers and supply management for the existing KRW1, rather than the issuance of a new stablecoin. It did not specify which networks would implement the standard or when.",
+      "metanomia_thought": "Bringing KRW1 supply management, previously split across chains, under a single standard reduces the issuer's burden of arranging separate liquidity for each chain as it expands to more networks. Authority is divided, however: Woori Bank holds the won reserves, BDACS issues and burns the tokens, and LayerZero and Stargate handle cross-chain message verification and transfer execution. Tokens can move to any connected chain, but the path back to won converges on a single domestic issuer. The freedom to move tokens and the options for redemption therefore do not expand to the same extent.",
+      "sources": [
+        {
+          "title": "‘BDACS selects LayerZero’s OFT standard to take KRW1 cross-chain’",
+          "url": "https://layerzero.network/blog/bdacs-selects-layerzero-oft-standard-for-krw1"
+        },
+        {
+          "title": "‘South Korea’s KRW1 stablecoin taps LayerZero for cross-chain expansion’",
+          "url": "https://crypto.news/south-koreas-krw1-stablecoin-taps-layerzero-for-cross-chain-expansion/"
+        }
+      ]
+    },
+    {
+      "slug": "2026-09-09-crypto-news-510e70d5a8",
+      "date_kst": "2026-09-09",
+      "title": "Visa Links Card Settlement Data to Onchain Lending; Borrowing Costs Fall by Up to 30% for Card Operators Using Credit Lines",
+      "content": "On September 8, local time, Visa unveiled a lending model that uses VisaNet settlement data to help companies operating stablecoin-based card services borrow the funds they need for daily settlement. Visa described the model as bridging the funding gap that arises when card operators must pay Visa before receiving payments from their customers. Rain, a Visa member that supports stablecoin card services worldwide and makes settlement payments directly to Visa, has used a revolving credit facility operated by Credit Coop since August 2023 to borrow stablecoins and use them to settle with Visa. Lenders participating in the facility supply the loan principal, while Rain borrows against future card receivables and can borrow again within its credit limit as it repays. Credit Coop, a third party registered with Visa, receives Visa's daily settlement files directly with the card operator's authorization. It checks these files alongside repayment records on the blockchain to manage credit limits, loan disbursements and repayments. Smart contracts automate disbursements, collateral management and repayments. In particular, a smart contract called Spigot diverts the portion needed for loan repayment from incoming customer payments before the funds reach the operator's operating account. Visa compared this to executing a bank lockbox arrangement, in which a creditor controls the collection account, through code rather than manual intervention. Visa said borrowing costs for card operators using these facilities had fallen by up to 30% as more lenders became familiar with underwriting such credit facilities. Citing figures provided by Credit Coop, Visa said more than $2.5 billion in cumulative settlement financing had been supplied since 2023, of which approximately $2 billion was attributable to Rain, which has used the facility since August 2023. Visa also said no defaults had occurred across the participating credit facilities. According to figures provided by Credit Coop, the numbers of onchain borrowing and repayment transactions exceeded 3,000 and 9,000, respectively, as of August 19, 2026. Earlier, in its fiscal second-quarter 2026 earnings announcement on April 29, 2026, Visa said more than 160 stablecoin-linked card services were operating on its network and payment volume through those services had grown by nearly 200% year over year. It also said stablecoin settlement volume had recently surpassed an annualized $20 billion, more than 15 times the previous year's level.",
+      "metanomia_thought": "When settlement records and repayment histories become the basis for lending decisions, card operators with short operating histories may have greater scope to raise funds based on their actual cash flows. Visa provides the data, Credit Coop operates the credit facility program and automated repayments, and participating lenders supply the principal, but the funds available for repayment depend on the card operators' actual collections. Spigot enforces the order of repayment; it does not provide the funds to repay. If collections stop, the risk remains with the lenders. Automated repayment changes the process of recovering funds, but the authority to halt enforcement and responsibility for ultimate losses remain with Credit Coop, which operates the facility, and the lenders supplying the principal, rather than with Visa, which provides the data.",
+      "sources": [
+        {
+          "title": "‘Visa Brings Onchain Lending into Everyday Payments’",
+          "url": "https://investor.visa.com/news/news-details/2026/Visa-Brings-Onchain-Lending-into-Everyday-Payments/default.aspx"
+        },
+        {
+          "title": "‘Financing the next hundred stablecoin-linked card programs’",
+          "url": "https://www.visa.com/en-us/thought-leadership/innovation/financing-stablecoin-linked-card-programs"
+        },
+        {
+          "title": "‘Visa Taps Onchain Lending to Finance Stablecoin Card Programs’",
+          "url": "https://decrypt.co/377696/visa-onchain-lending-finance-stablecoin-card"
+        }
+      ]
+    },
     {
       "slug": "2026-09-08-crypto-news-f0f7a3a544",
       "date_kst": "2026-09-08",
