@@ -1,7 +1,79 @@
 {
   "schema_version": "1.0",
-  "generated_at_kst": "2026-09-09T10:46:33+09:00",
+  "generated_at_kst": "2026-09-10T10:42:31+09:00",
   "items": [
+    {
+      "slug": "2026-09-10-crypto-news-dd57c43df7",
+      "date_kst": "2026-09-10",
+      "title": "Tether and Fasanara launch private credit fund with $400 million in joint commitments, targeting up to $3 billion more from institutions",
+      "content": "On September 9, local time, Tether and UK asset manager Fasanara Capital said they had launched StableFund, a private credit fund backed by $400 million in joint commitments. London-based Fasanara invests in small and medium-sized business loans, consumer credit, receivables and supply chain finance through fintech lenders, and has more than $6 billion in assets under management. StableFund has an evergreen structure, meaning it operates without a fixed maturity date and can expand as outside institutional capital participates. Separately, the two companies aim to raise up to $3 billion from external institutional investors. Fasanara will manage the fund and screen investments, with plans to invest in short-term, asset-backed loans through its fintech lending network. Tether will identify and advise on lending opportunities linked to its dollar-pegged stablecoin USDT. It will also provide settlement connections for conversions between fiat currencies and stablecoins and for cross-border fund transfers. The companies said they would provide funding to businesses and consumers that have struggled to obtain financing through traditional financial institutions, working through fintech companies operating in more than 60 countries.",
+      "metanomia_thought": "This points to the possibility of stablecoins serving as a funding channel for business lending, beyond their use for transfers between exchanges. Combining loan selection and capital management with cross-border money transfers could broaden fintech lenders' access to institutional capital. However, sending money quickly in USDT does not guarantee that borrowers will repay it, so the risk of losing invested capital to loan defaults remains even if moving funds becomes more efficient.",
+      "sources": [
+        {
+          "title": "Tether and Fasanara Capital Launch $400 Million Private Credit Fund to Expand Stablecoin-Enabled Real-Economy Lending",
+          "url": "https://tether.io/news/tether-and-fasanara-capital-launch-400-million-private-credit-fund-to-expand-stablecoin-enabled-real-economy-lending/"
+        },
+        {
+          "title": "Tether, Fasanara launch $400 million fund for stablecoin-enabled private credit",
+          "url": "https://www.theblock.co/news/deals/2026-09-09-tether-fasanara-launch-400-million-fund-for-stablecoin-enabled-private-credit-414011"
+        }
+      ]
+    },
+    {
+      "slug": "2026-09-10-crypto-news-af11e3ba49",
+      "date_kst": "2026-09-10",
+      "title": "US sanctions scam-services network Xinbi Guarantee, restrains about $52 million in linked crypto assets",
+      "content": "On September 9, local time, the US Treasury Department designated Chinese-language scam-services network Xinbi Guarantee and two companies supporting it for sanctions under Executive Order 13581, as amended. The US Justice Department described Xinbi as a Chinese-language network operating on Telegram that connects scam organizations with sellers of money-laundering and technology services, acting as an escrow intermediary that holds payments until services are completed. According to the Treasury, transactions through the platform since around 2022 exceeded $24 billion across crypto assets and fiat currencies. The Treasury said Xinbi began moving its vendor and money-laundering networks to encrypted messaging service SafeW around June 2025 and launched its own wallet, XinbiPay, also known as NewPay. Singapore-based SafeW Technology, which was designated alongside Xinbi, developed the messenger, while Cambodia-based Anwen Technology developed the wallet.\n\nThe Treasury said the designations followed sanctions against Prince Group in October 2025 and June 2026, as well as the Financial Crimes Enforcement Network's (FinCEN) action against Huione Group under Section 311 of the USA PATRIOT Act. The Justice Department announced the same day that it had restrained about $52 million in crypto assets linked to Xinbi and its vendor network. The action included the seizure of two wallets containing about $12 million, and investigators also requested restraints on 47 additional wallets. The Justice Department said a warrant from the US District Court in Washington, DC, authorizing the seizure of the network's Telegram channel and the two wallets was issued on September 7 and unsealed on September 9. Property and interests in property of designated persons that are in the United States or in the possession or control of US persons are blocked. The same rule applies to entities owned, directly or indirectly, 50% or more in aggregate by one or more designated persons. Transactions involving such property by US persons, within the United States or transiting the United States are generally prohibited unless authorized or exempt. These blocking, restraint and seizure measures do not mean that the process of returning money to victims has been completed.",
+      "metanomia_thought": "Moving money in crypto assets does not, by itself, erase the trail of illicit funds. In this case, tracing the links between wallets that received victims' money and scam-service vendors led to seizures and restraints. Records left by criminals as they moved money instead became clues that exposed their network. This shows how crypto transaction records can be used to uncover money-laundering networks and prevent further movement of criminal proceeds.",
+      "sources": [
+        {
+          "title": "Treasury Cracks Down on Transnational Criminal Organization Behind Cyber Scam Operations Targeting Americans",
+          "url": "https://home.treasury.gov/news/press-releases/sb0624/"
+        },
+        {
+          "title": "Scam Center Strike Force Conducts Seizures of Chinese-Run Illicit Scammer Marketplace, and Restrains $52 Million in Laundered Crypto Scammer Funds In One Day",
+          "url": "https://www.justice.gov/usao-dc/pr/scam-center-strike-force-conducts-seizures-chinese-run-illicit-scammer-marketplace-and"
+        },
+        {
+          "title": "U.S. Treasury sanctions another widespread cyber-scam hub, Xinbi Guarantee",
+          "url": "https://www.coindesk.com/policy/2026/09/09/u-s-treasury-sanctions-another-widespread-cyber-scam-hub-xinbi-guarantee"
+        }
+      ]
+    },
+    {
+      "slug": "2026-09-10-crypto-news-60caaae935",
+      "date_kst": "2026-09-10",
+      "title": "Consensys plans to separate MetaMask and institutional infrastructure businesses, expects completion by end of 2026",
+      "content": "On September 9, local time, Consensys Software announced plans to split into two independently operated companies focused on consumer financial services and institutional blockchain infrastructure. The existing entity will be renamed MetaMask and will handle consumer financial services, including its wallet. MetaMask is expanding from a wallet in which users manage their own assets into a platform combining payments, savings and investments. Protocol development and institutional infrastructure operations will move to a new company named Consensys. The new company plans to help financial institutions adopt blockchain, drawing on its experience developing Ethereum layer 2 Linea and Ethereum network software Besu and Teku. Joe Lubin will serve as chairman and chief executive officer of MetaMask and as executive chairman of the new Consensys. Mike Kriak will become chief executive officer of the new Consensys, and David Cunningham will serve as president. The company said that responding to demand for personal finance and institutional tokenization and stablecoins requires operating models tailored to each business, dedicated management teams and focused investment strategies. According to the company's announcement, MetaMask has been downloaded more than 100 million times across approximately 190 countries. The company described MetaMask as the world's largest self-custodial financial platform. It expected the separation of the two businesses to be completed by the end of 2026.",
+      "metanomia_thought": "This restructuring can be read as a sign of a growing need for businesses that developed on the same Ethereum technology to set different product development and investment priorities according to their customers' needs.",
+      "sources": [
+        {
+          "title": "Consensys Software Inc. to become two independent companies: MetaMask, the consumer platform, and Consensys, the protocols and institutional infrastructure company",
+          "url": "https://metamask.io/news/consensys-software-inc-to-become-two-independent-companies-metamask-and-consensys"
+        },
+        {
+          "title": "Consensys splits MetaMask from institutional and Ethereum infrastructure businesses",
+          "url": "https://www.theblock.co/news/business/2026-09-09-consensys-splits-metamask-institutional-ethereum-infrastructure-businesses-414022"
+        }
+      ]
+    },
+    {
+      "slug": "2026-09-10-crypto-news-4dca6910cd",
+      "date_kst": "2026-09-10",
+      "title": "U.S. Bank tests transfers between its North American and European entities using its own stablecoin, also evaluates freezing and clawback",
+      "content": "On September 9, local time, U.S. Bank announced that it had completed live test transfers between its entities in North America and Europe using USBDC, its own dollar-backed stablecoin. The transactions tested internal transfers between the bank's entities, rather than a customer-facing remittance service. The transfers used Stellar, a public blockchain, and the bank said it conducted the tests through its existing strategic collaboration with the Stellar Development Foundation. The bank described USBDC as one of the first bank-issued stablecoins deployed on a public blockchain. It also said the on-chain token transfers took place while connected to its existing treasury, risk management, compliance and operational systems. The tests evaluated USBDC's issuance, redemption, freezing and clawback functions, as well as the bank's internally developed Digital Asset Platform. The platform handles the issuance, management and movement of tokenized assets and connects existing banking infrastructure with blockchain networks. U.S. Bank presented the technology as offering the potential to transfer funds around the clock, regardless of time zones. It cited liquidity management, collateral transfers and cross-border corporate treasury operations as areas to explore. The announcement confirms that test transactions between the bank's own entities have been completed; it did not disclose when the service might become available to customers or a commercialization timeline.",
+      "metanomia_thought": "These tests connected blockchain transfers to existing treasury, risk management and compliance frameworks while also evaluating token freezing and clawback. This shows that using a public network can coexist with maintaining a bank's controls. If this approach develops into an actual service, banks could improve the efficiency of cross-border fund transfers while using their existing operational frameworks. Even when tokens move on a public blockchain, the authority to issue, claw back and freeze them remains with the issuing bank.",
+      "sources": [
+        {
+          "title": "U.S. Bank Launches USBDC Stablecoin",
+          "url": "https://ir.usbank.com/news-events/news/news-details/2026/U-S--Bank-Launches-USBDC-Stablecoin/default.aspx"
+        },
+        {
+          "title": "U.S. Bank takes next step towards launching its stablecoin with cross-border payment test",
+          "url": "https://www.coindesk.com/business/2026/09/08/u-s-bank-takes-next-step-towards-launching-its-stablecoin-with-cross-border-payment-test"
+        }
+      ]
+    },
     {
       "slug": "2026-09-09-crypto-news-f03ca64f8d",
       "date_kst": "2026-09-09",
