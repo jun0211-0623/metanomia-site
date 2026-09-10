@@ -1,7 +1,83 @@
 {
   "schema_version": "1.0",
-  "generated_at_kst": "2026-09-09T10:46:33+09:00",
+  "generated_at_kst": "2026-09-10T10:42:31+09:00",
   "items": [
+    {
+      "id": "crypto-news-dd57c43df723be7f",
+      "slug": "2026-09-10-crypto-news-dd57c43df7",
+      "date_kst": "2026-09-10",
+      "title": "테더·파사나라, 4억달러 공동 출자 기반 민간대출 펀드 출범…기관자금 최대 30억달러 추가 모집 목표",
+      "content": "현지시간 9월 9일 테더(Tether)와 영국 자산운용사 파사나라 캐피털(Fasanara Capital)이 공동 출자 4억달러를 기반으로 민간대출 펀드 스테이블펀드(StableFund)를 출범시켰다고 밝혔다. 런던에 본사를 둔 파사나라는 핀테크 대출업체를 통해 중소기업 대출·소비자 신용·매출채권·공급망 금융에 투자하는 회사로 운용자산이 60억달러를 넘는다. 스테이블펀드는 정해진 만기 없이 계속 운용하며 외부 기관자금의 참여에 따라 규모를 늘릴 수 있는 구조(evergreen)다. 두 회사는 별도로 외부 기관투자자에게서 최대 30억달러를 모집하는 것을 목표로 한다. 펀드 운용과 투자 대상 심사는 파사나라가 맡으며, 자사 핀테크 대출망을 통해 만기가 짧고 자산을 담보로 하는 대출에 투자할 계획이다. 테더는 달러 연동 스테이블코인 USDT와 연결되는 대출 기회를 발굴하고 자문하는 역할을 맡는다. 또 법정화폐와 스테이블코인 사이의 전환, 국가 간 자금 이동에 필요한 정산 연결망을 제공한다. 두 회사는 60개국 넘는 곳에서 활동하는 핀테크업체를 통해 기존 금융에서 자금 조달이 어려웠던 기업과 소비자에게 자금을 공급하겠다고 설명했다.",
+      "metanomia_thought": "스테이블코인이 거래소 사이의 송금 수단을 넘어 기업 대출에 필요한 자금 전달망으로 쓰일 가능성을 보여 줍니다. 대출 대상을 고르고 자금을 운용하는 일과 국경을 넘어 돈을 보내는 일을 결합하면, 핀테크 대출업체가 기관 자금에 접근하는 통로를 넓힐 수 있습니다. 다만 USDT로 돈을 빠르게 보내는 것이 차입자의 상환을 보장하지는 않으므로, 자금 이동이 효율화돼도 대출 부실에 따른 출자금 손실 위험은 남습니다.",
+      "sources": [
+        {
+          "title": "Tether and Fasanara Capital Launch $400 Million Private Credit Fund to Expand Stablecoin-Enabled Real-Economy Lending",
+          "url": "https://tether.io/news/tether-and-fasanara-capital-launch-400-million-private-credit-fund-to-expand-stablecoin-enabled-real-economy-lending/"
+        },
+        {
+          "title": "Tether, Fasanara launch $400 million fund for stablecoin-enabled private credit",
+          "url": "https://www.theblock.co/news/deals/2026-09-09-tether-fasanara-launch-400-million-fund-for-stablecoin-enabled-private-credit-414011"
+        }
+      ]
+    },
+    {
+      "id": "crypto-news-af11e3ba49f3e14f",
+      "slug": "2026-09-10-crypto-news-af11e3ba49",
+      "date_kst": "2026-09-10",
+      "title": "미국, 사기 서비스 거래망 신비 개런티 제재…연계 암호자산 약 5,200만달러 처분 제한",
+      "content": "현지시간 9월 9일 미국 재무부가 중국어 사기 서비스 거래망 신비 개런티(Xinbi Guarantee)와 이를 지원하는 두 회사를 개정된 행정명령 13581호에 따라 제재 대상으로 지정했다. 미국 법무부는 신비를 텔레그램에서 운영되는 중국어 거래망으로, 사기 조직과 자금세탁·기술 서비스 판매자를 연결하고 서비스가 끝날 때까지 거래 대금을 맡아 두는 에스크로 중개망이라고 설명했다. 재무부에 따르면 2022년경 이후 이 플랫폼을 거친 거래는 암호자산과 법정화폐를 합쳐 240억달러를 넘었다. 재무부는 신비가 2025년 6월경부터 판매자망과 자금세탁망을 암호화 메신저 세이프더블유(SafeW)로 옮기기 시작했고 자체 지갑 신비페이(XinbiPay·다른 이름 NewPay)를 내놓았다고 밝혔다. 함께 지정된 싱가포르의 세이프더블유 테크놀로지(SafeW Technology)는 이 메신저를, 캄보디아의 안원 테크놀로지(Anwen Technology)는 이 지갑을 개발한 회사다. \n재무부는 이번 지정이 2025년 10월과 2026년 6월의 프린스 그룹 제재, 금융범죄단속국(FinCEN)의 후이온 그룹에 대한 애국법 311조 조치에 이은 것이라고 밝혔다. 법무부는 같은 날 신비와 판매자망에 연계된 암호자산 약 5,200만달러의 처분을 제한했다고 발표했다. 이 조치에는 약 1,200만달러가 들어 있던 지갑 두 개의 압수가 포함되며, 수사기관은 추가 지갑 47개에 대해서도 처분 제한을 요청했다. 법무부는 이 거래망의 텔레그램 채널과 두 지갑의 압수를 함께 허용한 워싱턴DC 연방지방법원 영장이 9월 7일 발부돼 이날 공개됐다고 설명했다. 제재 대상자의 재산과 재산상 권리 가운데 미국 내에 있거나 미국인이 점유하거나 통제하는 것은 동결되며, 제재 대상자 한 명 이상이 직접 또는 간접으로 합산 50% 이상 소유한 법인에도 같은 규칙이 적용된다. 이러한 재산과 관련해 미국인이 하거나 미국 내에서 이뤄지는 거래, 미국을 거치는 거래는 허가나 면제가 없으면 원칙적으로 금지된다. 이번 동결과 처분 제한·압수가 피해자에게 돈을 돌려주는 절차의 완료를 뜻하는 것은 아니다.",
+      "metanomia_thought": "암호자산으로 돈을 옮겼다는 이유만으로 불법 자금의 흔적까지 사라지는 것은 아닙니다. 이번 사건에서는 피해 자금이 흘러간 지갑과 사기 서비스 판매자를 연결해 추적한 결과가 압수와 처분 제한으로 이어졌습니다. 범죄자가 돈을 옮기는 과정에서 남긴 기록이 오히려 거래망을 드러내는 단서가 됐다는 점에서, 암호자산의 거래 기록은 자금세탁망을 적발하고 범죄 수익의 추가 이동을 막는 수단으로 활용됨을 알 수 있습니다.",
+      "sources": [
+        {
+          "title": "Treasury Cracks Down on Transnational Criminal Organization Behind Cyber Scam Operations Targeting Americans",
+          "url": "https://home.treasury.gov/news/press-releases/sb0624/"
+        },
+        {
+          "title": "Scam Center Strike Force Conducts Seizures of Chinese-Run Illicit Scammer Marketplace, and Restrains $52 Million in Laundered Crypto Scammer Funds In One Day",
+          "url": "https://www.justice.gov/usao-dc/pr/scam-center-strike-force-conducts-seizures-chinese-run-illicit-scammer-marketplace-and"
+        },
+        {
+          "title": "U.S. Treasury sanctions another widespread cyber-scam hub, Xinbi Guarantee",
+          "url": "https://www.coindesk.com/policy/2026/09/09/u-s-treasury-sanctions-another-widespread-cyber-scam-hub-xinbi-guarantee"
+        }
+      ]
+    },
+    {
+      "id": "crypto-news-60caaae9356ed8f2",
+      "slug": "2026-09-10-crypto-news-60caaae935",
+      "date_kst": "2026-09-10",
+      "title": "컨센시스, 메타마스크와 기관 인프라 사업 분리 추진…2026년 말 완료 예상",
+      "content": "현지시간 9월 9일 컨센시스 소프트웨어(Consensys Software)가 개인 고객용 금융 서비스와 기관용 블록체인 인프라 사업을 독립적으로 운영하는 두 회사로 분할될 예정이라고 발표했다. 기존 법인은 메타마스크(MetaMask)로 이름을 바꾸고 지갑을 비롯한 개인 고객용 금융 서비스를 맡는다. 메타마스크는 이용자가 자산을 직접 관리하는 지갑에서 결제·저축·투자를 함께 다루는 플랫폼으로 사업을 넓히고 있다. 프로토콜 개발과 기관 인프라 사업은 컨센시스라는 이름의 새 회사로 옮긴다. 새 회사는 이더리움 레이어2 리네아(Linea)와 이더리움 네트워크를 운영하는 소프트웨어인 베수(Besu)·테쿠(Teku)를 개발해 온 경험을 바탕으로 금융기관의 블록체인 도입을 지원할 계획이다. 조 루빈(Joe Lubin)은 메타마스크의 회장 겸 최고경영자와 새 컨센시스의 집행 의장(Executive Chairman)을 맡는다. 새 컨센시스의 최고경영자는 마이크 크리악(Mike Kriak), 사장은 데이비드 커닝햄(David Cunningham)이 맡는다. 회사는 개인 금융과 기관의 토큰화·스테이블코인 수요에 대응하려면 각 사업에 맞는 운영 방식과 전담 경영진, 집중적인 투자 전략이 필요하다고 설명했다. 회사 발표에 따르면 메타마스크는 약 190개국에서 누적 1억건 넘게 다운로드됐으며, 회사는 메타마스크를 세계 최대의 자기보관형 금융 플랫폼이라고 소개했다. 두 사업의 분리는 2026년 말 완료될 것으로 회사는 예상했다.",
+      "metanomia_thought": "이번 재편은 같은 이더리움 기술을 바탕으로 성장한 사업도 고객의 요구에 따라 제품 개발과 투자 우선순위를 다르게 정할 필요가 커졌다는 신호로 읽힙니다.",
+      "sources": [
+        {
+          "title": "Consensys Software Inc. to become two independent companies: MetaMask, the consumer platform, and Consensys, the protocols and institutional infrastructure company",
+          "url": "https://metamask.io/news/consensys-software-inc-to-become-two-independent-companies-metamask-and-consensys"
+        },
+        {
+          "title": "Consensys splits MetaMask from institutional and Ethereum infrastructure businesses",
+          "url": "https://www.theblock.co/news/business/2026-09-09-consensys-splits-metamask-institutional-ethereum-infrastructure-businesses-414022"
+        }
+      ]
+    },
+    {
+      "id": "crypto-news-4dca6910cdfb77e0",
+      "slug": "2026-09-10-crypto-news-4dca6910cd",
+      "date_kst": "2026-09-10",
+      "title": "US뱅크, 자체 스테이블코인으로 북미·유럽 자사 법인 간 시험 송금…동결·회수 기능도 평가",
+      "content": "현지시간 9월 9일 미국 은행 US뱅크(U.S. Bank)가 자체 달러 담보 스테이블코인 USBDC로 북미와 유럽의 자사 법인 사이에서 실제 시험 송금을 마쳤다고 발표했다. 이번 거래는 고객 대상 송금 서비스가 아니라 은행 내부 법인 간 자금 이전을 시험한 것이다. 송금에는 공개 블록체인인 스텔라(Stellar)를 사용했으며, 은행은 스텔라개발재단(Stellar Development Foundation)과의 기존 전략적 협력을 바탕으로 시험을 진행했다고 밝혔다. 은행은 USBDC를 공개 블록체인에 배치된 최초의 은행 발행 스테이블코인 중 하나로 소개했다. 또한 토큰을 블록체인에서 이전하는 과정은 은행의 기존 재무·위험관리·규제준수·운영 시스템과 연결된 상태로 진행됐다고 설명했다. 이번 시험에서는 USBDC의 발행·상환·동결·회수(clawback) 기능을 평가했으며, 자체 개발한 디지털 자산 플랫폼(Digital Asset Platform)도 함께 검증했다. 이 플랫폼은 토큰화 자산의 발행과 관리, 이동을 담당하며 기존 은행 인프라와 블록체인 네트워크를 연결한다. US뱅크는 이 기술을 통해 시간대에 구애받지 않고 24시간 자금을 이전할 가능성을 제시했다. 앞으로 검토할 활용 분야로는 유동성 관리와 담보 이전, 국경 간 기업 자금관리 등을 들었다. 이번 발표로 확인되는 것은 자사 법인 간 시험 거래를 마쳤다는 단계까지이며, 고객 대상 제공 시점과 상용화 일정은 밝히지 않았다.",
+      "metanomia_thought": "이번 시험은 블록체인 송금을 기존 재무·위험관리·규제준수 체계에 연결하면서, 토큰의 동결과 회수 기능도 함께 평가했습니다. 이는 공개 네트워크를 활용하는 것과 은행의 통제 장치를 유지하는 것이 양립할 수 있음을 보여줍니다. 이런 방식이 실제 서비스로 이어진다면 은행은 기존 업무 체계를 활용하면서 국경 간 자금 이동의 효율을 높일 수 있을 것입니다. 이때 공개 블록체인 위에서 움직이더라도 토큰을 발행하고 되돌리고 동결하는 권한은 발행 은행에 남아 있습니다.",
+      "sources": [
+        {
+          "title": "U.S. Bank Launches USBDC Stablecoin",
+          "url": "https://ir.usbank.com/news-events/news/news-details/2026/U-S--Bank-Launches-USBDC-Stablecoin/default.aspx"
+        },
+        {
+          "title": "U.S. Bank takes next step towards launching its stablecoin with cross-border payment test",
+          "url": "https://www.coindesk.com/business/2026/09/08/u-s-bank-takes-next-step-towards-launching-its-stablecoin-with-cross-border-payment-test"
+        }
+      ]
+    },
     {
       "id": "crypto-news-f03ca64f8df5c45d",
       "slug": "2026-09-09-crypto-news-f03ca64f8d",
