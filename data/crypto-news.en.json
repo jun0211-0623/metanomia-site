@@ -1,7 +1,87 @@
 {
   "schema_version": "1.0",
-  "generated_at_kst": "2026-09-10T10:42:31+09:00",
+  "generated_at_kst": "2026-09-11T10:30:11+09:00",
   "items": [
+    {
+      "slug": "2026-09-11-crypto-news-bb6b23135e",
+      "date_kst": "2026-09-11",
+      "title": "MoneyGram launches its first stablecoin-backed Visa card in Colombia, enabling payments from app balances and cash pickup at locations",
+      "content": "On September 10, local time, international money transfer company MoneyGram launched the MoneyGram Card, a stablecoin-backed Visa card, in Colombia. According to The Block, this is MoneyGram's first stablecoin-backed card. The digital card allows users to hold a balance tied to the value of the dollar in the MoneyGram app and use it for everyday payments. Eligible users in Colombia can apply for the card in the MoneyGram app and activate it after completing the required identity verification. Adding the card to Apple Wallet or Google Wallet allows them to pay by phone at Visa merchants or use it for online purchases. When they need cash, they can send the balance in the MoneyGram app to themselves and collect it in local currency at a nearby MoneyGram location. According to the fee schedule linked on the product page, the digital card has no issuance fee, monthly or annual fee, or purchase fee at launch, but a $1 monthly inactivity fee applies after three consecutive months without card activity.\nRain provides the underlying card technology, while Crossmint provides wallet functionality, and the service uses the Stellar network. According to The Block, a company spokesperson said the card supports USDC at launch and that MoneyGram plans to add support soon for MGUSD, its own dollar stablecoin introduced in June. Colombia is currently the only launch market, but MoneyGram said it plans to expand to other markets over the coming months. MoneyGram plans to add a physical card in the latter part of 2026, enabling ATM cash withdrawals and payments at stores where using a digital card is difficult. The cash pickup currently available at MoneyGram locations works by sending an app balance to oneself and collecting it in local currency.",
+      "metanomia_thought": "Users now have more options: they can hold received funds as a dollar-value balance or spend them with a card, rather than simply collecting the money in cash. Connecting Visa merchants with MoneyGram's cash pickup locations lets users spend their money without requiring the other party to use a separate stablecoin wallet. This launch shows how stablecoin use can expand through connections to existing card and cash networks, rather than through the creation of an entirely separate payment network.",
+      "sources": [
+        {
+          "title": "Introducing the MoneyGram Card: Giving Customers More Freedom to Use Their Money, Wherever Life Takes Them",
+          "url": "https://www.prnewswire.com/news-releases/introducing-the-moneygram-card-giving-customers-more-freedom-to-use-their-money-wherever-life-takes-them-302875353.html"
+        },
+        {
+          "title": "Introducing the MoneyGram Card: Giving you more freedom to use your money",
+          "url": "https://www.moneygram.com/us/en/moneygram-card"
+        },
+        {
+          "title": "MoneyGram launches first stablecoin-backed Visa card in Colombia",
+          "url": "https://www.theblock.co/news/business/2026-09-10-moneygram-card-stablecoin-visa-colombia-414137"
+        }
+      ]
+    },
+    {
+      "slug": "2026-09-11-crypto-news-5f3e739264",
+      "date_kst": "2026-09-11",
+      "title": "Coinbase and Moov to connect community banks and credit unions to stablecoin payments, integrating custody and settlement into existing financial networks",
+      "content": "On September 10, local time, Coinbase announced a partnership with payments infrastructure company Moov to enable U.S. community banks and credit unions to offer stablecoin payments, settlement, and asset custody within their existing systems. Moov provides financial institutions with infrastructure for merchant card payment processing, card issuing, and connections to real-time payment networks. Its existing financial institution customers number more than 1,000 across the United States. The partnership will integrate custodial wallet accounts and payment application programming interfaces (APIs) from the Coinbase Developer Platform (CDP) into Moov's existing payments platform. Coinbase will provide the regulated digital asset infrastructure required for asset custody and stablecoin transfers, while Moov will connect it to the payment systems that financial institutions and their customers already use. The proposed use cases include consumer stablecoin payments, merchant payment acceptance and settlement, and disbursements to businesses and merchants.\nCoinbase said local financial institutions can add these capabilities to their existing services without building a separate crypto technology stack from scratch. Moov co-founder and CEO Wade Arnold explained the background to the partnership: business customers of local financial institutions are being asked to accept stablecoin payments, but currently have to use services outside their primary financial institution to do so. Arnold identified uninterrupted real-time money movement, including on weekends and holidays, as the next step. The announcement did not specify when services would begin at individual financial institutions or identify institutions that had actually adopted them.",
+      "metanomia_thought": "The significance of this partnership lies in its attempt to give local financial institutions a way to offer stablecoin payments within existing financial relationships, without sending customers to external crypto services. Connecting Coinbase's custody and payment capabilities to Moov's payment infrastructure can lower the adoption burden for smaller financial institutions, which would otherwise have to build a separate technology stack themselves. However, even if the customer relationship remains with the local financial institution, the storage and movement of funds rely on Coinbase's custodial accounts and APIs. The institution a user deals with and the underlying infrastructure that actually handles the assets are therefore distinct.",
+      "sources": [
+        {
+          "title": "Coinbase brings stablecoin payments and custody to community banks and credit unions, in partnership with Moov",
+          "url": "https://www.coinbase.com/blog/coinbase-brings-stablecoin-payments-and-custody-to-community-banks-and-credit-unions"
+        },
+        {
+          "title": "Coinbase, Moov to bring stablecoin payment infrastructure to community banks and credit unions",
+          "url": "https://www.theblock.co/news/business/2026-09-10-coinbase-moov-bring-stablecoin-payment-infrastructure-community-banks-credit-unions-414153"
+        },
+        {
+          "title": "Stablecoin Payments at scale",
+          "url": "https://www.coinbase.com/payments?country=US&currency=USD&japan_bespoke_content=false&logged_in=false&mobile=false&null="
+        }
+      ]
+    },
+    {
+      "slug": "2026-09-11-crypto-news-3b25649123",
+      "date_kst": "2026-09-11",
+      "title": "ESMA highlights EU authorization gaps and investor risks in prediction markets, distinguishing financial, crypto-asset, and gambling rules by contract characteristics",
+      "content": "On September 10, local time, the European Securities and Markets Authority (ESMA) highlighted gaps in European Union (EU) authorization and investor protection issues in prediction markets in its second risk monitoring report of 2026. Prediction markets allow people to buy and sell contracts whose payouts depend on the outcomes of future events, such as elections. Discussing major platforms outside the EU, including Polymarket and Kalshi, the report explained that marketing or selling event contracts in the EU generally requires EU authorization. It described Kalshi as regulated by the U.S. Commodity Futures Trading Commission (CFTC) as a designated contract market, while characterizing Polymarket as a partially decentralized platform that combines on-chain trading and settlement with centralized market operations. The report noted that the largest prediction market platforms, including these two, currently lack EU authorization. Although Polymarket and Kalshi block orders from users in some EU countries, they do not restrict users in every member state. The report also assessed the effectiveness of geographic restrictions as uncertain, given that access can be circumvented using a virtual private network (VPN).\nThe report considered the applicable rules to depend on the underlying subject and structure of an event contract. The Markets in Financial Instruments Directive (MiFID II) may apply if the contract qualifies as a financial instrument, the Markets in Crypto-Assets Regulation (MiCA) may apply if it is a crypto-asset based on distributed ledger technology but not a financial instrument, and national gambling rules may apply if it has the characteristics of gambling. The report explained that event contracts qualifying as financial instruments are generally classified as derivatives and fall under national product intervention measures concerning binary options, under which marketing, distribution, and sale to retail investors are prohibited. In addition to insider trading and market manipulation, ESMA identified risks arising from ambiguous definitions and determinations of event outcomes, errors or manipulation in external data, opaque platform resolution procedures, and delayed or failed payouts and settlement. The report acknowledged that prediction market prices may have informational and analytical value by showing real-time updates to expectations about future events. However, it assessed platforms without EU authorization as offering retail investors a speculative gambling environment without the safeguards available for regulated financial products. It concluded that continued monitoring is necessary in light of market developments and emerging risks, even though prediction markets remain limited in size within the EU. It did not announce new regulatory measures.",
+      "metanomia_thought": "Even services that allow bets on the same event may require different authorizations depending on how their contracts are designed and to whom they are sold. The fact that trading takes place on a blockchain does not remove financial instrument regulation or place every contract under crypto-asset rules. This report shows that prediction markets' ability to aggregate information and the presence of safeguards to protect users are separate questions.",
+      "sources": [
+        {
+          "title": "TRV Risk Monitor — ESMA Report on Trends, Risks and Vulnerabilities, No. 2, 2026",
+          "url": "https://www.esma.europa.eu/sites/default/files/2026-09/ESMA50-1949966494-4282_TRV_Risk_Monitor_2_2026.pdf"
+        },
+        {
+          "title": "Ongoing geopolitical and economic vulnerabilities masked by strong investor optimism",
+          "url": "https://www.esma.europa.eu/press-news/esma-news/ongoing-geopolitical-and-economic-vulnerabilities-masked-strong-investor"
+        }
+      ]
+    },
+    {
+      "slug": "2026-09-11-crypto-news-2b1a1a7d75",
+      "date_kst": "2026-09-11",
+      "title": "Uniswap Labs launches StablePair Hook, adjusting fees according to deviations from a reference price",
+      "content": "On September 10, local time, Uniswap Labs announced the launch of StablePair Hook, which automatically adjusts fees when swapping assets expected to trade at the same price, such as USDC and USDT. A hook adds specific functionality to a trading pool. Uniswap Labs said it had put the hook into operation in two pools on Ethereum mainnet: USDC/USDG and USDC/USDT. In pools of this kind, an imbalance in trading pushes the price away from a predetermined one-to-one reference, and arbitrage bots profit by trading in the opposite direction to bring the price back. With a fixed fee, the pool receives only the specified fee while bots capture most of the gains from the price difference. Uniswap Labs explained that the aim is to return a larger share of those gains to the liquidity providers who deposit assets in the pool.\nTo achieve this, when the pool price is within a configured range around the reference price, the hook adjusts fees so that the quoted bid and ask prices each remain constant, much like the prices quoted before a transaction at a currency exchange. When the pool price moves outside that range, trades that bring it back toward the reference price initially incur a high fee, which decreases gradually with each block. This resembles a Dutch auction in which the fee starts high and falls until a trader accepts it. An arbitrageur who waits for a lower fee risks losing the opportunity to another trader, making a trade more likely to occur before the fee reaches its floor. The fee at the time of execution remains in the pool. Conversely, a trade that moves the price farther from the reference does not extract a gain from the pool's mispricing; it trades at a price more favorable to the pool than the outside market price. The fee paid to liquidity providers is therefore zero. However, having no fee does not mean having no cost: the larger the trade, the more the trade itself moves the pool price and worsens the average execution price. The fee rate is determined solely by the pool price at the start of the block and the direction of the trade, regardless of trade size.\nAccording to the technical documentation, only Uniswap Labs can currently create new trading pools using this hook. Users seeking to add a new asset pair cannot create a pool themselves and must request support from Labs. Uniswap governance has the authority to change who can create pools. Labs sets the initial fee parameters when creating a new pool, while governance is responsible for changes to fee settings during operation and for hook upgrades. Uniswap Labs explained that existing liquidity providers would not need to move their assets to a new pool even if governance changed the fee settings or the hook's logic.",
+      "metanomia_thought": "StablePair Hook is an attempt to change how the gains from correcting price differences are shared between arbitrageurs and liquidity providers. Incorporating the gains from price-correcting trades into fees may leave liquidity providers with a larger share, but the size of that share depends on the parameters specifying how quickly and how far fees decline. Fees are calculated automatically, yet governance controls changes to the rules during operation, and the creation of new pools is restricted to Labs. Automated trading therefore does not in itself imply open access to operational authority.",
+      "sources": [
+        {
+          "title": "StablePair Hook: A Fee That Moves with the Market",
+          "url": "https://blog.uniswap.org/stablepair-hook-a-fee-that-moves-with-the-market"
+        },
+        {
+          "title": "StablePair Overview",
+          "url": "https://developers.uniswap.org/docs/protocols/uniswap-labs-hooks/stable-pair/overview"
+        },
+        {
+          "title": "StablePair Security",
+          "url": "https://developers.uniswap.org/docs/protocols/uniswap-labs-hooks/stable-pair/security"
+        }
+      ]
+    },
     {
       "slug": "2026-09-10-crypto-news-dd57c43df7",
       "date_kst": "2026-09-10",
