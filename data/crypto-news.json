@@ -1,7 +1,91 @@
 {
   "schema_version": "1.0",
-  "generated_at_kst": "2026-09-10T10:42:31+09:00",
+  "generated_at_kst": "2026-09-11T10:30:11+09:00",
   "items": [
+    {
+      "id": "crypto-news-bb6b23135eb2e671",
+      "slug": "2026-09-11-crypto-news-bb6b23135e",
+      "date_kst": "2026-09-11",
+      "title": "머니그램, 콜롬비아에 자사 첫 스테이블코인 기반 비자 카드 출시…앱 잔액으로 결제하고 지점에서 현금 수령",
+      "content": "현지시간 9월 10일 해외송금 회사 머니그램(MoneyGram)이 스테이블코인 기반 비자(Visa) 카드인 머니그램 카드(MoneyGram Card)를 콜롬비아에 출시했다. 더 블록(The Block)에 따르면 이는 머니그램의 첫 스테이블코인 기반 카드로, 머니그램 앱 안에서 달러 가치에 연동된 잔액을 보유하고 일상 결제에 사용할 수 있는 디지털 카드다. 콜롬비아에서 자격을 갖춘 이용자는 머니그램 앱에서 카드를 신청하고 필요한 본인확인을 마친 뒤 활성화할 수 있다. 카드를 애플 월렛(Apple Wallet)이나 구글 월렛(Google Wallet)에 추가하면 비자 가맹점에서 휴대전화로 결제하거나 온라인 구매에 사용할 수 있다. 현금이 필요하면 머니그램 앱의 잔액을 자신에게 송금한 뒤 가까운 머니그램 지점에서 현지 통화로 받을 수 있다. 상품 페이지에 연결된 수수료표에 따르면 출시 시점의 디지털 카드는 발급비와 월·연회비, 구매 수수료가 없지만 3개월 연속 카드 활동이 없으면 월 1달러의 미사용 수수료가 붙는다. \n카드 기반 기술은 레인(Rain), 지갑 기능은 크로스민트(Crossmint)가 제공하며 스텔라(Stellar) 네트워크를 이용한다. 더 블록에 따르면 회사 대변인은 출시 시점에는 USDC를 지원하고, 지난 6월 내놓은 자체 달러 스테이블코인 MGUSD도 가까운 시일 내 지원할 계획이라고 설명했다. 현재 출시 지역은 콜롬비아뿐이지만 머니그램은 앞으로 수개월에 걸쳐 다른 시장으로 확대할 계획이라고 밝혔다. 머니그램은 2026년 후반 실물 카드를 추가해 ATM에서 현금을 인출하고 디지털 카드를 이용하기 어려운 매장에서도 결제할 수 있게 할 예정이다. 현재 제공되는 지점 현금 수령은 앱 잔액을 자신에게 송금해 현지 통화로 찾는 방식이다.",
+      "metanomia_thought": "송금받은 돈을 현금으로 찾는 데 그치지 않고 달러 가치의 잔액으로 보유하거나 카드로 쓸 수 있어 이용자의 선택지가 넓어졌습니다. 비자 가맹점과 머니그램의 현금 수령 지점을 함께 연결하면 이용자는 상대방에게 별도의 스테이블코인 지갑 사용을 요구하지 않고 돈을 쓸 수 있습니다. 이번 출시는 스테이블코인의 이용 범위가 별도의 결제망을 새로 만드는 방식보다 기존 카드망과 현금망에 연결되는 방식으로 넓어질 수 있음을 보여줍니다.",
+      "sources": [
+        {
+          "title": "Introducing the MoneyGram Card: Giving Customers More Freedom to Use Their Money, Wherever Life Takes Them",
+          "url": "https://www.prnewswire.com/news-releases/introducing-the-moneygram-card-giving-customers-more-freedom-to-use-their-money-wherever-life-takes-them-302875353.html"
+        },
+        {
+          "title": "Introducing the MoneyGram Card: Giving you more freedom to use your money",
+          "url": "https://www.moneygram.com/us/en/moneygram-card"
+        },
+        {
+          "title": "MoneyGram launches first stablecoin-backed Visa card in Colombia",
+          "url": "https://www.theblock.co/news/business/2026-09-10-moneygram-card-stablecoin-visa-colombia-414137"
+        }
+      ]
+    },
+    {
+      "id": "crypto-news-5f3e739264a40487",
+      "slug": "2026-09-11-crypto-news-5f3e739264",
+      "date_kst": "2026-09-11",
+      "title": "코인베이스·무브, 지역은행·신용조합에 스테이블코인 결제 연결…기존 금융망에 수탁·정산 기능 통합",
+      "content": "현지시간 9월 10일 코인베이스(Coinbase)가 결제 인프라 회사 무브(Moov)와 협력해 미국 지역은행과 신용조합이 기존 시스템 안에서 스테이블코인 결제·정산과 자산 수탁 기능을 제공할 수 있도록 하겠다고 발표했다. 무브는 금융기관에 가맹점 카드 결제 처리와 카드 발급, 실시간 지급망 연결을 지원하는 결제 인프라 회사로, 미국 전역의 기존 고객 금융기관은 1천곳이 넘는다. 이번 협력은 코인베이스 개발자 플랫폼(CDP)의 수탁형 지갑 계정과 결제용 응용프로그램인터페이스(API)를 무브의 기존 결제 플랫폼에 통합하는 방식이다. 코인베이스는 자산 수탁과 스테이블코인 이동에 필요한 규제 대상 디지털자산 인프라를 제공하고, 무브는 이를 금융기관과 고객이 이미 이용하는 결제 시스템에 연결한다. 지원 대상으로는 소비자의 스테이블코인 결제, 가맹점의 결제 수납과 정산, 기업과 가맹점에 대한 자금 지급 등이 제시됐다. \n코인베이스는 지역 금융기관이 별도의 암호자산 기술 체계를 처음부터 구축하지 않고도 이러한 기능을 기존 서비스에 추가할 수 있다고 설명했다. 웨이드 아널드(Wade Arnold) 무브 공동창업자 겸 최고경영자는 지역 금융기관의 기업 고객이 스테이블코인 결제를 받아 달라는 요구를 받고 있지만, 현재는 이를 위해 주거래 금융기관 밖의 서비스를 이용해야 하는 상황을 이번 협력의 배경으로 들었다. 아널드는 다음 단계로 주말과 공휴일에도 중단되지 않는 실시간 자금 이동을 제시했다. 발표문은 개별 금융기관에서 서비스가 시작되는 시점이나 실제 도입 기관의 명단은 밝히지 않았다.",
+      "metanomia_thought": "이번 협력은 지역 금융기관이 고객을 외부 암호자산 서비스로 보내지 않고 기존 금융 관계 안에서 스테이블코인 결제를 제공할 통로를 마련하려는 데 의미가 있습니다. 별도 기술 체계를 직접 구축하는 대신 무브의 결제 인프라에 코인베이스의 수탁·결제 기능을 연결하면 소규모 금융기관도 도입 부담을 낮출 수 있습니다. 다만 고객 접점은 지역 금융기관에 남더라도 자금 보관과 이동은 코인베이스의 수탁 계정과 API에 의존하므로, 이용자가 상대하는 금융기관과 자산을 실제 처리하는 기반은 서로 다릅니다.",
+      "sources": [
+        {
+          "title": "Coinbase brings stablecoin payments and custody to community banks and credit unions, in partnership with Moov",
+          "url": "https://www.coinbase.com/blog/coinbase-brings-stablecoin-payments-and-custody-to-community-banks-and-credit-unions"
+        },
+        {
+          "title": "Coinbase, Moov to bring stablecoin payment infrastructure to community banks and credit unions",
+          "url": "https://www.theblock.co/news/business/2026-09-10-coinbase-moov-bring-stablecoin-payment-infrastructure-community-banks-credit-unions-414153"
+        },
+        {
+          "title": "Stablecoin Payments at scale",
+          "url": "https://www.coinbase.com/payments?country=US&currency=USD&japan_bespoke_content=false&logged_in=false&mobile=false&null="
+        }
+      ]
+    },
+    {
+      "id": "crypto-news-3b2564912308f5fc",
+      "slug": "2026-09-11-crypto-news-3b25649123",
+      "date_kst": "2026-09-11",
+      "title": "ESMA, 예측시장 EU 인가 공백·투자자 위험 지적…계약 성격에 따라 금융·암호자산·도박 규제 구분",
+      "content": "현지시간 9월 10일 유럽증권시장감독청(ESMA)이 2026년 제2차 위험 모니터링 보고서에서 예측시장의 유럽연합(EU) 인가 공백과 투자자 보호 문제를 지적했다. 예측시장은 선거 등 미래 사건의 결과에 따라 지급액이 달라지는 계약을 사고파는 시장이다. 보고서는 폴리마켓(Polymarket)과 칼시(Kalshi)를 비롯해 EU 밖에 있는 주요 플랫폼을 다루며, EU에서 사건 계약을 마케팅하거나 판매하려면 일반적으로 EU 인가가 필요하다고 설명했다. 칼시는 미국 상품선물거래위원회(CFTC)의 지정계약시장으로 규제받지만, 폴리마켓은 온체인 거래·정산에 중앙화된 시장 운영을 결합한 부분 탈중앙화 플랫폼이라고 소개했다. 보고서는 이들을 포함한 가장 큰 예측시장 플랫폼들이 현재 EU 인가를 갖고 있지 않다고 지적했다. 폴리마켓과 칼시는 일부 EU 국가 이용자의 주문을 막고 있지만 모든 회원국을 제한하는 것은 아니며, 가상사설망(VPN)을 이용한 우회 접근도 가능해 지역 제한의 실효성이 불확실하다고 보고서는 평가했다. \n보고서는 어떤 규제가 적용되는지가 사건 계약의 기초 대상과 구조에 따라 달라진다고 봤다. 금융상품에 해당하면 금융상품시장지침(MiFID II), 분산원장기술에 기반하지만 금융상품은 아닌 암호자산이면 유럽연합 암호자산시장규정(MiCA), 도박 성격이면 국가별 도박 규정이 적용될 수 있다는 것이다. 금융상품에 해당하는 사건 계약은 대체로 파생상품으로 분류돼 바이너리옵션에 관한 각국의 상품개입 조치 대상이 되며, 이에 따라 소매 투자자를 대상으로 한 마케팅·유통·판매가 금지된다고 보고서는 설명했다. ESMA는 내부자거래와 시세조종뿐 아니라 사건 결과의 모호한 정의·판정, 외부 데이터의 오류나 조작, 플랫폼의 불투명한 판정 절차, 지급·정산의 지연이나 실패 위험도 제시했다. 보고서는 예측시장 가격이 미래 사건에 대한 기대를 실시간으로 갱신해 보여 주는 정보·분석 가치가 있을 수 있다고 봤지만, EU 인가가 없는 플랫폼은 소매 투자자에게 규제 금융상품의 보호 장치가 없는 투기적 도박 환경을 제공한다고 평가했다. EU 내 예측시장 규모는 아직 제한적이지만 시장 변화와 새로운 위험을 고려해 지속적인 감시가 필요하다고 결론지었으며, 새로운 규제 조치를 발표한 것은 아니다.",
+      "metanomia_thought": "같은 사건에 베팅하는 서비스라도 계약을 어떻게 설계하고 누구에게 판매하는지에 따라 필요한 인가가 달라집니다. 블록체인에서 거래가 이뤄진다는 이유만으로 금융상품 규제가 사라지거나 모든 계약이 암호자산 규제로 정리되는 것은 아닙니다. 예측시장이 정보를 모으는 기능과 이용자를 보호할 장치를 갖췄는지는 별개의 문제라는 점을 이번 보고서가 드러냅니다.",
+      "sources": [
+        {
+          "title": "TRV Risk Monitor — ESMA Report on Trends, Risks and Vulnerabilities, No. 2, 2026",
+          "url": "https://www.esma.europa.eu/sites/default/files/2026-09/ESMA50-1949966494-4282_TRV_Risk_Monitor_2_2026.pdf"
+        },
+        {
+          "title": "Ongoing geopolitical and economic vulnerabilities masked by strong investor optimism",
+          "url": "https://www.esma.europa.eu/press-news/esma-news/ongoing-geopolitical-and-economic-vulnerabilities-masked-strong-investor"
+        }
+      ]
+    },
+    {
+      "id": "crypto-news-2b1a1a7d75054161",
+      "slug": "2026-09-11-crypto-news-2b1a1a7d75",
+      "date_kst": "2026-09-11",
+      "title": "유니스왑 랩스, 기준가격 이탈 정도로 수수료 바꾸는 스테이블페어 훅 출시",
+      "content": "현지시간 9월 10일 유니스왑 랩스(Uniswap Labs)가 USDC와 USDT처럼 같은 가격으로 거래될 것으로 기대되는 자산끼리 교환할 때 수수료를 자동으로 조정하는 스테이블페어 훅(StablePair Hook)을 출시했다고 밝혔다. 훅은 거래 풀에 별도 기능을 덧붙이는 장치로, 유니스왑 랩스는 이더리움 메인넷의 USDC·USDG와 USDC·USDT 두 풀에 적용해 가동을 시작했다고 밝혔다. 이런 풀에서는 거래가 한쪽으로 몰리면 가격이 미리 정해 둔 1대1 기준에서 벗어나고, 차익거래 봇이 반대 거래를 해 가격을 되돌리면서 이익을 얻는다. 수수료가 고정돼 있으면 풀에는 정해진 수수료만 남고 가격 차이에서 생긴 이익 대부분은 봇이 가져가는데, 유니스왑 랩스는 그중 더 많은 몫을 풀에 자산을 맡긴 유동성 공급자에게 돌리는 것이 목적이라고 설명했다. \n이를 위해 훅은 풀 가격이 기준가격 주변의 설정 범위 안에 있을 때 환전소처럼 거래 전 제시되는 매수 가격과 매도 가격이 각각 일정하게 유지되도록 수수료를 조정한다. 풀 가격이 설정 범위를 벗어나면 기준가격 쪽으로 되돌리는 거래에 처음에는 높은 수수료를 붙이고 블록이 지날 때마다 조금씩 내린다. 이는 수수료를 높게 시작해 점차 낮추면서 먼저 응한 거래자에게 기회를 주는 네덜란드식 경매와 비슷하다. 차익거래자는 더 낮은 수수료를 기다리다가 다른 거래자에게 기회를 빼앗길 수 있어 수수료가 바닥까지 내려가기 전에 거래가 성사되기 쉽고, 성사된 시점의 수수료가 풀에 남는다. 반대로 가격을 기준에서 더 멀어지게 하는 거래는 풀이 어긋난 틈에서 이익을 빼가는 것이 아니라 바깥 시장보다 풀에 유리한 가격으로 거래하는 것이므로, 유동성 공급자에게 내는 수수료가 0이다. 다만 이는 수수료가 없다는 뜻이지 비용이 없다는 뜻은 아니어서, 큰 거래일수록 거래 자체가 풀 가격을 밀어 평균 체결가격이 나빠진다. 수수료율은 거래 규모와 무관하게 블록 시작 시점의 풀 가격과 거래 방향만으로 정해진다.\n기술 문서에 따르면 현재 이 훅을 쓰는 새 거래 풀은 유니스왑 랩스만 만들 수 있다. 새로운 자산 쌍을 추가하려는 이용자는 풀을 직접 만들 수 없고 랩스에 지원을 요청해야 하며, 풀 생성 권한자를 바꾸는 것은 유니스왑 거버넌스의 권한이다. 랩스는 새 풀을 만들 때 최초 수수료 조건을 정하고, 거버넌스는 운영 중인 수수료 설정 변경과 훅 업그레이드를 맡는다. 유니스왑 랩스는 거버넌스가 수수료 설정이나 훅의 로직을 바꾸더라도 기존 유동성 공급자가 자산을 새 풀로 옮길 필요는 없다고 설명했다.",
+      "metanomia_thought": "스테이블페어 훅은 가격 차이를 되돌리는 과정에서 생기는 이익을 차익거래자와 유동성 공급자 사이에 어떻게 배분할지 바꾸려는 시도입니다. 가격을 되돌리는 거래의 이익을 수수료에 반영하면 유동성 공급자에게 더 많은 몫이 남을 수 있지만, 그 몫의 크기는 수수료가 얼마나 빨리 어디까지 내려가는지를 정한 설정값에 달려 있습니다.수수료는 자동으로 계산되지만 운영 중인 규칙의 변경은 거버넌스가 맡고 새 풀 개설은 랩스에 제한돼 있어 거래의 자동화가 운영 권한의 개방까지 뜻하지는 않습니다.",
+      "sources": [
+        {
+          "title": "StablePair Hook: A Fee That Moves with the Market",
+          "url": "https://blog.uniswap.org/stablepair-hook-a-fee-that-moves-with-the-market"
+        },
+        {
+          "title": "StablePair Overview",
+          "url": "https://developers.uniswap.org/docs/protocols/uniswap-labs-hooks/stable-pair/overview"
+        },
+        {
+          "title": "StablePair Security",
+          "url": "https://developers.uniswap.org/docs/protocols/uniswap-labs-hooks/stable-pair/security"
+        }
+      ]
+    },
     {
       "id": "crypto-news-dd57c43df723be7f",
       "slug": "2026-09-10-crypto-news-dd57c43df7",
