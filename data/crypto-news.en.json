@@ -1,7 +1,32 @@
 {
   "schema_version": "1.0",
-  "generated_at_kst": "2026-09-11T10:30:11+09:00",
+  "generated_at_kst": "2026-09-14T08:44:42+09:00",
   "items": [
+    {
+      "slug": "2026-09-14-crypto-news-61bf95484a",
+      "date_kst": "2026-09-14",
+      "title": "Blockstream Demands Return of Remaining Approximately 598.5 BTC from Liquid Attacker, Rejects '10% Bounty' Payment",
+      "content": "On September 11 Coordinated Universal Time (UTC), Blockstream said it would not pay compensation to recover approximately 598.5 BTC that the Liquid Network attacker had not returned. The announcement followed a September 6 incident in which actual bitcoin was withdrawn after approximately 3,998.5 unbacked L-BTC had been created on Liquid.\nL-BTC is an asset designed to correspond one-to-one with bitcoin held by the Liquid federation. Security firm CertiK analyzed that an error in Liquid's validation software caused the inspection result for a valid transaction to be incorrectly applied to other transactions. The attacker exploited this flaw to create L-BTC without depositing actual bitcoin and then received approximately 4,000 BTC through SideSwap, a federation member that exchanges L-BTC for bitcoin. According to the federation's incident report, the reserve of approximately 4,205 BTC fell to 197 BTC when this withdrawal was combined with other withdrawals processed before operations were suspended. The federation said no private keys were exposed in the process. SideSwap acknowledged in its own statement that it kept the keys used to approve withdrawals on an internet-connected server, automatically delivered bitcoin provided by the federation to users, and imposed no limits on the amount or frequency of withdrawals.\nThe attacker returned 3,400 BTC to a federation wallet on September 7 but kept approximately 598.5 BTC. In a message included in a Bitcoin transaction on September 9, the attacker demanded that Blockstream pay a 10% bug bounty from its own funds and wrote that refusal would cause L-BTC holders to suffer a 15% loss. Blockstream characterized taking assets without authorization and delaying their return as theft, and said Bitcoin does not impose a haircut on user assets to pay compensation. It also said that if the remaining bitcoin is not returned, it plans to trace the flow of funds with law enforcement agencies, exchanges, service providers, and forensic experts.\nLiquid released Elements v23.3.4, which fixed the error, on September 9 and then resumed block production and normal transactions in sequence on September 10. However, the peg-out function that converts L-BTC into bitcoin remains suspended until the reserve has been restored.",
+      "metanomia_thought": "Adding a separate payment and settlement layer on top of Bitcoin can expand speed and functionality, but users must also trust that the layer properly validates assets and releases bitcoin securely. In this incident, actual bitcoin was withdrawn even though no private keys were exposed because an error that accepted unbacked L-BTC as a valid asset coincided with an operating model that imposed no limits on withdrawal size or frequency. Fixing the code error and resuming transactions does not by itself restore redemption capacity. Users will be able to redeem L-BTC for bitcoin only after the reserve is restored and peg-outs resume.",
+      "sources": [
+        {
+          "title": "Blockstream statement on the remaining Liquid funds",
+          "url": "https://x.com/Blockstream/status/2098281867908690394"
+        },
+        {
+          "title": "LIQUID NETWORK UPDATE: INCIDENT REPORT",
+          "url": "https://x.com/Liquid_BTC/status/2097404704028545175"
+        },
+        {
+          "title": "Liquid Network Incident Analysis",
+          "url": "https://www.certik.com/blog/liquid-network-incident-analysis"
+        },
+        {
+          "title": "Blockstream Rejects Ransom Demand After Liquid Bitcoin Exploit",
+          "url": "https://thedefiant.io/news/security/blockstream-rejects-ransom-demand-after-liquid-bitcoin-exploit"
+        }
+      ]
+    },
     {
       "slug": "2026-09-11-crypto-news-bb6b23135e",
       "date_kst": "2026-09-11",
