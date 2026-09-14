@@ -1,7 +1,33 @@
 {
   "schema_version": "1.0",
-  "generated_at_kst": "2026-09-11T10:30:11+09:00",
+  "generated_at_kst": "2026-09-14T08:44:42+09:00",
   "items": [
+    {
+      "id": "crypto-news-61bf95484aeaf236",
+      "slug": "2026-09-14-crypto-news-61bf95484a",
+      "date_kst": "2026-09-14",
+      "title": "블록스트림, 리퀴드 공격자에 잔여 약 598.5 BTC 반환 요구…‘10% 보상금’ 지급 거부",
+      "content": "협정세계시(UTC) 9월 11일 블록스트림(Blockstream)이 리퀴드 네트워크(Liquid Network) 공격자가 돌려주지 않은 약 598.5 BTC를 되찾기 위해 대가를 지급하지 않겠다고 밝혔다. 이번 발표는 9월 6일 리퀴드에서 담보 없는 L-BTC 약 3,998.5개가 만들어진 뒤 실제 비트코인이 빠져나간 사고의 후속이다. \nL-BTC는 리퀴드 연합이 보관하는 비트코인과 1대1로 대응하도록 설계된 자산이다. 보안업체 서틱(CertiK)은 리퀴드의 검증 소프트웨어에서 정상 거래의 검사 결과를 다른 거래에도 잘못 적용하는 오류가 있었다고 분석했다. 공격자는 이 허점을 이용해 실제 비트코인을 맡기지 않고도 L-BTC를 만든 뒤, 이를 비트코인으로 바꿔 주는 연합 회원사 사이드스왑(SideSwap)을 통해 약 4,000 BTC를 받아 갔다. 연합의 사고 보고에 따르면 이 인출과 운영 중단 전 처리된 다른 인출까지 합쳐 약 4,205 BTC였던 준비금은 197 BTC로 줄었다. 연합은 이 과정에서 개인키가 유출된 것은 아니었다고 밝혔다. 사이드스왑은 출금을 승인하는 키를 인터넷에 연결된 서버에 두고 연합이 지급한 비트코인을 이용자에게 자동으로 전달했으며, 한 번에 인출할 수 있는 금액이나 인출 빈도에는 제한을 두지 않았다고 자체 성명에서 인정했다. \n공격자는 9월 7일 3,400 BTC를 연합 지갑으로 돌려보냈지만 약 598.5 BTC는 남겼고, 9월 9일 비트코인 거래에 남긴 메시지로 블록스트림이 자기 자금으로 10%를 버그 보상금으로 지급하라고 요구하며, 거부하면 L-BTC 보유자들이 15% 손실을 입게 될 것이라고 적었다. 블록스트림은 허가 없이 자산을 가져가 반환을 미루는 행위를 절도로 규정하고, 비트코인은 대가를 치르기 위해 이용자 자산을 깎지 않는다고 밝혔다. 남은 비트코인이 돌아오지 않으면 수사기관과 거래소, 서비스 제공업체, 포렌식 전문가와 함께 자금 흐름을 추적하겠다는 방침도 내놓았다. \n리퀴드는 오류를 고친 소프트웨어 엘리먼츠(Elements) v23.3.4를 9월 9일 배포한 뒤 9월 10일 블록 생성과 일반 거래를 차례로 재개했다. 다만 L-BTC를 비트코인으로 바꾸는 페그아웃 기능은 준비금 복원이 끝날 때까지 중단된 상태다.",
+      "metanomia_thought": "비트코인 위에 별도의 결제·정산 계층을 얹으면 속도와 기능을 넓힐 수 있지만, 그 계층이 자산을 제대로 검증하고 비트코인을 안전하게 내주는지도 신뢰해야 합니다. 이번에는 개인키가 유출되지 않았는데도 담보 없는 L-BTC를 정상 자산으로 받아들인 오류와 출금 규모·빈도를 제한하지 않은 운영 방식이 겹치면서 실제 비트코인이 빠져나갔습니다. 코드 오류를 고쳐 거래를 재개하는 것만으로 상환 능력까지 회복되는 것은 아니며, 준비금 복원과 페그아웃 재개가 이뤄져야 이용자도 L-BTC를 비트코인으로 돌려받을 수 있습니다.",
+      "sources": [
+        {
+          "title": "Blockstream statement on the remaining Liquid funds",
+          "url": "https://x.com/Blockstream/status/2098281867908690394"
+        },
+        {
+          "title": "LIQUID NETWORK UPDATE: INCIDENT REPORT",
+          "url": "https://x.com/Liquid_BTC/status/2097404704028545175"
+        },
+        {
+          "title": "Liquid Network Incident Analysis",
+          "url": "https://www.certik.com/blog/liquid-network-incident-analysis"
+        },
+        {
+          "title": "Blockstream Rejects Ransom Demand After Liquid Bitcoin Exploit",
+          "url": "https://thedefiant.io/news/security/blockstream-rejects-ransom-demand-after-liquid-bitcoin-exploit"
+        }
+      ]
+    },
     {
       "id": "crypto-news-bb6b23135eb2e671",
       "slug": "2026-09-11-crypto-news-bb6b23135e",
