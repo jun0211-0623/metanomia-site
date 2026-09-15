@@ -7,5 +7,15 @@
     "crypto-issues": { "playlistId": "", "type": "Issue Discussion", "name": "Crypto Issues" },
     "reading-crypto": { "playlistId": "", "type": "Book Talk", "name": "Reading Crypto" }
   },
-  "items": []
+  "items": [
+    {
+      "program": "crypto-tutoring",
+      "type": "Crypto Tutoring",
+      "title": "(Chilling) A Must-Watch for Bitcoin Investors",
+      "url": "https://www.youtube.com/watch?v=KYK9EYB6xk0",
+      "thumbnail": "https://i.ytimg.com/vi/KYK9EYB6xk0/maxresdefault.jpg",
+      "date": "2026-09-14",
+      "published": "2026-09-14T02:45:20+00:00"
+    }
+  ]
 }

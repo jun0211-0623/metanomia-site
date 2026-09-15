@@ -7,5 +7,15 @@
     "crypto-issues": { "playlistId": "", "type": "주제 토론", "name": "크립토 쟁점" },
     "reading-crypto": { "playlistId": "", "type": "북토크", "name": "책으로 읽는 크립토" }
   },
-  "items": []
+  "items": [
+    {
+      "program": "crypto-tutoring",
+      "type": "크립토 과외",
+      "title": "(소름주의) 비트코인 투자하시는 분들 무조건 보세요",
+      "url": "https://www.youtube.com/watch?v=KYK9EYB6xk0",
+      "thumbnail": "https://i.ytimg.com/vi/KYK9EYB6xk0/maxresdefault.jpg",
+      "date": "2026-09-14",
+      "published": "2026-09-14T02:45:20+00:00"
+    }
+  ]
 }

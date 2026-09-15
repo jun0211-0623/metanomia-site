@@ -84,7 +84,8 @@
         var lang = source.indexOf('.ko.json') !== -1 ? 'ko' : 'en';
         return fetch('/api/youtube-feed?lang=' + lang + '&program=' + encodeURIComponent(program), { cache: 'no-store' })
           .then(function (response) { if (!response.ok) throw new Error('youtube feed'); return response.json(); })
-          .then(function (remotePayload) { render(root, remotePayload); });
+          .then(function (remotePayload) { render(root, remotePayload); })
+          .catch(function () { render(root, payload); });
       })
       .catch(function () {
         var empty = root.querySelector('[data-media-empty]');
@@ -103,7 +104,8 @@
         var lang = source.indexOf('.ko.json') !== -1 ? 'ko' : 'en';
         return fetch('/api/youtube-feed?lang=' + lang + '&program=all', { cache: 'no-store' })
           .then(function (response) { if (!response.ok) throw new Error('youtube feed'); return response.json(); })
-          .then(function (remotePayload) { renderLatest(root, remotePayload); });
+          .then(function (remotePayload) { renderLatest(root, remotePayload); })
+          .catch(function () { renderLatest(root, payload); });
       })
       .catch(function () {
         var empty = root.querySelector('[data-media-latest-empty]');
