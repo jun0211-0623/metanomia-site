@@ -1,7 +1,83 @@
 {
   "schema_version": "1.0",
-  "generated_at_kst": "2026-09-14T08:44:42+09:00",
+  "generated_at_kst": "2026-09-15T10:51:00+09:00",
   "items": [
+    {
+      "id": "crypto-news-ff867ba9cd8aa951",
+      "slug": "2026-09-15-crypto-news-ff867ba9cd",
+      "date_kst": "2026-09-15",
+      "title": "미 17개 주·워싱턴DC 법무장관, CLARITY 법안 반대…주정부 사기 단속·등록 권한 보존 요구",
+      "content": "현지시간 9월 14일 미국 뉴욕주 법무장관 레티샤 제임스(Letitia James)가 주정부의 암호자산 사기 단속 권한을 보존하라며 디지털자산시장명확성법안(CLARITY Act)에 반대하는 공동서한을 공개했다. 서한에는 뉴욕주를 포함한 17개 주와 워싱턴DC의 법무장관 총 18명이 참여했다. 이들은 상원 은행위원회의 팀 스콧(Tim Scott) 위원장과 엘리자베스 워런(Elizabeth Warren) 민주당 간사에게 주정부 권한이 충분히 보존될 때까지 현 법안에 반대해 달라고 요청했다. 서명자들은 주정부의 증권업 인허가·등록 제도가 검사와 조사, 사기 단속을 뒷받침하는 투자자 보호 수단이라고 강조했다. 법안이 일부 사기 단속 권한을 남겨 두기는 하지만, 모호하거나 제한적인 문구가 권한 다툼과 소송 지연으로 이어질 수 있다는 우려도 제기했다. \n특히 이들은 법안이 1933년 증권법에 주정부 등록 의무를 면제받는 새 범주로 ‘적격 거래(qualified transaction)’를 추가하고, 그 범위를 미국 증권거래위원회(SEC)가 폭넓게 정할 수 있게 한다고 우려했다. 이들은 그 영향이 암호자산뿐 아니라 기존 증권시장의 주정부 감독에도 미칠 수 있다고 주장했다. 이에 토큰화 여부와 관계없이 증권에 대한 주정부의 단속 권한을 보존하고, 연방정부와 주정부의 협력을 유지하며, 주정부의 암호자산 감독 역할을 법률에 명시하고 플랫폼 등록제도를 보존하며, 모호한 문구를 명확히 하라고 요구했다. 더 블록(The Block)에 따르면 9월 13일 공개된 개정안에는 공직자의 암호자산 이해충돌 규정을 집행할 때 주 법무장관도 참여할 수 있도록 하는 내용이 포함됐다. 상원은 9월 15일 법안 심의를 진전시킬지 결정하는 절차표결을 진행할 예정이라고 더 블록은 전했다.",
+      "metanomia_thought": "암호자산에 전국 공통 규칙을 만드는 과정에서는 지역의 피해 신고를 조사하고 거래업체를 감독해 온 주정부의 역할을 어떻게 남길지도 중요합니다. 공직자의 이해충돌을 조사할 권한을 추가하는 것과 거래 플랫폼의 등록·사기 단속 권한을 보존하는 것은 서로 다른 문제입니다. 이번 반대는 연방 규칙이 생긴 뒤에도 주정부가 어떤 근거로 조사하고 책임을 물을 수 있는지를 법안에 명확히 남겨 달라는 요구로 읽힙니다.",
+      "sources": [
+        {
+          "title": "Attorney General James Calls on Congress to Preserve States’ Ability to Protect Americans from Cryptocurrency Scams",
+          "url": "https://ag.ny.gov/press-release/2026/attorney-general-james-calls-congress-preserve-states-ability-protect-americans"
+        },
+        {
+          "title": "Multi-State Coalition Urges Congress to Preserve States’ Rights to Protect Investors",
+          "url": "https://ag.ny.gov/sites/default/files/letters/2026.9.13-clarity-act-letter-with-signatures.pdf"
+        },
+        {
+          "title": "NY Attorney General James leads bipartisan push against the Clarity Act ahead of initial Senate vote",
+          "url": "https://www.theblock.co/news/regulation/2026-09-14-ny-attorney-general-james-bipartisan-push-against-clarity-act-initial-senate-vote-414635"
+        }
+      ]
+    },
+    {
+      "id": "crypto-news-f9fef8af408bbf46",
+      "slug": "2026-09-15-crypto-news-f9fef8af40",
+      "date_kst": "2026-09-15",
+      "title": "S&P글로벌, 카이코 추가 투자 주도…시리즈 B 누적 1억1,000만달러",
+      "content": "현지시간 9월 14일 금융정보 회사 S&P글로벌(S&P Global)이 암호자산 데이터 회사 카이코(Kaiko)에 대한 추가 투자를 주도했다고 발표했다. 투자는 S&P글로벌의 벤처 투자 조직인 S&P글로벌 벤처스(S&P Global Ventures)를 통해 이뤄졌다. 카이코는 은행과 자산운용사 등에 암호자산의 거래 가격과 시장 분석, 지수를 제공하는 회사다. 카이코에 따르면 이번 투자로 시리즈 B 투자유치 단계의 누적 금액은 1억1,000만달러로 늘었다. 이번 추가 투자 규모와 S&P글로벌의 개별 투자액은 두 회사의 발표에 명시되지 않았다. BNP파리바(BNP Paribas), 나스닥 벤처스(Nasdaq Ventures), 코인베이스 벤처스(Coinbase Ventures) 등도 투자에 참여했다. \n카이코는 현재 150개가 넘는 거래소와 프로토콜의 데이터를 다룬다고 밝혔다. 회사는 블록체인에서 금융상품을 하루 24시간 거래하려면 이를 뒷받침하는 시장 데이터도 끊김 없이 제공돼야 한다고 설명했다. 카이코의 데이터 인프라는 시장 정보를 스마트계약에 보내고, 블록체인에서 일어난 금융 거래를 기존 시스템에서 쓸 수 있는 표준 데이터로 정리하는 역할을 한다. 회사는 투자금을 기존 데이터 사업 강화와 토큰화 시장을 위한 인프라 확대에 사용할 계획이다. 투자에 참여한 기관들은 카이코가 의장을 맡는 산업 실무그룹에도 합류해 토큰화 상품의 실제 운영에 필요한 데이터와 인프라의 방향을 함께 논의한다. S&P글로벌은 두 회사가 앞서 9월 초 공동 브랜드의 암호자산 지수 묶음을 출시했으며, 이번 투자가 기존 협력 관계를 확대하는 조치라고 설명했다.",
+      "metanomia_thought": "금융기관이 토큰화 상품을 운영하려면 자산을 블록체인에 올리는 일뿐 아니라 가격을 확인하고 위험을 계산할 데이터도 필요합니다. 이번 투자와 실무그룹 참여는 금융기관들이 필요한 데이터의 공급과 설계에 더 직접 관여하려는 움직임으로 읽힙니다. 시장 데이터를 스마트계약에 넣고 온체인 거래를 기존 시스템이 이해할 수 있게 정리하는 일이 함께 이뤄져야 토큰화 상품을 일상적인 금융 업무로 연결할 수 있습니다.",
+      "sources": [
+        {
+          "title": "S&P Global Leads Strategic Investment in Kaiko, Extending Series B to $110 Million",
+          "url": "https://www.kaiko.com/news/sp-global-leads-strategic-investment-in-kaiko-extending-series-b-to-110-million"
+        },
+        {
+          "title": "S&P Global Leads Strategic Investment in Kaiko, Deepening Commitment to Digital Assets and On-chain Markets",
+          "url": "https://press.spglobal.com/2026-09-14-S-P-Global-Leads-Strategic-Investment-in-Kaiko,-Deepening-Commitment-to-Digital-Assets-and-On-chain-Markets"
+        }
+      ]
+    },
+    {
+      "id": "crypto-news-624994276039b4c7",
+      "slug": "2026-09-15-crypto-news-6249942760",
+      "date_kst": "2026-09-15",
+      "title": "WTO, 스테이블코인 무역 활용 분석…환전 비용·기존 금융망 연결이 효과 좌우",
+      "content": "현지시간 9월 14일 세계무역기구(WTO) 사무국이 첫 ‘세계 무역·기술의 날’ 행사에서 스테이블코인의 국제무역 활용 가능성과 과제를 분석한 보고서를 공개했다. 보고서는 여러 은행과 환전 단계를 거치는 해외 결제가 느리고 비싸며, 이런 부담이 중소기업과 개발도상국 기업에 특히 크다고 설명했다. 스테이블코인은 달러 등 기준자산의 가치를 따라가도록 설계된 민간 발행 디지털자산이다. 보고서는 맥킨지 자료에 실린 2025년 초 추정치를 인용해 스테이블코인이 전 세계 국경 간 결제액의 약 3%를 차지한다고 설명했고, 무역금융에서는 일부 시범 사업을 제외하면 대규모로 활용되지 않고 있다고 밝혔다. 보고서는 스테이블코인으로 시간대에 구애받지 않고 자금을 보내면 일부 결제 구간에서 처리 시간을 줄이고 중개 비용을 낮출 수 있다고 봤다. 다만 실제 비용은 블록체인 송금료뿐 아니라 스테이블코인 구입 비용과 규제 준수 비용, 현지 통화로 바꿔야 할 경우의 환전 비용까지 포함해 따져야 한다고 지적했다. 보고서가 인용한 연구에서는 단일 스테이블코인을 이용한 일부 국제 송금 경로의 총비용이 송금액의 0.3%에서 9% 가까이까지 달랐으며, 비용은 주로 법정통화와 스테이블코인을 서로 바꾸는 단계에서 발생했다. 고객 확인과 자금세탁 방지, 제재 대상 확인 절차도 그대로 필요하다는 설명이다. \n보고서는 스테이블코인 자체가 대출·보증·보험을 제공하지 않으므로, 현재로서는 신용 공급이 필요한 상품 무역보다 디지털 서비스의 해외 대금 결제에서 효과가 더 직접적으로 나타날 수 있다고 분석했다. 다만 토큰화와 법체계, 시장 인프라의 발전에 따라 무역금융에서의 역할에 대한 평가가 달라질 수 있다고 덧붙였다. 개발도상국 기업의 국제 결제 접근성이 나아질 가능성이 있는 반면, 외국 통화 기반 스테이블코인이 널리 쓰이면 자국 통화를 대체하고 통화정책의 효과를 약화시키며 외국 민간 발행자에 대한 의존을 키울 수 있다고도 밝혔다. 활용을 넓히려면 상환 권리와 준비자산 관리 기준을 명확히 하고, 은행 시스템과 기업 자금관리·전자 무역문서를 연결해야 한다는 것이 보고서의 결론이다. 이번 보고서는 WTO 사무국의 책임 아래 작성됐으며, 회원국의 입장을 반드시 반영하는 것은 아니고 WTO 협정의 권위 있는 해석이나 법적 해석을 제시하기 위한 문서도 아니다.",
+      "metanomia_thought": "보고서는 스테이블코인 자체가 무역에 필요한 신용을 제공하지는 않으며, 환전 비용이 결제 효율을 제한할 수 있다고 지적합니다. 그런데 만약 무역대금으로 받은 스테이블코인을 다음 거래나 현지 결제에 그대로 사용할 수 있다면, 매번 법정통화로 바꾸는 비용은 줄어들 수 있습니다. 여기에 인보이스에 담긴 지급청구권을 토큰화해 투자자 자금과 연결하는 구조가 더해지면, 스테이블코인은 기업의 자금 조달과 상환을 이어 주는 수단으로도 활용될 수 있습니다. 이런 흐름이 확산되면 기업은 스테이블코인으로 받은 대금을 보유하고 다음 거래에 다시 쓰는 데서 나아가, 토큰화된 자산을 통해 필요한 자금도 조달하는 금융 환경에 참여할 수 있습니다.",
+      "sources": [
+        {
+          "title": "Stablecoins and world trade: Emerging role, opportunities and challenges",
+          "url": "https://www.wto.org/english/res_e/booksp_e/stablecoins_e.pdf"
+        },
+        {
+          "title": "WTO study explores the role of stablecoins in international trade",
+          "url": "https://www.wto.org/english/news_e/news26_e/trfin_14sep26_486_e.htm"
+        }
+      ]
+    },
+    {
+      "id": "crypto-news-5e4d3d040bd63373",
+      "slug": "2026-09-15-crypto-news-5e4d3d040b",
+      "date_kst": "2026-09-15",
+      "title": "영국 FCA, 금 토큰화 규제 의견수렴…일부 상품의 펀드 규제 면제 검토",
+      "content": "현지시간 9월 14일 영국 금융행위감독청(FCA)이 도매시장에서 금을 토큰으로 만들어 거래하거나 담보로 사용하는 방식의 기회와 위험, 그에 필요한 규제에 대해 의견수렴을 시작했다. 금 토큰화는 보관 중인 실물 금의 소유권을 디지털 토큰으로 표시하고 전자적으로 이전하는 방식이다. FCA는 런던의 장외 금 현물시장이 세계에서 가장 크다는 점을 들어, 이 방식이 법적 확실성과 위험 통제를 전제로 금을 더 쉽게 이전하고 금융기관 간 거래의 담보로 활용하는 데 도움이 될 수 있다고 설명했다. 이번 검토는 실물 금의 소유권을 부여하고, 보관된 금을 확인할 수 있으며 신뢰할 만한 상환 절차를 갖춘 상품만을 대상으로 한다. \n주요 쟁점은 일부 금 토큰이 집합투자기구(CIS)나 대체투자펀드(AIF)에 해당하는지 불분명해 투자자의 보유나 상품 판매가 제약될 수 있다는 점이다. 특정 금괴를 직접 소유하고 이를 한데 모아 공동으로 운용하지 않는 상품은 펀드 규제 밖에 있을 가능성이 크지만, 여러 사람이 금괴 하나의 지분을 나눠 갖고 이를 공동으로 관리하거나 처분하는 구조라면 펀드 규제가 적용될 수 있다. FCA는 기존 규정을 더 명확히 설명하는 방안, ‘적격 금 토큰’ 분류를 만드는 방안과 함께 재무부와 협의해 특정 금 토큰 상품이나 관련 시장 인프라를 이 규제에서 제외하는 방안을 검토하고 있다. 다만 면제는 여러 검토 방안 중 하나이고 그 검토 자체가 재무부의 재량에 달려 있어, 시행 여부가 결정된 것은 아니다. FCA는 보다 폭넓은 면제는 별도 규제 체계로 더 효과적으로 보호할 수 있는 상품에 한정해야 하며, 그 체계에는 소유권과 실물 금 보관, 상환, 독립적인 검증, 파산 시 투자자 보호 등이 포함돼야 한다고 밝혔다. 의견은 10월 23일까지 받으며, FCA는 제출된 근거를 바탕으로 지침 마련이나 별도 규제 체계의 필요성을 판단할 계획이다.",
+      "metanomia_thought": "토큰화된 금 보유자는 금을 팔지 않고도 금융거래에 담보로 활용할 경로가 넓어질 수 있습니다. 다만 토큰의 이전이 실물 금에 대한 권리의 이전으로 이어지고 필요할 때 금을 돌려받을 수 있어야 그 편익이 성립합니다. 이번 논의는 금을 토큰으로 표시하는 기술과 함께 그 토큰에 어떤 권리와 보호를 붙일지가 금융시장 활용을 좌우한다는 점을 보여 줍니다.",
+      "sources": [
+        {
+          "title": "Tokenised gold: Opportunities and risks for UK wholesale markets — Call for Input",
+          "url": "https://www.fca.org.uk/publication/call-for-input/tokenised-gold-opportunities-risks-uk-wholesale-markets.pdf"
+        },
+        {
+          "title": "UK financial regulator seeks views on tokenising gold",
+          "url": "https://www.reuters.com/business/uk-financial-regulator-seeks-views-tokenising-gold-2026-09-14/"
+        }
+      ]
+    },
     {
       "id": "crypto-news-61bf95484aeaf236",
       "slug": "2026-09-14-crypto-news-61bf95484a",
