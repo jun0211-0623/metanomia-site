@@ -14,18 +14,18 @@
   "items": {
     "data/media-videos.ko.json": {
       "kind": "json",
-      "source_sha": "ac79729e8b4efb711885986f23129e222edc09fe",
-      "source_hash": "422e745d1c4c9565ff16f965f3f2c9e5ab5af96a2944401966ea4689df790f68",
+      "source_sha": "bcd7950812d9c8dbe86692d6f9b2e123fefba348",
+      "source_hash": "040e10862ca5ad64f33c5e80ad315497282de48a1a7fdc3a098c78fb3c2dcb76",
       "outputs": [
         {
           "path": "data/media-videos.en.json",
-          "sha": "55c3a445f29379ce363d47f6c0a3e94e9fe4f5e1"
+          "sha": "a3dbb7c0e22913fe58292863620a8424232cf664"
         }
       ],
-      "review_status": "baseline_preserved",
-      "asset_disposition": "not_applicable",
-      "reviewed_at": null,
-      "external_sources": []
+      "review_status": "reviewed",
+      "reviewed_at": "2026-09-16T08:40:54+09:00",
+      "external_sources": [],
+      "asset_disposition": "not_applicable"
     },
     "favicon-180.png": {
       "kind": "image",
@@ -299,18 +299,18 @@
     },
     "ko/about.html": {
       "kind": "html",
-      "source_sha": "758890f555db470b60a812de38d0bc75b2a5a779",
-      "source_hash": "a95832b6b8b5db27669dab502cecfc8f169fbf2077f5baf9c8593013b6d04d36",
+      "source_sha": "7efcc79ab9d459c352fe37e674ccbc823a161997",
+      "source_hash": "165cf57bcbf721e36f1e8902b3a1007525d9b3016e93c5c0e9ce268969310e67",
       "outputs": [
         {
           "path": "about.html",
-          "sha": "05874b15e58c3888bbc02a0e247b91bd1b4c80ed"
+          "sha": "99e754232e4342216c1e6f5ae19063c592e9f393"
         }
       ],
-      "review_status": "baseline_preserved",
-      "asset_disposition": "not_applicable",
-      "reviewed_at": null,
-      "external_sources": []
+      "review_status": "reviewed",
+      "reviewed_at": "2026-09-16T08:40:54+09:00",
+      "external_sources": [],
+      "asset_disposition": "not_applicable"
     },
     "ko/articles/age-of-machine-payments.html": {
       "kind": "html",
@@ -540,18 +540,18 @@
     },
     "ko/media.html": {
       "kind": "html",
-      "source_sha": "7a0f64d694986f38f636f076bd910a090204deff",
-      "source_hash": "bfb90a668aef9f3a3359fdc1b28a64a9140db89144cc71605f4a89e4dab755a2",
+      "source_sha": "ecc489f9a148734d5a8d4dfd5e683cad41bebfac",
+      "source_hash": "8c98291324c513a25a00f7f85ec0890a3011fee4f32f362f88c17ebb291fc211",
       "outputs": [
         {
           "path": "media.html",
-          "sha": "776c7e02ec2a9079d9c32460904e7e9d5f902564"
+          "sha": "302e29620f35c361915e66b39980515dfc8b99cc"
         }
       ],
-      "review_status": "baseline_preserved",
-      "asset_disposition": "not_applicable",
-      "reviewed_at": null,
-      "external_sources": []
+      "review_status": "reviewed",
+      "reviewed_at": "2026-09-16T08:40:54+09:00",
+      "external_sources": [],
+      "asset_disposition": "not_applicable"
     },
     "ko/media/ask-the-author.html": {
       "kind": "html",
@@ -630,18 +630,18 @@
     },
     "ko/members.html": {
       "kind": "html",
-      "source_sha": "63ff62a53e2764a8bcbe6b0496af0bd6a94ad0ce",
-      "source_hash": "469414f5c90e87671aed7933143ef2d3b3a77b299575aa32e55abf5e47f008cc",
+      "source_sha": "e182182932af25bab002e050ca576b4d695f823e",
+      "source_hash": "9e3a911aae8274c8c3e5bcb42b6fe376dda2ce178c1449bb25ebf4d83066883c",
       "outputs": [
         {
           "path": "members.html",
-          "sha": "c7eb39e0f408054e446d0820caaade5ffbb602ce"
+          "sha": "54cce05851a965e2cfd88a3fb596188a3ebe6c64"
         }
       ],
-      "review_status": "baseline_preserved",
-      "asset_disposition": "not_applicable",
-      "reviewed_at": null,
-      "external_sources": []
+      "review_status": "reviewed",
+      "reviewed_at": "2026-09-16T08:40:54+09:00",
+      "external_sources": [],
+      "asset_disposition": "not_applicable"
     },
     "ko/people/boyoung-park.html": {
       "kind": "html",
@@ -990,18 +990,18 @@
     },
     "ko/people/taemin-oh.html": {
       "kind": "html",
-      "source_sha": "bd7412476298915ee8d96a753721a982778f1cc1",
-      "source_hash": "19e3997d9a2a937a14c60866da7b8982d72f507ff888b510415519fce3303e12",
+      "source_sha": "134925dfca49410ec4a715d5e046bfa52fd7a157",
+      "source_hash": "8a33ad016e5ff007025f5da2ff83ce50ca88769a8bc924b0cbba20348d237d94",
       "outputs": [
         {
           "path": "people/taemin-oh.html",
-          "sha": "974e42e87bc01749a7922bbf3d8b7c864b20a488"
+          "sha": "ea540f8c38560e509464187928af81eced168f27"
         }
       ],
-      "review_status": "baseline_preserved",
-      "asset_disposition": "not_applicable",
-      "reviewed_at": null,
-      "external_sources": []
+      "review_status": "reviewed",
+      "reviewed_at": "2026-09-16T08:40:54+09:00",
+      "external_sources": [],
+      "asset_disposition": "not_applicable"
     },
     "ko/people/yongrae-cho.html": {
       "kind": "html",
@@ -1227,6 +1227,16 @@
       "asset_disposition": "translated",
       "reviewed_at": null,
       "external_sources": []
+    },
+    "images/reports/sep1-2026-hero.webp": {
+      "kind": "image",
+      "source_sha": "0ad690e51ed29b753608fcf6ff9fc3dea2ff830b",
+      "source_hash": "4cad691373ebb191546f655529b421db76283e9042bec79d423ba2b8016a2cfd",
+      "outputs": [],
+      "review_status": "reviewed",
+      "reviewed_at": "2026-09-16T08:40:54+09:00",
+      "external_sources": [],
+      "asset_disposition": "reused"
     }
   }
 }

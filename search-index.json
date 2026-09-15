@@ -2,7 +2,7 @@
   {
     "lang": "en",
     "type": "Page",
-    "title": "About Metanomia",
+    "title": "About",
     "sub": "Metanomia is a research community exploring changes in the monetary and financial order and the crypto ecosystem.",
     "meta": "",
     "url": "/about"
@@ -291,7 +291,7 @@
     "lang": "en",
     "type": "People",
     "title": "Taemin Oh",
-    "sub": "",
+    "sub": "Taemin Oh · Research Lead",
     "meta": "Research Lead · Metanomia",
     "url": "/people/taemin-oh"
   },
