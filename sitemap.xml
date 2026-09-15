@@ -940,6 +940,25 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://metanomia.org/articles/crypto-prediction-markets" />
   </url>
 
+  <url>
+    <loc>https://metanomia.org/articles/bitcoin-self-custody-guide</loc>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://metanomia.org/ko/articles/bitcoin-self-custody-guide" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://metanomia.org/articles/bitcoin-self-custody-guide" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://metanomia.org/articles/bitcoin-self-custody-guide" />
+  </url>
+  <url>
+    <loc>https://metanomia.org/ko/articles/bitcoin-self-custody-guide</loc>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://metanomia.org/ko/articles/bitcoin-self-custody-guide" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://metanomia.org/articles/bitcoin-self-custody-guide" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://metanomia.org/articles/bitcoin-self-custody-guide" />
+  </url>
+
   <!-- GENERATED CRYPTO NEWS START -->
   <url>
     <loc>https://metanomia-site.vercel.app/ko/crypto-news-2026-09-15-crypto-news-ff867ba9cd</loc>

@@ -330,6 +330,14 @@
   {
     "lang": "en",
     "type": "Report",
+    "title": "Bitcoin Self-Custody Guide",
+    "sub": "Self-Custody Guidelines Drawn from Incidents and Best Practices",
+    "meta": "Jeehwan Lee · September 2026",
+    "url": "/articles/bitcoin-self-custody-guide"
+  },
+  {
+    "lang": "en",
+    "type": "Report",
     "title": "Crypto Prediction Markets: The Wisdom of the Crowd or a Hunting Ground for the Few?",
     "sub": "The paradox of price accuracy and concentrated profits in blockchain prediction markets.",
     "meta": "Seyeon Jo · August 2026",
@@ -446,6 +454,14 @@
     "sub": "Policy & Strategy, what to change or build, and which option to pursue, and how. Metanomia report series.",
     "meta": "",
     "url": "/series/policy-strategy"
+  },
+  {
+    "lang": "ko",
+    "type": "보고서",
+    "title": "비트코인 셀프 커스터디 가이드",
+    "sub": "사고 사례와 모범 사례에서 도출한 셀프 커스터디 지침",
+    "meta": "이지환 · 2026년 9월",
+    "url": "/ko/articles/bitcoin-self-custody-guide"
   },
   {
     "lang": "ko",
