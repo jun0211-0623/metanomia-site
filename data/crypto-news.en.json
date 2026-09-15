@@ -1,7 +1,79 @@
 {
   "schema_version": "1.0",
-  "generated_at_kst": "2026-09-14T08:44:42+09:00",
+  "generated_at_kst": "2026-09-15T10:51:00+09:00",
   "items": [
+    {
+      "slug": "2026-09-15-crypto-news-ff867ba9cd",
+      "date_kst": "2026-09-15",
+      "title": "Attorneys General from 17 U.S. States and Washington, D.C. Oppose CLARITY Act, Seek to Preserve State Fraud Enforcement and Registration Powers",
+      "content": "On September 14 local time, New York Attorney General Letitia James released a joint letter opposing the Digital Asset Market Clarity Act, or CLARITY Act, and calling for states to retain their authority to combat crypto asset fraud. A total of 18 attorneys general, representing 17 states including New York and Washington, D.C., joined the letter. They asked Senate Banking Committee Chair Tim Scott and Ranking Democrat Elizabeth Warren to oppose the current bill until state authority is adequately preserved. The signatories emphasized that state securities licensing and registration regimes are investor protection tools that support examinations, investigations, and fraud enforcement. Although the bill retains some fraud enforcement powers, they also raised concerns that ambiguous or restrictive wording could lead to jurisdictional disputes and litigation delays.\nIn particular, they expressed concern that the bill would add a new category of \"qualified transaction\" to the Securities Act of 1933 that would be exempt from state registration requirements and allow the U.S. Securities and Exchange Commission, or SEC, to define its scope broadly. They argued that the effects could extend beyond crypto assets to state oversight of traditional securities markets. They therefore called for preserving state enforcement authority over securities regardless of whether they are tokenized, maintaining federal-state cooperation, explicitly recognizing the states' role in crypto asset oversight in the law, preserving platform registration regimes, and clarifying ambiguous language. According to The Block, an amendment released on September 13 included a provision allowing state attorneys general to participate in enforcing crypto asset conflict-of-interest rules for public officials. The Senate is scheduled to hold a procedural vote on September 15 to decide whether to advance consideration of the bill, The Block reported.",
+      "metanomia_thought": "As nationwide rules for crypto assets are developed, it is also important to determine how to preserve the role of state governments that have investigated local reports of harm and supervised trading firms. Adding authority to investigate conflicts of interest involving public officials and preserving registration and fraud enforcement powers over trading platforms are separate issues. This opposition can be read as a request to state clearly in the bill the grounds on which states will still be able to investigate and hold parties accountable after federal rules are established.",
+      "sources": [
+        {
+          "title": "Attorney General James Calls on Congress to Preserve States’ Ability to Protect Americans from Cryptocurrency Scams",
+          "url": "https://ag.ny.gov/press-release/2026/attorney-general-james-calls-congress-preserve-states-ability-protect-americans"
+        },
+        {
+          "title": "Multi-State Coalition Urges Congress to Preserve States’ Rights to Protect Investors",
+          "url": "https://ag.ny.gov/sites/default/files/letters/2026.9.13-clarity-act-letter-with-signatures.pdf"
+        },
+        {
+          "title": "NY Attorney General James leads bipartisan push against the Clarity Act ahead of initial Senate vote",
+          "url": "https://www.theblock.co/news/regulation/2026-09-14-ny-attorney-general-james-bipartisan-push-against-clarity-act-initial-senate-vote-414635"
+        }
+      ]
+    },
+    {
+      "slug": "2026-09-15-crypto-news-f9fef8af40",
+      "date_kst": "2026-09-15",
+      "title": "S&P Global Leads Additional Investment in Kaiko, Bringing Cumulative Series B Funding to $110 Million",
+      "content": "On September 14 local time, financial information company S&P Global announced that it had led an additional investment in crypto asset data company Kaiko. The investment was made through S&P Global Ventures, S&P Global's venture investment arm. Kaiko provides banks, asset managers, and other institutions with crypto asset trading prices, market analytics, and indices. According to Kaiko, the investment increased the cumulative amount raised in its Series B round to $110 million. The size of this additional investment and S&P Global's individual investment were not disclosed in the companies' announcements. BNP Paribas, Nasdaq Ventures, Coinbase Ventures, and others also participated.\nKaiko said it currently handles data from more than 150 exchanges and protocols. The company explained that if financial products are to trade on blockchains 24 hours a day, the supporting market data must also be available without interruption. Kaiko's data infrastructure sends market information to smart contracts and converts financial transactions conducted on blockchains into standardized data that can be used in traditional systems. The company plans to use the funding to strengthen its existing data business and expand infrastructure for tokenized markets. Participating institutions will also join an industry working group chaired by Kaiko to discuss the direction of the data and infrastructure needed to operate tokenized products in practice. S&P Global said the two companies had launched a suite of co-branded crypto asset indices in early September and that this investment expands their existing partnership.",
+      "metanomia_thought": "For financial institutions to operate tokenized products, they need not only to place assets on a blockchain but also to have data for checking prices and calculating risk. This investment and participation in the working group can be read as a move by financial institutions to become more directly involved in supplying and designing the data they need. Tokenized products can be connected to routine financial operations only when market data is delivered to smart contracts and onchain transactions are organized so that existing systems can understand them.",
+      "sources": [
+        {
+          "title": "S&P Global Leads Strategic Investment in Kaiko, Extending Series B to $110 Million",
+          "url": "https://www.kaiko.com/news/sp-global-leads-strategic-investment-in-kaiko-extending-series-b-to-110-million"
+        },
+        {
+          "title": "S&P Global Leads Strategic Investment in Kaiko, Deepening Commitment to Digital Assets and On-chain Markets",
+          "url": "https://press.spglobal.com/2026-09-14-S-P-Global-Leads-Strategic-Investment-in-Kaiko,-Deepening-Commitment-to-Digital-Assets-and-On-chain-Markets"
+        }
+      ]
+    },
+    {
+      "slug": "2026-09-15-crypto-news-6249942760",
+      "date_kst": "2026-09-15",
+      "title": "WTO Analyzes Stablecoin Use in Trade, Says Foreign Exchange Costs and Links to Existing Financial Networks Will Determine Impact",
+      "content": "On September 14 local time, the World Trade Organization, or WTO, Secretariat released a report analyzing the potential uses and challenges of stablecoins in international trade at the first World Trade and Technology Day event. The report explained that cross-border payments passing through multiple banks and foreign exchange stages are slow and expensive, with these burdens falling particularly heavily on small and medium-sized enterprises and businesses in developing countries. Stablecoins are privately issued digital assets designed to track the value of a reference asset such as the U.S. dollar. Citing an early-2025 estimate published by McKinsey, the report said stablecoins accounted for about 3% of global cross-border payment value and were not being used at scale in trade finance beyond some pilot projects. The report found that sending funds through stablecoins without time-zone constraints could shorten processing times in some payment corridors and reduce intermediary costs. However, it noted that actual costs must include not only blockchain transaction fees but also the cost of acquiring stablecoins, regulatory compliance costs, and foreign exchange costs when conversion into local currency is required. A study cited by the report found that the total cost of some international remittance corridors using a single stablecoin ranged from 0.3% to nearly 9% of the amount sent, with costs arising mainly at the stages where fiat currency and stablecoins are exchanged. Know-your-customer, anti-money laundering, and sanctions screening procedures also remain necessary.\nThe report analyzed that because stablecoins do not themselves provide loans, guarantees, or insurance, their benefits may currently be more direct for cross-border payments for digital services than for goods trade, which requires credit provision. It added, however, that assessments of their role in trade finance could change as tokenization, legal frameworks, and market infrastructure develop. It also said that while stablecoins could improve access to international payments for businesses in developing countries, widespread use of stablecoins based on foreign currencies could displace domestic currencies, weaken the effectiveness of monetary policy, and increase dependence on foreign private issuers. The report concluded that broader use would require clear redemption rights and reserve asset management standards, as well as links among banking systems, corporate treasury management, and electronic trade documents. The report was prepared under the responsibility of the WTO Secretariat and does not necessarily reflect the positions of WTO members, nor is it intended to provide an authoritative or legal interpretation of WTO agreements.",
+      "metanomia_thought": "The report points out that stablecoins do not themselves provide the credit needed for trade and that foreign exchange costs can limit payment efficiency. However, if stablecoins received as trade payments can be used directly for the next transaction or for local payments, the cost of converting them into fiat currency each time could be reduced. If this is combined with a structure that tokenizes payment claims contained in invoices and connects them to investor funds, stablecoins could also be used as a means of linking corporate financing and repayment. If this trend spreads, businesses could move beyond holding stablecoin receipts and reusing them for subsequent transactions to participate in a financial environment where they can also raise needed funds through tokenized assets.",
+      "sources": [
+        {
+          "title": "Stablecoins and world trade: Emerging role, opportunities and challenges",
+          "url": "https://www.wto.org/english/res_e/booksp_e/stablecoins_e.pdf"
+        },
+        {
+          "title": "WTO study explores the role of stablecoins in international trade",
+          "url": "https://www.wto.org/english/news_e/news26_e/trfin_14sep26_486_e.htm"
+        }
+      ]
+    },
+    {
+      "slug": "2026-09-15-crypto-news-5e4d3d040b",
+      "date_kst": "2026-09-15",
+      "title": "UK FCA Seeks Views on Gold Tokenization Regulation, Considers Exempting Some Products from Fund Rules",
+      "content": "On September 14 local time, the UK's Financial Conduct Authority, or FCA, opened a consultation on the opportunities and risks of creating tokens representing gold for trading or use as collateral in wholesale markets, as well as the regulation that would be required. Gold tokenization is a method of representing ownership of physical gold held in custody with digital tokens and transferring that ownership electronically. Noting that London's over-the-counter spot gold market is the world's largest, the FCA said this approach could make gold easier to transfer and use as collateral in transactions between financial institutions, provided there is legal certainty and risk control. The review covers only products that grant ownership of physical gold, allow the gold held in custody to be verified, and have reliable redemption procedures.\nA key issue is that uncertainty over whether some gold tokens qualify as collective investment schemes, or CISs, or alternative investment funds, or AIFs, could restrict investors from holding them or firms from selling them. Products that provide direct ownership of specific gold bars and do not pool them for collective management are likely to fall outside fund regulation, but fund rules could apply where multiple people share interests in a single gold bar and it is jointly managed or disposed of. The FCA is considering explaining existing rules more clearly, creating a \"qualifying gold token\" classification, and working with the Treasury to exempt certain gold token products or related market infrastructure from these rules. However, an exemption is only one of several options under consideration, and consideration of it is itself subject to the Treasury's discretion, so no decision has been made on whether it will be implemented. The FCA said a broader exemption should be limited to products that could be protected more effectively under a separate regulatory framework, which should cover ownership, custody of physical gold, redemption, independent verification, and investor protection in the event of insolvency. Responses are due by October 23, and the FCA plans to use the evidence submitted to determine whether guidance or a separate regulatory framework is needed.",
+      "metanomia_thought": "Holders of tokenized gold could gain more ways to use it as collateral in financial transactions without selling the gold. However, that benefit depends on the transfer of a token resulting in the transfer of rights to the physical gold and on holders being able to redeem the gold when needed. This discussion shows that financial market use will depend not only on the technology used to represent gold as tokens but also on the rights and protections attached to those tokens.",
+      "sources": [
+        {
+          "title": "Tokenised gold: Opportunities and risks for UK wholesale markets — Call for Input",
+          "url": "https://www.fca.org.uk/publication/call-for-input/tokenised-gold-opportunities-risks-uk-wholesale-markets.pdf"
+        },
+        {
+          "title": "UK financial regulator seeks views on tokenising gold",
+          "url": "https://www.reuters.com/business/uk-financial-regulator-seeks-views-tokenising-gold-2026-09-14/"
+        }
+      ]
+    },
     {
       "slug": "2026-09-14-crypto-news-61bf95484a",
       "date_kst": "2026-09-14",
