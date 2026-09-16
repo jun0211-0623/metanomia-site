@@ -1,7 +1,99 @@
 {
   "schema_version": "1.0",
-  "generated_at_kst": "2026-09-16T09:37:59+09:00",
+  "generated_at_kst": "2026-09-17T08:41:39+09:00",
   "items": [
+    {
+      "id": "crypto-news-8f01121806078138",
+      "slug": "2026-09-17-crypto-news-8f01121806",
+      "date_kst": "2026-09-17",
+      "title": "미 하원 세입위, 암호자산 세제법안 의결…10달러 이하 수수료 납부 손익에 특례",
+      "content": "현지시간 9월 16일 미국 하원 세입위원회가 디지털자산세제명확성법안(Digital Asset Tax Certainty Act·H.R. 10357)을 찬성 38표, 반대 5표로 의결했다고 더 블록(The Block)이 보도했다. 이 법안은 소액 수수료 과세와 스테이블코인 거래, 대여 거래, 워시세일 규칙 적용, 채굴·스테이킹 소득, 브로커 보고 의무 등을 7개 편에 나눠 담은 안이다. 제이슨 스미스(Jason Smith) 위원장은 1년 넘는 초당적 작업 끝에 디지털자산에 대한 첫 세제 틀을 마련한 것이라고 밝혔다.\n핵심 조항 중 하나는 일정한 소액 수수료를 암호자산으로 낼 때 그 지급에 사용한 자산의 처분 이익이나 손실을 세금 계산에서 인식하지 않도록 하는 것이다. 거래 검증에 내는 네트워크 수수료는 해당 검증에 지급한 합계가 10달러 이하여야 한다. 중개·거래·유동성 제공 등의 수수료는 해당 거래에서 낸 수수료 합계가 10달러 이하이고, 그 거래에서 처분하거나 취득한 암호자산과 같은 종류의 암호자산으로 수수료를 낸 경우에 적용하도록 했다. 이는 모든 소액 상품 구매를 면세하거나 블록체인 수수료 자체를 없애는 내용은 아니다.\n암호자산의 트레이더·브로커·딜러, 다른 사람을 대신해 거래를 묶거나 검증을 돕는 사업자, 직전 과세연도에 암호자산을 5,000건 넘게 이전한 사람 등은 원칙적으로 이 특례에서 제외된다. 이 5,000건을 셀 때는 소액 수수료를 내기 위한 이전은 빼도록 했다. 법안은 이 수수료 특례를 2028년 1월 1일 이후의 자산 처분에 적용하도록 규정했다.\n같은 법안은 납세자의 손실 공제를 제한하는 조항도 담았다. 주식과 증권에 적용되던 워시세일 규칙의 대상에 거래되는 디지털자산을 넣되, 적격 달러 스테이블코인은 원칙적으로 제외했다. 손실을 본 자산을 판 날 전후 30일 안에 실질적으로 동일한 자산을 사들이면 그 손실을 즉시 공제하지 못하고 대체 자산의 취득가액에 반영하게 된다. 다만 채굴·스테이킹 등 검증 활동으로 받은 자산이나 일반소득으로 반영하는 정기적 취득은 이때의 재취득으로 보지 않는다. 법안은 이 조항의 적용 대상을 2026년 9월 15일 이후의 처분으로 정해, 수수료 특례보다 앞선 시점을 제시했다.\n채굴과 스테이킹을 통해 얻는 검증 활동 소득은 일반소득으로 분류하는 조항도 담겼다. 더 블록에 따르면 법안 작업에 참여한 스티븐 호스퍼드(Steven Horsford) 의원은 채굴·스테이킹 소득을 언제 인식할지는 이번 법안에서도 해결되지 않았다고 밝혔다. 법안은 수탁자가 보유 암호자산을 스테이킹할 권한을 가졌다는 이유만으로 세법상 신탁 지위를 잃지 않도록 하는 조항도 담았다. 다만 디지털자산 거래 검증을 사업으로 영위하는 경우에는 이 특례를 적용하지 않도록 했다.\n이번 의결은 하원 위원회 단계의 진전으로, 하원 본회의 등 후속 입법 절차가 남아 있어 제안된 세금 규칙이 시행된 것은 아니다. 더 블록은 이후 관심이 상원 재무위원회로 옮겨갈 것이라고 전했다.",
+      "metanomia_thought": "암호자산을 결제에 쓰기 쉽게 만드는 데는 네트워크 성능만큼 세무 처리의 단순함도 중요합니다. 소액 수수료를 낼 때마다 자산 처분에 따른 손익 계산이 붙는다면, 기술적으로 간편한 거래도 이용자에게는 번거로운 일이 됩니다. 이번 법안은 같은 암호자산 거래라도 수수료 지급과 투자 손실 실현을 구분해 서로 다른 세금 규칙을 적용하려는 접근으로 읽힙니다. 결제 서비스를 만드는 기업뿐 아니라, 어떤 거래의 세무 부담을 덜어줄지 정하는 입법자도 암호자산의 실제 사용성을 좌우하는 셈입니다.",
+      "sources": [
+        {
+          "title": "Amendment in the Nature of a Substitute to H.R. 10357 — Digital Asset Tax Certainty Act",
+          "url": "https://waysandmeans.house.gov/wp-content/uploads/2026/09/AINS-to-HR-10357.pdf"
+        },
+        {
+          "title": "Markup of H.R. 10357, H.R. 10334, H.R. 6130, H.R. 5439, H.R. 4093, H.R. 10346, and H.R. 10356",
+          "url": "https://waysandmeans.house.gov/event/markup-of-h-r-10357-h-r-10334-h-r-6130-h-r-5439-h-r-4093-h-r-10346-h-r-10356/"
+        },
+        {
+          "title": "House panel approves first federal crypto tax framework, one day after Senate's Clarity Act stumbles",
+          "url": "https://www.theblock.co/news/regulation/2026-09-16-house-panel-approves-first-federal-crypto-tax-framework-one-day-after-senates-clarity-act-stumbles-415293"
+        }
+      ]
+    },
+    {
+      "id": "crypto-news-4c8a26b0a7e1387f",
+      "slug": "2026-09-17-crypto-news-4c8a26b0a7",
+      "date_kst": "2026-09-17",
+      "title": "도이체방크, 유럽 기관·기업 대상 암호자산 수탁 연내 추진…규제 절차 완료 조건",
+      "content": "현지시간 9월 16일 도이체방크(Deutsche Bank)가 유럽의 기관과 기업을 대상으로 암호자산 수탁 서비스를 연내 시작할 계획이라고 발표했다. 다만 첫 고객의 서비스 이용은 관련 규제 절차를 마치는 것을 조건으로 한다. 수탁 서비스는 은행이 고객 대신 지갑과 개인키를 관리해 자산을 보관하고 제3자에게 이전할 수 있도록 하는 방식이다. 은행은 이를 통해 고객이 자체 보관 인프라를 구축하고 유지해야 하는 부담을 줄이겠다고 설명했다. 초기 지원 자산에는 비트코인과 이더, 스테이블코인 USDC·EURC·EURAU가 포함될 예정이다. 이 가운데 EURAU는 도이체방크 계열 자산운용사 DWS가 참여한 합작사 올유니티(AllUnity)가 발행하는 유로 스테이블코인이다. 대상 고객은 은행의 기업금융·투자은행 부문을 이용하는 기업과 자산운용사, 헤지펀드, 수탁기관, 브로커, 국가기관이며, 고객의 서비스 이용 개시에는 은행의 기준과 실사 요건, 위험 수용 범위가 적용된다. 은행은 안전한 키 생성과 하드웨어를 이용한 개인키 보호, 담당 업무의 분리, 여러 사람의 승인, 웜 스토리지와 콜드 스토리지의 분리 운영, 이중화된 기술 구성, 통제된 백업·복구 절차를 보안 설계에 포함했다고 밝혔다.\n게랄트 포도브니크(Gerald Podobnik) 기업금융부문 공동대표는 암호자산이 기존 금융시스템을 대체하는 것이 아니라 보완하는 수단이며, 규제받는 금융기관이 제공하는 신뢰와 안전장치를 누리면서 기존 시장 인프라와 공존할 수 있는 새로운 경로라고 말했다. 지원 자산을 늘리거나 토큰화 금융상품을 다루는 것은 고객 수요와 상품 승인, 위험 관리 및 규제 절차에 따라 추진할 계획이다. 은행은 서비스의 출시 시기와 지역, 지원 자산 및 범위가 규제 요건이나 내부 승인 등에 따라 바뀔 수 있다고 명시했다. 또 보관 대상 암호자산은 적격 은행예금에 적용되는 것과 같은 예금보호를 받지 않는다고 밝혔다.",
+      "metanomia_thought": "이번 발표는 전통 은행이 암호자산을 기존 금융서비스 안에 받아들이려는 움직임이 이어지고 있음을 보여 줍니다. 도이체방크가 기업금융·투자은행 고객을 위한 수탁 서비스를 준비한다는 점은 암호자산을 지속적으로 관리할 고객 자산의 한 범주로 보고 있다는 신호로 읽힙니다. 이런 변화가 쌓이면 기관과 기업이 익숙한 거래 은행을 통해 암호자산을 보관하고 관리할 수 있는 선택지도 넓어질 수 있습니다. 우리나라도 전통 금융기관이 암호자산 관련 사업을 원활하게 추진할 수 있도록 허용되는 업무와 책임 범위를 명확히 하고, 예측 가능한 규제 체계를 마련해야 합니다.",
+      "sources": [
+        {
+          "title": "Deutsche Bank to launch digital asset custody solution for institutional and corporate Clients",
+          "url": "https://www.db.com/news/detail/20260916-deutsche-bank-to-launch-digital-asset-custody-solution-for-institutional-and-corporate-clients"
+        },
+        {
+          "title": "Deutsche Bank plans bitcoin, ether custody for institutional clients in Europe",
+          "url": "https://www.theblock.co/news/business/2026-09-16-deutsche-bank-plans-bitcoin-ether-custody-for-institutional-clients-in-europe-415251"
+        },
+        {
+          "title": "Outlook for digital assets 2026",
+          "url": "https://flow.db.com/Topics/trust-and-securities-services/outlook-for-digital-assets-2026"
+        }
+      ]
+    },
+    {
+      "id": "crypto-news-3e9da9723e34eb60",
+      "slug": "2026-09-17-crypto-news-3e9da9723e",
+      "date_kst": "2026-09-17",
+      "title": "온도 자회사, DTCC 펀드 거래망 가입…기존 판매사와 연결 표준화",
+      "content": "현지시간 9월 16일 미국예탁결제원(DTCC)과 온도파이낸스(Ondo Finance)가 온도의 자회사 오아시스프로마켓츠(Oasis Pro Markets)의 펀드서브(Fund/SERV) 회원 가입을 발표했다. 온도는 금융자산을 블록체인상의 토큰으로 만드는 기술 회사이며, 이번에 가입한 오아시스프로마켓츠는 미국 증권거래위원회(SEC)에 등록된 증권 중개회사이자 대체거래시스템(ATS) 운영사로, 토큰화 투자상품의 판매사 역할을 한다. 펀드서브는 펀드회사와 판매사 사이의 거래를 전자적으로 처리하고 정산하는 기존 금융시장 인프라다. 두 회사는 이번 가입이 토큰화 플랫폼의 첫 펀드서브 참여라고 설명했다.\n오아시스프로마켓츠는 펀드마다 별도 연결을 구축하는 대신 하나의 표준 연결을 통해 펀드회사와 자산관리 플랫폼, 서비스 제공자와 거래 업무를 연결할 수 있게 됐다. 이 연결은 계좌별 정보와 거래 확인, 서로의 장부를 맞추는 대사, 분배금 지급, 세무·규제 보고에 필요한 정보의 연계를 지원한다. DTCC에 따르면 펀드서브는 미국 뮤추얼펀드 거래 활동의 85% 넘게 처리하는 망이다. 온도는 이 망에 참여함으로써 토큰화 펀드를 기존 펀드 판매 경로에 연결하는 기반을 마련했다고 밝혔다.\n다만 공동 발표에는 펀드서브에서 거래를 시작한 특정 온도 상품이나 첫 거래일이 제시되지 않았다. 이번에 이뤄진 것은 중개회사의 거래망 가입이며, 개별 토큰화 펀드의 판매 개시나 감독당국의 상품 승인과는 구별된다.",
+      "metanomia_thought": "토큰화 펀드가 기존 판매 경로로 들어가려면 자산을 토큰으로 만드는 것 외에도 주문과 계좌, 정산 정보를 주고받을 수 있어야 합니다. 하나의 표준 연결을 이용하는 방식은 펀드마다 연결을 따로 만드는 부담을 줄이고, 기존 판매사가 쓰는 업무 체계와 토큰화 상품을 잇는 데 의미가 있습니다. 이번 가입은 토큰화 금융이 기존 금융망을 대체하는 경로뿐 아니라, 그 유통·정산 체계를 활용해 이용자에게 접근하는 경로도 갖고 있음을 보여 줍니다.",
+      "sources": [
+        {
+          "title": "DTCC's Fund/SERV Adds Ondo Finance as Its First Tokenization Member, Bringing Tokenized Funds Into the Mainstream",
+          "url": "https://www.dtcc.com/press-releases/2026/DTCC-FundSERV-Adds-Ondo-Finance-as-First-Tokenization-Member"
+        },
+        {
+          "title": "Fund Solutions",
+          "url": "https://www.dtcc.com/products-and-services/wealth-investment-solutions/fund-solutions"
+        },
+        {
+          "title": "Ondo’s Oasis Pro Markets Joins DTCC’s Fund/SERV Processing Network",
+          "url": "https://thedefiant.io/converge/tradfi-and-fintech/ondo-s-oasis-pro-markets-joins-dtcc-s-fund-serv-processing-network"
+        }
+      ]
+    },
+    {
+      "id": "crypto-news-0f2e2c4db947301d",
+      "slug": "2026-09-17-crypto-news-0f2e2c4db9",
+      "date_kst": "2026-09-17",
+      "title": "서클, 아크 메인넷 가동…USDC 수수료로 결제·금융·AI 지갑 연결",
+      "content": "현지시간 9월 16일 서클(Circle)이 결제와 금융 거래, 인공지능(AI) 에이전트의 경제 활동을 위한 블록체인 아크(Arc)의 공개 메인넷을 가동했다고 발표했다. 회사는 가동 첫날 100개가 넘는 응용 서비스와 100곳이 넘는 기관·생태계 참여자가 함께한다고 밝혔다. 아크는 기업과 개발자가 결제·환전·대출 같은 서비스를 같은 네트워크에서 연결해 만들 수 있도록 설계됐다. 거래 처리 수수료는 달러 스테이블코인 USDC로 내므로, 이용자가 수수료용으로 별도의 가격 변동이 큰 토큰을 준비할 필요가 없다는 것이 회사의 설명이다. 서클은 네트워크상 거래가 1초 미만에 최종 확정된다고 설명했다. 기존 이더리움 개발 도구와 스마트계약을 활용할 수 있도록 호환성도 갖췄다.\n서클은 스테이블코인 간 24시간 외환 거래를 지원하는 서클 스테이블FX(Circle StableFX)를 아크에서 가동했다고 밝혔다. 회사가 제시한 가동·연동 추진 대상 스테이블코인은 20종이 넘는다. 결제 사업자를 아크의 결제 레이어와 스테이블FX에 연결하는 서클 결제 네트워크(Circle Payments Network)도 연동했다고 밝혔다. 또 아베(Aave)와 모포(Morpho)의 대출 시장, 유니스왑(Uniswap) 등의 거래 서비스를 같은 환경에서 이용할 수 있다고 설명했다. 아크 포털(Arc Portal)에서는 이용자와 AI 에이전트의 지갑을 만들고 자금을 넣을 수 있다. 이용자는 에이전트 지갑의 지출 한도와 권한을 설정해 금융 업무를 맡길 수 있다. 서클 에이전트 스택(Circle Agent Stack)은 이렇게 통제된 지갑과 1센트 미만의 USDC 나노결제를 지원하는 도구다.\n거래 검증은 허가된 검증자가 맡는다. 서클은 자사와 함께 블랙록(BlackRock)·미국예탁결제원(DTCC)·비자(Visa) 등이 포함된 초기 검증자 그룹의 참여가 단계적으로 이뤄질 예정이라고 밝혔다. 기업이 거래 정보나 잔액을 선택적으로 가릴 수 있게 하는 프라이버시 기능은 네트워크 전반에 제공하기 위해 개발 중이다.\n서클은 이번 주 미국에서 아크의 별도 토큰 ARC 초기 공급량 100억개를 기술적으로 생성했으며, 상장기업이 새 레이어1 블록체인의 네트워크 토큰을 생성한 것은 처음이라고 밝혔다. 다만 이번 생성은 ARC를 대중에게 공개 출시하겠다는 약속이 아니라, 2027년 지분증명 방식으로의 전환을 검토하는 과정의 기술적 이정표라고 설명했다. 네트워크 수수료는 계속 USDC로 지급하는 구조다. 아크 고지문에 따르면 이 네트워크는 아크 네트워크 서비시스(Arc Network Services LLC)가 내놓고 허가된 검증자가 운영한다. 고지문에는 아크 네트워크가 규제당국의 검토나 승인을 받지 않았으며 거래 오류나 손실에 대한 구제 수단이 없다는 내용도 담겼다.",
+      "metanomia_thought": "기업이 블록체인을 업무에 도입할 때는 거래 속도뿐 아니라 수수료와 자금, AI의 지출 권한을 함께 관리할 수 있는지가 중요합니다. 결제·환전·대출이 같은 환경에 연결되면 받은 자금을 다른 금융 업무에 이어 쓰는 서비스를 구성하기도 쉬워질 수 있습니다. AI 지갑에 지출 한도와 권한을 붙인 점은 기계가 돈을 보낼 수 있게 하는 기능과 사람이 그 돈의 사용 범위를 정하는 기능을 함께 마련했다는 의미입니다. 이번 가동의 실질적인 변화는 사람과 소프트웨어가 같은 자금과 금융 도구를 이용할 수 있는 실행 환경이 열렸다는 데 있습니다.",
+      "sources": [
+        {
+          "title": "Circle Launches Arc Mainnet, an Economic Operating System for the Internet",
+          "url": "https://www.circle.com/pressroom/circle-launches-arc-mainnet-an-economic-operating-system-for-the-internet"
+        },
+        {
+          "title": "Arc Mainnet Is Live: The Economic OS for the Internet",
+          "url": "https://www.arc.io/blog/arc-economic-os-internet"
+        },
+        {
+          "title": "Arc Network",
+          "url": "https://docs.arc.io/arc-chain.md"
+        },
+        {
+          "title": "Circle launches Arc mainnet with BlackRock and Visa among validators, mints 10 billion ARC tokens",
+          "url": "https://www.theblock.co/news/ecosystems/2026-09-16-circle-launches-arc-mainnet-with-blackrock-and-visa-among-validators-mints-10-billion-arc-tokens-415250"
+        }
+      ]
+    },
     {
       "id": "crypto-news-aaf1976f4248fe4b",
       "slug": "2026-09-16-crypto-news-aaf1976f42",

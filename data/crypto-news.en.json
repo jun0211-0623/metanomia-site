@@ -1,7 +1,95 @@
 {
   "schema_version": "1.0",
-  "generated_at_kst": "2026-09-16T09:37:59+09:00",
+  "generated_at_kst": "2026-09-17T08:41:39+09:00",
   "items": [
+    {
+      "slug": "2026-09-17-crypto-news-8f01121806",
+      "date_kst": "2026-09-17",
+      "title": "U.S. House Tax Committee Advances Crypto Bill; Special Rule Covers Gains or Losses on Fee Payments of $10 or Less",
+      "content": "On September 16 local time, the U.S. House Ways and Means Committee approved the Digital Asset Tax Certainty Act (H.R. 10357) by 38 votes to 5, The Block reported. The bill sets out provisions across seven titles covering taxation of small fees, stablecoin transactions, lending, application of wash-sale rules, mining and staking income, and broker reporting obligations. Chair Jason Smith said the measure was the first tax framework for digital assets after more than a year of bipartisan work.\nOne key provision would prevent a taxpayer from recognizing a gain or loss on the disposal of a crypto asset used to pay certain small fees. For a network fee paid to validate a transaction, the total paid for that validation must be $10 or less. For brokerage, trading, liquidity-provision, and similar fees, the total fees paid in the relevant transaction must be $10 or less, and the fee must be paid in the same kind of crypto asset as the asset disposed of or acquired in that transaction. This would neither exempt every small purchase of goods from tax nor eliminate blockchain fees themselves.\nTraders, brokers, and dealers in crypto assets; businesses that bundle or help validate transactions for others; and people who transferred crypto assets more than 5,000 times in the preceding tax year would generally be excluded from this special rule. Transfers made to pay small fees would not count toward the 5,000-transfer threshold. The bill would apply the fee provision to asset disposals on or after January 1, 2028.\nThe bill also contains a provision restricting taxpayers' ability to deduct losses. It would extend the wash-sale rule that applies to stocks and securities to traded digital assets, while generally excluding qualified dollar stablecoins. If a taxpayer sells an asset at a loss and acquires a substantially identical asset within 30 days before or after the sale, the loss could not be deducted immediately and would instead be reflected in the replacement asset's basis. Assets received through validation activities such as mining or staking, and regular acquisitions included in ordinary income, would not count as reacquisitions for this purpose. The bill sets September 15, 2026, as the starting date for disposals subject to this provision, earlier than the start date proposed for the fee rule.\nThe bill would also classify income from validation activities, including mining and staking, as ordinary income. According to The Block, Representative Steven Horsford, who worked on the bill, said it still did not resolve when mining and staking income should be recognized. Another provision would prevent a trustee from losing a trust's tax status solely because the trustee has authority to stake the crypto assets it holds. That special treatment would not apply if the trustee conducts digital-asset transaction validation as a business.\nThe committee vote is a step in the House legislative process, not the enactment of the proposed tax rules; further steps, including consideration by the full House, remain. The Block reported that attention would next turn to the Senate Finance Committee.",
+      "metanomia_thought": "Making crypto assets easier to use for payments depends on simpler tax treatment as well as network performance. If every small fee paid with a crypto asset requires a gain-or-loss calculation on disposal, a technically simple transaction remains cumbersome for the user. The bill takes an approach that separates fee payments from the realization of investment losses, applying different tax rules to different uses of crypto assets. Both the businesses building payment services and the lawmakers deciding which transactions receive lighter tax treatment shape how practical those assets are to use.",
+      "sources": [
+        {
+          "title": "Amendment in the Nature of a Substitute to H.R. 10357 — Digital Asset Tax Certainty Act",
+          "url": "https://waysandmeans.house.gov/wp-content/uploads/2026/09/AINS-to-HR-10357.pdf"
+        },
+        {
+          "title": "Markup of H.R. 10357, H.R. 10334, H.R. 6130, H.R. 5439, H.R. 4093, H.R. 10346, and H.R. 10356",
+          "url": "https://waysandmeans.house.gov/event/markup-of-h-r-10357-h-r-10334-h-r-6130-h-r-5439-h-r-4093-h-r-10346-h-r-10356/"
+        },
+        {
+          "title": "House panel approves first federal crypto tax framework, one day after Senate's Clarity Act stumbles",
+          "url": "https://www.theblock.co/news/regulation/2026-09-16-house-panel-approves-first-federal-crypto-tax-framework-one-day-after-senates-clarity-act-stumbles-415293"
+        }
+      ]
+    },
+    {
+      "slug": "2026-09-17-crypto-news-4c8a26b0a7",
+      "date_kst": "2026-09-17",
+      "title": "Deutsche Bank Plans Crypto Custody for European Institutions and Businesses This Year, Subject to Regulatory Steps",
+      "content": "On September 16 local time, Deutsche Bank announced plans to launch a crypto-asset custody service for European institutions and businesses this year. The first customers' use of the service is conditional on completion of the relevant regulatory steps. Under the custody service, the bank would manage wallets and private keys on customers' behalf to hold assets and enable transfers to third parties. The bank said this would reduce customers' burden of building and maintaining their own custody infrastructure. Initial supported assets are expected to include bitcoin, ether, and the stablecoins USDC, EURC, and EURAU. EURAU is a euro stablecoin issued by AllUnity, a joint venture involving Deutsche Bank's asset-management affiliate DWS. Target customers include businesses using the bank's corporate-banking and investment-banking divisions, asset managers, hedge funds, custodians, brokers, and government entities; access will be subject to the bank's criteria, due-diligence requirements, and risk appetite. The bank said its security design includes secure key generation, hardware-based protection of private keys, segregation of duties, multiple approvals, separate warm and cold storage, redundant technology, and controlled backup and recovery procedures.\nGerald Podobnik, co-head of corporate banking, said crypto assets were a complement rather than a replacement for the traditional financial system, offering a new route that could coexist with established market infrastructure while benefiting from the trust and safeguards provided by a regulated financial institution. The bank plans to expand the range of supported assets or handle tokenized financial products depending on customer demand, product approvals, risk management, and regulatory procedures. It said the launch timing, regions, supported assets, and scope could change because of regulatory requirements or internal approvals. It also stated that crypto assets held in custody do not receive the same deposit protection as eligible bank deposits.",
+      "metanomia_thought": "The announcement points to a continued move by traditional banks to bring crypto assets into their existing financial services. Deutsche Bank's preparations for custody aimed at corporate and investment-banking customers suggest it sees crypto assets as a category of client property requiring ongoing management. As such services develop, institutions and businesses may have more options to hold and manage crypto assets through banks they already work with. South Korea also needs to clarify which crypto-asset activities traditional financial institutions may undertake and where their responsibilities lie, while establishing a predictable regulatory framework.",
+      "sources": [
+        {
+          "title": "Deutsche Bank to launch digital asset custody solution for institutional and corporate Clients",
+          "url": "https://www.db.com/news/detail/20260916-deutsche-bank-to-launch-digital-asset-custody-solution-for-institutional-and-corporate-clients"
+        },
+        {
+          "title": "Deutsche Bank plans bitcoin, ether custody for institutional clients in Europe",
+          "url": "https://www.theblock.co/news/business/2026-09-16-deutsche-bank-plans-bitcoin-ether-custody-for-institutional-clients-in-europe-415251"
+        },
+        {
+          "title": "Outlook for digital assets 2026",
+          "url": "https://flow.db.com/Topics/trust-and-securities-services/outlook-for-digital-assets-2026"
+        }
+      ]
+    },
+    {
+      "slug": "2026-09-17-crypto-news-3e9da9723e",
+      "date_kst": "2026-09-17",
+      "title": "Ondo Subsidiary Joins DTCC's Fund/SERV Network, Standardizing Connections to Existing Fund Distributors",
+      "content": "On September 16 local time, the Depository Trust & Clearing Corporation (DTCC) and Ondo Finance announced that Ondo subsidiary Oasis Pro Markets had become a member of Fund/SERV. Ondo is a technology company that turns financial assets into tokens on a blockchain. Oasis Pro Markets, the entity that joined the network, is a broker-dealer registered with the U.S. Securities and Exchange Commission (SEC) and an alternative trading system (ATS) operator; it acts as a distributor of tokenized investment products. Fund/SERV is established financial-market infrastructure that electronically processes and settles transactions between fund companies and distributors. The companies described this as the first participation by a tokenization platform in Fund/SERV.\nInstead of building a separate connection for every fund, Oasis Pro Markets can use one standardized connection to conduct transaction-related business with fund companies, wealth-management platforms, and service providers. The connection supports the exchange of account-level information, trade confirmations, reconciliation between parties' books, distribution payments, and information needed for tax and regulatory reporting. According to DTCC, Fund/SERV processes more than 85% of U.S. mutual-fund transaction activity. Ondo said participation in the network lays the groundwork for connecting tokenized funds to existing fund-distribution channels.\nThe joint announcement did not identify a particular Ondo product that had begun trading through Fund/SERV or give a date for a first trade. What has taken place is a broker-dealer's admission to a processing network, which is distinct from the launch of sales of any individual tokenized fund or regulatory approval of a product.",
+      "metanomia_thought": "For tokenized funds to reach existing distribution channels, firms must be able to exchange orders, account data, and settlement information as well as put assets into token form. A single standardized connection reduces the need to build separate links for each fund and helps connect tokenized products with the systems existing distributors already use. This membership shows that tokenized finance can reach users not only by replacing established financial networks, but also by using their distribution and settlement infrastructure.",
+      "sources": [
+        {
+          "title": "DTCC's Fund/SERV Adds Ondo Finance as Its First Tokenization Member, Bringing Tokenized Funds Into the Mainstream",
+          "url": "https://www.dtcc.com/press-releases/2026/DTCC-FundSERV-Adds-Ondo-Finance-as-First-Tokenization-Member"
+        },
+        {
+          "title": "Fund Solutions",
+          "url": "https://www.dtcc.com/products-and-services/wealth-investment-solutions/fund-solutions"
+        },
+        {
+          "title": "Ondo’s Oasis Pro Markets Joins DTCC’s Fund/SERV Processing Network",
+          "url": "https://thedefiant.io/converge/tradfi-and-fintech/ondo-s-oasis-pro-markets-joins-dtcc-s-fund-serv-processing-network"
+        }
+      ]
+    },
+    {
+      "slug": "2026-09-17-crypto-news-0f2e2c4db9",
+      "date_kst": "2026-09-17",
+      "title": "Circle Launches Arc Mainnet, Linking Payments, Finance and AI Wallets with USDC Fees",
+      "content": "On September 16 local time, Circle announced the launch of the public mainnet of Arc, a blockchain designed for payments, financial transactions, and the economic activity of artificial intelligence (AI) agents. The company said more than 100 applications and more than 100 institutions and ecosystem participants were involved on the first day. Arc is designed to let businesses and developers build connected payment, foreign-exchange, and lending services on the same network. Transaction fees are paid in the dollar stablecoin USDC, so users do not need to hold a separate, volatile token for fees, according to Circle. The company said transactions on the network reach finality in less than one second. Arc is also compatible with existing Ethereum development tools and smart contracts.\nCircle said Circle StableFX, which supports round-the-clock foreign-exchange trading between stablecoins, is live on Arc. The company identified more than 20 stablecoins for launch or integration. It also said Circle Payments Network, which connects payment providers to Arc's payment layer and StableFX, has been integrated. Lending markets from Aave and Morpho and trading services including Uniswap can be used in the same environment, the company said. Arc Portal lets users create and fund wallets for themselves and AI agents. Users can set spending limits and permissions for agent wallets before assigning them financial tasks. Circle Agent Stack is a set of tools that supports these controlled wallets and USDC nanopayments of less than one cent.\nPermissioned validators handle transaction validation. Circle said participation by its initial validator group, which includes BlackRock, the Depository Trust & Clearing Corporation (DTCC), and Visa alongside Circle, is expected to be phased in. A privacy feature that would let businesses selectively conceal transaction information or balances is still being developed for network-wide availability.\nCircle said it technically created an initial supply of 10 billion ARC tokens in the United States this week, and claimed to be the first publicly listed company to create a network token for a new layer-1 blockchain. It stressed that this creation is a technical milestone in considering a transition to proof of stake in 2027, not a commitment to a public launch of ARC. Network fees will continue to be paid in USDC. According to Arc's disclosures, the network is offered by Arc Network Services LLC and operated by permissioned validators. The disclosures also say that the Arc network has not been reviewed or approved by regulators and that there is no recourse for transaction errors or losses.",
+      "metanomia_thought": "When businesses adopt a blockchain, they need to manage fees, funds, and AI spending authority as well as transaction speed. Connecting payments, foreign exchange, and lending in one environment could make it easier to build services that put received funds to work in other financial activities. Spending limits and permissions on AI wallets combine the ability for software to send money with a person's ability to define how that money may be used. The practical change in this launch is the opening of an execution environment in which people and software can use the same funds and financial tools.",
+      "sources": [
+        {
+          "title": "Circle Launches Arc Mainnet, an Economic Operating System for the Internet",
+          "url": "https://www.circle.com/pressroom/circle-launches-arc-mainnet-an-economic-operating-system-for-the-internet"
+        },
+        {
+          "title": "Arc Mainnet Is Live: The Economic OS for the Internet",
+          "url": "https://www.arc.io/blog/arc-economic-os-internet"
+        },
+        {
+          "title": "Arc Network",
+          "url": "https://docs.arc.io/arc-chain.md"
+        },
+        {
+          "title": "Circle launches Arc mainnet with BlackRock and Visa among validators, mints 10 billion ARC tokens",
+          "url": "https://www.theblock.co/news/ecosystems/2026-09-16-circle-launches-arc-mainnet-with-blackrock-and-visa-among-validators-mints-10-billion-arc-tokens-415250"
+        }
+      ]
+    },
     {
       "slug": "2026-09-16-crypto-news-aaf1976f42",
       "date_kst": "2026-09-16",
