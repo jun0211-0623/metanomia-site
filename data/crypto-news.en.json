@@ -1,7 +1,87 @@
 {
   "schema_version": "1.0",
-  "generated_at_kst": "2026-09-15T10:51:00+09:00",
+  "generated_at_kst": "2026-09-16T09:37:59+09:00",
   "items": [
+    {
+      "slug": "2026-09-16-crypto-news-aaf1976f42",
+      "date_kst": "2026-09-16",
+      "title": "U.S. Senate Fails to Advance CLARITY Act as 49 Votes in Favor Fall Short of 60-Vote Threshold",
+      "content": "On September 15, local time, a procedural vote in the U.S. Senate to advance consideration of the Digital Asset Market Clarity Act (CLARITY Act) failed. The bill would define the supervisory roles of the U.S. Securities and Exchange Commission (SEC) and the Commodity Futures Trading Commission (CFTC), as well as trading rules, in cryptoasset markets. According to the official roll call, the vote was 49 in favor, 50 against, and one not voting, short of the 60 votes required. This was not a vote on final passage of the bill. It was a vote on whether to end debate on the motion to proceed to the bill and move to the next stage. Some Republicans also voted no, but according to the Senate's record of proceedings, Thom Tillis cast his vote against it so that he could file a motion to reconsider. Immediately after the result was announced, Tillis filed a motion to reconsider the outcome of the procedural vote.\nThe Block reported that President Donald Trump's cryptoasset businesses and conflicts of interest involving public officials were key points of contention. According to The Block, Democratic Senator Mark Warner said he opposed advancing consideration of the bill because conflicts of interest surrounding the president's cryptoasset businesses remained unresolved. The outcome blocked further progress on the bill, but did not mean that it had been definitively rejected. The Block reported that another procedural vote could be held if Senate floor time became available.",
+      "metanomia_thought": "In the process of establishing rules for cryptoasset businesses, both market oversight and conflicts of interest involving public officials are becoming points on which agreement must be reached. Even when votes in favor are secured, some stages, such as this procedural vote, require a separate voting threshold to be met. Support for a bill therefore does not necessarily translate into actual legislative progress. This vote does not put new rules into effect; it shows that the political agreement needed to move deliberations forward has yet to be secured.",
+      "sources": [
+        {
+          "title": "U.S. Senate Roll Call Votes 119th Congress - 2nd Session",
+          "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00234.htm"
+        },
+        {
+          "title": "Senate Daily Press Gallery",
+          "url": "https://www.dailypress.senate.gov/"
+        },
+        {
+          "title": "Clarity Act preliminary vote falls short in Senate amid ethics fight over Trump’s crypto wealth",
+          "url": "https://www.theblock.co/news/regulation/2026-09-15-clarity-act-preliminary-vote-falls-short-in-senate-amid-ethics-fight-over-trumps-crypto-wealth-415010"
+        }
+      ]
+    },
+    {
+      "slug": "2026-09-16-crypto-news-839de0f899",
+      "date_kst": "2026-09-16",
+      "title": "Nasdaq Verafin and Stablecore Combine Monitoring of Bank Transactions and Crypto Asset Flows in Pilot at Selected Institutions",
+      "content": "On September 15, local time, Nasdaq Verafin and Stablecore announced a partnership to detect financial crime by examining bank transactions and digital asset transactions together. Verafin helps financial institutions detect fraud and money laundering, while Stablecore connects stablecoins, tokenized deposits, and other digital assets to the existing systems of banks and credit unions. The companies explained that financial institutions may miss suspicious flows of funds between fiat currencies and digital assets if they lack sufficient visibility into blockchain transactions. Stablecore provides information on digital asset holdings and transactions, while banks supply the necessary data from their core banking systems, which manage customer and account information. Verafin combines information from both systems into a single record for each customer for use in investigations and risk assessments. According to the announcement, Stablecore itself does not hold personally identifiable information. The service is currently being piloted at selected institutions, including Amarillo National Bank. The companies plan to expand the service to their joint customers between the fourth quarter of 2026 and the first quarter of 2027. They said a feature that checks in real time whether the recipient of a digital asset transfer is subject to sanctions will be added after the initial integration.",
+      "metanomia_thought": "Bringing stablecoins into banking requires more than the ability to transfer money. It also requires a system that can put those transactions in the context of existing customer information. When bank customers move money between deposits and digital assets, examining both sets of records together may help identify flows of funds that could easily be missed when each is examined on its own.",
+      "sources": [
+        {
+          "title": "Nasdaq Verafin and Stablecore Partner to Unify Fiat and Digital Asset Financial Crime Detection",
+          "url": "https://www.globenewswire.com/news-release/2026/09/15/3361998/6948/en/nasdaq-verafin-and-stablecore-partner-to-unify-fiat-and-digital-asset-financial-crime-detection.html"
+        },
+        {
+          "title": "Nasdaq Verafin and Stablecore Help Banks Spot Financial Crime Across Cash and Crypto",
+          "url": "https://www.pymnts.com/partnerships/2026/nasdaq-verafin-stablecore-help-banks-spot-financial-crime-across-cash-crypto/"
+        }
+      ]
+    },
+    {
+      "slug": "2026-09-16-crypto-news-52614bb845",
+      "date_kst": "2026-09-16",
+      "title": "Velocity Raises Additional $10 Million from Visa, Circle, and Others to Expand Stablecoin Settlement Infrastructure",
+      "content": "On September 15, local time, stablecoin payments and treasury management company Velocity announced that it had secured an additional $10 million in Series A funding. The company said the extension brought its total Series A funding to $48 million, following the previously announced $38 million round. Participants in the investment included Visa Ventures, Circle Ventures, Ripple, and Haun Ventures. Velocity connects financial institutions and businesses to stablecoin services for settlement, liquidity management, and treasury operations without requiring them to replace their existing systems. The company said it provides capabilities to move funds in fiat currencies and stablecoins and connect to existing treasury management systems. Through these capabilities, it aims to create a structure for sending and settling funds outside banking hours. Reducing the burden of setting aside funds in advance for payments is another of the company's stated goals. The company said it plans to use the new funding to expand its platform and its business of providing stablecoin infrastructure to issuers, acquirers, payment service providers, financial institutions, and merchants. It said the investment reflected a shared view with its investors that broader use of stablecoins requires infrastructure connecting them to existing banking, treasury management, and settlement systems.",
+      "metanomia_thought": "For businesses to use stablecoins, they need not only to send funds quickly but also to manage those funds within their existing treasury operations. If Velocity achieves its goal of reducing banking-hour constraints and prefunding requirements, businesses may gain greater flexibility in managing funds tied up for payments. This investment provides capital to expand that connecting infrastructure. The amount raised does not, by itself, indicate the scale of use or the cost savings achieved.",
+      "sources": [
+        {
+          "title": "Visa, Circle and Haun Ventures Back Velocity in Series A Extension, Bringing Total Series A Funding to $48 million",
+          "url": "https://www.businesswire.com/news/home/20260915301952/en/Visa-Circle-and-Haun-Ventures-Back-Velocity-in-Series-A-Extension-Bringing-Total-Series-A-Funding-to-$48-million"
+        },
+        {
+          "title": "Velocity",
+          "url": "https://www.velocity.xyz/"
+        },
+        {
+          "title": "Visa and Circle Back Stablecoin Payments Platform Velocity",
+          "url": "https://www.pymnts.com/news/investment-tracker/2026/visa-and-circle-back-stablecoin-payments-platform-velocity/"
+        }
+      ]
+    },
+    {
+      "slug": "2026-09-16-crypto-news-1ffd05fced",
+      "date_kst": "2026-09-16",
+      "title": "U.S. Prosecutors Charge Two Former Robinhood Engineers with Fraud, Alleging Perpetual Futures Trades Using Nonpublic Listing Information",
+      "content": "On September 15, local time, the U.S. Attorney's Office for the Southern District of New York released two criminal complaints against Hefu Chai and Huaisong Xiang, who had worked as engineers at financial services company Robinhood. Prosecutors alleged that the two used nonpublic information about Robinhood Crypto's listing plans and timing, obtained through their work between 2025 and 2026, for personal trading. According to the allegations, they traded perpetual futures contracts on tokens scheduled to be listed, using Hyperliquid, which describes itself as a decentralized exchange. Perpetual futures are derivatives with no expiration date whose gains and losses depend on changes in the price of the underlying asset, rather than direct purchases of that asset.\nAccording to the complaints, listing information was shared in an internal chat room accessible only to designated employees. The company's insider trading policy prohibited those employees from making related trades on Robinhood or other platforms before listing announcements and for 24 hours afterward. The complaint against Xiang described an instance in March 2025 in which, after receiving listing information about POPCAT, he took a position betting on a price increase and closed it at a profit after actual trading had begun on Robinhood but before the public announcement.\nProsecutors alleged that each man earned more than $50,000 through such trades. Each was charged with one count of commodities fraud and one count of wire fraud. Prosecutors said that company insiders who improperly use nonpublic information to trade cannot avoid the application of securities and commodities laws even if the instruments traded are perpetual futures or tokenized securities. They explicitly stated that the claims in the complaints are allegations only and that both men are presumed innocent unless and until proven guilty in court. According to The Block, Robinhood said it immediately conducted an internal investigation into the matter, reported it to law enforcement and regulators, and would continue to cooperate with the investigation.",
+      "metanomia_thought": "The case illustrates how the value of listing information held by one company can translate into trading profits in derivatives markets outside that company. The conduct described by prosecutors involves employees with access to inside information betting on price movements on another platform, making it difficult to explain the full chain of events from the company's own trading records alone. The focus of the case is less on the fact that trading took place on a blockchain than on whether confidential information obtained through work was used for personal trading, and those allegations remain to be proven in criminal proceedings.",
+      "sources": [
+        {
+          "title": "Two Robinhood Employees Charged With Fraud",
+          "url": "https://www.justice.gov/usao-sdny/pr/two-robinhood-employees-charged-fraud"
+        },
+        {
+          "title": "United States v. Huaisong Xiang — Sealed Complaint, 26 MAG 3718",
+          "url": "https://www.justice.gov/usao-sdny/media/1461276/dl"
+        },
+        {
+          "title": "DOJ charges Robinhood former engineers with front-running crypto listings on Hyperliquid",
+          "url": "https://www.theblock.co/news/regulation/2026-09-15-doj-charges-robinhood-engineers-front-running-crypto-listings-hyperliquid-414865"
+        }
+      ]
+    },
     {
       "slug": "2026-09-15-crypto-news-ff867ba9cd",
       "date_kst": "2026-09-15",
