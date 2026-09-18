@@ -1,7 +1,78 @@
 {
   "schema_version": "1.0",
-  "generated_at_kst": "2026-09-17T08:41:39+09:00",
+  "generated_at_kst": "2026-09-18T10:58:25.401+09:00",
   "items": [
+    {
+      "slug": "2026-09-18-crypto-news-df1468dcea",
+      "date_kst": "2026-09-18",
+      "title": "U.S. SEC Grants Tokenized Listed-Stock Trading Venues a Five-Year Conditional Exemption from Exchange Registration",
+      "content": "On September 17 local time, the U.S. Securities and Exchange Commission (SEC) granted blockchain-based venues trading tokenized U.S. listed stocks a five-year conditional exemption from the securities-exchange registration requirement. A tokenized listed stock represents ownership of an existing share through a token on a blockchain. Venues meeting the specified conditions may operate without registering as securities exchanges through September 17, 2031.\nEligible tokens must carry the same rights as the underlying shares, including dividends and voting rights; synthetic products that merely track share prices are excluded. Even if a venue uses a public blockchain, only authorized participants who have passed identity and sanctions screening may trade. The exemption applies to trading previously issued shares and does not permit a venue to issue new securities.\nTo trade shares tokenized by a third party unaffiliated with the issuer, a venue must notify the issuer in writing. Trading may begin only after at least 30 days have passed since the issuer received the notice; if the issuer objects in writing during that period, the shares cannot be traded on that venue.\nLimits also apply to the number of stocks and trading volume. If a venue exceeds the volume limit for the same stock a second time after an initial breach, it must halt trading in that stock for three months; volume across affiliated venues is combined when calculating the limit. Trading in a tokenized stock must also halt if trading in the underlying stock is halted on its listing exchange. A venue operating under the exemption is neither registered with nor approved by the SEC and must say so in its disclosures.",
+      "metanomia_thought": "The measure opens a route to trading shares on a blockchain while preserving rights attached to the stock, including dividends and votes. Yet a public blockchain does not remove the requirement for authorized participation, and the issuer's objection process and the existing exchange's trading halts still apply. It can be read as an effort to test a new trading service by changing the technology used for share transactions while retaining shareholder rights and market oversight rules.",
+      "sources": [
+        {
+          "title": "SEC Issues “Innovation Exemption” to Facilitate the Trading of Tokenized NMS Stock and Request for Comment",
+          "url": "https://www.sec.gov/newsroom/press-releases/2026-90-sec-issues-innovation-exemption-facilitate-trading-tokenized-nms-stock-request-comment"
+        },
+        {
+          "title": "Order Granting Temporary Conditional Exemptive Relief, Pursuant to Section 36(a)(1) of the Securities Exchange Act of 1934, from the Definition of “Exchange” in Section 3(a)(1) of the Exchange Act for the Use of Certain Distributed Ledger Trading Venues",
+          "url": "https://www.sec.gov/files/rules/exorders/2026/34-106402.pdf"
+        },
+        {
+          "title": "SEC Innovation Exemption: Tokenized Securities Trading",
+          "url": "https://www.sec.gov/files/34-106402-fact-sheet.pdf"
+        },
+        {
+          "title": "US securities regulator rolls out five-year exemption for tokenized stock trading",
+          "url": "https://www.reuters.com/world/us-securities-regulator-rolls-out-five-year-exemption-tokenized-stock-trading-2026-09-17/"
+        }
+      ]
+    },
+    {
+      "slug": "2026-09-18-crypto-news-cfa2f80136",
+      "date_kst": "2026-09-18",
+      "title": "S&P Global Agrees to Acquire OpenZeppelin to Strengthen Smart-Contract Risk Assessment",
+      "content": "On September 17 local time, financial information and credit-ratings company S&P Global announced an agreement to acquire smart-contract security company OpenZeppelin. Founded in 2015, OpenZeppelin audits smart contracts and supports blockchain development, and it provides an open-source contract library reused by many projects. S&P Global said the acquisition would strengthen its ability to assess risks associated with smart contracts and blockchain technology.\nAccording to the company, OpenZeppelin's library has supported more than $37 trillion in cumulative transfers and is used by most of the largest stablecoins and tokenized funds. OpenZeppelin has also completed more than 900 security audit engagements and identified more than 10,000 vulnerabilities before production. These are company-reported cumulative usage and work metrics, not the value of assets owned or managed by OpenZeppelin.\nAfter the acquisition closes, OpenZeppelin is expected to operate as a separate business unit under its existing name. Co-founder and CEO Demian Brener will continue to lead the business and report to Yann Le Pallec, president of S&P Global Ratings. S&P Global had also announced on September 14 that it was leading an extension of digital-asset data company Kaiko's Series B funding round.\nThe transaction remains subject to closing conditions; ownership had not transferred at the time of the announcement. The parties did not disclose the purchase price or an expected closing date.",
+      "metanomia_thought": "Even when an issuer's credit and reserve assets are sound, confidence in a tokenized financial product can falter if the code executing its transactions fails. The acquisition can be read as a move to treat code verification as an essential capability in assessing financial-product risk. As financial products move onto blockchains, both the objects of assessment and the expertise required of rating providers are changing.",
+      "sources": [
+        {
+          "title": "S&P Global Announces Agreement to Acquire OpenZeppelin",
+          "url": "https://press.spglobal.com/2026-09-17-S-P-Global-Announces-Agreement-to-Acquire-OpenZeppelin"
+        },
+        {
+          "title": "S&P Global Leads Strategic Investment in Kaiko, Deepening Commitment to Digital Assets and On-chain Markets",
+          "url": "https://press.spglobal.com/2026-09-14-S-P-Global-Leads-Strategic-Investment-in-Kaiko,-Deepening-Commitment-to-Digital-Assets-and-On-chain-Markets"
+        },
+        {
+          "title": "S&P Global acquires OpenZeppelin to bridge credit ratings with onchain code security",
+          "url": "https://www.coindesk.com/business/2026/09/17/ratings-giant-s-and-p-global-acquires-openzeppelin-in-tokenized-finance-risk-push"
+        }
+      ]
+    },
+    {
+      "slug": "2026-09-18-crypto-news-526496ef1f",
+      "date_kst": "2026-09-18",
+      "title": "UK FCA Orders Three London P2P Crypto Premises to Stop Operating Over Suspected Lack of Registration",
+      "content": "On September 17 local time, the UK's Financial Conduct Authority (FCA) announced that it had issued cease-and-desist letters to three London premises suspected of operating unregistered peer-to-peer (P2P) crypto businesses. The action took place on September 10 with tax authority HMRC and the Metropolitan Police Service. P2P trading is a way for individuals to buy and sell crypto assets directly with one another. According to the FCA, individuals trading on their own behalf do not need to register, but those providing the service as a business in the UK must register under anti-money-laundering rules. The FCA said no P2P crypto business currently operating in the UK is registered.\nThe authorities carried out the action under the Money Laundering, Terrorist Financing and Transfer of Funds Regulations 2017. The FCA said unregistered P2P businesses could be used to move illicit funds while avoiding controls intended to detect and prevent money laundering. The action followed the FCA's first joint operation in April, when it targeted eight premises with HMRC and the South West Regional Organised Crime Unit. The FCA said evidence collected then is being used for criminal investigations and other enforcement action. It did not disclose any arrests or charges linked to the September operation or name the three premises.",
+      "metanomia_thought": "Exchanging crypto assets directly without a centralized exchange does not remove the UK's anti-money-laundering registration duty when the activity is offered as a business. Given the FCA's distinction that individuals trading on their own behalf need no registration, the target of this action is not P2P trading itself but premises suspected of offering it commercially without registration. The operation shows that the regulatory boundary turns on the nature of the business, not simply on the trading method.",
+      "sources": [
+        {
+          "title": "FCA and partners continues crackdown on illegal crypto trading",
+          "url": "https://www.fca.org.uk/news/press-releases/fca-and-partners-continues-crackdown-illegal-crypto-trading"
+        },
+        {
+          "title": "FCA leads first crackdown on illegal crypto trading",
+          "url": "https://www.fca.org.uk/news/press-releases/fca-leads-first-crackdown-illegal-crypto-trading"
+        },
+        {
+          "title": "UK watchdog targets three London sites suspected of illegal crypto trading",
+          "url": "https://www.reuters.com/world/uk-watchdog-targets-three-london-sites-latest-crackdown-illegal-crypto-trading-2026-09-17/"
+        },
+        {
+          "title": "UK signals end of 'light-touch' era with multi-agency raid on peer-to-peer crypto hubs",
+          "url": "https://www.coindesk.com/policy/2026/09/17/uk-signals-end-of-light-touch-era-with-multi-agency-raid-on-peer-to-peer-crypto-hubs"
+        }
+      ]
+    },
     {
       "slug": "2026-09-17-crypto-news-8f01121806",
       "date_kst": "2026-09-17",

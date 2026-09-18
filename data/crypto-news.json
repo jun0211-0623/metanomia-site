@@ -1,7 +1,81 @@
 {
   "schema_version": "1.0",
-  "generated_at_kst": "2026-09-17T08:41:39+09:00",
+  "generated_at_kst": "2026-09-18T10:58:25.401+09:00",
   "items": [
+    {
+      "id": "crypto-news-df1468dceaa02a6d",
+      "slug": "2026-09-18-crypto-news-df1468dcea",
+      "date_kst": "2026-09-18",
+      "title": "미 SEC, 토큰화 상장주식 거래 플랫폼에 5년간 거래소 등록 의무 조건부 면제",
+      "content": "현지시간 9월 17일 미국 증권거래위원회(SEC)가 토큰화된 미국 상장주식을 거래하는 블록체인 기반 플랫폼의 증권거래소 등록 의무를 5년간 조건부로 면제했다. 토큰화 상장주식은 기존 주식에 대한 소유권을 블록체인상의 토큰으로 표시한 것이다. 정해진 조건을 충족한 플랫폼은 2031년 9월 17일까지 증권거래소로 등록하지 않고 운영할 수 있다.\n대상 토큰은 배당과 의결권 등 기존 주식과 같은 권리를 제공해야 하며, 주가 움직임만 따라가는 합성상품은 제외된다. 플랫폼이 공개 블록체인을 사용하더라도 실제 거래는 신원 확인과 제재 대상 여부 심사를 거쳐 허가받은 참가자만 할 수 있다. 이번 면제는 이미 발행된 주식의 거래에 적용되며, 플랫폼에서 증권을 새로 발행하는 것은 허용하지 않는다.\n발행사와 계열 관계가 없는 제3자가 토큰화한 주식을 거래하려면 플랫폼은 발행사에 서면으로 알려야 한다. 발행사가 통지를 받은 날부터 최소 30일이 지나야 거래를 시작할 수 있으며, 그 기간에 발행사가 서면으로 이의를 제기하면 해당 플랫폼에서 거래할 수 없다.\n거래 종목 수와 거래량에도 한도가 적용된다.같은 종목의 거래량 한도를 처음 초과한 뒤 다시 넘기면 그 종목의 거래를 3개월간 중단해야 하며, 한도는 계열 플랫폼의 거래량과 합산해 계산한다. 기초주식이 상장된 거래소에서 거래가 정지되면 토큰화 주식 거래도 함께 중단해야 한다. 이 면제에 따라 운영하는 플랫폼은 SEC에 등록되거나 승인받은 것이 아니며, 그 사실을 공지에 밝혀야 한다.",
+      "metanomia_thought": "이번 조치는 배당과 의결권 등 주식에 따르는 권리를 토큰에 담아 블록체인에서 거래할 수 있는 길을 넓혔습니다. 다만 공개 블록체인을 쓰더라도 거래 참여에는 허가가 필요하고, 발행사의 이의 절차와 기존 거래소의 거래정지 규칙도 적용됩니다. 주식 거래에 쓰는 기술을 바꾸면서도 주주의 권리와 시장 관리 규칙을 유지하는 방식으로 새로운 거래 서비스를 시험하려는 접근으로 읽힙니다.",
+      "sources": [
+        {
+          "title": "SEC Issues “Innovation Exemption” to Facilitate the Trading of Tokenized NMS Stock and Request for Comment",
+          "url": "https://www.sec.gov/newsroom/press-releases/2026-90-sec-issues-innovation-exemption-facilitate-trading-tokenized-nms-stock-request-comment"
+        },
+        {
+          "title": "Order Granting Temporary Conditional Exemptive Relief, Pursuant to Section 36(a)(1) of the Securities Exchange Act of 1934, from the Definition of “Exchange” in Section 3(a)(1) of the Exchange Act for the Use of Certain Distributed Ledger Trading Venues",
+          "url": "https://www.sec.gov/files/rules/exorders/2026/34-106402.pdf"
+        },
+        {
+          "title": "SEC Innovation Exemption: Tokenized Securities Trading",
+          "url": "https://www.sec.gov/files/34-106402-fact-sheet.pdf"
+        },
+        {
+          "title": "US securities regulator rolls out five-year exemption for tokenized stock trading",
+          "url": "https://www.reuters.com/world/us-securities-regulator-rolls-out-five-year-exemption-tokenized-stock-trading-2026-09-17/"
+        }
+      ]
+    },
+    {
+      "id": "crypto-news-cfa2f80136e8ce08",
+      "slug": "2026-09-18-crypto-news-cfa2f80136",
+      "date_kst": "2026-09-18",
+      "title": "S&P글로벌, 오픈제플린 인수 합의…스마트계약 위험 평가 역량 강화",
+      "content": "현지시간 9월 17일 금융정보·신용평가 회사 S&P글로벌(S&P Global)이 스마트계약 보안회사 오픈제플린(OpenZeppelin)을 인수하기로 합의했다고 발표했다. 오픈제플린은 2015년 설립돼 블록체인 프로젝트의 스마트계약을 점검하고 개발을 지원하며, 여러 프로젝트가 재사용하는 오픈소스 계약 라이브러리도 제공한다. S&P글로벌은 이번 인수로 스마트계약과 블록체인 기술의 위험을 평가하는 역량을 강화하겠다고 밝혔다.\n회사에 따르면 오픈제플린의 라이브러리는 누적으로 37조달러가 넘는 전송을 뒷받침했으며, 최대 규모 스테이블코인과 토큰화 펀드 대부분에 쓰인다. 오픈제플린은 또 900건이 넘는 보안 점검 업무를 수행하고 실제 운영에 들어가기 전에 1만건이 넘는 취약점을 찾아냈다. 이 수치들은 회사가 밝힌 누적 사용·업무 지표이며, 오픈제플린이 보유하거나 관리하는 자산 규모는 아니다.\n인수가 끝나면 오픈제플린은 기존 이름을 유지한 별도 사업부로 운영될 예정이다. 공동창업자이자 최고경영자인 데미안 브레너(Demian Brener)는 사업을 계속 이끌며 S&P글로벌 레이팅스의 얀 르 팔렉(Yann Le Pallec) 사장에게 보고한다. S&P글로벌은 앞서 9월 14일 암호자산 데이터 회사 카이코(Kaiko)의 시리즈 B 추가 투자유치를 주도한다고도 발표한 바 있다.\n이번 거래는 종결 조건을 충족해야 하며, 발표 시점에는 소유권 이전이 끝나지 않았다. 양측은 인수 금액과 종결 예정일을 공개하지 않았다.",
+      "metanomia_thought": "토큰화 금융상품은 발행사의 신용과 준비자산이 충분해도, 거래를 실행하는 코드에 문제가 생기면 신뢰가 흔들릴 수 있습니다. 이번 인수는 코드 검증을 금융상품의 위험 평가에 필요한 역량으로 받아들이는 움직임으로 읽힙니다. 금융상품이 블록체인으로 옮겨가면서, 무엇을 평가할지뿐 아니라 평가기관이 어떤 전문성을 갖춰야 하는지도 달라지고 있습니다.",
+      "sources": [
+        {
+          "title": "S&P Global Announces Agreement to Acquire OpenZeppelin",
+          "url": "https://press.spglobal.com/2026-09-17-S-P-Global-Announces-Agreement-to-Acquire-OpenZeppelin"
+        },
+        {
+          "title": "S&P Global Leads Strategic Investment in Kaiko, Deepening Commitment to Digital Assets and On-chain Markets",
+          "url": "https://press.spglobal.com/2026-09-14-S-P-Global-Leads-Strategic-Investment-in-Kaiko,-Deepening-Commitment-to-Digital-Assets-and-On-chain-Markets"
+        },
+        {
+          "title": "S&P Global acquires OpenZeppelin to bridge credit ratings with onchain code security",
+          "url": "https://www.coindesk.com/business/2026/09/17/ratings-giant-s-and-p-global-acquires-openzeppelin-in-tokenized-finance-risk-push"
+        }
+      ]
+    },
+    {
+      "id": "crypto-news-526496ef1f4155f4",
+      "slug": "2026-09-18-crypto-news-526496ef1f",
+      "date_kst": "2026-09-18",
+      "title": "영국 FCA, 런던 P2P 암호자산 사업장 3곳에 영업 중단 요구…미등록 의심",
+      "content": "현지시간 9월 17일 영국 금융행위감독청(FCA)이 미등록 개인 간(P2P) 암호자산 영업이 의심되는 런던의 세 사업장에 영업 중단을 요구하는 서한을 발부했다고 발표했다. 이번 조치는 9월 10일 세무당국(HMRC), 런던광역경찰청(Metropolitan Police Service)과 함께 실시했다. P2P 거래는 개인들이 서로 직접 암호자산을 사고파는 방식이다. FCA에 따르면 개인 자격으로 하는 P2P 거래에는 등록이 필요 없지만, 영국에서 이를 사업으로 제공하려면 자금세탁방지 규정에 따른 등록이 필요하다. FCA는 현재 영국에서 영업 중인 P2P 암호자산 사업자 가운데 등록된 곳은 한 곳도 없다고 밝혔다.\n당국은 2017년 자금세탁·테러자금조달·자금이체 규정에 따라 이번 조치를 실시했다. FCA는 미등록 P2P 사업이 자금세탁을 탐지하고 막기 위한 통제를 피하면서 불법 자금을 옮기는 통로로 이용될 수 있다고 설명했다. 이번 단속은 지난 4월 FCA가 HMRC, 남서부지역 조직범죄수사대와 함께 사업장 8곳을 상대로 벌인 첫 합동 단속에 뒤이은 것이다. FCA는 당시 수집한 증거가 형사수사와 다른 집행 조치에 활용되고 있다고 밝혔다. 다만 이번 9월 단속과 관련한 체포·기소 사실이나 대상 사업장의 이름은 공개하지 않았다.",
+      "metanomia_thought": "중앙 거래소 없이 당사자가 직접 암호자산을 교환하는 방식이라도, 이를 사업으로 제공하면 영국의 자금세탁방지 등록 의무가 적용됩니다. 개인 자격의 거래에는 등록이 필요 없다는 FCA 설명을 감안하면, 이번 조치가 겨냥한 것은 P2P 거래 자체가 아니라 등록 없이 이를 영업으로 제공한 것으로 의심되는 사업장입니다. 이번 단속은 P2P라는 거래 방식보다 실제 영업의 성격을 기준으로 규제를 적용한다는 점을 보여줍니다.",
+      "sources": [
+        {
+          "title": "FCA and partners continues crackdown on illegal crypto trading",
+          "url": "https://www.fca.org.uk/news/press-releases/fca-and-partners-continues-crackdown-illegal-crypto-trading"
+        },
+        {
+          "title": "FCA leads first crackdown on illegal crypto trading",
+          "url": "https://www.fca.org.uk/news/press-releases/fca-leads-first-crackdown-illegal-crypto-trading"
+        },
+        {
+          "title": "UK watchdog targets three London sites suspected of illegal crypto trading",
+          "url": "https://www.reuters.com/world/uk-watchdog-targets-three-london-sites-latest-crackdown-illegal-crypto-trading-2026-09-17/"
+        },
+        {
+          "title": "UK signals end of 'light-touch' era with multi-agency raid on peer-to-peer crypto hubs",
+          "url": "https://www.coindesk.com/policy/2026/09/17/uk-signals-end-of-light-touch-era-with-multi-agency-raid-on-peer-to-peer-crypto-hubs"
+        }
+      ]
+    },
     {
       "id": "crypto-news-8f01121806078138",
       "slug": "2026-09-17-crypto-news-8f01121806",
