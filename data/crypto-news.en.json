@@ -1,7 +1,49 @@
 {
   "schema_version": "1.0",
-  "generated_at_kst": "2026-09-18T10:58:25.401+09:00",
+  "generated_at_kst": "2026-09-21T15:48:08.261+09:00",
   "items": [
+    {
+      "slug": "2026-09-21-crypto-news-6a44f4e3ab",
+      "date_kst": "2026-09-21",
+      "title": "U.S. OCC Conditionally Approves Trust Bank Formation or Conversion for Three Crypto Companies",
+      "content": "On September 18 local time, the U.S. Office of the Comptroller of the Currency (OCC) conditionally approved applications by Agora, Catena Labs, and Bastion to form or convert federally chartered trust banks. Agora and Catena Labs plan to establish new trust banks, while Bastion plans to convert an existing New York state trust company subsidiary into a federally chartered trust bank.\nThe three companies are pursuing different businesses. Agora, the issuer of the dollar stablecoin AUSD, plans to offer stablecoin issuance and reserve management, custody, payment, settlement, and investment advisory services through the new bank. After it opens, Agora plans to transfer issuance of AUSD from its Bermuda entity to the new bank. Catena Labs, co-founded by Circle co-founder Sean Neville, describes itself as a financial institution for artificial-intelligence agents. Its new bank plans to provide custody and investment management for fiat currency, securities, and crypto assets, as well as foreign-exchange and clearing services. Bastion issues corporate-branded stablecoins and provides other issuers with technology for issuance, burning, and redemption, as well as reserve management; the assets it may custody will be limited to stablecoins.\nNone of the three banks will be insured by the Federal Deposit Insurance Corporation. For their first three years of operation, the OCC requires Agora and Catena to maintain at least $10 million in base capital each and Bastion at least $6 million. Separately from capital-related liquidity requirements, each must also hold eligible liquid assets sufficient to cover 180 days of operating expenses in a wind-down during the same period. Activities that do not comply with the GENIUS Act and related regulations when they take effect must be adjusted, discontinued, or disposed of as necessary. Agora and Catena must raise their capital within 12 months of approval and begin operations within 18 months, while Bastion must complete its conversion within six months unless the OCC grants an extension.\nThere is also disagreement over the permissible scope of the charters. The Independent Community Bankers of America opposed Agora's application, questioning the activities a trust bank may conduct and competitive parity with existing banks. In its decision, the OCC concluded that Agora's proposed activities are permissible trust-company activities or activities incidental to them. The conditional approvals do not mean the three banks have begun operating; each must satisfy the OCC's conditions, complete the formation or conversion process, and receive final authorization to commence business.",
+      "metanomia_thought": "Stablecoin issuance, enterprise infrastructure, and financial services for AI agents are different businesses, yet all three are converging on the same regulatory route of a federal trust bank charter. This can be read as a broader effort by crypto companies to secure an institutional status that allows them to perform financial functions directly. The disagreement between the ICBA and the OCC centers on how far that route may extend the permissible business of a trust bank. Chartering policy—deciding which businesses receive the status of a bank—is therefore also shaping the business structure of the crypto market.",
+      "sources": [
+        {
+          "title": "Bastion Receives Conditional OCC Approval for a National Trust Bank Charter",
+          "url": "https://bastion.com/article/bastion-receives-conditional-occ-approval"
+        },
+        {
+          "title": "Corporate Decision #1391",
+          "url": "https://www.occ.gov/topics/charters-and-licensing/interpretations-and-decisions/2026/cd1391.pdf"
+        },
+        {
+          "title": "Corporate Decision #1392",
+          "url": "https://www.occ.gov/topics/charters-and-licensing/interpretations-and-decisions/2026/cd1392.pdf"
+        },
+        {
+          "title": "Corporate Decision #1393",
+          "url": "https://www.occ.gov/topics/charters-and-licensing/interpretations-and-decisions/2026/cd1393.pdf"
+        }
+      ]
+    },
+    {
+      "slug": "2026-09-21-crypto-news-1b40b2624f",
+      "date_kst": "2026-09-21",
+      "title": "World Launches ‘World Money,’ Combining Stablecoin Transfers, Trading, and Yield Services",
+      "content": "On September 17 local time, digital identity and crypto-asset project World announced that it had begun rolling out its World Money financial app in more than 150 countries. World, which changed its name from Worldcoin, has brought together stablecoin storage and transfers, trading, and access to asset-management services in the app. The app is provided by Tools for Humanity, co-founded by Sam Altman, and is based on a self-custodial wallet in which users manage their own assets. According to the company, the app supports stablecoin balances linked to eight currencies, including the U.S. dollar. Users can send supported crypto assets abroad using the recipient's World username. In some regions, users can also receive salary or other funds through individual virtual accounts supported by Bridge. In the United States, a top-up feature connected to payments company Stripe lets users pay with Apple Pay and add stablecoins to the app. The company said this process typically takes only a few minutes. The trading menu allows users to buy and sell supported assets through connected exchanges. In the asset-management menu, users can deposit supported assets, including the Worldcoin token WLD and stablecoins, into programs powered by Morpho to earn rewards. Users who have completed World ID verification through an Orb device receive temporarily boosted rewards in some programs. However, available features, assets, and eligibility vary by country, and services provided by external companies are subject to those companies' terms and conditions.",
+      "metanomia_thought": "For stablecoins to function in everyday finance, the process of moving money into a wallet and reusing received funds needs to be convenient. World Money can be read as an effort to reduce that friction by connecting familiar payment methods and multiple financial services in one app. Adding enhanced rewards for users who prove they are human is a choice to use financial-service benefits as an incentive to participate in World ID verification.",
+      "sources": [
+        {
+          "title": "Introducing World Money: a financial super app for humans",
+          "url": "https://world.org/blog/announcements/world-money"
+        },
+        {
+          "title": "World launches 'World Money' super app with stablecoins, Stripe integration and boosted rewards",
+          "url": "https://www.theblock.co/news/business/2026-09-17-world-launches-world-money-super-app-stablecoins-stripe-integration-boosted-rewards-415394"
+        }
+      ]
+    },
     {
       "slug": "2026-09-18-crypto-news-df1468dcea",
       "date_kst": "2026-09-18",

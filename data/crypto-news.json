@@ -1,7 +1,51 @@
 {
   "schema_version": "1.0",
-  "generated_at_kst": "2026-09-18T10:58:25.401+09:00",
+  "generated_at_kst": "2026-09-21T15:48:08.261+09:00",
   "items": [
+    {
+      "id": "crypto-news-6a44f4e3ab346342",
+      "slug": "2026-09-21-crypto-news-6a44f4e3ab",
+      "date_kst": "2026-09-21",
+      "title": "미 통화감독청, 암호자산 기업 3곳 신탁은행 설립·전환 조건부 승인",
+      "content": "현지시간 9월 18일 미국 통화감독청(OCC)이 아고라(Agora), 카테나랩스(Catena Labs), 바스티온(Bastion)의 연방 인가 신탁은행 설립·전환을 조건부로 승인했다. 아고라와 카테나랩스는 새 신탁은행을 설립하고, 바스티온은 기존 뉴욕주 신탁회사 자회사를 연방 인가 신탁은행으로 전환하는 경우다. \n세 회사가 추진하는 사업은 서로 다르다. 달러 스테이블코인 AUSD 발행사인 아고라는 새 은행에서 스테이블코인 발행과 준비금 관리, 수탁·결제·정산·투자자문 업무를 제공할 계획이다. 개업 후에는 AUSD의 발행 주체를 버뮤다 법인에서 새 은행으로 옮길 예정이다. 카테나랩스는 서클(Circle) 공동창업자 션 네빌(Sean Neville)이 공동 설립한 회사로, 인공지능(AI) 에이전트를 위한 금융기관을 표방한다. 새 은행에서는 법정화폐·증권·암호자산의 수탁과 투자관리, 환전·청산 등의 업무를 제공할 계획이다. 바스티온은 기업 브랜드의 스테이블코인을 발행하고 다른 발행사에 발행·소각·상환 기술과 준비금 관리 등을 제공하며, 수탁 대상 자산은 스테이블코인으로 한정된다. \n세 은행 모두 연방예금보험공사(FDIC)의 보험 대상은 아니다. OCC는 영업 첫 3년간 아고라와 카테나에 각각 최소 1,000만달러, 바스티온에 최소 600만달러의 기본자본을 유지하도록 했다. 자본 관련 유동성 요건과 별도로, 사업을 정리하는 상황에서 180일 운영비를 감당할 적격 유동자산도 같은 기간 확보해야 한다. 앞으로 효력이 생기는 지니어스법(GENIUS Act)과 관련 규정에 맞지 않는 업무는 필요한 범위에서 조정하거나 중단·처분해야 한다. 아고라와 카테나는 승인 후 12개월 안에 자본을 조달하고 18개월 안에 영업을 시작해야 하며, 바스티온은 OCC의 별도 연장이 없으면 6개월 안에 전환을 마쳐야 한다. \n인가 범위를 둘러싼 이견도 있다. 미국 독립지역은행연합(ICBA)은 아고라의 신청에 반대하며 신탁은행에 허용할 수 있는 업무 범위와 기존 은행과의 경쟁 형평성을 문제 삼았다. OCC는 결정문에서 아고라가 제시한 업무가 신탁회사 업무 또는 그 관련 업무로 허용된다고 판단했다. 이번 승인은 세 은행의 영업 개시를 뜻하지 않으며, 각각 OCC가 정한 조건과 설립·전환 절차를 마치고 최종 영업 허가를 받아야 한다.",
+      "metanomia_thought": "스테이블코인 발행과 기업용 인프라, AI 에이전트 금융처럼 서로 다른 사업이 연방 신탁은행이라는 공통된 인가 경로로 모이고 있습니다. 이는 암호자산 기업이 금융업무를 직접 수행할 제도적 지위를 확보하려는 흐름으로 읽힙니다. ICBA와 OCC의 이견은 이 경로에서 어디까지를 신탁은행의 업무로 인정할 것인지에 걸려 있습니다. 어떤 사업에 은행의 지위를 부여하느냐를 정하는 인가 정책이 암호자산 시장의 사업 구조도 함께 만들고 있습니다.",
+      "sources": [
+        {
+          "title": "Bastion Receives Conditional OCC Approval for a National Trust Bank Charter",
+          "url": "https://bastion.com/article/bastion-receives-conditional-occ-approval"
+        },
+        {
+          "title": "Corporate Decision #1391",
+          "url": "https://www.occ.gov/topics/charters-and-licensing/interpretations-and-decisions/2026/cd1391.pdf"
+        },
+        {
+          "title": "Corporate Decision #1392",
+          "url": "https://www.occ.gov/topics/charters-and-licensing/interpretations-and-decisions/2026/cd1392.pdf"
+        },
+        {
+          "title": "Corporate Decision #1393",
+          "url": "https://www.occ.gov/topics/charters-and-licensing/interpretations-and-decisions/2026/cd1393.pdf"
+        }
+      ]
+    },
+    {
+      "id": "crypto-news-1b40b2624f68064e",
+      "slug": "2026-09-21-crypto-news-1b40b2624f",
+      "date_kst": "2026-09-21",
+      "title": "월드, 금융앱 ‘월드 머니’ 출시…스테이블코인 송금·거래·운용 통합",
+      "content": "현지시간 9월 17일 디지털 인증·암호자산 프로젝트 월드(World)가 금융앱 월드 머니(World Money)를 150개국 이상에 순차적으로 제공하기 시작했다고 발표했다. 기존 월드코인(Worldcoin)에서 이름을 바꾼 월드는 이번 앱에 스테이블코인 보관과 송금, 거래, 자산 운용 서비스 연결 기능을 모았다. 앱은 샘 올트먼(Sam Altman)이 공동 창업한 툴스포휴머니티(Tools for Humanity)가 제공하며, 이용자가 자산을 직접 관리하는 자기보관형 지갑을 기반으로 한다. 회사에 따르면 앱은 달러 등 8개 통화에 연동된 스테이블코인 잔액을 지원한다. 이용자는 상대방의 월드 사용자 이름으로 지원 대상 암호자산을 해외에 보낼 수 있다. 일부 지역에서는 브리지(Bridge)가 지원하는 개인별 가상계좌로 급여나 자금을 받는 기능도 이용할 수 있다. 미국에서는 결제회사 스트라이프(Stripe)와 연결한 충전 기능을 제공해, 애플페이(Apple Pay)로 결제하고 스테이블코인을 앱에 넣을 수 있도록 했다. 회사는 이 과정이 통상 수분 안에 이뤄진다고 설명했다. 거래 메뉴에서는 연결된 거래소를 통해 지원 대상 자산을 사고팔 수 있다. 자산 운용 메뉴에서는 모포(Morpho) 기반 프로그램에 월드코인 토큰 WLD나 스테이블코인 등 지원 자산을 맡겨 보상을 받을 수 있다. 오브(Orb) 기기를 통한 월드 ID(World ID) 인증을 마친 이용자에게는 일부 프로그램에서 한시적으로 추가 보상을 제공한다. 다만 실제 이용 가능한 기능과 자산, 이용 자격은 국가별로 다르며, 외부 업체가 제공하는 서비스에는 해당 업체의 약관과 조건이 적용된다.",
+      "metanomia_thought": "스테이블코인이 일상 금융에 쓰이려면 이용자가 가진 돈을 지갑에 넣고, 받은 자금을 다시 사용하는 과정이 편리해야 합니다. 월드 머니는 익숙한 결제수단과 여러 금융 서비스를 한 앱에 연결해 그 번거로움을 줄이려는 시도로 읽힙니다. 여기에 사람임을 인증한 이용자에게 추가 보상을 주는 설계를 붙인 것은, 금융 서비스의 이용 혜택을 월드 ID 인증에 참여할 유인으로 활용하는 선택입니다.",
+      "sources": [
+        {
+          "title": "Introducing World Money: a financial super app for humans",
+          "url": "https://world.org/blog/announcements/world-money"
+        },
+        {
+          "title": "World launches 'World Money' super app with stablecoins, Stripe integration and boosted rewards",
+          "url": "https://www.theblock.co/news/business/2026-09-17-world-launches-world-money-super-app-stablecoins-stripe-integration-boosted-rewards-415394"
+        }
+      ]
+    },
     {
       "id": "crypto-news-df1468dceaa02a6d",
       "slug": "2026-09-18-crypto-news-df1468dcea",
