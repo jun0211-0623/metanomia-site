@@ -1,7 +1,75 @@
 {
   "schema_version": "1.0",
-  "generated_at_kst": "2026-09-23T15:17:41.278+09:00",
+  "generated_at_kst": "2026-09-23T16:23:51.120+09:00",
   "items": [
+    {
+      "slug": "2026-09-23-crypto-news-ba8528f01a",
+      "date_kst": "2026-09-23",
+      "title": "SoFi Begins Settling Its Card Payments in Stablecoins on Mastercard Network; Merchants Need Not Hold Tokens",
+      "content": "On September 22 local time, U.S. fintech company SoFi announced that it had begun settling debit- and credit-card payments from its subsidiary SoFi Bank using its own stablecoin, SoFiUSD. The settlement applies to transactions on Mastercard's payment network. SoFi described the launch as the first time a U.S. nationally chartered bank has gone live with stablecoin settlement on the Mastercard network.\nSettlement is the process in which financial institutions exchange funds after a card payment. Consumers continue using their cards as before, while SoFiUSD is used to settle the funds behind the transaction. The company said merchants neither need to hold the stablecoin nor change their payment systems.\nMerchants receive the funds through SoFi's corporate-finance platform, Big Business Banking. SoFi CEO Anthony Noto said merchants using the platform can receive settlement funds immediately in a SoFi Bank account and withdraw them as cash without time restrictions or fees.\nSoFiUSD is a crypto asset designed to track the value of the U.S. dollar and is issued by SoFi Bank under the supervision of the U.S. Office of the Comptroller of the Currency. The company said each SoFiUSD can be redeemed for one dollar and is backed by reserves composed primarily of cash. However, it is not a bank deposit even though it is issued by a bank. SoFi disclosed that the token is not protected by the Federal Deposit Insurance Corporation or the Securities Investor Protection Corporation, that the bank does not guarantee its value, and that the value may decline.\nThe service follows a partnership announced by SoFi and Mastercard in March. SoFi projected that transactions processed in SoFiUSD under the card program would exceed $25 billion on an annualized basis. That figure is a projection, not actual processing volume. The announcement did not disclose the actual volume processed since launch, the blockchain used for settlement, or a timetable for expanding to international transactions.",
+      "metanomia_thought": "SoFi and Mastercard chose to change the instrument used to exchange funds behind the scenes while allowing customers to keep using familiar cards. The case shows that, in stablecoin competition, becoming the settlement instrument for transactions handled by existing banks and payment networks may matter as much as attracting consumers directly—and that financial companies with established transaction networks may lead adoption.",
+      "sources": [
+        {
+          "title": "SoFi Becomes First National Bank to Go Live with Stablecoin Settlement across Mastercard’s Global Payments Network",
+          "url": "https://investors.sofi.com/news/news-details/2026/SoFi-Becomes-First-National-Bank-to-Go-Live-with-Stablecoin-Settlement-across-Mastercards-Global-Payments-Network/default.aspx"
+        }
+      ]
+    },
+    {
+      "slug": "2026-09-23-crypto-news-3f2b2bbf77",
+      "date_kst": "2026-09-23",
+      "title": "Canada's Big Six Banks Explore Joint Canadian-Dollar Tokenized Deposit for Transfers Between Financial Institutions",
+      "content": "On September 22 local time, Canada's six largest banks announced that they are exploring the joint development of a Canadian-dollar-based digital currency, beginning with tokenized deposits. The participating banks are Bank of Montreal, Canadian Imperial Bank of Commerce, National Bank of Canada, Royal Bank of Canada, Scotiabank, and TD Bank Group.\nA tokenized deposit represents a bank deposit in the form of a digital token. In the first stage, the banks will examine how tokenized deposits could be transferred efficiently among Canadian financial institutions. Their longer-term goal is to connect them with other digital-asset initiatives. The concept is intended to increase payment speed and efficiency and support payments executed according to preset conditions while preserving existing safety and regulatory oversight.\nThe participating banks said they are working together to maintain the competitiveness and security of Canada's payment infrastructure as digital currencies develop globally. They said other deposit-taking institutions are expected to join at an appropriate time.\nCanada's central bank, RBC, TD, and other participants completed Project Samara in March. In that trial, a C$100 million bond issued by Export Development Canada was traded on a distributed ledger and settled using central-bank deposits.\nThe six banks' announcement concerns an exploration of joint development; neither issuance of the tokenized deposit nor launch of a commercial service has been confirmed. The announcement did not identify a specific operator, technical design, timetable, or role for the Bank of Canada.",
+      "metanomia_thought": "If tokenized deposits cannot be exchanged with other financial institutions, their usefulness remains limited. By making inter-institutional transfers the first objective, Canada's six largest banks are exploring how to extend the use of tokenized deposits beyond each bank's own customer base. The significance of the initiative lies in testing whether banks that compete for customers can jointly build the infrastructure through which money moves.",
+      "sources": [
+        {
+          "title": "Six Canadian banks explore development of a secure CAD tokenized deposit solution",
+          "url": "https://www.newswire.ca/news-releases/six-canadian-banks-explore-development-of-a-secure-cad-tokenized-deposit-solution-840005939.html"
+        },
+        {
+          "title": "Canada's 'Big Six' banks to launch interbank tokenized deposit initiative",
+          "url": "https://www.coindesk.com/business/2026/09/22/canada-s-big-six-banks-unite-to-launch-interbank-tokenized-deposit-initiative"
+        },
+        {
+          "title": "Bank of Canada, Export Development Canada, RBC and TD successfully complete bond issuance experiment using distributed ledger technology",
+          "url": "https://www.bankofcanada.ca/2026/03/bank-canada-export-development-canada-rbc-td-successfully-complete-bond-issuance-experiment-distributed-ledger-technology/"
+        }
+      ]
+    },
+    {
+      "slug": "2026-09-23-crypto-news-30b074236a",
+      "date_kst": "2026-09-23",
+      "title": "Binance Invests $100 Million in Circle and Signs Five-Year Agreement to Expand USDC Distribution",
+      "content": "USDC issuer Circle disclosed in a current report filed with the U.S. Securities and Exchange Commission on September 22 local time that it had received a $100 million investment from Binance and entered a five-year agreement to expand USDC distribution. The agreement was signed and the investment transaction closed on September 17.\nBinance purchased 1,237,011 newly issued shares of Circle's Class A common stock in a private placement at $80.84 per share. It did not buy shares from an existing shareholder; Circle issued new shares to provide capital to the company. According to the filing, the purchase price represented a discount to the market price before closing, but the discount rate was not disclosed.\nUnder the business agreement, Circle will pay Binance a monthly incentive fee equal to a specified percentage of the amount of USDC held through Circle's Modular Smart Contract Wallet service. Binance will undertake activities to promote USDC use on its platform. The new agreement replaces agreements signed in November 2024 and August 2025. Each party may terminate the agreement before the end of its five-year term if specified events occur. As a general rule, Binance may not sell, transfer, or pledge the acquired shares for two years after closing. Hedging and derivative transactions that transfer the economic risk of share ownership to another party are also restricted. Exceptions apply, including certain transfers among affiliates, and the restriction may end before two years if Binance terminates the business agreement under specified conditions. Shareholder rights, including voting rights, remain in effect during the restricted period.\nThe filing did not disclose the incentive-fee rate, the USDC balance on which it will be calculated, or the specific events that permit early termination. The public information therefore is insufficient to calculate the amount Binance will receive.",
+      "metanomia_thought": "Binance receives greater compensation as the USDC balance in wallets covered by the agreement increases. Because it now also owns Circle shares, Binance is both helping expand USDC use and investing in the issuer's growth. An exchange's decision to promote a particular stablecoin can therefore be shaped by incentive agreements and equity relationships with the issuer.",
+      "sources": [
+        {
+          "title": "Form 8-K, Circle Internet Group, Inc. (Date of Report: September 17, 2026)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1876042/000187604226000276/crcl-20260917.htm"
+        },
+        {
+          "title": "Binance takes $100 million Circle stake alongside five-year USDC deal",
+          "url": "https://www.theblock.co/news/business/2026-09-22-binance-takes-100-million-circle-stake-alongside-five-year-usdc-deal-416042"
+        }
+      ]
+    },
+    {
+      "slug": "2026-09-23-crypto-news-1dda3d7b48",
+      "date_kst": "2026-09-23",
+      "title": "European Central Banks Propose Wider Stablecoin Interest Ban Covering Lending and Staking Rewards",
+      "content": "On September 22 local time, the European System of Central Banks (ESCB), comprising the European Central Bank and the national central banks of European Union member states, proposed extending the ban on interest paid on stablecoins to rewards delivered through lending and staking. The proposal appeared in its response to the European Commission's consultation on a review of the EU Markets in Crypto-Assets Regulation (MiCA). The response also proposed replacing requirements to hold stablecoin reserves in bank deposits with requirements for short-term liquidity.\nMiCA currently prohibits stablecoin issuers and crypto-asset service providers from paying interest to holders. The ESCB said the ban should also apply to crypto-asset lending, borrowing, and staking, which currently fall outside MiCA's scope. This would cover arrangements that combine services or alter the form of rewards while producing an effect equivalent to interest payments. The response said decentralized-finance services could circumvent the ban by turning stablecoins into yield-bearing products through lending, staking, and similar activities.\nFor reserves, the ESCB proposed eliminating the minimum proportion that must be held as bank deposits and instead requiring issuers to hold specified proportions of assets maturing within one business day and five business days. It said concentrating reserves in bank deposits could allow mass stablecoin redemptions to transmit liquidity pressure to banks because issuers might withdraw deposits all at once to repay customers. The ESCB said the European Banking Authority's draft technical standards could serve as the starting point for the specific liquidity ratios, but that further analysis is needed.\nThe response is a non-binding policy proposal; no new prohibition or reserve requirement has taken effect. The Commission's consultation closes on September 30. After reviewing the feedback, the Commission will decide whether to submit amendments to MiCA.",
+      "metanomia_thought": "The proposal would increase constraints on the ways stablecoins can provide returns while giving issuers more flexibility in how they manage reserves. It seeks to block routes that provide users with interest-like rewards, while managing reserves according to how quickly funds for redemptions can be made available rather than according to the share held in bank deposits. The approach distinguishes between functions to permit and risks to control as policymakers define the role stablecoins may play in financial markets.",
+      "sources": [
+        {
+          "title": "ESCB response to the European Commission’s targeted consultation on the Markets in Crypto-Assets Regulation (MiCAR)",
+          "url": "https://www.ecb.europa.eu/press/consultationresponse/pdf/ecb.conresp202609_micarreview.de.pdf"
+        },
+        {
+          "title": "ECB calls for tougher EU crypto rules and wider ban on stablecoin interest",
+          "url": "https://www.euronews.com/business/2026/09/22/ecb-calls-for-tougher-eu-crypto-rules-and-wider-ban-on-stablecoin-interest"
+        }
+      ]
+    },
     {
       "slug": "2026-09-22-crypto-news-addffe1e1b",
       "date_kst": "2026-09-22",

@@ -1,7 +1,79 @@
 {
   "schema_version": "1.0",
-  "generated_at_kst": "2026-09-23T15:17:41.278+09:00",
+  "generated_at_kst": "2026-09-23T16:23:51.120+09:00",
   "items": [
+    {
+      "id": "crypto-news-ba8528f01a2edf2e",
+      "slug": "2026-09-23-crypto-news-ba8528f01a",
+      "date_kst": "2026-09-23",
+      "title": "소파이, 마스터카드망에서 자사 카드대금 스테이블코인 정산 개시…가맹점은 코인 보유 불필요",
+      "content": "현지시간 9월 22일 미국 핀테크 기업 소파이(SoFi)가 자회사 소파이 은행(SoFi Bank)의 체크카드·신용카드 결제대금을 자체 스테이블코인 SoFiUSD로 정산하기 시작했다고 발표했다. 마스터카드(Mastercard) 결제망을 이용하는 거래가 대상이다. 소파이는 미국 연방 인가 은행 가운데 마스터카드망에서 스테이블코인 정산을 시작한 첫 사례라고 설명했다.\n정산은 카드 결제가 이뤄진 뒤 금융기관들이 대금을 주고받는 과정이다. 소비자는 기존처럼 카드를 사용하고, 그 뒤의 대금 정산에 SoFiUSD가 쓰인다. 회사는 가맹점도 스테이블코인을 보유하거나 결제 시스템을 바꿀 필요가 없다고 밝혔다.\n가맹점이 대금을 받는 창구는 소파이의 기업금융 플랫폼 ‘빅 비즈니스 뱅킹(Big Business Banking)’이다. 앤서니 노토(Anthony Noto) 소파이 최고경영자는 이 플랫폼을 이용하는 가맹점이 소파이 은행 계좌로 정산 대금을 즉시 받고, 시간 제약과 수수료 없이 현금으로 인출할 수 있다고 설명했다.\nSoFiUSD는 달러와 가치가 연동되도록 만든 암호자산으로, 미국 통화감독청(OCC)의 감독을 받는 소파이 은행이 발행한다. 회사는 SoFiUSD 1개를 1달러로 상환할 수 있으며, 주로 현금으로 구성된 준비자산이 이를 뒷받침한다고 설명했다. 다만 은행이 발행했더라도 은행예금은 아니다. 소파이는 이 토큰이 연방예금보험공사(FDIC)나 증권투자자보호공사(SIPC)의 보호 대상이 아니며, 은행이 가치를 보증하지 않고 가치가 하락할 수도 있다고 고지했다.\n이번 서비스는 소파이와 마스터카드가 지난 3월 발표한 협력에 따라 시작됐다. 소파이는 해당 카드 프로그램에서 SoFiUSD로 처리할 거래 규모가 연간 환산 기준 250억달러를 넘을 것으로 예상했다. 이는 실제 처리 실적이 아닌 예상치다. 이번 발표에는 가동 이후 실제 처리액과 정산에 사용한 블록체인, 해외 거래로의 확대 일정은 제시되지 않았다.",
+      "metanomia_thought": "소파이와 마스터카드는 고객이 익숙한 카드를 그대로 쓰는 동안, 그 뒤에서 대금을 주고받는 수단을 바꾸는 방식을 택했습니다. 이 사례는 스테이블코인 경쟁에서 소비자를 직접 모으는 능력만큼 기존 은행과 결제망이 처리하는 거래의 정산 수단이 되는 일이 중요하며, 이미 거래망을 가진 금융회사가 그 확산을 주도할 가능성이 있음을 보여줍니다.",
+      "sources": [
+        {
+          "title": "SoFi Becomes First National Bank to Go Live with Stablecoin Settlement across Mastercard’s Global Payments Network",
+          "url": "https://investors.sofi.com/news/news-details/2026/SoFi-Becomes-First-National-Bank-to-Go-Live-with-Stablecoin-Settlement-across-Mastercards-Global-Payments-Network/default.aspx"
+        }
+      ]
+    },
+    {
+      "id": "crypto-news-3f2b2bbf77c8e24c",
+      "slug": "2026-09-23-crypto-news-3f2b2bbf77",
+      "date_kst": "2026-09-23",
+      "title": "캐나다 6대 은행, 캐나다달러 토큰화 예금 공동 개발 검토…금융기관 간 이전 목표",
+      "content": "현지시간 9월 22일 캐나다 6대 은행이 캐나다달러 기반 디지털 화폐의 공동 개발을 검토하고 있으며, 첫 사업으로 토큰화 예금을 추진한다고 발표했다. 참여 은행은 몬트리올은행(BMO), 캐나다제국상업은행(CIBC), 캐나다내셔널은행(National Bank of Canada), 캐나다왕립은행(RBC), 스코샤은행(Scotiabank), TD뱅크그룹(TD Bank Group)이다.\n토큰화 예금은 은행 예금을 디지털 토큰 형태로 표현한 것이다. 은행들은 첫 단계에서 토큰화 예금을 캐나다 금융기관 사이에서 효율적으로 이전하는 방안을 검토한다. 장기적으로는 다른 디지털자산 사업과 연결하는 것을 목표로 한다. 기존의 안전성과 규제 감독을 유지하면서 결제 속도와 효율을 높이고, 미리 정한 조건에 따라 결제가 이뤄지는 기능도 제공하겠다는 구상이다.\n참여 은행들은 디지털 화폐가 세계적으로 발전하는 가운데 캐나다 결제 인프라의 경쟁력과 안전성을 유지하기 위해 협력한다고 설명했다. 다른 예금취급기관도 적절한 시점에 참여할 것으로 예상한다고 밝혔다.\n캐나다에서는 앞서 중앙은행과 RBC·TD 등이 지난 3월 사마라(Project Samara) 시험을 마쳤다. 이 시험에서는 캐나다수출개발공사(EDC)가 발행한 1억캐나다달러 규모 채권을 분산원장에서 거래하고, 중앙은행 예금으로 대금을 결제했다.\n이번 6대 은행의 발표는 공동 개발 검토에 관한 것으로, 토큰화 예금 발행이나 상용 서비스 출시가 확정된 것은 아니다. 구체적인 운영주체와 기술 방식, 일정, 캐나다 중앙은행의 참여 여부는 이번 발표에 제시되지 않았다.",
+      "metanomia_thought": "예금을 토큰으로 바꿔도 다른 금융기관과 주고받을 수 없다면 사용 범위는 제한됩니다. 캐나다 6대 은행이 금융기관 간 이전을 첫 목표로 삼은 것은 토큰화 예금의 활용도를 개별 은행의 고객 기반 너머로 넓히려는 접근으로 읽힙니다. 은행들이 고객을 놓고 경쟁하면서도 돈이 오가는 기반은 공동으로 마련할 수 있을지 살핀다는 점이 이번 검토의 의미입니다.",
+      "sources": [
+        {
+          "title": "Six Canadian banks explore development of a secure CAD tokenized deposit solution",
+          "url": "https://www.newswire.ca/news-releases/six-canadian-banks-explore-development-of-a-secure-cad-tokenized-deposit-solution-840005939.html"
+        },
+        {
+          "title": "Canada's 'Big Six' banks to launch interbank tokenized deposit initiative",
+          "url": "https://www.coindesk.com/business/2026/09/22/canada-s-big-six-banks-unite-to-launch-interbank-tokenized-deposit-initiative"
+        },
+        {
+          "title": "Bank of Canada, Export Development Canada, RBC and TD successfully complete bond issuance experiment using distributed ledger technology",
+          "url": "https://www.bankofcanada.ca/2026/03/bank-canada-export-development-canada-rbc-td-successfully-complete-bond-issuance-experiment-distributed-ledger-technology/"
+        }
+      ]
+    },
+    {
+      "id": "crypto-news-30b074236abc6793",
+      "slug": "2026-09-23-crypto-news-30b074236a",
+      "date_kst": "2026-09-23",
+      "title": "바이낸스, 서클에 1억달러 투자…USDC 유통 확대 위한 5년 계약 체결",
+      "content": "스테이블코인 USDC 발행사 서클(Circle)이 현지시간 9월 22일 미국 증권거래위원회(SEC)에 제출한 수시공시를 통해 바이낸스(Binance)로부터 1억달러의 투자를 받고, USDC 유통 협력을 확대하는 5년 계약을 맺었다고 밝혔다. 계약 체결과 투자 거래 종결은 9월 17일 이뤄졌다.\n바이낸스는 서클이 사모 방식으로 발행한 A종 보통주 123만7,011주를 주당 80.84달러에 매입했다. 기존 주주가 보유한 주식을 산 것이 아니라 서클이 새로 발행한 주식을 인수해 회사에 자금을 제공한 거래다. 공시에 따르면 매입 가격은 거래 종결 전 시장가격보다 할인된 수준이며, 할인율은 제시되지 않았다.\n사업 계약에 따라 서클은 자사의 ‘모듈형 스마트계약 지갑(Modular Smart Contract Wallet)’ 서비스를 통해 보유되는 USDC 금액의 일정 비율을 매달 바이낸스에 인센티브 수수료로 지급한다. 바이낸스는 자사 플랫폼에서 USDC 이용을 촉진하는 활동을 맡는다. 새 계약은 2024년 11월과 2025년 8월 맺은 기존 계약을 대체한다. 양측은 정해진 사유가 발생하면 5년의 계약 기간이 끝나기 전에 각자 계약을 해지할 수 있다. 바이낸스는 원칙적으로 거래 종결 후 2년간 이번에 취득한 주식을 매각·양도하거나 담보로 제공할 수 없다. 주식 보유에 따른 경제적 위험을 다른 쪽에 넘기는 헤지·파생거래도 제한된다. 다만 계열사 간 이전 등에는 예외가 있으며, 바이낸스가 특정 조건에 따라 사업 계약을 해지하면 처분 제한이 2년 전에 끝날 수 있다. 제한 기간에도 의결권을 포함한 주주 권리는 유지된다.\n이번 공시에는 수수료율과 산정 대상 USDC 잔액, 계약을 조기에 해지할 수 있는 구체적인 사유는 제시되지 않았다. 이에 따라 공개된 내용만으로 바이낸스에 지급될 보상액을 계산하기는 어렵다.",
+      "metanomia_thought": "바이낸스는 계약 대상 지갑의 USDC 잔액이 늘어날수록 더 많은 보상을 받습니다. 서클 주식까지 보유하게 된 만큼, USDC 이용 확대를 돕는 동시에 발행사의 성장에도 투자한 셈입니다. 거래소가 특정 스테이블코인의 사용을 장려하는 데는 이처럼 발행사와 맺은 보상 계약과 지분 관계도 작용할 수 있습니다.",
+      "sources": [
+        {
+          "title": "Form 8-K, Circle Internet Group, Inc. (Date of Report: September 17, 2026)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1876042/000187604226000276/crcl-20260917.htm"
+        },
+        {
+          "title": "Binance takes $100 million Circle stake alongside five-year USDC deal",
+          "url": "https://www.theblock.co/news/business/2026-09-22-binance-takes-100-million-circle-stake-alongside-five-year-usdc-deal-416042"
+        }
+      ]
+    },
+    {
+      "id": "crypto-news-1dda3d7b48db3c4a",
+      "slug": "2026-09-23-crypto-news-1dda3d7b48",
+      "date_kst": "2026-09-23",
+      "title": "유럽 중앙은행들, 스테이블코인 이자 금지 확대 제안…대출·스테이킹 통한 보상도 대상",
+      "content": "현지시간 9월 22일 유럽중앙은행(ECB)과 유럽연합(EU) 회원국 중앙은행으로 구성된 유럽중앙은행제도(ESCB)가 스테이블코인 이자 지급 금지를 대출·스테이킹을 통한 보상까지 확대하자고 제안했다. EU 암호자산시장규정(MiCA) 검토를 위한 집행위원회의 의견수렴에 제출한 답변서에서다. 스테이블코인 준비금의 은행 예치 의무를 단기 유동성 확보 요건으로 바꾸자는 제안도 담았다.\n현재 MiCA는 스테이블코인 발행사와 암호자산 서비스 제공자가 보유자에게 이자를 지급하는 것을 금지한다. ESCB는 이 금지가 현재 MiCA의 규율 밖에 있는 암호자산 대출·차입·스테이킹에도 적용돼야 한다고 밝혔다. 서비스를 결합하거나 보상 방식을 바꿔 이자 지급과 같은 효과를 내는 경우까지 다뤄야 한다는 뜻이다. 답변서는 디파이 서비스가 대출·스테이킹 등을 통해 스테이블코인을 수익이 붙는 상품으로 만들면서 이자 금지를 우회할 수 있다고 지적했다.\n준비금에 대해서는 은행 예금으로 보유해야 하는 최소 비율을 없애고, 1영업일과 5영업일 안에 만기가 돌아오는 자산을 일정 비율 이상 확보하도록 하는 방안을 제시했다. ESCB는 준비금을 은행 예금에 집중하면 스테이블코인의 대규모 상환 요구가 은행의 유동성 압박으로 번질 수 있다고 설명했다. 발행사가 고객에게 돈을 돌려주기 위해 은행 예금을 한꺼번에 인출할 수 있기 때문이다. 구체적인 유동성 비율은 유럽은행감독청(EBA)의 기술기준 초안을 출발점으로 삼되 추가 분석이 필요하다고 밝혔다.\n이번 답변서는 법적 구속력이 없는 정책 제안이며, 새로운 금지나 준비금 요건이 시행된 것은 아니다. 집행위원회의 의견수렴은 9월 30일 마감된다. 집행위원회는 수렴한 의견을 검토해 MiCA 개정안 제출 여부를 판단할 예정이다.",
+      "metanomia_thought": "이번 제안은 스테이블코인으로 수익을 제공하는 방식에는 제약을 늘리면서, 발행사가 준비금을 관리하는 방식에는 선택의 폭을 넓히려는 접근입니다. 이용자에게 이자와 비슷한 보상을 제공하는 우회 경로는 막되, 준비금은 은행 예치 비중보다 상환에 필요한 자금을 얼마나 빨리 확보할 수 있는지로 관리하겠다는 것입니다. 허용할 기능과 통제할 위험을 구분하면서, 스테이블코인이 금융시장에서 맡을 역할을 정하려는 방향으로 읽힙니다.",
+      "sources": [
+        {
+          "title": "ESCB response to the European Commission’s targeted consultation on the Markets in Crypto-Assets Regulation (MiCAR)",
+          "url": "https://www.ecb.europa.eu/press/consultationresponse/pdf/ecb.conresp202609_micarreview.de.pdf"
+        },
+        {
+          "title": "ECB calls for tougher EU crypto rules and wider ban on stablecoin interest",
+          "url": "https://www.euronews.com/business/2026/09/22/ecb-calls-for-tougher-eu-crypto-rules-and-wider-ban-on-stablecoin-interest"
+        }
+      ]
+    },
     {
       "id": "crypto-news-addffe1e1b004a1b",
       "slug": "2026-09-22-crypto-news-addffe1e1b",
