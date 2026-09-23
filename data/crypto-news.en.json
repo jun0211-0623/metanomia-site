@@ -1,7 +1,87 @@
 {
   "schema_version": "1.0",
-  "generated_at_kst": "2026-09-21T15:48:08.261+09:00",
+  "generated_at_kst": "2026-09-23T15:17:41.278+09:00",
   "items": [
+    {
+      "slug": "2026-09-22-crypto-news-addffe1e1b",
+      "date_kst": "2026-09-22",
+      "title": "Circle Launches Bitcoin-Backed USDC Borrowing for Institutions, Connecting to Morpho Lending Markets",
+      "content": "On September 21 local time, Circle announced a new feature in Circle Mint, its platform for institutional customers, that allows users to borrow USDC from external lending markets against Bitcoin collateral. Eligible institutional customers can deposit Bitcoin, receive cirBTC tokens backed one-to-one by the deposited Bitcoin, and use those tokens as collateral.\nCustomers supply cirBTC to an external lending market through a wallet they control and borrow USDC on an overcollateralized basis, providing collateral worth more than the loan. The borrowed USDC is credited to the customer's Circle Mint balance, and repayment allows the cirBTC collateral to be released. Users can borrow USDC through Morpho lending markets operating on the Arc and Ethereum blockchains. Circle said it plans to connect other lending services, including Aave. Interest rates, collateral requirements, liquidation thresholds, and available liquidity are set by the lending market selected by the customer and may change. The feature is designed for institutional customers and is not available to customers in New York.\nThe Bitcoin backing cirBTC is held by Circle National Trust, a federally chartered trust bank. Circle said the Bitcoin is held for the benefit of cirBTC holders, segregated from company assets, and that reserve information is published onchain through Chainlink's proof-of-reserve function. In Arc's official announcement, Circle said lending services are provided by independent third parties and that Circle does not itself originate or underwrite loans or supply the loan funds.",
+      "metanomia_thought": "One way to expand the use of stablecoins is to help companies raise the funds they need in stablecoin form. Circle has brought together Bitcoin custody, issuance of a collateral token, and access to external lending markets so institutions can obtain USDC through its service. The move suggests that a stablecoin issuer is extending its role as a gateway connecting existing customers with financial services.",
+      "sources": [
+        {
+          "title": "Digital Asset-Backed Borrowing Is Now Available in Circle Mint",
+          "url": "https://www.circle.com/blog/digital-asset-backed-borrowing-is-now-available-in-circle-mint"
+        },
+        {
+          "title": "cirBTC Is Now Live on Arc",
+          "url": "https://www.arc.io/blog/cirbtc-is-now-live-on-arc"
+        },
+        {
+          "title": "Circle launches Bitcoin-backed USDC borrowing for institutional clients",
+          "url": "https://cointelegraph.com/news/circle-launches-bitcoin-backed-usdc-borrowing-for-institutional-clients"
+        }
+      ]
+    },
+    {
+      "slug": "2026-09-22-crypto-news-a2eccff429",
+      "date_kst": "2026-09-22",
+      "title": "Coinbase Opens IPO Subscriptions to U.S. Retail Users, Starting with Oura and Favoring Longer-Term Holders",
+      "content": "On September 21 local time, U.S. crypto exchange Coinbase announced a feature allowing U.S. retail users to subscribe through its app for shares in initial public offerings at the offering price. The first offering is Oura's IPO taking place this week. Participation requires a securities account with Coinbase Capital Markets and is currently limited to U.S. residents. Before subscribing, every user must complete an eligibility questionnaire to determine whether restrictions imposed by the Financial Industry Regulatory Authority apply.\nOn the app's IPO page, users submit a Conditional Offer to Buy within the published offering-price range and receive the result after the subscription period closes. Final allocations may be full, partial, or zero, depending on the supply provided by the underwriters and aggregate customer demand. Coinbase said its allocation algorithm favors investors inclined to hold shares for longer periods. Allocated shares may be sold on Coinbase as soon as public trading begins, but a sale within 30 days may restrict the user from participating in IPOs for the following 60 days. Repeated short-term sales may also reduce the size and frequency of future allocations compared with investors who hold for longer.\nThe securities are offered by FINRA-registered broker-dealer Coinbase Capital Markets acting as the user's agent, while Apex Clearing Corporation handles clearing. Coinbase disclosed that Securities Investor Protection Corporation protection does not apply to digital assets or cash held in Coinbase, Inc. accounts. The company described the feature as another step toward becoming an “Everything Exchange.” The launch announcement did not state the fees or the maximum subscription amount per person.",
+      "metanomia_thought": "Coinbase is adding IPO subscriptions and allocations to listed-stock brokerage, extending a customer relationship that began with crypto trading into securities investing within a single app. For a limited-supply product such as an IPO, the chance to receive an allocation in a future offering can itself influence customer behavior. Making a short-term sale affect future subscriptions and allocations asks customers to weigh an immediate selling decision against their next investment opportunity. By widening access to IPO subscriptions while allocating more opportunity to users inclined to hold longer, Coinbase is taking on both the role of enabling investment access and the role of selecting among customers.",
+      "sources": [
+        {
+          "title": "You can now participate in IPOs on Coinbase",
+          "url": "https://www.coinbase.com/blog/you-can-now-participate-in-ipos-on-coinbase"
+        },
+        {
+          "title": "IPOs - Introduction",
+          "url": "https://help.coinbase.com/en/coinbase/trading-and-funding/stocks-ipo-intro"
+        }
+      ]
+    },
+    {
+      "slug": "2026-09-22-crypto-news-3163a3c7ed",
+      "date_kst": "2026-09-22",
+      "title": "ECB Launches ‘Pontes’ Tokenized-Asset Settlement Network; Prepares to Invest Own Funds in Tokenized Securities",
+      "content": "On September 21 local time, the European Central Bank (ECB) announced the launch of Pontes, which settles inter-institutional transactions in tokenized assets using central bank money. The ECB said the same day that it had also begun preparations to invest a small portion of its own funds in tokenized securities.\nTokenization is the issuance or representation of assets such as bonds and funds as digital tokens recorded on distributed ledger technology (DLT). The ECB said public- and private-sector participants in its 2024 trials had indicated that broad use of the technology would require access to central bank money as a risk-free settlement asset. Pontes is a project of the Eurosystem, comprising the ECB and the national central banks of the euro area, and connects market DLT platforms to TARGET services, the euro settlement infrastructure operated by the Eurosystem. It coordinates processing across platforms so that delivery of securities and payment occur together, while final cash settlement is completed in T2, the real-time gross settlement system. Market participants are limited to institutions with access to T2, and operators of DLT platforms seeking a connection must also meet specified eligibility requirements, including authorization and supervision.\nAccording to the ECB, 13 market participants, including Deutsche Bank and the European Investment Bank, and four DLT operators, including Clearstream and SWIAT, have completed onboarding and are ready to use Pontes immediately. Deutsche Bundesbank is also participating as a market participant. Pontes will initially provide core services, with functionality and operating hours to be expanded in stages toward expected full implementation by 2028. Alongside Pontes, the Eurosystem is pursuing the Appia project to develop a blueprint for a DLT-based financial ecosystem by 2028.\nThe ECB's initial investments will target euro-denominated tokenized securities issued by central, regional, or local governments and agencies in the euro area, as well as European supranational institutions. Payments for purchases are expected to settle through Pontes in central bank money. The ECB said direct investment would let it gain end-to-end experience spanning trade execution, settlement, and system and portfolio management. Its own-funds portfolio is managed separately from monetary-policy assets and generates income used to cover ECB operating expenses other than costs related to supervisory work. After preparations are complete, the Executive Board will decide the detailed operating arrangements and timing of the investment. The announcements did not state whether any transaction occurred on the day Pontes launched, the amount settled, or the amount the ECB will invest.",
+      "metanomia_thought": "As tokenized finance expands, the connection between platforms that record assets and systems that provide final cash settlement becomes increasingly important. Pontes connects market DLT platforms to the existing central-bank settlement network, preserving the role of central bank money in a new trading environment. The ECB's preparations to invest its own funds can be read as an effort to use the new network directly and develop practical experience with trading and settlement.",
+      "sources": [
+        {
+          "title": "Eurosystem brings central bank money to tokenised finance",
+          "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr260921~e754847a7b.en.html"
+        },
+        {
+          "title": "ECB to invest part of own funds in tokenised securities, with settlement via Pontes",
+          "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr260921_1~5a011ecbea.en.html"
+        },
+        {
+          "title": "Pontes",
+          "url": "https://www.ecb.europa.eu/paym/target/pontes/html/index.en.html"
+        }
+      ]
+    },
+    {
+      "slug": "2026-09-22-crypto-news-0ccf91bc0a",
+      "date_kst": "2026-09-22",
+      "title": "Hana Bank Issues $100 Million Digital Bond via Euroclear, Completing Settlement on Issuance Day",
+      "content": "Hana Bank said it issued a $100 million, five-year foreign-currency digital bond on September 18 through Euroclear's blockchain-based Digital Financial Market Infrastructure (D-FMI). The bank described it as the first digital-bond issuance by a Korean financial institution directly using Euroclear's blockchain infrastructure and the first same-day settlement (T+0) in Korea's foreign-currency bond issuance market.\nAccording to Hana Bank, allocation of the bonds and transfer of funds, processes that typically take three to five business days, were handled on the blockchain and completed on the issuance date. Standard Chartered served as sole arranger, handling the bond's structuring, issuance, and sale to investors. The issuance used documentation from Hana Bank's existing Global Medium Term Note program. The bank said institutional investors could use their existing Euroclear accounts and trading systems without opening separate digital-asset accounts or completing complex additional procedures.\nAccording to Euroclear, D-FMI handles the issuance and distribution of digital securities and settlement at issuance on a blockchain. The bonds are subsequently moved to Euroclear Bank's existing settlement platform, where secondary-market transactions are settled. The same-day settlement in this case was the initial settlement in which investors paid for and received the bonds at issuance. Hana Bank's release did not disclose the issue yield, the composition of investors, or whether the bonds had subsequently traded in the secondary market.",
+      "metanomia_thought": "For digital bonds to become a practical funding instrument, investor access matters alongside settlement speed. This issuance processed the bond's creation and initial settlement on a blockchain while allowing investors to continue using familiar accounts and trading systems. The significance of the case lies in connecting the new technology to the existing market without placing the full burden of adoption on investors.",
+      "sources": [
+        {
+          "title": "하나은행, 1억불 디지털채권 발행…발행·결제 하루만에",
+          "url": "https://www.mt.co.kr/finance/2026/09/21/2026092108561062489"
+        },
+        {
+          "title": "“국내 최초 채권 당일결제”...하나銀, 1억달러 외화 디지털채권 발행",
+          "url": "https://www.fnnews.com/news/202609210831147504"
+        },
+        {
+          "title": "D-FMI: Digital Financial Market Infrastructure",
+          "url": "https://www.euroclear.com/services/en/issuer-services/digital-financial-market-infrastructure.html"
+        }
+      ]
+    },
     {
       "slug": "2026-09-21-crypto-news-6a44f4e3ab",
       "date_kst": "2026-09-21",

@@ -1,7 +1,91 @@
 {
   "schema_version": "1.0",
-  "generated_at_kst": "2026-09-21T15:48:08.261+09:00",
+  "generated_at_kst": "2026-09-23T15:17:41.278+09:00",
   "items": [
+    {
+      "id": "crypto-news-addffe1e1b004a1b",
+      "slug": "2026-09-22-crypto-news-addffe1e1b",
+      "date_kst": "2026-09-22",
+      "title": "서클, 기관용 비트코인 담보 USDC 차입 기능 출시…모포 대출시장 연결",
+      "content": "현지시간 9월 21일 서클(Circle)이 기관 고객용 플랫폼 서클 민트(Circle Mint)에 비트코인을 담보로 외부 대출시장에서 USDC를 빌릴 수 있는 기능을 도입했다고 발표했다. 이용 요건을 충족한 기관 고객은 비트코인을 예치하고, 이를 1대1로 뒷받침하는 토큰 cirBTC를 발행받아 담보로 활용할 수 있다.\n고객은 자신이 통제하는 지갑을 통해 cirBTC를 외부 대출시장에 맡기며, 대출액보다 높은 가치의 담보를 제공하는 초과담보 방식으로 USDC를 빌린다. 빌린 USDC는 고객의 서클 민트 잔액으로 들어오고, 상환하면 cirBTC 담보를 해제할 수 있다. 이용자는 아크(Arc)와 이더리움(Ethereum) 블록체인에서 운영되는 모포(Morpho) 대출시장을 통해 USDC를 빌릴 수 있다. 서클은 앞으로 아베(Aave) 등 다른 대출 서비스도 연결할 계획이라고 밝혔다. 금리와 담보 요건, 청산 기준, 이용 가능한 유동성은 고객이 선택한 대출시장에서 정해지며 바뀔 수 있다. 이 기능은 기관 고객을 대상으로 하며 뉴욕 고객에게는 제공되지 않는다. \ncirBTC를 뒷받침하는 비트코인은 연방 인가 신탁은행인 서클 내셔널 트러스트(Circle National Trust)가 보관한다. 회사는 해당 비트코인이 cirBTC 보유자의 이익을 위해 보유되고 회사 자산과 분리되며, 준비자산 정보는 체인링크(Chainlink)의 준비금 증명 기능을 통해 블록체인에 공개된다고 설명했다. 서클은 아크 공식 발표에서 대출 서비스는 독립된 제3자가 제공하며, 자사가 직접 대출을 실행하거나 심사하고 대출 자금을 공급하지 않는다고 밝혔다.",
+      "metanomia_thought": "스테이블코인의 쓰임을 넓히는 한 방법은 기업이 필요한 자금을 스테이블코인으로 조달할 수 있도록 돕는 것입니다. 서클은 비트코인 보관과 담보 토큰 발행, 외부 대출시장 이용을 연결해 기관이 USDC를 확보하는 절차를 자사 서비스 안에 묶었습니다. 이는 스테이블코인 발행사가 기존 고객과 금융 서비스를 잇는 창구로 사업 범위를 넓히는 움직임으로 읽힙니다.",
+      "sources": [
+        {
+          "title": "Digital Asset-Backed Borrowing Is Now Available in Circle Mint",
+          "url": "https://www.circle.com/blog/digital-asset-backed-borrowing-is-now-available-in-circle-mint"
+        },
+        {
+          "title": "cirBTC Is Now Live on Arc",
+          "url": "https://www.arc.io/blog/cirbtc-is-now-live-on-arc"
+        },
+        {
+          "title": "Circle launches Bitcoin-backed USDC borrowing for institutional clients",
+          "url": "https://cointelegraph.com/news/circle-launches-bitcoin-backed-usdc-borrowing-for-institutional-clients"
+        }
+      ]
+    },
+    {
+      "id": "crypto-news-a2eccff429c8a821",
+      "slug": "2026-09-22-crypto-news-a2eccff429",
+      "date_kst": "2026-09-22",
+      "title": "코인베이스, 미국 개인 고객에 공모주 청약 서비스 출시…첫 대상은 오우라, 장기 보유자 배정 우대",
+      "content": "현지시간 9월 21일 미국 암호자산 거래소 코인베이스(Coinbase)가 미국 개인 이용자가 앱에서 기업공개(IPO) 공모주를 공모가에 청약할 수 있는 기능을 도입했다고 발표했다. 첫 대상은 이번 주 진행되는 오우라(Oura)의 IPO다. 청약하려면 코인베이스 캐피털 마켓츠(Coinbase Capital Markets)의 증권계좌가 있어야 하며, 현재 미국 거주자만 이용할 수 있다. 모든 이용자는 청약 전에 미국 금융산업규제국(FINRA)의 제한 대상 여부를 확인하는 자격 설문을 작성해야 한다. \n이용자는 앱의 IPO 페이지에서 공개된 공모가 범위에 ‘조건부 매수 청약(Conditional Offer to Buy)’을 제출하고, 청약 마감 뒤 결과를 받게 된다. 최종 배정은 주관사가 공급하는 물량과 전체 고객 수요에 따라 전량·일부·미배정 가운데 하나로 정해진다. 회사는 자체 배정 알고리즘이 장기 보유 성향의 투자자를 우대한다고 밝혔다. 배정받은 주식은 공개시장 거래가 시작되는 즉시 코인베이스에서 매도할 수 있지만, 30일 안에 팔면 이후 60일 동안 IPO 참여가 제한될 수 있고, 이런 매도를 반복하면 오래 보유한 투자자보다 향후 배정 규모와 빈도가 줄어들 수 있다. \n증권은 FINRA 등록 브로커딜러인 코인베이스 캐피털 마켓츠가 이용자의 대리인으로서 제공하고, 청산은 에이펙스 클리어링(Apex Clearing Corporation)이 맡는다. 코인베이스는 증권투자자보호공사(SIPC)의 보호가 코인베이스(Coinbase, Inc.) 계좌에 있는 디지털자산과 현금에는 적용되지 않는다고 고지했다. 회사는 이 기능을 ‘모든 것의 거래소(Everything Exchange)’로 확장하는 또 하나의 단계라고 설명했다. 수수료와 1인당 청약 한도는 이번 출시 발표에 제시되지 않았다.",
+      "metanomia_thought": "코인베이스는 상장 주식의 매매 중개에 공모주 청약과 배정을 더해, 암호자산 매매에서 시작한 고객 관계를 한 앱 안에서 증권 투자로 이어가고 있습니다. 공모주처럼 물량이 한정된 상품에서는 ‘다음에도 배정받을 기회’ 자체가 고객의 행동을 바꾸는 유인이 됩니다. 단기 매도 이력이 이후 청약과 배정에 영향을 줄 수 있도록 한 것은 고객이 지금의 매도 결정과 다음 투자 기회를 함께 따져보게 하는 설계입니다. 청약 창구를 넓히는 동시에 장기 보유 성향의 고객에게 기회를 더 배분한다는 점에서, 코인베이스는 투자 접근을 돕는 역할과 고객을 선별하는 역할을 함께 맡게 됩니다.",
+      "sources": [
+        {
+          "title": "You can now participate in IPOs on Coinbase",
+          "url": "https://www.coinbase.com/blog/you-can-now-participate-in-ipos-on-coinbase"
+        },
+        {
+          "title": "IPOs - Introduction",
+          "url": "https://help.coinbase.com/en/coinbase/trading-and-funding/stocks-ipo-intro"
+        }
+      ]
+    },
+    {
+      "id": "crypto-news-3163a3c7edb316c6",
+      "slug": "2026-09-22-crypto-news-3163a3c7ed",
+      "date_kst": "2026-09-22",
+      "title": "유럽중앙은행, 토큰화 자산 결제망 ‘폰테스’ 가동…자체 자금으로 토큰화 증권 투자 준비",
+      "content": "현지시간 9월 21일 유럽중앙은행(ECB)이 토큰화 자산의 기관 간 거래를 중앙은행 화폐로 결제하는 폰테스(Pontes)의 가동을 발표했다. ECB는 같은 날 자체 자금의 소규모 일부를 토큰화 증권에 투자하기 위한 준비 작업에도 착수했다고 밝혔다.\n토큰화는 채권·펀드 같은 자산을 분산원장(DLT)에 기록되는 디지털 토큰 형태로 발행하거나 나타내는 방식이다. ECB는 2024년 시험 과정에서 공공·민간 부문 참가자들이 이 기술이 널리 쓰이려면 위험이 없는 결제 자산인 중앙은행 화폐를 쓸 수 있어야 한다는 의견을 냈다고 설명했다. 폰테스는 ECB와 유로존 각국 중앙은행으로 구성된 유로시스템(Eurosystem)의 사업으로, 시장의 DLT 플랫폼을 유로시스템이 운영하는 유로화 결제 인프라인 TARGET 서비스에 연결한다. 증권 인도와 대금 지급이 함께 이뤄지도록 플랫폼 간 처리를 연동하며, 대금의 최종 결제는 실시간총액결제시스템 T2에서 완료한다. 시장 참가자는 T2에 접근할 수 있는 기관으로 한정되며, 연결할 DLT 플랫폼의 운영자도 인가·감독 등 정해진 자격 요건을 충족해야 한다.\nECB에 따르면 도이체방크(Deutsche Bank)·유럽투자은행(EIB) 등 시장 참가자 13곳과 클리어스트림(Clearstream)·SWIAT 등 DLT 운영자 4곳이 참여 절차를 마쳐 즉시 이용할 수 있는 상태다. 독일연방은행도 시장 참가자 자격으로 참여했다. 폰테스는 우선 핵심 서비스를 제공하고, 기능 확대와 운영시간 연장을 단계적으로 추진해 2028년까지 완전 구현할 것으로 예상된다. 유로시스템은 폰테스와 함께 DLT 기반 금융 생태계의 설계안을 2028년까지 마련하는 아피아(Appia) 사업도 진행하고 있다.\nECB의 초기 투자 대상은 유로존 중앙정부·지방정부·기관과 유럽 초국가기구가 발행한 유로화 표시 토큰화 증권이다. 매입 대금은 폰테스를 통해 중앙은행 화폐로 결제할 예정이다. ECB는 직접 투자하면서 거래 체결부터 결제, 시스템과 포트폴리오 관리까지 투자 전 과정의 경험을 쌓겠다고 설명했다. 자체 자금 포트폴리오는 통화정책에 쓰는 자산과 별도로 운용하는 자산으로, 감독업무 관련 비용을 제외한 ECB 운영비를 대는 데 쓰이는 수익을 낸다. 투자의 세부 운영 방식과 시점은 준비 작업을 마친 뒤 집행이사회가 결정한다. 이번 발표에는 폰테스 가동 당일의 실제 거래 여부와 결제 금액, ECB의 투자 금액이 제시되지 않았다.",
+      "metanomia_thought": "토큰화 금융이 확대될수록 자산을 기록하는 플랫폼과 대금을 최종 결제하는 체계를 어떻게 연결할지가 중요해집니다. 폰테스는 시장의 DLT 플랫폼을 기존 중앙은행 결제망에 연결해, 새로운 거래 환경에서도 중앙은행 화폐의 역할을 유지하려는 선택입니다. ECB가 자체 자금 투자까지 준비하는 것은 새 결제망을 직접 이용하면서 거래와 결제에 관한 실무 경험을 쌓으려는 시도로 읽힙니다.",
+      "sources": [
+        {
+          "title": "Eurosystem brings central bank money to tokenised finance",
+          "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr260921~e754847a7b.en.html"
+        },
+        {
+          "title": "ECB to invest part of own funds in tokenised securities, with settlement via Pontes",
+          "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr260921_1~5a011ecbea.en.html"
+        },
+        {
+          "title": "Pontes",
+          "url": "https://www.ecb.europa.eu/paym/target/pontes/html/index.en.html"
+        }
+      ]
+    },
+    {
+      "id": "crypto-news-0ccf91bc0a0b7d70",
+      "slug": "2026-09-22-crypto-news-0ccf91bc0a",
+      "date_kst": "2026-09-22",
+      "title": "하나은행, 유로클리어 통해 1억달러 디지털채권 발행…발행 당일 결제 완료",
+      "content": "하나은행이 국제예탁결제기관 유로클리어(Euroclear)의 블록체인 기반 디지털 금융시장 인프라(D-FMI)를 통해 지난 18일 1억달러 규모의 5년 만기 외화 디지털채권을 발행했다고 밝혔다. 은행은 국내 금융회사가 유로클리어의 블록체인 인프라를 직접 활용해 디지털채권을 발행한 첫 사례이자, 국내 외화채권 발행시장에서 당일결제(T+0)를 구현한 첫 사례라고 설명했다.\n하나은행에 따르면 통상 3~5영업일이 걸리던 채권 배정과 자금 이체를 블록체인에서 처리해 발행 당일 결제를 마쳤다. 스탠다드차타드(Standard Chartered)가 단독 주관사로 채권 구조 설계와 발행, 투자자 판매를 맡았다. 발행에는 기존 글로벌 중기채(GMTN) 프로그램의 서류를 활용했으며, 기관투자자는 별도의 디지털자산 계좌를 만들거나 복잡한 추가 절차를 거치지 않고 기존 유로클리어 계좌와 거래 시스템을 이용할 수 있다고 은행은 밝혔다. \n유로클리어에 따르면 D-FMI는 디지털 증권의 발행·배분과 발행 단계의 결제를 블록체인에서 처리한다. 발행된 채권은 이후 유로클리어은행의 기존 결제 플랫폼으로 옮겨지며, 유통시장 거래의 결제는 이 플랫폼에서 처리된다. 이번 당일결제는 발행 때 투자자가 대금을 내고 채권을 받는 첫 결제에 해당한다.  하나은행의 이번 보도자료에는 발행 금리와 투자자 구성, 발행 이후 유통시장에서 실제 거래가 이뤄졌는지는 제시되지 않았다.",
+      "metanomia_thought": "디지털채권이 실제 자금 조달 수단으로 자리 잡으려면 결제 속도뿐 아니라 기존 투자자들이 거래에 참여하기 쉬운지도 중요합니다. 이번 발행은 블록체인에서 발행과 첫 결제를 처리하면서, 투자자는 익숙한 계좌와 거래 체계를 계속 이용하도록 연결했습니다. 새로운 기술을 도입하는 부담을 투자자에게 모두 넘기지 않고 기존 시장과 접점을 만든 점이 이 사례의 의미입니다.",
+      "sources": [
+        {
+          "title": "하나은행, 1억불 디지털채권 발행…발행·결제 하루만에",
+          "url": "https://www.mt.co.kr/finance/2026/09/21/2026092108561062489"
+        },
+        {
+          "title": "“국내 최초 채권 당일결제”...하나銀, 1억달러 외화 디지털채권 발행",
+          "url": "https://www.fnnews.com/news/202609210831147504"
+        },
+        {
+          "title": "D-FMI: Digital Financial Market Infrastructure",
+          "url": "https://www.euroclear.com/services/en/issuer-services/digital-financial-market-infrastructure.html"
+        }
+      ]
+    },
     {
       "id": "crypto-news-6a44f4e3ab346342",
       "slug": "2026-09-21-crypto-news-6a44f4e3ab",
