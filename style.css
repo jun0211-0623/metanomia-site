@@ -1306,6 +1306,24 @@ html[lang="ko"] .crypto-news-thought__body {
 .lead__dots button { border-radius: 50%; width: 9px; height: 9px; border-color: #6d7169; }
 .lead__dots button.is-active { box-shadow: 0 0 0 5px rgba(200,255,52,.12); }
 
+/* Give the long English crypto-card feature a dedicated control zone. */
+html[lang="en"] .lead__slide--p2p-cards .lead__overlay {
+  padding-bottom: 112px;
+}
+html[lang="en"] .lead__slide--p2p-cards .lead__title {
+  max-width: none;
+  font-size: clamp(36px, 3.45vw, 50px);
+  line-height: 1.13;
+}
+html[lang="en"] .lead__slide--p2p-cards .lead__excerpt {
+  margin-top: 20px;
+  font-size: clamp(14px, 1.05vw, 16px);
+  line-height: 1.6;
+}
+html[lang="en"] .lead__slide--p2p-cards .lead__byline {
+  margin-top: 24px;
+}
+
 .subfeed {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -1769,6 +1787,21 @@ html[lang="ko"] .cat-tabs + .cat-hero--compact .cat-intro__body {
   .lead__overlay { grid-column: 1; grid-row: 2; padding: 38px 34px 86px; }
   .lead__title { max-width: 18ch; font-size: clamp(34px, 7vw, 50px); }
   .lead__dots { left: 34px; bottom: 30px; }
+  html[lang="en"] .lead__slide--p2p-cards .lead__overlay {
+    justify-content: flex-start;
+    padding: 30px 34px 96px;
+  }
+  html[lang="en"] .lead__slide--p2p-cards .lead__tag { margin-bottom: 16px; }
+  html[lang="en"] .lead__slide--p2p-cards .lead__title {
+    font-size: clamp(32px, 6vw, 42px);
+    line-height: 1.14;
+  }
+  html[lang="en"] .lead__slide--p2p-cards .lead__excerpt {
+    margin-top: 18px;
+    font-size: 14px;
+    line-height: 1.55;
+  }
+  html[lang="en"] .lead__slide--p2p-cards .lead__byline { margin-top: 22px; }
   .subfeed { grid-template-columns: repeat(3, minmax(220px, 1fr)); overflow-x: auto; padding-bottom: 12px; scroll-snap-type: x proximity; }
   .subcard { scroll-snap-align: start; }
   .cards { grid-template-columns: repeat(2, minmax(0, 1fr)); }
@@ -1802,6 +1835,20 @@ html[lang="ko"] .cat-tabs + .cat-hero--compact .cat-intro__body {
   .lead__excerpt { margin-top: 18px; font-size: 14px; }
   .lead__byline { margin-top: 20px; }
   .lead__dots { left: 24px; bottom: 25px; }
+  html[lang="en"] .lead__slide--p2p-cards .lead__overlay {
+    padding: 24px 24px 82px;
+  }
+  html[lang="en"] .lead__slide--p2p-cards .lead__tag { margin-bottom: 12px; }
+  html[lang="en"] .lead__slide--p2p-cards .lead__title {
+    font-size: clamp(30px, 8.9vw, 36px);
+    line-height: 1.12;
+  }
+  html[lang="en"] .lead__slide--p2p-cards .lead__excerpt {
+    margin-top: 14px;
+    font-size: 13px;
+    line-height: 1.55;
+  }
+  html[lang="en"] .lead__slide--p2p-cards .lead__byline { margin-top: 18px; }
   .lead__slide[href*="crypto-prediction-markets"] .lead__overlay {
     justify-content: flex-start;
     padding: 22px 24px 58px;
