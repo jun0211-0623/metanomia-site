@@ -1,7 +1,49 @@
 {
   "schema_version": "1.0",
-  "generated_at_kst": "2026-09-23T16:23:51.120+09:00",
+  "generated_at_kst": "2026-09-25T16:10:07.366+09:00",
   "items": [
+    {
+      "slug": "2026-09-24-crypto-news-96aed9c937",
+      "date_kst": "2026-09-24",
+      "title": "Coinbase Adds Fixed-Rate USDC Loans Backed by Bitcoin, Locking In Rate and Maturity at Origination",
+      "content": "On September 22 local time, U.S. crypto-asset exchange Coinbase added a fixed-rate product for borrowing the dollar stablecoin USDC against Bitcoin collateral. Alongside its existing variable-rate product, users can now choose a loan whose interest rate and repayment date are set when the loan is originated.\nThe new product uses Morpho's decentralized-finance lending protocol, Morpho Midnight. Coinbase provides the interface for applying for and managing the loan in its app, Morpho supplies the underlying lending infrastructure, and transactions settle on the Base blockchain. Morpho said the outstanding balance of Coinbase's existing variable-rate loans exceeds $1.4 billion and is backed by about $3 billion in collateral.\nAccording to a Coinbase representative quoted by The Block, the available maturities at the time of publication were the last Friday of the current month or the following month. Loan rates are determined by supply and demand between lenders and borrowers. Coinbase's official guidance says the applicable rate and borrowing limit are displayed in the app. A fixed-rate loan must be repaid in full by maturity, and early repayment does not reduce the contracted interest. Failure to repay by maturity may result in liquidation of the collateral, while the collateral may also be liquidated before maturity if its value falls to the liquidation threshold.",
+      "metanomia_thought": "Bitcoin-backed loans allow holders to raise needed funds without selling their Bitcoin. The fixed-rate product adds the ability to calculate interest costs in advance, expanding the options for putting the asset to use while continuing to hold it. The reasons to keep holding Bitcoin therefore extend beyond expectations of price appreciation to its utility as collateral for obtaining funds when needed.",
+      "sources": [
+        {
+          "title": "Coinbase Launches Fixed-rate Crypto-backed Loans Powered by Morpho Midnight",
+          "url": "https://morpho.org/blog/coinbase-launches-fixed-rate-crypto-backed-loans-powered-by-morpho-midnight"
+        },
+        {
+          "title": "Coinbase adds fixed-rate bitcoin-backed loans through Morpho Midnight",
+          "url": "https://www.theblock.co/news/defi/2026-09-22-coinbase-fixed-rate-bitcoin-loans-morpho-midnight-416050"
+        },
+        {
+          "title": "Crypto-backed loans - Introduction",
+          "url": "https://help.coinbase.com/en/coinbase/trading-and-funding/loan/loan-intro"
+        },
+        {
+          "title": "USDC loan health",
+          "url": "https://help.coinbase.com/en/coinbase/trading-and-funding/loan/loan-health"
+        }
+      ]
+    },
+    {
+      "slug": "2026-09-24-crypto-news-3be37ccd63",
+      "date_kst": "2026-09-24",
+      "title": "NYSE and Blockchain.com Pursue Tokenized Stock and ETF Trading Service, Subject to Regulatory Approval",
+      "content": "On September 23 local time, NYSE Group and crypto-asset services company Blockchain.com announced that they had signed a memorandum of understanding for a tokenized-securities trading service. The plan is to connect Blockchain.com users to a digital alternative trading system under development by NYSE, allowing them to trade tokenized U.S.-listed stocks and exchange-traded funds. The service is contingent on the necessary regulatory approvals.\nIn January, NYSE announced plans to develop a separate platform for trading tokenized securities and settling transactions on a blockchain. Its proposed features include trading 24 hours a day, seven days a week, instant settlement, orders entered as dollar amounts rather than numbers of shares, and account funding with stablecoins. Holders of tokenized shares would also receive the same dividend and voting rights as holders of conventional shares.\nThe collaboration also includes an exchange of market data. ICE Data Services, a unit of NYSE parent Intercontinental Exchange, would distribute Blockchain.com's crypto-asset market data and analytics to its clients, while Blockchain.com would integrate selected ICE and NYSE exchange data into its app. Blockchain.com said this would provide real-time stock-price information to its more than 44 million verified accounts.\nThe announcement concerns a memorandum of understanding covering plans to distribute the trading service; it does not mean that the service has launched. The announcement did not provide a specific launch date, eligible securities, available countries, or a timetable for regulatory approval.",
+      "metanomia_thought": "Expanding a tokenized stock market requires not only a trading system but also investors who will use it. NYSE is seeking access to Blockchain.com's existing customer base, while Blockchain.com is trying to extend customer relationships that began in crypto into U.S. equity investing. The collaboration shows how the customer base built by a crypto platform can become a business asset for traditional exchanges seeking to develop a new market.",
+      "sources": [
+        {
+          "title": "Blockchain.com and NYSE Partner to Explore Global, 24/7/365 Trading of Tokenized Securities",
+          "url": "https://www.prnewswire.com/news-releases/blockchaincom-and-nyse-partner-to-explore-global-247365-trading-of-tokenized-securities-302887041.html"
+        },
+        {
+          "title": "The New York Stock Exchange Develops Tokenized Securities Platform",
+          "url": "https://ir.theice.com/press/news-details/2026/The-New-York-Stock-Exchange-Develops-Tokenized-Securities-Platform/default.aspx"
+        }
+      ]
+    },
     {
       "slug": "2026-09-23-crypto-news-ba8528f01a",
       "date_kst": "2026-09-23",

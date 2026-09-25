@@ -1,7 +1,51 @@
 {
   "schema_version": "1.0",
-  "generated_at_kst": "2026-09-23T16:23:51.120+09:00",
+  "generated_at_kst": "2026-09-25T16:10:07.366+09:00",
   "items": [
+    {
+      "id": "crypto-news-96aed9c93757421b",
+      "slug": "2026-09-24-crypto-news-96aed9c937",
+      "date_kst": "2026-09-24",
+      "title": "코인베이스, 비트코인 담보 USDC 고정금리 대출 추가…빌릴 때 금리·상환일 확정",
+      "content": "현지시간 9월 22일 미국 암호자산 거래소 코인베이스(Coinbase)가 비트코인을 담보로 달러 스테이블코인 USDC를 빌리는 고정금리 대출 상품을 추가했다. 이용자는 기존 변동금리 상품과 함께, 대출을 받을 때 금리와 상환일이 정해지는 상품도 선택할 수 있게 됐다.\n새 상품은 탈중앙금융 대출 프로토콜 모포(Morpho)의 ‘모포 미드나이트(Morpho Midnight)’를 이용한다. 코인베이스는 앱에서 대출을 신청하고 관리하는 창구를 제공하고, 모포는 대출을 실행하는 기반을 맡으며, 거래는 베이스(Base) 블록체인에서 결제된다. 모포에 따르면 코인베이스의 기존 변동금리 대출 잔액은 14억달러를 넘으며, 이를 뒷받침하는 담보는 약 30억달러다. \n더 블록(The Block)이 인용한 코인베이스 관계자에 따르면, 보도 당시 선택할 수 있는 만기는 해당 월 또는 다음 달의 마지막 금요일이다. 대출 금리는 자금을 빌려주는 쪽과 빌리는 쪽의 수요·공급에 따라 정해진다. 코인베이스 공식 안내에 따르면 적용 금리와 대출 한도는 앱에서 확인할 수 있다. 고정금리 대출은 만기까지 전액을 갚아야 하며, 조기 상환하더라도 약정 이자는 줄어들지 않는다. 만기까지 갚지 않으면 담보가 청산될 수 있고, 만기 전에도 담보 가치가 떨어져 청산 기준에 도달하면 청산 대상이 된다.",
+      "metanomia_thought": "비트코인 담보 대출은 보유자가 비트코인을 팔지 않고도 필요한 자금을 마련할 수 있게 합니다. 이번 고정금리 상품은 여기에 이자 비용을 미리 계산할 수 있다는 이점을 더해, 보유를 이어가면서 자금을 활용할 선택지를 넓힙니다. 비트코인을 계속 보유할 이유에 가격 상승에 대한 기대뿐 아니라 필요할 때 자금을 조달하는 담보로서의 활용성도 더해지는 셈입니다.",
+      "sources": [
+        {
+          "title": "Coinbase Launches Fixed-rate Crypto-backed Loans Powered by Morpho Midnight",
+          "url": "https://morpho.org/blog/coinbase-launches-fixed-rate-crypto-backed-loans-powered-by-morpho-midnight"
+        },
+        {
+          "title": "Coinbase adds fixed-rate bitcoin-backed loans through Morpho Midnight",
+          "url": "https://www.theblock.co/news/defi/2026-09-22-coinbase-fixed-rate-bitcoin-loans-morpho-midnight-416050"
+        },
+        {
+          "title": "Crypto-backed loans - Introduction",
+          "url": "https://help.coinbase.com/en/coinbase/trading-and-funding/loan/loan-intro"
+        },
+        {
+          "title": "USDC loan health",
+          "url": "https://help.coinbase.com/en/coinbase/trading-and-funding/loan/loan-health"
+        }
+      ]
+    },
+    {
+      "id": "crypto-news-3be37ccd631f2c86",
+      "slug": "2026-09-24-crypto-news-3be37ccd63",
+      "date_kst": "2026-09-24",
+      "title": "뉴욕증권거래소·블록체인닷컴, 토큰화 주식·ETF 거래 서비스 추진…규제 승인 전제",
+      "content": "현지시간 9월 23일 뉴욕증권거래소(NYSE) 그룹과 암호자산 서비스 기업 블록체인닷컴(Blockchain.com)이 토큰화 증권 거래 서비스를 위한 양해각서를 체결했다고 발표했다. 블록체인닷컴 이용자가 NYSE가 준비 중인 디지털 대체거래시스템(ATS)을 통해 토큰화된 미국 상장 주식과 상장지수펀드(ETF)를 거래할 수 있도록 연결하는 구상이다. 서비스 제공에는 필요한 규제 승인이 전제된다. \nNYSE는 지난 1월 토큰화 증권을 거래하고 블록체인에서 결제하는 별도 플랫폼의 개발 계획을 발표했다. 주요 기능으로는 주 7일·하루 24시간 거래와 즉시 결제, 주식 수 대신 달러 금액을 지정하는 주문, 스테이블코인을 이용한 자금 납입을 제시했다. 토큰화된 주식의 보유자에게도 기존 주식과 같은 배당권과 의결권을 부여할 계획이다.\n이번 협력에는 시장 데이터 교류도 포함됐다. NYSE의 모회사인 인터컨티넨털 익스체인지(Intercontinental Exchange·ICE) 산하 ICE 데이터서비스(ICE Data Services)가 블록체인닷컴의 암호자산 시장 데이터와 분석 자료를 자사 고객에게 배포하고, 블록체인닷컴은 ICE와 NYSE의 거래소 데이터 일부를 앱에 통합하는 방식이다. 블록체인닷컴은 이를 통해 자사가 밝힌 4,400만 개 이상의 확인된 계정에 실시간 주가 정보를 제공하겠다고 설명했다.\n이번 발표는 거래 서비스의 유통 계획을 담은 양해각서 체결에 관한 것으로, 서비스가 시작됐다는 뜻은 아니다. 구체적인 개시 시점과 대상 종목, 이용 가능 국가, 규제 승인 일정은 발표에 제시되지 않았다.",
+      "metanomia_thought": "토큰화 주식시장을 키우려면 거래 시스템뿐 아니라 그 시장을 이용할 투자자도 필요합니다. NYSE는 블록체인닷컴의 기존 고객에게 다가가고, 블록체인닷컴은 암호자산에서 시작한 고객 관계를 미국 주식 투자로 넓히려 합니다. 이번 협력은 암호자산 플랫폼이 확보한 고객 기반이 전통 거래소에도 새로운 시장을 키우는 사업적 자산이 될 수 있음을 보여줍니다.",
+      "sources": [
+        {
+          "title": "Blockchain.com and NYSE Partner to Explore Global, 24/7/365 Trading of Tokenized Securities",
+          "url": "https://www.prnewswire.com/news-releases/blockchaincom-and-nyse-partner-to-explore-global-247365-trading-of-tokenized-securities-302887041.html"
+        },
+        {
+          "title": "The New York Stock Exchange Develops Tokenized Securities Platform",
+          "url": "https://ir.theice.com/press/news-details/2026/The-New-York-Stock-Exchange-Develops-Tokenized-Securities-Platform/default.aspx"
+        }
+      ]
+    },
     {
       "id": "crypto-news-ba8528f01a2edf2e",
       "slug": "2026-09-23-crypto-news-ba8528f01a",
