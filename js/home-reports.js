@@ -76,7 +76,8 @@
   }
 
   function buildLeadSlide(report, index) {
-    var link = make('a', 'lead__slide');
+    var isEnglishP2PCards = !isKo && report.href.indexOf('p2p-payments-and-crypto-cards') !== -1;
+    var link = make('a', isEnglishP2PCards ? 'lead__slide lead__slide--p2p-cards' : 'lead__slide');
     link.href = report.href;
     link.id = 'featured-report-' + index;
     link.setAttribute('data-published', report.published);
@@ -95,7 +96,10 @@
     var overlay = make('div', 'lead__overlay');
     overlay.appendChild(make('span', 'lead__tag', report.series));
     overlay.appendChild(buildLeadTitle(report));
-    if (report.excerpt) overlay.appendChild(make('p', 'lead__excerpt', report.excerpt));
+    var leadExcerpt = isEnglishP2PCards
+      ? 'How overseas-issued crypto cards connect on-chain assets to everyday spending while creating tax-information gaps across borders.'
+      : report.excerpt;
+    if (leadExcerpt) overlay.appendChild(make('p', 'lead__excerpt', leadExcerpt));
 
     var byline = make('div', 'lead__byline');
     byline.appendChild(make('span', '', report.author));
