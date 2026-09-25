@@ -959,6 +959,25 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://metanomia.org/articles/bitcoin-self-custody-guide" />
   </url>
 
+  <url>
+    <loc>https://metanomia.org/articles/p2p-payments-and-crypto-cards</loc>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://metanomia.org/ko/articles/p2p-payments-and-crypto-cards" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://metanomia.org/articles/p2p-payments-and-crypto-cards" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://metanomia.org/articles/p2p-payments-and-crypto-cards" />
+  </url>
+  <url>
+    <loc>https://metanomia.org/ko/articles/p2p-payments-and-crypto-cards</loc>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://metanomia.org/ko/articles/p2p-payments-and-crypto-cards" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://metanomia.org/articles/p2p-payments-and-crypto-cards" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://metanomia.org/articles/p2p-payments-and-crypto-cards" />
+  </url>
+
   <!-- GENERATED CRYPTO NEWS START -->
   <url>
     <loc>https://metanomia-site.vercel.app/ko/crypto-news-2026-09-25-crypto-news-fea3a0026f</loc>

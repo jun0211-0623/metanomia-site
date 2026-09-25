@@ -180,7 +180,7 @@
     "type": "People",
     "title": "Mingu Park",
     "sub": "",
-    "meta": "Member · Metanomia",
+    "meta": "Researcher · Metanomia",
     "url": "/people/mingu-park"
   },
   {
@@ -330,6 +330,14 @@
   {
     "lang": "en",
     "type": "Report",
+    "title": "The P2P Payment Ideal and the Reality of Crypto Cards",
+    "sub": "The Information Gap in Border-Based Tax Systems Revealed by Crypto Cards",
+    "meta": "Mingu Park · September 2026",
+    "url": "/articles/p2p-payments-and-crypto-cards"
+  },
+  {
+    "lang": "en",
+    "type": "Report",
     "title": "Bitcoin Self-Custody Guide",
     "sub": "Self-Custody Guidelines Drawn from Incidents and Best Practices",
     "meta": "Jeehwan Lee · September 2026",
@@ -454,6 +462,14 @@
     "sub": "Policy & Strategy, what to change or build, and which option to pursue, and how. Metanomia report series.",
     "meta": "",
     "url": "/series/policy-strategy"
+  },
+  {
+    "lang": "ko",
+    "type": "보고서",
+    "title": "P2P 결제의 이상, 크립토 카드의 현실",
+    "sub": "크립토 카드가 드러낸 국경 기반 과세 체계의 정보 단절",
+    "meta": "박민구 · 2026년 9월",
+    "url": "/ko/articles/p2p-payments-and-crypto-cards"
   },
   {
     "lang": "ko",
@@ -604,7 +620,7 @@
     "type": "사람",
     "title": "박민구",
     "sub": "",
-    "meta": "회원 · 메타노미아",
+    "meta": "연구원 · 메타노미아",
     "url": "/ko/people/mingu-park"
   },
   {
