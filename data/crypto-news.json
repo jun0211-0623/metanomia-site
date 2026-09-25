@@ -1,7 +1,87 @@
 {
   "schema_version": "1.0",
-  "generated_at_kst": "2026-09-25T16:10:07.366+09:00",
+  "generated_at_kst": "2026-09-25T18:55:11.393+09:00",
   "items": [
+    {
+      "id": "crypto-news-fea3a0026f02c1d7",
+      "slug": "2026-09-25-crypto-news-fea3a0026f",
+      "date_kst": "2026-09-25",
+      "title": "아크인베스트, 벤처펀드 토큰화…500달러부터 USDC 투자, 환매는 분기별 제한",
+      "content": "현지시간 9월 24일 미국 자산운용사 아크인베스트(ARK Invest)와 토큰화 기업 시큐리타이즈(Securitize)가 아크 벤처펀드(ARK Venture Fund·ARKVX)의 토큰화를 발표했다. 기존에도 일반 개인이 500달러부터 투자할 수 있었던 펀드에, 달러 스테이블코인 USDC로 투자하고 지분을 토큰 형태로 디지털 지갑에 보유하는 경로가 추가됐다. 아크인베스트는 2025년 10월 시큐리타이즈에 전략적 투자를 했으며, 두 회사는 이번 토큰화를 그 협력의 다음 단계로 설명했다.\n아크 벤처펀드는 비상장 기업과 상장 기업에 함께 투자하는 인터벌펀드(interval fund)다. 투자자가 원할 때마다 돈을 찾는 방식이 아니라, 펀드가 정해진 주기에 한도를 두고 투자자의 지분을 되사주는 상품이다. 오픈AI(OpenAI)·앤트로픽(Anthropic)·스트라이프(Stripe)·데이터브릭스(Databricks) 등을 편입하고 있으며, 시큐리타이즈가 제시한 6월 30일 기준 순자산은 13억달러, 비상장 기업 투자 비중은 62%다.\n토큰은 이더리움(Ethereum)에서 발행되며, 시큐리타이즈가 발행 인프라와 투자자 이용 환경을 제공한다. 토큰 1개는 시큐리타이즈 마켓(Securitize Markets)이 매입해 BNY멜론(BNY Mellon)에 보관하는 펀드 지분 1주로 뒷받침된다. 실제 펀드 지분은 수탁기관에 보관하고, 투자자는 이에 대응하는 토큰을 자신의 지갑에서 보유한다.\n현재 판매 대상은 미국 투자자다. 일정한 소득·자산 기준을 충족한 적격투자자만 참여할 수 있는 상품은 아니지만, 본인 확인과 투자 자격 심사를 거쳐 지갑을 등록해야 한다. 첫 투자 최소 금액은 500달러이며, USDC로 납입한 금액에서 거래 수수료 2%를 차감한 나머지가 펀드에 투자된다.\n투자금을 회수하려면 분기마다 열리는 환매 기간에 신청해야 한다. 상품 안내에 따르면 펀드가 한 분기에 되사는 규모는 전체 발행 지분의 최대 5%다. 전체 환매 신청이 이 한도 안에 들어오면 신청분 전부를 되사주지만, 한도를 넘으면 각 투자자의 신청량에 비례해 일부만 처리한다. 환매 가격은 펀드의 자산과 부채를 반영해 계산한 지분당 순자산가치(NAV)를 기준으로 정한다.\n토큰은 같은 자격 심사를 통과한 투자자의 승인된 지갑 사이에서만 이전할 수 있다. 출시 시점에는 공개 시장 거래와 탈중앙화금융(DeFi) 담보 활용을 제공하지 않는다. 시큐리타이즈는 규제상 허용을 전제로 2차 거래 기능 등을 추후 추가할 계획이라고 밝혔지만, 구체적인 개시 시점은 제시하지 않았다.",
+      "metanomia_thought": "스테이블코인으로 보유한 자금은 자산운용사에도 새로운 고객을 만날 기회가 됩니다. 아크인베스트는 기존 펀드의 운용 방식과 환매 조건을 유지하면서, USDC를 가진 투자자가 펀드 지분도 디지털 지갑에 담을 수 있도록 했습니다. 이 사례에서 토큰화의 사업적 의미는 투자자의 돈이 있는 곳까지 펀드의 판매망을 넓힌다는 데 있습니다.",
+      "sources": [
+        {
+          "title": "ARK Invest Tokenizes ARK Venture Fund (ARKVX) with Securitize",
+          "url": "https://securitize.io/learn/press/ark-invest-tokenizes-arkvx-with-securitize"
+        },
+        {
+          "title": "ARKVX — ARK Venture Fund",
+          "url": "https://securitize.io/arkvx"
+        }
+      ]
+    },
+    {
+      "id": "crypto-news-581ef8d6072a1711",
+      "slug": "2026-09-25-crypto-news-581ef8d607",
+      "date_kst": "2026-09-25",
+      "title": "뉴욕주, 폴리마켓 US에 ‘불법 도박’ 소송…회사는 주 도박법 적용에 맞소송",
+      "content": "현지시간 9월 24일 미국 뉴욕주 검찰총장 레티샤 제임스(Letitia James)와 캐시 호컬(Kathy Hochul) 주지사가 예측시장 폴리마켓(Polymarket)의 미국 사업을 상대로 한 소송을 발표했다. 소송 대상은 폴리마켓 US(Polymarket US)를 운영하는 QCX LLC로, 뉴욕주는 이 회사가 주법에 따른 면허 없이 도박 영업을 했다고 주장했다.\n뉴욕주는 이용자가 통제할 수 없는 불확실한 사건의 결과에 돈을 거는 거래가 주법상 도박에 해당한다고 봤다. 회사가 뉴욕주 게이밍위원회(New York State Gaming Commission)의 면허를 받지 않아, 허가받은 카지노와 모바일 스포츠 베팅 사업자가 부담하는 세금을 회피했다고도 주장했다. 또한 뉴욕주법은 모바일 스포츠 베팅 참여 연령을 21세 이상으로 정하고 있지만, 폴리마켓 US는 18~20세 이용자에게도 서비스를 제공했다고 밝혔다.\n뉴욕주는 법원에 무면허 영업 중단과 부당이득 반환, 이용자 배상을 요청했다. 이와 함께 불법 영업으로 얻었다고 주장하는 이익의 3배에 해당하는 금전 제재와, 허가 없이 스포츠 베팅 서비스를 제공하거나 제공하려 한 행위마다 10만달러의 제재금을 부과해 달라고 요구했다. \n폴리마켓 US는 2025년 12월 미국에서 서비스를 시작했다. 운영 법인 QCX는 미국 상품선물거래위원회(Commodity Futures Trading Commission·CFTC)의 감독을 받는 거래소다. 이번 분쟁의 핵심은 연방 감독을 받는 이 거래에 뉴욕주의 도박법도 적용할 수 있느냐는 것이다. \n폴리마켓은 같은 날 제임스 검찰총장과 뉴욕주 게이밍위원회 관계자들을 상대로 연방법원에 별도 소송을 냈다. 회사는 미국 상품거래법(Commodity Exchange Act)에 따라 자사의 거래가 CFTC의 독점적 감독 대상이므로 뉴욕주의 도박 규제를 적용할 수 없다고 주장했다. 법원에는 관련 주법의 적용이 배제된다는 판단과 함께, 뉴욕주 당국의 법 집행을 잠정적·영구적으로 막는 명령을 요청했다. \n뉴욕주는 지난 7월 예측시장 경쟁사 칼시(Kalshi)에도 같은 취지의 소송을 냈으며, 4월에는 코인베이스(Coinbase)와 제미니(Gemini)를 상대로 유사한 소송을 제기했다. 이번 발표와 소장에서 확인되는 것은 양측의 주장과 청구 내용이며, 위법성이나 영업 중단 여부에 관한 법원의 판단은 제시되지 않았다.",
+      "metanomia_thought": "예측시장 사업자에게 규제 관할은 어느 지역의 고객에게 어떤 상품을 팔 수 있는지를 좌우하는 사업 조건입니다. 폴리마켓은 연방 인가를 근거로 전국에 같은 거래 서비스를 제공하려 하고, 뉴욕주는 주민이 참여하는 거래에 주의 도박 규제를 적용하려 합니다. 이번 다툼은 연방 인가가 주별 영업 제한을 어디까지 막아주는지를 둘러싼 것으로, 그 범위에 따라 플랫폼의 전국 확장 방식과 이용자의 접근 조건이 달라질 수 있습니다.",
+      "sources": [
+        {
+          "title": "Attorney General James and Governor Hochul Announce Lawsuit Against Polymarket for Running Illegal Gambling Operation",
+          "url": "https://ag.ny.gov/press-release/2026/attorney-general-james-and-governor-hochul-announce-lawsuit-against-polymarket"
+        },
+        {
+          "title": "Polymarket countersues New York state over ‘unregulated gambling’ allegation",
+          "url": "https://www.cnbc.com/2026/09/24/new-york-sues-polymarket-us-two-months-after-filing-suit-against-kalshi-.html"
+        }
+      ]
+    },
+    {
+      "id": "crypto-news-1db6f6d8c37dda5e",
+      "slug": "2026-09-25-crypto-news-1db6f6d8c3",
+      "date_kst": "2026-09-25",
+      "title": "온도, 블랙록 모델 전략 기반 포트폴리오 토큰 3종 출시…자산 비중 자동 조정",
+      "content": "현지시간 9월 24일 토큰화 기업 온도 파이낸스(Ondo Finance)가 여러 자산을 하나의 토큰으로 묶은 ‘온도 인텔리전트 포트폴리오(Ondo Intelligent Portfolios)’를 출시했다. 자산운용사 블랙록(BlackRock)이 온도를 위해 개발한 모델 전략을 바탕으로 한 인컴형(High Income), 분산성장형(Diversified Growth), 고성장형(High Growth) 세 종류다.\n각 상품은 주식과 상장지수펀드(ETF)를 토큰화한 ‘온도 스톡스(Ondo Stocks)’로 구성된다. 투자자는 하나의 토큰으로 여러 자산의 투자 성과에 연동되는 상품을 보유할 수 있다. 스마트계약은 정해진 일정에 따라 자산 비중을 목표 수준으로 되돌리는 리밸런싱을 자동 실행하며, 구성 종목과 비중, 조정 내역은 블록체인에 공개된다.\n토큰은 온도 글로벌 마켓(Ondo Global Markets)이 발행하고, 상품 구현과 운영은 온도 측이 맡는다. 블랙록은 모델 전략을 제공하며, 토큰 상품을 직접 운용하거나 판매하지 않는다. 블랙록은 제한적인 경우를 제외하면 전략을 갱신할 의무가 없고, 변경된 전략을 상품에 반영할지는 온도가 정한다. 투자자가 보유하는 토큰은 온도가 발행하는 별도의 증권으로, 기초 주식이나 ETF 지분을 직접 소유하는 것은 아니다.\n서비스 대상은 허용된 국가의 이용 요건을 충족한 미국 외 투자자다. 현재 이더리움(Ethereum)과 BNB체인(BNB Chain)을 지원하며, 솔라나(Solana) 지원도 예고했다. 온도 플랫폼에서 직접 토큰을 발행받거나 상환하려면 본인 확인과 투자 자격 심사를 거쳐야 한다.",
+      "metanomia_thought": "온도는 개별 주식과 ETF를 토큰으로 제공하던 사업에서, 여러 자산을 조합하고 비중을 관리하는 서비스로 영역을 넓혔습니다. 투자자가 종목마다 매매하지 않아도 하나의 토큰으로 정해진 자산배분을 따르도록 해, 토큰화 상품에 운용 기능을 더한 것입니다. 블랙록이 제공한 투자 모델을 온도가 실제 상품으로 구현한다는 점에서, 투자 전략을 설계하는 역할과 이를 투자자에게 제공하고 운용하는 역할이 나뉘는 구조입니다.",
+      "sources": [
+        {
+          "title": "Ondo Launches Intelligent Portfolios, Powered by BlackRock, Bringing Portfolio Strategies Onchain",
+          "url": "https://www.prnewswire.com/news-releases/ondo-launches-intelligent-portfolios-powered-by-blackrock-bringing-portfolio-strategies-onchain-302889211.html"
+        },
+        {
+          "title": "Ondo launches onchain portfolio tokens based on BlackRock-developed strategies",
+          "url": "https://www.theblock.co/news/markets/2026-09-24-ondo-launches-onchain-portfolio-tokens-based-blackrock-developed-strategies-416260"
+        },
+        {
+          "title": "Introducing Ondo Intelligent Portfolios",
+          "url": "https://ondo.finance/blog/introducing-ondo-intelligent-portfolios"
+        },
+        {
+          "title": "Whole Portfolios, Single Tokens",
+          "url": "https://ondo.finance/intelligent-portfolios"
+        }
+      ]
+    },
+    {
+      "id": "crypto-news-132669b850e6a64c",
+      "slug": "2026-09-25-crypto-news-132669b850",
+      "date_kst": "2026-09-25",
+      "title": "미 연준, 스테이블코인 발행 규칙안 공개…준비금 1대1에 별도 손실흡수 자본 요구",
+      "content": "현지시간 9월 24일 미국 연방준비제도이사회(연준)가 지니어스법(GENIUS Act)에 따른 스테이블코인 규칙안 두 건을 공개하고 의견수렴에 들어갔다. 발행한 스테이블코인을 허용된 준비자산으로 전액 뒷받침하고, 신용위험과 운영 사고에 따른 손실을 감당할 자본도 별도로 확보하도록 하는 내용이다. \n준비자산·자본 기준의 직접 적용 대상은 연준의 감독을 받는 발행사다. 예금보험에 가입한 연준 회원 주법은행의 자회사 중 발행 승인을 받은 곳과, 발행 잔액이 100억달러 이상으로 연준 감독 체계로 전환하는 주 인가 비보험 예금기관이 해당한다.\n준비자산으로는 달러 현금, 연방준비은행 예치금, 예금보험 가입 금융기관의 요구불예금, 잔존만기 93일 이내 미국 국채 등이 허용된다. 국채를 담보로 한 익일물 환매조건부거래와 적격 투자펀드, 일부 자산의 토큰화 형태도 포함된다. 준비자산의 공정가치는 항상 발행된 스테이블코인의 액면가 이상이어야 하며, 특정 금융기관이나 거래상대방에 자산이 쏠리는 위험도 관리해야 한다. 상환은 원칙적으로 요청 후 2영업일 이내에 이뤄져야 한다. \n운영위험에 대비한 기본 자본은 발행 잔액의 첫 200억달러에 2%, 다음 300억달러에 1.5%, 500억달러 초과분에 1%를 적용해 계산한다. 준비자산 운용 외 사업에서 수입이 발생하면 추가 자본도 요구한다. 최근 3년간의 연간 수입을 평균한 금액의 25%를 앞서 계산한 자본에 더하는 방식이다. 연준은 이렇게 합산한 금액에 과거 운영손실 이력을 반영해 최종 자본 요구액을 조정하도록 제안했다. 준비자산에서 발생하는 신용위험에도 별도 자본을 요구한다. 예금보험으로 보호되지 않는 예금 금액에는 2%를 적용한다. 국채를 담보로 자금을 빌려주는 역환매조건부거래는 담보가치를 조정한 뒤 남는 담보 부족분에 2%를 적용하도록 했다. \n두 번째 규칙안은 예금보험에 가입한 연준 회원 주법은행이 자회사를 통해 스테이블코인을 발행하려 할 때 거쳐야 할 승인 절차를 담았다. 사업계획서와 재무자료 등의 제출을 요구하고, 신청 거부에 대한 이의제기와 청문 절차도 제시했다. \n두 규칙안의 의견수렴 기간은 연방관보 게재 후 60일이며, 현재는 최종 확정 전 제안 단계다.",
+      "metanomia_thought": "이번 규칙안은 준비금을 보관한 은행의 부실이나 발행사의 운영 사고까지 고려해, 상환 재원과 별도로 손실을 감당할 자본을 요구합니다. 준비금의 보유 여부와 함께, 문제가 생겨도 상환 능력을 유지할 수 있는 발행사의 재무 기반을 보겠다는 접근입니다.",
+      "sources": [
+        {
+          "title": "Federal Reserve Board requests public comment on two proposals related to establishing a regulatory framework for Board-supervised payment stablecoin issuers under the GENIUS Act",
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260924a.htm"
+        },
+        {
+          "title": "Board memo: Implementing the Federal Reserve Board’s Responsibilities under the GENIUS Act",
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/files/bcreg20260924a1.pdf"
+        }
+      ]
+    },
     {
       "id": "crypto-news-96aed9c93757421b",
       "slug": "2026-09-24-crypto-news-96aed9c937",

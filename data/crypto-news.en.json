@@ -1,7 +1,83 @@
 {
   "schema_version": "1.0",
-  "generated_at_kst": "2026-09-25T16:10:07.366+09:00",
+  "generated_at_kst": "2026-09-25T18:55:11.393+09:00",
   "items": [
+    {
+      "slug": "2026-09-25-crypto-news-fea3a0026f",
+      "date_kst": "2026-09-25",
+      "title": "ARK Invest Tokenizes Venture Fund, Allowing USDC Investment from $500 with Quarterly Redemption Limits",
+      "content": "On September 24 local time, U.S. asset manager ARK Invest and tokenization company Securitize announced the tokenization of the ARK Venture Fund, or ARKVX. The fund was already available to retail investors from $500, and the new arrangement adds a route for investing with the dollar stablecoin USDC and holding the corresponding interest as a token in a digital wallet. ARK Invest made a strategic investment in Securitize in October 2025, and the companies described the tokenization as the next step in that relationship.\nThe ARK Venture Fund is an interval fund that invests in both private and publicly traded companies. Rather than allowing investors to withdraw funds whenever they choose, it repurchases investor shares at scheduled intervals and subject to limits. Its holdings include OpenAI, Anthropic, Stripe, and Databricks. Securitize reported net assets of $1.3 billion as of June 30, with 62% invested in private companies.\nThe token is issued on Ethereum, with Securitize providing the issuance infrastructure and investor interface. Each token is backed by one share of the fund purchased by Securitize Markets and held at BNY Mellon. The actual fund share remains with the custodian, while the investor holds the corresponding token in a personal wallet.\nThe offering is currently available to U.S. investors. It is not restricted to accredited investors, but participants must complete identity and eligibility checks and register their wallets. The minimum initial investment is $500, and a 2% transaction fee is deducted from the amount paid in USDC before the balance is invested in the fund.\nInvestors seeking to exit must submit a request during quarterly redemption windows. According to the product information, the fund may repurchase up to 5% of its outstanding shares in a quarter. Requests are fulfilled in full when they remain within that limit, but if demand exceeds it, each investor receives only a pro rata portion. The repurchase price is based on the fund's per-share net asset value, reflecting its assets and liabilities.\nTokens may be transferred only between approved wallets belonging to investors who have passed the same eligibility review. Public-market trading and use as decentralized-finance collateral are not available at launch. Securitize said it plans to add features such as secondary trading if permitted by regulation, but it did not provide a launch date.",
+      "metanomia_thought": "Stablecoin balances create an opportunity for asset managers to reach a new pool of customers. ARK Invest preserves the existing fund's investment and redemption structure while allowing investors who hold USDC to keep a fund interest in a digital wallet. The commercial significance of tokenization in this case lies in extending the fund's distribution network to where investors already hold their money.",
+      "sources": [
+        {
+          "title": "ARK Invest Tokenizes ARK Venture Fund (ARKVX) with Securitize",
+          "url": "https://securitize.io/learn/press/ark-invest-tokenizes-arkvx-with-securitize"
+        },
+        {
+          "title": "ARKVX — ARK Venture Fund",
+          "url": "https://securitize.io/arkvx"
+        }
+      ]
+    },
+    {
+      "slug": "2026-09-25-crypto-news-581ef8d607",
+      "date_kst": "2026-09-25",
+      "title": "New York Sues Polymarket US for Alleged Illegal Gambling as Company Counters State Law Does Not Apply",
+      "content": "On September 24 local time, New York Attorney General Letitia James and Governor Kathy Hochul announced a lawsuit against the U.S. business of prediction-market platform Polymarket. The defendant is QCX LLC, which operates Polymarket US. New York alleges that the company conducted gambling operations without a license under state law.\nNew York argues that wagering money on the outcome of uncertain events beyond a user's control constitutes gambling under state law. It also alleges that by operating without a license from the New York State Gaming Commission, the company avoided taxes paid by licensed casinos and mobile sports-betting operators. State law sets the minimum age for mobile sports betting at 21, but New York says Polymarket US also served users aged 18 to 20.\nThe state asked the court to stop the unlicensed operations and order disgorgement and restitution to users. It also seeks monetary penalties equal to three times the profits it says were earned through illegal operations, along with a $100,000 penalty for each act of offering or attempting to offer sports-betting services without authorization.\nPolymarket US began operating in the United States in December 2025. Its operating company, QCX, is an exchange supervised by the U.S. Commodity Futures Trading Commission. The central dispute is whether New York gambling law can also apply to transactions conducted under federal oversight.\nOn the same day, Polymarket filed a separate lawsuit in federal court against Attorney General James and officials of the New York State Gaming Commission. The company argues that its transactions fall under the CFTC's exclusive jurisdiction under the Commodity Exchange Act and therefore are not subject to New York gambling rules. It asked the court to declare that the relevant state laws are preempted and to issue preliminary and permanent injunctions blocking state enforcement.\nNew York filed a similar lawsuit against prediction-market rival Kalshi in July and brought related actions against Coinbase and Gemini in April. The announcements and complaints establish the parties' allegations and requested relief, but no court ruling has determined illegality or whether operations must cease.",
+      "metanomia_thought": "For a prediction-market operator, regulatory jurisdiction determines which products it may offer to customers in each location. Polymarket seeks to use its federal authorization to provide the same trading service nationwide, while New York seeks to apply state gambling rules to transactions involving its residents. The dispute concerns how far federal authorization limits state-by-state operating restrictions, a boundary that could change both nationwide expansion strategies and user access.",
+      "sources": [
+        {
+          "title": "Attorney General James and Governor Hochul Announce Lawsuit Against Polymarket for Running Illegal Gambling Operation",
+          "url": "https://ag.ny.gov/press-release/2026/attorney-general-james-and-governor-hochul-announce-lawsuit-against-polymarket"
+        },
+        {
+          "title": "Polymarket countersues New York state over ‘unregulated gambling’ allegation",
+          "url": "https://www.cnbc.com/2026/09/24/new-york-sues-polymarket-us-two-months-after-filing-suit-against-kalshi-.html"
+        }
+      ]
+    },
+    {
+      "slug": "2026-09-25-crypto-news-1db6f6d8c3",
+      "date_kst": "2026-09-25",
+      "title": "Ondo Launches Three Portfolio Tokens Based on BlackRock Model Strategies with Automatic Rebalancing",
+      "content": "On September 24 local time, tokenization company Ondo Finance launched Ondo Intelligent Portfolios, which bundle multiple assets into a single token. The three products—High Income, Diversified Growth, and High Growth—are based on model strategies developed for Ondo by asset manager BlackRock.\nEach product consists of Ondo Stocks, which are tokenized versions of stocks and exchange-traded funds. Investors can hold one token whose performance is linked to multiple assets. Smart contracts automatically rebalance the asset weights to their target levels on a set schedule, while holdings, weights, and adjustment history are disclosed onchain.\nThe tokens are issued by Ondo Global Markets, while Ondo handles product implementation and operation. BlackRock supplies the model strategies but does not directly manage or market the token products. Except in limited circumstances, BlackRock has no obligation to update the strategies, and Ondo decides whether to implement any changes. The token held by an investor is a separate security issued by Ondo and does not confer direct ownership of the underlying stocks or ETFs.\nThe service is available to eligible non-U.S. investors in permitted countries. Ethereum and BNB Chain are currently supported, with Solana support also announced. Investors must complete identity and eligibility checks to issue or redeem tokens directly through the Ondo platform.",
+      "metanomia_thought": "Ondo is expanding from offering tokenized individual stocks and ETFs into a service that combines assets and manages their weights. By allowing investors to follow a defined allocation through one token without trading each holding separately, it adds a portfolio-management function to tokenized products. BlackRock designs the investment model while Ondo turns it into an operating product for investors, separating strategy design from product provision and operation.",
+      "sources": [
+        {
+          "title": "Ondo Launches Intelligent Portfolios, Powered by BlackRock, Bringing Portfolio Strategies Onchain",
+          "url": "https://www.prnewswire.com/news-releases/ondo-launches-intelligent-portfolios-powered-by-blackrock-bringing-portfolio-strategies-onchain-302889211.html"
+        },
+        {
+          "title": "Ondo launches onchain portfolio tokens based on BlackRock-developed strategies",
+          "url": "https://www.theblock.co/news/markets/2026-09-24-ondo-launches-onchain-portfolio-tokens-based-blackrock-developed-strategies-416260"
+        },
+        {
+          "title": "Introducing Ondo Intelligent Portfolios",
+          "url": "https://ondo.finance/blog/introducing-ondo-intelligent-portfolios"
+        },
+        {
+          "title": "Whole Portfolios, Single Tokens",
+          "url": "https://ondo.finance/intelligent-portfolios"
+        }
+      ]
+    },
+    {
+      "slug": "2026-09-25-crypto-news-132669b850",
+      "date_kst": "2026-09-25",
+      "title": "Federal Reserve Proposes Stablecoin Rules Requiring Full Reserves and Separate Loss-Absorbing Capital",
+      "content": "On September 24 local time, the U.S. Federal Reserve Board released two proposed rules under the GENIUS Act and opened them for public comment. The proposals would require issued stablecoins to be fully backed by permitted reserve assets while also requiring separate capital to absorb losses arising from credit risk and operational incidents.\nThe reserve and capital standards would apply directly to issuers supervised by the Federal Reserve. These include approved subsidiaries of FDIC-insured state member banks and state-chartered, uninsured depository institutions that move into Federal Reserve supervision once their outstanding issuance reaches at least $10 billion.\nPermitted reserve assets would include U.S. dollar cash, balances at Federal Reserve Banks, demand deposits at insured depository institutions, and U.S. Treasury securities with no more than 93 days remaining to maturity. They would also include overnight repurchase agreements backed by Treasuries, eligible investment funds, and tokenized forms of certain assets. The fair value of the reserves would have to remain at least equal to the face value of the stablecoins outstanding at all times, and issuers would have to manage concentration risk involving particular financial institutions or counterparties. Redemptions would generally have to be completed within two business days of a request.\nBase capital for operational risk would be calculated at 2% of the first $20 billion in outstanding issuance, 1.5% of the next $30 billion, and 1% of the amount above $50 billion. Additional capital would apply if the issuer earns income from businesses other than reserve management. The proposal would add 25% of the issuer's average annual income from the previous three years to the base amount, then adjust the total to reflect its history of operational losses. Separate capital would also be required for credit risk in reserve assets. Uninsured deposits would carry a 2% charge, while reverse repurchase agreements used to lend funds against Treasury collateral would carry a 2% charge on any collateral shortfall remaining after valuation adjustments.\nThe second proposal sets out the approval process for an FDIC-insured state member bank seeking to issue stablecoins through a subsidiary. It would require a business plan and financial information and would also establish procedures for challenging a denial and requesting a hearing.\nThe comment period for both proposals will run for 60 days after publication in the Federal Register. They remain proposals and have not been finalized.",
+      "metanomia_thought": "The proposals treat the failure of a reserve-holding bank and an issuer's operational incident as risks that require capital separate from the funds available for redemption. The approach therefore examines not only whether reserves exist, but also whether the issuer has the financial capacity to preserve redemption ability when something goes wrong.",
+      "sources": [
+        {
+          "title": "Federal Reserve Board requests public comment on two proposals related to establishing a regulatory framework for Board-supervised payment stablecoin issuers under the GENIUS Act",
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260924a.htm"
+        },
+        {
+          "title": "Board memo: Implementing the Federal Reserve Board’s Responsibilities under the GENIUS Act",
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/files/bcreg20260924a1.pdf"
+        }
+      ]
+    },
     {
       "slug": "2026-09-24-crypto-news-96aed9c937",
       "date_kst": "2026-09-24",
