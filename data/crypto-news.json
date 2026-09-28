@@ -1,7 +1,55 @@
 {
   "schema_version": "1.0",
-  "generated_at_kst": "2026-09-25T18:55:11.393+09:00",
+  "generated_at_kst": "2026-09-28T10:21:34.566+09:00",
   "items": [
+    {
+      "id": "crypto-news-ec84fd1fadf4bc91",
+      "slug": "2026-09-28-crypto-news-ec84fd1fad",
+      "date_kst": "2026-09-28",
+      "title": "아베, 코인베이스 토큰화 주식 7종 담보 USDC 대출 개시",
+      "content": "현지시간 9월 25일 탈중앙화금융 대출 프로토콜 아베(Aave)가 베이스(Base) 네트워크의 아베 V4에 ‘에쿼티 허브(Equities Hub)’를 출시했다. 코인베이스(Coinbase)가 발행한 토큰화 주식을 담보로 달러 스테이블코인 USDC를 빌릴 수 있는 시장이다. 지원 자산은 애플(Apple)·아마존(Amazon)·알파벳(Alphabet)·메타(Meta)·마이크로소프트(Microsoft)·엔비디아(NVIDIA)·테슬라(Tesla) 주식을 토큰화한 7종이다.\n이용자는 한 종목 또는 여러 종목을 묶어 담보로 맡길 수 있으며, 종목에 따라 담보 평가액의 65~79%까지 USDC를 빌릴 수 있다. 출시 당시 시장 전체의 한도는 담보 수용 약 2,900만달러, USDC 예치 3,200만달러, USDC 차입 2,100만달러로 설정됐다. 현재 빌릴 수 있는 자산은 USDC이며, 주식 토큰은 담보로만 사용된다.\n이 토큰은 코인베이스 온체인 SPV(Coinbase Onchain SPV Ltd)가 발행하는 증서를 토큰으로 구현한 상품이다. 이를 뒷받침하는 실제 주식은 미국 증권거래위원회(SEC)에 등록된 증권사 알파카 증권(Alpaca Securities LLC)이 발행사 명의의 분리된 계좌에 보관한다. 토큰은 미국 외 허용된 국가에서 이용 요건을 충족한 투자자를 대상으로 제공된다.\n대출 시장은 주말에도 운영되지만, 담보 평가에 쓰는 체인링크(Chainlink)의 시세는 미국 동부시간 일요일 오후 8시부터 금요일 오후 8시까지 갱신된다. 시세 제공이 중단되는 주말과 미국 시장 휴장일에는 마지막으로 받은 가격을 담보 평가에 사용한다.\n이 기간에도 이자가 쌓여 갚아야 할 금액이 늘어나므로, 담보 평가가격이 그대로여도 청산 대상이 될 수 있다. 시세 제공이 재개될 때 주가 하락이 반영되면 담보 가치가 낮아져 새로 청산 기준에 도달하는 대출도 생길 수 있다. 아베가 공개한 위험평가 자료에 따르면, 종목별 담보인정비율과 시장 한도는 이러한 휴장 기간과 가격 변동 위험을 고려해 정해졌다.",
+      "metanomia_thought": "같은 주식을 담은 토큰이라도 어떤 금융서비스에서 받아주느냐에 따라 활용도는 달라집니다. 이번 연결로 코인베이스의 토큰화 주식 보유자는 매매 외에 아베에서 USDC를 조달하는 선택지를 얻었습니다. 토큰화 주식의 경쟁에서는 발행사가 얼마나 많은 종목을 내놓는지와 함께, 다른 금융서비스가 그 토큰을 담보로 인정하고 자금을 공급하는지도 중요해집니다.",
+      "sources": [
+        {
+          "title": "Coinbase Tokenized Stocks Now Live on Aave V4",
+          "url": "https://aave.com/blog/coinbase-tokenized-stocks"
+        },
+        {
+          "title": "Aave V4 on Base adds Coinbase tokenized stocks as collateral for USDC loans",
+          "url": "https://www.theblock.co/news/defi/2026-09-25-aave-v4-on-base-adds-coinbase-tokenized-stocks-as-collateral-for-usdc-loans-416372"
+        },
+        {
+          "title": "Tokenized Equities on Aave V4 Base: Initial Market Parameters",
+          "url": "https://governance.aave.com/t/arfc-deploy-aave-v4-on-base/25427/5"
+        }
+      ]
+    },
+    {
+      "id": "crypto-news-1bfdf4d54e0debc2",
+      "slug": "2026-09-28-crypto-news-1bfdf4d54e",
+      "date_kst": "2026-09-28",
+      "title": "비트겟, 3억8,750만달러 유출…28일 비트코인부터 출금 재개 예고",
+      "content": "암호자산 거래소 비트겟(Bitget)이 9월 26일 공지를 통해 해킹 사고로 중단한 출금을 28일부터 단계적으로 재개하겠다고 밝혔다. 비트겟은 협정세계시(UTC) 9월 24일 거래소가 관리하는 지갑에서 암호자산이 무단 유출되는 해킹 피해를 입고 출금을 중단했다. 회사가 이후 집계한 피해 규모는 약 3억8,750만달러다.\n출금은 9월 28일 비트코인(BTC)부터 재개할 예정이다. 29일에는 이더리움(ETH), 30일에는 달러 스테이블코인 USDT 출금을 각각 공지에 명시된 네트워크에서 재개한다. 기타 토큰과 법정화폐·개인 간 거래(P2P) 서비스는 10월 2일부터 복구한다. 각 서비스는 해당 날짜의 한국시간 오후 5시부터 재개될 예정이다. 입금과 거래는 출금 중단 중에도 계속 운영되고 있다.\n회사 설명에 따르면 공격자는 지갑의 내부 처리 시스템에 침입해 자산 전송 정보를 조작하고, 비트겟의 승인 절차를 작동시켜 자금을 빼냈다. 비트겟은 현재까지의 조사에서 개인키 유출 가능성은 배제했다고 밝혔다. 비트겟은 피해가 핫월렛(온라인 입출금용 지갑)과 웜월렛(온라인 기능에 추가 보안 통제를 둔 지갑) 일부에 한정됐다고 설명했다. 개인키를 인터넷과 분리해 보관하는 콜드월렛과 별도 서비스인 자기보관형 비트겟 월렛(Bitget Wallet)은 영향을 받지 않았다고 밝혔다.\n비트겟은 사고 직후 공지에서 이용자 보호기금 규모를 4억6,400만달러 이상으로 제시했다. 이번 손실은 기금의 보전 범위 안에 있으며, 이용자 계정 잔액에는 영향이 없다고 설명했다.\n회사는 사고에 악용된 취약점을 찾아 조치했으며, 보안업체 맨디언트(Mandiant)와 슬로우미스트(SlowMist)가 조사와 자금 추적을 돕고 있다고 밝혔다. 업계 협력으로 유출 자산 일부를 동결했으며, 자발적으로 동결·회수에 기여한 적격 대상자에게 동결·회수된 금액의 5%를 지급하는 포상금 프로그램도 마련했다.",
+      "metanomia_thought": "보호기금은 해킹 손실을 메울 재원이지만, 출금이 막힌 동안 이용자의 자산을 움직여 주지는 못합니다. 비트겟은 이용자 잔액에 영향이 없다고 밝혔지만, 그 자산을 외부로 옮길 수 있는 시점은 거래소의 복구 일정에 달려 있습니다. 거래소에 자산을 맡긴다는 것은 보관뿐 아니라, 사고가 났을 때 언제 다시 꺼낼 수 있는지에 대한 결정도 맡기는 일입니다.",
+      "sources": [
+        {
+          "title": "[SECURITY NOTICE] Bitget Hot Wallet Incident — September 24, 2026",
+          "url": "https://www.bitget.com/support/articles/12560603896024"
+        },
+        {
+          "title": "Bitget Security Latest Incident Update: Fund Tracing and Recovery Bounty Program",
+          "url": "https://www.bitget.com/support/articles/12560603896108"
+        },
+        {
+          "title": "Bitget to Resume Withdrawals in Phases",
+          "url": "https://www.bitget.com/support/articles/12560603896110"
+        },
+        {
+          "title": "Bitget Security Incident Explained: Timeline, Impact and Security Response",
+          "url": "https://www.bitget.com/academy/bitget-security-incident-what-happened-timeline-impact-response"
+        }
+      ]
+    },
     {
       "id": "crypto-news-fea3a0026f02c1d7",
       "slug": "2026-09-25-crypto-news-fea3a0026f",

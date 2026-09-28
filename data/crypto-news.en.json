@@ -1,7 +1,53 @@
 {
   "schema_version": "1.0",
-  "generated_at_kst": "2026-09-25T18:55:11.393+09:00",
+  "generated_at_kst": "2026-09-28T10:21:34.566+09:00",
   "items": [
+    {
+      "slug": "2026-09-28-crypto-news-ec84fd1fad",
+      "date_kst": "2026-09-28",
+      "title": "Aave Opens USDC Loans Backed by Seven Coinbase Tokenized Stocks",
+      "content": "On September 25 local time, decentralized-finance lending protocol Aave launched an Equities Hub on Aave V4 on the Base network. The market allows users to borrow the dollar stablecoin USDC against tokenized stocks issued by Coinbase. The seven supported assets represent shares of Apple, Amazon, Alphabet, Meta, Microsoft, NVIDIA, and Tesla.\nUsers can post one stock or a basket of several stocks as collateral and borrow USDC equal to 65% to 79% of the collateral's assessed value, depending on the asset. At launch, the market-wide limits were set at about $29 million in accepted collateral, $32 million in USDC deposits, and $21 million in USDC borrowing. USDC is currently the only asset available to borrow, while the stock tokens may be used only as collateral.\nThe tokens implement certificates issued by Coinbase Onchain SPV Ltd. The underlying shares are held for the issuer in segregated accounts by Alpaca Securities LLC, a broker-dealer registered with the U.S. Securities and Exchange Commission. The tokens are offered to eligible investors outside the United States in permitted jurisdictions.\nThe lending market operates on weekends, but Chainlink price feeds used to value collateral update from 8 p.m. Eastern Time on Sunday through 8 p.m. on Friday. During weekends and U.S. market holidays, when price updates are unavailable, the market uses the last reported price to value collateral.\nInterest continues to accrue during those periods, increasing the amount owed, so a loan can become eligible for liquidation even when the reported collateral price does not change. When price feeds resume, a reflected decline in the share price may also cause additional loans to reach their liquidation thresholds. Aave's published risk assessment says the collateral ratios and market limits for each asset were set with these market-closure and price-volatility risks in mind.",
+      "metanomia_thought": "The usefulness of a token representing the same stock changes depending on which financial services accept it. This connection gives holders of Coinbase's tokenized stocks an option beyond trading: using them to obtain USDC through Aave. Competition in tokenized stocks will therefore depend not only on how many assets an issuer offers, but also on whether other financial services recognize those tokens as collateral and supply funding against them.",
+      "sources": [
+        {
+          "title": "Coinbase Tokenized Stocks Now Live on Aave V4",
+          "url": "https://aave.com/blog/coinbase-tokenized-stocks"
+        },
+        {
+          "title": "Aave V4 on Base adds Coinbase tokenized stocks as collateral for USDC loans",
+          "url": "https://www.theblock.co/news/defi/2026-09-25-aave-v4-on-base-adds-coinbase-tokenized-stocks-as-collateral-for-usdc-loans-416372"
+        },
+        {
+          "title": "Tokenized Equities on Aave V4 Base: Initial Market Parameters",
+          "url": "https://governance.aave.com/t/arfc-deploy-aave-v4-on-base/25427/5"
+        }
+      ]
+    },
+    {
+      "slug": "2026-09-28-crypto-news-1bfdf4d54e",
+      "date_kst": "2026-09-28",
+      "title": "Bitget Reports $387.5 Million Theft and Plans Phased Withdrawal Resumption Starting with Bitcoin on September 28",
+      "content": "Crypto-asset exchange Bitget said in a September 26 notice that it would begin resuming withdrawals in stages on September 28 after suspending them because of a hack. At 00:00 UTC on September 24, crypto assets were transferred without authorization from wallets managed by the exchange, prompting Bitget to halt withdrawals. The company later estimated the loss at approximately $387.5 million.\nBitcoin withdrawals are scheduled to resume on September 28. Ethereum withdrawals are set to follow on September 29 and withdrawals of the dollar stablecoin USDT on September 30, in each case on the networks specified in the notice. Other tokens, fiat services, and peer-to-peer trading are scheduled to return from October 2. Each service is due to resume at 5 p.m. Korea Standard Time on the relevant date. Deposits and trading have continued while withdrawals were suspended.\nAccording to Bitget, the attacker compromised an internal wallet-processing system, altered asset-transfer information, and caused Bitget's approval process to authorize the transfers. The company said its investigation to date has ruled out the possibility that private keys were compromised. Bitget said the impact was limited to parts of its hot wallets, which handle online deposits and withdrawals, and warm wallets, which add security controls to online functions. Cold wallets, whose private keys are kept offline, and the separate self-custodial Bitget Wallet were not affected.\nIn its initial notice after the incident, Bitget put the size of its user Protection Fund at more than $464 million. It said the loss was within the fund's coverage and that user account balances were unaffected.\nThe company said it identified and addressed the vulnerability used in the incident. Security firms Mandiant and SlowMist are assisting with the investigation and fund tracing. Some of the stolen assets have been frozen through industry cooperation, and Bitget also established a bounty program offering 5% of the amount frozen or recovered to eligible parties who voluntarily help with freezing or recovery.",
+      "metanomia_thought": "A protection fund can provide resources to cover a hacking loss, but it cannot move users' assets while withdrawals remain suspended. Bitget says account balances were unaffected, yet the point at which those assets can be transferred outside the exchange still depends on its recovery schedule. Entrusting assets to an exchange means delegating not only custody, but also the decision about when they can be withdrawn again after an incident.",
+      "sources": [
+        {
+          "title": "[SECURITY NOTICE] Bitget Hot Wallet Incident — September 24, 2026",
+          "url": "https://www.bitget.com/support/articles/12560603896024"
+        },
+        {
+          "title": "Bitget Security Latest Incident Update: Fund Tracing and Recovery Bounty Program",
+          "url": "https://www.bitget.com/support/articles/12560603896108"
+        },
+        {
+          "title": "Bitget to Resume Withdrawals in Phases",
+          "url": "https://www.bitget.com/support/articles/12560603896110"
+        },
+        {
+          "title": "Bitget Security Incident Explained: Timeline, Impact and Security Response",
+          "url": "https://www.bitget.com/academy/bitget-security-incident-what-happened-timeline-impact-response"
+        }
+      ]
+    },
     {
       "slug": "2026-09-25-crypto-news-fea3a0026f",
       "date_kst": "2026-09-25",
