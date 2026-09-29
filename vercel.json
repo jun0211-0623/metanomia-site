@@ -4,6 +4,17 @@
   "trailingSlash": false,
   "redirects": [
     {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "metanomia-site.vercel.app"
+        }
+      ],
+      "destination": "https://metanomia.org/:path*",
+      "permanent": true
+    },
+    {
       "source": "/:path(.*).ko",
       "destination": "/ko/:path(.*)",
       "permanent": true
