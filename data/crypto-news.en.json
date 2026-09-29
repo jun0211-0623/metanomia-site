@@ -1,7 +1,74 @@
 {
   "schema_version": "1.0",
-  "generated_at_kst": "2026-09-28T10:21:34.566+09:00",
+  "generated_at_kst": "2026-09-29T10:37:50.982+09:00",
   "items": [
+    {
+      "slug": "2026-09-29-crypto-news-b4c90a6447",
+      "date_kst": "2026-09-29",
+      "title": "Citi and Coinbase Expand Partnership to Link Stablecoins with Virtual Accounts and Merchant Payments",
+      "content": "On September 28 local time, U.S. bank Citi and crypto-asset exchange Coinbase announced an expansion of their payments partnership connecting fiat currency and stablecoins. The collaboration centers on Coinbase virtual accounts that use Citi's banking infrastructure and Citi merchant-payment services that use Coinbase technology.\nCoinbase Virtual Accounts use Citi's Virtual Account Wallet to receive, hold, and disburse funds, while automatically converting incoming fiat currency into stablecoins. The virtual-account deposit feature is currently in a private pilot and requires account-specific approval from Coinbase.\nFor merchant payments, Coinbase Payments will be integrated with Citi's payments service, Spring by Citi. When a customer pays with stablecoins, Coinbase automatically converts them into fiat currency and Citi settles the amount owed to the merchant. Merchants can add the payment option without directly holding or managing stablecoins.\nThe companies said they plan to make the services available in the United States first. The joint announcement did not provide specific launch dates or fees for the individual services.",
+      "metanomia_thought": "As stablecoin ownership grows, their usefulness remains limited if too few merchants accept them. This partnership would let merchants continue receiving fiat currency while also serving customers who pay with stablecoins. The structure gives Coinbase a chance to expand its payments business through Citi's corporate client network, while giving Citi a way to offer existing merchants a new payment method.",
+      "sources": [
+        {
+          "title": "Citi and Coinbase Expand Collaboration to Connect Digital and Fiat Payments for Corporations and Consumers",
+          "url": "https://www.businesswire.com/news/home/20260928314097/en/"
+        },
+        {
+          "title": "Coinbase brings bank-grade fiat and stablecoin payments to businesses, in collaboration with Citi",
+          "url": "https://www.coinbase.com/blog/coinbase-brings-bank-grade-fiat-and-stablecoin-payments-to-businesses-in-collaboration-with-citi"
+        },
+        {
+          "title": "Fiat Deposit Destinations Quickstart",
+          "url": "https://docs.cdp.coinbase.com/payments/fiat-deposit-destinations/quickstart"
+        }
+      ]
+    },
+    {
+      "slug": "2026-09-29-crypto-news-a4434f7918",
+      "date_kst": "2026-09-29",
+      "title": "U.S. Senate PSI Democrats Seek Tether Sanctions-Compliance Investigation Over Alleged Failures to Block Iran-Linked Wallets",
+      "content": "On September 28 local time, Senator Richard Blumenthal, the ranking Democratic member of the U.S. Senate Permanent Subcommittee on Investigations, released a report by the subcommittee's Democratic staff alleging that Tether's dollar stablecoin USDT had been used to evade sanctions on Iran. Blumenthal asked the Treasury and Justice departments to investigate Tether's anti-money-laundering and sanctions-compliance practices and determine whether the company violated relevant laws, with strong enforcement if violations are found. He also requested information by October 9 on whether investigations of Tether exist and how they are progressing.\nThe report analyzed transactions involving 846 crypto-asset wallets linked to the Iranian government and regional proxies that had been designated for sanctions or seizure by U.S. or Israeli authorities. It said 84% of the wallets transacted only or almost exclusively in USDT. According to the report, Israeli authorities designated 39 Hezbollah-linked wallets in June 2023, but Tether did not freeze 34 of them until March 2024, excluding five that it had frozen earlier. The report estimated that more than $34.6 million in USDT left the wallets after the seizure notice became public. It argues that Tether failed to freeze some designated wallets promptly and did not proactively block wallets despite public information indicating links to Iran or terrorist organizations. The report alleges that these shortcomings facilitated Iran's sanctions evasion and the movement of funds by terrorist groups.\nIn a statement the same day, Tether said it had assisted in freezing approximately $550 million in Iran-linked USDT during 2026. Chief Executive Paolo Ardoino emphasized that public blockchains allow funds to be traced and that Tether can act when law-enforcement agencies provide reliable information.",
+      "metanomia_thought": "Tether's record of freezes and the report's criticism of delayed responses can both be true. If suspicious wallets moved funds before the remaining balances were frozen, the total amount frozen alone does not show how much earlier activity was prevented. Evaluating an issuer's sanctions response therefore requires examining not only the value frozen, but also the time between identifying a risk and actually blocking it, along with the funds that moved in the meantime.",
+      "sources": [
+        {
+          "title": "Tethered to Terrorism: Crypto & Iran’s Shadow Banking Network",
+          "url": "https://www.hsgac.senate.gov/wp-content/uploads/2026-09-28-Crypto-and-Irans-Shadow-Banking-Network.pdf"
+        },
+        {
+          "title": "Letter from Senator Blumenthal to Treasury Secretary Bessent",
+          "url": "https://www.hsgac.senate.gov/wp-content/uploads/2026-09-28-Letter-from-Sen-Blumenthal-to-Sec-Bessent.pdf"
+        },
+        {
+          "title": "Letter from Senator Blumenthal to Attorney General Blanche",
+          "url": "https://www.hsgac.senate.gov/wp-content/uploads/2026-09-28-Letter-from-Sen-Blumenthal-to-AG-Blanche.pdf"
+        },
+        {
+          "title": "Tether Has Supported Nearly $550 Million in Iran-Linked USD₮ Freezes as U.S. Expands Sanctions Campaign",
+          "url": "https://tether.io/news/tether-has-supported-nearly-550-million-in-iran-linked-usdt-freezes-as-u-s-expands-sanctions-campaign/"
+        }
+      ]
+    },
+    {
+      "slug": "2026-09-29-crypto-news-9b4ac5819a",
+      "date_kst": "2026-09-29",
+      "title": "Chainlink Launches CCIP 2.0, Letting Issuers Add Verification and Set Transfer Conditions",
+      "content": "On September 28 local time, blockchain-oracle provider Chainlink launched CCIP 2.0, a new version of its Cross-Chain Interoperability Protocol. The technology transfers tokens and messages between different blockchains, and the new version expands the ability of institutions and asset issuers to configure verification procedures and transfer conditions.\nCore verification is performed by Chainlink's validation network of 16 independent node operators. An issuer can operate its own Cross-Chain Verifier, or CCV, or select an external verification service to require an additional check. For example, it could require extra approval only for transfers above $1 million. External verification services may charge separate verification fees in addition to the standard CCIP fee.\nIssuers can also adjust the waiting period before a transfer is executed. By default, CCIP waits until a transaction on the source blockchain reaches finality, but an issuer can shorten the confirmation period so execution occurs more quickly on the destination blockchain. Doing so requires accounting for the risk that the source-chain transaction record could later change. Issuers may also integrate Chainlink's Automated Compliance Engine, or ACE, to apply their know-your-customer and anti-money-laundering conditions during a transfer through allowlists, blocklists, and sanctions screening.\nChainlink said Lombard is adopting the customizable verification feature, while Infosys and Nethermind are among the companies developing and operating verification infrastructure for customers. The company said tokens using CCIP represent more than $84 billion in total value and that tokens worth more than $15 billion adopted CCIP over the past four months.",
+      "metanomia_thought": "Institutions distributing tokenized assets across multiple blockchains need to apply criteria such as customer eligibility and transaction limits during transfers as well. CCIP 2.0 allows issuers to embed those conditions and vary additional verification or confirmation waiting periods according to a transaction's size and purpose. The design seeks to broaden asset distribution while preserving the transfer conditions set by the issuer.",
+      "sources": [
+        {
+          "title": "Introducing CCIP 2.0: The Interoperability Standard for Institutions",
+          "url": "https://chain.link/blog/introducing-ccip-2-0"
+        },
+        {
+          "title": "Advanced Pool Hooks",
+          "url": "https://docs.chain.link/ccip/concepts/cross-chain-token/advanced-pool-hooks"
+        },
+        {
+          "title": "Faster-Than-Finality (FTF) – dApps",
+          "url": "https://docs.chain.link/ccip/concepts/execution-latency/ftf-dapps"
+        }
+      ]
+    },
     {
       "slug": "2026-09-28-crypto-news-ec84fd1fad",
       "date_kst": "2026-09-28",

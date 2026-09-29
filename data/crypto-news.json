@@ -1,7 +1,77 @@
 {
   "schema_version": "1.0",
-  "generated_at_kst": "2026-09-28T10:21:34.566+09:00",
+  "generated_at_kst": "2026-09-29T10:37:50.982+09:00",
   "items": [
+    {
+      "id": "crypto-news-b4c90a64478e0cc6",
+      "slug": "2026-09-29-crypto-news-b4c90a6447",
+      "date_kst": "2026-09-29",
+      "title": "씨티·코인베이스 협력 확대…가상계좌·가맹점 결제에 스테이블코인 연결",
+      "content": "현지시간 9월 28일 미국 은행 씨티(Citi)와 암호자산 거래소 코인베이스(Coinbase)가 법정화폐와 스테이블코인을 연결하는 결제 협력을 확대한다고 발표했다. 씨티의 은행 인프라를 이용하는 코인베이스 가상계좌와, 코인베이스의 기술을 활용하는 씨티의 가맹점 결제 서비스가 이번 협력의 핵심이다.\n코인베이스 가상계좌(Coinbase Virtual Accounts)는 씨티의 가상계좌 지갑(Virtual Account Wallet)을 기반으로 자금을 받고 보관하고 지급하는 기능을 제공하며, 입금된 법정화폐를 스테이블코인으로 자동 전환한다. 해당 가상계좌 입금 기능은 현재 비공개 시험 운영 단계이며, 이용하려면 코인베이스의 계정별 승인이 필요하다.\n가맹점 결제는 씨티의 결제 서비스 ‘스프링 바이 씨티(Spring by Citi)’에 코인베이스 페이먼츠(Coinbase Payments)를 연결하는 방식이다. 고객이 스테이블코인으로 결제하면 코인베이스가 이를 법정화폐로 자동 전환하고, 씨티가 가맹점에 지급할 대금을 정산한다. 가맹점은 스테이블코인을 직접 보관하거나 관리하지 않고도 결제 수단을 추가할 수 있다.\n두 회사는 서비스를 미국에서 먼저 제공할 계획이라고 밝혔다. 다만 이번 공동발표문에는 서비스별 구체적인 출시 일정과 수수료가 제시되지 않았다.",
+      "metanomia_thought": "스테이블코인 보유자가 늘어도 이를 받아주는 가맹점이 부족하면 사용처는 제한됩니다. 이번 협력은 가맹점이 기존처럼 법정화폐로 대금을 받으면서 스테이블코인으로 결제하는 고객까지 상대할 수 있게 합니다. 코인베이스에는 씨티의 기업 고객망을 통해 결제 서비스를 넓힐 기회가, 씨티에는 기존 가맹점에 새로운 결제 수단을 제공할 기회가 생기는 구조입니다.",
+      "sources": [
+        {
+          "title": "Citi and Coinbase Expand Collaboration to Connect Digital and Fiat Payments for Corporations and Consumers",
+          "url": "https://www.businesswire.com/news/home/20260928314097/en/"
+        },
+        {
+          "title": "Coinbase brings bank-grade fiat and stablecoin payments to businesses, in collaboration with Citi",
+          "url": "https://www.coinbase.com/blog/coinbase-brings-bank-grade-fiat-and-stablecoin-payments-to-businesses-in-collaboration-with-citi"
+        },
+        {
+          "title": "Fiat Deposit Destinations Quickstart",
+          "url": "https://docs.cdp.coinbase.com/payments/fiat-deposit-destinations/quickstart"
+        }
+      ]
+    },
+    {
+      "id": "crypto-news-a4434f7918f2a4fa",
+      "slug": "2026-09-29-crypto-news-a4434f7918",
+      "date_kst": "2026-09-29",
+      "title": "미 상원 조사소위 민주당, 테더 제재 준수 조사 요청…“이란 연계 지갑 차단 미흡”",
+      "content": "현지시간 9월 28일 미국 상원 상설조사소위원회(Permanent Subcommittee on Investigations·PSI)의 민주당 간사 리처드 블루먼솔(Richard Blumenthal) 상원의원이 테더(Tether)의 달러 스테이블코인 USDT가 이란의 제재 회피에 활용됐다는 민주당 측 보고서를 공개했다. 블루먼솔 의원은 재무부와 법무부에 테더의 자금세탁방지·제재 준수 관행과 관련 법률 위반 여부를 조사하고, 위반이 확인되면 강력한 조치를 취해 달라고 요청했다. 아울러 테더에 대한 조사 여부와 진행 상황 등 관련 정보를 10월 9일까지 제출해 달라고 요구했다.\n보고서는 이란 정부와 지역 대리세력에 연계돼 미국·이스라엘 당국의 제재 또는 압수 대상이 된 암호자산 지갑 846개의 거래 내역을 분석했다. 이 가운데 84%가 USDT로만 또는 거의 USDT로만 거래했다고 밝혔다. 보고서에 따르면 이스라엘 당국이 2023년 6월 헤즈볼라(Hezbollah) 연계 지갑 39개를 지정했으나, 테더는 먼저 동결한 5개를 제외한 나머지 34개를 2024년 3월에야 동결했다. 보고서는 압수 공고가 공개된 뒤 해당 지갑들에서 3,460만달러가 넘는 USDT가 빠져나갔다고 분석했다. 보고서는 테더가 당국이 지정한 지갑 일부를 제때 동결하지 않았으며, 이란이나 테러 조직과의 연관성을 보여주는 공개 정보가 있어도 선제적으로 차단하지 않았다고 지적했다. 이러한 대응 부족이 이란의 제재 회피와 테러 조직의 자금 이동을 용이하게 했다는 것이 보고서의 주장이다. \n테더는 같은 날 공식 발표에서 2026년 들어 약 5억5,000만달러 상당의 이란 연계 USDT를 동결하는 데 협력했다고 밝혔다. 파올로 아르도이노(Paolo Ardoino) 테더 최고경영자는 공개 블록체인을 통해 자금 흐름을 추적할 수 있으며, 수사기관이 신뢰할 만한 정보를 제공하면 테더가 대응할 수 있다고 강조했다.",
+      "metanomia_thought": "테더의 동결 실적과 보고서의 대응 지연 지적은 동시에 성립할 수 있습니다. 의심 지갑에서 자금이 빠져나간 뒤 남은 금액을 동결했다면, 동결 규모만으로 앞선 거래를 얼마나 막았는지 평가하기는 어렵습니다. 발행사의 제재 대응을 평가하려면 동결액과 함께, 위험을 파악한 뒤 실제 차단까지 걸린 시간과 그사이 이동한 자금도 살펴봐야 합니다.",
+      "sources": [
+        {
+          "title": "Tethered to Terrorism: Crypto & Iran’s Shadow Banking Network",
+          "url": "https://www.hsgac.senate.gov/wp-content/uploads/2026-09-28-Crypto-and-Irans-Shadow-Banking-Network.pdf"
+        },
+        {
+          "title": "Letter from Senator Blumenthal to Treasury Secretary Bessent",
+          "url": "https://www.hsgac.senate.gov/wp-content/uploads/2026-09-28-Letter-from-Sen-Blumenthal-to-Sec-Bessent.pdf"
+        },
+        {
+          "title": "Letter from Senator Blumenthal to Attorney General Blanche",
+          "url": "https://www.hsgac.senate.gov/wp-content/uploads/2026-09-28-Letter-from-Sen-Blumenthal-to-AG-Blanche.pdf"
+        },
+        {
+          "title": "Tether Has Supported Nearly $550 Million in Iran-Linked USD₮ Freezes as U.S. Expands Sanctions Campaign",
+          "url": "https://tether.io/news/tether-has-supported-nearly-550-million-in-iran-linked-usdt-freezes-as-u-s-expands-sanctions-campaign/"
+        }
+      ]
+    },
+    {
+      "id": "crypto-news-9b4ac5819a98870d",
+      "slug": "2026-09-29-crypto-news-9b4ac5819a",
+      "date_kst": "2026-09-29",
+      "title": "체인링크, ‘CCIP 2.0’ 출시…자산 발행사가 추가 검증·전송 조건 설정",
+      "content": "현지시간 9월 28일 블록체인 오라클 업체 체인링크(Chainlink)가 크로스체인 상호운용 프로토콜(Cross-Chain Interoperability Protocol·CCIP)의 새 버전 ‘CCIP 2.0’을 출시했다. 이는 서로 다른 블록체인 사이에서 토큰과 메시지를 전송하는 기술로, 기관과 자산 발행사가 검증 절차와 전송 조건을 직접 설정하는 기능을 확대했다. \n기본 검증은 독립된 노드 운영자 16곳으로 구성된 체인링크의 검증 네트워크가 맡는다. 발행사는 ‘크로스체인 검증자(Cross-Chain Verifier·CCV)’를 직접 운영하거나 외부 검증 서비스를 선택해 추가 확인 절차를 요구할 수 있다. 예를 들어 100만달러를 넘는 전송에만 추가 승인을 요구하는 방식이다. 외부 검증 서비스는 CCIP 기본 수수료 외에 별도의 검증 수수료를 받을 수 있다.\n전송을 실행하기까지 기다리는 시간도 조정할 수 있다. 기본적으로는 출발 블록체인의 거래가 최종 확정될 때까지 기다리지만, 발행사는 확인 대기 시간을 줄여 목적지 블록체인에서 더 빨리 실행하도록 설정할 수 있다. 이 경우 출발 체인의 거래 기록이 나중에 바뀔 위험도 고려해야 한다. 또한 체인링크의 자동 규제 준수 엔진(Automated Compliance Engine·ACE)을 연동해 허용·차단 목록과 제재 대상 점검을 통해 발행사가 정한 고객 확인·자금세탁방지 조건을 전송 과정에 적용할 수도 있다.\n체인링크는 롬바드(Lombard)가 맞춤형 검증 기능을 도입하고 있으며, 인포시스(Infosys)·네더마인드(Nethermind) 등이 고객용 검증 인프라를 개발·운영하고 있다고 밝혔다. 회사는 CCIP를 사용하는 토큰의 총가치가 840억달러 이상이며, 최근 4개월간 150억달러 이상 규모의 토큰이 CCIP를 도입했다고 설명했다.",
+      "metanomia_thought": "기관이 토큰화 자산을 여러 블록체인에서 유통하려면, 고객 자격이나 거래 한도 같은 기준도 전송 과정에 적용할 수 있어야 합니다. CCIP 2.0은 발행사가 이런 조건을 넣고, 거래 규모와 목적에 따라 추가 검증이나 확인 대기 시간을 달리 설정하도록 합니다. 자산의 유통 범위를 넓히면서도 발행사가 정한 거래 조건을 유지하려는 설계로 읽힙니다.",
+      "sources": [
+        {
+          "title": "Introducing CCIP 2.0: The Interoperability Standard for Institutions",
+          "url": "https://chain.link/blog/introducing-ccip-2-0"
+        },
+        {
+          "title": "Advanced Pool Hooks",
+          "url": "https://docs.chain.link/ccip/concepts/cross-chain-token/advanced-pool-hooks"
+        },
+        {
+          "title": "Faster-Than-Finality (FTF) – dApps",
+          "url": "https://docs.chain.link/ccip/concepts/execution-latency/ftf-dapps"
+        }
+      ]
+    },
     {
       "id": "crypto-news-ec84fd1fadf4bc91",
       "slug": "2026-09-28-crypto-news-ec84fd1fad",
