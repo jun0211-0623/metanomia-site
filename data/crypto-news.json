@@ -1,7 +1,29 @@
 {
   "schema_version": "1.0",
-  "generated_at_kst": "2026-09-29T10:37:50.982+09:00",
+  "generated_at_kst": "2026-09-30T22:10:16.220+09:00",
   "items": [
+    {
+      "id": "crypto-news-ebad23975caf16dd",
+      "slug": "2026-09-30-crypto-news-ebad23975c",
+      "date_kst": "2026-09-30",
+      "title": "코인베이스, 자체 청산소 등록 승인…USDC 담보·24시간 결제 추진",
+      "content": "현지시간 9월 28일 미국 상품선물거래위원회(Commodity Futures Trading Commission·CFTC)가 암호자산 거래소 코인베이스(Coinbase)의 자회사 코인베이스 클리어링(Coinbase Clearing LLC)을 파생상품 청산기관(Derivatives Clearing Organization·DCO)으로 등록 승인했다. 청산기관은 체결된 거래에서 매수자에게는 매도자, 매도자에게는 매수자가 되어 양쪽의 지급 의무를 대신 떠안는 역할을 한다.\n이번 승인으로 코인베이스 클리어링은 ‘완전담보(fully collateralized)’ 방식의 선물·선물옵션·스왑을 청산할 수 있게 됐다. 완전담보는 거래 당사자가 계약에 따라 지급할 돈을 처음부터 전액 맡겨두는 방식으로, 이후 증거금이나 결제대금을 추가로 낼 필요가 없다. 코인베이스 클리어링은 이 조건을 충족한 상품만 청산할 수 있다. \n코인베이스는 새 청산소가 달러 스테이블코인 USDC를 담보로 받고, 하루 24시간 연중무휴로 결제하도록 설계됐다고 설명했다. 기존 선물중개회사 코인베이스 파이낸셜 마켓(Coinbase Financial Markets), 파생상품 거래소 코인베이스 데리버티브스(Coinbase Derivatives)에 이어 청산기관까지 확보하면서, 완전담보 상품의 중개부터 거래와 청산·결제까지 그룹 내에서 연결할 기반을 갖췄다.\n회사는 자체 청산소를 통해 상품 개발 속도와 운영 효율을 높일 수 있을 것으로 기대했다. 다만 증거금 일부를 맡기고 레버리지를 사용하는 파생상품과 출시 예정인 개별 주식 무기한선물은 기존 외부 청산 파트너를 계속 이용한다고 밝혔다.",
+      "metanomia_thought": "자체 청산소를 갖추면 코인베이스는 새 상품의 거래 방식부터 담보와 결제 구조까지 함께 설계할 수 있습니다. 여기에 USDC를 담보로 연결하면, 완전담보 파생상품을 늘리는 일이 USDC의 사용처를 넓히는 일로도 이어질 수 있습니다. 이번 승인은 상품 개발의 주도권을 높이면서, 고객이 코인베이스의 금융서비스 안에서 USDC를 활용할 이유도 늘리는 기반으로 읽힙니다.",
+      "sources": [
+        {
+          "title": "Coinbase Clearing LLC - DCO Registration Order (9-28-26)",
+          "url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/ClearingOrganizations/64361"
+        },
+        {
+          "title": "Coinbase Receives CFTC Approval for Coinbase Clearing LLC",
+          "url": "https://www.coinbase.com/blog/coinbase-receives-cftc-approval-for-coinbase-clearing-llc"
+        },
+        {
+          "title": "Coinbase Clearing LLC DCO Application – Exhibit A-2 Proposed Rulebook",
+          "url": "https://www.cftc.gov/media/14646/Coinbase%20Clearing%20LLC%20DCO%20Application%20-%20Exhibit%20A-2%20Proposed%20Rulebook%20/download"
+        }
+      ]
+    },
     {
       "id": "crypto-news-b4c90a64478e0cc6",
       "slug": "2026-09-29-crypto-news-b4c90a6447",

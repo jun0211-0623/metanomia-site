@@ -1,7 +1,28 @@
 {
   "schema_version": "1.0",
-  "generated_at_kst": "2026-09-29T10:37:50.982+09:00",
+  "generated_at_kst": "2026-09-30T22:10:16.220+09:00",
   "items": [
+    {
+      "slug": "2026-09-30-crypto-news-ebad23975c",
+      "date_kst": "2026-09-30",
+      "title": "Coinbase Wins Approval to Register Its Own Clearinghouse, Plans USDC Collateral and 24/7 Settlement",
+      "content": "On September 28 local time, the U.S. Commodity Futures Trading Commission approved Coinbase Clearing LLC, a subsidiary of crypto-asset exchange Coinbase, for registration as a Derivatives Clearing Organization, or DCO. A clearinghouse steps between the parties to an executed trade, becoming the seller to the buyer and the buyer to the seller and assuming the payment obligations of both sides.\nThe approval allows Coinbase Clearing to clear fully collateralized futures, options on futures, and swaps. Under a fully collateralized structure, each party deposits at the outset the entire amount it could be required to pay under the contract, eliminating the need for additional margin or settlement payments later. Coinbase Clearing may clear only products that meet this condition.\nCoinbase said the new clearinghouse is designed to accept the dollar stablecoin USDC as collateral and settle transactions 24 hours a day, every day of the year. Together with its existing futures commission merchant, Coinbase Financial Markets, and derivatives exchange, Coinbase Derivatives, the group now has the foundation to connect brokerage, trading, clearing, and settlement for fully collateralized products within its own organization.\nThe company expects the in-house clearinghouse to accelerate product development and improve operational efficiency. However, leveraged derivatives that require only partial margin, as well as its planned single-stock perpetual futures, will continue to use existing external clearing partners.",
+      "metanomia_thought": "Owning a clearinghouse allows Coinbase to design the trading method, collateral, and settlement structure of new products together. If USDC is integrated as collateral, expanding fully collateralized derivatives can also expand the stablecoin's use cases. The approval strengthens Coinbase's control over product development while giving customers more reasons to use USDC within its financial services.",
+      "sources": [
+        {
+          "title": "Coinbase Clearing LLC - DCO Registration Order (9-28-26)",
+          "url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/ClearingOrganizations/64361"
+        },
+        {
+          "title": "Coinbase Receives CFTC Approval for Coinbase Clearing LLC",
+          "url": "https://www.coinbase.com/blog/coinbase-receives-cftc-approval-for-coinbase-clearing-llc"
+        },
+        {
+          "title": "Coinbase Clearing LLC DCO Application – Exhibit A-2 Proposed Rulebook",
+          "url": "https://www.cftc.gov/media/14646/Coinbase%20Clearing%20LLC%20DCO%20Application%20-%20Exhibit%20A-2%20Proposed%20Rulebook%20/download"
+        }
+      ]
+    },
     {
       "slug": "2026-09-29-crypto-news-b4c90a6447",
       "date_kst": "2026-09-29",
