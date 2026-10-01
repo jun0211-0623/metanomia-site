@@ -1,7 +1,51 @@
 {
   "schema_version": "1.0",
-  "generated_at_kst": "2026-09-30T22:10:16.220+09:00",
+  "generated_at_kst": "2026-10-01T18:28:51.297+09:00",
   "items": [
+    {
+      "id": "crypto-news-6b36475e191142fd",
+      "slug": "2026-10-01-crypto-news-6b36475e19",
+      "date_kst": "2026-10-01",
+      "title": "로빈후드, 미국 고객에 암호자산 무기한선물 출시 예고…비트코인·이더리움 최대 10배",
+      "content": "현지시간 9월 29일 미국 온라인 증권사 로빈후드(Robinhood)가 휴스턴에서 열린 연례 행사 ‘후드 서밋(HOOD Summit) 2026’에서 미국 고객 대상 암호자산 무기한선물 출시 계획을 발표했다. 앞으로 몇 달 안에 이용 요건을 충족한 미국 고객에게 앱을 통한 거래를 제공할 계획이다.\n무기한선물(perpetual futures)은 만기가 없는 선물 계약으로, 담보 요건을 유지하는 동안 포지션을 보유할 수 있다. 대상은 비트코인(BTC)·이더리움(ETH)·솔라나(SOL)·XRP·도지코인(DOGE)·에이다(ADA)·체인링크(LINK)·하이퍼리퀴드(HYPE) 8종이다. 가격 상승을 예상하는 매수 포지션과 하락을 예상하는 매도 포지션을 잡을 수 있으며, 최대 레버리지는 비트코인·이더리움 10배, 나머지 6종 3배다.\n상품은 미국 상품선물거래위원회(Commodity Futures Trading Commission·CFTC)에 등록된 선물중개회사(FCM) 로빈후드 데리버티브스(Robinhood Derivatives)가 제공한다. 거래는 로빈후드가 2025년 6월 인수한 암호자산 거래소 비트스탬프(Bitstamp)의 무기한선물 거래장에서 체결된다. 비트스탬프에 따르면, 이 거래장은 유럽연합 금융상품시장지침(MiFID II)에 따른 규제를 받으며 개인 고객과 기관 시장조성자가 같은 주문장을 이용한다.\n로빈후드의 미국용 상품 안내에 따르면, 2026년 말까지 거래 수수료는 레버리지를 반영한 거래금액 기준으로 0.01%다. 거래 수수료와 별도로, 매수·매도 포지션 보유자 사이에서는 계약 가격을 현물 가격에 가깝게 유지하기 위한 펀딩비가 8시간마다 정산된다.\n로빈후드는 손절·익절 주문, 실시간 청산 가격 확인, 포지션 위험 알림 기능도 제공할 예정이다. 같은 행사에서는 일부 미국 주식과 상장지수펀드(ETF)의 주말 거래도 추진한다고 밝혔다. 주말 거래는 규제 검토를 전제로 2027년 초 도입할 계획이다.",
+      "metanomia_thought": "미국에서는 무기한선물을 감독받는 파생상품으로 제공할 길이 넓어지고 있습니다. 로빈후드는 이런 흐름 속에서 기존 개인 고객과 인수한 비트스탬프의 거래장을 연결하려 합니다. 증권 앱은 제공할 상품을 늘리고, 거래소는 새로운 주문을 받을 기회를 얻는 구조입니다. 이번 계획은 규제 경로의 확대가 기존 고객 기반과 거래 인프라를 함께 활용하는 사업 기회로 이어질 수 있음을 보여줍니다.",
+      "sources": [
+        {
+          "title": "Robinhood Puts the Power of Hedge Funds in Every Trader's Pocket",
+          "url": "https://robinhood.com/us/en/newsroom/hood-summit-2026/"
+        },
+        {
+          "title": "Robinhood adds AI agents, perps and weekend trading in push to win active traders",
+          "url": "https://www.coindesk.com/markets/2026/09/29/robinhood-adds-ai-agents-perps-and-weekend-trading-in-push-to-win-active-traders"
+        },
+        {
+          "title": "미국 개인 고객 대상 무기한선물 제공 관련 공식 공지",
+          "url": "https://www.linkedin.com/posts/robinhood-is-bringing-perpetual-futures-to-share-7510960760299368448-jGU5/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFecsuoBgtdn27aYk0WJQaKDLw31d5VzzRs"
+        }
+      ]
+    },
+    {
+      "id": "crypto-news-05331ca2607253f1",
+      "slug": "2026-10-01-crypto-news-05331ca260",
+      "date_kst": "2026-10-01",
+      "title": "영국 FCA, 암호자산 인가 신청 접수 시작…2027년 10월 새 규제 시행",
+      "content": "현지시간 9월 30일 영국 금융감독청(Financial Conduct Authority·FCA)이 새 암호자산 규제 체계에 따른 사업자 인가 신청을 받기 시작했다. 지정 신청 기간은 2027년 2월 28일까지이며, 새 제도는 같은 해 10월 25일 시행된다.\n새 제도는 암호자산 거래 중개·매매·수탁·스테이킹 등을 대상으로 한다. 기존 자금세탁방지 규정에 따라 등록한 사업자도 새 인가를 받아야 하며, 현재 등록이 인가로 자동 전환되지는 않는다. 사업자는 소비자 보호, 고객 자산 보관, 시장 건전성, 재무 건전성에 관한 FCA 기준을 충족한다는 점을 입증해야 한다.\nFCA는 지정 기간에 접수된 신청에 대해 새 제도 시행 전까지 인가 여부를 결정할 계획이다. 다만 시행일까지 심사가 끝나지 않은 기존 사업자는 일정 요건 아래 신규 거래를 포함한 영업을 이어갈 수 있다. 따라서 2월 28일은 심사 중에도 영업을 지속할 수 있는 유예를 확보하기 위한 중요한 신청 기한이다.\n2월 28일 이후에도 인가를 신청할 수 있으며, 새 제도가 시행되는 10월 25일까지 인가를 받으면 영업을 이어갈 수 있다. 다만 시행일까지 인가를 받지 못한 사업자는 기존 계약을 이행하는 데 필요한 업무만 할 수 있으며, 신규 고객은 물론 기존 고객과도 새 계약을 맺을 수 없다. 시행일까지 아예 신청하지 않는 사업자는 시행 전에 영국 사업을 정리해야 한다.\nFCA는 지난 6월 최종 규칙과 지침을 발표했으며, 사업자의 인가 준비를 돕기 위해 신청 전 상담과 웨비나를 제공하고 있다.",
+      "metanomia_thought": "매매·수탁·스테이킹을 함께 제공하는 사업자는 새 인가 체계에서 각 업무에 맞는 고객 자산 보호와 운영·재무 기반을 갖춰야 합니다. 이를 준비하는 비용과 수익성을 따져보면서, 어떤 서비스를 유지하고 확대할지 다시 선택할 수 있습니다. 이번 인가 절차는 영국에서 영업할 기업을 가르는 동시에, 그 기업들이 고객에게 제공할 서비스의 구성까지 바꾸는 계기가 될 수 있습니다.",
+      "sources": [
+        {
+          "title": "FCA opens the gateway to regulated crypto",
+          "url": "https://www.fca.org.uk/news/press-releases/fca-opens-gateway-regulated-crypto"
+        },
+        {
+          "title": "Cryptoassets: How the gateway will operate",
+          "url": "https://www.fca.org.uk/firms/new-regime-cryptoasset-regulation/how-gateway-will-operate"
+        },
+        {
+          "title": "FCA starts accepting crypto authorization applications ahead of 2027 regime",
+          "url": "https://www.theblock.co/news/regulation/2026-09-30-fca-starts-accepting-crypto-authorization-applications-ahead-of-2027-regime-417284"
+        }
+      ]
+    },
     {
       "id": "crypto-news-ebad23975caf16dd",
       "slug": "2026-09-30-crypto-news-ebad23975c",

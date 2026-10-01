@@ -1,7 +1,49 @@
 {
   "schema_version": "1.0",
-  "generated_at_kst": "2026-09-30T22:10:16.220+09:00",
+  "generated_at_kst": "2026-10-01T18:28:51.297+09:00",
   "items": [
+    {
+      "slug": "2026-10-01-crypto-news-6b36475e19",
+      "date_kst": "2026-10-01",
+      "title": "Robinhood Plans U.S. Crypto Perpetual Futures…Up to 10x on Bitcoin and Ether",
+      "content": "On September 29 local time, U.S. online brokerage Robinhood announced plans at its annual HOOD Summit 2026 in Houston to launch cryptoasset perpetual futures for U.S. customers. It plans to offer trading through its app to eligible U.S. customers in the coming months.\nPerpetual futures are futures contracts with no expiry date, allowing positions to remain open as long as margin requirements are met. The lineup covers eight assets: bitcoin (BTC), ether (ETH), solana (SOL), XRP, dogecoin (DOGE), cardano (ADA), chainlink (LINK) and hyperliquid (HYPE). Customers will be able to take long positions when expecting prices to rise and short positions when expecting them to fall, with maximum leverage of 10x on bitcoin and ether and 3x on the other six assets.\nThe products will be offered by Robinhood Derivatives, a futures commission merchant (FCM) registered with the U.S. Commodity Futures Trading Commission (CFTC). Trades will be executed on the perpetual-futures venue operated by cryptoasset exchange Bitstamp, which Robinhood acquired in June 2025. Bitstamp says the venue is regulated under the European Union’s Markets in Financial Instruments Directive II (MiFID II) and uses a single order book for retail customers and institutional market makers.\nAccording to Robinhood’s U.S. product information, the trading fee through the end of 2026 will be 0.01% of notional value after leverage is applied. Separately from the trading fee, a funding payment intended to keep the contract price close to the spot price will be settled between holders of long and short positions every eight hours.\nRobinhood also plans to offer stop-loss and take-profit orders, real-time liquidation-price displays and position-risk alerts. At the same event, it said it would pursue weekend trading in selected U.S. stocks and exchange-traded funds (ETFs). It plans to introduce weekend trading in early 2027, subject to regulatory review.",
+      "metanomia_thought": "In the United States, the path is widening for perpetual futures to be offered as supervised derivatives. Within that opening, Robinhood is seeking to connect its existing retail customer base with the Bitstamp venue it acquired. The brokerage app can expand the products it offers, while the exchange gains access to new order flow. The plan shows how a broader regulatory pathway can create a business opportunity to use an established customer base and trading infrastructure together.",
+      "sources": [
+        {
+          "title": "Robinhood Puts the Power of Hedge Funds in Every Trader's Pocket",
+          "url": "https://robinhood.com/us/en/newsroom/hood-summit-2026/"
+        },
+        {
+          "title": "Robinhood adds AI agents, perps and weekend trading in push to win active traders",
+          "url": "https://www.coindesk.com/markets/2026/09/29/robinhood-adds-ai-agents-perps-and-weekend-trading-in-push-to-win-active-traders"
+        },
+        {
+          "title": "Official notice on perpetual futures for U.S. retail customers",
+          "url": "https://www.linkedin.com/posts/robinhood-is-bringing-perpetual-futures-to-share-7510960760299368448-jGU5/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFecsuoBgtdn27aYk0WJQaKDLw31d5VzzRs"
+        }
+      ]
+    },
+    {
+      "slug": "2026-10-01-crypto-news-05331ca260",
+      "date_kst": "2026-10-01",
+      "title": "UK FCA Opens Crypto Authorisation Gateway…New Regime Starts in October 2027",
+      "content": "On September 30 local time, the United Kingdom’s Financial Conduct Authority (FCA) began accepting applications from businesses seeking authorisation under the new cryptoasset regulatory regime. The designated application period runs through February 28, 2027, and the new regime takes effect on October 25 that year.\nThe regime covers activities including cryptoasset brokerage, dealing, custody and staking. Businesses currently registered under anti-money laundering rules must also obtain the new authorisation; existing registration will not convert automatically. Applicants must demonstrate that they meet FCA standards for consumer protection, client-asset safeguarding, market integrity and financial resilience.\nThe FCA plans to decide applications filed during the designated period before the regime takes effect. However, existing firms whose applications are still under review on the commencement date may continue operating, including entering into new transactions, subject to certain conditions. February 28 is therefore the key deadline for securing this transitional treatment while an application is reviewed.\nFirms may still apply after February 28 and continue operating if they obtain authorisation by October 25, when the regime begins. A firm that has not been authorised by that date may only perform work necessary to fulfil existing contracts and may not enter into new contracts with either new or existing customers. A firm that does not apply at all by the commencement date must wind down its UK business beforehand.\nThe FCA published final rules and guidance in June and is offering pre-application support and webinars to help firms prepare.",
+      "metanomia_thought": "Businesses combining dealing, custody and staking will have to establish client-asset safeguards and operational and financial foundations appropriate to each activity under the new authorisation regime. As they weigh the cost and profitability of that preparation, they may reassess which services to retain or expand. The process will not only determine which companies can operate in the UK; it may also reshape the mix of services they offer customers.",
+      "sources": [
+        {
+          "title": "FCA opens the gateway to regulated crypto",
+          "url": "https://www.fca.org.uk/news/press-releases/fca-opens-gateway-regulated-crypto"
+        },
+        {
+          "title": "Cryptoassets: How the gateway will operate",
+          "url": "https://www.fca.org.uk/firms/new-regime-cryptoasset-regulation/how-gateway-will-operate"
+        },
+        {
+          "title": "FCA starts accepting crypto authorization applications ahead of 2027 regime",
+          "url": "https://www.theblock.co/news/regulation/2026-09-30-fca-starts-accepting-crypto-authorization-applications-ahead-of-2027-regime-417284"
+        }
+      ]
+    },
     {
       "slug": "2026-09-30-crypto-news-ebad23975c",
       "date_kst": "2026-09-30",
