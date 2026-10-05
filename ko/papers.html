@@ -5,7 +5,7 @@
   <meta name="theme-color" content="#000000" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>논문 | 메타노미아</title>
-  <meta name="description" content="메타노미아 연구진의 연구논문, 학술지 게재논문, 학술대회 논문을 확인하세요." />
+  <meta name="description" content="메타노미아 연구진이 작성하거나 학술 공동체에 발표한 논문을 소개합니다." />
   <link rel="canonical" href="https://metanomia-site.vercel.app/ko/papers" />
   <link rel="alternate" hreflang="ko" href="https://metanomia-site.vercel.app/ko/papers" />
   <link rel="alternate" hreflang="en" href="https://metanomia-site.vercel.app/papers" />
@@ -17,7 +17,7 @@
   <meta property="og:site_name" content="Metanomia" />
   <meta property="og:locale" content="ko_KR" />
   <meta property="og:title" content="논문 | 메타노미아" />
-  <meta property="og:description" content="메타노미아 연구진의 연구논문, 학술지 게재논문, 학술대회 논문을 확인하세요." />
+  <meta property="og:description" content="메타노미아 연구진이 작성하거나 학술 공동체에 발표한 논문을 소개합니다." />
   <meta property="og:url" content="https://metanomia-site.vercel.app/ko/papers" />
   <meta property="og:image" content="https://metanomia-site.vercel.app/images/papers/oh-taemin-structural-power-and-exhaustion-of-hegemony.png" />
   <meta name="twitter:card" content="summary_large_image" />
@@ -26,7 +26,7 @@
   <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,300;8..60,400;8..60,500;8..60,600;8..60,700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css" />
-  <link rel="stylesheet" href="/style.css?v=20261005-1" />
+  <link rel="stylesheet" href="/style.css?v=20261005-2" />
 </head>
 <body>
   <a class="skip-link" href="#main-content">본문으로 건너뛰기</a>
@@ -42,7 +42,7 @@
           <a class="nav__link" href="/ko/publications">연구·간행물 <svg class="nav__caret" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="m6 9 6 6 6-6"/></svg></a>
           <div class="nav__dropdown nav__dropdown--publications">
             <a href="/ko/publications">전체</a>
-            <a href="/ko/papers">PAPERS | 논문</a><a href="/ko/papers">PAPERS | 논문</a><a href="/ko/series/outlook">OUTLOOK | 전망</a><a href="/ko/series/research">FINDINGS | 규명</a><a href="/ko/series/perspectives">PERSPECTIVES | 관점</a><a href="/ko/series/policy-strategy">POLICY &amp; STRATEGY | 정책 · 전략</a><a href="/ko/series/guide">GUIDE | 가이드</a>
+            <a href="/ko/papers">PAPERS | 논문</a><a href="/ko/series/outlook">OUTLOOK | 전망</a><a href="/ko/series/research">FINDINGS | 규명</a><a href="/ko/series/perspectives">PERSPECTIVES | 관점</a><a href="/ko/series/policy-strategy">POLICY &amp; STRATEGY | 정책 · 전략</a><a href="/ko/series/guide">GUIDE | 가이드</a>
           </div>
         </div>
         <div class="nav__item nav__item--menu">
@@ -69,17 +69,17 @@
       <div class="container cat-hero__title">
         <a class="cat-back" href="/ko/publications">← 연구·간행물로</a>
         <h1 class="cat-title">PAPERS <span aria-hidden="true">|</span> 논문</h1>
-        <p class="about-hero__lead">메타노미아 연구진이 작성하거나 학술 공동체에 발표한 논문을 모읍니다. 보고서 시리즈와 구분해 연구논문, 학술지 게재논문, 학술대회 논문으로 분류합니다.</p>
+        <p class="about-hero__lead">메타노미아 연구진이 작성하거나 학술 공동체에 발표한 논문을 소개합니다.</p>
         <div class="paper-type-key" aria-label="논문 유형">
-          <span class="paper-type-key__item">연구논문</span><span class="paper-type-key__item">학술지 게재논문</span><span class="paper-type-key__item">학술대회 논문</span>
+          <a class="paper-type-key__item" data-paper-filter="research" href="/ko/papers?type=research#papers-list">연구논문</a><a class="paper-type-key__item" data-paper-filter="journal" href="/ko/papers?type=journal#papers-list">학술지 게재논문</a><a class="paper-type-key__item" data-paper-filter="conference" href="/ko/papers?type=conference#papers-list">학술대회 논문</a>
         </div>
       </div>
     </section>
-    <section class="pub-research paper-index">
+    <section class="pub-research paper-index" id="papers-list" data-papers-index>
       <div class="container">
-        <div class="pub-research__head"><h2 class="pub-research__h">전체 논문</h2></div>
+        <div class="pub-research__head"><h2 class="pub-research__h" data-papers-heading>전체 논문</h2></div>
         <div class="cat-grid papers-grid">
-          <a class="cat-card" data-published="2026-10-05" href="/ko/papers/structural-power-and-the-exhaustion-of-hegemony">
+          <a class="cat-card" data-paper-type="conference" data-published="2026-10-05" href="/ko/papers/structural-power-and-the-exhaustion-of-hegemony">
             <div class="cat-card__media"><img src="/images/papers/oh-taemin-structural-power-and-exhaustion-of-hegemony.png" alt="크립토 시대의 구조적 권력과 패권의 소진 논문 첫 페이지" loading="lazy" decoding="async"></div>
             <span class="cat-card__tag">CONFERENCE PAPER | 학술대회 논문</span>
             <h2 class="cat-card__title">크립토 시대의 구조적 권력과 패권의 소진</h2>
@@ -87,6 +87,7 @@
             <span class="cat-card__date">2026년 10월 · 한국어 원문</span>
           </a>
         </div>
+        <p class="papers-empty" data-papers-empty hidden>이 유형에 등록된 논문이 아직 없습니다.</p>
       </div>
     </section>
   </main>
@@ -103,6 +104,7 @@
     </div>
   </footer>
   <script>(function(){var n=document.getElementById('siteNav'),t=document.getElementById('navToggle');if(!n||!t)return;t.addEventListener('click',function(){var o=n.classList.toggle('is-open');t.setAttribute('aria-expanded',o?'true':'false');});})();</script>
+  <script src="/js/papers-filter.js" defer></script>
   <script src="/js/search.js" defer></script>
 </body>
 </html>

@@ -5,7 +5,7 @@
   <meta name="theme-color" content="#000000" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Papers | Metanomia</title>
-  <meta name="description" content="Research papers, journal articles, and conference papers by Metanomia researchers." />
+  <meta name="description" content="Papers written or presented to scholarly communities by Metanomia researchers." />
   <link rel="canonical" href="https://metanomia-site.vercel.app/papers" />
   <link rel="alternate" hreflang="ko" href="https://metanomia-site.vercel.app/ko/papers" />
   <link rel="alternate" hreflang="en" href="https://metanomia-site.vercel.app/papers" />
@@ -17,7 +17,7 @@
   <meta property="og:site_name" content="Metanomia" />
   <meta property="og:locale" content="en_US" />
   <meta property="og:title" content="Papers | Metanomia" />
-  <meta property="og:description" content="Research papers, journal articles, and conference papers by Metanomia researchers." />
+  <meta property="og:description" content="Papers written or presented to scholarly communities by Metanomia researchers." />
   <meta property="og:url" content="https://metanomia-site.vercel.app/papers" />
   <meta property="og:image" content="https://metanomia-site.vercel.app/images/papers/oh-taemin-structural-power-and-exhaustion-of-hegemony.png" />
   <meta name="twitter:card" content="summary_large_image" />
@@ -26,7 +26,7 @@
   <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,300;8..60,400;8..60,500;8..60,600;8..60,700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css" />
-  <link rel="stylesheet" href="/style.css?v=20261005-1" />
+  <link rel="stylesheet" href="/style.css?v=20261005-2" />
 </head>
 <body>
   <a class="skip-link" href="#main-content">Skip to main content</a>
@@ -42,7 +42,7 @@
           <a class="nav__link" href="/publications">Publications <svg class="nav__caret" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="m6 9 6 6 6-6"/></svg></a>
           <div class="nav__dropdown nav__dropdown--publications">
             <a href="/publications">All</a>
-            <a href="/papers">PAPERS</a><a href="/papers">PAPERS</a><a href="/series/outlook">OUTLOOK</a><a href="/series/research">FINDINGS</a><a href="/series/perspectives">PERSPECTIVES</a><a href="/series/policy-strategy">POLICY &amp; STRATEGY</a><a href="/series/guide">GUIDE</a>
+            <a href="/papers">PAPERS</a><a href="/series/outlook">OUTLOOK</a><a href="/series/research">FINDINGS</a><a href="/series/perspectives">PERSPECTIVES</a><a href="/series/policy-strategy">POLICY &amp; STRATEGY</a><a href="/series/guide">GUIDE</a>
           </div>
         </div>
         <div class="nav__item nav__item--menu">
@@ -69,17 +69,17 @@
       <div class="container cat-hero__title">
         <a class="cat-back" href="/publications">← Back to Publications</a>
         <h1 class="cat-title">PAPERS</h1>
-        <p class="about-hero__lead">Scholarly work authored or presented by Metanomia researchers. This collection is separate from the editorial report series and is organized as research papers, journal articles, and conference papers.</p>
+        <p class="about-hero__lead">Papers written or presented to scholarly communities by Metanomia researchers.</p>
         <div class="paper-type-key" aria-label="Paper types">
-          <span class="paper-type-key__item">Research Paper</span><span class="paper-type-key__item">Journal Article</span><span class="paper-type-key__item">Conference Paper</span>
+          <a class="paper-type-key__item" data-paper-filter="research" href="/papers?type=research#papers-list">Research Paper</a><a class="paper-type-key__item" data-paper-filter="journal" href="/papers?type=journal#papers-list">Journal Article</a><a class="paper-type-key__item" data-paper-filter="conference" href="/papers?type=conference#papers-list">Conference Paper</a>
         </div>
       </div>
     </section>
-    <section class="pub-research paper-index">
+    <section class="pub-research paper-index" id="papers-list" data-papers-index>
       <div class="container">
-        <div class="pub-research__head"><h2 class="pub-research__h">All Papers</h2></div>
+        <div class="pub-research__head"><h2 class="pub-research__h" data-papers-heading>All Papers</h2></div>
         <div class="cat-grid papers-grid">
-          <a class="cat-card" data-published="2026-10-05" href="/papers/structural-power-and-the-exhaustion-of-hegemony">
+          <a class="cat-card" data-paper-type="conference" data-published="2026-10-05" href="/papers/structural-power-and-the-exhaustion-of-hegemony">
             <div class="cat-card__media"><img src="/images/papers/oh-taemin-structural-power-and-exhaustion-of-hegemony.png" alt="First page of Structural Power in the Crypto Era and the Exhaustion of Hegemony" loading="lazy" decoding="async"></div>
             <span class="cat-card__tag">CONFERENCE PAPER</span>
             <h2 class="cat-card__title">Structural Power in the Crypto Era and the Exhaustion of Hegemony</h2>
@@ -87,6 +87,7 @@
             <span class="cat-card__date">October 2026 · Original language: Korean</span>
           </a>
         </div>
+        <p class="papers-empty" data-papers-empty hidden>No papers are currently listed in this category.</p>
       </div>
     </section>
   </main>
@@ -103,6 +104,7 @@
     </div>
   </footer>
   <script>(function(){var n=document.getElementById('siteNav'),t=document.getElementById('navToggle');if(!n||!t)return;t.addEventListener('click',function(){var o=n.classList.toggle('is-open');t.setAttribute('aria-expanded',o?'true':'false');});})();</script>
+  <script src="/js/papers-filter.js" defer></script>
   <script src="/js/search.js" defer></script>
 </body>
 </html>
