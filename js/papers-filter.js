@@ -4,8 +4,8 @@
 
   var lang = document.documentElement.lang === 'ko' ? 'ko' : 'en';
   var labels = lang === 'ko'
-    ? { research: '연구논문', journal: '학술지 게재논문', conference: '학술대회 논문' }
-    : { research: 'Research Papers', journal: 'Journal Articles', conference: 'Conference Papers' };
+    ? { journal: '학술지 게재논문', conference: '학술대회 논문' }
+    : { journal: 'Journal Articles', conference: 'Conference Papers' };
   var type = new URLSearchParams(window.location.search).get('type');
   var cards = Array.prototype.slice.call(root.querySelectorAll('[data-paper-type]'));
   var heading = root.querySelector('[data-papers-heading]');
