@@ -34,8 +34,8 @@
 
   var isKo = document.documentElement.lang === 'ko';
   var TEXT = isKo
-    ? { placeholder: '보고서, 저자, 뉴스 검색', empty: '결과가 없습니다.', hint: '검색어를 입력하세요.', close: '닫기' }
-    : { placeholder: 'Search reports, authors, news', empty: 'No results.', hint: 'Type to search.', close: 'Close' };
+    ? { placeholder: '연구·간행물, 저자, 뉴스 검색', empty: '결과가 없습니다.', hint: '검색어를 입력하세요.', close: '닫기' }
+    : { placeholder: 'Search publications, authors, news', empty: 'No results.', hint: 'Type to search.', close: 'Close' };
 
   var index = null, loading = false, panel, input, results;
 
@@ -92,15 +92,15 @@
     ])
       .then(function (payload) {
         var lang = isKo ? 'ko' : 'en';
-        var reportType = isKo ? '보고서' : 'Report';
+        var publicationTypes = isKo ? ['보고서', '논문'] : ['Report', 'Paper'];
         var peopleType = isKo ? '사람' : 'People';
         var authorType = isKo ? '저자' : 'Author';
         var base = payload[0].filter(function (d) { return d.lang === lang; });
-        var reports = base.filter(function (d) { return d.type === reportType; });
+        var publications = base.filter(function (d) { return publicationTypes.indexOf(d.type) !== -1; });
         var authorNames = {};
 
-        reports.forEach(function (report) {
-          var authorText = String(report.meta || '').split('·')[0];
+        publications.forEach(function (publication) {
+          var authorText = String(publication.meta || '').split('·')[0];
           authorText.split(',').forEach(function (name) {
             name = name.trim();
             if (name) authorNames[name] = true;
@@ -116,7 +116,7 @@
           };
         });
 
-        index = reports.concat(authors);
+        index = publications.concat(authors);
         (payload[1].items || []).forEach(function (item) {
           if (!item || !item.slug || !item.title) return;
           index.push({

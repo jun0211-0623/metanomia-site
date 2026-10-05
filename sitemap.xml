@@ -2995,5 +2995,41 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://metanomia-site.vercel.app/crypto-news-2026-08-12-crypto-news-a26f81e305" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://metanomia-site.vercel.app/crypto-news-2026-08-12-crypto-news-a26f81e305" />
   </url>
+  <url>
+    <loc>https://metanomia-site.vercel.app/ko/papers</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://metanomia-site.vercel.app/ko/papers" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://metanomia-site.vercel.app/papers" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://metanomia-site.vercel.app/papers" />
+  </url>
+  <url>
+    <loc>https://metanomia-site.vercel.app/papers</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://metanomia-site.vercel.app/ko/papers" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://metanomia-site.vercel.app/papers" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://metanomia-site.vercel.app/papers" />
+  </url>
+  <url>
+    <loc>https://metanomia-site.vercel.app/ko/papers/structural-power-and-the-exhaustion-of-hegemony</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://metanomia-site.vercel.app/ko/papers/structural-power-and-the-exhaustion-of-hegemony" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://metanomia-site.vercel.app/papers/structural-power-and-the-exhaustion-of-hegemony" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://metanomia-site.vercel.app/papers/structural-power-and-the-exhaustion-of-hegemony" />
+  </url>
+  <url>
+    <loc>https://metanomia-site.vercel.app/papers/structural-power-and-the-exhaustion-of-hegemony</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://metanomia-site.vercel.app/ko/papers/structural-power-and-the-exhaustion-of-hegemony" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://metanomia-site.vercel.app/papers/structural-power-and-the-exhaustion-of-hegemony" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://metanomia-site.vercel.app/papers/structural-power-and-the-exhaustion-of-hegemony" />
+  </url>
   <!-- GENERATED CRYPTO NEWS END -->
 </urlset>

@@ -329,6 +329,14 @@
   },
   {
     "lang": "en",
+    "type": "Paper",
+    "title": "Structural Power in the Crypto Era and the Exhaustion of Hegemony",
+    "sub": "Revisiting Susan Strange's Theory of Structural Power through Raymond Aron",
+    "meta": "Taemin Oh · Conference Paper · October 2026 · Korean",
+    "url": "/papers/structural-power-and-the-exhaustion-of-hegemony"
+  },
+  {
+    "lang": "en",
     "type": "Report",
     "title": "The P2P Payment Ideal and the Reality of Crypto Cards",
     "sub": "The Information Gap in Border-Based Tax Systems Revealed by Crypto Cards",
@@ -462,6 +470,14 @@
     "sub": "Policy & Strategy, what to change or build, and which option to pursue, and how. Metanomia report series.",
     "meta": "",
     "url": "/series/policy-strategy"
+  },
+  {
+    "lang": "ko",
+    "type": "논문",
+    "title": "크립토 시대의 구조적 권력과 패권의 소진",
+    "sub": "레이몽 아롱의 시각에서 본 수잔 스트레인지 구조적 권력론의 재검토",
+    "meta": "오태민 · 학술대회 논문 · 2026년 10월",
+    "url": "/ko/papers/structural-power-and-the-exhaustion-of-hegemony"
   },
   {
     "lang": "ko",
