@@ -1,7 +1,74 @@
 {
   "schema_version": "1.0",
-  "generated_at_kst": "2026-10-02T10:09:21.167+09:00",
+  "generated_at_kst": "2026-10-05T12:04:26.322+09:00",
   "items": [
+    {
+      "slug": "2026-10-05-crypto-news-f9a2867b90",
+      "date_kst": "2026-10-05",
+      "title": "SMBC Nikko and Partners to Build DeFi Infrastructure for Japanese Investors…Targeting Mid-2027",
+      "content": "On October 2 local time, Japan’s SMBC Nikko Securities and blockchain developer Nethermind announced that they had signed a memorandum of understanding with Uniswap Labs, Base and the Nyx Foundation to develop a “DeFi Gateway.” The collaboration will develop liquidity-provision protocols and customized liquidity pools so Japanese investors can access decentralized finance (DeFi) in accordance with legal and regulatory requirements.\nThe project gives concrete form to a plan the two companies announced in March for Japanese investors to participate in onchain finance by supplying assets needed for trading to automated market makers (AMMs). Using the “hooks” feature in Uniswap v4, they plan to embed anti-money-laundering and counter-terrorist-financing controls (AML/CFT) and investor-protection procedures into liquidity pools. A hook is a smart contract that adds custom operating rules to a pool.\nThey will also develop “agentic vaults” and user interfaces that use verifiable and reproducible artificial intelligence to support or execute investment decisions. The partners also plan operating strategies intended to expand liquidity provision for digital assets including stablecoins and real-world assets (RWAs).\nSMBC Nikko Securities will lead engagement with regulators and contribute expertise in compliance, risk modeling and portfolio management. Nethermind will handle technical architecture and development, AI integration and smart-contract security. Uniswap Labs will provide technical support for protocol integration and liquidity-provision strategies; Base will support development within its ecosystem; and the Nyx Foundation will advise on designing and optimizing market-making strategies and hook structures.\nThe target for completing development is mid-2027. The participants plan to share progress with government and regulatory bodies, including Japan’s Financial Services Agency, and support discussion of a regulatory framework for DeFi. The announcement did not specify investor eligibility requirements or a service launch date.",
+      "metanomia_thought": "The project seeks to connect Japanese investors’ capital with trading liquidity in DeFi markets. Embedding AML and investor-protection procedures into the operating rules of a pool is an attempt to translate a financial institution’s regulatory experience into onchain service design. The announcement does not yet disclose investor eligibility or how operations and losses would be handled, making it difficult to judge how far the securities firm’s responsibility to customers would extend.",
+      "sources": [
+        {
+          "title": "Launch of Infrastructure Development to Support Japanese Investors’ Access to Decentralized Finance (DeFi)",
+          "url": "https://www.smbcnikko.co.jp/news/release/2026/pdf/261002_01.pdf"
+        },
+        {
+          "title": "SMBC Nikko and Nethermind Are Building a DeFi Gateway for Japan on Uniswap v4",
+          "url": "https://blog.uniswap.org/smbc-nikko-and-nethermind-are-building-a-defi-gateway-for-japan-on-uniswap-v4"
+        },
+        {
+          "title": "SMBC Nikko to Develop DeFi Infrastructure for Domestic Investors Using Uniswap v4",
+          "url": "https://coinpost.jp/?p=740788"
+        }
+      ]
+    },
+    {
+      "slug": "2026-10-05-crypto-news-bbce5905ab",
+      "date_kst": "2026-10-05",
+      "title": "U.S. Community Bank Group Sues OCC Over Crypto Trust Charters…Says Agency Exceeded Congressional Authority",
+      "content": "On October 2 local time, the Independent Community Bankers of America (ICBA) sued the Office of the Comptroller of the Currency (OCC) and Comptroller Jonathan V. Gould in the U.S. District Court for the District of Columbia. It argues that the OCC’s rule and legal interpretations for granting trust-bank charters to cryptoasset companies and others exceed the authority delegated by Congress.\nThe lawsuit challenges a final bank-chartering rule published in the Federal Register on March 2, Interpretive Letter 1176 from 2021 and a conditional approval involving Protego. The ICBA argues that a non-depository trust bank should be limited to fiduciary activities—where it has a legal duty to put the client’s interests first—and activities incidental to them.\nThe OCC, by contrast, maintains that trust-company business can include activities such as basic asset custody that do not carry those fiduciary duties. In the final rule, the OCC said the amendment clarifies its existing chartering authority under current law and neither expands nor contracts that authority.\nAccording to the complaint, the OCC approved or conditionally approved 21 trust banks under the Trump administration, at least 13 of them cryptoasset companies. The ICBA argues that they offer services overlapping with community banks while avoiding equivalent regulatory costs, including deposit-insurance premiums, creating uneven competitive conditions.\nProtego applied for a trust-bank charter in May 2025. On February 13, 2026, the OCC granted preliminary conditional approval to National Digital Trust Company, which Protego Holdings proposes to establish. The approval letter states that all pre-opening requirements must be satisfied before final approval and authorization to commence business.\nThe ICBA asked the court to declare unlawful and vacate the final rule, the interpretive letter and the Protego-related approval. It also seeks to bar further charters based on the rule and interpretation.",
+      "metanomia_thought": "A trust-bank charter offers cryptoasset companies a route to operate nationwide under federal supervision. The ICBA argues that this route permits services overlapping with conventional banks without imposing the same regulatory costs. How the court defines the permissible business of a trust bank could reshape both the services cryptoasset companies may design and the competitive conditions facing incumbent banks.",
+      "sources": [
+        {
+          "title": "ICBA v. OCC, Complaint (Case 1:26-cv-03441)",
+          "url": "https://www.icba.org/documents/d/asset-library-45247/icba-v-occ-as-filed-complaint-c"
+        },
+        {
+          "title": "National Bank Chartering — Final Rule, 91 Fed. Reg. 9977",
+          "url": "https://www.govinfo.gov/content/pkg/FR-2026-03-02/html/2026-04088.htm"
+        },
+        {
+          "title": "Corporate Decision #1366 — National Digital Trust Company",
+          "url": "https://www.occ.gov/topics/charters-and-licensing/interpretations-and-decisions/2026/cd1366.pdf"
+        },
+        {
+          "title": "ICBA Sues OCC Over National Trust Bank Charters for Crypto Firms",
+          "url": "https://www.icba.org/w/occ-release-oct-2026"
+        }
+      ]
+    },
+    {
+      "slug": "2026-10-05-crypto-news-a00a24c8b6",
+      "date_kst": "2026-10-05",
+      "title": "U.S. SEC Approves Listings of 3x Bitcoin and Ether Products…Targeting Triple Daily Returns",
+      "content": "On October 2 local time, the U.S. Securities and Exchange Commission (SEC) approved a rule change for the Cboe BZX Exchange to list and trade six 3x leveraged exchange-traded products. They cover bitcoin, ether, gold, silver, crude oil and natural gas and are issued by VS Trust, which is operated by Volatility Shares. Although “ETF” appears in their names, they are legally commodity-pool exchange-traded products (ETPs), not investment companies registered under the U.S. Investment Company Act.\nEach product seeks, before fees and expenses, three times the daily performance measured by changes in the value of a futures portfolio for the relevant asset, such as bitcoin or ether. The products use futures together with cash and cash equivalents posted as collateral, and the futures they invest in trade on designated contract markets (DCMs) designated by the U.S. Commodity Futures Trading Commission (CFTC).\nThe 3x objective applies on a daily basis. An SEC investor bulletin explains that daily rebalancing and compounding can cause the cumulative return of a product held for more than one day to differ from a simple multiple of the benchmark’s return over the same period.\nThe SEC cited price and holdings disclosures, market surveillance, trading-halt provisions and continued-listing requirements as grounds for approval. It said Regulation Best Interest, which requires broker-dealers recommending a product to retail customers to consider its risks and costs and the customer’s investment profile, would apply. Existing Financial Industry Regulatory Authority (FINRA) requirements governing sales of leveraged products and customer margin would also apply.\nThe decision approves the rule change needed to list and trade the six products. The approval order does not specify the actual trading launch date or the precise fee rates.",
+      "metanomia_thought": "The approval considered both the products’ listing requirements and existing duties that apply when they are recommended to customers. The SEC pointed to exchange disclosures and market surveillance, together with sellers’ recommendation obligations, as investor-protection safeguards. Even when an exchange satisfies the listing requirements, a broker-dealer decides which customers should receive a recommendation, while an investor who buys the product bears any loss magnified by holding it beyond one day.",
+      "sources": [
+        {
+          "title": "Order Granting Approval of a Proposed Rule Change to List and Trade Shares of the 3x Gold ETF, 3x Silver ETF, 3x Bitcoin ETF, 3x Ether ETF, 3x Crude Oil ETF, and 3x Natural Gas ETF (Release No. 34-106577)",
+          "url": "https://www.sec.gov/files/rules/sro/cboebzx/2026/34-106577.pdf"
+        },
+        {
+          "title": "Notice of Filing of a Proposed Rule Change… (Release No. 34-106137)",
+          "url": "https://www.sec.gov/files/rules/sro/cboebzx/2026/34-106137.pdf"
+        },
+        {
+          "title": "Updated Investor Bulletin: Leveraged and Inverse ETFs",
+          "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-alerts/sec"
+        }
+      ]
+    },
     {
       "slug": "2026-10-02-crypto-news-e18d1433c8",
       "date_kst": "2026-10-02",
