@@ -1,7 +1,55 @@
 {
   "schema_version": "1.0",
-  "generated_at_kst": "2026-10-05T12:04:26.322+09:00",
+  "generated_at_kst": "2026-10-07T10:22:38+09:00",
   "items": [
+    {
+      "id": "crypto-news-fb09c6a88cc55b05",
+      "slug": "2026-10-06-crypto-news-fb09c6a88c",
+      "date_kst": "2026-10-06",
+      "title": "ICE·OKX 합작법인, 유니스왑 v4 기반 토큰화 미국 주식 거래 계획 공고",
+      "content": "뉴욕증권거래소(NYSE) 모회사 인터콘티넨털익스체인지(Intercontinental Exchange·ICE)와 암호자산 거래소 OKX의 합작법인 OKXICE가 현지시간 10월 4일 토큰화 미국 주식 거래 플랫폼의 운영 계획을 공고했다. 미국 증권거래위원회(SEC)가 9월 17일 마련한 임시·조건부 면제를 활용해 기존 상장주식을 토큰으로 거래하도록 하는 구상이다.\n거래는 OKX의 블록체인 엑스레이어(XLayer)에 구축한 유니스왑 v4의 자동화 마켓메이커(AMM) 유동성 풀에서 이뤄질 예정이다. XLayer 자체는 공개·무허가 블록체인이지만, 거래 풀에는 승인된 지갑만 접근할 수 있다. 토큰화 주식을 USDC·USDG·USDT 등 결제용 스테이블코인과 교환하는 방식이며, 플랫폼은 주문장을 운영하거나 이용자의 자산을 직접 보관하지 않는다.\n개인과 기관 투자자가 참여할 수 있으며, 신원 확인과 자금세탁·제재 심사, 지갑 통제권 확인, 토큰화 기관의 계좌 승인을 거쳐야 한다. 승인된 지갑에는 양도할 수 없는 인증 토큰이 발급된다. 스마트계약은 이 토큰을 확인해 거래와 유동성 공급을 허용한다.\n공고의 거래 예정 목록은 엔비디아·테슬라·마이크로소프트·마이크론 등 63종목이다. 발행사와 무관한 제3자가 토큰화한 주식은 원주식 발행사가 거래 예정 통지를 받은 뒤 최소 30일이 지나야 거래할 수 있다. 발행사가 그 기간 안에 서면으로 이의를 제기하면 거래 대상으로 제공할 수 없다. 공고에는 세레브라스 시스템스(Cerebras Systems)가 이미 이의를 제기했다고 명시됐다.\nSEC 면제는 일정 요건을 충족한 플랫폼과 일부 유동성 공급자가 각각 거래소·딜러로 등록하지 않고 해당 업무를 수행할 수 있도록 한 조치이며, 플랫폼의 개별 인가를 뜻하지 않는다. 토큰 보유자에게 기초주식과 같은 배당·의결권 등의 권리를 제공해야 한다는 조건도 포함된다. 이번 OKXICE 공고에 구체적인 거래 개시일은 명시되지 않았다.",
+      "metanomia_thought": "이번 공고는 기존 증권시장의 거래 기능이 온체인으로 확장되는 사례입니다. ICE와 OKX는 주식 매매를 유동성 풀에서 실행하면서, 참여자 심사와 거래 풀의 운영은 합작법인이 맡는 시장을 만들려 합니다. 합작법인은 참여자와 종목을 정하고 거래마다 서비스 수수료를 받지만, 풀의 가격으로 거래하거나 유동성을 공급하는 투자자는 거래소 호가가 아닌 AMM의 가격 결정 방식에서 생기는 위험을 지게 됩니다.",
+      "sources": [
+        {
+          "title": "Public Notice of OKXICE TSV",
+          "url": "https://www.okx.com/cdn/assets/files/2610/798CC1267CB56FB2.pdf"
+        },
+        {
+          "title": "Order Granting Temporary Conditional Exemptive Relief (Release No. 34-106402)",
+          "url": "https://www.sec.gov/files/rules/exorders/2026/34-106402.pdf"
+        },
+        {
+          "title": "OKX, NYSE parent ICE joint venture seeks to launch tokenized US stock trading venue",
+          "url": "https://www.theblock.co/news/business/2026-10-05-okx-ice-joint-venture-tokenized-stock-trading-417613"
+        }
+      ]
+    },
+    {
+      "id": "crypto-news-3c23ef601858e1d6",
+      "slug": "2026-10-06-crypto-news-3c23ef6018",
+      "date_kst": "2026-10-06",
+      "title": "미 FinCEN, 암호자산 믹싱·비수탁 지갑 규제안 2건 철회",
+      "content": "미국 재무부 금융범죄단속네트워크(Financial Crimes Enforcement Network·FinCEN)가 현지시간 10월 5일 암호자산 관련 규제안 2건을 철회한다고 발표했다. 두 안은 최종 확정·시행되지 않은 제안으로, 이번 철회로 금융기관에 추가 기록·보고 의무를 부과하려던 절차가 중단됐다.\n첫째는 2023년 10월 제시한 국제 암호자산 믹싱 규제안이다. 믹싱은 자금의 출처·목적지·금액을 알아보기 어렵게 만드는 거래 방식이다. FinCEN은 애국자법 311조에 따라 국제 믹싱을 ‘주요 자금세탁 우려 거래 유형’으로 본 판단과 관련 규제안을 함께 철회했다. 이 안은 미국 밖에서 이뤄지거나 해외 관할권과 관련된 믹싱 거래를 금융기관이 인지하거나 의심하면 추가로 기록·보고하도록 하는 내용이었다. \nFinCEN은 믹싱을 지나치게 넓게 정의하면 정당한 활동까지 위축시키고 금융기관에 큰 보고 부담을 줄 수 있다는 의견을 철회 결정에 반영했다고 설명했다. 공고에는 합법적인 이용자가 공개 블록체인에서 금융 프라이버시를 지킬 수 있어야 한다는 행정부 입장도 담겼다. 다만 믹서와 관련된 자금세탁·테러자금조달 징후는 계속 감시하고, 필요하면 향후 조치를 취할 수 있다고 밝혔다. \n둘째는 2020년 12월 제시한 비수탁 지갑 관련 규제안이다. 은행과 송금·환전 등 자금서비스업체(MSB)가 비수탁 지갑(이용자가 직접 관리하는 지갑) 등과 주고받는 암호자산 거래에 추가 의무를 부과하려던 안이다. 관련 거래가 3,000달러를 초과하면 거래·상대방 정보를 기록하고 자사 고객의 신원을 확인하며, 단일 거래 또는 24시간 합산액이 1만달러를 초과하면 FinCEN에 보고하도록 했다. FinCEN은 이 안의 철회를 디지털자산 규제를 목적에 맞게 정비하려는 행정부 노력의 일환이라고 설명했다.",
+      "metanomia_thought": "이번 믹싱안 철회에서는 공개 블록체인에서도 합법적 이용자의 금융 프라이버시를 인정한다는 입장이 눈에 띕니다. FinCEN은 정당한 활동까지 위축시킬 수 있다는 우려를 반영해 광범위한 기록·보고 의무를 도입하려던 제안을 철회하면서도, 불법 자금 흐름에 대한 감시는 이어가겠다고 밝혔습니다. 금융기관에 추가 의무를 부과하려던 절차는 중단됐지만, 거래 위험을 평가하고 의심거래를 보고하는 기존 책임은 남습니다.",
+      "sources": [
+        {
+          "title": "FinCEN Announces Withdrawals of Proposed Digital Asset Related Rules",
+          "url": "https://www.fincen.gov/news/news-releases/fincen-announces-withdrawals-proposed-digital-asset-related-rules"
+        },
+        {
+          "title": "Proposal of Special Measure Regarding Convertible Virtual Currency Mixing, as a Class of Transactions of Primary Money Laundering Concern; Withdrawal (FR Doc. 2026-20429)",
+          "url": "https://public-inspection.federalregister.gov/2026-20429.pdf"
+        },
+        {
+          "title": "Requirements for Certain Transactions Involving Convertible Virtual Currency or Digital Assets; Withdrawal (FR Doc. 2026-20430)",
+          "url": "https://public-inspection.federalregister.gov/2026-20430.pdf"
+        },
+        {
+          "title": "Treasury withdraws crypto mixing rule, citing concerns over 'chilling effect on legitimate activity'",
+          "url": "https://www.theblock.co/news/regulation/2026-10-05-fincen-drops-crypto-mixing-rule-self-hosted-wallet-proposal-417690"
+        }
+      ]
+    },
     {
       "id": "crypto-news-f9a2867b906fe7a5",
       "slug": "2026-10-05-crypto-news-f9a2867b90",
