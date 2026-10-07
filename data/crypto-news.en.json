@@ -1,7 +1,74 @@
 {
   "schema_version": "1.0",
-  "generated_at_kst": "2026-10-07T10:22:38+09:00",
+  "generated_at_kst": "2026-10-07T11:10:19+09:00",
   "items": [
+    {
+      "slug": "2026-10-07-crypto-news-d086a69d21",
+      "date_kst": "2026-10-07",
+      "title": "Abstract Announces Ethereum L2 Shutdown…Users Told to Move Assets Before December 15",
+      "content": "Ethereum layer-2 (L2) blockchain Abstract announced a plan on October 6 Coordinated Universal Time (UTC) to wind down operations. The chain, which has been backed by Igloo, the operator of NFT project Pudgy Penguins, is scheduled to cease operations on December 15, 2026.\nThe operators said Abstract had attracted more than 144 apps and over 400,000 users. However, they said that stagnant growth, insufficient liquidity, a limited decentralized finance (DeFi) ecosystem and low institutional participation meant that independently operating a chain focused on consumer crypto-asset services was not sustainable.\nIgloo CEO Luca Netz said the company had lost tens of millions of dollars while supporting Abstract over the past 18 months. It decided not to issue a new token to keep the chain running and plans to focus its resources on Pudgy Penguins and PENGU-related businesses.\nEthereum L2 Blast had also announced a shutdown on October 2. Blast said the cost of maintaining the chain exceeded its revenue and that it had found no clear path to making the business sustainable.\nAbstract told users to bridge their assets to another chain before the shutdown date, warning that funds not moved by the deadline would become inaccessible. The announcement did not specify the value of assets currently remaining on the chain or a detailed process for recovering funds after the shutdown.",
+      "metanomia_thought": "Attracting apps and users alone does not sustain the business of an independent L2. A chain's durability depends on whether it can build real transaction activity and liquidity while securing enough funding to cover operating costs. In this case, the operator decided to end its support and set the shutdown date, leaving users to move their assets to another chain on that timetable.",
+      "sources": [
+        {
+          "title": "Abstract is Winding Down",
+          "url": "https://x.com/AbstractChain/status/2107554632675340420"
+        },
+        {
+          "title": "Pudgy Penguins-backed Ethereum L2 Abstract to shut down after losing 'tens of millions'",
+          "url": "https://www.theblock.co/news/ecosystems/2026-10-06-abstract-ethereum-layer-2-shutting-down-pudgy-penguins-igloo-417855"
+        },
+        {
+          "title": "Once a $2 billion Ethereum layer-2, Blast is shutting down after assets plunge 98%",
+          "url": "https://www.coindesk.com/tech/2026/10/02/once-a-usd2-billion-ethereum-layer-2-blast-is-shutting-down-after-assets-plunge-98"
+        }
+      ]
+    },
+    {
+      "slug": "2026-10-07-crypto-news-b3700087ad",
+      "date_kst": "2026-10-07",
+      "title": "Payments Firm Conduit Sues Tether, Seeks Release of $2.76 Million in Frozen USDT and Damages",
+      "content": "On October 5 local time, U.S. cross-border payments company Conduit Technology filed a lawsuit in the U.S. District Court for the Southern District of New York against Tether Holdings and three other Tether-related entities. Conduit alleges that Tether froze $2.76 million in USDT held in its wallet on September 24, 2025, without a legitimate basis, and is seeking the release of the funds and damages. Conduit said the frozen funds were its own working capital, used to pre-fund and settle customer transactions. It claims that having the funds locked for more than a year reduced the volume and speed of its payment processing and disrupted its business.\nAccording to the complaint, the freeze followed an investigation involving Onix Intermediações, a former Conduit customer in Brazil. Conduit alleges that its wallet was not on the Brazilian Federal Police's original list of wallets targeted for freezing and that the T3 Financial Crime Unit (T3 FCU) added the wallet to the freeze list under its own criteria. It also said its last transaction with Onix took place on April 22, 2025, that the wallet was created later, on May 20, and that Onix had never used it. Tether, TRON and TRM Labs jointly established the T3 FCU in 2024 to combat financial crime.\nConduit said it contacted Tether several times in June 2026 but received responses stating that the matter was under review or directing it to contact the Brazilian police. It alleges that on August 19 it sent a demand for the freeze to be lifted within five business days but received no response.\nConduit is seeking the release of the frozen $2.76 million in USDT and at least $2.76 million in damages. It alleges that Tether continued to earn returns by investing the reserve assets backing the frozen tokens in instruments including U.S. Treasury securities, and is also seeking the return of those gains and punitive damages.",
+      "metanomia_thought": "Even when a stablecoin maintains its dollar value, a payment company's funds stop moving if the issuer blocks their use. Conduit alleges that its own working capital was locked for more than a year, disrupting its payments business. If a company uses stablecoins for payments, it must be able to trust not only their transfer speed and price stability but also the process for learning why funds were frozen and challenging that action.",
+      "sources": [
+        {
+          "title": "Conduit Technology, Inc. v. Tether Holdings S.A. de C.V. et al., Complaint (Case 1:26-cv-08773)",
+          "url": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.674398/gov.uscourts.nysd.674398.1.0.pdf"
+        },
+        {
+          "title": "Conduit sues Tether over $2.76 million freeze, says it has 'no legal entitlement' to funds",
+          "url": "https://www.theblock.co/news/regulation/2026-10-06-conduit-sues-tether-usdt-freeze-417831"
+        },
+        {
+          "title": "Tether, TRON and TRM Labs Establish First-Ever Private Sector Financial Crime Unit to Combat Crypto Crime",
+          "url": "https://tether.io/news/tether-tron-and-trm-labs-establish-first-ever-private-sector-financial-crime-unit-to-combat-crypto-crime/"
+        }
+      ]
+    },
+    {
+      "slug": "2026-10-07-crypto-news-4ddd05a159",
+      "date_kst": "2026-10-07",
+      "title": "Solana Foundation Unveils Atomic Securities-and-Cash Settlement Program for Institutions…JPMorgan Provided Input",
+      "content": "On October 6 local time, the Solana Foundation unveiled Solana DvP, a delivery-versus-payment program for institutional securities-and-cash settlement. The initiative provides a reusable common program for onchain settlement processes that institutions had previously built individually. Each counterparty deposits its asset into a separate escrow account, and once a predesignated settlement authority signs, both assets are transferred together in a single transaction. The structure prevents one party from delivering an asset without receiving the asset owed by the other party. A settlement is rejected after its deadline, but each party retains the ability to recover its deposited asset.\nSettlement can involve any two tokens on Solana that meet the support requirements, allowing uses such as tokenized securities and stablecoins. Cash paid through bank accounts is handled separately, while issuers retain their authority to freeze assets or restrict transfers. The code has been released as open source under the MIT License and has undergone an external security audit.\nJPMorgan provided input on institutional securities-settlement practices and requirements. The foundation stated that this should not be interpreted as JPMorgan jointly developing, approving or endorsing the product. The foundation said settlement transactions can reach finality within seconds and plans to add a feature for keeping settlement information private.\nThe program has been deployed on Solana mainnet, and the foundation said it is ready for use with real funds. It is recruiting design partners and early participants ahead of the production release.",
+      "metanomia_thought": "Solana DvP allows institutions to exchange two assets together without building separate settlement code. In return for that convenience, institutions accept a structure that depends on the settlement authority's signature and the program administrator's power to make changes. The approach aims to ease institutions into onchain finance by processing asset exchanges on a blockchain while retaining authority over execution and administration.",
+      "sources": [
+        {
+          "title": "Solana Foundation Launches Solana DvP, an Atomic Settlement Program Built for Financial Institutions",
+          "url": "https://solana.com/news/solana-foundation-launches-solana-dv-p-an-atomic-settlement-program-built-for-financial-institutions"
+        },
+        {
+          "title": "Delivery vs Payment (DvP) program",
+          "url": "https://solana.com/docs/defi/dvp-program"
+        },
+        {
+          "title": "Solana Foundation: DvP Program — Cantina Security Report",
+          "url": "https://cantina.xyz/portfolio/fe870bb4-d96d-4902-8aec-9dfcfa2d6a79"
+        },
+        {
+          "title": "Solana Foundation unveils a program to settle institutional trades in seconds. JPMorgan gave input",
+          "url": "https://www.coindesk.com/markets/2026/10/06/solana-foundation-unveils-a-program-to-settle-institutional-trades-in-seconds-with-jpmorgan-s-inputs"
+        }
+      ]
+    },
     {
       "slug": "2026-10-06-crypto-news-fb09c6a88c",
       "date_kst": "2026-10-06",
