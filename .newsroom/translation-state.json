@@ -427,11 +427,11 @@
     },
     "2026-10-01-crypto-news-6b36475e19": {
       "source_hash": "bc142dcbfa282baed1bb82ac0776aef70f9ad1f4a9f1a8de53a3cb8e420a0880",
-      "english_hash": "1948d66ef90292ad1d45fc98c812d1ea837e97e1126f00802f63b746f04eb73e"
+      "english_hash": "00ef7fe34a3483bbcac7fa90b3c033d04b22b2d4935a6aee433c7a2e446a14af"
     },
     "2026-10-02-crypto-news-e18d1433c8": {
       "source_hash": "1cb0d134a72c87b1abc6b7f1e607b6b8d7d160ad7f12e11c1d2b394e0acd5999",
-      "english_hash": "5eec99d598a8776af4273f7bcc117d268a2693c36651a48370bbe4796ea2d666"
+      "english_hash": "cecd2d55fc3deadb3b428c535497fea4651ec0e6b5f7603062c9e21921aca3fb"
     },
     "2026-10-02-crypto-news-ccfe19b6d7": {
       "source_hash": "4f554d5661d664c27cee8283bba1b595928e67d5b91ac1ebca4b8e2ef9d70116",
@@ -443,11 +443,19 @@
     },
     "2026-10-05-crypto-news-f9a2867b90": {
       "source_hash": "e568b7fc2f9f12e951ec6c0fad2351eb292524263446f6d1404f9c778ba55afd",
-      "english_hash": "9e123fe09a55f758f254b7400e4e733752dd91efd579ff91c963f68d8004f343"
+      "english_hash": "26dfc23979f77a6d8fbac82d4637792219059fdd4fe279d7c434dbfeb3d98269"
     },
     "2026-10-05-crypto-news-a00a24c8b6": {
       "source_hash": "05d61743417571f40ac7b3fe9fc7aeddcbe7b6279ab0c315ab0ca71752c8079c",
       "english_hash": "64ca7890f86897026f28282111aeb378543cfdf9e9c853ae00f00bc686661e52"
+    },
+    "2026-10-06-crypto-news-fb09c6a88c": {
+      "source_hash": "77e9dee1ec489156d5fbfed5cffde3a5598ddef693abd3c9c51738111d2ccd7d",
+      "english_hash": "97146e29d73929cd6a99dd1b593512db4cea5533597b84108b85cf3c5c5543fd"
+    },
+    "2026-10-06-crypto-news-3c23ef6018": {
+      "source_hash": "0aed20027eb618b9db35dddc48dafe48ba47b00397c10816f373dde33039da71",
+      "english_hash": "09408754482079724ec8032d1ba217511d216d35a07afd6322e076e97ef3c377"
     }
   }
 }
