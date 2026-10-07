@@ -1,7 +1,77 @@
 {
   "schema_version": "1.0",
-  "generated_at_kst": "2026-10-07T10:22:38+09:00",
+  "generated_at_kst": "2026-10-07T11:10:19+09:00",
   "items": [
+    {
+      "id": "crypto-news-d086a69d21218b25",
+      "slug": "2026-10-07-crypto-news-d086a69d21",
+      "date_kst": "2026-10-07",
+      "title": "애브스트랙트, 이더리움 L2 종료 예고…12월 15일 전 자산 이전 안내",
+      "content": "이더리움 레이어2(L2) 블록체인 애브스트랙트(Abstract)가 협정세계시(UTC) 10월 6일 운영 종료 계획을 발표했다. NFT 프로젝트 퍼지 펭귄스(Pudgy Penguins)의 운영사 이글루(Igloo)가 지원해 온 체인으로, 2026년 12월 15일 가동을 중단할 예정이다.\n운영 측은 144개 이상의 앱과 40만명 이상의 이용자를 유치했다고 밝혔다. 그러나 성장 정체, 부족한 유동성, 제한된 탈중앙화금융(DeFi) 생태계와 기관의 낮은 참여 등을 이유로, 소비자용 암호자산 서비스에 집중한 체인을 독립적으로 운영하는 모델은 지속 가능하지 않았다고 설명했다.\n루카 네츠(Luca Netz) 이글루 최고경영자는 지난 18개월간 애브스트랙트를 지원하며 수천만달러의 손실을 봤다고 밝혔다. 체인 유지를 위한 새 토큰 발행은 추진하지 않기로 했으며, 앞으로 퍼지 펭귄스와 PENGU 관련 사업에 자원을 집중할 계획이라고 설명했다.\n앞서 10월 2일에는 이더리움 L2 블라스트(Blast)도 운영 종료를 발표했다. 블라스트는 체인 유지 비용이 수익을 웃돌고, 사업을 지속 가능한 구조로 바꿀 뚜렷한 경로를 찾지 못했다고 밝혔다.\n애브스트랙트는 이용자들에게 종료일 전에 브리지를 통해 자산을 다른 체인으로 옮기도록 안내하면서, 기한까지 옮기지 않으면 해당 자금에 접근할 수 없게 된다고 밝혔다. 다만 이번 공지에는 현재 체인에 남아 있는 자산 규모와 종료 이후 자금 회수에 관한 구체적인 절차가 제시되지 않았다.",
+      "metanomia_thought": "앱과 이용자를 모으는 것만으로 독립 L2의 사업이 유지되지는 않습니다. 실제 거래와 유동성을 쌓고 운영비를 감당할 재원을 확보할 수 있는지가 체인의 지속성을 가릅니다. 이번에는 운영사가 지원 중단과 종료일을 결정하면서, 이용자도 그 일정에 맞춰 자산을 다른 체인으로 옮겨야 하는 상황에 놓였습니다.",
+      "sources": [
+        {
+          "title": "Abstract is Winding Down",
+          "url": "https://x.com/AbstractChain/status/2107554632675340420"
+        },
+        {
+          "title": "Pudgy Penguins-backed Ethereum L2 Abstract to shut down after losing 'tens of millions'",
+          "url": "https://www.theblock.co/news/ecosystems/2026-10-06-abstract-ethereum-layer-2-shutting-down-pudgy-penguins-igloo-417855"
+        },
+        {
+          "title": "Once a $2 billion Ethereum layer-2, Blast is shutting down after assets plunge 98%",
+          "url": "https://www.coindesk.com/tech/2026/10/02/once-a-usd2-billion-ethereum-layer-2-blast-is-shutting-down-after-assets-plunge-98"
+        }
+      ]
+    },
+    {
+      "id": "crypto-news-b3700087ade9b68c",
+      "slug": "2026-10-07-crypto-news-b3700087ad",
+      "date_kst": "2026-10-07",
+      "title": "결제기업 컨딧, 테더 상대 소송…USDT 276만달러 동결 해제·손해배상 요구",
+      "content": "현지시간 10월 5일 미국 국경 간 결제기업 컨딧(Conduit Technology)이 테더 홀딩스 등 테더 관련 법인 4곳을 상대로 뉴욕 남부연방지방법원에 소송을 제기했다. 컨딧은 테더가 2025년 9월 24일 자사 지갑에 있던 달러 스테이블코인 USDT 276만달러를 정당한 근거 없이 동결했다고 주장하며, 동결 해제와 손해배상을 요구했다. 컨딧은 동결된 자금이 고객 거래의 결제대금을 미리 마련하고 정산하는 데 쓰던 자체 운영자금이라고 설명했다. 자금이 1년 넘게 묶이면서 결제 처리 규모와 속도가 줄어 사업에 차질을 빚었다고 주장했다.\n소장에 따르면 동결은 컨딧의 과거 고객인 브라질 업체 오닉스(Onix Intermediações)와 관련된 수사 이후 이뤄졌다. 컨딧은 브라질 연방경찰의 최초 동결 대상 지갑 목록에 자사 지갑이 없었으며, 금융범죄 대응 조직 T3 FCU가 자체 기준으로 해당 지갑을 동결 대상에 포함했다고 주장했다. 또 오닉스와의 마지막 거래일은 2025년 4월 22일이고, 해당 지갑은 그 이후인 5월 20일에 생성됐으며 오닉스가 사용한 적도 없다고 밝혔다. T3 FCU는 테더·트론(TRON)·TRM랩스가 2024년 공동 설립한 금융범죄 대응 조직이다.\n컨딧은 2026년 6월 테더에 여러 차례 연락했지만 확인 중이라는 답변이나 브라질 경찰에 문의하라는 안내를 받았다고 밝혔다. 8월 19일에는 영업일 기준 5일 이내에 동결을 해제하라는 요구서를 보냈으나 답변을 받지 못했다고 주장했다.\n컨딧은 동결된 USDT 276만달러의 해제와 함께 최소 276만달러의 손해배상을 청구했다. 테더가 동결된 토큰을 뒷받침하는 준비자산을 미국 국채 등에 투자해 계속 수익을 얻고 있다고 주장하며, 해당 수익의 반환과 징벌적 손해배상도 요구했다.",
+      "metanomia_thought": "스테이블코인의 달러 가치가 유지돼도 발행사가 사용을 막으면 기업의 결제자금은 멈춥니다. 컨딧은 자체 운영자금이 1년 넘게 묶여 결제 사업에 차질을 빚었다고 주장합니다. 기업이 스테이블코인을 결제자금으로 쓰려면 송금 속도와 가격 안정성에 더해, 사용이 막혔을 때 동결 사유를 확인하고 이의를 제기할 수 있는 절차까지 신뢰할 수 있어야 합니다.",
+      "sources": [
+        {
+          "title": "Conduit Technology, Inc. v. Tether Holdings S.A. de C.V. et al., Complaint (Case 1:26-cv-08773)",
+          "url": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.674398/gov.uscourts.nysd.674398.1.0.pdf"
+        },
+        {
+          "title": "Conduit sues Tether over $2.76 million freeze, says it has 'no legal entitlement' to funds",
+          "url": "https://www.theblock.co/news/regulation/2026-10-06-conduit-sues-tether-usdt-freeze-417831"
+        },
+        {
+          "title": "Tether, TRON and TRM Labs Establish First-Ever Private Sector Financial Crime Unit to Combat Crypto Crime",
+          "url": "https://tether.io/news/tether-tron-and-trm-labs-establish-first-ever-private-sector-financial-crime-unit-to-combat-crypto-crime/"
+        }
+      ]
+    },
+    {
+      "id": "crypto-news-4ddd05a15950a03f",
+      "slug": "2026-10-07-crypto-news-4ddd05a159",
+      "date_kst": "2026-10-07",
+      "title": "솔라나 재단, 기관용 증권·대금 동시결제 프로그램 공개…JP모건 의견 제공",
+      "content": "현지시간 10월 6일 솔라나 재단(Solana Foundation)이 기관용 증권·대금 동시결제 프로그램 ‘솔라나 DvP(Solana DvP)’를 공개했다. 기관들이 개별적으로 구축하던 온체인 결제 절차를 재사용 가능한 공통 프로그램으로 제공한다는 취지다. 거래 당사자가 각자 자산을 별도의 에스크로 계정에 맡기고, 미리 지정한 결제 담당자가 서명하면 두 자산이 하나의 트랜잭션으로 함께 이전된다. 한쪽이 자산을 넘기고도 반대쪽 자산을 받지 못하는 결제를 막는 구조다. 기한이 지나면 결제는 거부되지만, 각자가 맡긴 자산을 회수하는 기능은 유지된다.\n결제 대상은 지원 조건을 충족한 솔라나 위의 두 토큰으로, 토큰화 증권과 스테이블코인 등에 활용할 수 있다. 은행 계좌에서 지급하는 대금은 별도로 처리되며, 발행사의 동결·이전 제한 권한도 유지된다. 코드는 MIT 라이선스의 오픈소스로 공개됐고 외부 보안 감사를 받았다.\nJP모건은 기관의 증권 결제 관행과 요건에 관한 의견을 제공했다. 재단은 이를 JP모건의 공동 개발이나 제품 승인·보증으로 해석해서는 안 된다고 명시했다. 재단은 결제 트랜잭션이 몇 초 안에 확정될 수 있다고 설명했으며, 향후 결제정보를 비공개로 처리하는 기능도 추가할 계획이다.\n프로그램은 솔라나 메인넷에 배포됐으며, 재단은 실제 자금에 사용할 준비가 됐다고 설명했다. 정식 운영 버전 출시를 앞두고 설계 파트너와 초기 참여자를 모집하고 있다.",
+      "metanomia_thought": "솔라나 DvP는 기관이 결제 코드를 따로 만들지 않고도 두 자산을 함께 교환할 수 있게 합니다. 그 편의성을 얻는 대신, 기관은 결제 담당자의 서명과 프로그램 관리자의 변경 권한에 의존하는 구조를 받아들입니다. 자산 교환은 블록체인에서 처리하되, 거래를 실행하고 관리하는 권한은 남겨두는 방식으로 기관의 온체인 금융 진입을 쉽게 하려는 접근입니다.",
+      "sources": [
+        {
+          "title": "Solana Foundation Launches Solana DvP, an Atomic Settlement Program Built for Financial Institutions",
+          "url": "https://solana.com/news/solana-foundation-launches-solana-dv-p-an-atomic-settlement-program-built-for-financial-institutions"
+        },
+        {
+          "title": "Delivery vs Payment (DvP) program",
+          "url": "https://solana.com/docs/defi/dvp-program"
+        },
+        {
+          "title": "Solana Foundation: DvP Program — Cantina Security Report",
+          "url": "https://cantina.xyz/portfolio/fe870bb4-d96d-4902-8aec-9dfcfa2d6a79"
+        },
+        {
+          "title": "Solana Foundation unveils a program to settle institutional trades in seconds. JPMorgan gave input",
+          "url": "https://www.coindesk.com/markets/2026/10/06/solana-foundation-unveils-a-program-to-settle-institutional-trades-in-seconds-with-jpmorgan-s-inputs"
+        }
+      ]
+    },
     {
       "id": "crypto-news-fb09c6a88cc55b05",
       "slug": "2026-10-06-crypto-news-fb09c6a88c",
