@@ -1,7 +1,66 @@
 {
   "schema_version": "1.0",
-  "generated_at_kst": "2026-10-07T11:10:19+09:00",
+  "generated_at_kst": "2026-10-08T11:15:54+09:00",
   "items": [
+    {
+      "slug": "2026-10-08-crypto-news-d27ded0176",
+      "date_kst": "2026-10-08",
+      "title": "Coinbase Completes Deribit Integration…Plans to Link U.S. and International Derivatives Liquidity",
+      "content": "Coinbase said on October 7 that it had completed the integration of Deribit and established the ‘Coinbase Global Exchange.’ The company plans to connect U.S. and international derivatives liquidity and roll out options, spot margin and unified portfolio features in stages.\nU.S. institutional clients will access Deribit options and perpetual futures on Coinbase Prime through Coinbase Financial Markets (CFM), a futures commission merchant. Prime options trading will become available within weeks, and onboarding has begun. Options trading for eligible users outside the United States is also planned within weeks, while options trading for U.S. retail customers is scheduled for later this year.\nIn May, the U.S. Commodity Futures Trading Commission’s Market Participants Division said certain Deribit perpetual contracts could be treated as foreign futures. It also issued conditional no-action relief for a structure in which customer crypto-asset collateral is held with Coinbase Bermuda (CBBM) and reused for that customer’s foreign futures and options trading. Any reuse must be based on the customer agreement and local regulations. According to the letter, if position liquidations and Deribit’s insurance fund are insufficient to cover a shortfall, Deribit may proportionally reduce the settlement profits of members who made gains during the previous 24-hour settlement cycle.\nThe unified portfolio feature accounts for offsetting positions to reduce required margin. Spot margin offers leverage of up to 10 times on certain major assets and up to five times on other supported assets, and in the United States it is available only to eligible contract participants (ECPs). In supported regions, global derivatives are offered by CBBM, which is regulated by the Bermuda Monetary Authority (BMA). Spot margin is a product of a separate affiliate and is not offered by CFM.\nCoinbase Pro is scheduled to relaunch by year-end as a professional platform supporting spot, futures, perpetual futures, options and equity trading. The announcement did not provide specific launch dates for the new features.",
+      "metanomia_thought": "Coinbase aims to bring customers’ trading activity and collateral onto its platform by combining Deribit’s options liquidity with margin management. For offshore trading through CFM, collateral may be reused under the relevant agreements and regulations, and Deribit members’ settlement profits may be reduced if liquidations and the insurance fund fail to cover a shortfall. Customers gain the convenience of lower margin requirements, but the security of collateral management and settlement also depends on the operations of overseas affiliates and the exchange.",
+      "sources": [
+        {
+          "title": "Coinbase Is Building the Most Complete Trading Platform",
+          "url": "https://www.coinbase.com/blog/coinbase-is-building-the-most-complete-trading-platform"
+        },
+        {
+          "title": "Coinbase Pro to return; Deribit integration creates Coinbase Global Exchange",
+          "url": "https://www.theblock.co/news/business/2026-10-06-coinbase-pro-deribit-integration-coinbase-global-exchange-417867"
+        },
+        {
+          "title": "CFTC Staff Letter No. 26-17",
+          "url": "https://www.cftc.gov/csl/26-17/download"
+        }
+      ]
+    },
+    {
+      "slug": "2026-10-08-crypto-news-56651b350e",
+      "date_kst": "2026-10-08",
+      "title": "Moody’s Assigns B3 Rating to USDS Operator Sky Protocol…Outlook Stable",
+      "content": "Sky Frontier Foundation announced on October 7 local time that Moody’s Ratings had assigned Sky Protocol a B3 issuer rating with a stable outlook. The foundation said this was the first time Moody’s had rated a stablecoin protocol. B3 is a speculative-grade rating below investment grade and indicates high credit risk.\nSky is an onchain financial protocol that issues the U.S. dollar stablecoin USDS. Independent capital allocators receive USDS liquidity and invest it across several strategies within risk limits set by governance, with the resulting returns flowing into protocol revenue.\nThe foundation said Moody’s viewed the level of ‘Sky Reserves’ as a major rating factor. Sky governance has shifted to a framework that retains part of the protocol’s net income until reserves reach a minimum target, and the foundation said building those reserves will take time. S&P Global Ratings has described the protocol’s surplus reserves as capital available to absorb credit losses that could arise from its assets.\nS&P previously assigned Sky Protocol a B- rating with a stable outlook on August 7, 2025. That assessment cited depositor concentration, centralized governance and capital that was insufficient relative to the risk of the assets as key constraints. S&P assessed the creditworthiness of USDS and DAI as well as the savings tokens sUSDS and sDAI, defining a reduction in the redemption amount owed to token holders as a default.\nThe foundation said it will review the upgrade factors identified by both rating agencies with Sky governance and announce an implementation plan, with investment grade as the long-term goal. It also said that it is an independent organization that does not control the protocol or DAO governance. The announcement did not state when the reserve target would be reached.",
+      "metanomia_thought": "Sky presents obtaining credit ratings as part of its reserve-building strategy and names investment grade as its long-term goal. The more of the same earnings it distributes as rewards, the less it retains as reserves to absorb losses. Just as a bank retains earnings to strengthen capital, Sky is using part of the income it could distribute today to invest in future credit quality and growth.",
+      "sources": [
+        {
+          "title": "Moody's Ratings Assigns First Issuer Rating to Sky Protocol",
+          "url": "https://www.prnewswire.com/news-releases/moodys-ratings-assigns-first-issuer-rating-to-sky-protocol-302900578.html"
+        },
+        {
+          "title": "Moody’s gives Sky Protocol B3 rating as institutional interest in USDS grows",
+          "url": "https://www.theblock.co/news/business/2026-10-07-moodys-sky-protocol-b3-rating-first-stablecoin-protocol-417931"
+        },
+        {
+          "title": "Sky Protocol Assigned ‘B-’ Rating; Outlook Stable",
+          "url": "https://www.spglobal.com/ratings/en/regulatory/article/-/view/sourceId/101639449"
+        }
+      ]
+    },
+    {
+      "slug": "2026-10-08-crypto-news-11bf27204a",
+      "date_kst": "2026-10-08",
+      "title": "Tether Signs Agreement with Kazakhstan’s Central Bank…Plans Tenge-Linked Stablecoin Pilot Proposal",
+      "content": "Stablecoin issuer Tether announced on October 7 that it had signed a memorandum of understanding (MOU) with the National Bank of Kazakhstan (NBK) and the Alatau City Authority (ACA). The three organizations plan to jointly study potential uses for stablecoin development, asset tokenization and decentralized finance (DeFi).\nThe agreement includes studying international stablecoin issuance models and use cases, and preparing a concept and pilot proposal for a stablecoin linked to Kazakhstan’s currency, the tenge.\nThe parties will also work on a framework for asset tokenization. They plan to select the asset classes to be tokenized first, design a conceptual model and pursue a pilot in Alatau, where a special legal framework applies. They will also consider using Tether’s Hadron tokenization platform, but its adoption has not been decided.\nTraining will be provided to central bank and other government personnel on stablecoin issuance and reserve-management models and the tokenization of real-world assets. Binur Zhalenov, deputy governor of the National Bank of Kazakhstan, said maintaining financial stability, transaction transparency and investor protection would remain the top priority while studying international examples.\nCoinDesk described the agreement as exploratory and said it was not a decision to issue a tenge-linked stablecoin. The announcement did not identify the issuer, reserve structure or a specific implementation timetable.",
+      "metanomia_thought": "The agreement shows Tether seeking to apply its stablecoin issuance experience to the digitization of a local currency and other assets. If Hadron is selected for the tokenization pilot, Tether could participate both in researching the issuance model and in providing the underlying technology. Its experience issuing USDT would then become an asset in a technical partnership to help government and local authorities design digital-finance infrastructure.",
+      "sources": [
+        {
+          "title": "Tether Signs MoU with the National Bank of Kazakhstan and the Alatau City Authority to Explore Stablecoin Use Cases and Asset Tokenization",
+          "url": "https://tether.io/news/tether-signs-mou-with-the-national-bank-of-kazakhstan-and-the-alatau-city-authority-to-explore-stablecoin-use-cases-and-asset-tokenization/"
+        },
+        {
+          "title": "Tether tapped by Kazakhstan's central bank to explore stablecoin and tokenization",
+          "url": "https://www.coindesk.com/business/2026/10/07/tether-tapped-by-kazakhstan-s-central-bank-to-explore-stablecoin-and-tokenization"
+        }
+      ]
+    },
     {
       "slug": "2026-10-07-crypto-news-d086a69d21",
       "date_kst": "2026-10-07",
