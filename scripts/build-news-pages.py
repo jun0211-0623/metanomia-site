@@ -196,11 +196,12 @@ def build_language(lang: str) -> list[tuple[str, str]]:
     manifest = ROOT / ("data/crypto-news.json" if is_ko else "data/crypto-news.en.json")
     template = ROOT / ("ko/crypto-news-detail.html" if is_ko else "crypto-news-detail.html")
     items = json.loads(manifest.read_text(encoding="utf-8")).get("items", [])
-    items = sorted(
-        [item for item in items if clean(item.get("slug")) and clean(item.get("title")) and clean(item.get("content"))],
-        key=lambda item: (clean(item.get("date_kst")), clean(item.get("slug"))),
-        reverse=True,
-    )
+    items = [item for item in items if clean(item.get("slug")) and clean(item.get("title")) and clean(item.get("content"))]
+    # Match the news-list ordering in js/crypto-news.js exactly: newest date
+    # first, then slug ascending within the same date. Stable sorting lets the
+    # two fields use different directions without encoding a fragile key.
+    items.sort(key=lambda item: clean(item.get("slug")))
+    items.sort(key=lambda item: clean(item.get("date_kst")), reverse=True)
     other_items = json.loads((ROOT / ("data/crypto-news.en.json" if is_ko else "data/crypto-news.json")).read_text(encoding="utf-8")).get("items", [])
     counterpart_by_slug = {clean(item.get("slug")): item for item in other_items}
     base = template.read_text(encoding="utf-8")
