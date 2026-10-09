@@ -1,7 +1,62 @@
 {
   "schema_version": "1.0",
-  "generated_at_kst": "2026-10-08T11:15:54+09:00",
+  "generated_at_kst": "2026-10-09T09:55:07+09:00",
   "items": [
+    {
+      "slug": "2026-10-09-crypto-news-f88cc98222",
+      "date_kst": "2026-10-09",
+      "title": "ESMA Calls for Halt to Custody and Transfers of Stablecoins That Fail MiCA Requirements…Three-Month Wind-Down Deadline",
+      "content": "The European Securities and Markets Authority (ESMA) issued a supervisory opinion on October 8 calling for services related to stablecoins that do not meet the requirements of the European Union’s Markets in Crypto-Assets Regulation (MiCA) to be discontinued. It covers asset-referenced tokens (ARTs) and e-money tokens (EMTs) that do not meet the requirements for lawful public offering or admission to trading in the EU.\nESMA said crypto-asset service providers (CASPs) authorized under MiCA must not provide EU clients with related services including trading, exchange, execution of orders, custody, transfer and advice. The opinion sets supervisory expectations for national competent authorities (NCAs) to apply existing MiCA obligations consistently.\nIn a January 2025 statement, ESMA had said that custody and transfer alone could continue. The new opinion brings those services within supervisory expectations and states that regulators may temporarily allow only services necessary to wind down existing holdings. It concluded that risk warnings or disclosures by service providers cannot substitute for the redemption rights, reserve assets and asset-protection safeguards required at issuance.\nESMA said national regulators should require remaining holdings and related services to be wound down as soon as possible and no later than three months from the publication of the opinion. Sales, conversions, withdrawals, transfers and custody needed to prevent customer harm may qualify for temporary exceptions, but new purchases, promotions and ongoing trading services do not fall within that scope.\nThe opinion did not identify specific tokens. CoinDesk cited USDT and PYUSD as examples and calculated the three-month deadline as January 8, 2027. The materials did not provide country-specific implementation schedules or service termination dates for individual providers.",
+      "metanomia_thought": "The United States sees stablecoin regulation as a means of extending the dollar’s international influence. By contrast, ESMA’s opinion calls for winding down even the trading, custody and transfer channels for tokens that fail MiCA requirements. The competitiveness of dollar stablecoins therefore depends not only on scale and liquidity, but also on whether they can comply with both U.S. and European rules and connect the two markets.",
+      "sources": [
+        {
+          "title": "Opinion on the provision of crypto-asset services in relation to non-MiCA-compliant asset-referenced tokens and e-money tokens (ESMA75-113276571-1742)",
+          "url": "https://www.esma.europa.eu/sites/default/files/2026-10/ESMA75-113276571-1742_Opinion_on_the_provision_of_crypto_asset_services_in_relation_to_non-MiCA-compliant_asset-referenced_tokens_and_e-money_tokens.pdf"
+        },
+        {
+          "title": "ESMA sets out supervisory expectations on services related to unauthorised stablecoins",
+          "url": "https://www.esma.europa.eu/press-news/esma-news/esma-sets-out-supervisory-expectations-services-related-unauthorised"
+        },
+        {
+          "title": "EU securities regulator gives crypto platforms 3 months to remove unauthorized stablecoins",
+          "url": "https://www.coindesk.com/policy/2026/10/08/eu-securities-regulator-gives-crypto-platforms-3-months-to-remove-unauthorized-stablecoins"
+        }
+      ]
+    },
+    {
+      "slug": "2026-10-09-crypto-news-b8c86358b7",
+      "date_kst": "2026-10-09",
+      "title": "Samsung Wallet Plans Late-October USDC Transfers in the U.S.…Bank Transfers to More Than 60 Countries",
+      "content": "Samsung Electronics America announced on October 7 that it will begin offering stablecoin wallet features in Samsung Wallet to U.S. Galaxy users in the final week of October. The first supported asset will be USDC, a U.S. dollar-linked stablecoin. Eligible users are U.S. residents aged 18 or older with a Samsung account and a compatible Galaxy device running Android 13 or later. Account enrollment, identity verification and biometric authentication setup are required. Samsung said there are 82 million Samsung Wallet-compatible Galaxy devices in the United States.\nUsers will be able to send USDC to external wallets and exchange accounts on supported networks. Samsung will not charge a fee for these transfers, although the receiving provider may charge one. Users will also be able to send funds to supported bank accounts in more than 60 countries, with recipients receiving local currency. Bank transfer fees vary by country and amount, and the app will display the fee and estimated arrival time before the transfer is confirmed.\nRegulated partners will provide account, custody and transfer services, with Bastion supplying the related infrastructure. Coinbase is Bastion’s official sub-custodian and will hold Samsung Wallet’s USDC in Coinbase Prime Vault. Solana and Sui are among the network support partners.\nSamsung said it is not a bank, money transmitter or digital-asset custodian and does not hold customer funds. Use of the service is subject to partner terms. Online and in-store payments and expansion to additional countries were presented as possible future features. The announcement did not provide a specific list of countries supported for international bank transfers or the applicable fee rates.",
+      "metanomia_thought": "Samsung is securing the customer interface for stablecoin use without holding customer funds directly. Bastion and Coinbase provide the financial infrastructure, while Samsung connects users through its existing app and devices. The competition to expand stablecoin adoption is moving beyond token issuance to the question of who controls the everyday transfer screen.",
+      "sources": [
+        {
+          "title": "Samsung Wallet to Bring Stablecoin Access to Eligible Galaxy Users in the US",
+          "url": "https://news.samsung.com/us/samsung-wallet-bring-stablecoin-access-eligible-galaxy-users-us/"
+        },
+        {
+          "title": "Samsung to launch USDC transfers on Solana for US Galaxy users",
+          "url": "https://www.theblock.co/news/business/2026-10-07-samsung-to-launch-usdc-transfers-on-solana-for-us-galaxy-users-418004"
+        }
+      ]
+    },
+    {
+      "slug": "2026-10-09-crypto-news-33002475f5",
+      "date_kst": "2026-10-09",
+      "title": "Securitize Announces Tokenized Products for 12 U.S. Stocks Including Apple and Nvidia…USDC Settlement on Solana",
+      "content": "Tokenization platform Securitize announced on October 8 U.S. Eastern Time the launch of ‘Securitize Stocks,’ which enables trading of U.S. equities on a blockchain. The initial lineup consists of 12 names: Apple, Microsoft, Nvidia, Alphabet, Tesla, Meta, Amazon, Netflix, Circle, SpaceX, Strategy and Palantir.\nEach token is backed one-to-one by actual shares and represents a security entitlement under Article 8 of the U.S. Uniform Commercial Code (UCC). The structure is designed to preserve dividends, voting rights and other rights attached to the shares. Holders own their rights through the broker-dealer Securitize Markets and are not registered shareholders entered directly on the issuing company’s shareholder register.\nIf an issuing company adopts tokenization with direct participation and conversion is offered, holders may convert their positions through a transfer agent into shares recorded on the company’s shareholder register. Securitize said it will not lend the underlying shares and that the companies issuing those shares have not sponsored or officially endorsed the product.\nTrading will take place through Securitize’s proprietary automated market maker, PropAMM, on Solana, with Jump Trading serving as market maker. Settlement will use USDC. The service will initially operate during extended trading hours and is planned to expand to 24-hour, year-round trading. It is available to investors in permitted jurisdictions, including the United States and the EU, who meet local legal and eligibility requirements and complete know-your-customer (KYC) and anti-money-laundering (AML) procedures.\nSecuritize also plans to pursue trading on the digital venue being developed by the New York Stock Exchange (NYSE) and on the tokenized securities market of OKXICE, a joint venture between ICE and OKX. Neither venue has launched, and trading may not materialize depending on regulatory approval and venue review. The announcement did not provide fees or minimum trade sizes.",
+      "metanomia_thought": "Securitize is combining stock brokerage with an automated market maker and stablecoin settlement, crossing the operating boundary between securities firms and crypto-asset platforms. Shareholder rights remain within the existing securities system, but the customer interface and the technology that processes trades move onchain. Traditional financial licenses remain necessary, yet the assumption that incumbent financial firms will continue to control both customer access and trading revenue is becoming less secure.",
+      "sources": [
+        {
+          "title": "Securitize Launches Global Onchain Trading of U.S. Stocks with Security Entitlements",
+          "url": "https://www.prnewswire.com/news-releases/securitize-launches-global-onchain-trading-of-u-s-stocks-with-security-entitlements-302902107.html"
+        },
+        {
+          "title": "Securitize brings Apple, Nvidia and Tesla to Solana, with NYSE trading in the works",
+          "url": "https://www.coindesk.com/business/2026/10/08/securitize-brings-apple-nvidia-and-tesla-to-solana-with-nyse-trading-in-the-works"
+        }
+      ]
+    },
     {
       "slug": "2026-10-08-crypto-news-d27ded0176",
       "date_kst": "2026-10-08",
