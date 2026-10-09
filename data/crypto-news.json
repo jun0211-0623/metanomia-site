@@ -1,7 +1,65 @@
 {
   "schema_version": "1.0",
-  "generated_at_kst": "2026-10-08T11:15:54+09:00",
+  "generated_at_kst": "2026-10-09T09:55:07+09:00",
   "items": [
+    {
+      "id": "crypto-news-f88cc98222bf39d3",
+      "slug": "2026-10-09-crypto-news-f88cc98222",
+      "date_kst": "2026-10-09",
+      "title": "ESMA, MiCA 요건 미충족 스테이블코인 보관·이체도 중단 요구…정리 시한 3개월",
+      "content": "유럽증권시장청(ESMA)이 10월 8일 유럽연합(EU) 암호자산시장법(MiCA) 요건을 충족하지 못한 스테이블코인 관련 서비스의 중단을 요구하는 감독 의견을 발표했다. 대상은 EU에서 합법적으로 공모·거래될 요건을 갖추지 못한 자산준거토큰(ART)과 전자화폐토큰(EMT)이다.\nESMA는 MiCA 인가를 받은 암호자산서비스제공자(CASP)가 EU 고객에게 이들 토큰의 거래·교환·주문 처리·보관·이체·자문 등 관련 서비스를 제공해서는 안 된다고 밝혔다. 이번 의견은 각국 감독당국(NCA)에 기존 MiCA 의무를 일관되게 적용하도록 제시한 감독 기준이다.\nESMA는 2025년 1월 성명에서 단순 보관·이체는 계속 가능하다고 설명했다. 이번 의견서는 이들 서비스까지 감독 기준에 포함하고, 기존 보유분 정리에 필요한 서비스만 감독당국이 한시적으로 허용할 수 있다는 입장을 밝혔다. 발행 단계에서 요구되는 상환권·준비자산·자산 보호 장치의 부재를 서비스 제공자의 위험 경고나 정보 공개로 대신할 수 없다는 판단이다.\nESMA는 각국 감독당국이 남아 있는 기존 보유분과 관련 서비스를 가능한 한 빨리, 늦어도 의견서 발표일부터 3개월 안에 정리하도록 요구해야 한다고 밝혔다. 고객 피해를 막는 데 필요한 매각·전환·출금·이체·보관은 한시적 예외에 해당하지만, 신규 매수·홍보·상시 거래 서비스는 허용 범위에 포함되지 않는다.\n의견서는 특정 토큰을 지목하지 않았다. 코인데스크는 USDT와 PYUSD를 사례로 들고, 3개월 시한을 2027년 1월 8일로 계산했다. 이번 자료에는 각국의 구체적인 이행 일정과 개별 사업자의 서비스 종료일이 제시되지 않았다.",
+      "metanomia_thought": "미국은 스테이블코인의 제도화를 달러의 국제적 영향력을 넓히는 수단으로 보고 있습니다. 반면 이번 ESMA 의견은 MiCA 요건을 갖추지 못한 토큰의 거래·보관·이체 경로까지 정리하도록 요구합니다. 달러 스테이블코인의 경쟁력은 규모와 유동성뿐 아니라, 미국과 유럽의 규칙을 각각 충족해 양쪽 시장을 연결할 수 있느냐에도 달려 있습니다.",
+      "sources": [
+        {
+          "title": "Opinion on the provision of crypto-asset services in relation to non-MiCA-compliant asset-referenced tokens and e-money tokens (ESMA75-113276571-1742)",
+          "url": "https://www.esma.europa.eu/sites/default/files/2026-10/ESMA75-113276571-1742_Opinion_on_the_provision_of_crypto_asset_services_in_relation_to_non-MiCA-compliant_asset-referenced_tokens_and_e-money_tokens.pdf"
+        },
+        {
+          "title": "ESMA sets out supervisory expectations on services related to unauthorised stablecoins",
+          "url": "https://www.esma.europa.eu/press-news/esma-news/esma-sets-out-supervisory-expectations-services-related-unauthorised"
+        },
+        {
+          "title": "EU securities regulator gives crypto platforms 3 months to remove unauthorized stablecoins",
+          "url": "https://www.coindesk.com/policy/2026/10/08/eu-securities-regulator-gives-crypto-platforms-3-months-to-remove-unauthorized-stablecoins"
+        }
+      ]
+    },
+    {
+      "id": "crypto-news-b8c86358b7337059",
+      "slug": "2026-10-09-crypto-news-b8c86358b7",
+      "date_kst": "2026-10-09",
+      "title": "삼성 월렛, 미국서 10월 말 USDC 송금 출시 예고…은행 송금 지원국 60개국 넘어",
+      "content": "삼성전자 미국법인(Samsung Electronics America)이 10월 7일 미국 갤럭시 이용자를 대상으로 삼성 월렛(Samsung Wallet)의 스테이블코인 지갑 기능을 10월 마지막 주부터 제공한다고 발표했다. 첫 지원 자산은 미국 달러 연동 스테이블코인 USDC다. 대상은 삼성 계정과 안드로이드 13 이상 호환 갤럭시 기기를 갖춘 18세 이상 미국 거주자다. 계정 등록·본인 확인·생체인증 설정이 필요하다. 삼성은 미국 내 삼성 월렛 호환 갤럭시 기기 수를 8,200만대로 제시했다.\n이용자는 지원 네트워크의 외부 지갑·거래소 계정으로 USDC를 보낼 수 있게 된다. 삼성은 이 전송에 수수료를 부과하지 않지만, 수신 사업자는 별도 수수료를 부과할 수 있다. 60개국이 넘는 국가의 지원 은행 계좌로도 송금할 수 있으며, 수취인은 현지 통화로 받는다. 은행 송금에는 국가·금액별 수수료가 적용되고, 수수료와 예상 도착 시간은 송금 확인 전에 앱에 표시된다.\n계좌·보관·송금 서비스는 규제 대상 협력사가 제공하며, 바스티온(Bastion)이 관련 인프라를 맡는다. 코인베이스(Coinbase)는 바스티온의 공식 재수탁기관으로, 삼성 월렛의 USDC를 코인베이스 프라임 볼트(Coinbase Prime Vault)에 보관한다. 솔라나(Solana)와 수이(Sui) 등은 네트워크 지원 파트너로 참여한다.\n삼성은 은행·송금업자·디지털자산 수탁기관이 아니며 고객 자금을 보유하지 않는다고 밝혔다. 서비스 이용에는 협력사 약관이 적용된다. 온라인·매장 결제와 추가 국가 진출은 향후 가능한 기능으로 제시했다. 발표문에는 해외 은행 송금의 구체적인 지원 국가 목록과 수수료율이 제시되지 않았다.",
+      "metanomia_thought": "삼성은 고객 자금을 직접 보관하지 않으면서도 스테이블코인을 쓰는 이용자의 접점을 확보합니다. 바스티온과 코인베이스가 금융 인프라를 맡고, 삼성은 기존 앱과 기기로 이용자를 연결하는 분업입니다. 스테이블코인 보급 경쟁이 토큰의 발행을 넘어, 누가 일상적인 송금 화면을 확보하느냐로 넓어지는 사례로 읽힙니다.",
+      "sources": [
+        {
+          "title": "Samsung Wallet to Bring Stablecoin Access to Eligible Galaxy Users in the US",
+          "url": "https://news.samsung.com/us/samsung-wallet-bring-stablecoin-access-eligible-galaxy-users-us/"
+        },
+        {
+          "title": "Samsung to launch USDC transfers on Solana for US Galaxy users",
+          "url": "https://www.theblock.co/news/business/2026-10-07-samsung-to-launch-usdc-transfers-on-solana-for-us-galaxy-users-418004"
+        }
+      ]
+    },
+    {
+      "id": "crypto-news-33002475f5ae5956",
+      "slug": "2026-10-09-crypto-news-33002475f5",
+      "date_kst": "2026-10-09",
+      "title": "시큐리타이즈, 애플·엔비디아 등 미국 주식 12종 토큰화 상품 출시 발표…솔라나서 USDC 결제",
+      "content": "토큰화 플랫폼 시큐리타이즈(Securitize)가 미국 동부시간 10월 8일 미국 주식을 블록체인에서 거래하는 ‘시큐리타이즈 스톡스(Securitize Stocks)’ 출시를 발표했다. 초기 대상은 애플, 마이크로소프트, 엔비디아, 알파벳, 테슬라, 메타, 아마존, 넷플릭스, 서클, 스페이스X, 스트래티지, 팔란티어 등 12종목이다.\n각 토큰은 실제 주식으로 1대1 뒷받침되며, 미국 통일상법전(UCC) 제8편에 따른 증권 권리(security entitlement)를 나타낸다. 배당과 해당 주식에 부여된 의결권 등을 보존하도록 설계됐다. 보유자는 브로커딜러인 시큐리타이즈 마켓츠(Securitize Markets)를 통해 권리를 보유하며, 발행기업의 주주명부에 직접 등재되는 등록 주주는 아니다.\n발행기업이 직접 참여하는 토큰화를 도입하고 전환이 제공되는 경우에는 명의개서대리인을 통해 회사 주주명부에 기록되는 주식으로 바꿀 수 있다. 시큐리타이즈는 기초 주식을 대여하지 않으며, 해당 주식의 발행기업이 이번 상품을 후원하거나 공식적으로 지지한 것은 아니라고 밝혔다.\n거래는 솔라나(Solana)의 시큐리타이즈 자체 자동화 마켓메이커(PropAMM)를 통해 이뤄지고, 점프 트레이딩(Jump Trading)이 시장조성을 맡는다. 결제에는 USDC를 사용한다. 초기에는 연장 거래시간에 운영하며, 향후 24시간·연중무휴 거래로 확대할 계획이다. 미국과 EU 등 허용된 지역에서 현지 법규와 이용 요건을 충족한 투자자가 대상이며, 고객확인(KYC)과 자금세탁방지(AML) 절차를 거쳐야 한다.\n뉴욕증권거래소(NYSE)가 개발 중인 디지털 거래장과 ICE·OKX 합작법인 OKXICE의 토큰화 증권 시장에서도 거래를 추진한다. 다만 두 거래장은 아직 출범하지 않았고, 규제 승인과 거래장 심사에 따라 거래가 성사되지 않을 수도 있다. 이번 발표문에는 수수료와 최소 거래 단위가 제시되지 않았다.",
+      "metanomia_thought": "시큐리타이즈는 주식 중개에 AMM과 스테이블코인 결제를 결합해, 증권사와 가상자산 플랫폼 사이의 업무 경계를 넘고 있습니다. 주식의 권리는 기존 증권 제도에 남아 있지만, 고객이 거래하는 화면과 거래를 처리하는 기술은 온체인으로 이동합니다. 전통 금융의 인가는 여전히 필요해도, 그 인가를 가진 기존 금융회사가 고객 접점과 거래 수익까지 계속 차지할 것이라는 전제는 흔들리는 셈입니다.",
+      "sources": [
+        {
+          "title": "Securitize Launches Global Onchain Trading of U.S. Stocks with Security Entitlements",
+          "url": "https://www.prnewswire.com/news-releases/securitize-launches-global-onchain-trading-of-u-s-stocks-with-security-entitlements-302902107.html"
+        },
+        {
+          "title": "Securitize brings Apple, Nvidia and Tesla to Solana, with NYSE trading in the works",
+          "url": "https://www.coindesk.com/business/2026/10/08/securitize-brings-apple-nvidia-and-tesla-to-solana-with-nyse-trading-in-the-works"
+        }
+      ]
+    },
     {
       "id": "crypto-news-d27ded0176da29c1",
       "slug": "2026-10-08-crypto-news-d27ded0176",
