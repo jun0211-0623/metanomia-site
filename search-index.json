@@ -2,7 +2,7 @@
   {
     "lang": "en",
     "type": "Page",
-    "title": "About",
+    "title": "About Metanomia",
     "sub": "Metanomia is a research community exploring changes in the monetary and financial order and the crypto ecosystem.",
     "meta": "",
     "url": "/about"
@@ -75,7 +75,7 @@
     "lang": "en",
     "type": "Page",
     "title": "Publications",
-    "sub": "All reports from Metanomia, organized across five series: Outlook, Findings, Perspectives, Policy & Strategy, and Guide.",
+    "sub": "Metanomia reports and scholarly papers, including journal articles and conference papers.",
     "meta": "",
     "url": "/publications"
   },
@@ -122,10 +122,34 @@
   {
     "lang": "en",
     "type": "People",
+    "title": "Choi Deok Hyun",
+    "sub": "",
+    "meta": "Member · Metanomia",
+    "url": "/people/choi-deok-hyun"
+  },
+  {
+    "lang": "en",
+    "type": "People",
+    "title": "DK Kwon",
+    "sub": "",
+    "meta": "Member · Metanomia",
+    "url": "/people/dk-kwon"
+  },
+  {
+    "lang": "en",
+    "type": "People",
     "title": "Daehan Seok",
     "sub": "",
     "meta": "Researcher · Metanomia",
     "url": "/people/daehan-seok"
+  },
+  {
+    "lang": "en",
+    "type": "People",
+    "title": "Do Gyun Kim",
+    "sub": "",
+    "meta": "Member · Metanomia",
+    "url": "/people/do-gyun-kim"
   },
   {
     "lang": "en",
@@ -148,7 +172,7 @@
     "type": "People",
     "title": "Hyemin Son",
     "sub": "",
-    "meta": "General Manager · Editorial Board Member · Researcher · Metanomia",
+    "meta": "General Manager &#183; Editorial Board &#183; Researcher · Metanomia",
     "url": "/people/hyemin-son"
   },
   {
@@ -170,6 +194,14 @@
   {
     "lang": "en",
     "type": "People",
+    "title": "June Ho Cho",
+    "sub": "",
+    "meta": "Member · Metanomia",
+    "url": "/people/june-ho-cho"
+  },
+  {
+    "lang": "en",
+    "type": "People",
     "title": "Jungeun Lee",
     "sub": "",
     "meta": "Member · Metanomia",
@@ -178,7 +210,23 @@
   {
     "lang": "en",
     "type": "People",
-    "title": "Mingu Park",
+    "title": "Junseok Kwon",
+    "sub": "",
+    "meta": "Member · Metanomia",
+    "url": "/people/junseok-kwon"
+  },
+  {
+    "lang": "en",
+    "type": "People",
+    "title": "Lee Jong Beom",
+    "sub": "",
+    "meta": "Member · Metanomia",
+    "url": "/people/lee-jong-beom"
+  },
+  {
+    "lang": "en",
+    "type": "People",
+    "title": "Mingu Gordon Park",
     "sub": "",
     "meta": "Researcher · Metanomia",
     "url": "/people/mingu-park"
@@ -204,7 +252,7 @@
     "type": "People",
     "title": "Sanghyeon Park",
     "sub": "",
-    "meta": "Editorial Board Member · Researcher · Metanomia",
+    "meta": "Editorial Board &#183; Researcher · Metanomia",
     "url": "/people/sanghyeon-park"
   },
   {
@@ -214,14 +262,6 @@
     "sub": "",
     "meta": "English Translator · Metanomia",
     "url": "/people/sangjun-han"
-  },
-  {
-    "lang": "en",
-    "type": "People",
-    "title": "Seongjun Noh",
-    "sub": "",
-    "meta": "Member · Metanomia",
-    "url": "/people/seongjun-noh"
   },
   {
     "lang": "en",
@@ -258,6 +298,14 @@
   {
     "lang": "en",
     "type": "People",
+    "title": "Simin Kim",
+    "sub": "",
+    "meta": "Member · Metanomia",
+    "url": "/people/simin-kim"
+  },
+  {
+    "lang": "en",
+    "type": "People",
     "title": "Siwoo Park",
     "sub": "",
     "meta": "Member · Metanomia",
@@ -284,14 +332,30 @@
     "type": "People",
     "title": "Sunghoon Jin",
     "sub": "",
-    "meta": "Editorial Board Member · Researcher · Metanomia",
+    "meta": "Editorial Board &#183; Researcher · Metanomia",
     "url": "/people/sunghoon-jin"
   },
   {
     "lang": "en",
     "type": "People",
+    "title": "Sungjun No",
+    "sub": "",
+    "meta": "Member · Metanomia",
+    "url": "/people/seongjun-noh"
+  },
+  {
+    "lang": "en",
+    "type": "People",
+    "title": "Sunwoo Hoon",
+    "sub": "",
+    "meta": "Member · Metanomia",
+    "url": "/people/sunwoo-hoon"
+  },
+  {
+    "lang": "en",
+    "type": "People",
     "title": "Taemin Oh",
-    "sub": "Taemin Oh · Research Lead",
+    "sub": "",
     "meta": "Research Lead · Metanomia",
     "url": "/people/taemin-oh"
   },
@@ -314,7 +378,7 @@
   {
     "lang": "en",
     "type": "People",
-    "title": "Yujeong Kim",
+    "title": "Yoojung Kim",
     "sub": "",
     "meta": "Member · Metanomia",
     "url": "/people/yujeong-kim"
@@ -329,22 +393,6 @@
   },
   {
     "lang": "en",
-    "type": "Paper",
-    "title": "Structural Power in the Crypto Era and the Exhaustion of Hegemony",
-    "sub": "Revisiting Susan Strange's Theory of Structural Power through Raymond Aron",
-    "meta": "Taemin Oh · Conference Paper · October 2026 · Korean",
-    "url": "/papers/structural-power-and-the-exhaustion-of-hegemony"
-  },
-  {
-    "lang": "en",
-    "type": "Report",
-    "title": "The P2P Payment Ideal and the Reality of Crypto Cards",
-    "sub": "The Information Gap in Border-Based Tax Systems Revealed by Crypto Cards",
-    "meta": "Mingu Park · September 2026",
-    "url": "/articles/p2p-payments-and-crypto-cards"
-  },
-  {
-    "lang": "en",
     "type": "Report",
     "title": "Bitcoin Self-Custody Guide",
     "sub": "Self-Custody Guidelines Drawn from Incidents and Best Practices",
@@ -354,18 +402,18 @@
   {
     "lang": "en",
     "type": "Report",
-    "title": "Crypto Prediction Markets: The Wisdom of the Crowd or a Hunting Ground for the Few?",
-    "sub": "The paradox of price accuracy and concentrated profits in blockchain prediction markets.",
-    "meta": "Seyeon Jo · August 2026",
-    "url": "/articles/crypto-prediction-markets"
-  },
-  {
-    "lang": "en",
-    "type": "Report",
     "title": "Can Bitcoin Survive the Age of Quantum Computing?",
     "sub": "The Quantum Threat and the Evolution of Bitcoin Security",
     "meta": "Yonkyung Kim, Hyemin Son · May 2026",
     "url": "/articles/bitcoin-quantum-computing"
+  },
+  {
+    "lang": "en",
+    "type": "Report",
+    "title": "Crypto Prediction Markets: The Wisdom of the Crowd or a Hunting Ground for the Few?",
+    "sub": "",
+    "meta": "Seyeon Jo · August 2026",
+    "url": "/articles/crypto-prediction-markets"
   },
   {
     "lang": "en",
@@ -398,6 +446,14 @@
     "sub": "The Race to Build Payment Infrastructure for the Machine Economy: x402 and Its Rivals",
     "meta": "Jeehwan Lee, Hyemin Son · May 2026",
     "url": "/articles/age-of-machine-payments"
+  },
+  {
+    "lang": "en",
+    "type": "Report",
+    "title": "The P2P Payment Ideal and the Reality of Crypto Cards",
+    "sub": "The Information Gap in Border-Based Tax Systems Revealed by Crypto Cards",
+    "meta": "Mingu Park · September 2026",
+    "url": "/articles/p2p-payments-and-crypto-cards"
   },
   {
     "lang": "en",
@@ -473,11 +529,11 @@
   },
   {
     "lang": "ko",
-    "type": "논문",
-    "title": "크립토 시대의 구조적 권력과 패권의 소진",
-    "sub": "레이몽 아롱의 시각에서 본 수잔 스트레인지 구조적 권력론의 재검토",
-    "meta": "오태민 · 학술대회 논문 · 2026년 10월",
-    "url": "/ko/papers/structural-power-and-the-exhaustion-of-hegemony"
+    "type": "보고서",
+    "title": "2026년, 이더리움은 어디로 가고 있는가",
+    "sub": "월드컴퓨터를 둘러싼 압력과 세 가지 응답. 이더리움의 성공이 불러온 압력들과, 공동체가 내놓은 응답을 살펴봅니다.",
+    "meta": "유주아 · 2026년 7월",
+    "url": "/ko/articles/where-is-ethereum-going"
   },
   {
     "lang": "ko",
@@ -486,30 +542,6 @@
     "sub": "크립토 카드가 드러낸 국경 기반 과세 체계의 정보 단절",
     "meta": "박민구 · 2026년 9월",
     "url": "/ko/articles/p2p-payments-and-crypto-cards"
-  },
-  {
-    "lang": "ko",
-    "type": "보고서",
-    "title": "비트코인 셀프 커스터디 가이드",
-    "sub": "사고 사례와 모범 사례에서 도출한 셀프 커스터디 지침",
-    "meta": "이지환 · 2026년 9월",
-    "url": "/ko/articles/bitcoin-self-custody-guide"
-  },
-  {
-    "lang": "ko",
-    "type": "보고서",
-    "title": "크립토 예측시장: 모두의 지혜인가, 소수의 사냥터인가",
-    "sub": "예측시장의 가격 정확성과 수익 집중의 역설",
-    "meta": "조세연 · 2026년 8월",
-    "url": "/ko/articles/crypto-prediction-markets"
-  },
-  {
-    "lang": "ko",
-    "type": "보고서",
-    "title": "2026년, 이더리움은 어디로 가고 있는가",
-    "sub": "월드컴퓨터를 둘러싼 압력과 세 가지 응답. 이더리움의 성공이 불러온 압력들과, 공동체가 내놓은 응답을 살펴봅니다.",
-    "meta": "유주아 · 2026년 7월",
-    "url": "/ko/articles/where-is-ethereum-going"
   },
   {
     "lang": "ko",
@@ -538,6 +570,14 @@
   {
     "lang": "ko",
     "type": "보고서",
+    "title": "비트코인 셀프 커스터디 가이드",
+    "sub": "사고 사례와 모범 사례에서 도출한 셀프 커스터디 지침",
+    "meta": "이지환 · 2026년 9월",
+    "url": "/ko/articles/bitcoin-self-custody-guide"
+  },
+  {
+    "lang": "ko",
+    "type": "보고서",
     "title": "비트코인은 양자컴퓨팅 시대에도살아남을 수 있는가",
     "sub": "양자 위협과 비트코인 보안의 진화",
     "meta": "김연경, 손혜민 · 2026년 5월",
@@ -562,6 +602,14 @@
   {
     "lang": "ko",
     "type": "보고서",
+    "title": "크립토 예측시장: 모두의 지혜인가, 소수의 사냥터인가",
+    "sub": "",
+    "meta": "조세연 · 2026년 8월",
+    "url": "/ko/articles/crypto-prediction-markets"
+  },
+  {
+    "lang": "ko",
+    "type": "보고서",
     "title": "토큰화, 강남 아파트 소유하기",
     "sub": "부동산 소유로 가는 새로운 길",
     "meta": "박수훈 · 2026년 4월",
@@ -578,6 +626,30 @@
   {
     "lang": "ko",
     "type": "사람",
+    "title": "권준석",
+    "sub": "",
+    "meta": "회원 · 메타노미아",
+    "url": "/ko/people/junseok-kwon"
+  },
+  {
+    "lang": "ko",
+    "type": "사람",
+    "title": "권형섭",
+    "sub": "",
+    "meta": "회원 · 메타노미아",
+    "url": "/ko/people/dk-kwon"
+  },
+  {
+    "lang": "ko",
+    "type": "사람",
+    "title": "김도균",
+    "sub": "",
+    "meta": "회원 · 메타노미아",
+    "url": "/ko/people/do-gyun-kim"
+  },
+  {
+    "lang": "ko",
+    "type": "사람",
     "title": "김상환",
     "sub": "",
     "meta": "회원 · 메타노미아",
@@ -590,6 +662,14 @@
     "sub": "",
     "meta": "회원 · 메타노미아",
     "url": "/ko/people/serin-kim"
+  },
+  {
+    "lang": "ko",
+    "type": "사람",
+    "title": "김시민",
+    "sub": "",
+    "meta": "회원 · 메타노미아",
+    "url": "/ko/people/simin-kim"
   },
   {
     "lang": "ko",
@@ -652,7 +732,7 @@
     "type": "사람",
     "title": "박상현",
     "sub": "",
-    "meta": "편집위원 · 연구원 · 메타노미아",
+    "meta": "편집위원 &#183; 연구원 · 메타노미아",
     "url": "/ko/people/sanghyeon-park"
   },
   {
@@ -698,9 +778,17 @@
   {
     "lang": "ko",
     "type": "사람",
+    "title": "선우훈",
+    "sub": "",
+    "meta": "회원 · 메타노미아",
+    "url": "/ko/people/sunwoo-hoon"
+  },
+  {
+    "lang": "ko",
+    "type": "사람",
     "title": "손혜민",
     "sub": "",
-    "meta": "총괄 매니저 · 편집위원 · 연구원 · 메타노미아",
+    "meta": "총괄 매니저 &#183; 편집위원 &#183; 연구원 · 메타노미아",
     "url": "/ko/people/hyemin-son"
   },
   {
@@ -734,6 +822,14 @@
     "sub": "",
     "meta": "회원 · 메타노미아",
     "url": "/ko/people/jungeun-lee"
+  },
+  {
+    "lang": "ko",
+    "type": "사람",
+    "title": "이종범",
+    "sub": "",
+    "meta": "회원 · 메타노미아",
+    "url": "/ko/people/lee-jong-beom"
   },
   {
     "lang": "ko",
@@ -778,9 +874,17 @@
   {
     "lang": "ko",
     "type": "사람",
+    "title": "조준호",
+    "sub": "",
+    "meta": "회원 · 메타노미아",
+    "url": "/ko/people/june-ho-cho"
+  },
+  {
+    "lang": "ko",
+    "type": "사람",
     "title": "진성훈",
     "sub": "",
-    "meta": "편집위원 · 연구원 · 메타노미아",
+    "meta": "편집위원 &#183; 연구원 · 메타노미아",
     "url": "/ko/people/sunghoon-jin"
   },
   {
@@ -790,6 +894,14 @@
     "sub": "",
     "meta": "회원 · 메타노미아",
     "url": "/ko/people/seungju-jin"
+  },
+  {
+    "lang": "ko",
+    "type": "사람",
+    "title": "최덕현",
+    "sub": "",
+    "meta": "회원 · 메타노미아",
+    "url": "/ko/people/choi-deok-hyun"
   },
   {
     "lang": "ko",
@@ -874,8 +986,8 @@
   {
     "lang": "ko",
     "type": "페이지",
-    "title": "보고서",
-    "sub": "메타노미아가 발행한 모든 보고서를 확인하세요.",
+    "title": "연구·간행물",
+    "sub": "메타노미아의 보고서 시리즈와 학술지 게재논문, 학술대회 논문을 확인하세요.",
     "meta": "",
     "url": "/ko/publications"
   },
