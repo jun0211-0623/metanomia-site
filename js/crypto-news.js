@@ -166,7 +166,11 @@
   }
 
   function paginationEdge(label, page, className, disabled) {
-    if (!disabled) return paginationLink(label, page, className, false);
+    if (!disabled) {
+      var link = paginationLink(label, page, className, false);
+      link.setAttribute('aria-label', label.replace(/[←→]/g, '').trim());
+      return link;
+    }
     var edge = document.createElement('span');
     edge.className = 'crypto-news-list-pagination__link ' + className + ' is-disabled';
     edge.setAttribute('aria-disabled', 'true');
