@@ -18,7 +18,7 @@ class NewsListPaginationTests(unittest.TestCase):
             self.assertIn("data-crypto-news-pagination", source)
             self.assertIn(f'aria-label="{label}"', source)
             self.assertIn('/style.css?v=20261012-1', source)
-            self.assertIn('/js/crypto-news.js?v=20261012-1', source)
+            self.assertIn('/js/crypto-news.js?v=20261012-2', source)
 
     def test_client_list_uses_twenty_items_and_page_query_navigation(self) -> None:
         source = (ROOT / "js/crypto-news.js").read_text(encoding="utf-8")
