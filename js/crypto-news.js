@@ -3,6 +3,7 @@
   'use strict';
 
   var listRoot = document.querySelector('[data-crypto-news-list]');
+  var listPaginationRoot = document.querySelector('[data-crypto-news-pagination]');
   var detailRoot = document.querySelector('[data-crypto-news-detail]');
   if (!listRoot && !detailRoot) return;
 
@@ -20,6 +21,9 @@
     failedTitle: '뉴스를 불러오지 못했습니다.',
     failedBody: '잠시 후 다시 시도해 주세요.',
     noSources: '출처 정보 준비 중',
+    previousPage: '이전',
+    nextPage: '다음',
+    pageLabel: function (n) { return n + '페이지로 이동'; },
     previousNews: '이전 뉴스',
     nextNews: '다음 뉴스'
   } : {
@@ -34,6 +38,9 @@
     failedTitle: 'The news could not be loaded.',
     failedBody: 'Please try again in a moment.',
     noSources: 'Sources to follow',
+    previousPage: 'Previous',
+    nextPage: 'Next',
+    pageLabel: function (n) { return 'Go to page ' + n; },
     previousNews: 'Previous News',
     nextNews: 'Next News'
   };
@@ -42,6 +49,8 @@
     'July', 'August', 'September', 'October', 'November', 'December'];
 
   var manifestUrl = COPY.manifest;
+  var PAGE_SIZE = 20;
+  var listItems = [];
 
   function text(value) {
     return typeof value === 'string' ? value.trim() : '';
@@ -106,7 +115,97 @@
     });
   }
 
-  function renderList(items) {
+  function requestedPage() {
+    var value = new URLSearchParams(window.location.search).get('page');
+    return /^\d+$/.test(value || '') && Number(value) > 0 ? Number(value) : 1;
+  }
+
+  function listPageUrl(page) {
+    var url = new URL(window.location.href);
+    if (page > 1) url.searchParams.set('page', String(page));
+    else url.searchParams.delete('page');
+    url.hash = '';
+    return url.pathname + url.search;
+  }
+
+  function updateListLanguageLinks(page) {
+    var counterpart = isKo ? '/crypto-news' : '/ko/crypto-news';
+    var href = counterpart + (page > 1 ? '?page=' + page : '');
+    document.querySelectorAll('.nav__lang, .nav__drawer-link[href="/crypto-news"], .nav__drawer-link[href="/ko/crypto-news"]')
+      .forEach(function (link) {
+        link.href = href;
+      });
+  }
+
+  function paginationPages(currentPage, totalPages) {
+    if (totalPages <= 7) {
+      return Array.from({ length: totalPages }, function (_, index) { return index + 1; });
+    }
+    var pages = [1, totalPages];
+    for (var page = currentPage - 1; page <= currentPage + 1; page += 1) {
+      if (page > 1 && page < totalPages) pages.push(page);
+    }
+    pages.sort(function (a, b) { return a - b; });
+    var tokens = [];
+    pages.forEach(function (page, index) {
+      if (index && page - pages[index - 1] > 1) tokens.push('ellipsis-' + page);
+      tokens.push(page);
+    });
+    return tokens;
+  }
+
+  function paginationLink(label, page, className, current) {
+    var link = document.createElement('a');
+    link.className = 'crypto-news-list-pagination__link ' + className;
+    link.href = listPageUrl(page);
+    link.dataset.page = String(page);
+    link.textContent = label;
+    if (current) link.setAttribute('aria-current', 'page');
+    else link.setAttribute('aria-label', COPY.pageLabel(page));
+    return link;
+  }
+
+  function paginationEdge(label, page, className, disabled) {
+    if (!disabled) return paginationLink(label, page, className, false);
+    var edge = document.createElement('span');
+    edge.className = 'crypto-news-list-pagination__link ' + className + ' is-disabled';
+    edge.setAttribute('aria-disabled', 'true');
+    edge.textContent = label;
+    return edge;
+  }
+
+  function renderListPagination(totalItems, page) {
+    if (!listPaginationRoot) return;
+    var totalPages = Math.ceil(totalItems / PAGE_SIZE);
+    listPaginationRoot.replaceChildren();
+    if (totalPages <= 1) {
+      listPaginationRoot.hidden = true;
+      return;
+    }
+
+    var pages = document.createElement('div');
+    pages.className = 'crypto-news-list-pagination__pages';
+    paginationPages(page, totalPages).forEach(function (token) {
+      if (typeof token === 'string') {
+        var ellipsis = document.createElement('span');
+        ellipsis.className = 'crypto-news-list-pagination__ellipsis';
+        ellipsis.setAttribute('aria-hidden', 'true');
+        ellipsis.textContent = '…';
+        pages.appendChild(ellipsis);
+        return;
+      }
+      pages.appendChild(paginationLink(String(token), token, 'crypto-news-list-pagination__link--number', token === page));
+    });
+
+    listPaginationRoot.append(
+      paginationEdge('← ' + COPY.previousPage, page - 1, 'crypto-news-list-pagination__link--previous', page === 1),
+      pages,
+      paginationEdge(COPY.nextPage + ' →', page + 1, 'crypto-news-list-pagination__link--next', page === totalPages)
+    );
+    listPaginationRoot.hidden = false;
+  }
+
+  function renderList(items, page) {
     var count = document.querySelector('[data-crypto-news-count]');
     if (count) count.textContent = COPY.count(items.length);
     if (!items.length) {
@@ -114,8 +213,11 @@
       return;
     }
 
+    var totalPages = Math.max(1, Math.ceil(items.length / PAGE_SIZE));
+    var currentPage = Math.min(Math.max(page, 1), totalPages);
+    var start = (currentPage - 1) * PAGE_SIZE;
     var fragment = document.createDocumentFragment();
-    items.forEach(function (item) {
+    items.slice(start, start + PAGE_SIZE).forEach(function (item) {
       var link = document.createElement('a');
       link.className = 'crypto-news-card';
       link.href = detailUrl(item);
@@ -143,6 +245,20 @@
       fragment.appendChild(link);
     });
     listRoot.replaceChildren(fragment);
+    renderListPagination(items.length, currentPage);
+    updateListLanguageLinks(currentPage);
+  }
+
+  function showListPage(page, updateHistory) {
+    if (!listItems.length) return;
+    var totalPages = Math.ceil(listItems.length / PAGE_SIZE);
+    var currentPage = Math.min(Math.max(page, 1), totalPages);
+    if (updateHistory) window.history.pushState({ page: currentPage }, '', listPageUrl(currentPage));
+    renderList(listItems, currentPage);
+    if (updateHistory) {
+      var heading = document.getElementById('latestNews');
+      if (heading) heading.scrollIntoView({ block: 'start' });
+    }
   }
 
   function appendParagraphs(root, value) {
@@ -275,11 +391,26 @@
   loadManifest()
     .then(function (data) {
       var items = validItems(data);
-      if (listRoot) renderList(items);
+      if (listRoot) {
+        listItems = items;
+        showListPage(requestedPage(), false);
+      }
       if (detailRoot) renderDetail(items);
     })
     .catch(function () {
       var root = listRoot || detailRoot;
       emptyState(root, COPY.failedTitle, COPY.failedBody);
     });
+
+  if (listPaginationRoot) {
+    listPaginationRoot.addEventListener('click', function (event) {
+      var link = event.target.closest('a[data-page]');
+      if (!link || event.defaultPrevented || event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
+      event.preventDefault();
+      showListPage(Number(link.dataset.page), true);
+    });
+    window.addEventListener('popstate', function () {
+      showListPage(requestedPage(), false);
+    });
+  }
 })();
