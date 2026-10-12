@@ -1,7 +1,65 @@
 {
   "schema_version": "1.0",
-  "generated_at_kst": "2026-10-09T09:55:07+09:00",
+  "generated_at_kst": "2026-10-12T09:00:41+09:00",
   "items": [
+    {
+      "id": "crypto-news-efa0210cdc02aaad",
+      "slug": "2026-10-12-crypto-news-efa0210cdc",
+      "date_kst": "2026-10-12",
+      "title": "XRP 원장, XRP 무단 생성 가능했던 취약점 공개…수정안 투표 없이 긴급 패치",
+      "content": "XRP 원장(XRP Ledger·XRPL) 개발진이 10월 9일 취약점 2건의 수정 내역을 공개했다. 핵심은 별도 시험 환경에서 XRP를 비정상적으로 생성해 사용할 수 있음을 확인한 결제 처리 오류다. 개발진은 이 오류가 2015년부터 존재한 것으로 추정했으며, 공개 네트워크에서 악용된 증거는 발견하지 못했다고 밝혔다.\n오류는 여러 주문의 금액을 더할 때 계산 한도를 넘으면 합계가 작은 숫자로 바뀌는 문제였다. 이를 악용하면 구매자 계정에서 차감하는 XRP보다 받는 계정들에 더 많은 XRP를 지급할 수 있었다. 개발진은 시험 서버에서 이 현상을 재현했으며, 신규 XRP 생성을 막는 안전장치도 같은 계산 오류로 이를 잡아내지 못했다고 설명했다.\n수정은 9월 25일 배포된 xrpld 3.4.1에 반영됐다. 통상 거래 처리 규칙 변경에는 신뢰 검증인의 80%를 넘는 지지가 2주간 유지되는 수정안(amendment) 절차가 필요하다. 그러나 이번 결제 오류의 수정은 서버 업그레이드 즉시 적용됐다. 보고서는 수정안 제도 도입 이후 거래 처리 변경을 이 방식으로 의도적으로 적용한 첫 사례라고 설명했다. XRPL 재단·리플엑스·검증인 구성원들은 수정 코드를 공개한 채 투표를 기다릴 경우의 악용 위험이 긴급 적용 중 서버들의 판단이 달라져 합의가 중단될 위험보다 크다고 봤다. 배포 당일 기본 신뢰 검증인 목록(UNL)에 포함된 검증인의 80% 넘게 업그레이드했다.\n한편, 함께 공개된 Batch 거래 검증 오류는 발견 당시 메인넷에서 활성화되지 않은 기능의 결함으로, 메인넷 계정이나 자금에는 영향을 주지 않았다. 이 수정은 정상 수정안 절차를 거쳐 10월 9일 활성화됐다. 보고서는 일반적인 규칙 변경 절차는 유지된다고 밝혔으며, 향후 유사 사례에 적용할 별도의 상시 예외 승인 절차는 제시하지 않았다.",
+      "metanomia_thought": "이번 사건은 블록체인의 신뢰가 코드의 안전성과 검증인들의 위기 대응 능력에 함께 달려 있음을 보여줍니다. XRPL은 수정안 투표·대기 절차를 생략하고 검증인들의 빠른 업그레이드로 무단 생성 취약점의 긴급 패치를 적용했습니다. 탈중앙화된 합의를 위해 시간을 확보하는 절차와 신속한 위기 대응 사이에는 긴장이 있는데, 이번에는 정해진 절차의 일부를 양보해 대응 속도를 확보한 셈입니다.",
+      "sources": [
+        {
+          "title": "Vulnerability Disclosure Report for xrpld 3.4.1",
+          "url": "https://xrpl.org/blog/2026/vulnerabilitydisclosurereport-bug-20261009"
+        },
+        {
+          "title": "XRP Ledger patched decade-old bug that could create billions of dollars in XRP from nothing",
+          "url": "https://www.coindesk.com/tech/2026/10/10/xrp-ledger-patched-decade-old-bug-that-could-create-billions-of-dollars-in-xrp-from-nothing"
+        }
+      ]
+    },
+    {
+      "id": "crypto-news-e1552af9696c728f",
+      "slug": "2026-10-12-crypto-news-e1552af969",
+      "date_kst": "2026-10-12",
+      "title": "태국 SEC, 비트코인·이더리움 ETF 규정 확정…10월 16일 시행",
+      "content": "태국 증권거래위원회(SEC)가 10월 8일 암호자산 상장지수펀드(ETF)의 설립·운용 등에 관한 고시 11건을 발표했다. 규정은 10월 16일부터 시행되며, 초기 투자 대상은 비트코인과 이더리움이다. \nETF는 한 암호자산의 가격을 따라가는 패시브 펀드로 운용한다. 회계연도 평균으로 해당 암호자산의 가격 변동에 노출되는 순투자 비중을 순자산가치(NAV)의 80% 이상으로 유지해야 한다. 태국 내 암호자산 ETF는 태국증권거래소(SET)에서만 상장·거래된다. 투자자는 거래 전에 상품의 특성과 위험을 이해했음을 확인해야 하며, 증권사는 ETF 매수 자금을 위한 신용융자를 제공할 수 없다. 암호자산 보관은 태국 SEC의 감독을 받는 인가된 디지털자산 수탁업체가 맡아야 한다. \n자산운용사는 디지털자산 운용 업무를 인가받은 디지털자산 펀드운용사에만 위탁할 수 있다. 수탁업체 등 디지털자산 사업자는 재무·인력·운영체계 요건을 충족하면 암호자산 ETF의 펀드 감독인(mutual fund supervisor)으로 등록을 신청할 수 있다. 펀드 감독인이 별도로 재수탁업체를 두더라도, 암호자산 보관은 인가된 수탁업체가 수행해야 한다.\n기존에 해외 암호자산 ETF에 투자할 수 있었던 뮤추얼펀드와 프라이빗펀드도 기존 투자 한도 안에서 태국 ETF에 투자할 수 있게 된다. 다만 초기 단계에는 해외 암호자산 ETF를 기초로 한 예탁증서(DR) 등 대체상품을 허용하지 않는다. 증권사가 기관투자자·초고액자산가 이외 고객의 해외 암호자산 ETF 투자를 중개하는 것도 허용되지 않는다.\n10월 16일은 규정 시행일이며, 이번 발표문에는 첫 ETF의 상장 시점과 참여 자산운용사가 제시되지 않았다.",
+      "metanomia_thought": "태국은 암호자산 투자 수요를 자국의 운용사·거래소·수탁업체가 참여하는 금융시장으로 연결하고 있습니다. 한국도 현물 ETF의 국내 상장 경로와 운용·보관 기준을 마련하면, 해당 상품으로 유입되는 투자 규모와 자금 흐름을 국내 감독체계에서 파악하기 쉬워질 수 있습니다. 국내 ETF를 허용하는 일은 금융회사에 새로운 사업 기회를 열면서, 투자 수요를 공시와 감독이 가능한 시장으로 연결하는 선택입니다.",
+      "sources": [
+        {
+          "title": "SEC issues regulations for crypto ETFs in Thailand to broaden investment opportunities under appropriate regulatory framework (No. 216/2026)",
+          "url": "https://www.sec.or.th/EN/Pages/News_Detail.aspx?SECID=13411"
+        },
+        {
+          "title": "Thailand SEC issues bitcoin and ether ETF rules set to take effect Oct. 16",
+          "url": "https://www.theblock.co/news/regulation/2026-10-09-thailand-sec-issues-bitcoin-and-ether-etf-rules-set-to-take-effect-oct-16-418132"
+        }
+      ]
+    },
+    {
+      "id": "crypto-news-4d7abcd4eb6e396b",
+      "slug": "2026-10-12-crypto-news-4d7abcd4eb",
+      "date_kst": "2026-10-12",
+      "title": "미 CFTC, 스포츠·정치 사건 계약 ‘스와프’ 명시 추진…스포츠북 베팅·카지노 게임은 제외",
+      "content": "미국 상품선물거래위원회(CFTC)가 현지시간 10월 9일 사건 계약(event contract)을 스와프(swap) 정의에 명시적으로 포함하는 규칙 제안안을 공개했다. 스포츠·정치·문화·날씨 관련 사건을 기초로 하는 계약 등이 대상이다.\nCFTC는 이런 계약이 업계에서 통상 스와프로 알려진 금융상품이며, 이번 제안은 분류상의 불확실성을 해소하려는 것이라고 설명했다. 마이클 셀리그(Michael Selig) 위원장은 사건 계약이 상품거래법(Commodity Exchange Act·CEA)에 따른 상품 파생상품으로 CFTC의 배타적 관할에 속한다고 말했다. 의견수렴 기간은 제안안의 연방관보 게재일부터 30일이다.\n같은 날 CFTC는 스포츠북에서 거는 베팅과 카지노 게임 등 카지노형 도박상품이 스와프에 해당하지 않는다는 기존 입장을 규칙으로 명시한 잠정 최종규칙(interim final rule)도 발표했다. 셀리그 위원장은 카지노형 도박상품은 파생상품이 아니며, 이번 규칙은 CFTC 규제 범위의 한계를 명확히 하는 조치라고 설명했다. 이 규칙은 연방관보 게재일부터 즉시 효력이 생기며, 게재 후 30일간 의견을 받는다.\n다만 이번 발표로 주정부 도박법과의 관할권 다툼이 해소된 것은 아니다. 칼시(Kalshi)와 폴리마켓(Polymarket) 등 예측시장의 스포츠 사건 계약에 주정부 도박법을 적용할 수 있는지를 놓고 소송이 이어지고 있다. 코인데스크는 연방 항소심 판단 가운데 한 건은 CFTC의 입장에, 두 건은 주정부의 입장에 유리하게 나뉘었다고 전했다.\n사건 계약을 스와프 정의에 명시하는 안은 아직 제안 단계이며, 이번 발표문에는 최종 채택 여부와 시행 시점이 제시되지 않았다.",
+      "metanomia_thought": "예측시장은 미래의 불확실성에 가격을 붙여 정보를 모으고 위험을 거래하는 금융시장으로 발전할 수 있습니다. CFTC의 이번 제안은 이런 수요를 파생상품 규제 안으로 끌어들여 새로운 상품과 사업이 성장할 기반을 마련하려는 움직임으로 읽힙니다. 한국도 온체인 금융을 제도권에서 실험할 길을 넓힌다면, 국내 자산과 사건을 둘러싼 가격 형성·결제·거래 수익에 우리 금융회사가 참여할 기회를 키울 수 있습니다.",
+      "sources": [
+        {
+          "title": "CFTC Seeks Public Comment on Notice of Proposed Rulemaking Concerning the Inclusion of Certain Event Contracts in the Definition of Swap (Release 9310-26)",
+          "url": "https://www.cftc.gov/PressRoom/PressReleases/9310-26"
+        },
+        {
+          "title": "CFTC Issues Interim Final Rule Excluding Certain Activity from the Definition of Swap (Release 9309-26)",
+          "url": "https://www.cftc.gov/PressRoom/PressReleases/9309-26"
+        },
+        {
+          "title": "U.S. CFTC moves to fold event contracts into swaps regulations as legal fight rages",
+          "url": "https://www.coindesk.com/policy/2026/10/09/u-s-cftc-moves-to-fold-event-contracts-into-swaps-regulations-as-legal-fight-rages"
+        }
+      ]
+    },
     {
       "id": "crypto-news-f88cc98222bf39d3",
       "slug": "2026-10-09-crypto-news-f88cc98222",

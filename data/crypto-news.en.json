@@ -1,7 +1,62 @@
 {
   "schema_version": "1.0",
-  "generated_at_kst": "2026-10-09T09:55:07+09:00",
+  "generated_at_kst": "2026-10-12T09:00:41+09:00",
   "items": [
+    {
+      "slug": "2026-10-12-crypto-news-efa0210cdc",
+      "date_kst": "2026-10-12",
+      "title": "XRP Ledger Discloses Flaw That Could Create Unauthorized XRP...Emergency Patch Deployed Without Amendment Vote",
+      "content": "XRP Ledger (XRPL) developers disclosed on October 9 fixes for two vulnerabilities. The central issue was a payment-processing error confirmed in a separate test environment that could allow XRP to be created improperly and then spent. Developers estimated that the flaw had existed since 2015 and said they found no evidence that it had been exploited on any public network.\nThe error occurred when amounts from multiple offers were added: if the calculation exceeded its limit, the total wrapped around to a small number. An attacker could exploit this to pay more XRP to recipient accounts than was deducted from the buyer's account. Developers reproduced the behavior on a test server and explained that the safeguard designed to prevent the creation of new XRP failed to catch it because it used the same faulty calculation.\nThe fix was included in xrpld 3.4.1, released on September 25. Changes to transaction-processing rules normally require support from more than 80% of trusted validators to be maintained for two weeks under the amendment process. This payment-error fix, however, took effect as soon as a server was upgraded. The report said this was the first time since the amendment system was introduced that a transaction-processing change had deliberately been deployed this way. Members of the XRPL Foundation, RippleX and the validator community judged that the risk of exploitation if the fix were disclosed while awaiting a vote outweighed the risk that differing server behavior during the emergency rollout could halt consensus. More than 80% of validators on the default Unique Node List (UNL) upgraded on the day of release.\nMeanwhile, the Batch transaction validation error disclosed at the same time affected a feature that was not active on Mainnet when it was discovered, so it did not affect Mainnet accounts or funds. That fix went through the normal amendment process and was activated on October 9. The report said the standard process for rules changes remains in place and did not present a standing exception-approval procedure for similar future cases.",
+      "metanomia_thought": "This incident shows that trust in a blockchain depends both on code safety and validators' ability to respond to crises. XRPL skipped the amendment vote and waiting period and applied an emergency patch for the unauthorized-minting vulnerability through rapid validator upgrades. There is tension between procedures that give decentralized consensus time and the need for rapid crisis response; in this case, part of the established process was set aside to gain speed.",
+      "sources": [
+        {
+          "title": "Vulnerability Disclosure Report for xrpld 3.4.1",
+          "url": "https://xrpl.org/blog/2026/vulnerabilitydisclosurereport-bug-20261009"
+        },
+        {
+          "title": "XRP Ledger patched decade-old bug that could create billions of dollars in XRP from nothing",
+          "url": "https://www.coindesk.com/tech/2026/10/10/xrp-ledger-patched-decade-old-bug-that-could-create-billions-of-dollars-in-xrp-from-nothing"
+        }
+      ]
+    },
+    {
+      "slug": "2026-10-12-crypto-news-e1552af969",
+      "date_kst": "2026-10-12",
+      "title": "Thailand's SEC Finalizes Bitcoin and Ether ETF Rules...Effective October 16",
+      "content": "Thailand's Securities and Exchange Commission (SEC) announced 11 notifications on October 8 governing the establishment and operation of crypto-asset exchange-traded funds (ETFs). The rules take effect on October 16, and the initial eligible assets are Bitcoin and Ether.\nAn ETF must be managed as a passive fund tracking the price of one crypto asset. Its average net exposure to that crypto asset over each accounting year must remain at least 80% of net asset value (NAV). Crypto-asset ETFs in Thailand may be listed and traded only on the Stock Exchange of Thailand (SET). Before trading, investors must confirm that they understand the product's features and risks, and securities companies may not provide margin loans to finance ETF purchases. Crypto assets must be held by a licensed digital-asset custodian supervised by Thailand's SEC.\nAsset managers may outsource digital-asset management only to licensed digital-asset fund managers. Digital-asset businesses such as custodians may apply to register as mutual fund supervisors for crypto-asset ETFs if they meet financial, staffing and operational-system requirements. Even if the mutual fund supervisor appoints a separate sub-custodian, the crypto assets must be held by a licensed custodian.\nMutual funds and private funds that were already allowed to invest in overseas crypto-asset ETFs will also be able to invest in Thai ETFs within their existing investment limits. At the initial stage, however, alternative products such as depositary receipts (DRs) referencing overseas crypto-asset ETFs will not be permitted. Securities companies also may not intermediate overseas crypto-asset ETF investments for clients other than institutional investors and ultra-high-net-worth investors.\nOctober 16 is the effective date of the rules; the announcement did not specify when the first ETF would be listed or which asset managers would participate.",
+      "metanomia_thought": "Thailand is channeling demand for crypto-asset investment into a financial market involving domestic asset managers, exchanges and custodians. If South Korea also establishes a domestic listing route and management and custody standards for spot ETFs, it may become easier to track the scale and flow of funds entering such products within the domestic supervisory framework. Allowing domestic ETFs would open new business opportunities for financial firms while directing investment demand into a market subject to disclosure and supervision.",
+      "sources": [
+        {
+          "title": "SEC issues regulations for crypto ETFs in Thailand to broaden investment opportunities under appropriate regulatory framework (No. 216/2026)",
+          "url": "https://www.sec.or.th/EN/Pages/News_Detail.aspx?SECID=13411"
+        },
+        {
+          "title": "Thailand SEC issues bitcoin and ether ETF rules set to take effect Oct. 16",
+          "url": "https://www.theblock.co/news/regulation/2026-10-09-thailand-sec-issues-bitcoin-and-ether-etf-rules-set-to-take-effect-oct-16-418132"
+        }
+      ]
+    },
+    {
+      "slug": "2026-10-12-crypto-news-4d7abcd4eb",
+      "date_kst": "2026-10-12",
+      "title": "U.S. CFTC Proposes Explicitly Treating Sports and Political Event Contracts as Swaps...Sportsbook Bets and Casino Games Excluded",
+      "content": "The U.S. Commodity Futures Trading Commission (CFTC) released a proposed rule on October 9 local time that would expressly include event contracts in the definition of a swap. It would cover contracts based on sports, political, cultural and weather-related events, among others.\nThe CFTC said these contracts are financial products commonly known in the industry as swaps and that the proposal is intended to resolve uncertainty over their classification. Chairman Michael Selig said event contracts are commodity derivatives under the Commodity Exchange Act (CEA) and fall within the CFTC's exclusive jurisdiction. The comment period will run for 30 days from publication of the proposal in the Federal Register.\nThe same day, the CFTC also announced an interim final rule codifying its existing position that casino-style gambling products, including bets placed through sportsbooks and casino games, are not swaps. Selig said casino-style gambling products are not derivatives and described the rule as a step to clarify the limits of the CFTC's regulatory remit. The rule takes effect immediately upon publication in the Federal Register, with comments accepted for 30 days after publication.\nThe announcements did not resolve the jurisdictional dispute with state gambling laws. Litigation continues over whether state gambling laws may be applied to sports event contracts offered by prediction markets such as Kalshi and Polymarket. CoinDesk reported that federal appellate rulings were divided, with one favoring the CFTC's position and two favoring the states.\nThe proposal to expressly include event contracts in the swap definition remains at the proposal stage, and the announcements did not specify whether it will be finally adopted or when it would take effect.",
+      "metanomia_thought": "Prediction markets can develop into financial markets that place prices on future uncertainty, aggregate information and trade risk. The CFTC's proposal can be read as an effort to bring this demand within derivatives regulation and create a foundation for new products and businesses to grow. If South Korea broadens the path for experimenting with on-chain finance within the regulated sector, it could expand opportunities for domestic financial companies to participate in price formation, settlement and trading revenue around domestic assets and events.",
+      "sources": [
+        {
+          "title": "CFTC Seeks Public Comment on Notice of Proposed Rulemaking Concerning the Inclusion of Certain Event Contracts in the Definition of Swap (Release 9310-26)",
+          "url": "https://www.cftc.gov/PressRoom/PressReleases/9310-26"
+        },
+        {
+          "title": "CFTC Issues Interim Final Rule Excluding Certain Activity from the Definition of Swap (Release 9309-26)",
+          "url": "https://www.cftc.gov/PressRoom/PressReleases/9309-26"
+        },
+        {
+          "title": "U.S. CFTC moves to fold event contracts into swaps regulations as legal fight rages",
+          "url": "https://www.coindesk.com/policy/2026/10/09/u-s-cftc-moves-to-fold-event-contracts-into-swaps-regulations-as-legal-fight-rages"
+        }
+      ]
+    },
     {
       "slug": "2026-10-09-crypto-news-f88cc98222",
       "date_kst": "2026-10-09",
