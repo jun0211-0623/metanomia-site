@@ -1,7 +1,49 @@
 {
   "schema_version": "1.0",
-  "generated_at_kst": "2026-10-12T09:00:41+09:00",
+  "generated_at_kst": "2026-10-13T08:59:22+09:00",
   "items": [
+    {
+      "slug": "2026-10-13-crypto-news-feeaf71950",
+      "date_kst": "2026-10-13",
+      "title": "FSB Reviews Cross-Border Vulnerabilities in Global Stablecoins...Crisis and Insolvency Arrangements Remain Untested",
+      "content": "The Financial Stability Board (FSB), an international body that monitors risks to the global financial system and coordinates regulatory and supervisory cooperation among national financial authorities, released a report on October 12 on cross-border vulnerabilities in global stablecoins and financial stability monitoring.\nAccording to the report, the stablecoin market was worth about $300 billion in mid-2026, nearly unchanged from a year earlier, and 99% by market value was pegged to the U.S. dollar. The FSB said global stablecoins and national regulatory frameworks remain untested under severe market stress and insolvency. Tokens trade around the clock, but redemption into cash and reserve-asset management are affected by financial-market operating hours and settlement procedures. If redemptions cannot keep pace with sales, the peg could come under pressure. It added that fire sales of reserve assets and withdrawals of bank deposits to fund redemptions could also transmit shocks to traditional financial markets.\nThe report also examined structures in which affiliates in several countries jointly issue the same stablecoin and hold reserves across jurisdictions. If holders can demand redemption from any affiliate, requests could become concentrated at an entity in one country. If that entity cannot meet redemptions with the reserves it holds, it may need to draw on reserves held by affiliates in other countries, but moving and using those assets across borders could face constraints during a crisis. If it is also difficult to determine where holders are located, it may be unclear which issuer bears the redemption obligation and what rights holders may assert. The FSB also noted that it could be difficult to determine which country's insolvency law applies.\nThe report is not legally binding and did not provide a timetable for individual tasks or specific implementation plans by country.",
+      "metanomia_thought": "Stablecoins have globalized the circulation of tokens, but redemption and regulation remain organized largely at the national level. Even when the same token moves across countries, redemption requests may concentrate in one place while reserves are held elsewhere, with different laws and supervisory systems between them. Trust in a global payment network depends not only on how quickly a token crosses borders, but also on whether redemption obligations can reach across those borders.",
+      "sources": [
+        {
+          "title": "Global Stablecoin Arrangements: Cross-border vulnerabilities and financial stability monitoring",
+          "url": "https://www.fsb.org/uploads/P121026-2.pdf"
+        },
+        {
+          "title": "Global financial watchdog calls for cross-border information sharing, planning for stablecoin crisis",
+          "url": "https://www.coindesk.com/policy/2026/10/12/global-financial-watchdog-calls-for-cross-border-information-sharing-planning-for-stablecoin-crisis"
+        }
+      ]
+    },
+    {
+      "slug": "2026-10-13-crypto-news-464090e9dd",
+      "date_kst": "2026-10-13",
+      "title": "Jeonbuk Bank Executes Banking Sector's First Bitcoin-Backed Corporate Loan...Pilot for Corporate Operating Funds",
+      "content": "Jeonbuk Bank has executed a corporate loan denominated in Korean won and secured by Bitcoin held by a corporate customer. Edaily reported on October 12 that it was the first such case in South Korea's banking sector. Maeil Business Newspaper said it was not the launch of a formal product, but a pilot case in which Bitcoin was used as collateral for a single existing corporate loan. Use of the proceeds was limited to the company's operating funds.\nAccording to Edaily, the pledged Bitcoin is managed by a specialized custody and management provider, and Jeonbuk Bank does not take ownership or direct control of the asset itself. If the borrower fails to repay, the structure calls for the Bitcoin to be converted into cash through enforcement procedures such as a court-ordered sale, rather than transferred directly to the bank, allowing the bank to recover the loan. Jeonbuk Bank described the transaction as a case that uses existing lending and collateral-management frameworks within the current legal and regulatory system.\nCustody was assigned to a virtual asset service provider whose registration has been accepted under South Korea's Act on Reporting and Using Specified Financial Transaction Information. Edaily reported that the bank established a collateral valuation framework incorporating prices from several overseas exchanges and measures of market volatility, and conducted its own stress tests for a sharp decline in Bitcoin's price. The report did not provide the specific testing conditions or results.\nThe amendment to the Civil Execution Rules concerning collateral recovery was promulgated on October 12 and will take effect on November 1. The amended rules specify procedures for the attachment and liquidation of claims for the transfer of virtual assets, meaning the right to demand the return of assets from a custodian or similar entity, as well as for the enforcement of security interests. The change refines enforcement procedures and is distinct from a rule newly authorizing banks to make crypto-backed loans.\nThe reports reviewed did not disclose specific contractual terms such as the loan amount, interest rate, loan-to-value ratio (LTV), additional-collateral requirements or the name of the custodian.",
+      "metanomia_thought": "The significance of this loan is that Bitcoin was used as collateral supporting the supply of Korean won credit by a domestic bank. The company raised operating funds without selling its Bitcoin, while the bank incorporated the asset's value into its lending decision. It remains a single pilot case, but the transaction marks a starting point by demonstrating that Bitcoin holdings can translate into corporate borrowing capacity within South Korea's traditional financial system.",
+      "sources": [
+        {
+          "title": "[단독]전북은행, 국내 은행권 최초 비트코인 연계 대출",
+          "url": "https://www1.edaily.co.kr/News/Read?mediaCodeNo=257&newsId=02384566645612264"
+        },
+        {
+          "title": "전북은행, 비트코인 담보 첫 대출",
+          "url": "https://www.mk.co.kr/news/economy/12173941"
+        },
+        {
+          "title": "민사집행규칙 일부개정규칙(대법원규칙 제3280호)",
+          "url": "https://law.go.kr/LSW/lsRvsDocListP.do?chrClsCd=010202&lsId=009325&lsRvsGubun=all"
+        },
+        {
+          "title": "South Korea just got its first traditional bank loans backed by bitcoin",
+          "url": "https://www.coindesk.com/business/2026/10/12/south-korea-just-got-its-first-traditional-bank-loans-backed-by-bitcoin"
+        }
+      ]
+    },
     {
       "slug": "2026-10-12-crypto-news-efa0210cdc",
       "date_kst": "2026-10-12",
