@@ -395,7 +395,7 @@
     "lang": "en",
     "type": "Report",
     "title": "Bitcoin Self-Custody Guide",
-    "sub": "Self-Custody Guidelines Drawn from Incidents and Best Practices",
+    "sub": "Self-Custody Guidelines Built From Real Incidents and Best Practices",
     "meta": "Jeehwan Lee · September 2026",
     "url": "/articles/bitcoin-self-custody-guide"
   },
@@ -410,7 +410,7 @@
   {
     "lang": "en",
     "type": "Report",
-    "title": "Crypto Prediction Markets: The Wisdom of the Crowd or a Hunting Ground for the Few?",
+    "title": "Crypto Prediction Markets: Collective Wisdom or a Hunting Ground for the Few?",
     "sub": "",
     "meta": "Seyeon Jo · August 2026",
     "url": "/articles/crypto-prediction-markets"
@@ -419,14 +419,14 @@
     "lang": "en",
     "type": "Report",
     "title": "How Resistance Money Is Chosen",
-    "sub": "Five criteria for adjusting the distance from power: which money becomes a means of resistance, for whom, and under what conditions.",
+    "sub": "",
     "meta": "Changjun Lee · July 2026",
     "url": "/articles/how-resistance-money-is-chosen"
   },
   {
     "lang": "en",
     "type": "Report",
-    "title": "Legibility, Exit, and Staying",
+    "title": "Legibility, Exit, and Retention",
     "sub": "The Evolution of DeFi Governance and the Formation of Viscosity",
     "meta": "Eunmi Kim · August 2026",
     "url": "/articles/legibility-exit-and-staying"
@@ -475,15 +475,15 @@
     "lang": "en",
     "type": "Report",
     "title": "Traceable Money",
-    "sub": "Blockchain analytics and the conditions for crypto institutionalization: how a public ledger reshapes privacy, compliance, and the path to mainstream adoption.",
+    "sub": "Blockchain Analytics and the Conditions for Crypto Institutionalization",
     "meta": "Sanghyeon Park · June 2026",
     "url": "/articles/traceable-money"
   },
   {
     "lang": "en",
     "type": "Report",
-    "title": "Where Is Ethereum Going in 2026?",
-    "sub": "Pressures on the world computer, and three responses: what a decade of success asked of Ethereum, and what its community answered.",
+    "title": "Where Is Ethereum Headed in 2026?",
+    "sub": "Pressures Surrounding the World Computer and Three Responses",
     "meta": "Zooa Yoo · July 2026",
     "url": "/articles/where-is-ethereum-going"
   },
