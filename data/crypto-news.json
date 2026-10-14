@@ -1,7 +1,51 @@
 {
   "schema_version": "1.0",
-  "generated_at_kst": "2026-10-13T08:59:22+09:00",
+  "generated_at_kst": "2026-10-14T10:26:46+09:00",
   "items": [
+    {
+      "id": "crypto-news-1baf9cf1fa8924b4",
+      "slug": "2026-10-14-crypto-news-1baf9cf1fa",
+      "date_kst": "2026-10-14",
+      "title": "레저, 크립토빌리스 판매 기기 속 무단 부품 분석…복구 문구 읽어 LTE로 전송",
+      "content": "하드웨어 지갑 업체 레저(Ledger)가 인도네시아·말레이시아·필리핀 공식 판매업체로 등록된 크립토빌리스(CryptoBilis) 구매자들의 자금 유출 사건과 관련해, 기기에 삽입된 무단 부품의 작동 방식을 10월 13일 공개했다. 레저는 10월 9일 조사 사실을 알렸고, 다음 날 피해 이용자 한 명의 기기에서 해당 부품을 확인했다.\n부품은 초기 설정 화면에 표시되는 24개 단어의 복구 문구를 읽어, 사전 설정된 eSIM으로 LTE 이동통신망에 전송한다. 보안칩과 운영체제, 거래 내용과 서명은 변경하지 않는다고 레저는 설명했다. 복구 문구를 확보한 공격자는 다른 기기에서 지갑을 복원해 원래 기기 없이도 자금을 옮길 수 있다.\n레저는 이를 물리적 공급망 공격으로 규정하고, 자사 내부 시스템이 침해된 정황은 없다고 밝혔다. 현재까지 확인한 자금 유출은 모두 크립토빌리스 판매 기기와 관련됐으며, 다른 판매처의 무단 부품 제보도 조사 중이다. 별도로 메디아마르크트자툰(MediaMarktSaturn)은 독일 고객의 부품 신고 이후 10월 13일 매장·온라인 판매를 중단했다. 해당 독일 사례에서는 자금 손실이 보고되지 않았다.\n레저는 크립토빌리스에서 산 미설정 기기는 사용하지 말고, 이미 사용했다면 새 기기에서 새 복구 문구를 생성해 자산을 옮기라고 안내했다. 기기가 어느 유통 단계에서 조작됐는지도 조사 중이다.",
+      "metanomia_thought": "자기보관은 자산 통제권을 이용자에게 옮기지만, 그 통제권을 지키는 기기는 제조사와 유통망을 거쳐 옵니다. 이번 공격은 보안칩을 바꾸지 않고도 복구 문구가 화면에 표시되는 순간을 노렸습니다. 하드웨어 지갑의 신뢰는 보안칩의 성능과 함께, 이용자가 받은 기기 전체가 조작되지 않았음을 확인하는 체계에도 달려 있습니다.",
+      "sources": [
+        {
+          "title": "Update from Ledger Donjon on the CryptoBilis investigation",
+          "url": "https://x.com/Ledger/status/2109896739985453358"
+        },
+        {
+          "title": "Ledger says 'spy' chip inside CryptoBilis Ledger devices transmitted wallet keys over mobile network",
+          "url": "https://www.coindesk.com/tech/2026/10/13/ledger-says-spy-chip-inside-cryptobilis-ledger-devices-transmitted-wallet-keys-over-mobile-network"
+        },
+        {
+          "title": "Ledger confirms hardware implant in CryptoBilis reseller units as MediaMarkt suspends sales in Europe",
+          "url": "https://www.theblock.co/news/business/2026-10-13-ledger-confirms-hardware-implant-cryptobilis-reseller-units-mediamarkt-suspends-sales-europe-418442"
+        }
+      ]
+    },
+    {
+      "id": "crypto-news-0732214143bbea76",
+      "slug": "2026-10-14-crypto-news-0732214143",
+      "date_kst": "2026-10-14",
+      "title": "쿠코인·MEXC 등 미신고 가상자산 사이트 27곳 국내 접속차단 결정…앱 이어 웹으로 확대",
+      "content": "금융위원회 금융정보분석원(FIU)은 10월 13일 쿠코인(KuCoin)·MEXC·페멕스(Phemex) 등 미신고 가상자산사업자의 인터넷 사이트 27곳에 대해 국내 접속차단 또는 이용해지가 결정됐다고 밝혔다. 방송미디어통신심의위원회가 FIU의 요청을 받아 10월 6~7일 두 차례 심의를 거친 결과다.\n앞서 구글·애플 앱마켓에서는 미신고 사업자 앱의 국내 신규 설치와 업데이트가 제한됐으며, 이번 결정으로 차단 범위가 웹사이트까지 확대됐다. FIU는 미신고 영업 자체가 특금법상 불법인 만큼, 수사 결과나 구체적인 이용자 피해 확인을 기다리지 않고 심의를 거쳐 접근을 차단하는 대응체계를 강화했다고 설명했다.\n해외 사업자도 국내 이용자를 대상으로 영업하면 같은 신고 의무가 적용된다. 국내 영업 여부는 한국어 홈페이지 제공, 한국인 대상 마케팅, 원화결제 지원 등을 종합적으로 고려해 판단한다. FIU는 차단 이후 주소를 바꿔 영업하는 대체 사이트도 지속 점검해 추가 심의를 요청할 계획이다.\n차단으로 기존 이용자의 자산 인출에 불편이 생길 경우에는 사업자의 협조 아래 디지털자산거래소 공동협의체(DAXA)를 통해 인출 방법과 절차를 안내·지원할 예정이다. 다만 이번 보도자료에는 사이트별 실제 차단 시점과 구체적인 인출 지원 절차가 제시되지 않았다.",
+      "metanomia_thought": "이번 조치는 국내 이용자를 대상으로 영업하는 미신고 가상자산사업자에 대한 접근 제한을 앱에서 웹으로 확대한 것입니다. 해외 거래소의 국내 사업 지속성에는 거래량과 상품 경쟁력뿐 아니라, 신고 요건을 충족해 이용자와의 접점을 유지할 수 있는지도 중요하다는 점을 보여줍니다. 이용자 보호 측면에서는 접근 차단과 함께 기존 고객의 인출 절차가 원활히 안내되는지도 살펴봐야 합니다. 앞으로 확인할 핵심은 실제 차단 시점과 구체적인 인출 지원 절차입니다.",
+      "sources": [
+        {
+          "title": "불법 가상자산 취급업자(특금법상 미신고 가상자산사업자) 인터넷 사이트 국내 접속이 차단됩니다. — 구글·애플 앱에 이어 인터넷 사이트도 국내 접속차단",
+          "url": "https://www.fsc.go.kr/no010101/87916"
+        },
+        {
+          "title": "쿠코인ㆍMEXC 등 미신고 코인 사이트 27곳 국내 접속 차단",
+          "url": "https://www.etoday.co.kr/news/view/2635026"
+        },
+        {
+          "title": "South Korea blocks 27 crypto exchanges, including Bitmart and Kucoin",
+          "url": "https://www.coindesk.com/policy/2026/10/13/south-korea-blocks-27-crypto-exchanges-including-bitmart-and-kucoin"
+        }
+      ]
+    },
     {
       "id": "crypto-news-feeaf71950177c0d",
       "slug": "2026-10-13-crypto-news-feeaf71950",

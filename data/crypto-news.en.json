@@ -1,7 +1,49 @@
 {
   "schema_version": "1.0",
-  "generated_at_kst": "2026-10-13T08:59:22+09:00",
+  "generated_at_kst": "2026-10-14T10:26:46+09:00",
   "items": [
+    {
+      "slug": "2026-10-14-crypto-news-1baf9cf1fa",
+      "date_kst": "2026-10-14",
+      "title": "Ledger Details Unauthorized Component in CryptoBilis-Sold Devices...Recovery Phrase Read and Transmitted Over LTE",
+      "content": "Hardware wallet maker Ledger disclosed on October 13 how an unauthorized component inserted into devices sold by CryptoBilis, an authorized reseller in Indonesia, Malaysia and the Philippines, operated in connection with incidents in which customers lost funds. Ledger said on October 9 that it was investigating and found the component the following day in a device belonging to one affected user.\nThe component reads the 24-word recovery phrase displayed during initial setup and transmits it over an LTE mobile network using a preconfigured eSIM. Ledger said it does not alter the secure element, operating system, transaction details or signatures. An attacker who obtains the recovery phrase can restore the wallet on another device and move funds without the original device.\nLedger described the incident as a physical supply-chain attack and said it had found no indication that its internal systems were compromised. All fund losses identified so far were linked to devices sold by CryptoBilis, while reports of unauthorized components from other sellers are also under investigation. Separately, MediaMarktSaturn halted in-store and online sales on October 13 after a German customer reported a component. No loss of funds was reported in the German case.\nLedger advised customers not to use uninitialized devices purchased from CryptoBilis. Those who have already used one should generate a new recovery phrase on a new device and move their assets. The company is also investigating at what point in the distribution chain the devices were altered.",
+      "metanomia_thought": "Self-custody transfers control of assets to users, but the devices that protect that control pass through manufacturers and distribution networks. This attack targeted the moment when the recovery phrase appeared on screen without altering the secure element. Trust in a hardware wallet therefore depends not only on the security of its secure element, but also on a system that can verify that the entire device received by the user has not been tampered with.",
+      "sources": [
+        {
+          "title": "Update from Ledger Donjon on the CryptoBilis investigation",
+          "url": "https://x.com/Ledger/status/2109896739985453358"
+        },
+        {
+          "title": "Ledger says 'spy' chip inside CryptoBilis Ledger devices transmitted wallet keys over mobile network",
+          "url": "https://www.coindesk.com/tech/2026/10/13/ledger-says-spy-chip-inside-cryptobilis-ledger-devices-transmitted-wallet-keys-over-mobile-network"
+        },
+        {
+          "title": "Ledger confirms hardware implant in CryptoBilis reseller units as MediaMarkt suspends sales in Europe",
+          "url": "https://www.theblock.co/news/business/2026-10-13-ledger-confirms-hardware-implant-cryptobilis-reseller-units-mediamarkt-suspends-sales-europe-418442"
+        }
+      ]
+    },
+    {
+      "slug": "2026-10-14-crypto-news-0732214143",
+      "date_kst": "2026-10-14",
+      "title": "South Korea Orders Domestic Blocking of 27 Unregistered Crypto Sites Including KuCoin and MEXC...Restrictions Expand From Apps to the Web",
+      "content": "South Korea's Financial Intelligence Unit (FIU), under the Financial Services Commission, said on October 13 that domestic access would be blocked or service terminated for 27 websites operated by unregistered virtual asset service providers, including KuCoin, MEXC and Phemex. The decision followed two rounds of review by the Korea Communications Standards Commission on October 6 and 7 at the FIU's request.\nGoogle's and Apple's app marketplaces had already restricted new domestic installations and updates of apps from unregistered operators. The latest decision extends the restrictions to websites. The FIU said operating without registration is itself illegal under South Korea's Act on Reporting and Using Specified Financial Transaction Information, and that it had strengthened a response system that blocks access after review without waiting for investigative results or confirmation of specific user harm.\nOverseas operators are subject to the same registration requirement if they conduct business targeting users in South Korea. Whether an operator is conducting domestic business is assessed based on factors including whether it provides a Korean-language website, markets to Korean users and supports payments in Korean won. The FIU plans to continue monitoring alternative sites that resume operations under changed addresses after blocking and to request additional reviews.\nIf blocking makes it difficult for existing users to withdraw assets, guidance and assistance on withdrawal methods and procedures will be provided through the Digital Asset eXchange Alliance (DAXA) with the operators' cooperation. However, the press release did not specify when each site would actually be blocked or provide detailed withdrawal-support procedures.",
+      "metanomia_thought": "This measure expands access restrictions on unregistered virtual asset service providers targeting users in South Korea from apps to the web. It shows that the continuity of an overseas exchange's business in South Korea depends not only on trading volume and product competitiveness, but also on whether it can meet registration requirements and maintain access to users. From an investor-protection perspective, it will also be important to see whether existing customers receive clear and workable withdrawal instructions alongside the access restrictions. The key points to confirm next are the actual timing of the blocks and the detailed withdrawal-support procedures.",
+      "sources": [
+        {
+          "title": "불법 가상자산 취급업자(특금법상 미신고 가상자산사업자) 인터넷 사이트 국내 접속이 차단됩니다. — 구글·애플 앱에 이어 인터넷 사이트도 국내 접속차단",
+          "url": "https://www.fsc.go.kr/no010101/87916"
+        },
+        {
+          "title": "쿠코인ㆍMEXC 등 미신고 코인 사이트 27곳 국내 접속 차단",
+          "url": "https://www.etoday.co.kr/news/view/2635026"
+        },
+        {
+          "title": "South Korea blocks 27 crypto exchanges, including Bitmart and Kucoin",
+          "url": "https://www.coindesk.com/policy/2026/10/13/south-korea-blocks-27-crypto-exchanges-including-bitmart-and-kucoin"
+        }
+      ]
+    },
     {
       "slug": "2026-10-13-crypto-news-feeaf71950",
       "date_kst": "2026-10-13",
