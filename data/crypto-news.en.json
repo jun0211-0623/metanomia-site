@@ -1,7 +1,70 @@
 {
   "schema_version": "1.0",
-  "generated_at_kst": "2026-10-14T10:26:46+09:00",
+  "generated_at_kst": "2026-10-15T09:46:14+09:00",
   "items": [
+    {
+      "slug": "2026-10-15-crypto-news-fbacc1f31a",
+      "date_kst": "2026-10-15",
+      "title": "BitMEX Operator Sued in UK for Return of 324.8 Bitcoin...Unlicensed Derivatives at Issue",
+      "content": "The operator of crypto derivatives exchange BitMEX, HDR Global Trading, has been sued in the UK High Court for the return of 324.8 bitcoin, The Guardian reported on October 14 UK time. The claimant, software engineer Lewis Barber, is seeking the return of bitcoin lost in derivatives trades between 2018 and 2022.\nBarber argues that because BitMEX offered derivatives without authorization from the UK Financial Conduct Authority (FCA), he is entitled under the Financial Services and Markets Act (FSMA) to recover the bitcoin he lost in those trades. He is also seeking damages for deceit, alleging that the company acted as though the trades could be conducted lawfully.\nThe FCA warned in March 2020 that BitMEX might be operating without authorization. As of the October 14 report, the claim documents had not yet been served on the company, and the court had not ruled on whether the restitution claim would be recognized or on its scope.",
+      "metanomia_thought": "This lawsuit asks whether an overseas exchange's lack of operating authorization can lead to restitution liability for transactions that have already taken place. It is notable because regulatory compliance may affect not only future operations but also the enforceability of past contracts and their settlement outcomes. The case remains at the claimant's allegation stage, and the court has not ruled on whether the restitution claim will be recognized or on its scope.",
+      "sources": [
+        {
+          "title": "Cryptocurrency exchange founded by Reform donor Ben Delo sued for £20m",
+          "url": "https://www.theguardian.com/politics/2026/oct/14/cryptocurrency-exchange-founded-by-reform-donor-ben-delo-sued-for-20m"
+        },
+        {
+          "title": "BitMEX Sued in UK for Return of $27M in Bitcoin Over Unlicensed Derivatives",
+          "url": "https://decrypt.co/380904/bitmex-sued-in-uk-for-return-of-27m-in-bitcoin-over-unlicensed-derivatives"
+        },
+        {
+          "title": "BitMex (FCA warning)",
+          "url": "https://www.fca.org.uk/news/warnings/bitmex"
+        }
+      ]
+    },
+    {
+      "slug": "2026-10-15-crypto-news-e681c301ac",
+      "date_kst": "2026-10-15",
+      "title": "Kraken Parent Payward Signs Deal to Acquire Lithuania's Saldo Bank...Plans European Deposit, Lending and Payment Business",
+      "content": "Payward, the parent company of crypto exchange Kraken, announced on October 14 that it had signed a definitive agreement to acquire Saldo Finance Oy, a Finnish holding company whose subsidiary is Lithuania's Saldo Bank UAB. The transaction is subject to customary closing conditions, including regulatory approvals, and is expected to close in 2027. The purchase price was not disclosed.\nSaldo Bank is a Lithuania-licensed digital specialist bank operating in Lithuania, Finland, Sweden and Germany. It also holds an EU passport to operate in the Netherlands and currently accepts term deposits from retail customers in the four countries where it is active.\nSubject to completion of the acquisition and relevant regulatory approvals, Payward plans to expand interest-bearing bank deposits, personal and small-business loans, cards, and euro transfer and payment services through the Single Euro Payments Area (SEPA) for European customers. It also plans to expand its banking-as-a-service (BaaS) business, providing card issuance, lending and other functions that fintech companies can connect to their own services.\nPayward co-CEO Arjun Sethi said an EU bank provides the foundation needed to serve as the primary financial institution for European customers. The announcement did not specify product-by-product launch schedules and terms, or the precise arrangements for segregating bank deposits from crypto exchange customer assets after the acquisition.",
+      "metanomia_thought": "The acquisition agreement is symbolic because it shows a crypto company seeking to become an owner and operator of a traditional financial institution. A group that operates an exchange is also seeking a banking license and a deposit and lending base, indicating that competition in the crypto industry is expanding into everyday financial services. The institutional foundation and customer relationships that banks have built are also being valued as important assets in crypto companies' expansion strategies.",
+      "sources": [
+        {
+          "title": "Payward to acquire Saldo Bank: Building the EU Layer of Payward Banking",
+          "url": "https://www.payward.com/press-release/payward-acquires-saldo-bank"
+        },
+        {
+          "title": "Payward targets EU banking license with acquisition of $190M-asset Saldo Bank",
+          "url": "https://www.coindesk.com/business/2026/10/14/kraken-parent-payward-to-become-first-crypto-firm-to-buy-a-eu-bank-as-it-expands-into-deposits-lending"
+        },
+        {
+          "title": "Kraken parent company Payward to become first crypto firm to buy a European bank",
+          "url": "https://fortune.com/2026/10/14/kraken-parent-company-payward-first-crypto-firm-european-bank-purchase/"
+        }
+      ]
+    },
+    {
+      "slug": "2026-10-15-crypto-news-88b3084418",
+      "date_kst": "2026-10-15",
+      "title": "Polygon Labs Completes Coinme Acquisition...Gains Payments Infrastructure Covering 48 US States",
+      "content": "Polygon Labs said on October 14 that it had completed its acquisition of US money transmitter Coinme. According to the company, its US payments business covers 48 states through money transmitter licenses in 37 states and exemptions in 11, and it is registered as a money services business (MSB) with the Financial Crimes Enforcement Network (FinCEN).\nThe acquisition integrates Coinme's US dollar on- and off-ramp infrastructure into Polygon's stablecoin payments platform, Open Money Stack (OMS). OMS connects accounts and wallets, cross-chain fund movement, and settlement functions with banks and payment networks. Companies can use it to receive funds, settle in stablecoins, and pay recipients in local currency.\nInitial users include Tazapay, Mesh, Toku and Kira. Use cases include cross-border business payments, account funding, global payroll, and access to US dollar accounts and payment rails. According to The Block, individual OMS functions are operational, while integrated connectivity is in technical preview with selected customers.\nCoinme, meanwhile, was cited in state regulatory examinations for failing to meet net-worth requirements and for deficiencies in its accounting and anti-money-laundering systems. Under a settlement announced on October 8, it agreed to wind down its crypto kiosk business by year-end, commission an independent review and make improvements to its anti-money-laundering program, and pay $2.5 million in administrative penalties and costs.",
+      "metanomia_thought": "The acquisition is an example of a blockchain developer adding the operating infrastructure for US dollar inflows and outflows to its transfer technology. It shows that expanding stablecoin use requires not only blockchain performance but also the ability to connect with existing financial networks and execute actual payments. After the acquisition, the key will be the ability to integrate the operation into a real service while continuing to meet and manage regulatory obligations.",
+      "sources": [
+        {
+          "title": "Polygon Open Money Stack is now a U.S.-regulated payments platform with completion of Coinme acquisition",
+          "url": "https://polygon.technology/blog/polygon-open-money-stack-us-regulated-payments-platform"
+        },
+        {
+          "title": "Polygon Labs completes Coinme acquisition, bringing regulated payments coverage across 48 US states",
+          "url": "https://www.theblock.co/news/business/2026-10-14-polygon-labs-completes-coinme-acquisition-bringing-regulated-payments-coverage-across-48-us-states-418518"
+        },
+        {
+          "title": "Washington State DFI Enters Multi-State Consent Order with Coinme, Inc.",
+          "url": "https://dfi.wa.gov/news/press/washington-state-dfi-enters-multi-state-consent-order-coinme-inc"
+        }
+      ]
+    },
     {
       "slug": "2026-10-14-crypto-news-1baf9cf1fa",
       "date_kst": "2026-10-14",
