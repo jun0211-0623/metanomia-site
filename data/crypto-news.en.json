@@ -1,7 +1,66 @@
 {
   "schema_version": "1.0",
-  "generated_at_kst": "2026-10-15T09:46:14+09:00",
+  "generated_at_kst": "2026-10-16T07:39:03+09:00",
   "items": [
+    {
+      "slug": "2026-10-16-crypto-news-dcc424711d",
+      "date_kst": "2026-10-16",
+      "title": "Starknet Opens Vote on Studying Independent L1 Transition...Quantum-Resistance Options Under Discussion",
+      "content": "Ethereum layer-2 (L2) network Starknet began a vote on October 15 asking whether to conduct further research into a possible transition to an independent, quantum-resistant layer 1 (L1). The non-binding vote, open to STRK holders on Snapshot, will run for seven days. It follows StarkWare's October 8 disclosure that it was considering an independent L1 and is intended to gauge token holders' views.\nThe rationale behind the proposal is autonomy over security preparations for quantum computing. The proposer explained that Starknet can pursue quantum-resistant development in areas it controls directly, but its Ethereum-dependent bridge and data availability remain affected by Ethereum's timetable for becoming quantum resistant. An independent L1 was presented as an option to reduce dependence on the base chain and improve security on Starknet's own schedule.\nThe vote does not decide whether Starknet will transition to an independent L1. If the vote passes, research will begin and be followed by a concrete proposal and additional votes. If it fails, Starknet will continue developing quantum resistance as an Ethereum L2. No timetable for a transition to an independent L1 has been presented.\nThe proposal states that either path would continue to use the existing STRK token and would not involve issuing a new token. It also says the bridge connecting Ethereum and Starknet would remain in place. The current discussion is therefore at the stage of examining whether the network can operate its security architecture independently while maintaining its connection to Ethereum.",
+      "metanomia_thought": "This discussion shows that an L2's security depends not only on its own technology but also on the upgrade timetable of its base chain. Starknet is considering an independent L1 as a way to control the pace at which it achieves quantum resistance. A key issue in future proposals will be how the network can gain greater autonomy over security while maintaining its connection to Ethereum.",
+      "sources": [
+        {
+          "title": "Should Starknet become an independent post-quantum L1?",
+          "url": "https://community.starknet.io/t/should-starknet-become-an-independent-post-quantum-l1/116392"
+        },
+        {
+          "title": "Starknet opens seven-day vote on independent Layer 1 over quantum risks",
+          "url": "https://www.theblock.co/news/ecosystems/2026-10-15-starknet-opens-seven-day-vote-on-independent-layer-1-over-quantum-risks-418673"
+        }
+      ]
+    },
+    {
+      "slug": "2026-10-16-crypto-news-c6a8c87ea1",
+      "date_kst": "2026-10-16",
+      "title": "Australia's ASIC Releases Detailed Standards Proposal for Crypto Platforms...Sets Out Client Asset Custody, Trading and Financial Requirements",
+      "content": "The Australian Securities and Investments Commission (ASIC) released consultation paper CP 392 on October 15, setting out detailed implementation proposals for regulating crypto platforms and opening a public consultation. The paper contains proposed standards and guidance for digital asset platforms (DAPs) and tokenized custody platforms (TCPs), including requirements for asset custody, trading and settlement, and financial resources. ASIC said it aims to establish standards consistent with the existing financial services regulatory framework under the principle of 'same activity, same risk, same regulatory outcome.'\nThe proposals cover the identification, segregation and protection of client assets, oversight of custodians, trading transparency, and management of conflicts of interest. The proposed financial requirements address liquidity, cash-flow forecasting and audits, as well as net tangible asset (NTA) requirements, with ASIC seeking feedback on several alternative NTA thresholds. The paper also provides implementation guidance for platform operating rules and the retail client guide required under the new law.\nThe Digital Assets Framework Act takes effect on April 8, 2027. Existing businesses newly brought within the regulatory framework may receive transitional relief from the amended provisions while their application is under review if they apply for an Australian financial services license (AFSL), or to vary an existing license, by October 7, 2027. This does not provide a blanket exemption from separate licensing obligations that already apply under existing law.\nASIC also proposed streamlining the process for existing AFSL holders and businesses that have applied for authorization under INFO 225 to add DAP- and TCP-related permissions. Comments are due by November 27, and ASIC plans to publish the standards and guidance in March 2027. It cautioned that the attached draft regulations are illustrative and may change substantially after consultation.",
+      "metanomia_thought": "Australia is bringing crypto exchanges and custody providers within its existing financial services licensing framework while spelling out requirements for client asset custody and financial resources. ASIC will finalize the detailed standards after consultation, and businesses will need the capital and operating systems required to comply. The integration of crypto platforms into the regulated financial sector is moving beyond the question of authorization and into the specifics of how these businesses must operate.",
+      "sources": [
+        {
+          "title": "ASIC consults on implementation of new digital asset laws (26-245MR)",
+          "url": "https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-245mr-asic-consults-on-implementation-of-new-digital-asset-laws"
+        },
+        {
+          "title": "CP 392 Digital asset law reform implementation: Proposed standards and guidance",
+          "url": "https://www.asic.gov.au/regulatory-resources/find-a-document/consultations/cp-392-digital-asset-law-reform-implementation-proposed-standards-and-guidance"
+        },
+        {
+          "title": "Corporations Amendment (Digital Assets Framework) Act 2026",
+          "url": "https://www.legislation.gov.au/C2026A00038/asmade/2026-04-08/text/original/epub/OEBPS/document_1/document_1.html"
+        },
+        {
+          "title": "Australia’s financial watchdog seeks stiffer rules for crypto exchanges ahead of licensing deadline",
+          "url": "https://www.coindesk.com/policy/2026/10/15/australia-s-financial-watchdog-seeks-stiffer-rules-for-crypto-exchanges-ahead-of-licensing-deadline"
+        }
+      ]
+    },
+    {
+      "slug": "2026-10-16-crypto-news-18b664d4c6",
+      "date_kst": "2026-10-16",
+      "title": "Ripple Prime Launches Institutional Perpetual Swaps Linked to Traditional Assets...Benchmarked to Hyperliquid Futures",
+      "content": "Ripple announced on October 15 that its institutional prime brokerage service, Ripple Prime, had begun supporting real-world asset (RWA) perpetual swaps. The products are linked to more than 100 reference markets across equities, equity indexes, exchange-traded funds (ETFs), metals, energy and foreign exchange. Trading and settlement are available around the clock, including weekends.\nRipple Prime is the client's direct counterparty, and the swaps reference perpetual futures listed on Hyperliquid by Trade.xyz. Institutional clients gain exposure to price movements without directly holding the underlying assets. Because the reference perpetual futures markets remain continuously open, clients can adjust related positions outside the regular trading hours of traditional exchanges.\nClients can use cross-margining that takes into account positions in RWA swaps and other asset classes supported by Ripple Prime. Ripple's stablecoin RLUSD can also be used as collateral, although availability varies by jurisdiction. Ripple said the structure enables clients to manage risk and margin on a consolidated basis under a single counterparty.\nThe service is currently offered under Ripple Prime's British Virgin Islands (BVI) license, and Ripple said it plans to expand to other regions. According to the company, market maker Virtu is already trading the products. Ripple launched Ripple Prime after acquiring prime broker Hidden Road in 2025.",
+      "metanomia_thought": "In this service, institutional clients trade swaps with Ripple Prime, and those swaps reference perpetual futures linked to traditional assets that are listed on Hyperliquid. Products from a decentralized finance market serve as benchmarks for institutional derivatives, while collateral and margin are managed within a prime brokerage framework. The connection between traditional finance and DeFi is taking shape through the combination of trading products and collateral management systems.",
+      "sources": [
+        {
+          "title": "Ripple Launches Support for Institutions to Access Real-World Asset Perpetual Swaps",
+          "url": "https://www.businesswire.com/news/home/20261015834919/en/Ripple-Launches-Support-for-Institutions-to-Access-Real-World-Asset-Perpetual-Swaps"
+        },
+        {
+          "title": "Ripple Prime adds RWA swaps referencing perpetual futures listed on Hyperliquid",
+          "url": "https://www.theblock.co/news/business/2026-10-15-ripple-prime-rwa-swaps-perpetual-futures-hyperliquid-418681"
+        }
+      ]
+    },
     {
       "slug": "2026-10-15-crypto-news-fbacc1f31a",
       "date_kst": "2026-10-15",
