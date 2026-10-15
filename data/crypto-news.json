@@ -1,7 +1,69 @@
 {
   "schema_version": "1.0",
-  "generated_at_kst": "2026-10-15T09:46:14+09:00",
+  "generated_at_kst": "2026-10-16T07:39:03+09:00",
   "items": [
+    {
+      "id": "crypto-news-dcc424711dbe3cd4",
+      "slug": "2026-10-16-crypto-news-dcc424711d",
+      "date_kst": "2026-10-16",
+      "title": "스타크넷, 독립 L1 전환 검토 투표 시작…양자내성 확보 방안 논의",
+      "content": "이더리움 레이어2(L2) 네트워크 스타크넷(Starknet)이 10월 15일 독립적인 양자내성 레이어1(L1) 전환 가능성을 추가로 연구할지 묻는 투표를 시작했다. STRK 보유자를 대상으로 스냅샷(Snapshot)에서 7일간 진행하는 비구속 투표다. 스타크웨어(StarkWare)가 10월 8일 독립 L1 가능성을 검토하고 있다고 밝힌 데 이어, 보유자들의 의견을 확인하는 절차다.\n제안의 배경은 양자컴퓨팅에 대비한 보안 체계의 자율성이다. 제안자는 스타크넷이 자체적으로 통제하는 영역에서는 양자내성 개발을 추진할 수 있지만, 이더리움에 의존하는 브리지와 데이터 가용성 부분은 이더리움의 양자내성 전환 일정에 영향을 받는다고 설명했다. 독립 L1은 이러한 기반 체인 의존을 줄이고 자체 일정에 따라 보안을 개선하기 위한 선택지로 제시됐다.\n이번 투표가 독립 L1 전환을 확정하는 것은 아니다. 찬성 결과가 나오면 관련 연구를 시작하고, 구체적인 제안과 추가 투표로 이어진다. 반대 결과가 나오면 이더리움 L2로서 양자내성 개발을 계속한다. 독립 L1 전환 일정은 아직 제시되지 않았다.\n제안은 어느 경로를 택하더라도 기존 STRK를 사용하고 새 토큰을 발행하지 않는다는 방향을 밝혔다. 이더리움에서 스타크넷으로 연결되는 브리지도 유지하겠다고 설명했다. 따라서 현재 논의는 이더리움과의 연결을 유지하면서 네트워크의 보안 구조를 독립적으로 운영할 수 있는지 검토하는 단계다.",
+      "metanomia_thought": "이번 논의는 L2의 보안이 자체 기술뿐 아니라 기반 체인의 업그레이드 일정에도 연결돼 있음을 보여줍니다. 스타크넷은 양자내성 확보 속도를 직접 통제하기 위해 독립 L1이라는 선택지를 검토하고 있습니다. 앞으로의 제안에서는 보안의 자율성을 얻으면서 이더리움과의 연결을 어떻게 유지할지가 핵심 쟁점이 될 것입니다.",
+      "sources": [
+        {
+          "title": "Should Starknet become an independent post-quantum L1?",
+          "url": "https://community.starknet.io/t/should-starknet-become-an-independent-post-quantum-l1/116392"
+        },
+        {
+          "title": "Starknet opens seven-day vote on independent Layer 1 over quantum risks",
+          "url": "https://www.theblock.co/news/ecosystems/2026-10-15-starknet-opens-seven-day-vote-on-independent-layer-1-over-quantum-risks-418673"
+        }
+      ]
+    },
+    {
+      "id": "crypto-news-c6a8c87ea1343302",
+      "slug": "2026-10-16-crypto-news-c6a8c87ea1",
+      "date_kst": "2026-10-16",
+      "title": "호주 ASIC, 가상자산 플랫폼 세부 기준안 공개…고객자산 보관·거래·재무 요건 제시",
+      "content": "호주 증권투자위원회(ASIC)가 10월 15일 가상자산 플랫폼 규제의 세부 시행 방안을 담은 협의문서 ‘CP 392’를 공개하고 의견수렴에 들어갔다. 문서는 디지털자산플랫폼(DAP)과 토큰화수탁플랫폼(TCP)의 규제 지침과 자산 보관, 거래·결제, 재무 요건에 관한 기준안을 담았다. ASIC는 ‘같은 활동, 같은 위험, 같은 규제 결과’ 원칙에 따라 기존 금융서비스 규제 체계와 일관된 기준을 마련하려는 것이라고 설명했다.\n기준안은 고객자산의 식별·분리·보호, 수탁기관 관리, 거래 투명성과 이해상충 관리 등을 다룬다. 재무 요건에는 유동성, 현금흐름 예측, 감사와 함께 순유형자산(NTA) 요건을 제안했으며, NTA 기준은 복수의 대안을 놓고 의견을 받는다. 새 법이 정한 플랫폼 운영규칙과 소매 고객 안내서 제공 의무에 대해서도 이행 지침을 제시했다.\n디지털자산체계법(DAF법)은 2027년 4월 8일 시행된다. 새 규제 대상이 되는 기존 사업자는 2027년 10월 7일까지 호주 금융서비스면허(AFSL)를 신청하거나 기존 면허의 변경을 신청하면 심사 결과가 나올 때까지 해당 개정규정의 적용을 유예받을 수 있다. 이는 기존 법률상 별도로 적용되는 인가 의무까지 일괄 면제하는 조치는 아니다.\nASIC는 기존 AFSL 보유자와 INFO 225 지침에 따라 인가를 신청한 사업자가 DAP·TCP 관련 권한을 추가하는 절차도 간소화할 것을 제안했다. 의견 제출 마감은 11월 27일이며, 기준 문서와 지침은 2027년 3월 공개할 계획이다. 다만 첨부한 규정 초안은 예시용으로, 의견수렴 이후 최종 내용이 크게 달라질 수 있다고 밝혔다.",
+      "metanomia_thought": "호주는 가상자산 거래소와 수탁사업자를 기존 금융서비스 면허 체계 안으로 들이고, 고객자산 보관과 재무 요건을 구체화하고 있습니다. 세부 기준은 ASIC가 의견수렴을 거쳐 정하며, 사업자는 이를 충족할 자본과 운영체계를 마련해야 합니다. 가상자산 플랫폼의 제도권 편입이 인가 여부를 넘어 실제 운영 방식까지 구체화되고 있는 것입니다.",
+      "sources": [
+        {
+          "title": "ASIC consults on implementation of new digital asset laws (26-245MR)",
+          "url": "https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-245mr-asic-consults-on-implementation-of-new-digital-asset-laws"
+        },
+        {
+          "title": "CP 392 Digital asset law reform implementation: Proposed standards and guidance",
+          "url": "https://www.asic.gov.au/regulatory-resources/find-a-document/consultations/cp-392-digital-asset-law-reform-implementation-proposed-standards-and-guidance"
+        },
+        {
+          "title": "Corporations Amendment (Digital Assets Framework) Act 2026",
+          "url": "https://www.legislation.gov.au/C2026A00038/asmade/2026-04-08/text/original/epub/OEBPS/document_1/document_1.html"
+        },
+        {
+          "title": "Australia’s financial watchdog seeks stiffer rules for crypto exchanges ahead of licensing deadline",
+          "url": "https://www.coindesk.com/policy/2026/10/15/australia-s-financial-watchdog-seeks-stiffer-rules-for-crypto-exchanges-ahead-of-licensing-deadline"
+        }
+      ]
+    },
+    {
+      "id": "crypto-news-18b664d4c6a0c0dd",
+      "slug": "2026-10-16-crypto-news-18b664d4c6",
+      "date_kst": "2026-10-16",
+      "title": "리플 프라임, 기관용 전통자산 연계 무기한 스왑 출시…하이퍼리퀴드 선물 기준",
+      "content": "리플(Ripple)은 10월 15일 기관 대상 프라임브로커리지 서비스인 리플 프라임(Ripple Prime)이 실물자산(RWA) 무기한 스왑 지원을 시작했다고 발표했다. 거래 대상은 주식, 주가지수, 상장지수펀드(ETF), 금속, 에너지, 외환 등 100개가 넘는 기준시장에 연계된 상품이다. 거래와 결제는 주말을 포함해 24시간 이뤄진다.\n고객의 직접 거래 상대방은 리플 프라임이며, 스왑은 트레이드닷엑스와이즈(Trade.xyz)가 하이퍼리퀴드(Hyperliquid)에 상장한 무기한 선물을 기준으로 한다. 기관 고객은 기초자산을 직접 보유하지 않고 관련 가격 변동에 투자하는 구조다. 기준이 되는 무기한 선물시장이 지속적으로 열려 있어 전통 거래소의 정규 운영시간 밖에서도 관련 투자 포지션을 조정할 수 있다.\n고객은 RWA 스왑과 리플 프라임이 지원하는 다른 자산군의 포지션을 함께 고려하는 교차증거금 방식을 이용할 수 있다. 리플의 스테이블코인 RLUSD도 담보로 사용할 수 있지만, 이용 가능 여부는 관할 지역에 따라 다르다. 리플은 이를 통해 단일 거래 상대방 아래에서 위험과 증거금을 통합 관리할 수 있다고 설명했다.\n서비스는 현재 리플 프라임의 영국령 버진아일랜드(BVI) 인가를 바탕으로 제공되며, 리플은 다른 지역으로 확대할 계획이라고 밝혔다. 회사에 따르면 마켓메이커 버투(Virtu)는 이미 해당 상품을 거래하고 있다. 리플 프라임은 리플이 2025년 프라임브로커 히든로드(Hidden Road)를 인수해 출범시킨 사업이다.",
+      "metanomia_thought": "이번 서비스에서 기관 고객은 리플 프라임과 스왑을 거래하고, 해당 스왑은 하이퍼리퀴드에 상장된 전통자산 연계 무기한 선물을 참조합니다. 디파이 시장의 상품이 기관용 파생상품의 기준으로 활용되고, 담보와 증거금 관리는 프라임브로커 체계 안에서 이뤄지는 방식입니다. 전통금융과 디파이의 연결이 거래상품과 담보 관리 체계의 결합으로 구체화되고 있습니다.",
+      "sources": [
+        {
+          "title": "Ripple Launches Support for Institutions to Access Real-World Asset Perpetual Swaps",
+          "url": "https://www.businesswire.com/news/home/20261015834919/en/Ripple-Launches-Support-for-Institutions-to-Access-Real-World-Asset-Perpetual-Swaps"
+        },
+        {
+          "title": "Ripple Prime adds RWA swaps referencing perpetual futures listed on Hyperliquid",
+          "url": "https://www.theblock.co/news/business/2026-10-15-ripple-prime-rwa-swaps-perpetual-futures-hyperliquid-418681"
+        }
+      ]
+    },
     {
       "id": "crypto-news-fbacc1f31aeffc27",
       "slug": "2026-10-15-crypto-news-fbacc1f31a",
