@@ -1,7 +1,73 @@
 {
   "schema_version": "1.0",
-  "generated_at_kst": "2026-10-14T10:26:46+09:00",
+  "generated_at_kst": "2026-10-15T09:46:14+09:00",
   "items": [
+    {
+      "id": "crypto-news-fbacc1f31aeffc27",
+      "slug": "2026-10-15-crypto-news-fbacc1f31a",
+      "date_kst": "2026-10-15",
+      "title": "비트멕스 운영사, 영국서 비트코인 324.8개 반환청구 피소…무인가 파생상품 거래 쟁점",
+      "content": "가상자산 파생상품 거래소 비트멕스(BitMEX)의 운영사 HDR 글로벌 트레이딩이 영국 고등법원에서 비트코인 324.8개 반환청구 소송을 당했다고 가디언(The Guardian)이 영국시간 10월 14일 보도했다. 원고인 소프트웨어 엔지니어 루이스 바버는 2018~2022년 손실이 발생한 파생상품 거래를 대상으로 반환을 요구했다.\n바버는 비트멕스가 영국 금융감독청(FCA) 인가 없이 파생상품을 제공했으므로, 금융서비스시장법(FSMA)에 따라 거래로 잃은 비트코인을 돌려받을 권리가 있다고 주장한다. 적법하게 거래할 수 있는 것처럼 행동했다며 기망에 따른 손해배상도 청구했다.\nFCA는 2020년 3월 비트멕스의 무인가 영업 가능성을 경고한 바 있다. 10월 14일 보도 당시 소송서류는 아직 회사에 송달되지 않았으며, 반환 청구의 인정 여부와 범위에 관한 법원 판단도 나오지 않았다.",
+      "metanomia_thought": "이번 소송은 해외 거래소의 영업 인가 문제가 이미 이뤄진 거래의 반환 책임으로 이어질 수 있는지를 묻는 사례입니다. 규제 준수 여부가 향후 영업뿐 아니라 과거 계약의 집행 가능성과 정산 결과에도 영향을 줄 수 있다는 점에서 주목됩니다. 다만 아직 원고의 주장 단계이며, 반환 청구의 인정 여부와 범위에 관한 법원의 판단은 나오지 않았습니다.",
+      "sources": [
+        {
+          "title": "Cryptocurrency exchange founded by Reform donor Ben Delo sued for £20m",
+          "url": "https://www.theguardian.com/politics/2026/oct/14/cryptocurrency-exchange-founded-by-reform-donor-ben-delo-sued-for-20m"
+        },
+        {
+          "title": "BitMEX Sued in UK for Return of $27M in Bitcoin Over Unlicensed Derivatives",
+          "url": "https://decrypt.co/380904/bitmex-sued-in-uk-for-return-of-27m-in-bitcoin-over-unlicensed-derivatives"
+        },
+        {
+          "title": "BitMex (FCA warning)",
+          "url": "https://www.fca.org.uk/news/warnings/bitmex"
+        }
+      ]
+    },
+    {
+      "id": "crypto-news-e681c301aca5f1c2",
+      "slug": "2026-10-15-crypto-news-e681c301ac",
+      "date_kst": "2026-10-15",
+      "title": "크라켄 모회사 페이워드, 리투아니아 살도은행 인수 계약…유럽 예금·대출·결제 사업 추진",
+      "content": "가상자산 거래소 크라켄(Kraken)의 모회사 페이워드(Payward)는 10월 14일 리투아니아 살도은행(Saldo Bank UAB)을 자회사로 둔 핀란드 지주회사 살도파이낸스(Saldo Finance Oy)를 인수하는 최종 계약을 체결했다고 발표했다. 거래는 규제 승인 등 통상적인 종결 조건을 충족해야 하며, 2027년 마무리될 예정이다. 인수 가격은 공개되지 않았다.\n살도은행은 리투아니아에서 인가받은 디지털 전문은행으로, 리투아니아·핀란드·스웨덴·독일에서 영업하고 있다. 네덜란드에서도 영업할 수 있는 EU 패스포트를 보유하고 있으며, 현재 영업 중인 네 개국에서 개인 고객을 대상으로 정기예금을 받고 있다.\n페이워드는 인수 완료와 관련 규제 승인을 전제로 유럽 고객에게 이자가 붙는 은행 예금, 개인·중소기업 대출, 카드, 유로 송금·결제(SEPA) 서비스를 확대할 계획이다. 다른 핀테크 기업이 자체 서비스에 은행 기능을 연결할 수 있도록 카드 발급·대출 등을 제공하는 서비스형 은행(BaaS) 사업도 확대할 방침이다.\n아르준 세티(Arjun Sethi) 페이워드 공동 최고경영자는 EU 은행이 유럽 고객의 주거래 금융기관 역할을 수행하는 데 필요한 기반이라고 설명했다. 인수 이후 상품별 출시 일정과 이용 조건, 은행 예금과 거래소 고객자산을 구분해 관리하는 구체적인 방식은 이번 발표에 제시되지 않았다.",
+      "metanomia_thought": "이번 인수 계약은 가상자산 기업이 전통 금융기관의 소유·운영 주체로 진입하려 한다는 점에서 상징적입니다. 거래소를 운영하는 그룹이 은행 인가와 예금·대출 기반까지 확보하려는 것은, 가상자산 산업의 경쟁 범위가 일상적인 금융서비스로 넓어지고 있음을 보여줍니다. 은행이 쌓아온 제도적 기반과 고객 관계가 가상자산 기업의 확장 전략에서도 중요한 자산으로 평가되고 있는 것입니다.",
+      "sources": [
+        {
+          "title": "Payward to acquire Saldo Bank: Building the EU Layer of Payward Banking",
+          "url": "https://www.payward.com/press-release/payward-acquires-saldo-bank"
+        },
+        {
+          "title": "Payward targets EU banking license with acquisition of $190M-asset Saldo Bank",
+          "url": "https://www.coindesk.com/business/2026/10/14/kraken-parent-payward-to-become-first-crypto-firm-to-buy-a-eu-bank-as-it-expands-into-deposits-lending"
+        },
+        {
+          "title": "Kraken parent company Payward to become first crypto firm to buy a European bank",
+          "url": "https://fortune.com/2026/10/14/kraken-parent-company-payward-first-crypto-firm-european-bank-purchase/"
+        }
+      ]
+    },
+    {
+      "id": "crypto-news-88b3084418df9e61",
+      "slug": "2026-10-15-crypto-news-88b3084418",
+      "date_kst": "2026-10-15",
+      "title": "폴리곤랩스, 코인미 인수 완료…미국 48개 주 결제 서비스 기반 확보",
+      "content": "폴리곤랩스(Polygon Labs)는 10월 14일 미국 송금업체 코인미(Coinme) 인수를 완료했다고 밝혔다. 회사에 따르면 미국 결제 사업은 37개 주 송금업 라이선스와 11개 주 적용 면제를 통해 48개 주를 포괄하며, 금융범죄단속네트워크(FinCEN)에 자금서비스사업자(MSB)로 등록돼 있다.\n이번 인수로 코인미의 달러 입출금 기반이 폴리곤의 스테이블코인 결제 플랫폼 오픈 머니 스택(Open Money Stack·OMS)에 편입됐다. OMS는 계정·지갑, 체인 간 자금 이동과 정산 기능을 은행·지급망과 연결한다. 기업은 이를 통해 자금을 받아 스테이블코인으로 정산하고, 수취인에게 현지 통화로 지급하는 흐름을 구축할 수 있다.\n초기 이용 기업에는 타자페이(Tazapay)·메시(Mesh)·토쿠(Toku)·키라(Kira)가 포함됐다. 활용 분야는 국경 간 기업 결제, 계정 충전, 글로벌 급여 지급, 미국 달러 계좌·지급망 접근 등이다. 더블록에 따르면 OMS의 개별 기능은 가동 중이며, 통합 연동은 일부 고객을 대상으로 한 기술 미리보기 단계에 있다.\n한편 코인미는 주 규제당국 검사에서 순자산 요건 미준수와 회계·자금세탁방지 체계의 문제가 지적됐다. 10월 8일 발표된 합의에 따라 연말까지 가상자산 키오스크 사업을 종료하고, 자금세탁방지 체계를 독립적으로 검토·개선하며, 행정 제재금과 비용으로 250만 달러를 지급하기로 했다.",
+      "metanomia_thought": "이번 인수는 블록체인 개발사가 전송 기술에 더해 달러 입출금을 처리하는 결제 사업의 운영 기반까지 확보한 사례입니다. 스테이블코인의 활용 범위를 넓히는 데에는 체인 성능과 함께 기존 금융망에 연결해 실제 지급을 처리하는 능력도 중요하다는 점을 보여줍니다. 인수 이후에는 이를 실제 서비스로 통합하고 규제상 의무를 계속 이행하며 운영하는 역량이 관건입니다.",
+      "sources": [
+        {
+          "title": "Polygon Open Money Stack is now a U.S.-regulated payments platform with completion of Coinme acquisition",
+          "url": "https://polygon.technology/blog/polygon-open-money-stack-us-regulated-payments-platform"
+        },
+        {
+          "title": "Polygon Labs completes Coinme acquisition, bringing regulated payments coverage across 48 US states",
+          "url": "https://www.theblock.co/news/business/2026-10-14-polygon-labs-completes-coinme-acquisition-bringing-regulated-payments-coverage-across-48-us-states-418518"
+        },
+        {
+          "title": "Washington State DFI Enters Multi-State Consent Order with Coinme, Inc.",
+          "url": "https://dfi.wa.gov/news/press/washington-state-dfi-enters-multi-state-consent-order-coinme-inc"
+        }
+      ]
+    },
     {
       "id": "crypto-news-1baf9cf1fa8924b4",
       "slug": "2026-10-14-crypto-news-1baf9cf1fa",
