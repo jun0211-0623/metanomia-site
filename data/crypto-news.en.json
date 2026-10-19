@@ -1,7 +1,54 @@
 {
   "schema_version": "1.0",
-  "generated_at_kst": "2026-10-16T07:39:03+09:00",
+  "generated_at_kst": "2026-10-19T10:15:14+09:00",
   "items": [
+    {
+      "slug": "2026-10-19-crypto-news-db9d1ebcb4",
+      "date_kst": "2026-10-19",
+      "title": "South Korean Regulators Warn of Offshore Perpetual Futures Risks...Plan Criminal Referrals for Illegal Domestic Solicitation",
+      "content": "South Korea's Financial Services Commission and Financial Supervisory Service warned investors on October 16 about \"perpetual futures\" traded on overseas crypto exchanges and other offshore platforms. Perpetual futures are products linked to price movements in stock indexes, equities, crypto assets and other underlying markets without a maturity date. The regulators said that although the name resembles futures offered in South Korea's regulated market, the contract terms and trading and settlement structures differ.\nThe regulators said leverage, which enables positions larger than the amount invested, can reach 200 times. Even small price movements can therefore have a large impact on gains and losses, and positions may be forcibly liquidated if losses leave insufficient margin, or collateral needed to maintain the trade. They gave the example of a product offering 150-times exposure to a South Korean stock index, in which a move of about 0.66% in the opposite direction could trigger liquidation and wipe out the entire investment. The authorities said such products are not institutionally permitted in South Korea.\nTransactions on offshore platforms are unlikely to receive the same investor protections available in South Korea's regulated market. The regulators said remedies under domestic law may be difficult when a platform becomes insolvent, suspends trading or suffers a systems failure, and supervisory authorities may be unable to verify whether deposited assets are properly safeguarded.\nThe regulators plan to monitor products linked to the South Korean stock market and their domestic impact. If they find violations of domestic law in activities that solicit South Korean residents through referral codes or receive commissions, they plan to respond with measures including referrals to investigative authorities. They will also ask major offshore platforms to cooperate in avoiding violations of South Korean law. The authorities said they will carefully consider whether to introduce similar domestic products and how to regulate them, taking into account market impact, investor protection and global discussions.",
+      "metanomia_thought": "Offshore platforms are turning movements in South Korean stock indexes into financial products. Alongside warnings about extreme leverage and measures to stop illegal solicitation, South Korea should also discuss what investor protections and trading rules would be needed to accommodate this demand domestically. Without such a channel, not only trading revenue but also customers, data and experience in designing the next generation of products may accumulate on overseas platforms.",
+      "sources": [
+        {
+          "title": "‘무기한 선물’ 이용자 유의사항 안내",
+          "url": "https://www.fsc.go.kr/no010101/87947"
+        }
+      ]
+    },
+    {
+      "slug": "2026-10-19-crypto-news-30ac7428f2",
+      "date_kst": "2026-10-19",
+      "title": "Marqeta and Coinbase Expand Stablecoin Card Partnership...Service to Target Crypto and Non-Crypto Companies",
+      "content": "Card issuing and payment processing platform Marqeta announced on October 16 that it was expanding its stablecoin-based card partnership with crypto exchange Coinbase. The plan is to extend their existing relationship, under which Marqeta has issued Coinbase's crypto-linked cards, to card services offered to customers by both crypto companies and businesses outside the crypto industry.\nThe goal is to let users spend from their stablecoin balances at existing card merchants. Coinbase plans to handle balance custody and conversion into fiat currency, while Marqeta will manage card issuance and payment processing as well as connections to banks and card networks.\nCompanies offering the cards are expected to be able to fund the accounts needed to operate their card programs around the clock. Coinbase's Base blockchain is planned to support settlement. No specific launch date was announced.",
+      "metanomia_thought": "The branding on the cards may differ, but the route through which the money flows can be the same. Coinbase and Marqeta are seeking to connect stablecoin custody, conversion and payments behind card programs offered by many companies. As more customers use these card services, the two companies can expand their reach in payments without recruiting each customer directly.",
+      "sources": [
+        {
+          "title": "Marqeta and Coinbase Collaborate to Enable Stablecoin-Backed Card Payments",
+          "url": "https://investors.marqeta.com/news-releases/news-release-details/marqeta-and-coinbase-collaborate-enable-stablecoin-backed-card"
+        }
+      ]
+    },
+    {
+      "slug": "2026-10-19-crypto-news-2455671df9",
+      "date_kst": "2026-10-19",
+      "title": "Crypto.com Affiliate and Novig Sue Over Missouri Order to Halt Sports Prediction Trading",
+      "content": "North American Derivatives Exchange (NADEX), a US derivatives exchange affiliated with crypto exchange Crypto.com, and Ludlow Exchange, the operator of prediction market Novig, each filed suit against Missouri authorities in federal court on October 16. They are seeking to prevent the state from applying its sports betting regulations to sports event contracts.\nIn September, the Missouri attorney general ordered prediction market operators including the two companies to stop offering sports event contracts or obtain a state license. The state argues that products allowing users to trade on predicted sports outcomes constitute sports betting offered to Missouri residents and therefore must comply with state regulations.\nNovig said it is an exchange designated by the US Commodity Futures Trading Commission (CFTC), the federal derivatives regulator. Its complaint argues that its sports event contracts are \"swaps\" under the federal Commodity Exchange Act and that the CFTC has exclusive regulatory authority over such contracts when traded on a designated exchange. On that basis, it contends that Missouri's sports betting law cannot be applied. The issue is whether exchanges under federal oversight can also be required to obtain state licenses and comply with state sports betting regulations. Filing the lawsuits does not itself prevent the state regulations from applying.",
+      "metanomia_thought": "The question in these lawsuits is whether federal exchange status alone permits sports prediction trading across state lines. If the courts find that state licenses are also required, operators may have to meet different local business conditions even when they are subject to federal oversight.",
+      "sources": [
+        {
+          "title": "Ludlow Exchange, LLC d/b/a Novig v. Hanaway et al., Complaint (E.D. Mo., No. 4:26-cv-01780)",
+          "url": "https://storage.courtlistener.com/recap/gov.uscourts.moed.232176/gov.uscourts.moed.232176.1.0.pdf"
+        },
+        {
+          "title": "North American Derivatives Exchange, Inc. v. Hanaway et al. (W.D. Mo., No. 4:2026cv00969)",
+          "url": "https://dockets.justia.com/docket/missouri/mowdce/4:2026cv00969/196376"
+        },
+        {
+          "title": "Missouri Attorney General Hanaway Orders Unlicensed Prediction Markets To Cease And Desist Unlawful Sports Wagering",
+          "url": "https://ago.mo.gov/missouri-attorney-general-hanaway-orders-unlicensed-prediction-markets-to-cease-and-desist-unlawful-sports-wagering/"
+        }
+      ]
+    },
     {
       "slug": "2026-10-16-crypto-news-dcc424711d",
       "date_kst": "2026-10-16",
