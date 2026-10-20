@@ -1,7 +1,41 @@
 {
   "schema_version": "1.0",
-  "generated_at_kst": "2026-10-19T10:15:14+09:00",
+  "generated_at_kst": "2026-10-20T10:36:44+09:00",
   "items": [
+    {
+      "slug": "2026-10-20-crypto-news-f4533d87b9",
+      "date_kst": "2026-10-20",
+      "title": "JPMorgan Issues JPM Coin Deposit Token on Ethereum...24/7 Transfers Among Approved Institutions",
+      "content": "Kinexys, the blockchain unit of US bank JPMorgan, said on October 19 that it had issued its dollar deposit token JPM Coin (JPMD) on Ethereum. The token was first launched in November 2025 on Base, the Ethereum Layer 2 network created by Coinbase, and has now been extended to the Ethereum mainnet.\nJPM Coin records dollar deposits held in JPMorgan bank accounts as tokens on a blockchain. Participating institutions can deposit dollars into a Blockchain Deposit Account (BDA), convert them into tokens and redeem them for dollars at any time. The company said the token is neither a crypto asset nor a stablecoin and that the funds do not leave the bank's regulated infrastructure. The expansion allows institutional clients to use JPM Coin on Ethereum, in addition to Base, to send funds to other approved institutions.\nJPM Coin is not open to everyone. Although it operates on public blockchains, only counterparties that have passed screening and received approval can transact, and JPMorgan makes the final decision on eligibility. Transfers within the network are available around the clock throughout the year and settle on the same day. However, transfers between conventional demand deposit accounts and Blockchain Deposit Accounts are suspended every Saturday from 3 p.m. to 6 p.m. Eastern Standard Time. The company listed cross-border payments, intraday liquidity transfers, collateral for securities transactions and programmed payments as use cases.",
+      "metanomia_thought": "JPMorgan is keeping deposits inside the bank while extending the environment in which that money can be used to Ethereum. It is making bank deposits available as a settlement asset when institutions trade tokenized assets, while retaining direct control over customer screening and dollar redemption. This connects demand for transactions on public blockchains with the bank's deposit business.",
+      "sources": [
+        {
+          "title": "JPM Coin goes live on Ethereum, extending institutional finance reach on second public blockchain",
+          "url": "https://www.jpmorgan.com/payments/newsroom/jpm-coin-live-on-ethereum"
+        },
+        {
+          "title": "JPM Coin: Bank-Backed USD Deposit Token from Kinexys by J.P. Morgan",
+          "url": "https://www.jpmorgan.com/kinexys/jpm-coin"
+        }
+      ]
+    },
+    {
+      "slug": "2026-10-20-crypto-news-1eecf27781",
+      "date_kst": "2026-10-20",
+      "title": "Mastercard Unveils Stablecoin Payment Risk Screening...Risk Scores Before Payments Are Completed",
+      "content": "Mastercard unveiled Stablecoin Security, a service for assessing risks in stablecoin payments, at Money20/20 USA in Las Vegas on October 19. The service is designed to help financial institutions identify fraud and sanctions risks in stablecoin payments before funds move onto a blockchain.\nMastercard cited the complexity of stablecoin transaction flows as the reason for introducing the service. According to a study published by the Bank for International Settlements (BIS) and highlighted by the company, about 60% of transfers involving three major stablecoins on Ethereum in 2025 were part of complex, multistage transactions. The finding suggests that institutions need to examine not only individual transfers but also the broader context in which transactions occur.\nThe service combines Mastercard's payment data with blockchain analytics to generate risk signals. It analyzes transaction context, the source of funds, links to sanctioned entities and indications of fraud to produce a risk score before a payment is completed. Financial institutions can connect this information to their existing fraud prevention and compliance operations through an application programming interface (API), using it to decide whether to proceed with a payment or conduct further review.\nThe first partners are Borderless.xyz, which connects licensed stablecoin providers across more than 113 countries, and Keyrails, which supports trade payments in emerging markets. The service will launch first in North America, with global commercial availability expected in 2027. Mastercard said it also plans to expand coverage in 2027 through stablecoin infrastructure provider BVNK, which it acquired in August 2026. The announcement did not disclose service pricing or the methodology used to calculate risk scores.",
+      "metanomia_thought": "Even when the payment instrument changes, institutions still need information to assess the source of funds and the parties to a transaction. Mastercard is seeking to extend the risk management capabilities it developed in card payments to stablecoin payments. The card network operator is broadening its customer reach by connecting a new payment instrument to banks' existing operations.",
+      "sources": [
+        {
+          "title": "Mastercard introduces risk intelligence to enable more secure stablecoin payments",
+          "url": "https://www.mastercard.com/us/en/news-and-trends/press/2026/october/Mastercard-brings-risk-intelligence-to-stablecoin-payments.html"
+        },
+        {
+          "title": "The anatomy of stablecoin transactions (BIS Working Paper No 1359)",
+          "url": "https://www.bis.org/publications/working-paper-1359-anatomy-stablecoin-transactions"
+        }
+      ]
+    },
     {
       "slug": "2026-10-19-crypto-news-db9d1ebcb4",
       "date_kst": "2026-10-19",
