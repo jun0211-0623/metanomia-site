@@ -1,7 +1,28 @@
 {
   "schema_version": "1.0",
-  "generated_at_kst": "2026-10-20T10:36:44+09:00",
+  "generated_at_kst": "2026-10-21T10:09:26+09:00",
   "items": [
+    {
+      "slug": "2026-10-21-crypto-news-ff906085cd",
+      "date_kst": "2026-10-21",
+      "title": "FINMA Approves Switzerland's First Retail Bitcoin ETF...Grants Diversification Exemption",
+      "content": "The Swiss Financial Market Supervisory Authority (FINMA) approved Switzerland's first exchange-traded fund (ETF) for retail investors that invests directly in Bitcoin on October 20. BIT Asset Management said its approved Bitcoin Fund ETF, ticker BBIT, is currently Europe's only spot Bitcoin ETF.\nExchange-traded products (ETPs) backed by crypto assets have already traded on the SIX Swiss Exchange. However, those ETPs are collateralized debt securities and have a different legal structure from funds that pool and manage investors' money. The crypto asset fund FINMA approved in 2021 was restricted to qualified investors, while this approval permits a fund aimed at ordinary retail investors.\nTaking into account Bitcoin's long trading history and high trading volume, FINMA granted an exemption from diversification rules so the fund can concentrate its investments in Bitcoin. Supervised institutions must take measures to reduce risks in asset custody and operations. Distribution is subject to the conduct rules under the Swiss Financial Services Act (FinSA), and the fund documents must clearly explain the risks.\nFINMA emphasized that despite these safeguards, Bitcoin price volatility could still cause the value of investors' holdings to fall sharply. BIT Asset Management said it expects the fund to begin trading on SIX in November.",
+      "metanomia_thought": "Switzerland has brought retail demand for Bitcoin exposure within its fund regulations. It has permitted concentrated investment as an exception while keeping responsibility for managing and explaining the risks within the financial rulebook. By connecting retail demand for Bitcoin exposure to a fund, it is also widening the channel through which financial firms can manage, custody and distribute Bitcoin products.",
+      "sources": [
+        {
+          "title": "FINMA approves Switzerland’s first Bitcoin ETF",
+          "url": "https://www.finma.ch/en/news/2026/10/20261020-mm-finma-bitcoin-etf/"
+        },
+        {
+          "title": "Exchange Traded Products: ETP trading with SIX",
+          "url": "https://www.six-group.com/en/products-services/the-swiss-stock-exchange/trading/markets/etps.html"
+        },
+        {
+          "title": "BIT Asset Management Receives FINMA Approval for Switzerland's First and Europe's Only Spot Bitcoin ETF",
+          "url": "https://www.bit.com/pressroom/btc-etf"
+        }
+      ]
+    },
     {
       "slug": "2026-10-20-crypto-news-f4533d87b9",
       "date_kst": "2026-10-20",
