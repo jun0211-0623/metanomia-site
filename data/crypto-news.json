@@ -1,7 +1,29 @@
 {
   "schema_version": "1.0",
-  "generated_at_kst": "2026-10-20T10:36:44+09:00",
+  "generated_at_kst": "2026-10-21T10:09:26+09:00",
   "items": [
+    {
+      "id": "crypto-news-ff906085cdce49f7",
+      "slug": "2026-10-21-crypto-news-ff906085cd",
+      "date_kst": "2026-10-21",
+      "title": "스위스 FINMA, 비트코인 직접 투자 첫 개인투자자용 ETF 승인…분산투자 규정 예외",
+      "content": "스위스 금융시장감독청(FINMA)이 10월 20일 비트코인에 직접 투자하는 개인투자자용 상장지수펀드(ETF)를 스위스에서 처음 승인했다. BIT 자산운용(BIT Asset Management)은 승인받은 자사의 ‘비트코인 펀드 ETF(Bitcoin Fund ETF·티커 BBIT)’가 현재 유럽에서 유일한 비트코인 현물 ETF라고 밝혔다.\n스위스 증권거래소(SIX)에서는 이미 가상자산을 기초자산으로 한 상장지수상품(ETP)이 거래돼 왔다. 다만 이들 ETP는 담보를 갖춘 채무증권으로, 투자자의 자금을 모아 운용하는 펀드와 법적 구조가 다르다. FINMA가 2021년 승인한 가상자산 펀드는 적격투자자 전용이었지만, 이번에는 일반 개인투자자를 대상으로 하는 펀드를 허용했다.\nFINMA는 비트코인의 긴 거래 이력과 높은 거래량을 고려해, 이번 펀드가 비트코인에 집중 투자할 수 있도록 분산투자 규정의 예외를 허용했다. 감독 대상 기관은 자산 보관과 운영 과정의 위험을 줄이는 조치를 취해야 한다. 판매 과정에는 스위스 금융서비스법(FinSA)의 영업행위 규칙이 적용되며, 펀드 문서에도 위험을 명확히 설명해야 한다.\nFINMA는 이런 보호 장치가 있어도 비트코인의 가격 변동으로 투자금 가치가 크게 떨어질 수 있다고 강조했다. BIT 자산운용은 이 펀드가 11월 SIX에서 거래를 시작할 것으로 예상한다고 밝혔다.",
+      "metanomia_thought": "스위스는 개인투자자의 비트코인 투자 수요를 펀드 규정 안으로 들였습니다. 집중 투자를 예외로 허용하되, 위험을 관리하고 설명할 책임은 금융 규칙 안에 두었습니다. 개인투자자의 비트코인 투자 수요를 펀드로 연결하면서 금융회사들이 비트코인 상품의 운용·보관·판매를 맡을 통로도 넓히는 방식입니다.",
+      "sources": [
+        {
+          "title": "FINMA approves Switzerland’s first Bitcoin ETF",
+          "url": "https://www.finma.ch/en/news/2026/10/20261020-mm-finma-bitcoin-etf/"
+        },
+        {
+          "title": "Exchange Traded Products: ETP trading with SIX",
+          "url": "https://www.six-group.com/en/products-services/the-swiss-stock-exchange/trading/markets/etps.html"
+        },
+        {
+          "title": "BIT Asset Management Receives FINMA Approval for Switzerland's First and Europe's Only Spot Bitcoin ETF",
+          "url": "https://www.bit.com/pressroom/btc-etf"
+        }
+      ]
+    },
     {
       "id": "crypto-news-f4533d87b9f53c0e",
       "slug": "2026-10-20-crypto-news-f4533d87b9",
