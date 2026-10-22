@@ -1,7 +1,66 @@
 {
   "schema_version": "1.0",
-  "generated_at_kst": "2026-10-21T10:09:26+09:00",
+  "generated_at_kst": "2026-10-22T10:28:16+09:00",
   "items": [
+    {
+      "slug": "2026-10-22-crypto-news-fc1cf9d953",
+      "date_kst": "2026-10-22",
+      "title": "OCC Finalizes GENIUS Act Stablecoin Rule...Third-Party Rewards to Be Assessed Case by Case",
+      "content": "The US Office of the Comptroller of the Currency (OCC), the country's bank supervisory agency, issued a final rule on October 21 to implement the stablecoin law known as the GENIUS Act. The final rule and the GENIUS Act will take effect together on January 18, 2027.\nThe rule applies to OCC-supervised payment stablecoin issuers, certain foreign issuers and some custody activities. It establishes requirements for redemption reserve assets, risk management, audits and reporting, and capital. As a general rule, an issuer must initiate the transfer of redemption proceeds or credit the amount to a customer account with the issuer within two business days after receiving a redemption request that meets necessary requirements, including customer identification.\nThe prohibition on issuers paying interest or yield solely in exchange for holding, using or maintaining a stablecoin remains in place. Issuers also may not circumvent this prohibition by effectively paying interest through a third party.\nWhat changed is the method for assessing rewards paid by affiliates or related third parties. The proposed rule issued in February would have initially treated rewards paid under certain arrangements between issuers and those parties as interest paid by the issuer. To rebut that determination, the issuer would have had to provide evidence that the reward was not its own interest payment. The final rule removed this presumption. Instead of adopting a uniform list of permitted or prohibited examples, the OCC will apply the statutory language to the actual terms of each arrangement.\nAnti-money laundering and sanctions provisions will be developed separately in consultation with the Treasury Department. The OCC will also announce in a separate press release when it will begin accepting charter applications and exemption requests.",
+      "metanomia_thought": "Benefits attached to stablecoins can influence which coins users keep, where they hold them and how they use them. Issuers still may not circumvent the interest ban through third parties such as exchanges or wallet providers, but they retain room to design partnership benefits within the limits of the law. If such partnerships deliver benefits to users, issuers can broaden distribution and use cases while partners attract transactions and customer balances. In stablecoin competition, the choice of partners and benefits could become an important variable.",
+      "sources": [
+        {
+          "title": "OCC Advances U.S. Digital Asset Leadership with Final Rule to Implement GENIUS Act",
+          "url": "https://occ.gov/news-issuances/news-releases/2026/nr-occ-2026-92.html"
+        },
+        {
+          "title": "GENIUS Act Regulations: Final Rule (Bulletin 2026-50)",
+          "url": "https://occ.gov/news-issuances/bulletins/2026/bulletin-2026-50.html"
+        },
+        {
+          "title": "GENIUS Act 최종규칙 전문",
+          "url": "https://occ.gov/news-issuances/news-releases/2026/nr-occ-2026-92a.pdf"
+        }
+      ]
+    },
+    {
+      "slug": "2026-10-22-crypto-news-dc3d5f2c5f",
+      "date_kst": "2026-10-22",
+      "title": "Solana Activates Alpenglow on Mainnet...Targets 150-Millisecond Transaction Finality",
+      "content": "Anza, a core developer of Solana, announced on October 21 that the new Alpenglow consensus protocol is live on mainnet. Its goal is to reduce the delay between a block being proposed and becoming final to about 150 milliseconds, or 0.15 seconds.\nConfirmation that a transaction has been processed in a block is different from finality, when the network can no longer reverse it. Under the previous system, validator votes were recorded in blocks like transactions, and finality was established by checking votes accumulated across several subsequent blocks. Alpenglow is designed to reduce the wait for finality by having validators exchange votes directly and produce proof that sufficient agreement has been reached. Anza said the consensus mechanism was changed on the live network while preserving the existing transaction ledger.\nThe Solana Foundation said the roughly 150-millisecond figure is an expectation based on the stake distribution used in testing, not a guarantee. Actual finality times will depend on validators' stake distribution, network latency and whether voting concludes in one round or requires two. The public materials did not provide a distribution of finality times measured on the production network after the transition.\nThe way ordinary users sign and submit transactions has not changed. The transition changes the procedure for agreeing on transaction order and finality, not the way transactions are executed.",
+      "metanomia_thought": "For payment and trading services that transfer assets only after finality, confirmation speed also affects when the next transaction can begin. If Alpenglow achieves its target, it could reduce the burden services face when deciding whether to recognize deposits and payments before finality or wait until final confirmation. How much actual payment and deposit times improve will also depend on each service's processing practices.",
+      "sources": [
+        {
+          "title": "Alpenglow is Live on Solana: The World's Fastest Finality on a Global Network",
+          "url": "https://www.prnewswire.com/news-releases/alpenglow-is-live-on-solana-the-worlds-fastest-finality-on-a-global-network-302915579.html"
+        },
+        {
+          "title": "Alpenglow",
+          "url": "https://solana.com/upgrades/alpenglow"
+        }
+      ]
+    },
+    {
+      "slug": "2026-10-22-crypto-news-b40c3cf922",
+      "date_kst": "2026-10-22",
+      "title": "Standard Chartered Agrees to Acquire 100% of Digital Asset Custodian Zodia Custody...Subject to Regulatory Approval",
+      "content": "UK bank Standard Chartered announced on October 21 that it had signed definitive agreements to acquire 100% of digital asset custodian Zodia Custody. The non-binding proposal accepted by shareholders and bondholders in May has advanced to a definitive agreement. Completion remains subject to regulatory approvals and customary closing conditions.\nZodia is an institutional custodian backed by Standard Chartered's venture arm, SC Ventures. Digital asset custody involves safeguarding customers' digital assets and managing withdrawals and transfers on their instructions. After the transaction closes, Zodia's custody business will be integrated with the existing digital asset custody operations of Standard Chartered's Securities Services division. The bank said its goal is to offer institutional clients combined securities services for traditional and digital assets.\nThe software and professional services businesses will be separated into a new company, Zodia Solutions, to be established under SC Ventures. It is expected to provide technology for operating digital asset services to financial institutions, including Standard Chartered.\nThe company said existing Zodia clients will continue to receive custody services as they do today and that no service disruption is expected as a result of the transaction. The announcement did not disclose the acquisition price or an expected closing date.",
+      "metanomia_thought": "Standard Chartered is seeking to connect institutional demand for digital asset custody with its existing securities services. It plans to integrate the custody business into the bank while supplying the underlying technology to other financial institutions through a separate company. The structure treats both institutions that directly entrust digital assets and financial firms seeking to build custody services as customers of distinct businesses.",
+      "sources": [
+        {
+          "title": "Standard Chartered signs definitive agreements to acquire Zodia Custody",
+          "url": "https://www.sc.com/En/press-release/t/"
+        },
+        {
+          "title": "Standard Chartered to acquire Zodia Custody’s custody business",
+          "url": "https://www.sc.com/en/press-release/standard-chartered-to-acquire-zodia-custodys-custody-business/"
+        },
+        {
+          "title": "Custody Policy",
+          "url": "https://zodia-custody.com/custody-policy/"
+        }
+      ]
+    },
     {
       "slug": "2026-10-21-crypto-news-ff906085cd",
       "date_kst": "2026-10-21",
