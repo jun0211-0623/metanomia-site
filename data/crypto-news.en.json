@@ -1,7 +1,74 @@
 {
   "schema_version": "1.0",
-  "generated_at_kst": "2026-10-22T10:28:16+09:00",
+  "generated_at_kst": "2026-10-23T09:06:43+09:00",
   "items": [
+    {
+      "slug": "2026-10-23-crypto-news-ed04767ef5",
+      "date_kst": "2026-10-23",
+      "title": "Central Bank of Ireland Reaches EUR 3.25 Million Settlement with Coinbase Ireland...Customer Funds Safeguarding Breaches",
+      "content": "The Central Bank of Ireland announced on October 22 that it had reached a settlement with Coinbase Ireland involving a fine of EUR 3,252,618 and a reprimand for breaches of customer funds safeguarding and outsourcing management obligations. The company admitted the breaches, and the sanctions will take effect after confirmation by the High Court.\nCoinbase Ireland is an electronic money institution that accepts fiat currency deposited by customers, provides balances that can be used to purchase digital assets on the group's trading platform and converts those balances back into fiat currency. The case concerns the obligation to segregate and protect customer money received in this process from the funds of the company or other entities. The required amount must be held in a separate bank account so that customers can be repaid even if the company becomes insolvent.\nThe Central Bank said the company had delegated customer funds calculations and the management of safeguarding accounts to a US group entity without maintaining sufficient local staff and expertise to oversee the work. Calculation errors led to continuing shortfalls in the amount required in safeguarding accounts, with the largest one-day shortfall in 2024 reaching EUR 5.2 million. The regulator also found that the company had changed the safeguarding arrangements described when it was authorized, including initially receiving money from some institutional customers into accounts held in the names of other group entities, without notifying the authority.\nThe breaches occurred from November 1, 2020, through August 19, 2025. The settlement notice said there was no evidence of actual customer loss, but customers could have been at risk of not recovering all their money if the company had become insolvent during the period. The fine reflects a 30% settlement discount.",
+      "metanomia_thought": "A trading app may appear unified, but the entities that receive and hold customer money, and their respective responsibilities, remain separate. Even when a company shares systems with an overseas group, responsibility for segregating and verifying the money owed to customers remains with the locally authorized entity. The more seamlessly a platform presents a single customer interface, the more closely regulators examine whether the boundaries between each entity's funds are also maintained in actual operations.",
+      "sources": [
+        {
+          "title": "The Central Bank takes enforcement action against Coinbase Ireland",
+          "url": "https://www.centralbank.ie/news/article/press-release-central-bank-takes-enforcement-action-against-coinbase-ireland-22-october-2026"
+        },
+        {
+          "title": "Settlement Notice: Coinbase Ireland Limited (pending High Court approval)",
+          "url": "https://www.centralbank.ie/docs/default-source/news-and-media/legal-notices/settlement-agreements/the-central-bank-takes-enforcement-action-against-coinbase-ireland-%28pending-high-court-approval%29.pdf"
+        }
+      ]
+    },
+    {
+      "slug": "2026-10-23-crypto-news-dbf409a0b4",
+      "date_kst": "2026-10-23",
+      "title": "J.P. Morgan Asset Management Expands Two Tokenized Money Market Funds to Solana...Subscriptions and Redemptions Through Morgan Money",
+      "content": "J.P. Morgan Asset Management announced on October 22 that two of its tokenized money market funds are now also available on the Solana blockchain. The funds are My OnChain Net Yield Fund, or MONY, and JPMorgan OnChain Liquidity-Token Money Market Fund, or JLTXX, and are offered to eligible investors in the United States. The company described the expansion as serving stablecoin issuers and institutional investors operating across multiple blockchains.\nA money market fund invests in short-term financial instruments such as government securities. MONY is available to investors eligible to invest in a private fund. JLTXX is a US-registered money market fund that invests in assets including US Treasury securities and is designed to help stablecoin issuers manage funds in accordance with the GENIUS Act's reserve asset requirements. JLTXX was first launched on Ethereum in May.\nInvestors subscribe and redeem through the company's Morgan Money liquidity management platform and receive a token balance representing fund shares at their blockchain address. Eligibility restrictions remain in place despite the use of a public blockchain, and JLTXX may be held only at preapproved wallet addresses. Legal ownership of JLTXX shares is determined by the fund's official shareholder register, not the token balance on the blockchain. A token representing a fund share is different from a dollar payment stablecoin.\nBoth funds seek to maintain a price of USD 1 per share, but this is not guaranteed. They are not bank deposits and are not insured by the US Federal Deposit Insurance Corporation.",
+      "metanomia_thought": "Cash awaiting deployment by institutions and the reserve assets of stablecoin issuers are also markets for asset managers. J.P. Morgan Asset Management is extending access to its funds onto the blockchains its clients use, seeking to connect those assets to its own products and management fees. The strategy gives clients more choice of blockchain while preserving the asset-management relationship.",
+      "sources": [
+        {
+          "title": "J.P. Morgan Asset Management Expands Access to Its Tokenized Money Market Funds on Solana",
+          "url": "https://www.prnewswire.com/news-releases/jp-morgan-asset-management-expands-access-to-its-tokenized-money-market-funds-on-solana-302917188.html"
+        },
+        {
+          "title": "J.P. Morgan Asset Management Launches Second Tokenized Money Market Fund on Ethereum",
+          "url": "https://am.jpmorgan.com/us/en/asset-management/institutional/about-us/media/press-releases/jp-morgan-asset-management-launches-second-tokenized-fund-on-ethereum/"
+        },
+        {
+          "title": "JPMorgan OnChain Liquidity–Token Money Market Fund — Prospectus",
+          "url": "https://www.sec.gov/Archives/edgar/data/1659326/000119312526353379/d127628d497.htm"
+        },
+        {
+          "title": "JPMorgan OnChain Liquidity–Token Money Market Fund — Supplement",
+          "url": "https://www.sec.gov/Archives/edgar/data/1659326/000119312526410014/d172947d497.htm"
+        }
+      ]
+    },
+    {
+      "slug": "2026-10-23-crypto-news-6f3a99bc6a",
+      "date_kst": "2026-10-23",
+      "title": "SoFi Launches Tokenized Deposit for Consumers...4.40% APY and 1:1 Conversion to SoFiUSD",
+      "content": "US fintech company SoFi Technologies announced on October 22 the launch of SoFi Earn, or SOFIE, a tokenized deposit product for individual customers. The product allows customers to hold money intended for digital asset trading in an interest-bearing bank deposit and convert it into a stablecoin when needed. It will be rolled out to SoFi Crypto users through November.\nEach SOFIE represents USD 1 deposited at SoFi Bank. It is a tokenized representation of a deposit that the bank owes to the customer and is different from a payment stablecoin. As of October 20, the annual percentage yield was 4.40%. The rate is variable and may change at the bank's discretion. There is no minimum balance requirement.\nUsers can convert SOFIE one for one into SoFi's US dollar stablecoin, SoFiUSD, or SOFID, to purchase digital assets in the app or send funds to supported external wallets around the clock. SOFIE itself remains within SoFi, while external transfers are made using the converted SoFiUSD. Amounts converted into SoFiUSD no longer receive SOFIE deposit interest or deposit insurance.\nSOFIE is eligible for deposit insurance, but it shares the insurance limit with a customer's existing SoFi Bank deposits. Checking, savings and SOFIE balances held in the same individual ownership category are protected up to a combined total of USD 250,000 per person.",
+      "metanomia_thought": "Money waiting to purchase digital assets is a bank deposit from the bank's perspective and a customer touchpoint for a trading service. SoFi links an interest-bearing deposit with a stablecoin that can move outside the app, encouraging customers to leave funds on the platform while they wait to trade. It preserves the legal distinction between a deposit and a stablecoin while extending the customer journey from holding funds to trading and transferring them.",
+      "sources": [
+        {
+          "title": "SoFi Launches SoFi Earn (SOFIE), the First and Only National Bank-Issued Tokenized Deposit for Consumers",
+          "url": "https://www.businesswire.com/news/home/20261022620842/en/"
+        },
+        {
+          "title": "SoFi Digital Money: Earn 4.40% APY on Idle Funds",
+          "url": "https://www.sofi.com/crypto/earn/"
+        },
+        {
+          "title": "Is my SoFi Earn FDIC insured?",
+          "url": "https://support.sofi.com/hc/en-us/articles/is-my-sofi-earn-fdic-insured"
+        },
+        {
+          "title": "Does SoFiUSD earn interest or come with FDIC insurance?",
+          "url": "https://support.sofi.com/hc/en-us/articles/does-sofiusd-earn-interest-or-come-with-fdic-insurance"
+        }
+      ]
+    },
     {
       "slug": "2026-10-22-crypto-news-fc1cf9d953",
       "date_kst": "2026-10-22",
