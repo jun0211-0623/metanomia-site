@@ -592,6 +592,14 @@
     "2026-10-23-crypto-news-6f3a99bc6a": {
       "source_hash": "eb983933a7293536d9cefddf427c1f774a260b7b2385dbc65513ccc491d14be0",
       "english_hash": "e25fbc0e7c8060fefdc5e5f52d5cdb203b9c49034d991c65e57bea58542bf9fb"
+    },
+    "2026-10-26-crypto-news-e604620ad0": {
+      "source_hash": "21847eb61ffdb1b1455c2f32cc68535c63aedebbdea8944318352a3a64656415",
+      "english_hash": "e86e232503dcad773ac257c9629f2d3b59461779c1d976d53ad68926ecc0262d"
+    },
+    "2026-10-26-crypto-news-b905b72f79": {
+      "source_hash": "b2af2b59e59c7755332125406de392e36c447467f15e7ba3ead83774ceb44937",
+      "english_hash": "751ff12e1a6b8481fe65330bb0e9477746d2456dd6ea88a00699fda9c0f427c8"
     }
   }
 }

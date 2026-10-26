@@ -1,7 +1,49 @@
 {
   "schema_version": "1.0",
-  "generated_at_kst": "2026-10-23T09:06:43+09:00",
+  "generated_at_kst": "2026-10-26T09:58:30+09:00",
   "items": [
+    {
+      "slug": "2026-10-26-crypto-news-e604620ad0",
+      "date_kst": "2026-10-26",
+      "title": "HSBC Launches Hong Kong Dollar Stablecoin ‘RedCoin’ for 3.3 Million PayMe Users",
+      "content": "HSBC launched RedCoin (HSBC RedCoin, or RCHKD), a stablecoin pegged to the Hong Kong dollar, in its PayMe payment app on October 23. The product was launched after HSBC received a stablecoin issuer licence from the Hong Kong Monetary Authority (HKMA).\nHSBC said it will gradually make an in-app RedCoin wallet available to more than 3.3 million existing PayMe users. Users can convert their Hong Kong dollar balance in PayMe into RedCoin at a one-to-one rate, send it to contacts, or use it to pay at more than 100,000 PayMe merchants. If a recipient prefers fiat currency, HSBC converts the RedCoin into the payment currency, such as Hong Kong dollars, before making the payment.\nRedCoin is issued on HSBC’s proprietary blockchain, and HSBC holds customers’ coins in custody. The bank said the full amount in circulation is backed by segregated, high-quality and highly liquid reserve assets and can be redeemed one-to-one for Hong Kong dollars in accordance with the terms. Unlike a bank deposit, RedCoin does not earn interest and is not protected by Hong Kong’s Deposit Protection Scheme. According to the white paper, there are currently no fees for purchase, redemption, transfer, or merchant payments, although the fees may change after notice is given.\nHSBC plans to add a RedCoin wallet to its Hong Kong mobile banking app by the end of the year. It also plans to allow customers to use RedCoin to subscribe to investment products, including tokenized interests in its Hong Kong dollar money market fund. Transfers of RedCoin between the wallets in the two apps are not currently supported.",
+      "metanomia_thought": "Stablecoins become more useful when they are connected to the apps and merchant networks that customers already use. HSBC is embedding RedCoin in PayMe’s payment touchpoints and plans to connect it next to subscriptions for its own investment products. By handling both issuance and distribution, HSBC is seeking to keep customers’ flow of funds—from payments to investment—within its own services.",
+      "sources": [
+        {
+          "title": "HSBC RedCoin launches today",
+          "url": "https://www.about.hsbc.com.hk/news-and-media/hsbc-redcoin-launches-today"
+        },
+        {
+          "title": "Hong Kong Dollar Stablecoin | HSBC RedCoin",
+          "url": "https://www.hsbc.com.hk/stablecoins/"
+        },
+        {
+          "title": "HSBC RedCoin Terms",
+          "url": "https://www.hsbc.com.hk/content/dam/hsbc/hk/docs/mobile/stablecoin-terms.pdf"
+        },
+        {
+          "title": "White Paper for HSBC RedCoin — 23 October 2026",
+          "url": "https://www.hsbc.com.hk/content/dam/hsbc/hk/docs/mobile/stablecoin-whitepaper.pdf"
+        }
+      ]
+    },
+    {
+      "slug": "2026-10-26-crypto-news-b905b72f79",
+      "date_kst": "2026-10-26",
+      "title": "Bank Negara Malaysia and Bank of Thailand Join MAS’s BLOOM for Cross-Border Digital Money Settlement",
+      "content": "The Monetary Authority of Singapore (MAS) announced on October 23 that Bank Negara Malaysia (BNM) and the Bank of Thailand (BOT) have joined BLOOM as policy authority members. BLOOM is a public-private initiative for cross-border settlement using digital money, including tokenized deposits and regulated stablecoins. The three authorities will work with industry participants in their respective jurisdictions to develop common approaches for accepting, exchanging, and settling different forms of digital money across institutions, networks, and borders.\nMAS launched BLOOM on October 16, 2025. The initiative builds on Project Orchid, which examined use cases for a digital Singapore dollar and the infrastructure needed to support them. The expanded participation also includes Mastercard, Maybank, Ripple, Visa, and the World Bank Group.\nThe areas of collaboration include accepting multiple forms of digital money and completing final settlement in cross-border transactions, connecting different systems through interoperability, and applying programmable safeguards to transactions. The safeguards include identity checks, sanctions screening, and transaction controls. The work will consider how relevant international standards and domestic supervisory requirements should apply while recognizing that requirements differ across jurisdictions.\nMAS said the goal is to establish a common implementation framework and align transaction and operational requirements, reducing the burden on financial institutions of making separate arrangements for every counterparty or market. The central banks’ participation will also bring public-policy and regulatory considerations into the development process.",
+      "metanomia_thought": "For tokenized money to work across borders, participants first need to agree on what counterparties will accept and the conditions under which settlement is final. BLOOM brings central banks together with banks and payment companies to develop these connection rules. A common approach could reduce the burden on financial institutions of negotiating separately with every counterparty and integrating each system, while allowing them to expand corporate payment and trade-finance services.",
+      "sources": [
+        {
+          "title": "MAS, Bank Negara Malaysia and Bank of Thailand Partner with Industry to Advance Cross-Border Settlement in Digital Money through BLOOM",
+          "url": "https://www.mas.gov.sg/news/media-releases/2026/mas-bnm-and-bot-partner-with-industry-to-advance-cross-border-settlement-in-digital-money"
+        },
+        {
+          "title": "MAS Launches BLOOM Initiative to Extend Settlement Capabilities",
+          "url": "https://www.mas.gov.sg/news/media-releases/2025/mas-launches-bloom-initiative-to-extend-settlement-capabilities"
+        }
+      ]
+    },
     {
       "slug": "2026-10-23-crypto-news-ed04767ef5",
       "date_kst": "2026-10-23",
