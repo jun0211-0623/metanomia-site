@@ -1,7 +1,41 @@
 {
   "schema_version": "1.0",
-  "generated_at_kst": "2026-10-26T09:58:30+09:00",
+  "generated_at_kst": "2026-10-27T10:20:30+09:00",
   "items": [
+    {
+      "slug": "2026-10-27-crypto-news-adc7d2acaa",
+      "date_kst": "2026-10-27",
+      "title": "Aviva Investors Adds Tokenized Share Class to Sterling Money Market Fund on the XRP Ledger",
+      "content": "Aviva Investors, the asset management arm of UK insurer Aviva, announced with Ripple on October 26 that it has added a tokenized share class to its existing sterling money market fund (MMF). The new share class is available on the XRP Ledger (XRPL). The existing fund as a whole manages approximately £22 billion, and Aviva invested £50 million in the new share class.\nAn MMF invests in short-term financial instruments to manage cash. The fund is domiciled in Ireland and complies with the European Union’s UCITS framework for publicly offered funds. It invests in high-quality, short-term sterling debt securities and aims to meet investors’ redemption requests on a daily basis.\nThe company said it used a ‘digital twin’ model that records share ownership on a blockchain while preserving the fund’s existing structure. Its investment objective, risk level, liquidity profile, and regulatory protections remain the same as those of the existing fund. The fund’s assets are held by its custodian, The Bank of New York Mellon.\nThe new share class is available to eligible investors with digital wallets. Digital asset custodian Komainu and tokenization platform Licuido supported the launch. This is Aviva Investors’ second tokenization of an existing fund, following a US dollar liquidity fund in July.",
+      "metanomia_thought": "The assets held by a fund do not need to change for the channel through which investors hold its shares to change. Aviva has preserved the existing MMF’s investment-management and custody structure while adding digital wallets as a new access point. It is a way to connect digital-wallet users to an existing fund while maintaining the relationship through which Aviva manages their assets.",
+      "sources": [
+        {
+          "title": "Aviva Investors expands its tokenised offering with the launch of a Sterling Liquidity Fund tokenised share class",
+          "url": "https://www.avivainvestors.com/en-gb/about/company-news/2026/10/aviva-investors-launches-tokenised-share-class-for-sterling-liquidity-fund/"
+        }
+      ]
+    },
+    {
+      "slug": "2026-10-27-crypto-news-a8da0306f5",
+      "date_kst": "2026-10-27",
+      "title": "NBA Signs Prediction-Market Information-Sharing MOU with CFTC and Names Kalshi and Polymarket Preferred Exchanges",
+      "content": "The National Basketball Association (NBA) announced on October 26 that it had signed a memorandum of understanding (MOU) with the US Commodity Futures Trading Commission (CFTC) concerning prediction markets and designated Kalshi and Polymarket as the league’s ‘preferred prediction market exchanges.’ Event contracts pay according to the outcome of a specified event, such as the result of a game. The NBA entered into separate agreements to share information with the regulator and to establish operating terms and commercial partnerships with the exchanges.\nThe MOU with the CFTC provides for regular communication and information sharing to protect the integrity of games and maintain fair and transparent prediction markets. CFTC Commissioner Michael S. Selig described the agreement as a step to protect game integrity and market participants from abuses such as insider trading and fraud.\nThe NBA’s agreements with Kalshi and Polymarket limit the markets that may be offered, prohibit league and team personnel from trading NBA event contracts, and require information sharing concerning investigations and suspicious trading. The two exchanges receive rights to use NBA intellectual property and conduct marketing in the United States. They will also receive official game data through sports-data provider Sportradar for the operation and settlement of approved markets.\nThe NBA also expanded its existing partnership with DraftKings to include prediction markets. The league plans to add other partners in the future and said they will be subject to prediction-market obligations and market restrictions consistent with the NBA’s sports-betting standards.",
+      "metanomia_thought": "In prediction markets, fandom becomes a customer base and game data becomes an input for operating financial products. The NBA is providing exchanges with official data and brand rights while making limits on permitted markets and trading by league personnel part of the partnership terms. The commercial partnership connects fan interest to prediction trading while also attaching conditions intended to protect the integrity of the games.",
+      "sources": [
+        {
+          "title": "CFTC and National Basketball Association Sign MOU to Protect Integrity in Professional Basketball",
+          "url": "https://www.cftc.gov/PressRoom/PressReleases/9314-26"
+        },
+        {
+          "title": "NBA establishes integrity framework and commercial partnerships for prediction markets",
+          "url": "https://www.nba.com/news/nba-establishes-integrity-framework-and-commercial-partnerships-for-prediction-markets"
+        },
+        {
+          "title": "Understanding Prediction Markets and Event Contracts",
+          "url": "https://www.cftc.gov/LearnandProtect/PredictionMarkets"
+        }
+      ]
+    },
     {
       "slug": "2026-10-26-crypto-news-e604620ad0",
       "date_kst": "2026-10-26",
