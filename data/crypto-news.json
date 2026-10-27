@@ -1,7 +1,43 @@
 {
   "schema_version": "1.0",
-  "generated_at_kst": "2026-10-26T09:58:30+09:00",
+  "generated_at_kst": "2026-10-27T10:20:30+09:00",
   "items": [
+    {
+      "id": "crypto-news-adc7d2acaa5eb614",
+      "slug": "2026-10-27-crypto-news-adc7d2acaa",
+      "date_kst": "2026-10-27",
+      "title": "아비바인베스터스, 파운드화 MMF에 토큰화 지분 추가…XRP 원장 기반",
+      "content": "영국 보험사 아비바(Aviva) 계열 자산운용사 아비바인베스터스(Aviva Investors)가 10월 26일 기존 파운드화 머니마켓펀드(MMF)에 토큰화 지분 클래스를 추가했다고 리플(Ripple)과 함께 발표했다. 새 지분 클래스는 XRP 원장(XRPL)에서 이용할 수 있다. 기존 펀드 전체의 운용자산은 약 220억파운드이며, 아비바는 새 지분 클래스에 5,000만파운드를 투자했다.\nMMF는 단기 금융상품에 투자해 자금을 운용하는 펀드다. 이번 펀드는 아일랜드에 설립된 펀드로, 유럽 공모펀드 규제(UCITS)를 따른다. 우량 파운드화 단기 채무증권에 투자하며, 투자자의 환매 요청에 매일 대응할 수 있도록 운용하는 것을 목표로 한다.\n회사는 기존 펀드 구조를 유지하면서 지분 보유 내역을 블록체인에 나타내는 ‘디지털 트윈’ 방식을 썼다고 설명했다. 투자 목적과 위험 수준, 유동성 특성, 규제상 보호도 기존 펀드와 같다는 설명이다. 펀드 자산은 수탁은행인 뉴욕멜론은행(The Bank of New York Mellon)이 보관한다.\n새 지분 클래스는 디지털 지갑을 가진 적격 투자자가 이용할 수 있다. 디지털자산 수탁사 코마이누(Komainu)와 토큰화 플랫폼 리퀴도(Licuido)가 출시를 지원했다. 아비바인베스터스의 기존 펀드 토큰화는 지난 7월 달러 유동성 펀드에 이어 두 번째다.",
+      "metanomia_thought": "펀드의 자산을 새로 구성하지 않아도, 투자자가 지분을 보유하는 통로는 바꿀 수 있습니다. 아비바는 기존 MMF의 운용·수탁 구조를 유지하면서 디지털 지갑을 새 접점으로 더했습니다. 디지털 지갑을 쓰는 고객을 기존 펀드로 연결하며, 자산을 맡아 운용하는 관계도 이어가려는 방식입니다.",
+      "sources": [
+        {
+          "title": "Aviva Investors expands its tokenised offering with the launch of a Sterling Liquidity Fund tokenised share class",
+          "url": "https://www.avivainvestors.com/en-gb/about/company-news/2026/10/aviva-investors-launches-tokenised-share-class-for-sterling-liquidity-fund/"
+        }
+      ]
+    },
+    {
+      "id": "crypto-news-a8da0306f59aeff7",
+      "slug": "2026-10-27-crypto-news-a8da0306f5",
+      "date_kst": "2026-10-27",
+      "title": "NBA, CFTC와 예측시장 정보공유 MOU…칼시·폴리마켓을 우선 거래소로 지정",
+      "content": "미국프로농구(NBA)가 10월 26일 미국 상품선물거래위원회(CFTC)와 예측시장 관련 양해각서(MOU)를 맺고, 칼시(Kalshi)와 폴리마켓(Polymarket)을 리그의 ‘우선 예측시장 거래소’로 지정했다고 발표했다. 사건 계약은 경기 결과 등 특정 사건의 결과에 따라 지급액이 정해지는 계약이다. NBA는 규제기관과 정보를 공유하고, 거래소와는 운영 조건과 상업 제휴를 정하는 협약을 각각 맺었다.\nCFTC와의 양해각서는 경기의 공정성과 공정하고 투명한 예측시장 유지를 위해 정기적으로 소통하고 정보를 공유하는 내용이다. 마이클 셀리그(Michael S. Selig) CFTC 위원장은 NBA의 협약 체결을 내부자 거래와 사기 같은 남용으로부터 경기의 공정성과 시장 참여자를 보호하기 위한 조치로 평가했다.\nNBA와 칼시·폴리마켓의 계약에는 허용 시장의 제한, 리그·구단 관계자의 NBA 사건 계약 거래 금지, 조사·의심 거래 관련 정보 공유 의무가 담겼다. 두 거래소는 NBA 지식재산권 이용권과 미국 내 마케팅 권리를 얻는다. 스포츠데이터 업체 스포트레이더(Sportradar)를 통해 공식 경기 데이터를 받아 허용된 시장의 운영과 정산에도 쓴다.\nNBA는 드래프트킹스(DraftKings)와의 기존 제휴도 예측시장으로 넓혔다. 향후 다른 사업자와의 제휴도 추가할 계획이며, 이들에도 예측시장 관련 의무와 리그의 스포츠베팅 기준에 맞춘 시장 제한을 적용하겠다고 밝혔다.",
+      "metanomia_thought": "예측시장에서는 팬덤이 고객 기반이 되고, 경기 데이터가 금융상품을 운영하는 자원이 됩니다. NBA는 공식 데이터와 브랜드를 거래소에 제공하면서, 허용 시장과 리그 관계자의 거래 제한도 제휴 조건에 넣었습니다. 팬의 관심을 예측거래로 연결하는 상업 제휴에, 경기의 공정성을 지키기 위한 조건도 함께 붙인 것입니다.",
+      "sources": [
+        {
+          "title": "CFTC and National Basketball Association Sign MOU to Protect Integrity in Professional Basketball",
+          "url": "https://www.cftc.gov/PressRoom/PressReleases/9314-26"
+        },
+        {
+          "title": "NBA establishes integrity framework and commercial partnerships for prediction markets",
+          "url": "https://www.nba.com/news/nba-establishes-integrity-framework-and-commercial-partnerships-for-prediction-markets"
+        },
+        {
+          "title": "Understanding Prediction Markets and Event Contracts",
+          "url": "https://www.cftc.gov/LearnandProtect/PredictionMarkets"
+        }
+      ]
+    },
     {
       "id": "crypto-news-e604620ad0153e42",
       "slug": "2026-10-26-crypto-news-e604620ad0",
