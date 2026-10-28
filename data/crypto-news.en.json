@@ -1,7 +1,37 @@
 {
   "schema_version": "1.0",
-  "generated_at_kst": "2026-10-27T10:20:30+09:00",
+  "generated_at_kst": "2026-10-28T09:58:17+09:00",
   "items": [
+    {
+      "slug": "2026-10-28-crypto-news-672c50dc70",
+      "date_kst": "2026-10-28",
+      "title": "Janus Henderson and Centrifuge Unveil Tokenized Nasdaq-100 Fund JQQQ, Prepare for Subscriptions",
+      "content": "Global asset manager Janus Henderson announced on October 27 that it was launching JQQQ, a fund designed to track the Nasdaq-100 Index, together with tokenization platform Centrifuge. The product uses the Nasdaq index under license and issues fund shares as tokens on a blockchain. As of the morning of October 28, however, the product page said the fund was still preparing to accept investments.\nJQQQ is a British Virgin Islands fund for professional investors. It is designed to track the Nasdaq-100 by directly holding the index’s constituent stocks. The JQQQ tokens held by investors represent shares in the fund, not individual stocks. The legal issuer is Anemoy Capital SPC Limited, and the fund is one of the company’s segregated portfolios. Anemoy Asset Management manages the fund, while Janus Henderson’s US entity serves as sub-investment manager. Centrifuge provides the infrastructure for issuing and operating the tokens. Janus Henderson and Centrifuge said the fund is launching on the Stellar network.\nThe fund is available only to eligible professional investors in jurisdictions where it may be offered. US residents, US entities, and other US persons are not eligible to invest. The product page lists an expense ratio of 0.10% and a minimum investment of 100,000 USDC, with no subscription or redemption fees.\nThe company also raised the possibility that investors could eventually use their fund shares as collateral or in lending through external services. It said these functions could be provided by independent third parties and would not be offered, intermediated, or recommended by Janus Henderson.",
+      "metanomia_thought": "Even when two funds track the same stock index, the way investors buy and use their shares can change how the product reaches them. JQQQ is designed to connect demand for Nasdaq-100 exposure with blockchain-based financial services. If third-party collateral and lending services are actually integrated, investors may be able to hold the fund shares while also using them in other transactions.",
+      "sources": [
+        {
+          "title": "Janus Henderson and Centrifuge Launch Blockchain-Native Fund Tracking the Nasdaq-100 Index® (JQQQ)",
+          "url": "https://www.janushenderson.com/corporate/press-releases/janus-henderson-and-centrifuge-launch-blockchain-native-fund-tracking-the-nasdaq-100-index-jqqq/"
+        },
+        {
+          "title": "Janus Henderson NASDAQ-100 Index® Fund",
+          "url": "https://app.centrifuge.io/pool/281474976710678"
+        }
+      ]
+    },
+    {
+      "slug": "2026-10-28-crypto-news-07031e49b3",
+      "date_kst": "2026-10-28",
+      "title": "Ripple Announces Final OCC Approval for National Trust Bank; RLUSD Issuance Remains with New York Entity",
+      "content": "Ripple announced on October 26 that it had received final approval from the US Office of the Comptroller of the Currency (OCC) to establish Ripple National Trust Bank (RNTB). The approval follows the conditional approval granted last December.\nAccording to the company, once RNTB begins operations, it will segregate the reserves backing Ripple’s US dollar stablecoin, Ripple USD (RLUSD), from other assets. It is also expected to serve as trustee for the reserve collateral on behalf of RLUSD holders and to provide custody services for digital assets.\nRLUSD will continue to be issued by Standard Custody & Trust Company under the supervision of the New York State Department of Financial Services (NYDFS). The structure keeps the existing issuer in place while assigning reserve management and custody functions to a separate federally chartered entity.\nRipple said RLUSD’s reserves consist of US dollar deposits, US Treasury securities, and other cash-equivalent assets, with US financial institution BNY serving as the primary reserve custodian. The announcement did not provide a date for RNTB to begin operations or specify how RNTB and BNY will divide reserve-management and custody responsibilities once the bank is operating.",
+      "metanomia_thought": "A stablecoin can have one issuer while another company manages its reserves. Ripple plans to keep RLUSD issuance under New York supervision while assigning reserve management and digital-asset custody to a separate federally chartered trust bank. The structure is intended both to reinforce the framework backing RLUSD and to expand Ripple’s digital-asset custody business.",
+      "sources": [
+        {
+          "title": "Ripple Receives Final OCC Approval to Establish National Trust Bank",
+          "url": "https://ripple.com/ripple-press/ripple-receives-final-occ-approval-to-establish-national-trust-bank/"
+        }
+      ]
+    },
     {
       "slug": "2026-10-27-crypto-news-adc7d2acaa",
       "date_kst": "2026-10-27",
