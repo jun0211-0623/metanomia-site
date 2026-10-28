@@ -1,7 +1,39 @@
 {
   "schema_version": "1.0",
-  "generated_at_kst": "2026-10-27T10:20:30+09:00",
+  "generated_at_kst": "2026-10-28T09:58:17+09:00",
   "items": [
+    {
+      "id": "crypto-news-672c50dc705a591a",
+      "slug": "2026-10-28-crypto-news-672c50dc70",
+      "date_kst": "2026-10-28",
+      "title": "야누스헨더슨·센트리퓨지, 나스닥100 토큰화 펀드 JQQQ 공개…투자 모집 준비",
+      "content": "글로벌 자산운용사 야누스헨더슨(Janus Henderson)이 10월 27일 토큰화 플랫폼 센트리퓨지(Centrifuge)와 함께 나스닥100지수를 추종하는 펀드 JQQQ의 출시를 발표했다. 나스닥의 지수 사용 허가를 받아 펀드 지분을 블록체인상의 토큰으로 발행하는 상품이다. 다만 10월 28일 오전 확인한 상품 페이지는 아직 투자 모집 준비 중으로 안내하고 있다.\nJQQQ는 영국령 버진아일랜드의 전문투자자 대상 펀드로, 지수 구성 주식을 직접 보유해 나스닥100의 움직임을 따라가도록 설계됐다. 투자자가 보유하는 JQQQ 토큰은 개별 주식이 아닌 펀드 지분을 표시한다. 법적 발행자는 아네모이 캐피털 SPC(Anemoy Capital SPC Limited)이며, 펀드는 이 회사의 분리 포트폴리오다. 운용은 아네모이 자산운용(Anemoy Asset Management)이 맡고 야누스헨더슨 미국 법인이 하위운용사로 참여한다. 센트리퓨지는 토큰 발행·운영 기반을 제공한다. 야누스헨더슨과 센트리퓨지는 이 펀드를 스텔라(Stellar) 네트워크에서 출시한다고 밝혔다.\n판매가 허용된 지역의 적격 전문투자자만 이용할 수 있으며, 미국 거주자·미국 법인 등은 투자할 수 없다. 상품 페이지는 비용비율을 0.10%, 최소 투자금을 달러 스테이블코인 USDC 10만 개로 안내하며, 가입·환매 수수료는 없다고 명시한다.\n회사는 향후 외부 서비스에서 펀드 지분을 담보·대출 등에 활용할 가능성도 제시했다. 이는 독립된 제3자가 제공할 수 있는 기능으로, 야누스헨더슨이 제공하거나 중개·추천하는 서비스는 아니라고 설명했다.",
+      "metanomia_thought": "같은 주가지수를 추종해도, 펀드 지분을 어디서 사고 어떻게 활용할 수 있느냐에 따라 투자자를 만나는 경로는 달라집니다. JQQQ는 나스닥100 투자 수요를 블록체인 기반 금융 서비스와 연결하려는 상품입니다. 제3자의 담보·대출 서비스까지 실제로 연계된다면, 투자자는 펀드 지분을 보유하면서 다른 거래에도 활용할 수 있습니다.",
+      "sources": [
+        {
+          "title": "Janus Henderson and Centrifuge Launch Blockchain-Native Fund Tracking the Nasdaq-100 Index® (JQQQ)",
+          "url": "https://www.janushenderson.com/corporate/press-releases/janus-henderson-and-centrifuge-launch-blockchain-native-fund-tracking-the-nasdaq-100-index-jqqq/"
+        },
+        {
+          "title": "Janus Henderson NASDAQ-100 Index® Fund",
+          "url": "https://app.centrifuge.io/pool/281474976710678"
+        }
+      ]
+    },
+    {
+      "id": "crypto-news-07031e49b3e766a2",
+      "slug": "2026-10-28-crypto-news-07031e49b3",
+      "date_kst": "2026-10-28",
+      "title": "리플, OCC 국가신탁은행 최종 인가 발표…RLUSD 발행은 뉴욕주 법인 유지",
+      "content": "리플(Ripple)이 10월 26일 미국 통화감독청(OCC)에서 리플 내셔널 트러스트 뱅크(Ripple National Trust Bank·RNTB) 설립 최종 인가를 받았다고 발표했다. 지난해 12월 조건부 인가에 이은 절차다.\n회사에 따르면 RNTB는 영업 개시 후 리플의 달러 스테이블코인 리플USD(RLUSD)를 뒷받침하는 준비금을 다른 자산과 구분해 관리한다. 또 RLUSD 보유자의 이익을 위해 준비금 담보를 관리하는 수탁자 역할과, 가상자산을 맡아 보관·관리하는 수탁 업무도 맡을 예정이다.\nRLUSD 발행은 현재처럼 뉴욕주 금융감독청(NYDFS)의 감독을 받는 스탠더드 커스터디 앤드 트러스트(Standard Custody & Trust Company)가 담당한다. 발행 법인을 유지하면서 별도의 연방 인가 법인에 준비금 관리와 수탁 업무를 맡기는 구조다.\n리플은 RLUSD 준비금이 미국 달러 예금·미국 국채·기타 현금성 자산으로 구성되며, 미국 금융기관 BNY가 주된 준비금 보관기관이라고 밝혔다. 이번 발표에는 RNTB의 영업 개시일과, 영업 개시 뒤 RNTB와 BNY가 준비금 관리·보관을 어떻게 나누는지가 제시되지 않았다.",
+      "metanomia_thought": "스테이블코인은 하나여도 발행사와 준비금을 관리하는 회사는 다를 수 있습니다. 리플은 RLUSD 발행을 뉴욕주 감독 아래 두면서, 별도의 연방 인가 신탁은행에 준비금 관리와 가상자산 수탁을 맡기려 합니다. RLUSD를 뒷받침할 구조를 갖추는 동시에, 가상자산 보관·관리 사업도 넓히는 구상입니다.",
+      "sources": [
+        {
+          "title": "Ripple Receives Final OCC Approval to Establish National Trust Bank",
+          "url": "https://ripple.com/ripple-press/ripple-receives-final-occ-approval-to-establish-national-trust-bank/"
+        }
+      ]
+    },
     {
       "id": "crypto-news-adc7d2acaa5eb614",
       "slug": "2026-10-27-crypto-news-adc7d2acaa",
