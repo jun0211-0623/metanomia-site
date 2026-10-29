@@ -1,7 +1,51 @@
 {
   "schema_version": "1.0",
-  "generated_at_kst": "2026-10-28T09:58:17+09:00",
+  "generated_at_kst": "2026-10-29T09:00:06+09:00",
   "items": [
+    {
+      "id": "crypto-news-e8827f0e85022e44",
+      "slug": "2026-10-29-crypto-news-e8827f0e85",
+      "date_kst": "2026-10-29",
+      "title": "무디스, RLUSD에 신용등급 A2·P-1 부여…준비금 103% 목표",
+      "content": "신용평가사 무디스(Moody’s Ratings)가 10월 27일 달러 스테이블코인 리플USD(RLUSD)에 장기 A2와 단기 P-1 등급을 부여했다. RLUSD는 리플랩스(Ripple Labs)의 자회사 스탠더드 커스터디 앤드 트러스트(Standard Custody & Trust Company·SCTC)가 발행하며, 평가는 SCTC가 XRP 원장과 이더리움에서 직접 발행한 RLUSD에만 적용된다.\n무디스의 신용등급 체계에서 A2는 낮은 신용위험을 뜻하는 A 범주의 중간 구간이며, P-1은 우수한 단기 채무 상환 능력을 뜻하는 최상위 등급이다. 무디스는 준비금의 신용도·시장가치·비율, 유동성과 상환 체계, 자산 분리·제3자 보관을 평가했다. 준비금은 주로 미국 단기국채 등 단기 정부자산과 현금으로 구성되며, 대부분은 미국 금융기관 BNY가 보관한다. SCTC가 목표로 하는 준비금은 발행량의 103%다.\n자격 심사와 등록을 마친 기관 보유자가 요건에 맞춰 직접 상환을 요청하면, 원칙적으로 접수 뒤 2영업일 안에 액면가로 상환받는다. 다만 SCTC가 파산해 지급 중지 절차가 적용되면 이보다 늦어질 수 있다. 리플 이용약관에 따르면 RLUSD는 예금보험의 보호 대상이 아니다. 무디스는 SCTC가 파산 위험이 분리된 특수목적법인이 아니고, RLUSD 보유자가 준비금에 직접 소유권을 갖지 않는 점을 위험 요인으로 들었다. 준비금의 분리 보관과 상환 목적 사용, 뉴욕주 금융감독청(NYDFS)의 감독은 이를 완화하는 요인으로 봤다.\n무디스는 2027년 지니어스법(GENIUS Act) 시행으로 법정 필요준비금의 파산재단 제외 등 보유자 보호가 더해질 것으로 봤다.",
+      "metanomia_thought": "스테이블코인을 결제 자산으로 받아들이는 기관에는 준비금과 상환 능력을 비교할 기준이 필요합니다. 무디스는 RLUSD의 준비금·유동성·법적 구조를 신용등급으로 평가했습니다. 발행사의 설명에 더해 기존 금융의 평가 체계가 붙으면서, 기관이 어떤 디지털 달러를 받아들일지 판단할 참고 기준도 생깁니다.",
+      "sources": [
+        {
+          "title": "Moody's Ratings has assigned ratings to Ripple USD (RLUSD), a U.S. dollar-denominated stablecoin issued by Standard Custody & Trust Company, LLC",
+          "url": "https://ratings.moodys.com/ratings-news/475989"
+        },
+        {
+          "title": "Understanding credit ratings",
+          "url": "https://www.moodys.com/web/en/us/solutions/ratings/understanding-ratings.html"
+        },
+        {
+          "title": "RLUSD User Terms",
+          "url": "https://ripple.com/legal/stablecoin/"
+        }
+      ]
+    },
+    {
+      "id": "crypto-news-cb8aaec262af3de5",
+      "slug": "2026-10-29-crypto-news-cb8aaec262",
+      "date_kst": "2026-10-29",
+      "title": "DTCC, 증권 34종 토큰화 서비스 가동…등록 지갑 간 24시간 이전",
+      "content": "미국 증권 예탁결제기관 DTCC(Depository Trust & Clearing Corporation)의 자회사 DTC(Depository Trust Company)가 10월 28일 ‘DTCC 토큰화 서비스(DTS)’를 가동했다. DTC가 보관하는 기존 증권의 보유 권리를 토큰으로 기록해, 블록체인 기반 거래와 담보 활용에 연결하는 서비스다.\n토큰은 DTC 보관 증권에 대한 권리와 1대1로 연결된다. DTCC는 기존 증권과 같은 법적 권리·경제적 이익·투자자 보호가 유지된다고 설명했다. DTC는 증권 보관과 지갑 등록, 토큰 발행·소각을 맡고 토큰의 보유·이전 내역도 공식 기록으로 관리한다. 참가자는 DTC에 요청해 계좌에 기록된 증권 보유 권리를 토큰으로 바꿀 수 있다. 필요하면 토큰을 소각하고 해당 권리를 다시 DTC 계좌에 기록하도록 요청할 수도 있다.\n현재 서비스는 캔톤 네트워크(Canton Network)와 DTCC의 비공개 베수(Besu) 네트워크에 연결돼 있으며, 2027년에 다른 블록체인도 추가할 계획이다. 같은 블록체인 안에서는 DTC에 등록된 지갑 사이에서 토큰을 24시간 직접 이전할 수 있다. 토큰을 매매할 때 매수자가 매도자에게 지급하는 대금은 DTC 외부의 결제체계에서 처리한다.\n이용 대상은 자격을 갖춘 DTC 참가자다. 뱅크오브아메리카, 씨티, JP모건, 모건스탠리, 미래에셋증권 미국법인 등 20곳이 이용 계약을 맺었다. 개시 대상은 러셀1000 일부 종목과 주요 지수 추종 상장지수펀드(ETF), 미국 국채 등 34종이다.\n미국 증권거래위원회(SEC) 담당 부서는 2025년 12월 DTC가 정해진 조건을 지키는 초기 서비스에 대해 관련 규정에 따른 제재를 권고하지 않겠다는 비조치의견을 냈다. 이 입장은 초기 서비스 가동일부터 3년간 적용된다.",
+      "metanomia_thought": "증권이 블록체인에서 움직여도 자산을 보관하고 권리를 기록하며 참여자를 관리하는 업무는 이어집니다. DTC는 이 기능을 맡으면서 기존에 보관하던 증권의 권리를 등록 지갑에서 주고받게 했습니다. 예탁 자산을 블록체인 기반 담보·유동성 거래에 연결하며 증권 보관을 맡아 온 기관이 그 자산의 활용 경로까지 넓히는 방식입니다.",
+      "sources": [
+        {
+          "title": "DTCC Tokenization Service Goes Live, Marking Major Milestone in the Adoption of Digital Assets",
+          "url": "https://www.dtcc.com/press-releases/2026/dtcc-tokenization-service-goes-live"
+        },
+        {
+          "title": "DTCC Tokenization Service: The Start of What’s Next.",
+          "url": "https://www.dtcc.com/products-and-services/digital-assets/tokenization"
+        },
+        {
+          "title": "No-Action Letter Request Related to The Depository Trust Company’s Development of the DTCC Tokenization Services",
+          "url": "https://www.sec.gov/files/tm/no-action/dtc-nal-121125.pdf"
+        }
+      ]
+    },
     {
       "id": "crypto-news-672c50dc705a591a",
       "slug": "2026-10-28-crypto-news-672c50dc70",
