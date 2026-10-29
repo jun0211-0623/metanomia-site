@@ -1,7 +1,49 @@
 {
   "schema_version": "1.0",
-  "generated_at_kst": "2026-10-28T09:58:17+09:00",
+  "generated_at_kst": "2026-10-29T09:00:06+09:00",
   "items": [
+    {
+      "slug": "2026-10-29-crypto-news-e8827f0e85",
+      "date_kst": "2026-10-29",
+      "title": "Moody’s Assigns A2 and P-1 Ratings to RLUSD; Reserve Target Set at 103%",
+      "content": "Moody’s Ratings assigned long-term A2 and short-term P-1 ratings on October 27 to Ripple USD (RLUSD), a US dollar stablecoin. RLUSD is issued by Standard Custody & Trust Company (SCTC), a subsidiary of Ripple Labs, and the ratings apply only to RLUSD issued directly by SCTC on the XRP Ledger and Ethereum.\nIn Moody’s credit-rating scale, A2 is the middle grade within the A category, which indicates low credit risk, while P-1 is the highest short-term rating, indicating a superior ability to repay short-term obligations. Moody’s assessed the reserves’ credit quality, market value, and coverage ratio; liquidity and redemption arrangements; and asset segregation and third-party custody. The reserves consist mainly of short-term government assets, including short-term US Treasury securities, and cash, with most of them held by US financial institution BNY. SCTC targets reserve assets equal to 103% of the amount issued.\nAn institutional holder that has completed eligibility screening and registration and meets the requirements may request direct redemption and, in principle, receive par value within two business days after the request is received. Redemption could take longer, however, if SCTC enters bankruptcy and an automatic stay applies. Under Ripple’s user terms, RLUSD is not covered by deposit insurance. Moody’s cited as risk factors the facts that SCTC is not a special-purpose entity isolated from bankruptcy risk and that RLUSD holders do not have direct ownership of the reserves. It viewed segregation of the reserves, their use for redemptions, and supervision by the New York State Department of Financial Services (NYDFS) as mitigating factors.\nMoody’s said holder protections are expected to improve when the GENIUS Act takes effect in 2027, including through the exclusion of legally required reserve assets from the bankruptcy estate.",
+      "metanomia_thought": "Institutions accepting stablecoins as payment assets need a basis for comparing reserves and redemption capacity. Moody’s evaluated RLUSD’s reserves, liquidity, and legal structure through a credit rating. By adding an established financial-market assessment framework to the issuer’s own disclosures, the rating gives institutions another reference point when deciding which digital dollar to accept.",
+      "sources": [
+        {
+          "title": "Moody's Ratings has assigned ratings to Ripple USD (RLUSD), a U.S. dollar-denominated stablecoin issued by Standard Custody & Trust Company, LLC",
+          "url": "https://ratings.moodys.com/ratings-news/475989"
+        },
+        {
+          "title": "Understanding credit ratings",
+          "url": "https://www.moodys.com/web/en/us/solutions/ratings/understanding-ratings.html"
+        },
+        {
+          "title": "RLUSD User Terms",
+          "url": "https://ripple.com/legal/stablecoin/"
+        }
+      ]
+    },
+    {
+      "slug": "2026-10-29-crypto-news-cb8aaec262",
+      "date_kst": "2026-10-29",
+      "title": "DTCC Launches Tokenization Service for 34 Securities, Enabling Round-the-Clock Transfers Between Registered Wallets",
+      "content": "DTC, a subsidiary of the US securities depository and clearing organization DTCC, launched the DTCC Tokenization Service (DTS) on October 28. The service records ownership rights in securities already held in DTC custody as tokens, connecting them to blockchain-based transactions and collateral use.\nThe tokens are linked one-to-one with rights in securities held at DTC. DTCC said they retain the same legal rights, economic benefits, and investor protections as the traditional securities. DTC handles securities custody, wallet registration, token issuance and burning, and maintains the official record of token ownership and transfers. Participants may ask DTC to convert securities positions recorded in their accounts into tokens. They may also burn the tokens and request that the corresponding positions be recorded again in their DTC accounts.\nThe service currently connects to Canton Network and DTCC’s private Besu network, and DTCC plans to add other blockchains in 2027. On the same blockchain, tokens can be transferred directly around the clock between wallets registered with DTC. When tokens are traded, the payment from buyer to seller is processed through payment systems outside DTC.\nThe service is available to eligible DTC participants. Twenty firms, including Bank of America, Citi, JPMorgan, Morgan Stanley, and Mirae Asset Securities’ US subsidiary, have signed agreements to use it. The initial eligible assets comprise 34 securities, including selected Russell 1000 stocks, exchange-traded funds tracking major indexes, and US Treasury securities.\nIn December 2025, the relevant staff of the US Securities and Exchange Commission (SEC) issued a no-action letter stating that it would not recommend enforcement action under the applicable rules for DTC’s initial service, provided specified conditions were met. The position applies for three years from the date the initial service launched.",
+      "metanomia_thought": "Securities may move on a blockchain, but custody, rights recording, and participant management remain necessary. DTC continues to perform those functions while enabling rights in securities it already holds to move between registered wallets. By linking the assets in custody to blockchain-based collateral and liquidity transactions, the institution that has long handled securities custody is extending the routes through which those assets can be used.",
+      "sources": [
+        {
+          "title": "DTCC Tokenization Service Goes Live, Marking Major Milestone in the Adoption of Digital Assets",
+          "url": "https://www.dtcc.com/press-releases/2026/dtcc-tokenization-service-goes-live"
+        },
+        {
+          "title": "DTCC Tokenization Service: The Start of What’s Next.",
+          "url": "https://www.dtcc.com/products-and-services/digital-assets/tokenization"
+        },
+        {
+          "title": "No-Action Letter Request Related to The Depository Trust Company’s Development of the DTCC Tokenization Services",
+          "url": "https://www.sec.gov/files/tm/no-action/dtc-nal-121125.pdf"
+        }
+      ]
+    },
     {
       "slug": "2026-10-28-crypto-news-672c50dc70",
       "date_kst": "2026-10-28",
