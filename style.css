@@ -377,7 +377,7 @@ html[lang="ko"] dd {
    FOOTER
    =========================================================== */
 .footer { background: var(--dark); color: #cfced4; padding: 72px 0 40px; }
-.footer__top { display: grid; grid-template-columns: 1.4fr 1fr 1fr 1fr; gap: 40px; padding-bottom: 56px; border-bottom: 1px solid var(--line-dark); }
+.footer__top { display: grid; grid-template-columns: 1.3fr 1.4fr 1fr 1fr 1fr; gap: 40px; padding-bottom: 56px; border-bottom: 1px solid var(--line-dark); }
 .footer__tagline { margin-top: 20px; font-size: 14px; line-height: 1.6; max-width: 320px; color: #a9a7b1; }
 .footer__tagline-last { white-space: nowrap; }
 .footer__col h4 { color: #fff; font-size: 13px; letter-spacing: .1em; text-transform: uppercase; margin-bottom: 18px; font-weight: 600; }
