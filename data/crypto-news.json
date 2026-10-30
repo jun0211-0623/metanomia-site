@@ -1,7 +1,21 @@
 {
   "schema_version": "1.0",
-  "generated_at_kst": "2026-10-29T09:00:06+09:00",
+  "generated_at_kst": "2026-10-30T09:21:01+09:00",
   "items": [
+    {
+      "id": "crypto-news-38e8df014e697536",
+      "slug": "2026-10-30-crypto-news-38e8df014e",
+      "date_kst": "2026-10-30",
+      "title": "ICE, 하이퍼리퀴드 기반 무기한선물 미국 도입 추진…개인투자자 시장 구축",
+      "content": "뉴욕증권거래소(NYSE)의 모회사 인터컨티넨탈익스체인지(ICE)가 10월 29일 트레이드XYZ(Trade[XYZ])와 미국 개인투자자용 무기한선물 시장을 신설하는 확정 계약을 맺었다고 발표했다. 실제 시장 개설과 레버리지 거래에는 규제 승인이 필요하다.\n무기한선물은 만기 없이 기초자산의 가격 변동에 따라 손익이 달라지는 파생상품이다. 트레이드XYZ는 블록체인 기반 파생상품 거래 플랫폼 하이퍼리퀴드(Hyperliquid)의 기술을 활용해 주식·지수·원자재·통화 관련 상품을 설계·제공한다. 현재 미국 밖의 적격 이용자는 이들 상품을 24시간 거래할 수 있다.\nICE는 새 규제 시장의 독점 운영자로서 개인투자자 전용 거래·청산 체계를 마련하고, 트레이드XYZ에 전략적 투자도 한다. 기존 기관 선물·청산 사업과 별도로 운영해 기존 고객이 새 개인투자자 시장의 거래·상대방 위험에 노출되지 않게 하겠다는 것이 회사 설명이다.\n새 시장이 규제 승인을 받으면, 이용자는 신원확인과 자금세탁방지 검증 절차를 거쳐 거래할 수 있다. 거래는 해당 시장에 회원으로 참여하는 선물중개회사(FCM)를 통해 이뤄질 예정이다. 새 시장에서는 가상자산·주식·원자재·외환 등을 기초로 한 상품을 다룰 계획이다. ICE는 구체적인 출시 시점을 밝히지 않았다.",
+      "metanomia_thought": "온체인에서 커진 개인투자자 수요는 기존 거래소에도 새로운 사업 기회가 됩니다. 이번 계약은 하이퍼리퀴드에서 발전한 상품을 ICE가 마련할 거래·청산 체계와 중개사의 고객망에 연결해, 기관 중심인 ICE의 고객층을 넓히려는 구상입니다. 개인 거래의 위험을 기존 기관 사업과 분리된 청산 구조에 두는 설계가, 제도권 거래소가 이 수요를 받아들이는 조건이 되고 있습니다.",
+      "sources": [
+        {
+          "title": "Intercontinental Exchange and Trade[XYZ] to Bring Hyperliquid-Based Perpetual Markets Onshore",
+          "url": "https://ir.theice.com/press/news-details/2026/Intercontinental-Exchange-and-TradeXYZ-to-Bring-Hyperliquid-Based-Perpetual-Markets-Onshore/default.aspx"
+        }
+      ]
+    },
     {
       "id": "crypto-news-e8827f0e85022e44",
       "slug": "2026-10-29-crypto-news-e8827f0e85",
