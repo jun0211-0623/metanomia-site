@@ -1,7 +1,20 @@
 {
   "schema_version": "1.0",
-  "generated_at_kst": "2026-10-29T09:00:06+09:00",
+  "generated_at_kst": "2026-10-30T09:21:01+09:00",
   "items": [
+    {
+      "slug": "2026-10-30-crypto-news-38e8df014e",
+      "date_kst": "2026-10-30",
+      "title": "ICE Moves to Bring Hyperliquid-Based Perpetual Futures Onshore, Plans US Retail Market",
+      "content": "Intercontinental Exchange (ICE), the parent company of the New York Stock Exchange (NYSE), announced on October 29 that it had entered into a definitive agreement with Trade[XYZ] to establish a perpetual futures market for US retail investors. The market’s launch and leveraged trading remain subject to regulatory approval.\nPerpetual futures are derivatives with no expiration date whose gains and losses vary with movements in the price of the underlying asset. Trade[XYZ] uses technology from Hyperliquid, a blockchain-based derivatives trading platform, to design and offer products linked to equities, indexes, commodities, and currencies. Eligible users outside the United States can currently trade these products around the clock.\nICE will serve as the exclusive operator of the new regulated market, create a trading and clearing framework for retail investors, and make a strategic investment in Trade[XYZ]. ICE said the market would operate separately from its existing institutional futures and clearing businesses so that current customers would not be exposed to the new retail market’s trading or counterparty risk.\nIf the market receives regulatory approval, users will be able to trade after completing know-your-customer and anti-money-laundering checks. Trading is expected to take place through futures commission merchants (FCMs) that participate as members of the market. The market plans to offer products based on digital assets, equities, commodities, and foreign exchange. ICE did not disclose a specific launch date.",
+      "metanomia_thought": "Retail demand that has grown onchain is also creating new business opportunities for established exchanges. The agreement would connect products developed on Hyperliquid to the trading and clearing framework that ICE plans to build and to intermediaries’ customer networks, broadening ICE’s traditionally institutional client base. Placing retail-trading risks in a clearing structure separate from existing institutional businesses is becoming one of the conditions under which regulated exchanges can accommodate this demand.",
+      "sources": [
+        {
+          "title": "Intercontinental Exchange and Trade[XYZ] to Bring Hyperliquid-Based Perpetual Markets Onshore",
+          "url": "https://ir.theice.com/press/news-details/2026/Intercontinental-Exchange-and-TradeXYZ-to-Bring-Hyperliquid-Based-Perpetual-Markets-Onshore/default.aspx"
+        }
+      ]
+    },
     {
       "slug": "2026-10-29-crypto-news-e8827f0e85",
       "date_kst": "2026-10-29",
