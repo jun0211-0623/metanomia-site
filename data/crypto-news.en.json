@@ -1,7 +1,45 @@
 {
   "schema_version": "1.0",
-  "generated_at_kst": "2026-10-30T09:21:01+09:00",
+  "generated_at_kst": "2026-11-02T09:17:39+09:00",
   "items": [
+    {
+      "slug": "2026-11-02-crypto-news-95997fb68f",
+      "date_kst": "2026-11-02",
+      "title": "Uber Pilots MMF Trading with HSBC Tokenized Deposits, Redeems Some Holdings over the Weekend",
+      "content": "HSBC's U.S. arm announced on October 30 that it had completed a pilot with ride-hailing company Uber for round-the-clock liquidity management and settlement linking tokenized deposits with a money market fund, or MMF. Uber used HSBC tokenized deposits to buy shares in a tokenized MMF managed by Franklin Templeton and tested redeeming some of those holdings over the weekend.\nAn MMF invests surplus cash in short-term financial instruments. Companies often leave some cash uninvested to prepare for payments outside banking and market hours. The pilot was designed to keep funds invested in an MMF and earning a return until shortly before payment, then redeem part of the position when needed.\nElectronic trading platform Tradeweb supported the transaction, while digital-asset wallet technology provider Fireblocks supplied the wallet infrastructure. The trade took place on the Canton Network, where the fund shares and payment were exchanged simultaneously. The participants said this structure reduced the risk that one side could deliver either the shares or the payment without receiving the other side's obligation.\nThe tokenized deposit represented an HSBC demand deposit on a blockchain. Fund redemption proceeds could be paid only to a corporate bank account that had completed customer verification. The underlying U.S. deposit was eligible for Federal Deposit Insurance Corporation protection within applicable limits, but the MMF was not covered by deposit insurance and could incur investment losses.",
+      "metanomia_thought": "Cash that companies keep available for payments is a deposit from a bank's perspective and capital that has not yet been invested from an asset manager's perspective. This pilot shortened the time needed to move between deposits and fund shares, allowing money awaiting payment to remain invested for longer. Cooperation among banks, asset managers, trading venues, and settlement providers could broaden the range of services that support both corporate liquidity management and payments.",
+      "sources": [
+        {
+          "title": "Uber Completes Pilot of a First-Ever On-Chain Liquidity and Settlement Solution on a Public Network Pioneered by HSBC, Franklin Templeton, Tradeweb, and Fireblocks, on Canton",
+          "url": "https://www.canton.network/canton-network-press-releases/uber-completes-pilot-of-a-first-ever-on-chain-liquidity-and-settlement-solution-on-a-public-network"
+        }
+      ]
+    },
+    {
+      "slug": "2026-11-02-crypto-news-52beb43413",
+      "date_kst": "2026-11-02",
+      "title": "Binance Says It Has Replenished 95% of $6.3 Billion Hack Losses, Begins Phased Withdrawal Resumption",
+      "content": "Crypto exchange Binance said on October 30 that a hot wallet connected to the internet and used for customer withdrawals had been hacked, resulting in the theft of approximately $6.3 billion in crypto assets. The attack occurred at around 8:05 p.m. UTC on October 29. The company temporarily suspended withdrawals and began a security review and system recovery, while deposits and services unaffected by the incident continued to operate.\nThe U.S. Federal Bureau of Investigation said on October 31 that North Korea was responsible for the theft. Binance said it had worked with law enforcement agencies and token issuers to freeze roughly $3 billion of the stolen assets. Freezing the assets means preventing them from being moved, not that the exchange has recovered them.\nSeparately, Binance said it would absorb the entire loss rather than pass it on to users. The process involves obtaining the same types of crypto assets that were stolen to restore the backing of customer balances. Funding came from part of the Secure Asset Fund for Users, or SAFU, part of the exchange's futures insurance fund, and Binance's own capital.\nThe company said on November 1 that it had secured about 95% of the assets needed to replenish the losses. It had fully replenished the ten largest asset positions, including Bitcoin, Ether, and USDT, while continuing to purchase the remaining less-liquid assets through markets and over-the-counter transactions.\nBinance announced on November 1 that it would resume withdrawals in phases across 15 networks, including Bitcoin and Ethereum. Blockchain analytics firm Elliptic said withdrawals began with the Bitcoin network at 6:00 a.m. UTC that day. Users can check Binance's withdrawal page to confirm whether a specific asset and network is currently available.",
+      "metanomia_thought": "An exchange's credibility is tested not only by its ability to prevent an incident, but also by the resources it can mobilize to absorb losses and restore customer withdrawals. In this case, Binance's protection funds and corporate capital are serving as buffers intended to prevent the hack from becoming a loss for users.",
+      "sources": [
+        {
+          "title": "Security Incident | Recovery Update #4: Withdrawals Resume in Phases (2026-11-01)",
+          "url": "https://www.binance.com/en/support/announcement/detail/73911fb819b240f88b88256bdd318eda"
+        },
+        {
+          "title": "Security Incident | Recovery Update #3: 90% of Stolen Assets Replenished; Proof of Reserves Snapshot Provided (2026-10-31)",
+          "url": "https://www.binance.com/en/support/announcement/detail/1fdf1f61559c401da0435895ffcccb62"
+        },
+        {
+          "title": "North Korea Responsible for $6 Billion+ Binance Attack",
+          "url": "https://www.fbi.gov/investigate/cyber/alerts/2026/north-korea-responsible-for-6-billion-binance-attack"
+        },
+        {
+          "title": "The largest theft in history: North Korea behind the $6.4 billion Binance hack",
+          "url": "https://www.elliptic.co/insights/binance-largest-hack-in-history/"
+        }
+      ]
+    },
     {
       "slug": "2026-10-30-crypto-news-38e8df014e",
       "date_kst": "2026-10-30",
