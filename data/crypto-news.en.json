@@ -1,7 +1,58 @@
 {
   "schema_version": "1.0",
-  "generated_at_kst": "2026-11-02T09:17:39+09:00",
+  "generated_at_kst": "2026-11-03T09:28:41+09:00",
   "items": [
+    {
+      "slug": "2026-11-03-crypto-news-c0cf3765ee",
+      "date_kst": "2026-11-03",
+      "title": "HKMA Extends Interbank Settlement for Tokenized Deposit Pilot to 24/7",
+      "content": "The Hong Kong Monetary Authority (HKMA) announced on November 2 that it had expanded Project EnsembleTX to support round-the-clock interbank settlement of tokenized deposit transactions. Settlement between participating banks uses tokenized central bank money.\nTokenized deposits are commercial bank deposits represented on a blockchain. Corporate clients use tokenized deposits issued by banks, while the interbank leg of each transaction settles in central bank money. When EnsembleTX launched in November 2025, it used Hong Kong's real-time gross settlement (RTGS) system. The new functionality extends settlement beyond the system's existing operating hours.\nStandard Chartered said the same day that it had launched a tokenized deposit service for eligible corporate clients in Hong Kong. The service runs on the bank's proprietary blockchain and enables real-time transfers of deposits between banks participating in EnsembleTX. Standard Chartered said ChinaAMC and other clients had used the service for live tokenized deposit transactions and settlement involving tokenized money market funds (MMFs).",
+      "metanomia_thought": "Extending the operating hours of tokenized deposits requires not only banks to issue deposits as tokens, but also interbank settlement to remain available. Hong Kong is testing a structure that links central bank settlement between banks with commercial banks' corporate services, making deposits less dependent on conventional banking hours.",
+      "sources": [
+        {
+          "title": "HKMA advances Project Ensemble pilot phase to 24/7 settlement in tokenised Central Bank Money",
+          "url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/11/20261102-5/"
+        },
+        {
+          "title": "Standard Chartered launches Tokenised Deposits in Hong Kong",
+          "url": "https://www.sc.com/en/press-release/standard-chartered-launches-tokenised-deposits-in-hong-kong/"
+        }
+      ]
+    },
+    {
+      "slug": "2026-11-03-crypto-news-a4d1071a68",
+      "date_kst": "2026-11-03",
+      "title": "NYSE Adds Four Transfer Agents to Tokenized Securities Platform, Plans Shareholder Voting Integration",
+      "content": "The New York Stock Exchange (NYSE) said on November 2 that it had reached additional agreements with four transfer agents to support the tokenized securities trading platform it is developing. Transfer agents record changes in share ownership and manage shareholder registers and dividend processing. The platform remains subject to regulatory approval.\nThe four additions are Broadridge, Computershare, Equiniti, and Superstate. Together with previously announced partners Securitize and tZERO, they are expected to support issuer-sponsored tokenized securities.\nBroadridge plans to provide shareholder voting functions that connect meeting proposals, voting rules, and results to tokenized securities. Investors would be able to vote through supported wallets, brokerage interfaces, or Broadridge's ProxyVote service.\nNYSE plans to support 24/7 trading and instant settlement on the new platform, with the ability to fund transactions using stablecoins. The platform is expected to handle both issuer-sponsored securities and custodial tokens backed by securities held by a third party. The exchange said both types would be fungible with conventional securities and would give token holders the same dividend and voting rights as existing shareholders.",
+      "metanomia_thought": "Trading shares as tokens requires ownership records, dividends, and voting rights to remain connected as well. NYSE is bringing both established securities-service providers and blockchain-native firms into the new platform, extending existing relationships among exchanges, issuers, and shareholders into a tokenized market.",
+      "sources": [
+        {
+          "title": "NYSE Expands Network of Transfer Agents",
+          "url": "https://x.com/NYSE/status/2117306527149125871"
+        },
+        {
+          "title": "Broadridge to Bring OnChain Governance and Digital Transfer Agency to New York Stock Exchange Tokenized Securities Platform",
+          "url": "https://www.prnewswire.com/news-releases/broadridge-to-bring-onchain-governance-and-digital-transfer-agency-to-new-york-stock-exchange-tokenized-securities-platform-302925895.html"
+        }
+      ]
+    },
+    {
+      "slug": "2026-11-03-crypto-news-688059d247",
+      "date_kst": "2026-11-03",
+      "title": "FSC Conducts Emergency Review after Binance Hack, Urges More Cold-Wallet Storage and Additional Reserves",
+      "content": "South Korea's Financial Services Commission (FSC) reviewed the wallet security and incident-response resources of domestic virtual asset service providers after the Binance hack. On November 2, it convened an emergency meeting with the Financial Supervisory Service, the Financial Security Institute, the Digital Asset eXchange Alliance (DAXA), and other organizations, urging providers to raise the share of assets held in cold wallets and set aside additional reserves.\nBinance said that approximately $6.3 billion in virtual assets had been stolen the previous month from a hot wallet connected to the internet. To prevent similar incidents, the FSC focused its review on access controls for domestic providers' IT systems, approval and signing procedures for wallet withdrawals, and the management of administrator privileges. It also examined insurance coverage and reserve levels.\nA cold wallet stores virtual assets offline. Under current regulations governing the virtual asset industry, providers must keep at least 80% of the economic value of users' virtual assets disconnected from the internet. The FSC urged providers to raise their actual cold-wallet storage ratios further.\nThe FSC also requested continuous monitoring of deposits and withdrawals, additional response staff, and prompt reporting and sharing of abnormal access attempts. It plans to work with related authorities and the industry to strengthen systems for preventing further breaches and limiting the spread of losses.",
+      "metanomia_thought": "Protecting customer assets requires both controls that prevent theft and resources that can absorb losses after an incident. This review considered custody ratios, withdrawal authority, insurance, and reserves together, linking prevention with loss-response capacity.",
+      "sources": [
+        {
+          "title": "글로벌 해킹 위협에 대비한 국내 가상자산사업자의 사고대응력 제고를 위해 긴밀하고 신속하게 대응해 나가겠습니다.",
+          "url": "https://www.fsc.go.kr/no010101/88054"
+        },
+        {
+          "title": "가상자산업감독규정 제9조",
+          "url": "https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000244180&chrClsCd=010201"
+        }
+      ]
+    },
     {
       "slug": "2026-11-02-crypto-news-95997fb68f",
       "date_kst": "2026-11-02",
