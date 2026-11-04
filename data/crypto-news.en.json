@@ -1,7 +1,62 @@
 {
   "schema_version": "1.0",
-  "generated_at_kst": "2026-11-03T09:28:41+09:00",
+  "generated_at_kst": "2026-11-04T10:33:16+09:00",
   "items": [
+    {
+      "slug": "2026-11-04-crypto-news-d608663721",
+      "date_kst": "2026-11-04",
+      "title": "Binance Releases Initial Findings on Hack, Says Attackers Reached Wallet-Signing Service through Employee Computers",
+      "content": "Binance released initial findings on November 3 into the October 29 security incident and put the loss at approximately $6.34 billion. The company said the attackers moved through employee computers and internal tools to reach the wallet-signing service that authorizes asset transfers, allowing them to move assets outside the normal withdrawal process.\nAccording to the company, information about an employee on the wallet team and colleagues was exposed in June during the installation of a tampered development tool. In September, malware delivered as an assignment in a fake job interview infected another employee's work computer. The attackers used an internal AI tool on that computer as a foothold to reach the wallet team's computers and then used stolen deployment privileges to run malicious software.\nBinance said the outflow of assets continued even after withdrawals were suspended because the attackers had set delegated permissions on one hot wallet. Those permissions allowed an external program to move assets from the wallet and had to be revoked separately. The company said it had revoked the permissions, rebuilt access controls for its wallet systems and internal tools, and would seek an independent external review of the initial findings.\nThe company said it would absorb the hacking losses rather than pass them on to users and had secured more than enough funds to cover the loss.",
+      "metanomia_thought": "An exchange's authority to transfer assets is connected to the working environment of the employees who operate its wallets. The intrusion path described by the company shows that controlling access to employee computers and internal tools is part of protecting assets held in wallets.",
+      "sources": [
+        {
+          "title": "29 October 2026 Binance Security Incident: Initial Findings and Response Update",
+          "url": "https://www.binance.com/en/blog/community/3229153443759566763"
+        }
+      ]
+    },
+    {
+      "slug": "2026-11-04-crypto-news-52e3af1047",
+      "date_kst": "2026-11-04",
+      "title": "56 Issuers, Including Amazon and Tesla, Object to Trading on OKXICE Tokenized Stock Venue",
+      "content": "Fifty-six issuers, including Amazon, Tesla, and SpaceX, have objected to their shares being offered on the tokenized stock venue being prepared by OKXICE. The objections were listed in a public notice issued by OKXICE on November 2.\nOKXICE is a joint venture between exchange operator Intercontinental Exchange (ICE) and the U.S. holding company of crypto exchange OKX. On the planned venue, a third-party tokenization provider would hold one share through a broker for each token issued, and users would exchange the tokens for stablecoins. The venue plans to operate around the clock for users who pass identity and sanctions checks.\nUnder a temporary conditional exemption issued by the U.S. Securities and Exchange Commission (SEC), the venue must notify the issuer of the underlying shares in writing before offering shares tokenized by an unaffiliated third party. Trading may begin only after at least 30 days have passed from the issuer's receipt of the notice.\nIf the issuer objects in writing by the thirtieth day after receiving notice, the venue cannot offer the tokenized shares for trading under the exemption. The venue must update its public notice within five business days of receiving an objection. As a result, products created by third parties that tokenize shares of the 56 issuers named in the notice cannot be offered for trading on OKXICE under this exemption.",
+      "metanomia_thought": "Under this exemptive framework, a timely objection from an issuer prevents the venue from offering shares tokenized by an unaffiliated third party. If the venue lacks the stocks investors want, the convenience of round-the-clock trading and stablecoin settlement may not translate into actual use. A tokenized stock venue's competitiveness will depend not only on its trading and settlement technology, but also on how many securities it can secure under these institutional conditions to attract investor demand.",
+      "sources": [
+        {
+          "title": "Public Notice of OKXICE TSV",
+          "url": "https://www.okx.com/cdn/assets/okfe/web3-activities/okxicetsv/notices/OKXICE_Tokenized_Securities_Venue_Public_Notice_26.11.02.pdf"
+        },
+        {
+          "title": "Order Granting Temporary Conditional Exemptive Relief",
+          "url": "https://www.govinfo.gov/content/pkg/FR-2026-09-22/pdf/2026-19388.pdf"
+        }
+      ]
+    },
+    {
+      "slug": "2026-11-04-crypto-news-4c982248fd",
+      "date_kst": "2026-11-04",
+      "title": "CFTC Allows Trading in Single-Stock Perpetual Futures; Securities Industry Group Seeks to Vacate Approval",
+      "content": "Michael S. Selig, a commissioner at the U.S. Commodity Futures Trading Commission (CFTC), said on November 3 that perpetual futures based on individual stocks could be traded for the first time on CFTC-registered exchanges. The same day, the Capital Markets Alliance (CMA), a securities industry group, announced that it had filed a lawsuit in the U.S. District Court for the Southern District of New York seeking to vacate the approval.\nPerpetual futures are derivatives that let investors trade gains and losses arising from price movements without directly owning the underlying shares and without an expiration date. Selig said the contracts were deemed approved as securities futures products under CFTC Regulation 40.3. Under this process, a product is treated as approved if the commission does not issue a disapproval notice within the review period.\nThe contracts may be offered by CFTC-designated contract markets that have also filed notice registrations with the U.S. Securities and Exchange Commission (SEC). Selig said the products would be subject to the Commodity Exchange Act, federal securities laws, and joint regulation by the CFTC and SEC.\nCboe Global Markets had argued in an earlier letter to the SEC that the products should be classified as security-based swaps because they transfer risk associated with stock price movements without an expiration date or final delivery or settlement. CMA contends that the products are security-based swaps under the SEC's exclusive jurisdiction and has asked the court to vacate the approval and stay its effect while the litigation proceeds.",
+      "metanomia_thought": "Products that track the same stock price can be subject to different supervision and investor-protection rules depending on their legal classification. This lawsuit shows regulators and established securities-market participants contesting which rules should govern perpetual products as they enter U.S. regulated markets.",
+      "sources": [
+        {
+          "title": "Statement on Equity Perpetual Futures",
+          "url": "https://www.cftc.gov/PressRoom/SpeechesTestimony/seligstatement110326"
+        },
+        {
+          "title": "Capital Markets Alliance Files Suit Challenging CFTC Approval of Single-Stock Perpetual Derivatives",
+          "url": "https://www.businesswire.com/news/home/20261102755217/en"
+        },
+        {
+          "title": "Cboe Letter to the SEC Re: SR-KALSHIEX-2026-002 et al. (2026-10-14)",
+          "url": "https://www.sec.gov/comments/SR-KALSHIEX-2026-02/srkalshiex202602-1093919-3841506.pdf"
+        },
+        {
+          "title": "§ 40.3 Voluntary submission of new products for Commission review and approval.",
+          "url": "https://www.ecfr.gov/current/title-17/chapter-I/part-40/section-40.3"
+        }
+      ]
+    },
     {
       "slug": "2026-11-03-crypto-news-c0cf3765ee",
       "date_kst": "2026-11-03",
