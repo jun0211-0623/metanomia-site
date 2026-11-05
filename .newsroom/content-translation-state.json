@@ -2,14 +2,14 @@
   "schema_version": "1.0",
   "baseline_ref": "301866eb3b52f61b7afb872cfd0a5c812b7734bf",
   "external_dependencies": {
-    "https://nthszgnbqgjfqnzgytym.supabase.co/storage/v1/object/public/pdfs/Metanomia_APRIL2026_KOR_v1.2.pdf": "6e656306e6da58882724b6bdd76ceed09c7c5e0a631ae25b71883e674b19f383",
-    "https://nthszgnbqgjfqnzgytym.supabase.co/storage/v1/object/public/pdfs/Metanomia_JAN%202026_KOR_v4.1.pdf": "c9e806f9ce1a196c61b4f21c6bb7bc29e3d9086005248cae5a21fd95cf44a7fb",
-    "https://nthszgnbqgjfqnzgytym.supabase.co/storage/v1/object/public/pdfs/Metanomia_JULY-1-2026_final%20(1).pdf": "e0ce55b794df53a6f35947f1caf490052f3a71646e2d92bd5eae3aefa43a41ce",
-    "https://nthszgnbqgjfqnzgytym.supabase.co/storage/v1/object/public/pdfs/Metanomia_JULY-2%202026_LCJ_KOR_v1.6.pdf": "42371493a7a1369819262ea32604f89ed6642a3cc1fb30dc320cc8ac6ead0b60",
-    "https://nthszgnbqgjfqnzgytym.supabase.co/storage/v1/object/public/pdfs/Metanomia_JUNE%202026_KOR_v2.0.pdf": "8921c9935b0cf159fb41a88c3ee4cc7e0afa910a51b52b71963803eeab2b005d",
-    "https://nthszgnbqgjfqnzgytym.supabase.co/storage/v1/object/public/pdfs/Metanomia_MAR%202026_KOR_v3.2.pdf": "760e0629d85271b50c197d4fbc67d4982059d69f99fa16215a367d44b40142ee",
-    "https://nthszgnbqgjfqnzgytym.supabase.co/storage/v1/object/public/pdfs/Metanomia_MAY-2-2026_computer_KOR_v3.0_final.pdf": "a688b7c4d8a03ec4a511dbb831c62c3f4921b7922e7158b3b0d2a6d2c5a3c4de",
-    "https://nthszgnbqgjfqnzgytym.supabase.co/storage/v1/object/public/pdfs/Metanomia_ma_final.pdf": "f2bced21c367c6953e3a13c735919e995a5b261d8afa9220a5904ec72c8496f6"
+    "https://metanomia.org/pdfs/Metanomia_APRIL2026_KOR_v1.2.pdf": "6e656306e6da58882724b6bdd76ceed09c7c5e0a631ae25b71883e674b19f383",
+    "https://metanomia.org/pdfs/Metanomia_JAN_2026_KOR_v4.1.pdf": "c9e806f9ce1a196c61b4f21c6bb7bc29e3d9086005248cae5a21fd95cf44a7fb",
+    "https://metanomia.org/pdfs/Metanomia_JULY-1-2026_final.pdf": "e0ce55b794df53a6f35947f1caf490052f3a71646e2d92bd5eae3aefa43a41ce",
+    "https://metanomia.org/pdfs/Metanomia_JULY-2_2026_LCJ_KOR_v1.6.pdf": "42371493a7a1369819262ea32604f89ed6642a3cc1fb30dc320cc8ac6ead0b60",
+    "https://metanomia.org/pdfs/Metanomia_JUNE_2026_KOR_v2.0.pdf": "8921c9935b0cf159fb41a88c3ee4cc7e0afa910a51b52b71963803eeab2b005d",
+    "https://metanomia.org/pdfs/Metanomia_MAR_2026_KOR_v3.2.pdf": "760e0629d85271b50c197d4fbc67d4982059d69f99fa16215a367d44b40142ee",
+    "https://metanomia.org/pdfs/Metanomia_MAY-2-2026_computer_KOR_v3.0_final.pdf": "a688b7c4d8a03ec4a511dbb831c62c3f4921b7922e7158b3b0d2a6d2c5a3c4de",
+    "https://metanomia.org/pdfs/Metanomia_ma_final.pdf": "f2bced21c367c6953e3a13c735919e995a5b261d8afa9220a5904ec72c8496f6"
   },
   "items": {
     "data/media-videos.ko.json": {
@@ -326,7 +326,7 @@
       "asset_disposition": "not_applicable",
       "reviewed_at": null,
       "external_sources": [
-        "https://nthszgnbqgjfqnzgytym.supabase.co/storage/v1/object/public/pdfs/Metanomia_ma_final.pdf"
+        "https://metanomia.org/pdfs/Metanomia_ma_final.pdf"
       ]
     },
     "ko/articles/bitcoin-quantum-computing.html": {
@@ -343,7 +343,7 @@
       "asset_disposition": "not_applicable",
       "reviewed_at": null,
       "external_sources": [
-        "https://nthszgnbqgjfqnzgytym.supabase.co/storage/v1/object/public/pdfs/Metanomia_MAY-2-2026_computer_KOR_v3.0_final.pdf"
+        "https://metanomia.org/pdfs/Metanomia_MAY-2-2026_computer_KOR_v3.0_final.pdf"
       ]
     },
     "ko/articles/commuting-into-online-games.html": {
@@ -360,7 +360,7 @@
       "asset_disposition": "not_applicable",
       "reviewed_at": null,
       "external_sources": [
-        "https://nthszgnbqgjfqnzgytym.supabase.co/storage/v1/object/public/pdfs/Metanomia_JAN%202026_KOR_v4.1.pdf"
+        "https://metanomia.org/pdfs/Metanomia_JAN_2026_KOR_v4.1.pdf"
       ]
     },
     "ko/articles/crypto-prediction-markets.html": {
@@ -392,7 +392,7 @@
       "asset_disposition": "not_applicable",
       "reviewed_at": null,
       "external_sources": [
-        "https://nthszgnbqgjfqnzgytym.supabase.co/storage/v1/object/public/pdfs/Metanomia_JULY-2%202026_LCJ_KOR_v1.6.pdf"
+        "https://metanomia.org/pdfs/Metanomia_JULY-2_2026_LCJ_KOR_v1.6.pdf"
       ]
     },
     "ko/articles/legibility-exit-and-staying.html": {
@@ -424,7 +424,7 @@
       "asset_disposition": "not_applicable",
       "reviewed_at": null,
       "external_sources": [
-        "https://nthszgnbqgjfqnzgytym.supabase.co/storage/v1/object/public/pdfs/Metanomia_MAR%202026_KOR_v3.2.pdf"
+        "https://metanomia.org/pdfs/Metanomia_MAR_2026_KOR_v3.2.pdf"
       ]
     },
     "ko/articles/tokenizing-gangnam-apartments.html": {
@@ -441,7 +441,7 @@
       "asset_disposition": "not_applicable",
       "reviewed_at": null,
       "external_sources": [
-        "https://nthszgnbqgjfqnzgytym.supabase.co/storage/v1/object/public/pdfs/Metanomia_APRIL2026_KOR_v1.2.pdf"
+        "https://metanomia.org/pdfs/Metanomia_APRIL2026_KOR_v1.2.pdf"
       ]
     },
     "ko/articles/traceable-money.html": {
@@ -458,7 +458,7 @@
       "asset_disposition": "not_applicable",
       "reviewed_at": null,
       "external_sources": [
-        "https://nthszgnbqgjfqnzgytym.supabase.co/storage/v1/object/public/pdfs/Metanomia_JUNE%202026_KOR_v2.0.pdf"
+        "https://metanomia.org/pdfs/Metanomia_JUNE_2026_KOR_v2.0.pdf"
       ]
     },
     "ko/articles/where-is-ethereum-going.html": {
@@ -475,7 +475,7 @@
       "asset_disposition": "not_applicable",
       "reviewed_at": null,
       "external_sources": [
-        "https://nthszgnbqgjfqnzgytym.supabase.co/storage/v1/object/public/pdfs/Metanomia_JULY-1-2026_final%20(1).pdf"
+        "https://metanomia.org/pdfs/Metanomia_JULY-1-2026_final.pdf"
       ]
     },
     "ko/contact.html": {
