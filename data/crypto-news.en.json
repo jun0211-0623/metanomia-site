@@ -1,7 +1,58 @@
 {
   "schema_version": "1.0",
-  "generated_at_kst": "2026-11-05T09:34:12+09:00",
+  "generated_at_kst": "2026-11-06T08:28:29+09:00",
   "items": [
+    {
+      "slug": "2026-11-06-crypto-news-8122531870",
+      "date_kst": "2026-11-06",
+      "title": "Samsung Wallet Offers USDC Accounts in U.S., Supports Transfers to Overseas Bank Accounts",
+      "content": "Samsung Wallet has begun offering stablecoin accounts to Galaxy users in the United States. Payments company Stripe announced on November 5 that it supports USDC purchases through the accounts. USDC is a stablecoin designed to track the value of the U.S. dollar.\nUsers can buy USDC with a bank account or card, among other methods, and store and transfer it in Samsung Wallet. The service is a custodial account for holding USDC rather than a bank deposit account, and balances are not covered by U.S. deposit insurance or Securities Investor Protection Corporation (SIPC) protection. Bastion handles the accounts, transfers, and international remittances, while Coinbase holds the USDC in custody under an arrangement managed by Bastion.\nWhen users send funds to an overseas bank account, USDC is converted into local currency and paid into the recipient's account. Recipients do not need a Samsung Wallet stablecoin account. Supported countries can be checked in the app, while fees and the amount the recipient will receive are shown before the transfer is confirmed.\nThe service is available to identity-verified U.S. residents aged 18 or older, excluding residents of New York. Users need a Samsung account, a compatible Galaxy device running Android 13 or later, and fingerprint authentication. Fees for purchases, withdrawals, and transfers vary by method and destination, while limits vary by method, country, account status, and other factors.",
+      "metanomia_thought": "The payment app on Galaxy phones has expanded into an access point for financial services using a dollar stablecoin. The service connects Samsung's device and app ecosystem with external custody and currency-conversion networks, creating a structure that can also reach users who are unfamiliar with crypto assets. New business opportunities may depend not only on how widely devices are distributed, but also on which currencies and financial networks are connected inside them.",
+      "sources": [
+        {
+          "title": "Stripe powers stablecoin purchases in Samsung Wallet",
+          "url": "https://stripe.com/newsroom/news/stripe-powers-stablecoin-purchases-in-samsung-wallet"
+        },
+        {
+          "title": "Samsung Wallet Stablecoin Account FAQs",
+          "url": "https://www.samsung.com/us/support/answer/ANS10013605/"
+        }
+      ]
+    },
+    {
+      "slug": "2026-11-06-crypto-news-800310d372",
+      "date_kst": "2026-11-06",
+      "title": "Government Moves to Defer Crypto Tax by Two Years, Discusses Loss Carryforward Deduction",
+      "content": "Deputy Prime Minister and Minister of Finance and Economy Lee Hyung-il said on November 5 that the government would work with the National Assembly to postpone taxation of crypto-asset income by two years and implement it from 2029. The plan would delay the tax currently scheduled to take effect next year and requires a legislative amendment.\nThe government cited the start of crypto transaction-information exchanges with the United States in 2029 as a reason for the deferral. It said the plan also reflected concerns that taxing the market without sufficient overseas transaction data could put the domestic market at a disadvantage, as well as institutional changes expected from the enactment of digital asset legislation.\nThe government will also discuss introducing a loss carryforward deduction with the National Assembly, allowing investment losses to be carried into the following year and deducted from gains over the next three years. Under the tax system currently scheduled to take effect, gains and losses are aggregated only within the same tax period, and losses cannot be carried forward. The government also plans to expand infrastructure for linking and analyzing domestic and overseas tax data.\nA joint public-private working group will prepare institutional improvements by the first half of 2027, and the government plans to submit legislative measures to the regular session of the National Assembly that year. Detailed tax standards are scheduled to be announced in the first half of 2028. Until the Income Tax Act is amended, however, the current law applies the tax to transfers and lending of crypto assets from January 1, 2027.",
+      "metanomia_thought": "Taxing transactions that cross borders also requires information networks that cross borders. This proposal is significant because it considers the conditions needed to obtain overseas transaction data alongside the tax timetable. If a system is also introduced to carry losses forward for deduction in later years, the tax base will more closely reflect investors' actual performance. The significance of the proposed deferral lies in preparing both foundations together.",
+      "sources": [
+        {
+          "title": "가상자산 과세 관련 부총리 브리핑",
+          "url": "https://mofe.go.kr/nw/nes/detailNesDtaView.do?menuNo=4010100&searchBbsId1=MOSFBBS_000000000028&searchNttId1=MOSF_000000000079862"
+        },
+        {
+          "title": "소득세법 — 법률 제17757호 부칙 제5조제1항 (현행법 수록)",
+          "url": "https://www.law.go.kr/LSW/lsInfoR.do?lsiSeq=280405&efYd=20260701&chrClsCd=010202&lsId=001565"
+        },
+        {
+          "title": "2026 대한민국 조세 — 가상자산소득 과세체계 (103쪽)",
+          "url": "https://nabo.go.kr/board/file/down.do?fid=33319156"
+        }
+      ]
+    },
+    {
+      "slug": "2026-11-06-crypto-news-63e5c02cca",
+      "date_kst": "2026-11-06",
+      "title": "FSC Moves to Expand Crypto Hacking Reporting, Plans Guidelines in November",
+      "content": "South Korea's Financial Services Commission (FSC) said on November 5 that it would issue response guidelines during November requiring virtual asset service providers to immediately report security breaches to the Financial Supervisory Service and the Financial Security Institute as well. The plan would add financial-sector response channels to the existing reporting process through the Korea Internet & Security Agency (KISA).\nAccording to the FSC, 40 security incidents were reported by 37 companies between September 30 and November 3, including three virtual asset service providers. Some crypto exchanges, electronic financial business operators, and online investment-linked finance companies reported a combined theft of approximately 1 billion won. The FSC said it had determined that losses for individual users had not yet materialized.\nVirtual asset service providers are not currently subject to the security rules of the Electronic Financial Transactions Act. The FSC is seeking enactment of a Digital Financial Security Act that would apply security standards equivalent to those under the Electronic Financial Transactions Act to virtual asset service providers and other businesses, and plans to prepare a bill in the first quarter of 2027.\nApproximately 580 companies, including virtual asset service providers, will conduct comprehensive self-inspections of externally accessible systems and internal controls. External access points listed in their management registers are to be inspected by November 30, while unregistered systems and internal controls as a whole are to be inspected by December 31.",
+      "metanomia_thought": "When incident information is collected separately by industry, a coordinated response to the same intrusion method can also be delayed. This plan connects reporting by virtual asset service providers to the financial sector's response network while aligning security standards. It points toward designing responsibility for protecting assets around shared operational risks rather than industry classifications.",
+      "sources": [
+        {
+          "title": "AI시대, 거세지는 침해위협에 맞서 全 금융권이 튼튼한 보안체계로 무장하도록 혁신적인 정책과제를 적극 추진하겠습니다.",
+          "url": "https://www.fsc.go.kr/no010101/88086"
+        }
+      ]
+    },
     {
       "slug": "2026-11-05-crypto-news-d237ec5b8d",
       "date_kst": "2026-11-05",
