@@ -1,7 +1,74 @@
 {
   "schema_version": "1.0",
-  "generated_at_kst": "2026-11-04T10:33:16+09:00",
+  "generated_at_kst": "2026-11-05T09:34:12+09:00",
   "items": [
+    {
+      "slug": "2026-11-05-crypto-news-d237ec5b8d",
+      "date_kst": "2026-11-05",
+      "title": "Morgan Stanley Converts U.S. Stocks and Treasuries into Tokens Using DTCC Service",
+      "content": "Morgan Stanley said it used the DTCC Tokenization Service (DTS) on November 3 to convert U.S. stocks and U.S. Treasury securities into token form. It did not disclose the specific securities or amounts involved, or the blockchain actually used.\nDTS records tokens representing ownership rights in securities held by the Depository Trust Company (DTC), a subsidiary of the U.S. securities depository and clearing organization DTCC. Each token is linked one-to-one to rights in securities held at DTC. DTCC says the legal rights, economic benefits, and investor protections attached to the existing securities are preserved.\nThe service is available to eligible DTC participants. It currently supports the Canton Network and DTCC's private Besu network. Morgan Stanley said it used the service to improve liquidity, collateral mobility, and capital efficiency.\nThe company is separately preparing to support trading in tokenized equities on its own platform. According to an interview with Amy Oldenburg, Morgan Stanley's head of digital asset strategy, reported by The Block last month, the company is targeting the first quarter of 2027 to support tokenized equities on its own alternative trading system (ATS), which matches securities orders outside an exchange.",
+      "metanomia_thought": "Moving securities into token form does not eliminate the role of the institutions responsible for custody and recording ownership rights. Morgan Stanley's use of the service shows how a financial company relying on existing depository infrastructure can extend asset movement onto blockchain networks. The practical results of tokenization will depend on how closely these securities connect to trading and collateral operations.",
+      "sources": [
+        {
+          "title": "Morgan Stanley X 게시물 — DTS를 통한 미국 주식·국채 토큰 전환 발표",
+          "url": "https://x.com/MorganStanley/status/2117727271377125454"
+        },
+        {
+          "title": "DTCC Tokenization Service: The Start of What’s Next.",
+          "url": "https://www.dtcc.com/products-and-services/digital-assets/tokenization"
+        },
+        {
+          "title": "Morgan Stanley expects to support tokenized equities in Q1 2027, digital asset strategy head says",
+          "url": "https://www.theblock.co/news/markets/2026-10-12-morgan-stanley-tokenized-equities-q1-2027-418256"
+        }
+      ]
+    },
+    {
+      "slug": "2026-11-05-crypto-news-386e9a72db",
+      "date_kst": "2026-11-05",
+      "title": "Schroders Emerging-Market Debt Strategy Launches on Solana with Tokenized Feeder-Fund Interests",
+      "content": "Asset manager Schroders' emerging-market debt strategy is now available on the Solana blockchain. Tokenization platform Centrifuge announced the launch on November 4 and said this is the first time a Schroders investment strategy has been introduced on Solana.\nThe product tokenizes interests in a feeder fund that pools investor money and invests it in Schroders' emerging-market bond fund. The feeder fund is managed by Anemoy. Investors receive SISF tokens representing interests in the feeder fund rather than directly holding shares in Schroders' underlying fund.\nThe underlying fund invests in bonds issued by emerging-market governments and companies, including local-currency bonds, with securities selected by its portfolio managers. A significant portion of its assets consists of below-investment-grade bonds. The product expands the range of tokenized investments beyond instruments centered on cash and short-term government debt. Its performance is affected by issuers' credit conditions as well as changes in interest and exchange rates.\nAccording to the official product page, the offering is available to professional investors outside the United States, with a minimum investment of 100,000 USDC. Subscriptions and redemptions use stablecoins, and redemption proceeds are paid in USDC on T+3 from the redemption trade date. Under difficult market conditions, the underlying fund may defer or suspend redemptions.",
+      "metanomia_thought": "As onchain funds expand beyond cash-like assets, they also broaden the range of investment choices that carry credit and currency risk. This product extends access to Schroders' investment strategy through a feeder fund and a blockchain network. Even when fund interests are held as tokens, the speed at which investors can recover their money remains subject to the underlying fund's redemption process and liquidity.",
+      "sources": [
+        {
+          "title": "Centrifuge Launches Schroders Emerging Markets Debt strategy on Solana",
+          "url": "https://centrifuge.io/blog/schroders-centrifuge"
+        },
+        {
+          "title": "Schroder International Selection Fund EM Bond",
+          "url": "https://app.centrifuge.io/pool/281474976710677"
+        },
+        {
+          "title": "Schroder ISF Emerging Market Bond Fund",
+          "url": "https://centrifuge-files.mypinata.cloud/ipfs/QmTULWLQJ1rPyuw17BfiqTRYskZnnPp4F9V39uzsF34rF9"
+        }
+      ]
+    },
+    {
+      "slug": "2026-11-05-crypto-news-26c32c1787",
+      "date_kst": "2026-11-05",
+      "title": "Democratic Party Proposes Deferring Crypto Tax Planned for Next Year, Prioritizing Digital Asset Basic Act",
+      "content": "The Democratic Party of Korea formally proposed to the government on November 4 that the taxation of crypto-asset income, currently scheduled to take effect next year, be deferred. At a Supreme Council meeting at the National Assembly, party leader Kim Min-seok said it would be preferable to establish an institutional framework through a digital asset basic act first and give companies and investors time to adapt.\nKim said the party had considered the principle of taxation, conditions in the domestic industry, and fairness among users. In light of the repeated delays to the tax, he said the length of any new deferral should be clearly defined and that preparatory work—including the use of overseas transaction data, computerized verification, and taxpayer guidance—should be carried out thoroughly.\nUnder the current Income Tax Act, transfers and lending of crypto assets are subject to taxation from January 1, 2027. Asia Business Daily and Financial News reported that a two-year deferral was under discussion, but Kim did not specify a deferral period that day. The announcement remains a proposal to defer the tax; changing the effective date would require legislation.",
+      "metanomia_thought": "Deferring the tax is a choice to buy time for institutional preparation. That time should be used to establish market rules through a basic act and build a workable tax foundation by securing and verifying transaction data.",
+      "sources": [
+        {
+          "title": "제32차 최고위원회의 모두발언",
+          "url": "https://www.theminjoo.kr/main/sub/news/view.php?brd=230&post=1224324"
+        },
+        {
+          "title": "소득세법 부칙 제1조제2호·제5조제1항(법률 제17757호, 2024.12.31. 개정 반영)",
+          "url": "https://www.law.go.kr/법령/소득세법"
+        },
+        {
+          "title": "가상자산 과세 2년 더 유예되나…전문가 “단순 시간벌기 아닌 로드맵 짜야\"",
+          "url": "https://view.asiae.co.kr/article/2026110411253000453"
+        },
+        {
+          "title": "김민석 \"정부에 가상자산 과세 유예 요청\"",
+          "url": "https://www.fnnews.com/news/202611041820293972"
+        }
+      ]
+    },
     {
       "slug": "2026-11-04-crypto-news-d608663721",
       "date_kst": "2026-11-04",
