@@ -1,7 +1,45 @@
 {
   "schema_version": "1.0",
-  "generated_at_kst": "2026-11-06T08:28:29+09:00",
+  "generated_at_kst": "2026-11-09T09:34:47+09:00",
   "items": [
+    {
+      "slug": "2026-11-09-crypto-news-adb2162250",
+      "date_kst": "2026-11-09",
+      "title": "GOPAX Temporarily Halts Crypto Deposits, Withdrawals and Trading; Withdrawals Available Through Support Center",
+      "content": "South Korean crypto exchange GOPAX temporarily suspended crypto deposits, withdrawals and trading on Nov. 6. Regular withdrawals through its website and app were disabled, but users can still submit separate withdrawal requests through the customer support center.\nGOPAX said it was taking precautionary action in response to a series of data leaks and hacking incidents at financial companies, following a recommendation from financial authorities. It plans to move all customer crypto assets into cold wallets disconnected from the internet.\nCrypto deposits and withdrawals were suspended at 2:55 p.m. that day, followed by trading at 3:53 p.m., and all open orders were canceled. Withdrawal requests are accepted by email and processed manually in sequence after internal verification and approval, so they may take longer than usual.\nDigital Asset reported that a GOPAX representative said the exchange had received a hacking threat email and suspended its services as a precaution. The representative said there had been no hacking damage or attempts as of the company's explanation on Nov. 6. The company did not announce when services would resume in either notice.",
+      "metanomia_thought": "Exchange security involves both keeping assets safe and processing users' legitimate withdrawals. GOPAX replaced website and app withdrawals with manual processing subject to internal approval, tightening control over asset movements. Under this arrangement, withdrawal review criteria and processing capacity determine users' access to their assets.",
+      "sources": [
+        {
+          "title": "[공지] 이용자 자산 보호를 위한 일부 서비스 일시 중단 안내",
+          "url": "https://www.gopax.co.kr/notice/detail?id=2607"
+        },
+        {
+          "title": "[공지] 이용자 자산 보호를 위한 가상자산 매매서비스 일시 중단 안내",
+          "url": "https://www.gopax.co.kr/notice/detail?id=2608"
+        },
+        {
+          "title": "고팍스 \"해킹 피해 입은 것 아냐...입출금 및 매매 제한은 선제적 조치\"",
+          "url": "https://www.digitalasset.works/news/articleView.html?idxno=44129"
+        }
+      ]
+    },
+    {
+      "slug": "2026-11-09-crypto-news-7f4eecf5a3",
+      "date_kst": "2026-11-09",
+      "title": "FinCEN Bars U.S. Financial Institutions from Transmitting Funds Involving MEXC, Including Crypto",
+      "content": "The U.S. Treasury Department's Financial Crimes Enforcement Network (FinCEN) issued an order on Nov. 6 prohibiting U.S. financial institutions from sending funds to or receiving funds from crypto exchange MEXC Global. The covered fund transmissions include sending and receiving crypto assets such as bitcoin.\nFinCEN determined that MEXC Global is a primary money laundering concern connected to illicit Russian finance and acted under Section 9714 of the Combatting Russian Money Laundering Act. The order states that the exchange facilitated $16.7 billion in fund movements linked to sanctions evasion, cybercrime and other illicit activity from May 2021 through May 2026. It also said the exchange transacted with sanctioned persons and others in jurisdictions it had designated as restricted.\nUnder the order, MEXC Global includes branches, subsidiaries and offices operating outside the United States, as well as successor entities. Branches and subsidiaries within the United States are excluded from this definition. FinCEN acknowledged that financial institutions may be unable to block incoming MEXC-originated crypto assets from wallets they do not control before receipt and allowed discretion in handling such deposits based on the facts and circumstances of each transaction. The order takes effect 30 days after publication in the Federal Register, and covered financial institutions and others that willfully violate it may face civil or criminal penalties.",
+      "metanomia_thought": "An overseas exchange depends not only on its own trading system but also on connections that let it send and receive funds through other financial institutions. This measure seeks to cut MEXC off from the U.S. financial system by restricting how U.S. financial institutions handle transfers involving the exchange. It shows that crypto transactions remain subject to anti-money-laundering controls where they connect with financial institutions.",
+      "sources": [
+        {
+          "title": "Operation Economic Outcast Severs MEXC Global’s Access to the U.S. Financial System",
+          "url": "https://home.treasury.gov/news/press-releases/sb0685"
+        },
+        {
+          "title": "Imposition of Special Measure Prohibiting the Transmittal of Funds Involving MEXC Global",
+          "url": "https://www.fincen.gov/system/files/2026-11/MEXC-Section-9714.pdf"
+        }
+      ]
+    },
     {
       "slug": "2026-11-06-crypto-news-8122531870",
       "date_kst": "2026-11-06",
