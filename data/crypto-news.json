@@ -1,7 +1,43 @@
 {
   "schema_version": "1.0",
-  "generated_at_kst": "2026-11-09T09:34:47+09:00",
+  "generated_at_kst": "2026-11-10T08:30:42+09:00",
   "items": [
+    {
+      "id": "crypto-news-96d58c2cb4b8c1f3",
+      "slug": "2026-11-10-crypto-news-96d58c2cb4",
+      "date_kst": "2026-11-10",
+      "title": "NYSE 토큰화 증권 플랫폼, 청산·결제 원장에 아발란체…규제 승인 전제",
+      "content": "블록체인 아발란체(Avalanche)의 개발사 아바 랩스(Ava Labs)가 11월 9일 뉴욕증권거래소(NYSE) 계열의 토큰화 증권 거래 플랫폼에 청산·결제용 핵심 원장 기술을 제공한다고 발표했다. 여러 블록체인에서 발행된 주식을 다루면서, 거래를 기록하고 결제하는 장부에는 아발란체를 쓰려는 구상이다.\nNYSE는 지난 1월 토큰화 증권의 거래와 블록체인 결제를 위한 별도 플랫폼을 개발한다고 밝혔다. 주문을 맞추는 체결 업무에는 기존 매칭엔진 필라(Pillar)를 쓰고, 체결 뒤 결제·보관에는 블록체인 기반 체계를 결합하는 설계다. 이번에 아발란체 원장 기술을 공급받는 곳은 해당 플랫폼의 청산회사다.\n플랫폼은 관련 규제 승인을 전제로 24시간 거래·청산·결제를 제공하도록 설계됐다. NYSE가 1월 밝힌 계획에는 달러 금액 단위 주문과 스테이블코인을 통한 자금 납입이 포함됐다. 기존 주식과 대체 가능한 토큰화 주식을 거래하며, 보유자는 기존 주주처럼 배당과 의결권을 갖도록 할 예정이다.\nNYSE는 결제 원장에 빠르고 안정적인 처리뿐 아니라 참여자 통제와 예측 가능한 비용이 필요하다고 설명했다. 이번 발표는 이 구상을 위한 청산·결제 기반 기술을 정한 단계다.",
+      "metanomia_thought": "주식을 여러 블록체인에서 발행하더라도 거래를 기록하고 결제하는 기반은 별도로 설계할 수 있습니다. NYSE는 기존 주문 체결 기술을 유지하면서 참여자를 통제할 수 있다고 본 아발란체 원장을 결합하려 합니다. 이번 선택은 기존 거래소가 블록체인을 활용해 토큰화 시장의 설계자로 나서는 사례입니다.",
+      "sources": [
+        {
+          "title": "Avalanche to Serve as Core Ledger Technology for Clearing and Settlement of NYSE-affiliated Upcoming Tokenized Securities Platform",
+          "url": "https://www.prnewswire.com/news-releases/avalanche-to-serve-as-core-ledger-technology-for-clearing-and-settlement-of-nyse-affiliated-upcoming-tokenized-securities-platform-302932803.html"
+        },
+        {
+          "title": "The New York Stock Exchange Develops Tokenized Securities Platform",
+          "url": "https://ir.theice.com/press/news-details/2026/The-New-York-Stock-Exchange-Develops-Tokenized-Securities-Platform/default.aspx"
+        }
+      ]
+    },
+    {
+      "id": "crypto-news-394f714558195c11",
+      "slug": "2026-11-10-crypto-news-394f714558",
+      "date_kst": "2026-11-10",
+      "title": "코인베이스, 연방 신탁은행 최종 인가…뉴욕 수탁 사업 3년에 걸쳐 이전",
+      "content": "가상자산 거래소 코인베이스(Coinbase)가 11월 9일 미국 통화감독청(OCC)에서 연방 신탁은행 코인베이스 내셔널 트러스트 컴퍼니(Coinbase National Trust Company) 설립 최종 인가를 받았다고 밝혔다. 코인베이스가 밝힌 최종 승인일은 11월 6일로, 4월 2일 예비 조건부 승인에 이은 단계다.\n새 은행은 주로 기관 고객의 가상자산을 맡아 보관하고, 수탁 계좌 안에서 법정화폐와 가상자산의 수령·이체를 지원한다. 스테이킹과 프라임 거래·금융은 코인베이스 계열사가 제공하며, 은행은 수탁 고객을 해당 서비스에 연결하는 역할을 한다.\n코인베이스는 뉴욕주 인가 신탁회사인 코인베이스 커스터디 트러스트 컴퍼니를 통해 수탁 사업을 해 왔다. OCC의 4월 예비 조건부 승인서에 따르면 코인베이스는 기존 수탁 사업 전체를 새 은행의 영업 초기 3년에 걸쳐 옮길 계획이다.\nOCC 승인서는 새 은행이 미국 연방예금보험공사(FDIC)의 예금보험 대상 기관이 아니며, 스테이블코인 발행도 계획하지 않는다고 명시했다.",
+      "metanomia_thought": "가상자산 수탁에서는 보관 기술뿐 아니라 어떤 감독 체계에 속하는지도 경쟁 조건이 됩니다. 코인베이스는 연방 신탁은행과 계열사가 각각 수탁과 거래·금융을 맡는 구조를 택했습니다. 이번 사례는 가상자산의 제도권 편입도 업무별 인가와 책임을 구분하며 진행된다는 점을 보여 줍니다.",
+      "sources": [
+        {
+          "title": "Coinbase launches National Trust Company with federally regulated, institutional-grade custody offering",
+          "url": "https://www.coinbase.com/blog/coinbase-launches-national-trust-company-with-federally-regulated-institutional-grade-custody-offering"
+        },
+        {
+          "title": "Corporate Decision #1370",
+          "url": "https://www.occ.treas.gov/topics/charters-and-licensing/interpretations-and-decisions/2026/cd1370.pdf"
+        }
+      ]
+    },
     {
       "id": "crypto-news-adb21622505ae47a",
       "slug": "2026-11-09-crypto-news-adb2162250",

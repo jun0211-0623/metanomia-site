@@ -1,7 +1,41 @@
 {
   "schema_version": "1.0",
-  "generated_at_kst": "2026-11-09T09:34:47+09:00",
+  "generated_at_kst": "2026-11-10T08:30:42+09:00",
   "items": [
+    {
+      "slug": "2026-11-10-crypto-news-96d58c2cb4",
+      "date_kst": "2026-11-10",
+      "title": "NYSE Tokenized Securities Platform Selects Avalanche as Clearing and Settlement Ledger, Subject to Regulatory Approval",
+      "content": "Ava Labs, the developer of the Avalanche blockchain, announced on Nov. 9 that it will provide core ledger technology for clearing and settlement to an NYSE-affiliated tokenized securities trading platform. The platform plans to handle shares issued across multiple blockchains while using Avalanche as the ledger for recording trades and settling transactions.\nNYSE said in January that it was developing a separate platform for tokenized securities trading and blockchain-based settlement. The design uses its existing Pillar matching engine to match orders and combines it with a blockchain-based system for post-trade settlement and custody. The entity receiving Avalanche's ledger technology is the platform's clearing company.\nSubject to regulatory approval, the platform is designed to offer round-the-clock trading, clearing and settlement. NYSE's January plan included orders denominated in dollar amounts and stablecoin-based funding. The platform is intended to trade tokenized shares that are fungible with conventional shares, with holders receiving dividends and voting rights like other shareholders.\nNYSE said a settlement ledger requires not only fast and reliable processing but also control over participants and predictable costs. This announcement marks the selection of the core clearing and settlement technology for that plan.",
+      "metanomia_thought": "Even when shares are issued across multiple blockchains, the infrastructure that records and settles trades can be designed separately. NYSE plans to retain its existing order-matching technology while adding an Avalanche ledger that it believes can support participant controls. The selection shows how an established exchange can use blockchain to position itself as a designer of the tokenized securities market.",
+      "sources": [
+        {
+          "title": "Avalanche to Serve as Core Ledger Technology for Clearing and Settlement of NYSE-affiliated Upcoming Tokenized Securities Platform",
+          "url": "https://www.prnewswire.com/news-releases/avalanche-to-serve-as-core-ledger-technology-for-clearing-and-settlement-of-nyse-affiliated-upcoming-tokenized-securities-platform-302932803.html"
+        },
+        {
+          "title": "The New York Stock Exchange Develops Tokenized Securities Platform",
+          "url": "https://ir.theice.com/press/news-details/2026/The-New-York-Stock-Exchange-Develops-Tokenized-Securities-Platform/default.aspx"
+        }
+      ]
+    },
+    {
+      "slug": "2026-11-10-crypto-news-394f714558",
+      "date_kst": "2026-11-10",
+      "title": "Coinbase Receives Final Federal Trust Bank Approval, Plans Three-Year Transfer of New York Custody Business",
+      "content": "Crypto exchange Coinbase said on Nov. 9 that it had received final approval from the U.S. Office of the Comptroller of the Currency (OCC) to establish Coinbase National Trust Company, a federal trust bank. Coinbase said the final approval was granted on Nov. 6, following preliminary conditional approval on April 2.\nThe new bank will primarily custody crypto assets for institutional clients and support the receipt and transfer of fiat currency and crypto assets within custody accounts. Coinbase affiliates will provide staking and prime trading and financing services, while the bank will connect custody clients to those services.\nCoinbase has operated its custody business through Coinbase Custody Trust Company, a New York-chartered trust company. According to the OCC's preliminary conditional approval issued in April, Coinbase plans to transfer the entire existing custody business to the new bank over its first three years of operation.\nThe OCC approval states that the new bank will not be an institution insured by the Federal Deposit Insurance Corporation and does not plan to issue stablecoins.",
+      "metanomia_thought": "In crypto custody, the supervisory framework matters as much as the technology used to safeguard assets. Coinbase has chosen a structure in which the federal trust bank handles custody while affiliates provide trading and financing services. The case shows that crypto's integration into the regulated financial system is proceeding through separate licenses and responsibilities for distinct business functions.",
+      "sources": [
+        {
+          "title": "Coinbase launches National Trust Company with federally regulated, institutional-grade custody offering",
+          "url": "https://www.coinbase.com/blog/coinbase-launches-national-trust-company-with-federally-regulated-institutional-grade-custody-offering"
+        },
+        {
+          "title": "Corporate Decision #1370",
+          "url": "https://www.occ.treas.gov/topics/charters-and-licensing/interpretations-and-decisions/2026/cd1370.pdf"
+        }
+      ]
+    },
     {
       "slug": "2026-11-09-crypto-news-adb2162250",
       "date_kst": "2026-11-09",
