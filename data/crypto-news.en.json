@@ -1,7 +1,49 @@
 {
   "schema_version": "1.0",
-  "generated_at_kst": "2026-11-10T08:30:42+09:00",
+  "generated_at_kst": "2026-11-11T08:41:01+09:00",
   "items": [
+    {
+      "slug": "2026-11-11-crypto-news-419665d24a",
+      "date_kst": "2026-11-11",
+      "title": "Plume Affiliate Kimber Registers as U.S. Broker-Dealer, Plans Tokenized Stocks and Bonds",
+      "content": "Kimber Digital Securities, an affiliate of blockchain network Plume, announced on November 10 that it had registered with the U.S. Securities and Exchange Commission (SEC) as a broker-dealer and received membership approval from the Financial Industry Regulatory Authority (FINRA). According to FINRA's public records, the registration and membership became effective on October 27. Kimber plans to tokenize ownership interests in U.S. stocks, exchange-traded funds (ETFs), and bonds and make them available in investors' digital wallets.\nWhen securities are held indirectly through a U.S. broker, the issuer's records generally list Cede & Co., the nominee of the central securities depository DTC, while the broker records each investor's interest in a customer account. The structure described by Plume would use this depository network while recording the interests held in securities accounts on a blockchain. The company says it is being designed to preserve existing shareholder rights such as dividends and voting.\nKimber also plans to use the Automated Customer Account Transfer Service (ACATS), the existing network for moving customer assets between brokerage firms, to support transfers between traditional accounts and tokenized form. Plume said the functionality for offering tokenized interests in securities deposited at DTC is still under development.",
+      "metanomia_thought": "Kimber is preparing to let investors move shares between brokerage accounts and digital wallets while retaining dividend and voting rights. If the plan is realized, investors could also manage shares they already own from their wallets. For brokerages, competition may come to depend not only on which assets they offer, but also on how easily they connect customers' existing holdings to wallets.",
+      "sources": [
+        {
+          "title": "Real US Securities, Onchain: Kimber Digital Securities Becomes a Registered Broker-Dealer",
+          "url": "https://www.plume.org/blog/%20Kimber%20Digital%20Securities%20Becomes%20a%20Registered%20Broker-Dealer"
+        },
+        {
+          "title": "BrokerCheck Report: Kimber Digital Securities LLC",
+          "url": "https://files.brokercheck.finra.org/firm/firm_339774.pdf"
+        },
+        {
+          "title": "Investor Bulletin: Holding Your Securities",
+          "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-97"
+        },
+        {
+          "title": "Automated Customer Account Transfer Service (ACATS)",
+          "url": "https://www.dtcc.com/products-and-services/clearing-settlement-services/equities-clearing/acats"
+        }
+      ]
+    },
+    {
+      "slug": "2026-11-11-crypto-news-069b68dea6",
+      "date_kst": "2026-11-11",
+      "title": "Securitize Signs Agreement to Acquire River One, Aims to Connect Stablecoin Capital With Asset-Backed Lending",
+      "content": "Tokenized asset platform Securitize announced on November 9 that it had entered into a definitive agreement to acquire River One, an institutional asset-backed finance platform. Once the acquisition closes, Securitize plans to add financing capabilities for lenders to its tokenized asset issuance and administration services.\nRiver One specializes in warehouse financing, in which lenders borrow against assets such as small-business loans or accounts receivable in order to fund new lending. Its platform supports the structuring of loan terms, collateral monitoring, and the management of fund disbursements.\nRiver One is seeking to broaden the funding base for this lending through relationships with capital providers in the stablecoin market. Its structure uses bankruptcy-remote special-purpose vehicles designed to isolate transaction funds from the bankruptcy risk of other businesses, while applying collateral requirements to continuously monitor the condition of the underlying loan assets.\nSecuritize expects to complete the acquisition in the fourth quarter of this year, subject to customary closing conditions.",
+      "metanomia_thought": "Lenders can raise funds for new loans by pledging existing loans as collateral before those loans are repaid. Through the River One acquisition, Securitize is seeking to create a route for stablecoin capital to enter this process. Whether funding providers participate consistently may also depend on their ability to verify which assets secure the financing and whether principal and interest are being paid on time.",
+      "sources": [
+        {
+          "title": "Securitize to Acquire River One, Connecting Stablecoin Capital to the $6 Trillion Asset-Backed Finance Market",
+          "url": "https://investors.securitize.io/news/news-details/2026/Securitize-to-Acquire-River-One-Connecting-Stablecoin-Capital-to-the-6-Trillion-Asset-Backed-Finance-Market/default.aspx"
+        },
+        {
+          "title": "River One — Institutional Structured Credit",
+          "url": "https://www.river.one/"
+        }
+      ]
+    },
     {
       "slug": "2026-11-10-crypto-news-96d58c2cb4",
       "date_kst": "2026-11-10",

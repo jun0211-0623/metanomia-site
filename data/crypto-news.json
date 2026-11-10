@@ -1,7 +1,51 @@
 {
   "schema_version": "1.0",
-  "generated_at_kst": "2026-11-10T08:30:42+09:00",
+  "generated_at_kst": "2026-11-11T08:41:01+09:00",
   "items": [
+    {
+      "id": "crypto-news-419665d24afad210",
+      "slug": "2026-11-11-crypto-news-419665d24a",
+      "date_kst": "2026-11-11",
+      "title": "플룸 계열 킴버, 미 브로커딜러 등록…주식·채권 토큰화 추진",
+      "content": "블록체인 플룸(Plume) 계열사 킴버 디지털 시큐리티즈(Kimber Digital Securities)가 11월 10일 미국 증권거래위원회(SEC)에 브로커딜러로 등록하고 금융산업규제국(FINRA) 회원 승인을 받았다고 밝혔다. FINRA 공개 기록에 따르면 등록과 회원 승인은 10월 27일에 효력이 생겼다. 킴버는 미국 주식·상장지수펀드(ETF)·채권의 보유 권리를 토큰으로 만들어 투자자의 디지털 지갑에 제공할 계획이다.\n미국에서 증권사를 통해 증권을 간접 보유하면 발행사 장부에는 대개 중앙예탁기관 DTC의 명의인인 시드앤코(Cede & Co.)가 올라가고, 증권사는 고객 계좌에 투자자 몫을 기록한다. 플룸이 설명한 구조는 이 예탁망을 바탕으로 증권계좌의 보유 권리를 블록체인에 기록하는 방식이다. 회사는 주식의 배당과 의결권 같은 기존 권리를 유지하도록 설계한다고 밝혔다.\n킴버는 증권사 사이에서 고객 자산을 옮기는 기존 계좌 이전망(ACATS)을 활용해 일반 계좌와 토큰 형태 사이의 자산 이동도 지원할 계획이다. 플룸은 DTC에 예탁된 증권의 권리를 토큰으로 제공하는 기능이 아직 개발 중이라고 밝혔다.",
+      "metanomia_thought": "킴버는 투자자가 배당과 의결권을 유지하면서 보유 주식을 증권계좌와 디지털 지갑 사이에서 옮길 수 있도록 준비하고 있습니다. 이 구상이 실현되면 투자자는 이미 보유한 주식도 지갑에서 관리할 수 있습니다. 증권사에는 어떤 종목을 제공하느냐와 함께, 고객이 가진 자산을 지갑까지 얼마나 수월하게 연결하느냐도 경쟁 조건이 될 수 있습니다.",
+      "sources": [
+        {
+          "title": "Real US Securities, Onchain: Kimber Digital Securities Becomes a Registered Broker-Dealer",
+          "url": "https://www.plume.org/blog/%20Kimber%20Digital%20Securities%20Becomes%20a%20Registered%20Broker-Dealer"
+        },
+        {
+          "title": "BrokerCheck Report: Kimber Digital Securities LLC",
+          "url": "https://files.brokercheck.finra.org/firm/firm_339774.pdf"
+        },
+        {
+          "title": "Investor Bulletin: Holding Your Securities",
+          "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-97"
+        },
+        {
+          "title": "Automated Customer Account Transfer Service (ACATS)",
+          "url": "https://www.dtcc.com/products-and-services/clearing-settlement-services/equities-clearing/acats"
+        }
+      ]
+    },
+    {
+      "id": "crypto-news-069b68dea63b63a7",
+      "slug": "2026-11-11-crypto-news-069b68dea6",
+      "date_kst": "2026-11-11",
+      "title": "시큐리타이즈, 리버원 인수 계약…스테이블코인 자금과 담보대출 연결 추진",
+      "content": "토큰화 자산 플랫폼 시큐리타이즈(Securitize)가 11월 9일 기관 대상 자산담보 금융 플랫폼 리버원(River One)을 인수하는 본계약을 체결했다고 밝혔다. 인수가 마무리되면 토큰화 자산의 발행·관리 서비스에 대출업체의 자금 조달 기능을 더할 계획이다.\n리버원은 대출업체가 보유한 소상공인 대출채권이나 매출채권 등을 담보로 자금을 빌려 새 대출에 쓰는 웨어하우스 금융을 전문으로 한다. 리버원의 플랫폼은 대출 조건 설계, 담보 점검, 자금 집행 관리를 지원한다.\n리버원은 스테이블코인 시장의 자금 공급자들과 관계를 맺어 이런 대출의 자금원을 넓히려 한다. 거래에 쓰이는 자금을 다른 사업의 파산 위험과 분리하도록 설계한 별도 법인을 활용하고, 담보 요건을 적용해 대출채권의 상태를 계속 점검하는 구조다.\n시큐리타이즈는 통상적인 거래 종결 조건이 충족되면 올해 4분기에 인수를 마무리할 것으로 내다봤다.",
+      "metanomia_thought": "대출업체는 기존 대출이 상환되기 전에도 그 채권을 담보로 다음 대출에 쓸 자금을 마련할 수 있습니다. 시큐리타이즈는 리버원 인수를 통해 스테이블코인 자금이 이 과정에 들어올 길을 만들려 합니다. 자금 공급자가 꾸준히 참여할지는 어떤 채권이 담보로 잡혀 있고 그 채권에서 원리금이 제때 들어오는지 확인할 수 있느냐에도 달려 있습니다.",
+      "sources": [
+        {
+          "title": "Securitize to Acquire River One, Connecting Stablecoin Capital to the $6 Trillion Asset-Backed Finance Market",
+          "url": "https://investors.securitize.io/news/news-details/2026/Securitize-to-Acquire-River-One-Connecting-Stablecoin-Capital-to-the-6-Trillion-Asset-Backed-Finance-Market/default.aspx"
+        },
+        {
+          "title": "River One — Institutional Structured Credit",
+          "url": "https://www.river.one/"
+        }
+      ]
+    },
     {
       "id": "crypto-news-96d58c2cb4b8c1f3",
       "slug": "2026-11-10-crypto-news-96d58c2cb4",
