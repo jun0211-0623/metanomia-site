@@ -708,6 +708,14 @@
     "2026-11-11-crypto-news-069b68dea6": {
       "source_hash": "1e970c2537a062e002c8f8fcbec87587ee5644ce331a024e85c1511081a6f736",
       "english_hash": "2ec2c6c6f84941e41b6699670757371620230be6e942e5c90d9d279024fc913a"
+    },
+    "2026-11-12-crypto-news-7c2b669ed1": {
+      "source_hash": "7908bd168d245c53bfba9d4472d76abbc59f2992370affe278e725d5639abca6",
+      "english_hash": "8666fed197fc9b327305cbadf7549698d108b7512ffa3fa87e631b3f33708b00"
+    },
+    "2026-11-12-crypto-news-681700aa29": {
+      "source_hash": "3e3255034f75bd098d3cc85bfc2dda59f47dfd35d7cc49e437b2a20683ebe3b9",
+      "english_hash": "ee5a2acf14f4f926f0c44e6f78780f87933dfbe516f394b48c0bdd99b3cb9da4"
     }
   }
 }

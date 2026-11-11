@@ -1,7 +1,49 @@
 {
   "schema_version": "1.0",
-  "generated_at_kst": "2026-11-11T08:41:01+09:00",
+  "generated_at_kst": "2026-11-12T08:12:01+09:00",
   "items": [
+    {
+      "slug": "2026-11-12-crypto-news-7c2b669ed1",
+      "date_kst": "2026-11-12",
+      "title": "OKX-ICE Joint Venture Plans November 23 Launch of Tokenized Securities Trading",
+      "content": "OKXICE, a joint venture between crypto exchange OKX and Intercontinental Exchange (ICE), the parent company of the New York Stock Exchange, announced on November 11 that it plans to launch tokenized securities trading on November 23. The service is intended to let eligible U.S. customers trade U.S. securities in tokenized form around the clock through the OKX app.\nMore than 70 assets are expected to be listed, including securities issued by Circle, Coinbase, Robinhood, and Strategy, as well as 59 Direxion exchange-traded funds (ETFs). Securitize will provide the tokenization infrastructure, and each token will represent an ownership interest backed one-to-one by actual U.S. stocks or ETF shares. The company said it plans to extend to token holders the rights and economic benefits attached to the underlying securities, including dividends and voting rights.\nTrading will use a Uniswap v4-based automated market maker (AMM) on OKX's X Layer blockchain. Users will buy and sell security tokens through liquidity pools containing assets supplied by participants, while software calculates prices and executes trades. Only wallets that have passed eligibility checks will be able to trade or provide liquidity.\nThe platform plans to operate under five-year temporary conditional exemptive relief introduced by the U.S. Securities and Exchange Commission (SEC) in September. The company states that the venue is neither registered with the SEC as an exchange or broker-dealer nor approved by the SEC. Users will retain custody of their assets and private keys. Eligible customers of OKX's U.S. entity must activate a CeDeFi wallet and satisfy OKXICE enrollment, identity-verification, and geographic requirements.",
+      "metanomia_thought": "When securities ownership extends into wallets, a crypto app becomes a gateway to stock investors. The OKX-ICE joint venture is an attempt to secure that point of access and become an operator of the tokenized securities market, deciding what can be listed and who can trade.",
+      "sources": [
+        {
+          "title": "Digital Securities are Coming to OKXICE TSV, with 70+ Assets to be Listed",
+          "url": "https://www.okx.com/learn/okxice-tsv-launch"
+        },
+        {
+          "title": "Order Granting Temporary Conditional Exemptive Relief … for Tokenized NMS Stocks (Release No. 34-106402)",
+          "url": "https://www.govinfo.gov/content/pkg/FR-2026-09-22/pdf/2026-19388.pdf"
+        }
+      ]
+    },
+    {
+      "slug": "2026-11-12-crypto-news-681700aa29",
+      "date_kst": "2026-11-12",
+      "title": "Deutsche Bank Launches Digital Asset Custody for Institutions and Corporates, Supporting Five Assets",
+      "content": "Germany's Deutsche Bank announced on November 11 that it had launched a digital asset custody service for institutional and corporate clients. The bank manages wallets and private keys on behalf of clients, safeguards their assets, and transfers them elsewhere at the client's request.\nThe service supports Bitcoin, Ether, and the stablecoins USDC, EURC, and EURAU. Clients can use the bank's custody and transfer infrastructure instead of building their own. Crypto assets held by the bank are not covered by the deposit protection that applies to bank deposits.\nAccording to the bank's official product page, the service is offered in Germany and also supports cross-border services within Europe where permitted by applicable regulations. It is available to institutional and corporate clients that meet the bank's customer due-diligence and risk-management standards.\nOn the same day, the bank signed a memorandum of understanding with majority-owned Deutsche Asset Management, formerly DWS, to cooperate on digital asset businesses. The areas under consideration include tokenized money market funds that invest in short-term financial instruments, crypto exchange-traded products, and stablecoins. The two companies will explore ways to use the bank's custody infrastructure to connect the safekeeping, settlement, and distribution of these products.",
+      "metanomia_thought": "A bank that safeguards and transfers crypto assets for institutional clients also becomes a point of access through which those clients can put the assets to use. Deutsche Bank is exploring how to connect this custody infrastructure with tokenized products from its group asset manager. If the cooperation takes shape, the bank's existing institutional client relationships could also become a distribution base for tokenized products.",
+      "sources": [
+        {
+          "title": "Digital Asset Custody",
+          "url": "https://digitalassets.db.com/"
+        },
+        {
+          "title": "Deutsche Bank launches digital asset custody service",
+          "url": "https://live.euronext.com/en/financial-news/deutsche-bank-launches-digital-asset-custody-service"
+        },
+        {
+          "title": "Deutsche Bank to launch digital asset custody solution for institutional and corporate Clients",
+          "url": "https://www.db.com/news/detail/20260916-deutsche-bank-to-launch-digital-asset-custody-solution-for-institutional-and-corporate-clients"
+        },
+        {
+          "title": "Deutsche Bank goes live with digital asset custody service, signs asset management deal",
+          "url": "https://www.theblock.co/news/business/2026-11-11-deutsche-bank-goes-live-with-digital-asset-custody-service-signs-asset-management-deal-437851"
+        }
+      ]
+    },
     {
       "slug": "2026-11-11-crypto-news-419665d24a",
       "date_kst": "2026-11-11",
