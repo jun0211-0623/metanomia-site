@@ -1,7 +1,32 @@
 {
   "schema_version": "1.0",
-  "generated_at_kst": "2026-11-12T08:12:01+09:00",
+  "generated_at_kst": "2026-11-13T09:53:31+09:00",
   "items": [
+    {
+      "slug": "2026-11-13-crypto-news-7fe8bba8d8",
+      "date_kst": "2026-11-13",
+      "title": "South Korea's FSC to Support Preemptive Deposit and Withdrawal Suspensions in Suspected Hacks",
+      "content": "South Korea's Financial Services Commission (FSC) announced at a November 12 security meeting for the virtual asset industry that it plans to issue a no-action letter supporting the preemptive suspension of deposits and withdrawals when a hack is suspected. The FSC said rapid intervention is important for limiting losses to users.\nThe Act on the Protection of Virtual Asset Users prohibits the suspension of deposits and withdrawals without just cause. Its enforcement decree permits suspensions in situations including cases where a hack or another incident has occurred, or is clearly expected to occur, and urgent action is required. Industry participants had raised concerns that it remained unclear whether they could suspend transactions at the stage when suspicious activity first appears. A no-action letter states in advance whether the supervisory authority intends to take enforcement action over a specified practice. The FSC plans to support preemptive suspensions under defined conditions.\nThe emergency response guidelines discussed at the meeting also call on operators to keep response personnel on duty at all times and immediately impose controls when warning signs emerge, such as unusually large transactions. Operators that cannot maintain continuous response capabilities should process deposits and withdrawals only during hours when their monitoring systems are operating normally and notify users in advance. The guidelines recommend keeping only the minimum amount needed to support transactions in internet-connected hot wallets. Operators should also maintain sufficient insurance coverage limits and reserve funds.\nThe FSC plans to expand virtual asset service providers' participation in the Financial Security Institute, a specialist security organization for the financial sector, and broaden support for security inspections. It also plans to improve assessment criteria tailored to virtual asset exchanges by the end of the year. The Digital Asset Act now being prepared is expected to include IT security obligations and liability for damages comparable to those imposed on financial companies. The materials released for the meeting did not specify when the no-action letter will be issued or the precise conditions under which preemptive suspensions will be permitted.",
+      "metanomia_thought": "Exchanges entrusted with customer assets need both the technology to detect risks and the operational capacity to respond as soon as they are identified. The proposed measures would reduce uncertainty over enforcement for preemptive suspensions while aligning deposit and withdrawal hours with each operator's monitoring and response capabilities. The approach treats security as a basic requirement for services that hold and move customer assets.",
+      "sources": [
+        {
+          "title": "가상자산사업자에 대한 최고 수준의 보안 강화 조치를 통해 이용자의 자산과 정보를 철저히 지켜나가겠습니다.",
+          "url": "https://www.fsc.go.kr/no010101/88133"
+        },
+        {
+          "title": "가상자산 이용자 보호 등에 관한 법률 제11조",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0011&lsiSeq=290735&urlMode=lsScJoRltInfoR"
+        },
+        {
+          "title": "가상자산 이용자 보호 등에 관한 법률 시행령 제17조",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0017&lsiSeq=290171&urlMode=lsScJoRltInfoR"
+        },
+        {
+          "title": "법령해석·비조치의견서 제도 개요",
+          "url": "https://better.fsc.go.kr/fsc_new/page/selectPage.do?muGpNo=75&muNo=76&stNo=11"
+        }
+      ]
+    },
     {
       "slug": "2026-11-12-crypto-news-7c2b669ed1",
       "date_kst": "2026-11-12",
