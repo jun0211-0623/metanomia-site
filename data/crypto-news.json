@@ -1,7 +1,33 @@
 {
   "schema_version": "1.0",
-  "generated_at_kst": "2026-11-13T09:53:31+09:00",
+  "generated_at_kst": "2026-11-16T07:53:39+09:00",
   "items": [
+    {
+      "id": "crypto-news-b3c150e4b70ca9df",
+      "slug": "2026-11-16-crypto-news-b3c150e4b7",
+      "date_kst": "2026-11-16",
+      "title": "CFTC, 루이지애나·아칸소에 소송…예측시장 거래 금지에 맞서",
+      "content": "미국 상품선물거래위원회(CFTC)가 11월 13일 루이지애나주와 아칸소주의 예측시장 거래 제한에 맞서 연방 법원에 각각 소송을 냈다고 발표했다. 미국 정부도 공동 원고로 참여했다. 쟁점은 CFTC에 등록된 거래소의 사건 계약에도 주 도박법을 적용해 거래를 막을 수 있는지다. 사건 계약은 특정 사건의 발생이나 결과에 따라 지급액이 정해지는 상품이다.\n루이지애나주는 11월 12일 주 법원에서 예측시장 업체들에 대한 임시 금지명령을 받아냈다. CFTC 소장에 따르면 명령은 유효한 면허와 허가 없이 루이지애나에 있는 이용자에게 스포츠·선거·시상식 관련 사건 계약 등을 제공하지 못하도록 했다.\n아칸소주는 11월 4일 예측시장 거래소 칼시(Kalshi)를 상대로 주 법원에 소송을 제기해 거래 중단과 민사 제재 등을 요구했다. CFTC는 두 주가 문제 삼은 계약이 연방 상품거래법상 파생상품인 스왑이고, CFTC에 등록된 지정거래소에서 거래되므로 연방의 배타적 감독 대상이라고 주장한다.\n미국 정부와 CFTC는 두 연방 법원에 해당 사건 계약 거래에 대한 주법 적용이 연방법에 저촉된다고 선언하고, 관련 조사·집행을 금지해 달라고 요청했다. 루이지애나 소장에는 주 법원이 내린 임시 금지명령의 집행이나 연장 신청도 막아 달라는 청구가 포함됐다.",
+      "metanomia_thought": "같은 사건 계약이라도 주마다 허용 여부가 달라지면, 거래소는 상품을 제공할 지역과 접속 조건을 따로 정해야 합니다. CFTC는 등록 거래소의 거래를 연방 기준으로 묶으려 하고, 주 당국은 도박법으로 지역 내 거래를 제한하려 합니다. 이번 다툼은 예측시장 상품을 어느 감독체계 아래 유통할지, 그 시장을 어디까지 넓힐 수 있을지를 가르는 문제입니다.",
+      "sources": [
+        {
+          "title": "CFTC Sues Louisiana After State Court Blocks CFTC-Regulated Exchanges",
+          "url": "https://www.cftc.gov/PressRoom/PressReleases/9326-26"
+        },
+        {
+          "title": "CFTC Files Lawsuit Against Arkansas as the Agency Defends its Federal Jurisdiction Over Prediction Markets",
+          "url": "https://www.cftc.gov/PressRoom/PressReleases/9325-26"
+        },
+        {
+          "title": "Complaint — United States and CFTC v. Louisiana",
+          "url": "https://www.cftc.gov/media/14936/OGC_LouisianaCompliant111326/download"
+        },
+        {
+          "title": "Complaint — United States and CFTC v. Arkansas",
+          "url": "https://www.cftc.gov/media/14921/OGC_ArkansasCompliant111226/download"
+        }
+      ]
+    },
     {
       "id": "crypto-news-7fe8bba8d8b66f83",
       "slug": "2026-11-13-crypto-news-7fe8bba8d8",

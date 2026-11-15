@@ -1,7 +1,32 @@
 {
   "schema_version": "1.0",
-  "generated_at_kst": "2026-11-13T09:53:31+09:00",
+  "generated_at_kst": "2026-11-16T07:53:39+09:00",
   "items": [
+    {
+      "slug": "2026-11-16-crypto-news-b3c150e4b7",
+      "date_kst": "2026-11-16",
+      "title": "CFTC Sues Louisiana and Arkansas Over Restrictions on Prediction Market Trading",
+      "content": "The U.S. Commodity Futures Trading Commission (CFTC) announced on November 13 that it had filed separate federal lawsuits challenging restrictions imposed by Louisiana and Arkansas on prediction market trading. The United States joined as a co-plaintiff. The dispute centers on whether states may apply their gambling laws to block event contracts traded on CFTC-registered exchanges. An event contract is a product whose payout depends on whether a specified event occurs or on its outcome.\nLouisiana obtained a temporary restraining order against prediction market firms from a state court on November 12. According to the CFTC's complaint, the order barred the firms from offering users in Louisiana event contracts related to sports, elections, award shows, and other subjects without valid licenses and permits.\nArkansas filed a state-court lawsuit against prediction market exchange Kalshi on November 4, seeking to halt trading and impose civil penalties, among other relief. The CFTC argues that the contracts challenged by the two states are swaps, a type of derivative governed by the federal Commodity Exchange Act, and that they are traded on designated contract markets registered with the CFTC. It therefore contends that they fall under exclusive federal oversight.\nThe United States and the CFTC asked the two federal courts to declare that applying state law to trading in these event contracts conflicts with federal law and to bar the related investigations and enforcement actions. The Louisiana complaint also asks the court to prevent enforcement of the state court's temporary restraining order or any attempt to extend it.",
+      "metanomia_thought": "If the same event contract is permitted in some states but not others, exchanges must separately determine where a product can be offered and under what access conditions. The CFTC is seeking to place trading on registered exchanges under a single federal standard, while state authorities are using gambling laws to restrict trading within their jurisdictions. The dispute will help determine which regulatory system governs the distribution of prediction market products and how broadly that market can expand.",
+      "sources": [
+        {
+          "title": "CFTC Sues Louisiana After State Court Blocks CFTC-Regulated Exchanges",
+          "url": "https://www.cftc.gov/PressRoom/PressReleases/9326-26"
+        },
+        {
+          "title": "CFTC Files Lawsuit Against Arkansas as the Agency Defends its Federal Jurisdiction Over Prediction Markets",
+          "url": "https://www.cftc.gov/PressRoom/PressReleases/9325-26"
+        },
+        {
+          "title": "Complaint — United States and CFTC v. Louisiana",
+          "url": "https://www.cftc.gov/media/14936/OGC_LouisianaCompliant111326/download"
+        },
+        {
+          "title": "Complaint — United States and CFTC v. Arkansas",
+          "url": "https://www.cftc.gov/media/14921/OGC_ArkansasCompliant111226/download"
+        }
+      ]
+    },
     {
       "slug": "2026-11-13-crypto-news-7fe8bba8d8",
       "date_kst": "2026-11-13",
