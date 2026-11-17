@@ -1,7 +1,25 @@
 {
   "schema_version": "1.0",
-  "generated_at_kst": "2026-11-16T07:53:39+09:00",
+  "generated_at_kst": "2026-11-17T08:59:46+09:00",
   "items": [
+    {
+      "id": "crypto-news-64c08a51e1b9fb97",
+      "slug": "2026-11-17-crypto-news-64c08a51e1",
+      "date_kst": "2026-11-17",
+      "title": "DBS·JP모건, 토큰화 예금망 연결…미·싱가포르 간 달러 24시간 이체",
+      "content": "싱가포르 DBS은행과 JP모건의 블록체인 사업부 키넥시스(Kinexys)가 11월 16일 두 은행의 토큰화 예금망을 잇는 서비스를 출시했다고 밝혔다. 기관 고객이 미국과 싱가포르의 블록체인 기반 계좌 사이에서 주말과 은행 영업시간 밖에도 미국 달러를 즉시 이체할 수 있도록 한 서비스다.\n토큰화 예금은 은행 예금을 블록체인에 디지털로 표시한 것이다. 이번 서비스는 DBS 토큰 서비스(DBS Token Services)와 키넥시스의 블록체인 예금계좌 망을 연결한다. 두 망은 허가받은 참여자가 이용하며, 결제 인프라 업체 파티어(Partior)가 망 사이의 결제 처리를 조정한다. 첫 고객인 앤트인터내셔널(Ant International)은 두 시장에 있는 법인들의 자금 관리에 이를 활용한다.\n키넥시스 망 안의 이체는 연중무휴로 처리되지만, 기존 요구불예금 계좌와 블록체인 예금계좌 사이의 자금 이동은 매주 토요일 미 동부시간 오후 3~6시에 중단된다. DBS는 이 부분의 개선 작업이 진행 중이라고 밝혔다.\n두 은행은 2025년 11월 각자의 망을 연결하는 체계를 개발하겠다고 발표했었다. 이번 출시는 그 계획을 상용 서비스로 옮긴 것이다.",
+      "metanomia_thought": "기업의 자금 관리에서는 어느 은행에 돈을 두는지만큼 필요할 때 다른 은행으로 옮길 수 있는지도 중요합니다. 이번 서비스는 두 은행의 토큰화 예금망을 연결해, 기업이 미국과 싱가포르에 나눠 둔 달러를 영업시간 밖에도 활용할 통로를 엽니다. 이런 연결이 넓어질수록 기업이 여러 은행에 둔 자금을 얼마나 편리하게 옮기고 관리할 수 있게 하느냐도 은행의 중요한 경쟁력이 될 수 있습니다.",
+      "sources": [
+        {
+          "title": "DBS and Kinexys by J.P. Morgan launch industry-first 24/7 interoperability solution for cross border tokenised deposit transfers",
+          "url": "https://www.dbs.com/newsroom/DBS_and_Kinexys_by_JP_Morgan_launch_industry_first_247_interoperability_solution_for_cross_border_tokenised_deposit_transfers"
+        },
+        {
+          "title": "DBS and Kinexys by J.P. Morgan to develop framework for interbank tokenised deposit transfers across multiple blockchains",
+          "url": "https://www.dbs.com/newsroom/DBS_and_Kinexys_by_JP_Morgan_to_develop_framework_for_interbank_tokenised_deposit_transfers_across_multiple_blockchains"
+        }
+      ]
+    },
     {
       "id": "crypto-news-b3c150e4b70ca9df",
       "slug": "2026-11-16-crypto-news-b3c150e4b7",
