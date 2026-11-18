@@ -1,7 +1,47 @@
 {
   "schema_version": "1.0",
-  "generated_at_kst": "2026-11-17T08:59:46+09:00",
+  "generated_at_kst": "2026-11-18T09:47:04+09:00",
   "items": [
+    {
+      "id": "crypto-news-7b32bbe789313ce3",
+      "slug": "2026-11-18-crypto-news-7b32bbe789",
+      "date_kst": "2026-11-18",
+      "title": "앵커리지 디지털, 칼시 프라임과 제휴…은행 수탁 비트코인을 증거금으로",
+      "content": "미국 연방 인가 가상자산 은행을 둔 앵커리지 디지털(Anchorage Digital)이 11월 17일 칼시 프라임(Kalshi Prime)과의 제휴를 발표했다. 기관 고객은 앵커리지 디지털 은행에 맡긴 비트코인과 스테이블코인을 옮기거나 팔지 않고 칼시 프라임을 통해 거래할 때 증거금으로 쓸 수 있다.\n칼시 프라임은 미 상품선물거래위원회(CFTC)에 등록된 선물중개회사로, 파생상품 거래를 중개하고 증거금을 관리한다. 앵커리지에 따르면 담보는 고객, 칼시 프라임, 앵커리지 디지털 은행이 맺는 삼자 계약에 따라 관리된다. 고객이 보관 중인 자산을 담보로 설정하면 은행은 해당 자산을 잠그고, 칼시 프라임은 이를 증거금으로 인정한다.\n담보 자산은 은행의 고객 분리 계좌에 남으며 소유권도 고객이 유지한다. 잠긴 자산은 출금할 수 없지만, 포지션을 닫거나 노출을 줄인 뒤 잠금이 해제된 자산은 원하는 곳으로 출금할 수 있다. 이용 대상은 앵커리지 디지털 프라임의 기관 고객이다.",
+      "metanomia_thought": "기관 고객에게는 자산을 어디에 보관하느냐와 그 자산으로 어떤 거래를 할 수 있느냐가 함께 중요합니다. 이번 제휴는 은행이 보관 중인 자산을 담보로 관리하고, 중개회사가 이를 증거금으로 인정하는 구조입니다. 이런 연결이 늘어나면 고객은 기존 보관 체계를 유지하면서도 자산을 활용할 수 있는 거래 선택지를 넓힐 수 있습니다.",
+      "sources": [
+        {
+          "title": "Anchorage Digital partners with Kalshi Prime so institutions can trade with collateral that stays in custody",
+          "url": "https://www.anchorage.com/press-room/anchorage-digital-partners-with-kalshi-prime-so-institutions-can-trade-with-collateral-that-stays-in-custody"
+        },
+        {
+          "title": "Kalshi and BitGo Allow Customers to Unlock Crypto Liquidity for Margin",
+          "url": "https://www.nasdaq.com/press-release/kalshi-and-bitgo-allow-customers-unlock-crypto-liquidity-margin-2026-10-22"
+        },
+        {
+          "title": "Anchorage, Kalshi Prime let institutions use custodied bitcoin as margin",
+          "url": "https://www.theblock.co/news/business/2026-11-17-anchorage-digital-kalshi-prime-hodl-margining-bitcoin-collateral-442568"
+        }
+      ]
+    },
+    {
+      "id": "crypto-news-3d2f249fdeaa6648",
+      "slug": "2026-11-18-crypto-news-3d2f249fde",
+      "date_kst": "2026-11-18",
+      "title": "세계은행그룹, 씨티·서클과 규제 스테이블코인으로 개발자금 지급 검토",
+      "content": "세계은행그룹(World Bank Group)이 11월 17일 씨티(Citi), 서클(Circle Internet Group)과 함께 규제받는 달러 스테이블코인으로 개발자금을 지급하는 방안을 검토하겠다고 밝혔다. 기존 송금·결제의 비용과 속도, 자금 흐름의 투명성을 개선할 수 있는지 살피는 작업이다.\n현재 자금 집행은 여러 은행을 거쳐 돈을 보내는 환거래은행망에 기반한다. 이번 구상은 씨티의 기존 은행 결제망 연결과 서클의 달러 스테이블코인 USDC 발행·결제 인프라를 활용해 이 방식을 보완하거나 개선하는 것이다.\n이번 작업은 개발 사업의 자금 사용 내역을 기록·추적하는 블록체인 플랫폼 펀즈체인(FundsChain)을 바탕으로 한다. 펀즈체인 도입 자체가 기존 지급 절차를 바꾸는 것은 아니며, 이번에는 스테이블코인을 활용한 지급 방식까지 살핀다.\n초기 검토는 중개기관을 거치고 다른 결제망과 연결되는 모델에 집중한다. 디지털 자산 사용이 지원·허용된 차입국을 대상으로 하며, 세계은행그룹은 다른 은행과의 협력도 검토할 계획이다.",
+      "metanomia_thought": "개발자금 집행에서는 필요한 곳까지 돈을 보내는 비용을 줄이는 일도 중요합니다. 세계은행그룹은 씨티의 은행망과 서클의 USDC 결제 기반을 함께 활용해 그 경로를 개선할 수 있는지 살피고 있습니다. 실제 집행으로 이어지면 스테이블코인 발행사가 국제 개발금융의 지급 인프라 일부를 맡는 사례가 될 수 있습니다.",
+      "sources": [
+        {
+          "title": "World Bank Group Explores Regulated Stablecoins to Modernize Payments, Redirect Resources to Development Impact",
+          "url": "https://www.worldbank.org/en/news/press-release/2026/11/17/world-bank-group-explores-regulated-stablecoins-to-modernize-payments-redirect-res"
+        },
+        {
+          "title": "FundsChain — Frequently Asked Questions (September 30, 2025)",
+          "url": "https://ebizprd.worldbank.org/assets/docs/FundsChain-FAQs-External.pdf"
+        }
+      ]
+    },
     {
       "id": "crypto-news-64c08a51e1b9fb97",
       "slug": "2026-11-17-crypto-news-64c08a51e1",

@@ -1,7 +1,45 @@
 {
   "schema_version": "1.0",
-  "generated_at_kst": "2026-11-17T08:59:46+09:00",
+  "generated_at_kst": "2026-11-18T09:47:04+09:00",
   "items": [
+    {
+      "slug": "2026-11-18-crypto-news-7b32bbe789",
+      "date_kst": "2026-11-18",
+      "title": "Anchorage Digital Partners With Kalshi Prime to Use Bank-Custodied Bitcoin as Margin",
+      "content": "Anchorage Digital, which operates a federally chartered U.S. digital asset bank, announced a partnership with Kalshi Prime on November 17. Institutional clients can use bitcoin and stablecoins held at Anchorage Digital Bank as margin when trading through Kalshi Prime, without moving or selling the assets.\nKalshi Prime is a futures commission merchant registered with the U.S. Commodity Futures Trading Commission (CFTC). It intermediates derivatives trades and manages margin. According to Anchorage, collateral is managed under a tri-party agreement among the client, Kalshi Prime, and Anchorage Digital Bank. When a client pledges assets in custody, the bank locks them and Kalshi Prime recognizes them as margin.\nThe collateral remains in segregated client accounts at the bank, and ownership remains with the client. Locked assets cannot be withdrawn, but once a position is closed or exposure is reduced, assets that have been unlocked can be withdrawn to any destination. The service is available to institutional clients of Anchorage Digital Prime.",
+      "metanomia_thought": "For institutional clients, where assets are held and what transactions those assets can support are both important. Under this partnership, the bank manages assets in custody as collateral and the intermediary recognizes them as margin. As more connections like this emerge, clients may be able to expand their trading options while keeping their existing custody arrangements in place.",
+      "sources": [
+        {
+          "title": "Anchorage Digital partners with Kalshi Prime so institutions can trade with collateral that stays in custody",
+          "url": "https://www.anchorage.com/press-room/anchorage-digital-partners-with-kalshi-prime-so-institutions-can-trade-with-collateral-that-stays-in-custody"
+        },
+        {
+          "title": "Kalshi and BitGo Allow Customers to Unlock Crypto Liquidity for Margin",
+          "url": "https://www.nasdaq.com/press-release/kalshi-and-bitgo-allow-customers-unlock-crypto-liquidity-margin-2026-10-22"
+        },
+        {
+          "title": "Anchorage, Kalshi Prime let institutions use custodied bitcoin as margin",
+          "url": "https://www.theblock.co/news/business/2026-11-17-anchorage-digital-kalshi-prime-hodl-margining-bitcoin-collateral-442568"
+        }
+      ]
+    },
+    {
+      "slug": "2026-11-18-crypto-news-3d2f249fde",
+      "date_kst": "2026-11-18",
+      "title": "World Bank Group Explores Development Fund Disbursements Using Regulated Stablecoins With Citi and Circle",
+      "content": "The World Bank Group announced on November 17 that it would work with Citi and Circle Internet Group to explore using regulated U.S. dollar stablecoins to disburse development funds. The initiative will examine whether the approach can improve the cost and speed of existing transfers and payments, as well as transparency into the flow of funds.\nCurrent disbursements rely on correspondent banking networks that move money through multiple banks. The proposal would draw on Citi's connections to existing bank payment networks and Circle's infrastructure for issuing and settling the U.S. dollar stablecoin USDC to supplement or improve that model.\nThe work builds on FundsChain, a blockchain platform that records and tracks how funds for development projects are used. The introduction of FundsChain itself does not change existing disbursement procedures; the new initiative will also examine payment methods that use stablecoins.\nThe initial exploration will focus on models that involve intermediaries and connect with other payment networks. It will target borrowing countries where the use of digital assets is supported and permitted, and the World Bank Group also plans to consider collaboration with other banks.",
+      "metanomia_thought": "Reducing the cost of getting development funds to where they are needed is also important. The World Bank Group is examining whether Citi's banking network and Circle's USDC payment infrastructure can improve that route. If the initiative moves into actual disbursement, it could become an example of a stablecoin issuer taking on part of the payment infrastructure for international development finance.",
+      "sources": [
+        {
+          "title": "World Bank Group Explores Regulated Stablecoins to Modernize Payments, Redirect Resources to Development Impact",
+          "url": "https://www.worldbank.org/en/news/press-release/2026/11/17/world-bank-group-explores-regulated-stablecoins-to-modernize-payments-redirect-res"
+        },
+        {
+          "title": "FundsChain — Frequently Asked Questions (September 30, 2025)",
+          "url": "https://ebizprd.worldbank.org/assets/docs/FundsChain-FAQs-External.pdf"
+        }
+      ]
+    },
     {
       "slug": "2026-11-17-crypto-news-64c08a51e1",
       "date_kst": "2026-11-17",
