@@ -1,7 +1,62 @@
 {
   "schema_version": "1.0",
-  "generated_at_kst": "2026-11-18T09:47:04+09:00",
+  "generated_at_kst": "2026-11-19T09:44:05+09:00",
   "items": [
+    {
+      "slug": "2026-11-19-crypto-news-cbd0167b06",
+      "date_kst": "2026-11-19",
+      "title": "DBS and Circle Partner to Enable Institutional USDC Minting and Redemption With 24/7 Settlement",
+      "content": "Singapore's DBS Bank announced on November 18 that it had partnered with Circle to enable eligible institutional clients in Asia to mint and redeem Circle's U.S. dollar stablecoin USDC directly through DBS. Clients can deposit dollars and receive USDC, or return USDC and receive dollars.\nWhen institutions buy and sell USDC on secondary markets such as exchanges, their transactions are affected by available liquidity and market prices at the time. Under the partnership, DBS clients can avoid those markets and mint new USDC or redeem it for dollars through DBS, their transaction bank. DBS said this would reduce institutions' reliance on secondary-market liquidity.\nDBS said dollar and USDC settlement could be processed nearly instantly, 24 hours a day. The aim is to support institutional treasury management, payments, and liquidity management without being constrained by banking hours and cutoff times.",
+      "metanomia_thought": "For businesses to use USDC in treasury management, they need a smooth way to convert dollars in bank accounts into USDC and back again. This partnership connects Circle's minting and redemption infrastructure with DBS's bank settlement, placing that route inside the client's transaction bank. It is an example of banks extending their customer relationships into corporate stablecoin use.",
+      "sources": [
+        {
+          "title": "DBS and Circle expand institutional access to USDC in Asia",
+          "url": "https://www.dbs.com/newsroom/DBS_and_Circle_expand_institutional_access_to_USDC_in_Asia"
+        },
+        {
+          "title": "USDC | Powering global finance. Issued by Circle.",
+          "url": "https://www.circle.com/usdc"
+        }
+      ]
+    },
+    {
+      "slug": "2026-11-19-crypto-news-99fd77beb0",
+      "date_kst": "2026-11-19",
+      "title": "Binance Secures $6.5 Billion Asset Freeze Order From Abu Dhabi Court, Pursues Return of Hacked Funds",
+      "content": "Crypto exchange Binance said on November 18 that it had obtained orders from the Abu Dhabi Global Market (ADGM) Courts to support the recovery of assets stolen in an October 29 hack. According to a company statement reported by The Block, a worldwide freezing order against unidentified attackers covers $6.5 billion. That figure is the amount subject to the order, not the amount actually frozen or recovered.\nBinance said some issuers and exchanges require a formal court order before unfreezing, transferring, or returning assets, and that the measure helps establish a path for their return. The company said it had also obtained interim and delivery-up orders covering specific stolen assets. Court documents reviewed by Reuters require 18 companies, including Circle, to maintain freezes on related tokens and not lend, exchange, or mix them with other assets.\nBinance said it absorbed the loss rather than pass it on to users. Reuters reported that at a further hearing on December 1, the court will consider whether and on what terms to continue freezes on specific stolen assets.",
+      "metanomia_thought": "Preventing stolen assets from moving and recovering them are separate processes. This action seeks to connect freezes imposed by issuers and exchanges with a court order so that the assets can be returned. Recovering frozen assets in practice requires coordination between the businesses that control them and the legal process for their return.",
+      "sources": [
+        {
+          "title": "Binance Has Been Granted a Court Order in the ADGM Courts to Support Asset Recovery",
+          "url": "https://www.binance.com/en/blog/community/4100322350300314528"
+        },
+        {
+          "title": "Binance obtains $6.5 billion freezing order from Abu Dhabi court in bid to recover stolen crypto",
+          "url": "https://www.theblock.co/news/business/2026-11-18-binance-freezing-court-order-adgm-crypto-october-hack-443491"
+        },
+        {
+          "title": "UAE Court orders freeze on crypto tokens stolen from Binance wallets",
+          "url": "https://live.euronext.com/en/financial-news/uae-court-orders-freeze-crypto-tokens-stolen-binance-wallets"
+        }
+      ]
+    },
+    {
+      "slug": "2026-11-19-crypto-news-3a66c8dd4d",
+      "date_kst": "2026-11-19",
+      "title": "Visa Pilots Stablecoin Prefunding for Cross-Border Payouts in Asia-Pacific, Recipients Receive Fiat",
+      "content": "Visa said on November 18 that it plans to expand stablecoin prefunding for Visa Direct, its real-time payments platform, into Asia-Pacific. In a pilot with Singapore payments company dtcpay, funds used for cross-border payouts are prefunded with stablecoins while recipients receive fiat currency. Visa said it does not directly provide regulated digital asset services; those services are independently provided to clients by licensed digital asset partners.\nStablecoin infrastructure company Triple-A said separately that it would handle stablecoin conversion, compliance screening, and settlement, enabling payment service providers to prefund payouts outside banking hours.\nAccess is limited to eligible Visa Direct clients and varies by market. Visa launched a related pilot in 2025 and commercialized the prefunding feature in the United States with Inyo Global in October this year.",
+      "metanomia_thought": "Cross-border payouts can separate the route that delivers money to recipients from the route used by providers to fund those payouts. This pilot uses stablecoins to prefund payments while preserving existing fiat payout methods for recipients. It is an example of traditional payment networks expanding their role as entry points for stablecoin liquidity.",
+      "sources": [
+        {
+          "title": "Visa Direct Advances Stablecoin-Powered Money Movement in Asia Pacific",
+          "url": "https://www.visa.com.sg/about-visa/newsroom/press-releases/visa-direct-advances-stablecoin-powered-money-movement-in-asia-pacific.html"
+        },
+        {
+          "title": "Triple-A Powers Stablecoin Prefunding for Visa Direct in Asia Pacific",
+          "url": "https://www.triple-a.io/newsroom/stablecoin-prefunding-visa-direct-asia-pacific"
+        }
+      ]
+    },
     {
       "slug": "2026-11-18-crypto-news-7b32bbe789",
       "date_kst": "2026-11-18",

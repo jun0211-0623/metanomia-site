@@ -1,7 +1,65 @@
 {
   "schema_version": "1.0",
-  "generated_at_kst": "2026-11-18T09:47:04+09:00",
+  "generated_at_kst": "2026-11-19T09:44:05+09:00",
   "items": [
+    {
+      "id": "crypto-news-cbd0167b06ce34ba",
+      "slug": "2026-11-19-crypto-news-cbd0167b06",
+      "date_kst": "2026-11-19",
+      "title": "DBS·서클, 기관용 USDC 발행·상환 제휴…24시간 결제 지원",
+      "content": "싱가포르 DBS은행이 11월 18일 서클(Circle)과 제휴해, 자격을 갖춘 아시아 기관 고객이 DBS를 통해 서클의 달러 스테이블코인 USDC를 직접 발행·상환할 수 있게 한다고 밝혔다. 고객은 달러를 넣고 USDC를 받거나, USDC를 돌려주고 달러를 받을 수 있다.\n기관이 USDC를 거래소 같은 유통시장에서 사고팔면 그때그때 시장의 거래 물량과 가격에 영향을 받는다. 이번 제휴로 DBS 고객은 이런 시장을 거치지 않고, 거래 은행인 DBS를 통해 USDC를 새로 발행받거나 달러로 돌려받을 수 있다. DBS는 이를 통해 기관이 유통시장 유동성에 기대는 부담을 덜 수 있다고 설명했다.\nDBS는 오가는 달러와 USDC의 결제를 24시간 거의 즉시 처리할 수 있다고 설명했다. 은행 영업시간과 마감 시각에 묶이지 않게 해 기관의 자금 관리와 결제, 유동성 관리를 돕겠다는 취지다.",
+      "metanomia_thought": "기업이 USDC를 자금 관리에 활용하려면 은행 계좌의 달러를 USDC로 바꾸고 다시 달러로 돌려받는 과정이 원활해야 합니다. 이번 제휴는 서클의 발행·상환 기반과 DBS의 은행 결제를 연결해 그 통로를 거래 은행 안에 둡니다. 은행의 고객 접점이 기업의 스테이블코인 이용으로도 넓어지는 사례입니다.",
+      "sources": [
+        {
+          "title": "DBS and Circle expand institutional access to USDC in Asia",
+          "url": "https://www.dbs.com/newsroom/DBS_and_Circle_expand_institutional_access_to_USDC_in_Asia"
+        },
+        {
+          "title": "USDC | Powering global finance. Issued by Circle.",
+          "url": "https://www.circle.com/usdc"
+        }
+      ]
+    },
+    {
+      "id": "crypto-news-99fd77beb0a7ea56",
+      "slug": "2026-11-19-crypto-news-99fd77beb0",
+      "date_kst": "2026-11-19",
+      "title": "바이낸스, 아부다비 법원서 65억달러 자산동결 명령 확보…해킹 자산 반환 절차 추진",
+      "content": "가상자산 거래소 바이낸스(Binance)가 11월 18일 아부다비글로벌마켓(ADGM) 법원에서 10월 29일 해킹으로 탈취된 자산의 회수를 돕는 명령을 받았다고 밝혔다. 더 블록이 전한 회사 성명에 따르면 신원이 밝혀지지 않은 공격자들을 상대로 한 전 세계 자산동결 명령의 금액은 65억달러다. 이는 명령이 적용되는 금액으로, 실제 동결하거나 회수한 금액을 뜻하지 않는다.\n바이낸스는 일부 발행사·거래소가 동결 해제나 자산 이전·반환에 앞서 정식 법원 명령을 요구한다며, 이번 조치가 반환 경로를 마련하는 데 도움이 된다고 설명했다. 회사 측은 특정 탈취 자산에 대한 임시 명령과 인도 명령도 확보했다고 밝혔다. 로이터가 확인한 법원 문서에 따르면 서클(Circle) 등 18개 회사는 관련 토큰의 동결을 유지하고, 이를 빌려주거나 교환하거나 다른 자산과 섞어서는 안 된다.\n바이낸스는 탈취 손실을 자체 부담해 이용자에게 전가하지 않았다고 밝혔다. 로이터에 따르면 법원은 12월 1일 추가 심리에서 특정 탈취 자산에 대한 동결조치의 유지 여부와 조건을 검토할 예정이다.",
+      "metanomia_thought": "탈취 자산의 이동을 막는 일과 그 자산을 돌려받는 일은 서로 다른 절차입니다. 이번 조치는 발행사·거래소의 동결을 법원 명령과 연결해 반환으로 이어 가려는 시도입니다. 동결된 자산을 실제로 되찾는 과정에서는 자산을 통제하는 사업자와 법적 반환 절차가 함께 작동해야 합니다.",
+      "sources": [
+        {
+          "title": "Binance Has Been Granted a Court Order in the ADGM Courts to Support Asset Recovery",
+          "url": "https://www.binance.com/en/blog/community/4100322350300314528"
+        },
+        {
+          "title": "Binance obtains $6.5 billion freezing order from Abu Dhabi court in bid to recover stolen crypto",
+          "url": "https://www.theblock.co/news/business/2026-11-18-binance-freezing-court-order-adgm-crypto-october-hack-443491"
+        },
+        {
+          "title": "UAE Court orders freeze on crypto tokens stolen from Binance wallets",
+          "url": "https://live.euronext.com/en/financial-news/uae-court-orders-freeze-crypto-tokens-stolen-binance-wallets"
+        }
+      ]
+    },
+    {
+      "id": "crypto-news-3a66c8dd4d26eb04",
+      "slug": "2026-11-19-crypto-news-3a66c8dd4d",
+      "date_kst": "2026-11-19",
+      "title": "비자, 아태서 스테이블코인으로 해외 지급자금 충전 시범…수취는 법정화폐",
+      "content": "비자(Visa)가 11월 18일 실시간 송금 플랫폼 비자 다이렉트(Visa Direct)의 스테이블코인 사전 충전 기능을 아시아태평양으로 확대할 계획이라고 밝혔다. 싱가포르 결제기업 디티시페이(dtcpay)와 진행하는 시범 사업으로, 해외 지급에 쓸 자금은 스테이블코인으로 미리 채우고 수취인은 법정화폐로 받는 방식이다. 비자는 규제 대상 디지털 자산 서비스를 직접 제공하지 않으며, 해당 서비스는 인가받은 디지털 자산 협력사가 고객에게 독립적으로 제공한다고 설명했다.\n스테이블코인 인프라 기업 트리플에이(Triple-A)는 별도 발표에서 스테이블코인 전환과 규제준수 심사, 정산을 맡아 결제서비스사업자가 은행 영업시간 밖에도 지급자금을 충전할 수 있게 한다고 밝혔다.\n이용 대상은 자격을 갖춘 비자 다이렉트 고객이며, 이용 가능 여부는 지역에 따라 다르다. 비자는 2025년 관련 시범을 시작했고, 올해 10월 미국에서 인요 글로벌(Inyo Global)과 사전 충전 기능을 상용화했다.",
+      "metanomia_thought": "해외 지급에서는 수취인에게 돈을 보내는 경로와 사업자가 지급자금을 마련하는 경로를 따로 설계할 수 있습니다. 이번 시범은 스테이블코인으로 지급자금을 미리 채우고, 수취인에게는 기존 법정화폐 지급 방식을 유지합니다. 기존 결제망이 스테이블코인 자금을 받아들이는 접점으로 역할을 넓히는 사례입니다.",
+      "sources": [
+        {
+          "title": "Visa Direct Advances Stablecoin-Powered Money Movement in Asia Pacific",
+          "url": "https://www.visa.com.sg/about-visa/newsroom/press-releases/visa-direct-advances-stablecoin-powered-money-movement-in-asia-pacific.html"
+        },
+        {
+          "title": "Triple-A Powers Stablecoin Prefunding for Visa Direct in Asia Pacific",
+          "url": "https://www.triple-a.io/newsroom/stablecoin-prefunding-visa-direct-asia-pacific"
+        }
+      ]
+    },
     {
       "id": "crypto-news-7b32bbe789313ce3",
       "slug": "2026-11-18-crypto-news-7b32bbe789",
