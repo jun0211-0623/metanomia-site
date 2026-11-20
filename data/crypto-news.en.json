@@ -1,7 +1,41 @@
 {
   "schema_version": "1.0",
-  "generated_at_kst": "2026-11-19T09:44:05+09:00",
+  "generated_at_kst": "2026-11-20T09:16:27+09:00",
   "items": [
+    {
+      "slug": "2026-11-20-crypto-news-8472d6afd9",
+      "date_kst": "2026-11-20",
+      "title": "Ant International Links Tokenised Deposits and MMF Settlement in Pilot With DBS and Franklin Templeton",
+      "content": "Fintech company Ant International unveiled the Whale Orchestration Protocol on November 19, linking settlement between tokenised deposits and tokenised money market fund (MMF) shares. It completed a pilot transaction with DBS and Franklin Templeton. The system is designed for corporate treasury management, allowing businesses to move idle cash into MMFs and back into deposits.\nDBS provided tokens representing bank deposits, while Franklin Templeton supplied tokens representing MMF shares. Ant connected them on WhaleRTP, its blockchain-based wholesale settlement platform.\nAccording to a joint white paper, when a client invests in an MMF, the client's deposit tokens are locked for the transaction. The system confirms that fund tokens have been issued to the client before releasing the deposit tokens to the asset manager. For redemptions, deposit tokens prepared by the asset manager to fund the redemption are locked, and the payment is released to the client after the client's fund tokens are confirmed as burned. The design links deposit payments with the processing of fund shares while keeping the underlying ledgers separate, reducing settlement delays when money moves between deposits and MMFs.",
+      "metanomia_thought": "Businesses that invest surplus cash also need a smooth way to convert it back into funds they can use for payments. This pilot coordinates the bank's transfer of deposit tokens with the asset manager's issuance and redemption of fund shares. For corporate clients, moving surplus cash into a fund and returning it to spendable deposits can become one connected treasury workflow.",
+      "sources": [
+        {
+          "title": "Ant International Launches Whale Orchestration Protocol Under MAS' BLOOM Initiative to Connect Tokenised Money Market Funds and Tokenised Deposits",
+          "url": "https://www.ant-intl.com/en/news/detail/ant-international-launches-whale-orchestration-protocol-under-mas-bloom-initiative-to-connect-tokenised-money-market-funds/"
+        },
+        {
+          "title": "Orchestrating the Future of Money: Interoperability Between Tokenised Money Market Funds and Tokenised Deposits",
+          "url": "https://www.bettr.com/whitepaper/Orchestrating-the-Future-of-Money"
+        }
+      ]
+    },
+    {
+      "slug": "2026-11-20-crypto-news-40c3decc4b",
+      "date_kst": "2026-11-20",
+      "title": "Singapore MAS Issues S$100 Million in Tokenised Bills, Settled With Wholesale CBDC",
+      "content": "The Monetary Authority of Singapore (MAS) said on November 19 that it had issued S$100 million of tokenised MAS Bills. The bills are short-term debt securities issued directly by MAS. The four-week bills were issued on November 6 and mature on December 4.\nMAS issued the securities natively as tokens on the Singapore Dollar Test Network, which it operates, and recorded the issuance only on that distributed ledger. MAS said this avoids the need to reconcile records across separate ledgers, as can be required when existing securities are tokenised later. Payment was made in wholesale central bank digital currency (CBDC) used for settlement between financial institutions.\nFive banks, including DBS, participated in the auction, and bids exceeded twice the amount offered.\nIn the next phase, MAS plans to increase the issuance size and the number of participating financial institutions and expand the use of tokenised MAS Bills in collateral management. It is also inviting financial institutions and market infrastructure providers to participate in live trials in 2027.",
+      "metanomia_thought": "Tokenisation becomes more useful when securities issuance is connected to cash settlement and collateral use. MAS has linked its own short-term securities with wholesale CBDC on the same network and plans to expand their use as collateral. It is an example of a central bank supplying both the settlement asset and the securities traded on top of that infrastructure.",
+      "sources": [
+        {
+          "title": "MAS Announces Successful Issuance of Tokenised MAS Bills on the Singapore Dollar Test Network Using Wholesale Central Bank Digital Currency",
+          "url": "https://www.mas.gov.sg/news/media-releases/2026/mas-announces-successful-issuance-of-tokenised-mas-bills-on-the-singapore-dollar-test-network"
+        },
+        {
+          "title": "MAS Bills: Information for Institutions",
+          "url": "https://www.mas.gov.sg/bonds-and-bills/mas-bills-information-for-institutions"
+        }
+      ]
+    },
     {
       "slug": "2026-11-19-crypto-news-cbd0167b06",
       "date_kst": "2026-11-19",

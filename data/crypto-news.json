@@ -1,7 +1,43 @@
 {
   "schema_version": "1.0",
-  "generated_at_kst": "2026-11-19T09:44:05+09:00",
+  "generated_at_kst": "2026-11-20T09:16:27+09:00",
   "items": [
+    {
+      "id": "crypto-news-8472d6afd9752249",
+      "slug": "2026-11-20-crypto-news-8472d6afd9",
+      "date_kst": "2026-11-20",
+      "title": "앤트 인터내셔널, 토큰화 예금·MMF 결제 연계…DBS·프랭클린과 시범",
+      "content": "핀테크 기업 앤트 인터내셔널(Ant International)이 11월 19일 토큰화 예금과 토큰화 머니마켓펀드(MMF)의 결제를 연계하는 웨일 오케스트레이션 프로토콜(Whale Orchestration Protocol)을 공개했다. DBS·프랭클린템플턴(Franklin Templeton)과 시범 거래를 마쳤으며, 기업의 유휴자금을 MMF로 옮기고 다시 예금으로 돌리는 자금 관리 과정에 활용하려는 구상이다.\nDBS는 은행 예금을 나타내는 토큰을, 프랭클린템플턴은 MMF 지분을 나타내는 토큰을 제공했다. 앤트는 이를 자사 블록체인 기반 도매 결제 플랫폼 웨일RTP(WhaleRTP)에서 연결했다.\n공동 백서에 따르면 MMF에 투자할 때는 고객의 예금 토큰을 해당 거래용으로 잠근 뒤, 고객에게 펀드 토큰이 발행됐는지 확인하고 예금 토큰을 운용사 측에 지급한다. 환매 때는 운용사 측이 마련한 환매 대금용 예금 토큰을 잠그고, 고객의 펀드 토큰 소각을 확인한 뒤 고객에게 지급한다. 서로 다른 원장을 유지하면서 예금 지급과 펀드 지분 처리를 연계해, 예금과 MMF 사이에서 자금을 옮길 때 발생하는 결제 지연을 줄이려는 설계다.",
+      "metanomia_thought": "기업이 남는 자금을 운용하려면 필요할 때 결제에 쓸 자금으로 되돌리는 과정도 원활해야 합니다. 이번 시범은 은행의 예금 토큰 지급과 운용사의 펀드 지분 발행·상환 절차를 플랫폼에서 연계합니다. 기업 입장에서는 여유자금을 펀드에 넣고 필요할 때 다시 결제에 쓸 예금으로 돌리는 과정이 한 자금 관리 흐름으로 이어집니다.",
+      "sources": [
+        {
+          "title": "Ant International Launches Whale Orchestration Protocol Under MAS' BLOOM Initiative to Connect Tokenised Money Market Funds and Tokenised Deposits",
+          "url": "https://www.ant-intl.com/en/news/detail/ant-international-launches-whale-orchestration-protocol-under-mas-bloom-initiative-to-connect-tokenised-money-market-funds/"
+        },
+        {
+          "title": "Orchestrating the Future of Money: Interoperability Between Tokenised Money Market Funds and Tokenised Deposits",
+          "url": "https://www.bettr.com/whitepaper/Orchestrating-the-Future-of-Money"
+        }
+      ]
+    },
+    {
+      "id": "crypto-news-40c3decc4b43a464",
+      "slug": "2026-11-20-crypto-news-40c3decc4b",
+      "date_kst": "2026-11-20",
+      "title": "싱가포르 MAS, 토큰화 단기증권 1억싱가포르달러 발행…도매 CBDC로 결제",
+      "content": "싱가포르 통화청(MAS)이 11월 19일 토큰화한 MAS 증권(MAS Bills) 1억싱가포르달러어치를 발행했다고 밝혔다. MAS가 직접 발행하는 단기 채무증권으로, 이번 4주물의 발행일은 11월 6일이고 만기는 12월 4일이다.\nMAS는 자체 운영하는 싱가포르달러 테스트 네트워크에서 이 증권을 처음부터 토큰으로 발행하고, 발행 기록을 이 분산원장에만 남겼다. MAS는 이 방식에선 기존 증권을 나중에 토큰화할 때처럼 별도 장부의 기록을 서로 대조할 필요가 없다고 설명했다. 대금은 금융기관 사이 결제에 쓰는 도매 중앙은행 디지털화폐(CBDC)로 치렀다.\n입찰에는 DBS 등 은행 5곳이 참여했고, 응찰액은 발행액의 두 배를 넘었다.\nMAS는 다음 단계에서 발행 규모와 참여 금융기관을 늘리고, 토큰화 MAS 증권을 담보 관리에 쓰는 범위도 확대할 계획이다. 2027년 실거래 시험에 참여할 금융기관과 시장 인프라 사업자도 모집한다.",
+      "metanomia_thought": "증권을 토큰으로 발행하는 데서 나아가 대금 결제와 담보 활용까지 연결하면 토큰화의 쓰임이 넓어집니다. MAS는 자체 단기증권과 도매 CBDC를 같은 네트워크에서 연결하고, 다음 단계로 담보 활용을 넓히려 합니다. 중앙은행이 결제 수단뿐 아니라 그 위에서 거래할 자산까지 공급하며 시장의 바탕을 만드는 사례입니다.",
+      "sources": [
+        {
+          "title": "MAS Announces Successful Issuance of Tokenised MAS Bills on the Singapore Dollar Test Network Using Wholesale Central Bank Digital Currency",
+          "url": "https://www.mas.gov.sg/news/media-releases/2026/mas-announces-successful-issuance-of-tokenised-mas-bills-on-the-singapore-dollar-test-network"
+        },
+        {
+          "title": "MAS Bills: Information for Institutions",
+          "url": "https://www.mas.gov.sg/bonds-and-bills/mas-bills-information-for-institutions"
+        }
+      ]
+    },
     {
       "id": "crypto-news-cbd0167b06ce34ba",
       "slug": "2026-11-19-crypto-news-cbd0167b06",
