@@ -1,7 +1,53 @@
 {
   "schema_version": "1.0",
-  "generated_at_kst": "2026-11-20T09:16:27+09:00",
+  "generated_at_kst": "2026-11-23T09:12:26+09:00",
   "items": [
+    {
+      "slug": "2026-11-23-crypto-news-6557ae2180",
+      "date_kst": "2026-11-23",
+      "title": "U.S. Senate Passes Bill to Ban Prediction Market Contracts Tied to War and Death",
+      "content": "The U.S. Senate passed S.4035 by voice vote on November 19, a bill that would prohibit the listing and clearing of certain prediction market contracts involving war, the death of an individual, and related events.\nEvent contracts on prediction markets pay out according to whether a specified event occurs or how it is resolved. The Senate-passed bill would bar exchanges, clearing organizations, and other entities registered with the Commodity Futures Trading Commission (CFTC) from listing or clearing event contracts that expressly reference terrorism, assassination, war, or U.S. military operations. It would also cover contracts where, at the time of listing, the death of an individual could reasonably be expected to be the predominant factor determining the outcome.\nThe CFTC could define similar activities by rule when necessary to carry out the law's purpose. The Commodity Exchange Act already gives the CFTC authority to prohibit certain event contracts that it finds contrary to the public interest. CFTC rules also contain provisions barring contracts involving war, terrorism, and assassination, and the commission has explained that it reviews individual contracts to determine whether they are contrary to the public interest. The Senate bill would place these prohibitions directly in statute and add an explicit standard concerning the death of an individual.\nThe House received the bill on November 20. Further steps, including passage by the House, are still required before it can become law.",
+      "metanomia_thought": "When a person's death becomes a condition for profit, traders may have an incentive to influence the event. Contracts tied to military operations could also allow people with nonpublic operational information to profit from it. The Senate bill seeks to reduce these risks by writing into law that registered exchanges may not list contracts tied to war or death.",
+      "sources": [
+        {
+          "title": "S. 4035 — DEATH BETS Act (Engrossed in Senate)",
+          "url": "https://www.govinfo.gov/content/pkg/BILLS-119s4035es/html/BILLS-119s4035es.htm"
+        },
+        {
+          "title": "Prediction Markets; Public Interest Determinations",
+          "url": "https://www.federalregister.gov/documents/2026/06/12/2026-11854/prediction-markets-public-interest-determinations"
+        },
+        {
+          "title": "Thursday, November 19, 2026",
+          "url": "https://www.dailypress.senate.gov/thursday-november-19-2026/"
+        },
+        {
+          "title": "Congressional Record — House, November 20, 2026",
+          "url": "https://www.govinfo.gov/content/pkg/CREC-2026-11-20/html/CREC-2026-11-20-pt1-PgH6323-6.htm"
+        }
+      ]
+    },
+    {
+      "slug": "2026-11-23-crypto-news-1ba6ab5ee1",
+      "date_kst": "2026-11-23",
+      "title": "Hong Kong Unveils Licensing and Registration Bill for Virtual Asset Trading, Advisory, Management, and Custody Services",
+      "content": "The Hong Kong government gazetted an amendment bill regulating virtual asset services on November 20. The bill would extend the licensing regime introduced for trading platforms in 2023 to virtual asset dealing and brokerage, investment advisory services, the management of client assets, and custody.\nUnder the bill, businesses that provide any of the four services in Hong Kong or actively market them to the Hong Kong public would generally need a licence from the Securities and Futures Commission (SFC). Banks and stored value facility operators supervised by the Hong Kong Monetary Authority (HKMA) would register with the SFC. The bill limits the services for which stored value facility operators may apply for registration to virtual asset dealing and brokerage and custody. Operators registered in that capacity could provide those services only for specified stablecoins issued by licensed issuers.\nDepending on the service, the government plans to require providers to segregate client assets from company assets and assess whether investment recommendations are suitable for clients. After the legislative process, the SFC would consult as needed and establish detailed supervisory standards.\nThe bill is scheduled for its first reading in the Legislative Council on December 2. If enacted, its commencement date would be announced separately in the Gazette. The government plans to set that date with providers' preparation needs in mind and to apply the licensing and registration requirements to existing providers covered by the new regime from that date.",
+      "metanomia_thought": "Choosing where to buy virtual assets and deciding who should hold them are separate decisions. Hong Kong's bill would create a route for firms specializing in safekeeping to operate under a custody licence. Even when trading and custody are handled by different companies, the proposal would apply protections such as asset segregation to the firm that actually holds client assets.",
+      "sources": [
+        {
+          "title": "Virtual Asset Services Legislation (Amendment) Bill 2026 gazetted",
+          "url": "https://www.info.gov.hk/gia/general/202611/20/P2026112000582.htm"
+        },
+        {
+          "title": "Virtual Asset Services Legislation (Amendment) Bill 2026",
+          "url": "https://www.legco.gov.hk/yr2026/english/bills/b202611201.pdf"
+        },
+        {
+          "title": "Legislative Council Brief — Virtual Asset Services Legislation (Amendment) Bill 2026",
+          "url": "https://www.fstb.gov.hk/fsb/en/legco/docs/bm4141c_20261118-e.pdf"
+        }
+      ]
+    },
     {
       "slug": "2026-11-20-crypto-news-8472d6afd9",
       "date_kst": "2026-11-20",

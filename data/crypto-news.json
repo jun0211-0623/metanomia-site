@@ -1,7 +1,55 @@
 {
   "schema_version": "1.0",
-  "generated_at_kst": "2026-11-20T09:16:27+09:00",
+  "generated_at_kst": "2026-11-23T09:12:26+09:00",
   "items": [
+    {
+      "id": "crypto-news-6557ae21808e9c13",
+      "slug": "2026-11-23-crypto-news-6557ae2180",
+      "date_kst": "2026-11-23",
+      "title": "미 상원, 전쟁·사망 관련 예측시장 계약 금지 법안 통과",
+      "content": "미국 상원이 11월 19일 전쟁이나 개인의 사망 등을 다루는 일부 예측시장 계약의 상장·청산을 금지하는 법안(S.4035)을 구두 표결로 통과시켰다.\n예측시장의 사건 계약은 특정 사건의 발생 여부나 결과에 따라 지급액이 정해지는 상품이다. 상원 통과안은 미 상품선물거래위원회(CFTC)에 등록된 거래소·청산기관 등이 테러·암살·전쟁·미군 군사작전을 명시한 사건 계약을 상장하거나 청산하지 못하도록 한다. 상장 시점에 개인의 사망이 계약 결과를 주로 좌우할 것으로 합리적으로 예상되는 계약도 대상이다.\nCFTC는 법의 목적에 필요한 유사 활동을 규칙으로 정할 수 있다. 현행 상품거래법은 공익에 반한다고 판단한 일부 사건 계약을 막을 권한을 CFTC에 준다. CFTC 규정에도 전쟁·테러·암살 관련 계약을 금지하는 조항이 있으며, 위원회는 개별 계약이 공익에 반하는지를 살펴 금지 여부를 판단해 왔다고 설명했다. 상원안은 금지 대상을 법률에 직접 두고, 기존 법에 없던 개인 사망 기준을 명시한다.\n하원은 11월 20일 법안을 넘겨받았다. 법제화에는 하원 의결 등 후속 절차가 남아 있다.",
+      "metanomia_thought": "사람의 사망이 수익의 조건이 되면, 거래에서 돈을 벌기 위해 사건에 개입할 유인이 생길 수 있습니다. 군사작전에 돈이 걸리면 비공개 작전 정보를 가진 사람이 그 정보로 이익을 얻을 수도 있습니다. 미 상원안은 이런 위험을 줄이기 위해 등록 거래소가 전쟁·사망 관련 계약을 상장하지 못하도록 법률에 명시하려는 제안입니다.",
+      "sources": [
+        {
+          "title": "S. 4035 — DEATH BETS Act (Engrossed in Senate)",
+          "url": "https://www.govinfo.gov/content/pkg/BILLS-119s4035es/html/BILLS-119s4035es.htm"
+        },
+        {
+          "title": "Prediction Markets; Public Interest Determinations",
+          "url": "https://www.federalregister.gov/documents/2026/06/12/2026-11854/prediction-markets-public-interest-determinations"
+        },
+        {
+          "title": "Thursday, November 19, 2026",
+          "url": "https://www.dailypress.senate.gov/thursday-november-19-2026/"
+        },
+        {
+          "title": "Congressional Record — House, November 20, 2026",
+          "url": "https://www.govinfo.gov/content/pkg/CREC-2026-11-20/html/CREC-2026-11-20-pt1-PgH6323-6.htm"
+        }
+      ]
+    },
+    {
+      "id": "crypto-news-1ba6ab5ee1df37de",
+      "slug": "2026-11-23-crypto-news-1ba6ab5ee1",
+      "date_kst": "2026-11-23",
+      "title": "홍콩, 가상자산 매매·자문·운용·수탁 인가·등록 법안 공개",
+      "content": "홍콩 정부가 11월 20일 가상자산 서비스 규제 개정안을 관보에 게재했다. 2023년 도입한 거래 플랫폼 인가 제도를 매매·중개, 투자 자문, 고객 자산 운용과 수탁까지 넓히는 법안이다.\n법안에 따르면 네 가지 서비스를 홍콩에서 영업으로 제공하거나 홍콩 대중에게 적극 홍보하는 사업자는 원칙적으로 증권선물위원회(SFC)의 인가를 받아야 한다. 홍콩금융관리국(HKMA) 감독을 받는 은행과 선불지급수단 사업자는 SFC에 등록한다. 법안은 선불지급수단 사업자 자격으로 등록을 신청할 수 있는 업무를 가상자산 매매·중개와 수탁으로 한정한다. 이 자격으로 등록한 사업자는 인가받은 발행사의 지정 스테이블코인에 대해서만 해당 업무를 제공할 수 있다.\n정부는 업무에 따라 고객 자산을 회사 자산과 분리해 보관하고, 투자 권유가 고객에게 적합한지 확인하도록 할 계획이다. 입법 절차가 끝난 뒤 SFC가 필요에 따라 의견을 수렴해 세부 감독 기준을 마련한다.\n법안은 12월 2일 입법회에 처음 상정될 예정이다. 통과되면 시행일을 관보에 별도로 고시한다. 정부는 사업자의 준비 기간을 고려해 시행일을 정하고, 새 규제 대상인 기존 사업자에게도 그날부터 인가·등록 요건을 적용할 방침이다.",
+      "metanomia_thought": "가상자산을 어디서 살지와 누구에게 맡길지는 별개의 선택입니다. 홍콩 법안은 보관을 전문으로 하는 회사가 수탁업 인가를 받아 영업할 길을 마련하려 합니다. 거래와 보관을 서로 다른 회사에 맡겨도, 고객 자산을 실제로 보관하는 회사에 분리 보관 같은 보호 기준을 적용하려는 제안입니다.",
+      "sources": [
+        {
+          "title": "Virtual Asset Services Legislation (Amendment) Bill 2026 gazetted",
+          "url": "https://www.info.gov.hk/gia/general/202611/20/P2026112000582.htm"
+        },
+        {
+          "title": "Virtual Asset Services Legislation (Amendment) Bill 2026",
+          "url": "https://www.legco.gov.hk/yr2026/english/bills/b202611201.pdf"
+        },
+        {
+          "title": "Legislative Council Brief — Virtual Asset Services Legislation (Amendment) Bill 2026",
+          "url": "https://www.fstb.gov.hk/fsb/en/legco/docs/bm4141c_20261118-e.pdf"
+        }
+      ]
+    },
     {
       "id": "crypto-news-8472d6afd9752249",
       "slug": "2026-11-20-crypto-news-8472d6afd9",
