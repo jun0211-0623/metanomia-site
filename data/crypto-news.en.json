@@ -1,7 +1,53 @@
 {
   "schema_version": "1.0",
-  "generated_at_kst": "2026-11-23T09:12:26+09:00",
+  "generated_at_kst": "2026-11-24T10:27:10+09:00",
   "items": [
+    {
+      "slug": "2026-11-24-crypto-news-77a35935cc",
+      "date_kst": "2026-11-24",
+      "title": "Cross River Bank Launches Direct Bitcoin-Backed Consumer Loans of Up to $250,000",
+      "content": "U.S. bank Cross River and consumer finance company LendingUSA announced on November 23 that they had launched Bitcoin-backed loans. Eligible customers can borrow between $10,000 and $250,000 by pledging Bitcoin as collateral. This marks the first time Cross River has directly offered Bitcoin-backed loans to customers.\nCustomers apply through LendingUSA. Once approved, they transfer Bitcoin to BitGo, a third-party custodian. After the collateral is confirmed, Cross River deposits dollars into the customer’s account. The Bitcoin remains with the custodian for the duration of the loan. In June, Cross River committed to purchasing assets related to Figure’s crypto-backed loans in support of that lending program.\nCustomers choose a loan-to-value ratio of 30%, 50%, or 70%. Those borrowing at 70% must make monthly interest payments and repay the principal at maturity. At 30% or 50%, customers may instead choose to repay the principal and accrued interest together at maturity. LendingUSA lists a one-year term and fixed interest rates ranging from 8.99% to 15.24%. Annual percentage rates, including fees and other costs, range from 10.05% to 16.33%, with individual terms presented after an application is submitted. The loans are unavailable in some U.S. states.\nIf the price of Bitcoin falls, borrowers may be required under the agreement to add collateral or repay part of the loan. Some or all of the collateral may also be liquidated. Borrowers remain responsible for any balance that the liquidation proceeds do not cover.",
+      "metanomia_thought": "In June, Cross River agreed to purchase assets supporting Figure’s loans; this time, it is lending dollars directly to individuals. For customers, the price of Bitcoin can determine not only how much they may borrow initially, but also whether they must add collateral or repay part of the loan before maturity.",
+      "sources": [
+        {
+          "title": "LendingUSA and Cross River Launch Bitcoin-Secured Loans, Giving Bitcoin Holders Access to Funds Without Selling",
+          "url": "https://www.crossriver.com/newsroom/lendingusa-and-cross-river-launch-bitcoin-secured-loans-giving-bitcoin-holders-access-to-funds-without-selling"
+        },
+        {
+          "title": "Access Cash Without Selling Your Crypto",
+          "url": "https://lendingusa.com/crypto-lending"
+        },
+        {
+          "title": "Cross River Extends $250 Million Forward-Flow Commitment for Figure’s Crypto-Backed Loans",
+          "url": "https://www.crossriver.com/newsroom/cross-river-extends-250-million-forward-flow-commitment-for-figures-crypto-backed-loans"
+        }
+      ]
+    },
+    {
+      "slug": "2026-11-24-crypto-news-154766bc15",
+      "date_kst": "2026-11-24",
+      "title": "U.S. Justice Department Seeks Forfeiture of More Than $1.1 Billion in USDC Linked to Binance Hack",
+      "content": "The U.S. Department of Justice filed a civil action in the U.S. District Court for the District of Columbia on November 23, seeking the forfeiture of more than $1.1 billion worth of the stablecoin USDC linked to a hack of Binance. The department alleges that North Korean hackers stole assets from Binance around October 29 and that the assets named in the action are proceeds of the crime and money laundering.\nThe forfeiture claim covers USDC held at 36 addresses across 18 blockchains. The court issued a temporary restraining order for the assets on November 12, and the Justice Department separately asked the court to maintain the freeze on the day it filed the action.\nAccording to the complaint, USDC issuer Circle blocked transfers from the addresses. Circle said it has no technical means to move the existing tokens directly from the frozen addresses to the U.S. government. It therefore agreed that, if the court issues a forfeiture order, it will mint an amount equal to the USDC subject to forfeiture and transfer it to the U.S. government.\nThe Justice Department is asking the court for an order that would vest the assets in the U.S. government. Using forfeited assets to compensate victims would require a separate process.",
+      "metanomia_thought": "Circle cannot directly move the frozen USDC, so it has agreed to mint the same amount and transfer it to the U.S. government if the court orders forfeiture. A private issuer’s decision about when to exercise its issuance authority and who receives the funds can therefore depend on state law enforcement. And when dollar stablecoins circulate across borders, the United States may influence funds linked to events abroad through a U.S.-based issuer.",
+      "sources": [
+        {
+          "title": "United States Files Action to Recover More Than $1 Billion in Cryptocurrency Assets Related to North Korean Cyber Actors in Binance Hack",
+          "url": "https://www.justice.gov/usao-dc/pr/united-states-files-action-recover-more-1-billion-cryptocurrency-assets-related-north"
+        },
+        {
+          "title": "Verified Complaint for Forfeiture In Rem",
+          "url": "https://www.justice.gov/usao-dc/media/1473936/dl?inline="
+        },
+        {
+          "title": "The United States’ Motion for a Restraining Order",
+          "url": "https://www.justice.gov/usao-dc/media/1473931/dl?inline="
+        },
+        {
+          "title": "FAQ: Compensating Victims with Forfeited Assets",
+          "url": "https://www.justice.gov/criminal/criminal-mnf/victims/frequently-asked-questions-compensating-victims-forfeited-assets"
+        }
+      ]
+    },
     {
       "slug": "2026-11-23-crypto-news-6557ae2180",
       "date_kst": "2026-11-23",

@@ -1,7 +1,55 @@
 {
   "schema_version": "1.0",
-  "generated_at_kst": "2026-11-23T09:12:26+09:00",
+  "generated_at_kst": "2026-11-24T10:27:10+09:00",
   "items": [
+    {
+      "id": "crypto-news-77a35935cc9f94c2",
+      "slug": "2026-11-24-crypto-news-77a35935cc",
+      "date_kst": "2026-11-24",
+      "title": "미 크로스리버은행, 비트코인 담보대출 직접 취급…최대 25만달러",
+      "content": "미국 크로스리버은행(Cross River Bank)과 소비자금융 회사 렌딩USA(LendingUSA)가 11월 23일 비트코인 담보대출을 출시했다고 밝혔다. 자격을 갖춘 고객은 비트코인을 담보로 맡겨 1만~25만달러를 빌릴 수 있다. 크로스리버가 고객에게 직접 내주는 비트코인 담보대출은 이번이 처음이다.\n고객은 렌딩USA에서 대출을 신청한다. 승인을 받아 비트코인을 제3자 수탁기관인 비트고(BitGo)에 맡기면, 담보 확인을 거쳐 크로스리버가 고객 계좌로 달러를 지급한다. 비트코인은 대출 기간 수탁기관에 보관된다. 크로스리버는 지난 6월 피겨(Figure)의 가상자산 담보대출을 지원하기 위해 관련 자산을 매입하기로 약정한 바 있다.\n고객은 담보 가치의 30%·50%·70% 중 원하는 대출 비율을 골라 신청한다. 70%를 빌리려면 매달 이자를 내고 만기에 원금을 갚아야 한다. 30%·50%에는 원금과 쌓인 이자를 만기에 한꺼번에 갚는 선택지도 있다. 렌딩USA는 대출 만기를 1년, 고정금리를 연 8.99~15.24%로 안내한다. 수수료 등을 반영한 연이율(APR)은 10.05~16.33%이며, 고객별 조건은 신청 후 제시된다. 일부 미국 주에서는 이용할 수 없다.\n비트코인 가격이 떨어지면 약정에 따라 담보를 더 넣거나 대출금 일부를 갚아야 할 수 있고, 담보 일부나 전부가 처분될 수도 있다. 처분 대금으로 갚지 못한 금액은 고객이 부담한다.",
+      "metanomia_thought": "크로스리버는 지난 6월 피겨의 대출을 뒷받침할 자산을 사들이기로 했고, 이번에는 개인에게 직접 달러를 빌려줍니다. 고객에게 비트코인 가격은 처음 얼마를 빌릴 수 있는지부터 만기 전에 담보를 더 넣거나 대출금 일부를 갚아야 할지까지 좌우할 수 있습니다.",
+      "sources": [
+        {
+          "title": "LendingUSA and Cross River Launch Bitcoin-Secured Loans, Giving Bitcoin Holders Access to Funds Without Selling",
+          "url": "https://www.crossriver.com/newsroom/lendingusa-and-cross-river-launch-bitcoin-secured-loans-giving-bitcoin-holders-access-to-funds-without-selling"
+        },
+        {
+          "title": "Access Cash Without Selling Your Crypto",
+          "url": "https://lendingusa.com/crypto-lending"
+        },
+        {
+          "title": "Cross River Extends $250 Million Forward-Flow Commitment for Figure’s Crypto-Backed Loans",
+          "url": "https://www.crossriver.com/newsroom/cross-river-extends-250-million-forward-flow-commitment-for-figures-crypto-backed-loans"
+        }
+      ]
+    },
+    {
+      "id": "crypto-news-154766bc15c3ecf1",
+      "slug": "2026-11-24-crypto-news-154766bc15",
+      "date_kst": "2026-11-24",
+      "title": "미 법무부, 바이낸스 해킹 관련 11억달러 넘는 USDC 몰수 청구",
+      "content": "미국 법무부가 11월 23일 바이낸스(Binance) 해킹과 관련된 스테이블코인 USDC 11억달러어치 이상을 몰수해 달라고 워싱턴DC 연방지방법원에 민사 소송을 냈다. 법무부는 북한 해커가 10월 29일께 바이낸스에서 자산을 탈취했으며, 이번 청구 대상이 그 범죄수익과 세탁 자금이라고 주장했다.\n몰수 청구 대상은 18개 블록체인의 36개 주소에 있는 USDC다. 법원은 11월 12일 이 자산에 임시 동결 명령을 내렸고, 법무부는 소송을 낸 날 동결을 유지해 달라고 별도로 요청했다.\n소장에 따르면 USDC 발행사 서클(Circle)은 해당 주소에서 토큰이 오가는 것을 막았다. 서클은 동결한 주소에서 기존 토큰을 미국 정부로 직접 옮길 기술적 수단이 없다고 설명했다. 이에 법원의 몰수 명령을 받으면 몰수 대상 USDC와 같은 수량을 새로 발행해 미국 정부에 넘기기로 했다.\n법무부가 법원에 청구한 것은 이 자산을 미국 정부에 귀속시키는 명령이다. 몰수한 자산으로 피해를 보상하려면 별도 절차를 거쳐야 한다.",
+      "metanomia_thought": "서클은 동결된 USDC를 직접 옮길 수 없어, 법원이 몰수를 명하면 같은 수량을 새로 발행해 미국 정부에 넘기기로 했습니다. 국가의 법 집행에 따라 민간 발행사가 언제 발행 권한을 쓰고 누구에게 자금을 넘길지가 달라질 수 있습니다. 또한 달러 스테이블코인이 국경을 넘어 쓰일 때, 미국은 자국 발행사를 통해 해외에서 벌어진 사건의 자금 이동에까지 영향력을 행사할 수 있습니다.",
+      "sources": [
+        {
+          "title": "United States Files Action to Recover More Than $1 Billion in Cryptocurrency Assets Related to North Korean Cyber Actors in Binance Hack",
+          "url": "https://www.justice.gov/usao-dc/pr/united-states-files-action-recover-more-1-billion-cryptocurrency-assets-related-north"
+        },
+        {
+          "title": "Verified Complaint for Forfeiture In Rem",
+          "url": "https://www.justice.gov/usao-dc/media/1473936/dl?inline="
+        },
+        {
+          "title": "The United States’ Motion for a Restraining Order",
+          "url": "https://www.justice.gov/usao-dc/media/1473931/dl?inline="
+        },
+        {
+          "title": "FAQ: Compensating Victims with Forfeited Assets",
+          "url": "https://www.justice.gov/criminal/criminal-mnf/victims/frequently-asked-questions-compensating-victims-forfeited-assets"
+        }
+      ]
+    },
     {
       "id": "crypto-news-6557ae21808e9c13",
       "slug": "2026-11-23-crypto-news-6557ae2180",
