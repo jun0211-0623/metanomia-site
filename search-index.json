@@ -108,7 +108,7 @@
     "type": "People",
     "title": "Boyoung Park",
     "sub": "",
-    "meta": "Member · Metanomia",
+    "meta": "Researcher · Metanomia",
     "url": "/people/boyoung-park"
   },
   {
@@ -482,6 +482,14 @@
   {
     "lang": "en",
     "type": "Report",
+    "title": "What Does Decentralization Depend On?",
+    "sub": "From Ethereum Mining Farms to AI Data Centers, Bottlenecks Shift Without Disappearing",
+    "meta": "Boyoung Park · November 2026",
+    "url": "/articles/what-decentralization-depends-on"
+  },
+  {
+    "lang": "en",
+    "type": "Report",
     "title": "Where Is Ethereum Headed in 2026?",
     "sub": "Pressures Surrounding the World Computer and Three Responses",
     "meta": "Zooa Yoo · July 2026",
@@ -610,6 +618,14 @@
   {
     "lang": "ko",
     "type": "보고서",
+    "title": "탈중앙화는 무엇에 기대는가",
+    "sub": "이더리움 채굴장에서 AI 데이터센터까지, 병목은 사라지지 않고 이동한다",
+    "meta": "박보영 · 2026년 11월",
+    "url": "/ko/articles/what-decentralization-depends-on"
+  },
+  {
+    "lang": "ko",
+    "type": "보고서",
     "title": "토큰화",
     "sub": "강남 아파트 소유하기",
     "meta": "박수훈 · 2026년 4월",
@@ -724,7 +740,7 @@
     "type": "사람",
     "title": "박보영",
     "sub": "",
-    "meta": "회원 · 메타노미아",
+    "meta": "연구원 · 메타노미아",
     "url": "/ko/people/boyoung-park"
   },
   {
