@@ -1,7 +1,47 @@
 {
   "schema_version": "1.0",
-  "generated_at_kst": "2026-11-24T10:27:10+09:00",
+  "generated_at_kst": "2026-11-25T10:09:49+09:00",
   "items": [
+    {
+      "id": "crypto-news-dee626fc61a19dac",
+      "slug": "2026-11-25-crypto-news-dee626fc61",
+      "date_kst": "2026-11-25",
+      "title": "금융위, 스테이블코인 발행 인가·국내 ICO 허용 담은 디지털자산법 추진",
+      "content": "금융위원회는 11월 24일 가상자산위원회에서 「디지털자산업의 혁신과 이용자 보호에 관한 법률」 제정안의 주요 내용을 공개하고 입법 추진을 논의했다. \n제정안은 사업자 인가, 디지털자산의 발행·유통, 이용자 보호를 한 법에서 다룬다. 매매·중개·보관업은 인가, 운용업은 등록 대상으로 둔다. 금융위는 세 인가와 시장 운영 능력 등 별도 요건을 갖춘 사업자를 거래소로 지정할 수 있다. 거래소 주식 소유 한도는 20%로 두고, 금융위가 승인한 금융회사 등에는 시행령으로 최대 34%를 허용할 계획이다. 제정안은 거래소로 지정된 날부터 3년간 지분 한도 적용을 유예한다.\n스테이블코인을 ‘디지털지급토큰’으로 규정하고, 국내 발행·상환업자에게 자기자본 50억원 이상 등 인가 요건을 적용한다. 금융위는 은행권 합산 지분이 과반인 컨소시엄부터 발행을 허용할 계획이며, 핀테크·기술기업도 최대주주로 참여할 수 있다. \n발행업자는 상환을 요구받으면 같은 가치의 돈을 지체 없이 돌려줘야 하며, 이를 위해 발행잔액의 100% 이상을 은행 등에 예치·신탁한다. 보유자에게 이자는 지급할 수 없다. 국내 디지털자산 공개 발행·판매(ICO)도 백서 신고 수리와 공시, 투자자 검토 기간을 거친 뒤 권유할 수 있도록 했다. 해킹·전산장애에 따른 이용자 손해는 사업자가 과실이 없어도 배상하는 것이 원칙이다. \n국회에는 디지털자산 관련 의원 법안 12건이 이미 발의돼 있다. 금융위가 이번에 공개한 제정안도 국회 논의를 거쳐야 한다. 금융위는 스테이블코인 발행업자의 주주 구성 요건과 거래소 지분 한도의 예외 기준을 시행령에서 정할 계획이다.",
+      "metanomia_thought": "스테이블코인 시장의 경쟁은 발행 자격을 정하는 단계에서 시작됩니다. 금융위는 도입 초기 국내 발행을 은행권이 과반 지분을 가진 컨소시엄부터 허용하고, 그 안에서 기술기업도 최대주주로 참여할 수 있게 할 계획입니다. 이 요건이 이어지는 동안에는 은행이 어느 기업과 손잡느냐가 스테이블코인 시장의 경쟁 구도를 가를 수 있습니다.",
+      "sources": [
+        {
+          "title": "「디지털자산업의 혁신과 이용자 보호에 관한 법률」 제정안 입법 추진",
+          "url": "https://www.fsc.go.kr/no010101/88199"
+        },
+        {
+          "title": "「디지털자산업의 혁신과 이용자 보호에 관한 법률」 제정안 주요 내용",
+          "url": "https://www.fsc.go.kr/comm/getFile?fileNo=6&fileTy=ATTACH&srvcId=BBSTY1&upperNo=88199"
+        }
+      ]
+    },
+    {
+      "id": "crypto-news-3b56d9212510adcf",
+      "slug": "2026-11-25-crypto-news-3b56d92125",
+      "date_kst": "2026-11-25",
+      "title": "세계금협회, 실물 금 지분(PGI) 첫 실거래 시범…전자 결제·담보 활용",
+      "content": "세계금협회(World Gold Council)는 11월 24일 HSBC·JP모건·스톤엑스(StoneX)가 ‘풀드 골드 인터레스트(PGI)’의 첫 도매시장 실거래 시범을 마쳤다고 밝혔다. 참여사들은 따로 보관한 실물 금에 대한 소유 지분을 전자 방식으로 매매·결제하고 담보로 제공했다.\n런던 금시장에서는 특정 금괴를 배정받아 직접 소유하거나, 금 계좌 잔액에 해당하는 금을 계좌 제공기관에 청구하는 방식이 쓰인다. PGI는 따로 모아 보관한 실물 금에 대한 소유 지분으로, 금괴 한 개보다 작은 단위로도 전자적으로 넘길 수 있다.\n시범에서는 400트로이온스급 런던 표준 금괴를 맡겨 지분을 만들었다. 참여사들은 금괴를 금고에 둔 채 지분을 사고팔거나 담보로 제공했고, 거래를 결제한 뒤 맡겼던 금을 시범 체계에서 회수했다. ICE 벤치마크 어드미니스트레이션(IBA)이 시범을 운영했고, 배턴 시스템즈(Baton Systems)가 기술을 제공했다.\n법률 자문사 링크레이터스(Linklaters)에 따르면 참여사들은 미리 정한 절차에 따라 거래했고 시범은 11월 17일 마무리됐다. 세계금협회는 시범 거래에 법적 구속력이 있었다고 밝혔다. 협회는 PGI 결제 체계가 기존 금 결제 방식을 보완하도록 설계됐으며 현재 시범 단계라고 설명했다.",
+      "metanomia_thought": "금괴를 통째로 담보로 맡기면 거래에 필요한 양보다 많은 금이 묶일 수 있습니다. 이번 시범에서는 금괴를 금고에 둔 채 그 지분을 실제 거래의 담보로 썼습니다. 거래에 필요한 만큼만 지분을 담보로 낼 수 있다면, 기관은 남은 지분을 다른 거래에 활용할 여지가 생깁니다.",
+      "sources": [
+        {
+          "title": "World Gold Council facilitates first live transactions using Pooled Gold Interests",
+          "url": "https://www.gold.org/news-and-events/press-releases/world-gold-council-facilitates-first-live-transactions-using-pooled"
+        },
+        {
+          "title": "Linklaters advises World Gold Council on successful Wholesale Digital Gold pilot",
+          "url": "https://www.linklaters.com/about-us/news-and-deals/deals/2026/november/linklaters-advises-world-gold-council-on-successful-wholesale-digital-gold-pilot"
+        },
+        {
+          "title": "White Paper: Pooled Gold Interests and Wholesale Digital Gold – A New Vision for the Gold Market",
+          "url": "https://www.gold.org/what-we-do/gold247/linklaters-white-paper"
+        }
+      ]
+    },
     {
       "id": "crypto-news-77a35935cc9f94c2",
       "slug": "2026-11-24-crypto-news-77a35935cc",
