@@ -1,7 +1,49 @@
 {
   "schema_version": "1.0",
-  "generated_at_kst": "2026-11-25T10:09:49+09:00",
+  "generated_at_kst": "2026-11-26T09:35:36+09:00",
   "items": [
+    {
+      "slug": "2026-11-26-crypto-news-b90488c9d2",
+      "date_kst": "2026-11-26",
+      "title": "SBI, SMFG, and Solana Foundation Launch Joint Venture for Payments and Asset Tokenization",
+      "content": "Japan’s SBI Holdings, Sumitomo Mitsui Financial Group (SMFG), and the Solana Foundation said on November 25 that they had finalized an agreement to form a three-way joint venture. The existing SBI R3 Japan has been renamed SBI Solana Global and will pursue stablecoin payments and remittances, as well as asset tokenization.\nIn July, the parties announced plans for the Solana Foundation to join SBI R3 Japan, which was backed by SBI Holdings and SMFG. The venture will use the Solana blockchain and draw on the two financial groups’ experience and networks. The foundation has agreed to support the expansion of the business.\nThe venture plans to build infrastructure for domestic and cross-border stablecoin payments and remittances. It will help issue and circulate bonds, funds, and loan receivables on-chain. It will also pursue projects to digitize real-world and non-financial assets, including commodities and various rights. Asset management services using stablecoins and tokenized assets are among the opportunities it plans to evaluate and develop.\nThe three partners plan to establish the business in Japan before expanding across Asia and into other global markets. Their joint announcement did not give launch dates for individual services.",
+      "metanomia_thought": "The joint venture is pursuing the tokenization of Japanese financial products alongside a stablecoin payments network. The plan is to connect the two in actual transactions so that overseas investors can more easily access financial products issued in Japan.",
+      "sources": [
+        {
+          "title": "SBI Solana Global Commences Operations in On-Chain Business",
+          "url": "https://www.smfg.co.jp/news_e/pdf/e20261125_01.pdf"
+        },
+        {
+          "title": "SBIホールディングスとSolana財団が日本発のオンチェーン金融市場の創出に向けた戦略的提携を開始",
+          "url": "https://www.sbigroup.co.jp/news/2026/0713_16478.html"
+        }
+      ]
+    },
+    {
+      "slug": "2026-11-26-crypto-news-2dee13afe3",
+      "date_kst": "2026-11-26",
+      "title": "Ukraine’s Parliament Passes Virtual Asset Oversight and Tax Bill, With July 2027 Start Planned",
+      "content": "Ukraine’s parliament, the Verkhovna Rada, gave final approval at its second reading on November 25 to Bill No. 10225-д, which sets rules for overseeing virtual asset businesses and taxing transactions. The virtual asset law enacted in 2022 has yet to take effect because it depends on tax code amendments governing such transactions coming into force.\nThe bill sets operating requirements for providers of virtual asset trading, exchange, and custody services. The National Securities and Stock Market Commission will oversee market entry and operations. The National Bank of Ukraine, the country’s central bank, will be responsible for certain types of virtual assets and matters related to monetary and financial stability. The bill also requires custodians to keep customers’ virtual assets separate from their own. Parliament said the bill opens a path to legalizing virtual assets that people have already acquired.\nThe parliament’s website lists the bill as being prepared for signature. The National Securities and Stock Market Commission said it is scheduled to take effect on July 1, 2027, and plans to draw up the regulations needed for the market to operate.",
+      "metanomia_thought": "People trading virtual assets need to know which providers are supervised and which taxes apply to their transactions. By putting both sets of rules in one bill, Ukraine is trying to avoid a repeat of the 2022 law, whose implementation was held up while it awaited tax legislation.",
+      "sources": [
+        {
+          "title": "Верховна Рада ухвалила в цілому Закон про врегулювання обороту та оподаткування віртуальних активів",
+          "url": "https://www.rada.gov.ua/news/razom/277050.html"
+        },
+        {
+          "title": "Верховна Рада ухвалила законопроєкт про регулювання ринку віртуальних активів в Україні",
+          "url": "https://www.nssmc.gov.ua/ua-verkhovna-rada-ukhvalyla-zakonoproiekt-pro-rehuliuvannia-rynku-virtualnykh-aktyviv-v-ukraini/"
+        },
+        {
+          "title": "Картка законопроєкту № 10225-д",
+          "url": "https://itd.rada.gov.ua/billinfo/Bills/Card/56271"
+        },
+        {
+          "title": "Про віртуальні активи (가상자산법 2074-IX)",
+          "url": "https://zakon.rada.gov.ua/laws/show/2074-20"
+        }
+      ]
+    },
     {
       "slug": "2026-11-25-crypto-news-dee626fc61",
       "date_kst": "2026-11-25",
