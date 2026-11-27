@@ -1,7 +1,55 @@
 {
   "schema_version": "1.0",
-  "generated_at_kst": "2026-11-26T09:35:36+09:00",
+  "generated_at_kst": "2026-11-27T10:09:30+09:00",
   "items": [
+    {
+      "id": "crypto-news-c5f4671056c75ce6",
+      "slug": "2026-11-27-crypto-news-c5f4671056",
+      "date_kst": "2026-11-27",
+      "title": "카카오페이·삼성카드, 레이어제로 ‘제로’ 초기 검증인 합류…30일 가동 예정",
+      "content": "레이어제로(LayerZero)는 11월 25일 카카오페이와 삼성카드, 잔(ZAN)이 자사 블록체인인 제로(Zero)의 초기 검증인으로 참여한다고 밝혔다. 금융시장용으로 설계한 제로는 11월 30일 메인넷을 가동할 예정이다. 레이어제로는 지난 2월 시타델증권·미국 증권 예탁·결제기관 DTCC 등과 협력해 제로를 공개했다.\n삼성카드의 검증인 운영은 블록체인 기업 포필러스(Four Pillars)가 대신 맡는다. 잔은 앤트디지털테크놀로지스의 블록체인 인프라 사업이다.\n검증인은 증명을 통해 거래 처리 결과가 올바른지 확인하고, 어떤 기록을 장부에 남길지 합의한다. 각 검증인의 투표 비중은 해당 검증인에 위임된 레이어제로 토큰(ZRO)의 양에 따라 정해진다. 초기 검증인은 레이어제로랩스가 선정한다. 레이어제로는 공식 사이트로 예치된 ZRO가 2027년 3월 31일까지 초기 검증인들에게 균등하게 위임된다고 안내했다.\n카카오페이 신원근 대표는 제로의 기술을 살펴보고 국내 원화 스테이블코인 생태계를 구축할 기회를 모색하겠다고 밝혔다. 두 회사가 제로를 고객 결제 서비스에 연결할 계획은 이번 발표에 담기지 않았다.",
+      "metanomia_thought": "결제에 블록체인을 쓰려면 누구와 어떤 규칙으로 거래 기록을 확정할지 정해야 합니다. 제로가 가동하면 카카오페이는 여러 기관과 함께 거래를 검증하면서, 원화 스테이블코인에 쓸 수 있는 기술인지 실제 운영 과정에서 살펴볼 수 있습니다.",
+      "sources": [
+        {
+          "title": "Zero Goes Global From Day One With Kakao Pay, Samsung Card & Four Pillars, and ZAN",
+          "url": "https://layerzero.network/blog/zero-apac-validators"
+        },
+        {
+          "title": "ZRO Staking Terms",
+          "url": "https://staking.layerzero.network/zro-staking-terms/2026-11-17.md"
+        },
+        {
+          "title": "ZRO Staking Opens November 23",
+          "url": "https://layerzero.network/blog/stake-zro-on-zero"
+        }
+      ]
+    },
+    {
+      "id": "crypto-news-402f900c91ceaa69",
+      "slug": "2026-11-27-crypto-news-402f900c91",
+      "date_kst": "2026-11-27",
+      "title": "스위스 첫 비트코인 현물 ETF ‘BBIT’, SIX 상장…개인도 거래",
+      "content": "스위스 증권거래소 SIX가 11월 26일 비트코인 현물에 투자하는 상장지수펀드(ETF) ‘비트코인 펀드 ETF’(BBIT)를 상장했다. 스위스 금융시장감독청(FINMA)이 10월 20일 승인한 스위스 첫 현물 비트코인 ETF로, 개인투자자도 증권계좌로 거래할 수 있다.\n발행사 페르네 폰 발무스(PvB Pernet von Ballmoos)가 펀드를 설정·관리하고, BIT자산운용이 투자 운용과 판매를 맡는다. 펀드는 비트코인을 직접 보유해 SIX의 비트코인 기준가격을 추종한다. 수탁은행인 아미나은행(AMINA Bank)은 펀드의 비트코인을 다른 자산과 분리해 오프라인으로 보관한다.\nSIX에서는 비트코인 가격을 추종하는 담보부 채무증권도 거래되고 있는데, 상환 의무는 발행사가 진다. 반면 BBIT는 스위스 집합투자기구법에 따라 FINMA의 감독을 받는 계약형 펀드다. 투자자는 펀드 지분을 통해 펀드 재산과 수익에 참여할 계약상 권리를 갖는다. 스위스 금융기관법 제40조는 펀드 관리회사가 파산할 때 투자자를 위해 펀드 재산을 회사 재산과 분리하도록 한다.\nFINMA는 이 펀드가 비트코인에만 투자할 수 있도록 분산투자 요건의 예외를 인정했다. BBIT는 스위스프랑과 미국 달러로 거래된다. BIT자산운용이 제시한 연간 총비용률(TER) 목표치는 0.19%다. 투자설명서에 따르면 현재 공모는 스위스에서만 허용된다.",
+      "metanomia_thought": "비트코인 가격이 그대로여도 채무증권형 상품의 발행사가 부도나면, 투자자가 얼마를 돌려받을지는 담보 처분 대금과 계약 조건에 달립니다. BBIT에서는 펀드 관리회사가 파산해도 펀드 재산이 그 회사의 일반 채권자에게 배분될 재산과 분리됩니다. 그래서 투자자가 자기 몫을 돌려받을 때 기준이 되는 건 파산한 회사의 재산이 아니라 펀드에 남은 재산입니다.",
+      "sources": [
+        {
+          "title": "BIT Asset Management Brings Switzerland’s First Spot Bitcoin ETF to SIX Swiss Exchange as Sponsor and Asset Manager",
+          "url": "https://www.six-group.com/en/newsroom/media-releases/2026/20261126-bit-etf-issuer.html"
+        },
+        {
+          "title": "FINMA approves Switzerland’s first Bitcoin ETF",
+          "url": "https://www.finma.ch/en/news/2026/10/20261020-mm-finma-bitcoin-etf"
+        },
+        {
+          "title": "Bitcoin Fund ETF – Prospekt mit integriertem Fondsvertrag",
+          "url": "https://www.pvbswiss.com/downloads/pdf/Prospectus/DE_Prospectus_F1035.pdf"
+        },
+        {
+          "title": "Bitcoin Fund ETF",
+          "url": "https://www.bit-am.com/bbit"
+        }
+      ]
+    },
     {
       "id": "crypto-news-b90488c9d230a8aa",
       "slug": "2026-11-26-crypto-news-b90488c9d2",

@@ -1,7 +1,53 @@
 {
   "schema_version": "1.0",
-  "generated_at_kst": "2026-11-26T09:35:36+09:00",
+  "generated_at_kst": "2026-11-27T10:09:30+09:00",
   "items": [
+    {
+      "slug": "2026-11-27-crypto-news-c5f4671056",
+      "date_kst": "2026-11-27",
+      "title": "Kakao Pay and Samsung Card Join LayerZero’s Zero as Initial Validators Ahead of November 30 Launch",
+      "content": "LayerZero announced on November 25 that Kakao Pay, Samsung Card, and ZAN would join its Zero blockchain as initial validators. Designed for financial markets, Zero is scheduled to launch its mainnet on November 30. LayerZero unveiled Zero in February in collaboration with Citadel Securities and the Depository Trust & Clearing Corporation (DTCC), among others.\nBlockchain company Four Pillars will operate Samsung Card’s validator on its behalf. ZAN is the blockchain infrastructure business of Ant Digital Technologies.\nValidators use proofs to check that transactions were processed correctly and agree on which records to add to the ledger. Each validator’s voting weight depends on how much of LayerZero’s ZRO token is delegated to it. LayerZero Labs selects the initial validators. LayerZero said ZRO staked through its official site would be delegated equally among the initial validators until March 31, 2027.\nKakao Pay CEO Shin Won-keun said the company would explore Zero’s technology and look for opportunities to build a Korean won stablecoin ecosystem. The announcement did not include plans for either company to connect Zero to its customer payment services.",
+      "metanomia_thought": "Using a blockchain for payments means deciding who will help finalize transaction records and what rules they will follow. Once Zero goes live, Kakao Pay can validate transactions alongside other institutions and see in day-to-day operations whether the technology could support a Korean won stablecoin.",
+      "sources": [
+        {
+          "title": "Zero Goes Global From Day One With Kakao Pay, Samsung Card & Four Pillars, and ZAN",
+          "url": "https://layerzero.network/blog/zero-apac-validators"
+        },
+        {
+          "title": "ZRO Staking Terms",
+          "url": "https://staking.layerzero.network/zro-staking-terms/2026-11-17.md"
+        },
+        {
+          "title": "ZRO Staking Opens November 23",
+          "url": "https://layerzero.network/blog/stake-zro-on-zero"
+        }
+      ]
+    },
+    {
+      "slug": "2026-11-27-crypto-news-402f900c91",
+      "date_kst": "2026-11-27",
+      "title": "Switzerland’s First Spot Bitcoin ETF, BBIT, Lists on SIX, Opening Access to Retail Investors",
+      "content": "SIX Swiss Exchange listed Bitcoin Fund ETF (BBIT), an exchange-traded fund that invests directly in bitcoin, on November 26. It is Switzerland’s first spot bitcoin ETF and was approved by the Swiss Financial Market Supervisory Authority (FINMA) on October 20. Retail investors can trade it through a brokerage account.\nIssuer PvB Pernet von Ballmoos sets up and administers the fund, while BIT Asset Management handles investment management and distribution. The fund holds bitcoin directly and tracks SIX’s bitcoin reference price. Its custodian, AMINA Bank, stores the fund’s bitcoin offline and separately from other assets.\nSIX also lists collateralized debt securities that track the price of bitcoin and for which the issuer bears the repayment obligation. BBIT is a contractual fund supervised by FINMA under the Swiss Collective Investment Schemes Act. Through their fund units, investors have a contractual right to participate in the fund’s assets and income. Article 40 of the Swiss Financial Institutions Act provides for the fund’s assets to be segregated from the fund management company’s estate for the benefit of investors if the company goes bankrupt.\nFINMA granted the fund an exemption from diversification requirements so it could invest exclusively in bitcoin. BBIT trades in Swiss francs and U.S. dollars. BIT Asset Management lists a target annual total expense ratio (TER) of 0.19%. According to the prospectus, the fund is currently authorized for public offering only in Switzerland.",
+      "metanomia_thought": "Even if the price of bitcoin holds steady, what investors recover when the issuer of a debt security defaults depends on the proceeds from selling the collateral and on the terms of the contract. With BBIT, if the fund management company goes bankrupt, the fund’s assets are set apart from the estate available to the company’s general creditors. Investors’ recoveries are therefore based on the assets remaining in the fund.",
+      "sources": [
+        {
+          "title": "BIT Asset Management Brings Switzerland’s First Spot Bitcoin ETF to SIX Swiss Exchange as Sponsor and Asset Manager",
+          "url": "https://www.six-group.com/en/newsroom/media-releases/2026/20261126-bit-etf-issuer.html"
+        },
+        {
+          "title": "FINMA approves Switzerland’s first Bitcoin ETF",
+          "url": "https://www.finma.ch/en/news/2026/10/20261020-mm-finma-bitcoin-etf"
+        },
+        {
+          "title": "Bitcoin Fund ETF – Prospekt mit integriertem Fondsvertrag",
+          "url": "https://www.pvbswiss.com/downloads/pdf/Prospectus/DE_Prospectus_F1035.pdf"
+        },
+        {
+          "title": "Bitcoin Fund ETF",
+          "url": "https://www.bit-am.com/bbit"
+        }
+      ]
+    },
     {
       "slug": "2026-11-26-crypto-news-b90488c9d2",
       "date_kst": "2026-11-26",
